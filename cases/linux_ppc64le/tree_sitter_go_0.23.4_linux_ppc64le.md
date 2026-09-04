@@ -1,0 +1,29 @@
+# `tree-sitter-go` `0.23.4`
+
+Platform: Linux ppc64le
+
+## `/target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-go-2d2c2a94f174fa99/out/libtree-sitter-go.a`
+
+### Source origin
+
+* under crate source directory `/tmp/crate-build-ppc64le-d6c5y5mv/src/tree-sitter-go-0.23.4`
+
+### Source directories
+
+* `/tmp/crate-build-ppc64le-d6c5y5mv/src/tree-sitter-go-0.23.4/src`
+
+### Source file examples
+
+* `/tmp/crate-build-ppc64le-d6c5y5mv/src/tree-sitter-go-0.23.4/src/parser.c`
+
+### Compilation
+
+```text
+cc1 -quiet -I <include directory> -imultiarch powerpc64le-linux-gnu <source> -msecure-plt -quiet -dumpbase <source> -m64 -mcpu=power8 -auxbase-strip <object> -g -gdwarf-4 -O0 -Wall -Wextra ...
+```
+
+### Static library construction
+
+```text
+ar cqD <static library> <object files>
+```

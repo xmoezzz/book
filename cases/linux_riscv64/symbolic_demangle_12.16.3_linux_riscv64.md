@@ -1,0 +1,38 @@
+# `symbolic-demangle` `12.16.3`
+
+Platform: Linux riscv64
+
+## `/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/libswiftdemangle.a`
+
+### Source origin
+
+* under crate source directory `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3`
+
+### Source directories
+
+* `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/src`
+* `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/vendor/swift/lib/Demangling`
+
+### Source file examples
+
+* `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/src/swiftdemangle.cpp`
+* `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/vendor/swift/lib/Demangling/Context.cpp`
+* `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/vendor/swift/lib/Demangling/CrashReporter.cpp`
+* `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/vendor/swift/lib/Demangling/Demangler.cpp`
+* `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/vendor/swift/lib/Demangling/Errors.cpp`
+
+### Compilation
+
+```text
+cc1plus -quiet -I <include directory> -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE -D LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -D SWIFT_STDLIB_HAS_TYPE_PRINTING=1 <source> -quiet -dumpdir /target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/ -dumpbase <source> -dumpbase-ext ...
+```
+
+```text
+g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -I <include directory> -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o <object> -c <source> ...
+```
+
+### Static library construction
+
+```text
+ar cq <static library> <object files>
+```
