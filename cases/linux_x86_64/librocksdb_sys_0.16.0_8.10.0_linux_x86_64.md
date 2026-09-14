@@ -2,6 +2,28 @@
 
 Platform: Linux x86_64
 
+## Build-level coding evidence
+
+### Build-script executable native dependencies
+
+These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
+
+#### Linker process 1867494
+
+Build-script executable: `/work/target/debug/build/librocksdb-sys-233cf2a670aea990/build_script_build-233cf2a670aea990`
+
+Working directory: `/work`
+
+Full linker command: retained in the raw case.
+
+**Linker library inputs**
+
+* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
+* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
+
 ## `/work/target/debug/build/librocksdb-sys-cf32ea1e96cc1e51/out/librocksdb.a`
 
 ### Source origin

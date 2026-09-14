@@ -2,6 +2,28 @@
 
 Platform: Linux x86_64
 
+## Build-level coding evidence
+
+### Build-script executable native dependencies
+
+These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
+
+#### Linker process 2062533
+
+Build-script executable: `/work/target/debug/build/tree-sitter-cpp-a8fea22db6cdb544/build_script_build-a8fea22db6cdb544`
+
+Working directory: `/work`
+
+Full linker command: retained in the raw case.
+
+**Linker library inputs**
+
+* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
+* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
+
 ## `/work/target/debug/build/tree-sitter-cpp-d81a02663c34e7ec/out/libtree-sitter-cpp.a`
 
 ### Source origin
@@ -16,6 +38,32 @@ Platform: Linux x86_64
 
 * `/work/src/parser.c`
 * `/work/src/scanner.c`
+
+### Source preparation
+
+Working directory: `/work`
+
+```text
+/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c11 -I src -Wall -Wextra -o /work/target/debug/build/tree-sitter-cpp-d81a02663c34e7ec/out/ea708c7824d36062-parser.o -c src/parser.c
+```
+
+Working directory: `/work`
+
+```text
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I src -imultiarch x86_64-linux-gnu src/parser.c -quiet -dumpdir /work/target/debug/build/tree-sitter-cpp-d81a02663c34e7ec/out/ -dumpbase ea708c7824d36062-parser.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O0 ...
+```
+
+Working directory: `/work`
+
+```text
+/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c11 -I src -Wall -Wextra -o /work/target/debug/build/tree-sitter-cpp-d81a02663c34e7ec/out/ea708c7824d36062-scanner.o -c src/scanner.c
+```
+
+Working directory: `/work`
+
+```text
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I src -imultiarch x86_64-linux-gnu src/scanner.c -quiet -dumpdir /work/target/debug/build/tree-sitter-cpp-d81a02663c34e7ec/out/ -dumpbase ea708c7824d36062-scanner.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O0 ...
+```
 
 ### Compilation
 

@@ -1,0 +1,25 @@
+# `vergen-gitcl` `1.0.8`
+
+Platform: Linux riscv64
+
+## Build-level coding evidence
+
+### Build-script executable native dependencies
+
+These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
+
+#### Linker process 1093306
+
+Build-script executable: `/target/debug/build/vergen-gitcl-6444a3f5d729c52e/build_script_build-6444a3f5d729c52e`
+
+Working directory: `/tmp/crate-build-riscv64-v0mub427/src/vergen-gitcl-1.0.8`
+
+Full linker command: retained in the raw case.
+
+**Linker library inputs**
+
+* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
+* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)

@@ -2,6 +2,28 @@
 
 Platform: Linux riscv64
 
+## Build-level coding evidence
+
+### Build-script executable native dependencies
+
+These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
+
+#### Linker process 670980
+
+Build-script executable: `/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9`
+
+Working directory: `/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1`
+
+Full linker command: retained in the raw case.
+
+**Linker library inputs**
+
+* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
+* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
+
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/wasmtime-runtime-bf12678ed4790af9/out/libwasmtime-helpers.a`
 
 ### Source origin
@@ -15,6 +37,14 @@ Platform: Linux riscv64
 ### Source file examples
 
 * `/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1/src/helpers.c`
+
+### Source preparation
+
+Working directory: `/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1`
+
+```text
+/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -Wall -Wextra -DCFG_TARGET_OS_linux -DCFG_TARGET_ARCH_riscv64 -o /target/riscv64gc-unknown-linux-gnu/debug/build/wasmtime-runtime-bf12678ed4790af9/out/ea708c7824d36062-helpers.o -c src/helpers.c
+```
 
 ### Compilation
 

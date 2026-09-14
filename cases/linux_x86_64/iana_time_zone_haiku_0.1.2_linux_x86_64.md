@@ -2,6 +2,28 @@
 
 Platform: Linux x86_64
 
+## Build-level coding evidence
+
+### Build-script executable native dependencies
+
+These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
+
+#### Linker process 1796782
+
+Build-script executable: `/work/target/debug/build/iana-time-zone-haiku-ce7e6e7e2c4080f6/build_script_build-ce7e6e7e2c4080f6`
+
+Working directory: `/work`
+
+Full linker command: retained in the raw case.
+
+**Linker library inputs**
+
+* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
+* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
+
 ## `/work/target/debug/build/iana-time-zone-haiku-06660e3e84a08f7e/out/libtz_haiku.a`
 
 ### Source origin
@@ -15,6 +37,20 @@ Platform: Linux x86_64
 ### Source file examples
 
 * `/work/src/implementation.cc`
+
+### Source preparation
+
+Working directory: `/work`
+
+```text
+/usr/bin/c++ -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -w -o /work/target/debug/build/iana-time-zone-haiku-06660e3e84a08f7e/out/48d3f1b29a630f4c-implementation.o -c src/implementation.cc
+```
+
+Working directory: `/work`
+
+```text
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE src/implementation.cc -quiet -dumpdir /work/target/debug/build/iana-time-zone-haiku-06660e3e84a08f7e/out/ -dumpbase 48d3f1b29a630f4c-implementation.cc -dumpbase-ext .cc -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O0 -w ...
+```
 
 ### Compilation
 

@@ -2,6 +2,28 @@
 
 Platform: Linux x86_64
 
+## Build-level coding evidence
+
+### Build-script executable native dependencies
+
+These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
+
+#### Linker process 1921684
+
+Build-script executable: `/work/target/debug/build/sha3-asm-79718c8760c69981/build_script_build-79718c8760c69981`
+
+Working directory: `/work`
+
+Full linker command: retained in the raw case.
+
+**Linker library inputs**
+
+* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
+* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
+
 ## `/work/target/debug/build/sha3-asm-52088b83cc6ca76b/out/libkeccak.a`
 
 ### Source origin
@@ -15,6 +37,26 @@ Platform: Linux x86_64
 ### Source file examples
 
 * `/work/target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S`
+
+### Source preparation
+
+Working directory: `/work`
+
+```text
+/usr/bin/perl cryptogams/x86_64/keccak1600-x86_64.pl elf target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S
+```
+
+Working directory: `/work`
+
+```text
+/bin/sh -c "/usr/bin/perl" "cryptogams/x86_64/x86_64-xlate.pl" elf "target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S"
+```
+
+Working directory: `/work`
+
+```text
+/usr/bin/perl cryptogams/x86_64/x86_64-xlate.pl elf target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S
+```
 
 ### Compilation
 

@@ -2,6 +2,42 @@
 
 Platform: Linux x86_64
 
+## Build-level coding evidence
+
+### pkg-config / pkgconf
+
+Working directory: `/work`
+
+```text
+pkg-config --libs --cflags libudev
+```
+
+Working directory: `/work`
+
+```text
+pkg-config --modversion libudev
+```
+
+### Build-script executable native dependencies
+
+These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
+
+#### Linker process 2144395
+
+Build-script executable: `/work/target/debug/build/hidapi-81ef525130f92109/build_script_build-81ef525130f92109`
+
+Working directory: `/work`
+
+Full linker command: retained in the raw case.
+
+**Linker library inputs**
+
+* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
+* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
+* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
+
 ## `/work/target/debug/build/hidapi-804845236c584c2b/out/libhidapi.a`
 
 ### Source origin
@@ -15,6 +51,20 @@ Platform: Linux x86_64
 ### Source file examples
 
 * `/work/etc/hidapi/linux/hid.c`
+
+### Source preparation
+
+Working directory: `/work`
+
+```text
+/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -m64 -I etc/hidapi/hidapi -Wall -Wextra -o /work/target/debug/build/hidapi-804845236c584c2b/out/etc/hidapi/linux/hid.o -c etc/hidapi/linux/hid.c
+```
+
+Working directory: `/work`
+
+```text
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I etc/hidapi/hidapi -imultiarch x86_64-linux-gnu etc/hidapi/linux/hid.c -quiet -dumpdir /work/target/debug/build/hidapi-804845236c584c2b/out/etc/hidapi/linux/ -dumpbase hid.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -gdwarf-4 -O0 -Wall ...
+```
 
 ### Compilation
 
