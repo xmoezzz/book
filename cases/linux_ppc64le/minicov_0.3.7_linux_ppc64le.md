@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 513873
 
 Build-script executable: `/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31`
 
 Working directory: `/tmp/crate-build-ppc64le-c2e7xla7/src/minicov-0.3.7`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

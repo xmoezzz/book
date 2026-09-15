@@ -20,15 +20,11 @@ pkg-config --modversion webkit2gtk-4.1 "webkit2gtk-4.1 >= 2.4"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1982151
 
 Build-script executable: `/work/target/debug/build/webkit2gtk-sys-bac2866e90a634e4/build_script_build-bac2866e90a634e4`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 43240
 
 Build-script executable: `/target/debug/build/ahash-49ec8a93e6b885a5/build_script_build-49ec8a93e6b885a5`
 
 Working directory: `/tmp/crate-build-ppc64le-ixqg8bh0/src/ahash-0.8.11`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

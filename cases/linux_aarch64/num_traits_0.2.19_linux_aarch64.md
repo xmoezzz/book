@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 5106
 
 Build-script executable: `/target/debug/build/num-traits-5f67c9ba029d8bfb/build_script_build-5f67c9ba029d8bfb`
 
 Working directory: `/tmp/crate-build-aarch64-p14xjmvq/src/num-traits-0.2.19`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 21196
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g4uohj2y/src/wai-bindgen-gen-rust-wasm-0.2.3/target/debug/build/wai-bindgen-gen-rust-wasm-ecf91eb6019740e5/build_script_build-ecf91eb6019740e5.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g4uohj2y/src/wai-bindgen-gen-rust-wasm-0.2.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

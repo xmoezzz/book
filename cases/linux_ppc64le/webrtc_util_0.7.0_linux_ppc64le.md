@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1037025
 
 Build-script executable: `/target/debug/build/webrtc-util-8ba7106eb873f6e6/build_script_build-8ba7106eb873f6e6`
 
 Working directory: `/tmp/crate-build-ppc64le-fhik2g70/src/webrtc-util-0.7.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

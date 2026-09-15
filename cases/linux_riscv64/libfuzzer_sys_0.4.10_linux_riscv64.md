@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1249607
 
 Build-script executable: `/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f`
 
 Working directory: `/tmp/crate-build-riscv64-pyvdo53h/src/libfuzzer-sys-0.4.10`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 
@@ -77,11 +73,11 @@ Working directory: `/tmp/crate-build-riscv64-pyvdo53h/src/libfuzzer-sys-0.4.10`
 ### Compilation
 
 ```text
-cc1plus -quiet -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE <source> -quiet -dumpdir /target/riscv64gc-unknown-linux-gnu/debug/build/libfuzzer-sys-fc2ea4733557ff0a/out/ -dumpbase <source> -dumpbase-ext .cpp -march=rv64gc -mabi=lp64d -misa-spec=2.2 -march=rv64imafdc -gdwarf-4 ...
+g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -o <object> -c <source>
 ```
 
 ```text
-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -o <object> -c <source>
+cc1plus -quiet -imultilib . -imultiarch riscv64-linux-gnu -D_GNU_SOURCE <source> -quiet -dumpdir /target/riscv64gc-unknown-linux-gnu/debug/build/libfuzzer-sys-fc2ea4733557ff0a/out/ -dumpbase <source> -dumpbase-ext .cpp -march=rv64gc -mabi=lp64d -misa-spec=2.2 -march=rv64imafdc -gdwarf-4 ...
 ```
 
 ### Static library construction

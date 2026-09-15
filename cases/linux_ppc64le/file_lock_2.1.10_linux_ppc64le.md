@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 816010
 
 Build-script executable: `/target/debug/build/file-lock-e7ec189e8a3c419e/build_script_build-e7ec189e8a3c419e`
 
 Working directory: `/tmp/crate-build-ppc64le-e_efncmo/src/file-lock-2.1.10`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

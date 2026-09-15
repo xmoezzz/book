@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 77819
 
 Build-script executable: `/target/debug/build/unicase-846ae3192758395d/build_script_build-846ae3192758395d`
 
 Working directory: `/tmp/crate-build-ppc64le-4hhhdpjw/src/unicase-2.6.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

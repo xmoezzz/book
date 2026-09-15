@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 6616
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-k831p1jx/src/cargo-cache-0.8.3/target/debug/build/cargo-cache-22c2c5a4a5d3a788/build_script_build-22c2c5a4a5d3a788.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-k831p1jx/src/cargo-cache-0.8.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

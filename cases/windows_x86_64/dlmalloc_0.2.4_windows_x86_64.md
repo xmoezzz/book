@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 21384
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-7c4b4l0r/src/dlmalloc-0.2.4/target/debug/build/dlmalloc-968e4757177d7f25/build_script_build-968e4757177d7f25.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-7c4b4l0r/src/dlmalloc-0.2.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

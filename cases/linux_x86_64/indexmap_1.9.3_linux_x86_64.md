@@ -6,15 +6,11 @@ Platform: Linux x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1789518
 
 Build-script executable: `/work/target/debug/build/indexmap-a32a7d67a90f13dc/build_script_build-a32a7d67a90f13dc`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

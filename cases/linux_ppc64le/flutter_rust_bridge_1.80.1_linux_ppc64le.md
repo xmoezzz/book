@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1167899
 
 Build-script executable: `/target/debug/build/flutter_rust_bridge-b866de813223446d/build_script_build-b866de813223446d`
 
 Working directory: `/tmp/crate-build-ppc64le-n0ftzgat/src/flutter_rust_bridge-1.80.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -20,15 +20,11 @@ pkg-config --modversion gio-2.0 "gio-2.0 >= 2.56"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1910168
 
 Build-script executable: `/work/target/debug/build/gio-sys-fcadb6b5ac13779c/build_script_build-fcadb6b5ac13779c`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

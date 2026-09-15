@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1154126
 
 Build-script executable: `/target/debug/build/cap-std-95b616b8c59dfaf3/build_script_build-95b616b8c59dfaf3`
 
 Working directory: `/tmp/crate-build-riscv64-0866ao0m/src/cap-std-3.4.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

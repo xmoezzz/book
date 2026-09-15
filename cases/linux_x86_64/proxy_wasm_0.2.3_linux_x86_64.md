@@ -6,15 +6,11 @@ Platform: Linux x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2094109
 
 Build-script executable: `/work/target/debug/build/proxy-wasm-8e152c20d34ab168/build_script_build-8e152c20d34ab168`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

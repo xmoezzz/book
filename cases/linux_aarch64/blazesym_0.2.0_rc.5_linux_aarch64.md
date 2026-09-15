@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1019081
 
 Build-script executable: `/target/debug/build/blazesym-12f31585cd42c00d/build_script_build-12f31585cd42c00d`
 
 Working directory: `/tmp/crate-build-aarch64-xkvpyp2_/src/blazesym-0.2.0-rc.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

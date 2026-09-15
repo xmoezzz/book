@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 114834
 
 Build-script executable: `/target/debug/build/async-io-3d907dcb9f6c6dfa/build_script_build-3d907dcb9f6c6dfa`
 
 Working directory: `/tmp/crate-build-ppc64le-t7a1sbii/src/async-io-1.13.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 474299
 
 Build-script executable: `/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e`
 
 Working directory: `/tmp/crate-build-aarch64-rmql_qba/src/symbolic-demangle-12.16.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 
@@ -82,11 +78,11 @@ Working directory: `/tmp/crate-build-aarch64-rmql_qba/src/symbolic-demangle-12.1
 ### Compilation
 
 ```text
-cc1plus -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -D SWIFT_STDLIB_HAS_TYPE_PRINTING=1 <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> -gdwarf-4 ...
+g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -std=c++17 -I <include directory> -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o <object> -c <source>
 ```
 
 ```text
-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -std=c++17 -I <include directory> -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o <object> -c <source>
+cc1plus -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -D SWIFT_STDLIB_HAS_TYPE_PRINTING=1 <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> -gdwarf-4 ...
 ```
 
 ### Static library construction

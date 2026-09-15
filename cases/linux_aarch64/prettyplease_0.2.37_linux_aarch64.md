@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 87204
 
 Build-script executable: `/target/debug/build/prettyplease-21cf33aa0f394b3e/build_script_build-21cf33aa0f394b3e`
 
 Working directory: `/tmp/crate-build-aarch64-7s5i2dta/src/prettyplease-0.2.37`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

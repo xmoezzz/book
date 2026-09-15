@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 21344
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ucmz5x1b/src/malachite-nz-0.4.22/target/debug/build/malachite-nz-4e62577fbffde648/build_script_build-4e62577fbffde648.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ucmz5x1b/src/malachite-nz-0.4.22`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 29896
 
 Build-script executable: `/target/debug/build/radium-f32fa8a12b87506f/build_script_build-f32fa8a12b87506f`
 
 Working directory: `/tmp/crate-build-riscv64-mt4llh_o/src/radium-0.7.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

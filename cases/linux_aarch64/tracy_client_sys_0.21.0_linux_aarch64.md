@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 793347
 
 Build-script executable: `/target/debug/build/tracy-client-sys-29b326db0f36ed92/build_script_build-29b326db0f36ed92`
 
 Working directory: `/tmp/crate-build-aarch64-ai9j_81h/src/tracy-client-sys-0.21.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

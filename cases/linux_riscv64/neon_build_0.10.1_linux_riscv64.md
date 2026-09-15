@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 711817
 
 Build-script executable: `/target/debug/build/neon-build-e65906ab291905fc/build_script_build-e65906ab291905fc`
 
 Working directory: `/tmp/crate-build-riscv64-xn1rmh7c/src/neon-build-0.10.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

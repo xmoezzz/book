@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 136571
 
 Build-script executable: `/target/debug/build/prometheus-ebb6dd171d351f72/build_script_build-ebb6dd171d351f72`
 
 Working directory: `/tmp/crate-build-riscv64-eo8x3kd7/src/prometheus-0.13.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

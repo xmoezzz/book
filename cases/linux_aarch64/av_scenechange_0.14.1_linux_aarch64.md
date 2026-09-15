@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 537360
 
 Build-script executable: `/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5`
 
 Working directory: `/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

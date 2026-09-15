@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1248084
 
 Build-script executable: `/target/debug/build/jiter-bf29e750bfff5bdf/build_script_build-bf29e750bfff5bdf`
 
 Working directory: `/tmp/crate-build-aarch64-qfgz9ent/src/jiter-0.10.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 380672
 
 Build-script executable: `/target/debug/build/target-triple-0ce7c6e9d118bff8/build_script_build-0ce7c6e9d118bff8`
 
 Working directory: `/tmp/crate-build-ppc64le-qir_fws8/src/target-triple-0.1.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

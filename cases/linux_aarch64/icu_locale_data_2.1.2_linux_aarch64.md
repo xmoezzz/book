@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1159735
 
 Build-script executable: `/target/debug/build/icu_locale_data-c055d47eed39853d/build_script_build-c055d47eed39853d`
 
 Working directory: `/tmp/crate-build-aarch64-kmvfv2m0/src/icu_locale_data-2.1.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

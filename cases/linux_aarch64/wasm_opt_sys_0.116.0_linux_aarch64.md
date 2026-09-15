@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 625471
 
 Build-script executable: `/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf`
 
 Working directory: `/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

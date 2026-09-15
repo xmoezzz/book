@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1246366
 
 Build-script executable: `/target/debug/build/bitcoin-private-0767e5b065daaa64/build_script_build-0767e5b065daaa64`
 
 Working directory: `/tmp/crate-build-aarch64-sw15vzv4/src/bitcoin-private-0.1.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

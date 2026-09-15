@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 160558
 
 Build-script executable: `/target/debug/build/lz4-sys-c23488cb26154d2e/build_script_build-c23488cb26154d2e`
 
 Working directory: `/tmp/crate-build-ppc64le-2p3k0cqb/src/lz4-sys-1.11.1+lz4-1.10.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 596379
 
 Build-script executable: `/target/debug/build/cortex-m-47c8773afd50f657/build_script_build-47c8773afd50f657`
 
 Working directory: `/tmp/crate-build-ppc64le-pqlhl4sv/src/cortex-m-0.7.7`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

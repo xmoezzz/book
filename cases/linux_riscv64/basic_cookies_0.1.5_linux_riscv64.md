@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 318054
 
 Build-script executable: `/target/debug/build/basic-cookies-5d1537f098ffc661/build_script_build-5d1537f098ffc661`
 
 Working directory: `/tmp/crate-build-riscv64-vhzjfe_o/src/basic-cookies-0.1.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

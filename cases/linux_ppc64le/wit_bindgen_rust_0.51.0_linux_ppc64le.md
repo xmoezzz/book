@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 355830
 
 Build-script executable: `/target/debug/build/wit-bindgen-rust-1563c72b9e48da9c/build_script_build-1563c72b9e48da9c`
 
 Working directory: `/tmp/crate-build-ppc64le-bnyh40fz/src/wit-bindgen-rust-0.51.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

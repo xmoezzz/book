@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 586485
 
 Build-script executable: `/target/debug/build/expat-sys-a2d8867a3e01d103/build_script_build-a2d8867a3e01d103`
 
 Working directory: `/tmp/crate-build-riscv64-ekf9k5gw/src/expat-sys-2.1.6`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

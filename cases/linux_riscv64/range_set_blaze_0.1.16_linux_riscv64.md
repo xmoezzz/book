@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 949787
 
 Build-script executable: `/target/debug/build/range-set-blaze-796a771518c53bac/build_script_build-796a771518c53bac`
 
 Working directory: `/tmp/crate-build-riscv64-a9zlldog/src/range-set-blaze-0.1.16`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 15276
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-5smi270a/src/pulldown-cmark-0.13.0/target/debug/build/pulldown-cmark-ab8b50f366d4b0b5/build_script_build-ab8b50f366d4b0b5.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-5smi270a/src/pulldown-cmark-0.13.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

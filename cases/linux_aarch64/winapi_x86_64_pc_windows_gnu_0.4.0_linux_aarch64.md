@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 4027
 
 Build-script executable: `/target/debug/build/winapi-x86_64-pc-windows-gnu-275433346c1d2c55/build_script_build-275433346c1d2c55`
 
 Working directory: `/tmp/crate-build-aarch64-qipvslw1/src/winapi-x86_64-pc-windows-gnu-0.4.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

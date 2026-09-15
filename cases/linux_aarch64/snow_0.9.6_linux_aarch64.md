@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 325424
 
 Build-script executable: `/target/debug/build/snow-6b8cc0eb07fb2f12/build_script_build-6b8cc0eb07fb2f12`
 
 Working directory: `/tmp/crate-build-aarch64-dlx6ngmc/src/snow-0.9.6`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 245257
 
 Build-script executable: `/target/debug/build/figment-befaed6c79e4866b/build_script_build-befaed6c79e4866b`
 
 Working directory: `/tmp/crate-build-aarch64-ol0kq01j/src/figment-0.10.19`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

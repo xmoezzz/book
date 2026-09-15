@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 375630
 
 Build-script executable: `/target/debug/build/color-spantrace-cae3d63b69b22117/build_script_build-cae3d63b69b22117`
 
 Working directory: `/tmp/crate-build-ppc64le-69fx58e_/src/color-spantrace-0.3.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 94946
 
 Build-script executable: `/target/debug/build/protobuf-bb1f8959c8d1c5a3/build_script_build-bb1f8959c8d1c5a3`
 
 Working directory: `/tmp/crate-build-ppc64le-p_xu1ar3/src/protobuf-2.28.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

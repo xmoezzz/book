@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 670980
 
 Build-script executable: `/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9`
 
 Working directory: `/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

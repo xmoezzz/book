@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 16468
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-cv_mo9d6/src/signal-hook-0.3.17/target/debug/build/signal-hook-17b23b996f2c0865/build_script_build-17b23b996f2c0865.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-cv_mo9d6/src/signal-hook-0.3.17`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

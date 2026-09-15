@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 319759
 
 Build-script executable: `/target/debug/build/khronos-egl-4fe30bc491f857b2/build_script_build-4fe30bc491f857b2`
 
 Working directory: `/tmp/crate-build-ppc64le-zqh1ekye/src/khronos-egl-6.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

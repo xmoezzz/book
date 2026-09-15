@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 165891
 
 Build-script executable: `/target/debug/build/blake3-fea8ad7f6ea67a68/build_script_build-fea8ad7f6ea67a68`
 
 Working directory: `/tmp/crate-build-riscv64-9s2mdt0d/src/blake3-1.8.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

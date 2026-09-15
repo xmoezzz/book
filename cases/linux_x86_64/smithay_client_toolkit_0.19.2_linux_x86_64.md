@@ -20,15 +20,11 @@ pkg-config --modversion xkbcommon
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1885871
 
 Build-script executable: `/work/target/debug/build/smithay-client-toolkit-ce0e1919d235f6fa/build_script_build-ce0e1919d235f6fa`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

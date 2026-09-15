@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 129631
 
 Build-script executable: `/target/debug/build/rand_pcg-a9cc825a09faf9c5/build_script_build-a9cc825a09faf9c5`
 
 Working directory: `/tmp/crate-build-riscv64-yqw2sbkn/src/rand_pcg-0.1.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

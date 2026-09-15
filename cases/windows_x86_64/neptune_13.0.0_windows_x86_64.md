@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 20904
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-2j0wb4g0/src/neptune-13.0.0/target/debug/build/neptune-c690f2f178df93d1/build_script_build-c690f2f178df93d1.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-2j0wb4g0/src/neptune-13.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

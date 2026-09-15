@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 8516
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i4_f5ivg/src/clear_on_drop-0.2.5/target/debug/build/clear_on_drop-f8a22ca61ed6a61c/build_script_build-f8a22ca61ed6a61c.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i4_f5ivg/src/clear_on_drop-0.2.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

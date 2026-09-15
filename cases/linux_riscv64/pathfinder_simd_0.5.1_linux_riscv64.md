@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 729313
 
 Build-script executable: `/target/debug/build/pathfinder_simd-d8d0c39e285ab7b2/build_script_build-d8d0c39e285ab7b2`
 
 Working directory: `/tmp/crate-build-riscv64-45svcoyz/src/pathfinder_simd-0.5.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 36109
 
 Build-script executable: `/target/debug/build/iana-time-zone-haiku-d095558f6ea7e657/build_script_build-d095558f6ea7e657`
 
 Working directory: `/tmp/crate-build-ppc64le-a4ll3ell/src/iana-time-zone-haiku-0.1.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

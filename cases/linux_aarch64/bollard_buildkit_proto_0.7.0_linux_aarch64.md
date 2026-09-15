@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1235030
 
 Build-script executable: `/target/debug/build/bollard-buildkit-proto-e3c21de98890515b/build_script_build-e3c21de98890515b`
 
 Working directory: `/tmp/crate-build-aarch64-mwi_le1h/src/bollard-buildkit-proto-0.7.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

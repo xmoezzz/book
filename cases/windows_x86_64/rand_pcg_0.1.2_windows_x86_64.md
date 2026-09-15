@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 16788
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o19l9jh6/src/rand_pcg-0.1.2/target/debug/build/rand_pcg-ee10afa8a78235f0/build_script_build-ee10afa8a78235f0.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o19l9jh6/src/rand_pcg-0.1.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

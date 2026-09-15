@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 6736
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jkbba61t/src/async-fs-1.6.0/target/debug/build/async-fs-a28cb32829aec1e5/build_script_build-a28cb32829aec1e5.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jkbba61t/src/async-fs-1.6.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

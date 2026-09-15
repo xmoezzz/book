@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 4648
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-dmhv9a0p/src/axum-core-0.3.4/target/debug/build/axum-core-03cc6211700962b9/build_script_build-03cc6211700962b9.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-dmhv9a0p/src/axum-core-0.3.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

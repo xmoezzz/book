@@ -20,15 +20,11 @@ pkg-config --modversion gdk-x11-3.0 "gdk-x11-3.0 >= 3.22"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1979705
 
 Build-script executable: `/work/target/debug/build/gdkx11-sys-3b86bdc74b209295/build_script_build-3b86bdc74b209295`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1265736
 
 Build-script executable: `/target/debug/build/glutin_wgl_sys-6824994562053577/build_script_build-6824994562053577`
 
 Working directory: `/tmp/crate-build-ppc64le-agh20put/src/glutin_wgl_sys-0.5.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

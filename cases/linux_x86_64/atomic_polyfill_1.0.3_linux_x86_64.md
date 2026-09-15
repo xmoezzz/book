@@ -6,15 +6,11 @@ Platform: Linux x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2180084
 
 Build-script executable: `/work/target/debug/build/atomic-polyfill-6f5883b967109919/build_script_build-6f5883b967109919`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 
@@ -114,8 +110,6 @@ Full linker command: retained in the raw case.
 Build-script executable: `/work/target/debug/build/atomic-polyfill-6f5883b967109919/build_script_build-6f5883b967109919`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

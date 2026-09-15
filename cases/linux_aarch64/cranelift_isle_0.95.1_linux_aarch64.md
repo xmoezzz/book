@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 734136
 
 Build-script executable: `/target/debug/build/cranelift-isle-47b3eee516b78d2b/build_script_build-47b3eee516b78d2b`
 
 Working directory: `/tmp/crate-build-aarch64-ek9pln7k/src/cranelift-isle-0.95.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

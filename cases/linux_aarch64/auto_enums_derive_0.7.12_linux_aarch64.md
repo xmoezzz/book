@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1244379
 
 Build-script executable: `/target/debug/build/auto_enums_derive-87428728c9087519/build_script_build-87428728c9087519`
 
 Working directory: `/tmp/crate-build-aarch64-z79cbm31/src/auto_enums_derive-0.7.12`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

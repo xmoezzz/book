@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 11968
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ynpm470b/src/substring-1.4.5/target/debug/build/substring-4ff344f1dd40d37d/build_script_build-4ff344f1dd40d37d.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ynpm470b/src/substring-1.4.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

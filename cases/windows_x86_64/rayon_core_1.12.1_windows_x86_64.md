@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 15336
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-xr1ssk4t/src/rayon-core-1.12.1/target/debug/build/rayon-core-e5c3c466efc9885a/build_script_build-e5c3c466efc9885a.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-xr1ssk4t/src/rayon-core-1.12.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

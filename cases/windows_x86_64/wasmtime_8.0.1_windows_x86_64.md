@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 5952
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9qxl_8pp/src/wasmtime-8.0.1/target/debug/build/wasmtime-69a38acc5167316e/build_script_build-69a38acc5167316e.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9qxl_8pp/src/wasmtime-8.0.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 21164
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_nmgj66j/src/neon-build-0.10.1/target/debug/build/neon-build-ad79bc7a78652b8c/build_script_build-ad79bc7a78652b8c.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_nmgj66j/src/neon-build-0.10.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

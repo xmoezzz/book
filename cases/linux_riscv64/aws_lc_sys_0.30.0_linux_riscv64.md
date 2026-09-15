@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 386501
 
 Build-script executable: `/target/debug/build/aws-lc-sys-ec34dd957b5c541c/build_script_main-ec34dd957b5c541c`
 
 Working directory: `/tmp/crate-build-riscv64-6dkr_r1r/src/aws-lc-sys-0.30.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

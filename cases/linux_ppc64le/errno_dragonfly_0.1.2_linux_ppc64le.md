@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 136677
 
 Build-script executable: `/target/debug/build/errno-dragonfly-230bb91007c5e395/build_script_build-230bb91007c5e395`
 
 Working directory: `/tmp/crate-build-ppc64le-2lth2o0u/src/errno-dragonfly-0.1.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

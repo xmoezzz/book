@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 95863
 
 Build-script executable: `/target/debug/build/eyre-146e151a33a9bffb/build_script_build-146e151a33a9bffb`
 
 Working directory: `/tmp/crate-build-riscv64-7d22ewt9/src/eyre-0.6.12`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

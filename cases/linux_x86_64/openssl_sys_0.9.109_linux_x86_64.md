@@ -20,15 +20,11 @@ pkg-config --modversion openssl
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1825103
 
 Build-script executable: `/work/target/debug/build/openssl-sys-562c32de1b4cc790/build_script_main-562c32de1b4cc790`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

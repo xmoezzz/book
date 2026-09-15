@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 948413
 
 Build-script executable: `/target/debug/build/libpulse-simple-sys-e012bf2c8b84db33/build_script_build-e012bf2c8b84db33`
 
 Working directory: `/tmp/crate-build-aarch64-9oqnkifl/src/libpulse-simple-sys-1.21.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

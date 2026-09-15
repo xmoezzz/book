@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 426622
 
 Build-script executable: `/target/debug/build/woothee-de9e3cc5c3579e7b/build_script_build-de9e3cc5c3579e7b`
 
 Working directory: `/tmp/crate-build-ppc64le-02oa5p6r/src/woothee-0.13.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 363383
 
 Build-script executable: `/target/debug/build/libmimalloc-sys-f4207166b664f667/build_script_build-f4207166b664f667`
 
 Working directory: `/tmp/crate-build-ppc64le-_qjqxzyy/src/libmimalloc-sys-0.1.44`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

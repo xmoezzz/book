@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 41281
 
 Build-script executable: `/target/debug/build/rustversion-2d67d9964cfe409a/build_script_build-2d67d9964cfe409a`
 
 Working directory: `/tmp/crate-build-aarch64-idk0eugc/src/rustversion-1.0.22`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 10220
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0/target/debug/build/alloca-7b949907915d356c/build_script_build-7b949907915d356c.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

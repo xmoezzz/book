@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 4324
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-p242qh0g/src/auto_enums_derive-0.7.12/target/debug/build/auto_enums_derive-2ec38ad821bdba33/build_script_build-2ec38ad821bdba33.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-p242qh0g/src/auto_enums_derive-0.7.12`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

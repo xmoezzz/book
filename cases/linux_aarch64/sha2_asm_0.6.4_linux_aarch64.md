@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 412082
 
 Build-script executable: `/target/debug/build/sha2-asm-e0eb8c965c490186/build_script_build-e0eb8c965c490186`
 
 Working directory: `/tmp/crate-build-aarch64-qu3671jv/src/sha2-asm-0.6.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

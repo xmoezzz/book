@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 12108
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12/target/debug/build/miniz-sys-3199fafb537e253c/build_script_build-3199fafb537e253c.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

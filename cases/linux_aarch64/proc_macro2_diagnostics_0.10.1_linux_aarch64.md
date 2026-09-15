@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 133648
 
 Build-script executable: `/target/debug/build/proc-macro2-diagnostics-a3bc0c613ed5c143/build_script_build-a3bc0c613ed5c143`
 
 Working directory: `/tmp/crate-build-aarch64-mwu3o60d/src/proc-macro2-diagnostics-0.10.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

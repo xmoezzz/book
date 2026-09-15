@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 18684
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-71f7ns74/src/cpal-0.15.3/target/debug/build/cpal-1e83e792f8792841/build_script_build-1e83e792f8792841.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-71f7ns74/src/cpal-0.15.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

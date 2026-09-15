@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1119048
 
 Build-script executable: `/target/debug/build/varisat-4941d4eda265dd21/build_script_build-4941d4eda265dd21`
 
 Working directory: `/tmp/crate-build-ppc64le-iuzbyige/src/varisat-0.2.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

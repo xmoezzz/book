@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 854097
 
 Build-script executable: `/target/debug/build/libxdo-sys-055169d1df270b2f/build_script_build-055169d1df270b2f`
 
 Working directory: `/tmp/crate-build-ppc64le-yjlzefj0/src/libxdo-sys-0.11.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

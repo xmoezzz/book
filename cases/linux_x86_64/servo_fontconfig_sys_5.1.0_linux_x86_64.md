@@ -20,15 +20,11 @@ pkg-config --modversion fontconfig "fontconfig >= 2.11.1"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2002981
 
 Build-script executable: `/work/target/debug/build/servo-fontconfig-sys-04740194476e17b1/build_script_build-04740194476e17b1`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

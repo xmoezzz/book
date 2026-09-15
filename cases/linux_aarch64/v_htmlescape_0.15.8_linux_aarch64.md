@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 499997
 
 Build-script executable: `/target/debug/build/v_htmlescape-0773b49179b1e7d3/build_script_build-0773b49179b1e7d3`
 
 Working directory: `/tmp/crate-build-aarch64-qxb893ms/src/v_htmlescape-0.15.8`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

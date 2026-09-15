@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 18197
 
 Build-script executable: `/target/debug/build/crossbeam-utils-32793137673c8c15/build_script_build-32793137673c8c15`
 
 Working directory: `/tmp/crate-build-aarch64-fflvq0ma/src/crossbeam-utils-0.8.21`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

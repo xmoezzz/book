@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 873616
 
 Build-script executable: `/target/debug/build/malachite-nz-0a453eba9576b92e/build_script_build-0a453eba9576b92e`
 
 Working directory: `/tmp/crate-build-aarch64-o2qnuxqm/src/malachite-nz-0.4.22`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

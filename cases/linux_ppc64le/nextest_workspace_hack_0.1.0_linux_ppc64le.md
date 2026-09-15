@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 659196
 
 Build-script executable: `/target/debug/build/nextest-workspace-hack-6f004b1889039ee0/build_script_build-6f004b1889039ee0`
 
 Working directory: `/tmp/crate-build-ppc64le-ofksk57r/src/nextest-workspace-hack-0.1.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 64772
 
 Build-script executable: `/target/debug/build/wasm-bindgen-e16090c7b402c136/build_script_build-e16090c7b402c136`
 
 Working directory: `/tmp/crate-build-aarch64-xoownpi6/src/wasm-bindgen-0.2.100`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

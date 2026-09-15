@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 690525
 
 Build-script executable: `/target/debug/build/unicode_names2-b44907ea69b5d510/build_script_build-b44907ea69b5d510`
 
 Working directory: `/tmp/crate-build-ppc64le-ac3j4_nh/src/unicode_names2-1.3.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

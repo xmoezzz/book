@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 212975
 
 Build-script executable: `/target/debug/build/chrono-tz-b85d549251c55a98/build_script_build-b85d549251c55a98`
 
 Working directory: `/tmp/crate-build-aarch64-l6tnj5qi/src/chrono-tz-0.10.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

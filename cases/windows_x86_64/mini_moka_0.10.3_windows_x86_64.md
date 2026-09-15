@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 20848
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wig9k2tf/src/mini-moka-0.10.3/target/debug/build/mini-moka-3c292e07b02eb20d/build_script_build-3c292e07b02eb20d.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wig9k2tf/src/mini-moka-0.10.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2468
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_45lbyw9/src/expander-2.2.1/target/debug/build/expander-9450eef48c384a66/build_script_build-9450eef48c384a66.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_45lbyw9/src/expander-2.2.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

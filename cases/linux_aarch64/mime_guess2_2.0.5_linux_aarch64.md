@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 609839
 
 Build-script executable: `/target/debug/build/mime_guess2-7147f0b3e1c3d684/build_script_build-7147f0b3e1c3d684`
 
 Working directory: `/tmp/crate-build-aarch64-06e3fdrd/src/mime_guess2-2.0.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

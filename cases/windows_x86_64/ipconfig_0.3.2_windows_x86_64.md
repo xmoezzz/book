@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 8804
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ncoyjnh0/src/ipconfig-0.3.2/target/debug/build/ipconfig-b66497a775e4d576/build_script_build-b66497a775e4d576.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ncoyjnh0/src/ipconfig-0.3.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

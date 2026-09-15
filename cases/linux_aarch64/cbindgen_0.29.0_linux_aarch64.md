@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 316611
 
 Build-script executable: `/target/debug/build/cbindgen-bb7d6dfb2d937ba2/build_script_build-bb7d6dfb2d937ba2`
 
 Working directory: `/tmp/crate-build-aarch64-tbt3htz4/src/cbindgen-0.29.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

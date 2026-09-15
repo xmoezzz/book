@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2708
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_39p8irr/src/proc-macro-error-attr-1.0.4/target/debug/build/proc-macro-error-attr-b2b2be00e847565d/build_script_build-b2b2be00e847565d.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_39p8irr/src/proc-macro-error-attr-1.0.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

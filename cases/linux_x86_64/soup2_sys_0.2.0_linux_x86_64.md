@@ -20,15 +20,11 @@ pkg-config --modversion libsoup-2.4 "libsoup-2.4 >= 0.0"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2186540
 
 Build-script executable: `/work/target/debug/build/soup2-sys-ae292b8c7d40ccb1/build_script_build-ae292b8c7d40ccb1`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

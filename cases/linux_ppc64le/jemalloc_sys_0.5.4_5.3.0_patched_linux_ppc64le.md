@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 435327
 
 Build-script executable: `/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406`
 
 Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

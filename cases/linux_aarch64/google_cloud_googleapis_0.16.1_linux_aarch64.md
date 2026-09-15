@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 902905
 
 Build-script executable: `/target/debug/build/google-cloud-googleapis-0e6e9b6b5ce18a05/build_script_build-0e6e9b6b5ce18a05`
 
 Working directory: `/tmp/crate-build-aarch64-uvx4p_9x/src/google-cloud-googleapis-0.16.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

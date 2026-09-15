@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1161540
 
 Build-script executable: `/target/debug/build/lmdb-rkv-sys-386b6c2af8de88a6/build_script_build-386b6c2af8de88a6`
 
 Working directory: `/tmp/crate-build-ppc64le-lplf01xz/src/lmdb-rkv-sys-0.11.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

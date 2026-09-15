@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 365438
 
 Build-script executable: `/target/debug/build/pharos-6c561a8aaf2d6853/build_script_build-6c561a8aaf2d6853`
 
 Working directory: `/tmp/crate-build-riscv64-xxascecr/src/pharos-0.5.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 271654
 
 Build-script executable: `/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98`
 
 Working directory: `/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

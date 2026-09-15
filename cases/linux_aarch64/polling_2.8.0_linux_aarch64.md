@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 98504
 
 Build-script executable: `/target/debug/build/polling-654ad02be6256160/build_script_build-654ad02be6256160`
 
 Working directory: `/tmp/crate-build-aarch64-y8z5znf1/src/polling-2.8.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 108560
 
 Build-script executable: `/target/debug/build/libsqlite3-sys-d81e68b0fb705d18/build_script_build-d81e68b0fb705d18`
 
 Working directory: `/tmp/crate-build-riscv64-2ty3n4b3/src/libsqlite3-sys-0.30.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

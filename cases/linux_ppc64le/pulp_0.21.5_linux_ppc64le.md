@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 796741
 
 Build-script executable: `/target/debug/build/pulp-0ebd34967bd0cb8e/build_script_build-0ebd34967bd0cb8e`
 
 Working directory: `/tmp/crate-build-ppc64le-xajakpup/src/pulp-0.21.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

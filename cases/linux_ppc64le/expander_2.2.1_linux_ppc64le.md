@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 768721
 
 Build-script executable: `/target/debug/build/expander-81fca3d496411170/build_script_build-81fca3d496411170`
 
 Working directory: `/tmp/crate-build-ppc64le-thrl3nhb/src/expander-2.2.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

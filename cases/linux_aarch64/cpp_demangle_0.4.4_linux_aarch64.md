@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 209085
 
 Build-script executable: `/target/debug/build/cpp_demangle-73dd3bb292c6c6e6/build_script_build-73dd3bb292c6c6e6`
 
 Working directory: `/tmp/crate-build-aarch64-kg0_k9cr/src/cpp_demangle-0.4.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

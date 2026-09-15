@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 419888
 
 Build-script executable: `/target/debug/build/wayland-sys-27676d3a6b3e0c6d/build_script_build-27676d3a6b3e0c6d`
 
 Working directory: `/tmp/crate-build-ppc64le-7zipb5uk/src/wayland-sys-0.29.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 421979
 
 Build-script executable: `/target/debug/build/wayland-client-17e51439c1f3fbae/build_script_build-17e51439c1f3fbae`
 
 Working directory: `/tmp/crate-build-riscv64-3z7opn7k/src/wayland-client-0.29.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

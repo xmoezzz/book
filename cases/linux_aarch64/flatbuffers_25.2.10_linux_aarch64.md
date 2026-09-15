@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1231513
 
 Build-script executable: `/target/debug/build/flatbuffers-4c8c0ad28c648fce/build_script_build-4c8c0ad28c648fce`
 
 Working directory: `/tmp/crate-build-aarch64-22hca4ks/src/flatbuffers-25.2.10`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

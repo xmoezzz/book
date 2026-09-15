@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 12560
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a4k0ssah/src/prometheus-client-0.22.3/target/debug/build/prometheus-client-9e01f14e451e1c7d/build_script_build-9e01f14e451e1c7d.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a4k0ssah/src/prometheus-client-0.22.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

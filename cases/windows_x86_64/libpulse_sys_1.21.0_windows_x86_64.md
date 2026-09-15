@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 8000
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lx63rk0g/src/libpulse-sys-1.21.0/target/debug/build/libpulse-sys-03a89ad267dc90bf/build_script_build-03a89ad267dc90bf.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lx63rk0g/src/libpulse-sys-1.21.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1094887
 
 Build-script executable: `/target/debug/build/cuda-driver-sys-de51a75969a22c6c/build_script_build-de51a75969a22c6c`
 
 Working directory: `/tmp/crate-build-aarch64-6jbigcpy/src/cuda-driver-sys-0.3.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 7492
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-enodvidw/src/claims-0.7.1/target/debug/build/claims-174e065679ad318c/build_script_build-174e065679ad318c.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-enodvidw/src/claims-0.7.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

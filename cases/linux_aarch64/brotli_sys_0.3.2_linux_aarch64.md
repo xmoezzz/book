@@ -4,7 +4,7 @@ Platform: Linux aarch64
 
 ## Build-level coding evidence
 
-### Network / source acquisition activity
+### Source acquisition
 
 Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
 
@@ -12,29 +12,19 @@ Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
 git submodule update --init
 ```
 
-Acquisition kind: `git_submodule`
-
-Outcome: failed (exit code 128)
-
 Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
 
 ```text
 /usr/bin/git submodule update --init
 ```
 
-Outcome: outcome unavailable in trace
-
 ### Build-script executable native dependencies
-
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
 
 #### Linker process 463431
 
 Build-script executable: `/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f`
 
 Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

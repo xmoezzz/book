@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 3544
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ofzod4q5/src/lock_api-0.4.12/target/debug/build/lock_api-a4148f751692f4ee/build_script_build-a4148f751692f4ee.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ofzod4q5/src/lock_api-0.4.12`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

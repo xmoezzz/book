@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 984502
 
 Build-script executable: `/target/debug/build/bolero-libfuzzer-2a2f8395fb905960/build_script_build-2a2f8395fb905960`
 
 Working directory: `/tmp/crate-build-aarch64-802ocjwt/src/bolero-libfuzzer-0.13.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

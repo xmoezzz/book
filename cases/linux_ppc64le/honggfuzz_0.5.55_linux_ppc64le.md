@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1274076
 
 Build-script executable: `/target/debug/build/honggfuzz-716da8e557201dd3/build_script_build-716da8e557201dd3`
 
 Working directory: `/tmp/crate-build-ppc64le-6rogw82s/src/honggfuzz-0.5.55`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

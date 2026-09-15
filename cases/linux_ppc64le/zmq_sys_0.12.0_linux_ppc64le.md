@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1009899
 
 Build-script executable: `/target/debug/build/zmq-sys-cbfded08ede4f605/build_script_main-cbfded08ede4f605`
 
 Working directory: `/tmp/crate-build-ppc64le-_v0x1ee7/src/zmq-sys-0.12.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

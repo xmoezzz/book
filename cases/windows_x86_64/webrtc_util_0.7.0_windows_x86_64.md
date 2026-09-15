@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 19560
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4w1_fzib/src/webrtc-util-0.7.0/target/debug/build/webrtc-util-751d8ac0bb268795/build_script_build-751d8ac0bb268795.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4w1_fzib/src/webrtc-util-0.7.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

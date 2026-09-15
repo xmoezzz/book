@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 983554
 
 Build-script executable: `/target/debug/build/bolero-honggfuzz-d9b101aaf3fb7d0a/build_script_build-d9b101aaf3fb7d0a`
 
 Working directory: `/tmp/crate-build-aarch64-zi2miou6/src/bolero-honggfuzz-0.13.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

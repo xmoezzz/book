@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 204154
 
 Build-script executable: `/target/debug/build/pyo3-build-config-8119597e8f9c0a66/build_script_build-8119597e8f9c0a66`
 
 Working directory: `/tmp/crate-build-riscv64-56it2q4u/src/pyo3-build-config-0.18.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

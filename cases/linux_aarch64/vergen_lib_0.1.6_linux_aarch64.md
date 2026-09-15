@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 414056
 
 Build-script executable: `/target/debug/build/vergen-lib-4d3fac8279ebefd7/build_script_build-4d3fac8279ebefd7`
 
 Working directory: `/tmp/crate-build-aarch64-1tx8b39p/src/vergen-lib-0.1.6`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

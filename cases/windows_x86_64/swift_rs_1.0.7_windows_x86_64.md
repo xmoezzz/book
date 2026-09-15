@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 10280
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-m9tood50/src/swift-rs-1.0.7/target/debug/build/swift-rs-c0bd741db6ee34b1/build_script_test_build-c0bd741db6ee34b1.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-m9tood50/src/swift-rs-1.0.7`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

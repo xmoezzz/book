@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 4140
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-vz4nuck7/src/smartstring-1.0.1/target/debug/build/smartstring-bf7b0d63c74a8de0/build_script_build-bf7b0d63c74a8de0.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-vz4nuck7/src/smartstring-1.0.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

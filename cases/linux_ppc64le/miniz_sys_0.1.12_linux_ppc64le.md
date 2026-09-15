@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 990861
 
 Build-script executable: `/target/debug/build/miniz-sys-a1520be8e078b97f/build_script_build-a1520be8e078b97f`
 
 Working directory: `/tmp/crate-build-ppc64le-wh27ww57/src/miniz-sys-0.1.12`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 839184
 
 Build-script executable: `/target/debug/build/dart-sys-f05a7882a0a8a47a/build_script_build-f05a7882a0a8a47a`
 
 Working directory: `/tmp/crate-build-aarch64-y29nacli/src/dart-sys-4.1.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

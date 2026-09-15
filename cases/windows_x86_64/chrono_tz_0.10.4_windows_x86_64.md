@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 10560
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-kgndv7ly/src/chrono-tz-0.10.4/target/debug/build/chrono-tz-ec5b2952e93d919b/build_script_build-ec5b2952e93d919b.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-kgndv7ly/src/chrono-tz-0.10.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

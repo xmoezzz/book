@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 628541
 
 Build-script executable: `/target/debug/build/glutin-3320c90d52c45e53/build_script_build-3320c90d52c45e53`
 
 Working directory: `/tmp/crate-build-aarch64-gpkbwtzs/src/glutin-0.31.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1051200
 
 Build-script executable: `/target/debug/build/tink-proto-5177cd9444f5e7ff/build_script_build-5177cd9444f5e7ff`
 
 Working directory: `/tmp/crate-build-aarch64-acqj85qh/src/tink-proto-0.2.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

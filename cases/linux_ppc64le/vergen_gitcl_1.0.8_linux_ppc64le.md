@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1095309
 
 Build-script executable: `/target/debug/build/vergen-gitcl-6444a3f5d729c52e/build_script_build-6444a3f5d729c52e`
 
 Working directory: `/tmp/crate-build-ppc64le-8u_bupzd/src/vergen-gitcl-1.0.8`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

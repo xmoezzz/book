@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 247779
 
 Build-script executable: `/target/debug/build/stacker-c5d78f9e6a245e4c/build_script_build-c5d78f9e6a245e4c`
 
 Working directory: `/tmp/crate-build-aarch64-bsf_l_kf/src/stacker-0.1.15`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

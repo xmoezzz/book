@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 15268
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-q689m7z0/src/serde_json-1.0.140/target/debug/build/serde_json-fc65a2166fd22229/build_script_build-fc65a2166fd22229.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-q689m7z0/src/serde_json-1.0.140`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

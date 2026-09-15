@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 833796
 
 Build-script executable: `/target/debug/build/reed-solomon-novelpoly-41f36e1aab5d4eee/build_script_build-41f36e1aab5d4eee`
 
 Working directory: `/tmp/crate-build-ppc64le-b9qf2qzp/src/reed-solomon-novelpoly-2.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

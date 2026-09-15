@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1071735
 
 Build-script executable: `/target/debug/build/solana-frozen-abi-3467a2e36ee1a57e/build_script_build-3467a2e36ee1a57e`
 
 Working directory: `/tmp/crate-build-aarch64-n9kr2636/src/solana-frozen-abi-1.18.21`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

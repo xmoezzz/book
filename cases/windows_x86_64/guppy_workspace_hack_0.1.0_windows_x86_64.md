@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 3232
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-vpmbxgz7/src/guppy-workspace-hack-0.1.0/target/debug/build/guppy-workspace-hack-031defb881a5d027/build_script_build-031defb881a5d027.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-vpmbxgz7/src/guppy-workspace-hack-0.1.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 107339
 
 Build-script executable: `/target/debug/build/ntapi-99edc46efb5ea3f0/build_script_build-99edc46efb5ea3f0`
 
 Working directory: `/tmp/crate-build-riscv64-c6evfvzo/src/ntapi-0.4.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

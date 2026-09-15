@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1064798
 
 Build-script executable: `/target/debug/build/tree-sitter-c-sharp-d38dba320c63e201/build_script_build-d38dba320c63e201`
 
 Working directory: `/tmp/crate-build-ppc64le-8vp4mis_/src/tree-sitter-c-sharp-0.23.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

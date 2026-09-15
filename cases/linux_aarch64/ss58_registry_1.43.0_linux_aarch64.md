@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 764363
 
 Build-script executable: `/target/debug/build/ss58-registry-34e0b12990505b2a/build_script_build-34e0b12990505b2a`
 
 Working directory: `/tmp/crate-build-aarch64-l2kfehzs/src/ss58-registry-1.43.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

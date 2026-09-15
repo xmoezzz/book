@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 96343
 
 Build-script executable: `/target/debug/build/snap-fb401d4b3f0bcfde/build_script_build-fb401d4b3f0bcfde`
 
 Working directory: `/tmp/crate-build-ppc64le-ihzaya07/src/snap-1.1.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 35285
 
 Build-script executable: `/target/debug/build/radium-f32fa8a12b87506f/build_script_build-f32fa8a12b87506f`
 
 Working directory: `/tmp/crate-build-ppc64le-djxhhhtc/src/radium-0.7.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

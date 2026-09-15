@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 18932
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-40x97z1b/src/jiter-0.10.0/target/debug/build/jiter-745bfaa564f2d28a/build_script_build-745bfaa564f2d28a.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-40x97z1b/src/jiter-0.10.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

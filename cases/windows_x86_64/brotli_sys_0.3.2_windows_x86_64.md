@@ -4,7 +4,7 @@ Platform: Windows x86_64
 
 ## Build-level coding evidence
 
-### Network / source acquisition activity
+### Source acquisition
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2`
 
@@ -12,21 +12,13 @@ Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k
 git submodule update --init
 ```
 
-Acquisition kind: `git_submodule`
-
-Outcome: failed (exit code 128)
-
 ### Build-script executable native dependencies
-
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
 
 #### Linker process 18092
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2/target/debug/build/brotli-sys-5707e6ced7726049/build_script_build-5707e6ced7726049.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 191605
 
 Build-script executable: `/target/debug/build/oid-registry-ceb319db9831b0c2/build_script_build-ceb319db9831b0c2`
 
 Working directory: `/tmp/crate-build-aarch64-uy8_u37k/src/oid-registry-0.8.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

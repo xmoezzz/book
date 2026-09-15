@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 49245
 
 Build-script executable: `/target/debug/build/clang-sys-a2b16eefe89c4d5e/build_script_build-a2b16eefe89c4d5e`
 
 Working directory: `/tmp/crate-build-riscv64-1vc9s5i0/src/clang-sys-1.8.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

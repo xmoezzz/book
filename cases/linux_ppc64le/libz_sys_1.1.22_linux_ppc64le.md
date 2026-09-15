@@ -20,15 +20,11 @@ pkg-config --modversion zlib
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 190889
 
 Build-script executable: `/target/debug/build/libz-sys-a339e721195e716e/build_script_build-a339e721195e716e`
 
 Working directory: `/tmp/crate-build-ppc64le-dk6tgpvm/src/libz-sys-1.1.22`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

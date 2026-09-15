@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 37214
 
 Build-script executable: `/target/debug/build/rayon-core-c9a8f8c1754f6993/build_script_build-c9a8f8c1754f6993`
 
 Working directory: `/tmp/crate-build-ppc64le-yvz60nw2/src/rayon-core-1.12.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

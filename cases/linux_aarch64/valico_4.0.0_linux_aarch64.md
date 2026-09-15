@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 255267
 
 Build-script executable: `/target/debug/build/valico-bacb6332b20ca16a/build_script_build-bacb6332b20ca16a`
 
 Working directory: `/tmp/crate-build-aarch64-klvc6n08/src/valico-4.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

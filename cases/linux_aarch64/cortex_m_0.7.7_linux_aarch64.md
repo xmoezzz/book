@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 590015
 
 Build-script executable: `/target/debug/build/cortex-m-47c8773afd50f657/build_script_build-47c8773afd50f657`
 
 Working directory: `/tmp/crate-build-aarch64-5o941cdu/src/cortex-m-0.7.7`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 90046
 
 Build-script executable: `/target/debug/build/bytecheck-9cf8b901b1573d65/build_script_build-9cf8b901b1573d65`
 
 Working directory: `/tmp/crate-build-aarch64-l6ujf3qb/src/bytecheck-0.6.12`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

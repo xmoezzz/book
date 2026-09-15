@@ -4,7 +4,7 @@ Platform: Linux x86_64
 
 ## Build-level coding evidence
 
-### Network / source acquisition activity
+### Source acquisition
 
 Working directory: `/work`
 
@@ -12,29 +12,19 @@ Working directory: `/work`
 git submodule update --init
 ```
 
-Acquisition kind: `git_submodule`
-
-Outcome: failed (exit code 128)
-
 Working directory: `/work`
 
 ```text
 /usr/bin/git submodule update --init
 ```
 
-Outcome: outcome unavailable in trace
-
 ### Build-script executable native dependencies
-
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
 
 #### Linker process 1887730
 
 Build-script executable: `/work/target/debug/build/libssh2-sys-f50cf38e5cb89728/build_script_build-f50cf38e5cb89728`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

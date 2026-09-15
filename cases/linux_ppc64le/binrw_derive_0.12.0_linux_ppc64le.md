@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 719021
 
 Build-script executable: `/target/debug/build/binrw_derive-7bdb542b52cebf2b/build_script_build-7bdb542b52cebf2b`
 
 Working directory: `/tmp/crate-build-ppc64le-bg98luze/src/binrw_derive-0.12.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1852236
 
 Build-script executable: `/work/target/debug/build/proc-macro-nested-90a553e9a7bb6ecd/build_script_build-90a553e9a7bb6ecd`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

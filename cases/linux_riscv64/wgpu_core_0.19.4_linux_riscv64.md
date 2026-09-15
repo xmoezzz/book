@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1112186
 
 Build-script executable: `/target/debug/build/wgpu-core-b5af03a0905cdbfa/build_script_build-b5af03a0905cdbfa`
 
 Working directory: `/tmp/crate-build-riscv64-3c0t0i_6/src/wgpu-core-0.19.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

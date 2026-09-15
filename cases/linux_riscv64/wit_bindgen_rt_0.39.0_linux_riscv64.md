@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 119719
 
 Build-script executable: `/target/debug/build/wit-bindgen-rt-32858545a8ba833f/build_script_build-32858545a8ba833f`
 
 Working directory: `/tmp/crate-build-riscv64-hsw6aly1/src/wit-bindgen-rt-0.39.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

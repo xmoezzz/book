@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 274090
 
 Build-script executable: `/target/debug/build/az-a1a8c2eb4a20980e/build_script_build-a1a8c2eb4a20980e`
 
 Working directory: `/tmp/crate-build-riscv64-5o_snugo/src/az-1.2.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

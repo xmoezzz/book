@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 13924
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i5ipj6l1/src/cookie-0.16.2/target/debug/build/cookie-cacc58593a4b47f3/build_script_build-cacc58593a4b47f3.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i5ipj6l1/src/cookie-0.16.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

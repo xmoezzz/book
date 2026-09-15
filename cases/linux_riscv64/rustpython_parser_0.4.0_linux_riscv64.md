@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 871923
 
 Build-script executable: `/target/debug/build/rustpython-parser-de9a63d1fefd7354/build_script_build-de9a63d1fefd7354`
 
 Working directory: `/tmp/crate-build-riscv64-zdzsrepg/src/rustpython-parser-0.4.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

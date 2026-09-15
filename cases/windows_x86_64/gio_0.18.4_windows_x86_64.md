@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 20244
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-74j5qmz4/src/gio-0.18.4/target/debug/build/gio-5f69a18d0b3964fe/build_script_build-5f69a18d0b3964fe.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-74j5qmz4/src/gio-0.18.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

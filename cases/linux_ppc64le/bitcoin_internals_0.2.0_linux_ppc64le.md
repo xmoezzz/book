@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 489380
 
 Build-script executable: `/target/debug/build/bitcoin-internals-e9891bf71e9986c2/build_script_build-e9891bf71e9986c2`
 
 Working directory: `/tmp/crate-build-ppc64le-huzlv_pm/src/bitcoin-internals-0.2.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

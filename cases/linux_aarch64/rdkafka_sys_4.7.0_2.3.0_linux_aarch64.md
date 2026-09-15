@@ -4,7 +4,7 @@ Platform: Linux aarch64
 
 ## Build-level coding evidence
 
-### Network / source acquisition activity
+### Source acquisition
 
 Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
 
@@ -12,9 +12,11 @@ Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.
 internal_build_script_archive_output
 ```
 
-Acquisition kind: `internal_build_script_archive_output`
+Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
 
-Outcome: succeeded
+```text
+internal_build_script_archive_output
+```
 
 Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
 
@@ -22,29 +24,11 @@ Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.
 internal_build_script_archive_output
 ```
 
-Acquisition kind: `internal_build_script_archive_output`
-
-Outcome: succeeded
-
 Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
 
 ```text
 internal_build_script_archive_output
 ```
-
-Acquisition kind: `internal_build_script_archive_output`
-
-Outcome: succeeded
-
-Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
-
-```text
-internal_build_script_archive_output
-```
-
-Acquisition kind: `internal_build_script_archive_output`
-
-Outcome: succeeded
 
 ### pkg-config / pkgconf
 
@@ -68,15 +52,11 @@ pkg-config --short-errors --libs zlib
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 477397
 
 Build-script executable: `/target/debug/build/rdkafka-sys-b317c81c2e6d43f1/build_script_build-b317c81c2e6d43f1`
 
 Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -32,15 +32,11 @@ pkg-config --modversion libpulse-simple "libpulse-simple >= 5.0"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2112655
 
 Build-script executable: `/work/target/debug/build/libpulse-simple-sys-f9d28eb2526cb52a/build_script_build-f9d28eb2526cb52a`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

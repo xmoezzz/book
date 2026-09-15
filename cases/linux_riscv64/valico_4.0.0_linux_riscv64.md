@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 257165
 
 Build-script executable: `/target/debug/build/valico-bacb6332b20ca16a/build_script_build-bacb6332b20ca16a`
 
 Working directory: `/tmp/crate-build-riscv64-u7vf_9vi/src/valico-4.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

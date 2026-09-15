@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 712998
 
 Build-script executable: `/target/debug/build/rlimit-b1973589b3158e11/build_script_build-b1973589b3158e11`
 
 Working directory: `/tmp/crate-build-aarch64-4j24272z/src/rlimit-0.10.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

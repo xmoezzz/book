@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 428637
 
 Build-script executable: `/target/debug/build/packed_struct-88c91d1d1053ed0f/build_script_build-88c91d1d1053ed0f`
 
 Working directory: `/tmp/crate-build-riscv64-zyvm86og/src/packed_struct-0.10.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

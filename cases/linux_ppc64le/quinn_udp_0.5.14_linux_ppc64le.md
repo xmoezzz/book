@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 111480
 
 Build-script executable: `/target/debug/build/quinn-udp-733cab57d7dd5bc8/build_script_build-733cab57d7dd5bc8`
 
 Working directory: `/tmp/crate-build-ppc64le-jkok0p0l/src/quinn-udp-0.5.14`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 238306
 
 Build-script executable: `/target/debug/build/html5ever-eb52ab3d8a53e37f/build_script_build-eb52ab3d8a53e37f`
 
 Working directory: `/tmp/crate-build-aarch64-lycoclvy/src/html5ever-0.26.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

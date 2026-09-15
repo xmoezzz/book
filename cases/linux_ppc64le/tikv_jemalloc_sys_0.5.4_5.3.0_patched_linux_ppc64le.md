@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 170417
 
 Build-script executable: `/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75`
 
 Working directory: `/tmp/crate-build-ppc64le-16fct5ks/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

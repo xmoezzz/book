@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1048498
 
 Build-script executable: `/target/debug/build/magic-sys-0f802b81ccdabfa5/build_script_build-0f802b81ccdabfa5`
 
 Working directory: `/tmp/crate-build-ppc64le-rza0ywlb/src/magic-sys-0.3.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

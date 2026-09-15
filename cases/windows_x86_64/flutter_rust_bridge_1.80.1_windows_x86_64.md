@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 21172
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-pbxaal0f/src/flutter_rust_bridge-1.80.1/target/debug/build/flutter_rust_bridge-fddf745ce795dfa0/build_script_build-fddf745ce795dfa0.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-pbxaal0f/src/flutter_rust_bridge-1.80.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

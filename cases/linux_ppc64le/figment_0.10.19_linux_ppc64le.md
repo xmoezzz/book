@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 246123
 
 Build-script executable: `/target/debug/build/figment-befaed6c79e4866b/build_script_build-befaed6c79e4866b`
 
 Working directory: `/tmp/crate-build-ppc64le-5k918b2s/src/figment-0.10.19`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

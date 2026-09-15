@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 93176
 
 Build-script executable: `/target/debug/build/protobuf-bb1f8959c8d1c5a3/build_script_build-bb1f8959c8d1c5a3`
 
 Working directory: `/tmp/crate-build-aarch64-90rxnaci/src/protobuf-2.28.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

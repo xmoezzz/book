@@ -20,15 +20,11 @@ pkg-config --modversion zlib
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 190811
 
 Build-script executable: `/target/debug/build/libz-sys-a339e721195e716e/build_script_build-a339e721195e716e`
 
 Working directory: `/tmp/crate-build-aarch64-ijugia1j/src/libz-sys-1.1.22`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 
@@ -95,11 +91,11 @@ Working directory: `/tmp/crate-build-aarch64-ijugia1j/src/libz-sys-1.1.22`
 ### Compilation
 
 ```text
-cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D STDC -D _LARGEFILE64_SOURCE -D _POSIX_SOURCE <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> ...
+gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I <include directory> -fvisibility=hidden -DSTDC -D_LARGEFILE64_SOURCE -D_POSIX_SOURCE -o <object> -c <source>
 ```
 
 ```text
-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I <include directory> -fvisibility=hidden -DSTDC -D_LARGEFILE64_SOURCE -D_POSIX_SOURCE -o <object> -c <source>
+cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D STDC -D _LARGEFILE64_SOURCE -D _POSIX_SOURCE <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> ...
 ```
 
 ### Static library construction

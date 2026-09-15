@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 102199
 
 Build-script executable: `/target/debug/build/findshlibs-6821c0f64b28bc8d/build_script_build-6821c0f64b28bc8d`
 
 Working directory: `/tmp/crate-build-aarch64-rvv7zcpx/src/findshlibs-0.10.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

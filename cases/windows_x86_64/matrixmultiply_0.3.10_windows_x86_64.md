@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 17384
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-3llr2s4x/src/matrixmultiply-0.3.10/target/debug/build/matrixmultiply-605ace175c8e1884/build_script_build-605ace175c8e1884.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-3llr2s4x/src/matrixmultiply-0.3.10`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

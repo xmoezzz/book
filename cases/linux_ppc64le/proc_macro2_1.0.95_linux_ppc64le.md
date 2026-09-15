@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 58720
 
 Build-script executable: `/target/debug/build/proc-macro2-46239aad0aaf2dde/build_script_build-46239aad0aaf2dde`
 
 Working directory: `/tmp/crate-build-ppc64le-qahxe2v6/src/proc-macro2-1.0.95`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

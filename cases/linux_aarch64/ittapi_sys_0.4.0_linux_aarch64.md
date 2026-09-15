@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 535156
 
 Build-script executable: `/target/debug/build/ittapi-sys-153a64372a747f59/build_script_build-153a64372a747f59`
 
 Working directory: `/tmp/crate-build-aarch64-veh28nga/src/ittapi-sys-0.4.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 14660
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1tx_91z7/src/generic-array-0.14.7/target/debug/build/generic-array-1ae3045d07b27297/build_script_build-1ae3045d07b27297.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1tx_91z7/src/generic-array-0.14.7`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

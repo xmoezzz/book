@@ -4,17 +4,13 @@ Platform: Windows x86_64
 
 ## Build-level coding evidence
 
-### Network / source acquisition activity
+### Source acquisition
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ga_n4mcr/src/utoipa-swagger-ui-9.0.2`
 
 ```text
 internal_build_script_download
 ```
-
-Acquisition kind: `internal_build_script_download`
-
-Outcome: succeeded
 
 ### Other root-owned linker native-library inputs
 

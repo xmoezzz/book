@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 628895
 
 Build-script executable: `/target/debug/build/wasm-opt-cxx-sys-6829e3732ac8f4c6/build_script_build-6829e3732ac8f4c6`
 
 Working directory: `/tmp/crate-build-ppc64le-xosbmean/src/wasm-opt-cxx-sys-0.116.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

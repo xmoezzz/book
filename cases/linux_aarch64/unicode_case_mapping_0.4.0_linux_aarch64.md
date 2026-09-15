@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 920132
 
 Build-script executable: `/target/debug/build/unicode-case-mapping-6a555a796c95d5e7/build_script_build-6a555a796c95d5e7`
 
 Working directory: `/tmp/crate-build-aarch64-a1lrrcwy/src/unicode-case-mapping-0.4.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

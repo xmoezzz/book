@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 17020
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wqwgj6lu/src/v_htmlescape-0.15.8/target/debug/build/v_htmlescape-2cadc4984dc8dc86/build_script_build-2cadc4984dc8dc86.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wqwgj6lu/src/v_htmlescape-0.15.8`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

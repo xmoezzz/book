@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 573661
 
 Build-script executable: `/target/debug/build/dlmalloc-e249455d30ed6cef/build_script_build-e249455d30ed6cef`
 
 Working directory: `/tmp/crate-build-aarch64-0p7uloo_/src/dlmalloc-0.2.4`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

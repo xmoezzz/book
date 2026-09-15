@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 17256
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6imaz69a/src/parity-scale-codec-3.7.5/target/debug/build/parity-scale-codec-d6f3fa05a14d33d1/build_script_build-d6f3fa05a14d33d1.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6imaz69a/src/parity-scale-codec-3.7.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

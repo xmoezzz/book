@@ -6,15 +6,11 @@ Platform: Linux x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2073702
 
 Build-script executable: `/work/target/debug/build/arrow2-b929e7c9ef3f4a6d/build_script_build-b929e7c9ef3f4a6d`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 
@@ -108,8 +104,6 @@ Full linker command: retained in the raw case.
 Build-script executable: `/work/target/debug/build/arrow2-b929e7c9ef3f4a6d/build_script_build-b929e7c9ef3f4a6d`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

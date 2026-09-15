@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 41232
 
 Build-script executable: `/target/debug/build/crunchy-3cb2573c9153ec6e/build_script_build-3cb2573c9153ec6e`
 
 Working directory: `/tmp/crate-build-aarch64-r8noehup/src/crunchy-0.2.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

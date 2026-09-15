@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1040068
 
 Build-script executable: `/target/debug/build/tree-sitter-ruby-1ee4b1adcc2eb995/build_script_build-1ee4b1adcc2eb995`
 
 Working directory: `/tmp/crate-build-riscv64-mh6enxfk/src/tree-sitter-ruby-0.23.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

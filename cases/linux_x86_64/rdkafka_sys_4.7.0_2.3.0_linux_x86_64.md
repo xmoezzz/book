@@ -4,7 +4,7 @@ Platform: Linux x86_64
 
 ## Build-level coding evidence
 
-### Network / source acquisition activity
+### Source acquisition
 
 Working directory: `/work`
 
@@ -12,9 +12,11 @@ Working directory: `/work`
 internal_build_script_archive_output
 ```
 
-Acquisition kind: `internal_build_script_archive_output`
+Working directory: `/work`
 
-Outcome: succeeded
+```text
+internal_build_script_archive_output
+```
 
 Working directory: `/work`
 
@@ -22,29 +24,11 @@ Working directory: `/work`
 internal_build_script_archive_output
 ```
 
-Acquisition kind: `internal_build_script_archive_output`
-
-Outcome: succeeded
-
 Working directory: `/work`
 
 ```text
 internal_build_script_archive_output
 ```
-
-Acquisition kind: `internal_build_script_archive_output`
-
-Outcome: succeeded
-
-Working directory: `/work`
-
-```text
-internal_build_script_archive_output
-```
-
-Acquisition kind: `internal_build_script_archive_output`
-
-Outcome: succeeded
 
 ### pkg-config / pkgconf
 
@@ -68,15 +52,11 @@ pkg-config --short-errors --libs zlib
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1942145
 
 Build-script executable: `/work/target/debug/build/rdkafka-sys-aad4a83e051af4ac/build_script_build-aad4a83e051af4ac`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

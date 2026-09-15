@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 851739
 
 Build-script executable: `/target/debug/build/naga-3717641449cab40f/build_script_build-3717641449cab40f`
 
 Working directory: `/tmp/crate-build-riscv64-5r0ag6i0/src/naga-24.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

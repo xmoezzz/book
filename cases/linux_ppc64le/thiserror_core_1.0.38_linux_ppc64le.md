@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 789120
 
 Build-script executable: `/target/debug/build/thiserror-core-a7f9c91d31ce2722/build_script_build-a7f9c91d31ce2722`
 
 Working directory: `/tmp/crate-build-ppc64le-i2lqgmni/src/thiserror-core-1.0.38`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

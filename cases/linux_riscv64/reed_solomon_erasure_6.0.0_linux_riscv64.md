@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 867152
 
 Build-script executable: `/target/debug/build/reed-solomon-erasure-db35c15843f6c4e7/build_script_build-db35c15843f6c4e7`
 
 Working directory: `/tmp/crate-build-riscv64-kuy9rvjy/src/reed-solomon-erasure-6.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

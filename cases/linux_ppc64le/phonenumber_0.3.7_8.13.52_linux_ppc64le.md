@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 978461
 
 Build-script executable: `/target/debug/build/phonenumber-87f3e5a4f94dae43/build_script_build-87f3e5a4f94dae43`
 
 Working directory: `/tmp/crate-build-ppc64le-71zq9b2z/src/phonenumber-0.3.7+8.13.52`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

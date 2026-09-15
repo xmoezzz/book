@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 13092
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jxbocxeq/src/figment-0.10.19/target/debug/build/figment-afbca7e528e42d33/build_script_build-afbca7e528e42d33.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jxbocxeq/src/figment-0.10.19`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

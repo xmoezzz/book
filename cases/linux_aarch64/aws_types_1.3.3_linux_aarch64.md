@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 328530
 
 Build-script executable: `/target/debug/build/aws-types-a10b7c2d6586c474/build_script_build-a10b7c2d6586c474`
 
 Working directory: `/tmp/crate-build-aarch64-3lfo8tit/src/aws-types-1.3.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

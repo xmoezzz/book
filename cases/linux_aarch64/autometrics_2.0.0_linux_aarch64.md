@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 997621
 
 Build-script executable: `/target/debug/build/autometrics-f6e7fbffb162e921/build_script_build-f6e7fbffb162e921`
 
 Working directory: `/tmp/crate-build-aarch64-xbxbpi6a/src/autometrics-2.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

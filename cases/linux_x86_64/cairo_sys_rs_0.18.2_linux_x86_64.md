@@ -20,15 +20,11 @@ pkg-config --modversion cairo "cairo >= 1.14"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1915868
 
 Build-script executable: `/work/target/debug/build/cairo-sys-rs-e181cd22ae9c94a4/build_script_build-e181cd22ae9c94a4`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1063159
 
 Build-script executable: `/target/debug/build/tree-sitter-c-sharp-d38dba320c63e201/build_script_build-d38dba320c63e201`
 
 Working directory: `/tmp/crate-build-aarch64-xuhkm4x_/src/tree-sitter-c-sharp-0.23.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

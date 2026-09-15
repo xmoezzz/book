@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 17872
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qrqgr337/src/multer-3.1.0/target/debug/build/multer-f1b7ade187c71a55/build_script_build-f1b7ade187c71a55.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qrqgr337/src/multer-3.1.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

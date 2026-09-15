@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 3720
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ufd1eo5a/src/parity-util-mem-0.12.0/target/debug/build/parity-util-mem-17887c2591d3334b/build_script_build-17887c2591d3334b.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ufd1eo5a/src/parity-util-mem-0.12.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

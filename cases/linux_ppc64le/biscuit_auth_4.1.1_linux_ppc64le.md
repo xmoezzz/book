@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 408970
 
 Build-script executable: `/target/debug/build/biscuit-auth-3db681fe4e0ed847/build_script_build-3db681fe4e0ed847`
 
 Working directory: `/tmp/crate-build-ppc64le-e6biywef/src/biscuit-auth-4.1.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

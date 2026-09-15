@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2356
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ajpwhr1x/src/khronos-egl-6.0.0/target/debug/build/khronos-egl-7bd07b8e19f7fd77/build_script_build-7bd07b8e19f7fd77.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ajpwhr1x/src/khronos-egl-6.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

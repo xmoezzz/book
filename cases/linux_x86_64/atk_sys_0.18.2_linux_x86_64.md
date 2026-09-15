@@ -20,15 +20,11 @@ pkg-config --modversion atk "atk >= 2.28"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1963296
 
 Build-script executable: `/work/target/debug/build/atk-sys-c3dcfbcc5a396da4/build_script_build-c3dcfbcc5a396da4`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

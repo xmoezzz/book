@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 731385
 
 Build-script executable: `/target/debug/build/orbclient-04e125e8d9c3b8ab/build_script_build-04e125e8d9c3b8ab`
 
 Working directory: `/tmp/crate-build-ppc64le-cf5uk62r/src/orbclient-0.3.48`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

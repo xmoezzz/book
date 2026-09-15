@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 304906
 
 Build-script executable: `/target/debug/build/io-uring-ea6b6ff132ca8689/build_script_build-ea6b6ff132ca8689`
 
 Working directory: `/tmp/crate-build-aarch64-z3_28rbm/src/io-uring-0.7.9`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 176240
 
 Build-script executable: `/target/debug/build/zmij-5cf9a5e6e986b42d/build_script_build-5cf9a5e6e986b42d`
 
 Working directory: `/tmp/crate-build-aarch64-3fzbq19x/src/zmij-1.0.21`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

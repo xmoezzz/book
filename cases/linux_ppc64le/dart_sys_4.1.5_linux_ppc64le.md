@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 839141
 
 Build-script executable: `/target/debug/build/dart-sys-f05a7882a0a8a47a/build_script_build-f05a7882a0a8a47a`
 
 Working directory: `/tmp/crate-build-ppc64le-65qsqvkh/src/dart-sys-4.1.5`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 20932
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-m8l_sljm/src/arrow2-0.17.3/target/debug/build/arrow2-19b169b4b79e13eb/build_script_build-19b169b4b79e13eb.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-m8l_sljm/src/arrow2-0.17.3`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -20,15 +20,11 @@ pkg-config --modversion libusb-1.0
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2074980
 
 Build-script executable: `/work/target/debug/build/libusb1-sys-ed7a0b2505a45743/build_script_build-ed7a0b2505a45743`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

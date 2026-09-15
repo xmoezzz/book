@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 8388
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0r87q4nl/src/tree-sitter-rust-0.24.0/target/debug/build/tree-sitter-rust-3bd1d42dce6b91e7/build_script_build-3bd1d42dce6b91e7.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0r87q4nl/src/tree-sitter-rust-0.24.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

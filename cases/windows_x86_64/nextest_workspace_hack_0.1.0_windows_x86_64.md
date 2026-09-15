@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 20112
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-se7oljk1/src/nextest-workspace-hack-0.1.0/target/debug/build/nextest-workspace-hack-2e649edc05b4de3f/build_script_build-2e649edc05b4de3f.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-se7oljk1/src/nextest-workspace-hack-0.1.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

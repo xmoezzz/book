@@ -20,15 +20,11 @@ pkg-config --modversion libudev
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1867287
 
 Build-script executable: `/work/target/debug/build/libudev-sys-543ec4092d1cb386/build_script_build-543ec4092d1cb386`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux riscv64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 144103
 
 Build-script executable: `/target/debug/build/lzma-sys-5c2d69c993aabfec/build_script_build-5c2d69c993aabfec`
 
 Working directory: `/tmp/crate-build-riscv64-_yh6v0so/src/lzma-sys-0.1.20`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

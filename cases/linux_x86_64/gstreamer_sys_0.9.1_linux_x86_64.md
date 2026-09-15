@@ -20,15 +20,11 @@ pkg-config --modversion gstreamer-1.0 "gstreamer-1.0 >= 1.8"
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 2104953
 
 Build-script executable: `/work/target/debug/build/gstreamer-sys-7ba062b487e73395/build_script_build-7ba062b487e73395`
 
 Working directory: `/work`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 843683
 
 Build-script executable: `/target/debug/build/sentry-contexts-6e9c60c6cd894f40/build_script_build-6e9c60c6cd894f40`
 
 Working directory: `/tmp/crate-build-aarch64-niw1cu5i/src/sentry-contexts-0.36.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

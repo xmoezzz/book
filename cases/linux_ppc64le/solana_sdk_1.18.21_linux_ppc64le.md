@@ -6,15 +6,11 @@ Platform: Linux ppc64le
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 1095368
 
 Build-script executable: `/target/debug/build/solana-sdk-ae425190e0d0bac3/build_script_build-ae425190e0d0bac3`
 
 Working directory: `/tmp/crate-build-ppc64le-q594zzr4/src/solana-sdk-1.18.21`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

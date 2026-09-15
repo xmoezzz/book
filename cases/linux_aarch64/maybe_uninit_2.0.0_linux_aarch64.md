@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 139599
 
 Build-script executable: `/target/debug/build/maybe-uninit-c0e9b548d5b0da81/build_script_build-c0e9b548d5b0da81`
 
 Working directory: `/tmp/crate-build-aarch64-hy74dcke/src/maybe-uninit-2.0.0`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

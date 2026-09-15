@@ -6,15 +6,11 @@ Platform: Linux aarch64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 161646
 
 Build-script executable: `/target/debug/build/matrixmultiply-1a8844f16c156f87/build_script_build-1a8844f16c156f87`
 
 Working directory: `/tmp/crate-build-aarch64-874bq9c7/src/matrixmultiply-0.3.10`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

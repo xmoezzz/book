@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 11980
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-cu_bbbu9/src/vergen-gitcl-1.0.8/target/debug/build/vergen-gitcl-cfe91155acea0817/build_script_build-cfe91155acea0817.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-cu_bbbu9/src/vergen-gitcl-1.0.8`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 12584
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ih3db4pb/src/memoffset-0.9.1/target/debug/build/memoffset-4e13ea31a6ed4498/build_script_build-4e13ea31a6ed4498.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ih3db4pb/src/memoffset-0.9.1`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 

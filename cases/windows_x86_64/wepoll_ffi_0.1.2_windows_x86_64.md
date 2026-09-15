@@ -6,15 +6,11 @@ Platform: Windows x86_64
 
 ### Build-script executable native dependencies
 
-These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.
-
 #### Linker process 18644
 
 Build-script executable: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2/target/debug/build/wepoll-ffi-9b82731ef6b53e2c/build_script_build-9b82731ef6b53e2c.exe`
 
 Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2`
-
-Full linker command: retained in the raw case.
 
 **Linker library inputs**
 
