@@ -4,6 +4,3110 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7/symbols.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.030y3wwpmxpslzwi3m4ydm7x2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0al51i56e137z2kc5nunukczm.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0b5cu7jowlr0y0g4vwd8a9ci2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0c6h82rfesfc1gt8k7r6g0oqw.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0zogmtdguj4hicd36oif1ytxl.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1qnuft0824tf4ewdv94bwwtnz.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1wwx7oapljv9fqq4vvrg9frny.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.20ivuadoo7yyr8ei8pcvs1yqh.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.31b2vd9gg954cucaewcf2wg10.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3l6vwlgugy6qvjeui7spv41i4.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3n0h4vamwi4srwxgjgnhxqmjg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3xif1qzcna4xix4e6pbldgf11.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.47geen3afhfg3rd67znzzmctb.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.52jbyqkp68dmb0rynnrhxn2di.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.59pn9ay3ijnoei2ryqr82p6v7.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5hr32dodhdwpscme98twstapn.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5ijw18l8o8m2qyr95vy6xnoav.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6l99m77nzatk5lb1h38s0kzt9.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6nwq24ja3zv3r93rdwhfw61fb.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6rxj44piqzowqrnisevxplvkg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.7ajajha6d8uv637zxkjaqq0og.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8lfc8ix4aj4ycveffu6ccc618.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8mzjzp7dq4zhwb4dvutdzje2m.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8t6syfeim378xsq99ammhgepr.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.94ug0hh7lrcuxfmkmlhcspzy6.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.a8j68d6y3jgdz5exffuz2dkmg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.abhtey2cqzyi4s054bvxu69ra.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.aehrbj3oky7o3x50ovgzqnnnc.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.agg2jcv6eb49maqab4a3qufu7.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.atff2rkietz5h4wh0t8jmwikf.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.b8kxtyi8ri6fq50wfdjy65qp2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.ba7f4rka82wa5fk5yxv3bj34v.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhfltv5xhpor92chnqm9ahjog.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhljj1u95x1tgr4vfyp400atu.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.c32arnc7k2k5q5jd0jg2ncrvo.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.csqnmr37lyzgdzcrnhu4fwcrp.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.da1au9ddmp2w79loi8uu9lfit.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.enqxai73guzptqrk6km71mmvi.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eoxcepwy1v5yrxrifyfjrh5dv.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.esx5d2vxskxaw0bf6y2i8r9vj.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eyn7zmyawanjhnvkzo51mrrf2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.f1d68q5vmfkz04q2a3l6p1rns.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.4rh8elk36cnt9k1r8qa5p31uu.0pixejb.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libbindgen-631146e6ecc62096.rlib",
+    "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib",
+    "/target/debug/deps/librustc_hash-50381adac9c6bd06.rlib",
+    "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib",
+    "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib",
+    "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib",
+    "/target/debug/deps/libitertools-0411d4739bf2a86b.rlib",
+    "/target/debug/deps/libeither-f7944c00bb58f6b4.rlib",
+    "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib",
+    "/target/debug/deps/libnom-bff3d058a5fd0465.rlib",
+    "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib",
+    "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib",
+    "/target/debug/deps/liblibloading-965dc4a4f36fba38.rlib",
+    "/target/debug/deps/libcfg_if-4a499ef178f2ff1a.rlib",
+    "/target/debug/deps/liblibc-101a542da021e0cb.rlib",
+    "/target/debug/deps/libglob-a91c897b77dd6906.rlib",
+    "/target/debug/deps/libsyn-990c7a0ec8065751.rlib",
+    "/target/debug/deps/liblog-a72a6a177ec68abc.rlib",
+    "/target/debug/deps/libquote-72949d5822e90cd0.rlib",
+    "/target/debug/deps/libproc_macro2-64766898606113cc.rlib",
+    "/target/debug/deps/libunicode_ident-a00e74d44458319e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/target/debug/deps/libbitflags-aac1defa16229336.rlib",
+    "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-ldl",
+    "-lc",
+    "-lm",
+    "-lrt",
+    "-lpthread",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7/symbols.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.030y3wwpmxpslzwi3m4ydm7x2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0al51i56e137z2kc5nunukczm.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0b5cu7jowlr0y0g4vwd8a9ci2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0c6h82rfesfc1gt8k7r6g0oqw.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0zogmtdguj4hicd36oif1ytxl.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1qnuft0824tf4ewdv94bwwtnz.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1wwx7oapljv9fqq4vvrg9frny.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.20ivuadoo7yyr8ei8pcvs1yqh.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.31b2vd9gg954cucaewcf2wg10.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3l6vwlgugy6qvjeui7spv41i4.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3n0h4vamwi4srwxgjgnhxqmjg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3xif1qzcna4xix4e6pbldgf11.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.47geen3afhfg3rd67znzzmctb.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.52jbyqkp68dmb0rynnrhxn2di.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.59pn9ay3ijnoei2ryqr82p6v7.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5hr32dodhdwpscme98twstapn.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5ijw18l8o8m2qyr95vy6xnoav.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6l99m77nzatk5lb1h38s0kzt9.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6nwq24ja3zv3r93rdwhfw61fb.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6rxj44piqzowqrnisevxplvkg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.7ajajha6d8uv637zxkjaqq0og.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8lfc8ix4aj4ycveffu6ccc618.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8mzjzp7dq4zhwb4dvutdzje2m.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8t6syfeim378xsq99ammhgepr.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.94ug0hh7lrcuxfmkmlhcspzy6.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.a8j68d6y3jgdz5exffuz2dkmg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.abhtey2cqzyi4s054bvxu69ra.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.aehrbj3oky7o3x50ovgzqnnnc.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.agg2jcv6eb49maqab4a3qufu7.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.atff2rkietz5h4wh0t8jmwikf.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.b8kxtyi8ri6fq50wfdjy65qp2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.ba7f4rka82wa5fk5yxv3bj34v.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhfltv5xhpor92chnqm9ahjog.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhljj1u95x1tgr4vfyp400atu.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.c32arnc7k2k5q5jd0jg2ncrvo.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.csqnmr37lyzgdzcrnhu4fwcrp.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.da1au9ddmp2w79loi8uu9lfit.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.enqxai73guzptqrk6km71mmvi.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eoxcepwy1v5yrxrifyfjrh5dv.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.esx5d2vxskxaw0bf6y2i8r9vj.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eyn7zmyawanjhnvkzo51mrrf2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.f1d68q5vmfkz04q2a3l6p1rns.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.4rh8elk36cnt9k1r8qa5p31uu.0pixejb.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "dl",
+    "c",
+    "m",
+    "rt",
+    "pthread",
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7/symbols.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.030y3wwpmxpslzwi3m4ydm7x2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0al51i56e137z2kc5nunukczm.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0b5cu7jowlr0y0g4vwd8a9ci2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0c6h82rfesfc1gt8k7r6g0oqw.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0zogmtdguj4hicd36oif1ytxl.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1qnuft0824tf4ewdv94bwwtnz.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1wwx7oapljv9fqq4vvrg9frny.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.20ivuadoo7yyr8ei8pcvs1yqh.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.31b2vd9gg954cucaewcf2wg10.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3l6vwlgugy6qvjeui7spv41i4.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3n0h4vamwi4srwxgjgnhxqmjg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3xif1qzcna4xix4e6pbldgf11.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.47geen3afhfg3rd67znzzmctb.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.52jbyqkp68dmb0rynnrhxn2di.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.59pn9ay3ijnoei2ryqr82p6v7.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5hr32dodhdwpscme98twstapn.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5ijw18l8o8m2qyr95vy6xnoav.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6l99m77nzatk5lb1h38s0kzt9.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6nwq24ja3zv3r93rdwhfw61fb.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6rxj44piqzowqrnisevxplvkg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.7ajajha6d8uv637zxkjaqq0og.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8lfc8ix4aj4ycveffu6ccc618.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8mzjzp7dq4zhwb4dvutdzje2m.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8t6syfeim378xsq99ammhgepr.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.94ug0hh7lrcuxfmkmlhcspzy6.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.a8j68d6y3jgdz5exffuz2dkmg.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.abhtey2cqzyi4s054bvxu69ra.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.aehrbj3oky7o3x50ovgzqnnnc.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.agg2jcv6eb49maqab4a3qufu7.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.atff2rkietz5h4wh0t8jmwikf.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.b8kxtyi8ri6fq50wfdjy65qp2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.ba7f4rka82wa5fk5yxv3bj34v.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhfltv5xhpor92chnqm9ahjog.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhljj1u95x1tgr4vfyp400atu.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.c32arnc7k2k5q5jd0jg2ncrvo.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.csqnmr37lyzgdzcrnhu4fwcrp.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.da1au9ddmp2w79loi8uu9lfit.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.enqxai73guzptqrk6km71mmvi.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eoxcepwy1v5yrxrifyfjrh5dv.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.esx5d2vxskxaw0bf6y2i8r9vj.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eyn7zmyawanjhnvkzo51mrrf2.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.f1d68q5vmfkz04q2a3l6p1rns.0pixejb.rcgu.o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.4rh8elk36cnt9k1r8qa5p31uu.0pixejb.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libbindgen-631146e6ecc62096.rlib",
+    "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib",
+    "/target/debug/deps/librustc_hash-50381adac9c6bd06.rlib",
+    "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib",
+    "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib",
+    "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib",
+    "/target/debug/deps/libitertools-0411d4739bf2a86b.rlib",
+    "/target/debug/deps/libeither-f7944c00bb58f6b4.rlib",
+    "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib",
+    "/target/debug/deps/libnom-bff3d058a5fd0465.rlib",
+    "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib",
+    "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib",
+    "/target/debug/deps/liblibloading-965dc4a4f36fba38.rlib",
+    "/target/debug/deps/libcfg_if-4a499ef178f2ff1a.rlib",
+    "/target/debug/deps/liblibc-101a542da021e0cb.rlib",
+    "/target/debug/deps/libglob-a91c897b77dd6906.rlib",
+    "/target/debug/deps/libsyn-990c7a0ec8065751.rlib",
+    "/target/debug/deps/liblog-a72a6a177ec68abc.rlib",
+    "/target/debug/deps/libquote-72949d5822e90cd0.rlib",
+    "/target/debug/deps/libproc_macro2-64766898606113cc.rlib",
+    "/target/debug/deps/libunicode_ident-a00e74d44458319e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/target/debug/deps/libbitflags-aac1defa16229336.rlib",
+    "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-ldl",
+    "-lc",
+    "-lm",
+    "-lrt",
+    "-lpthread",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7",
+    "/target/debug/build/onig_sys-59f907ac8401f24a",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/140954           140954       18     4         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/149d3c           149d3c       30     4         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/18463c           18463c       24     4         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca510           2ca510       4d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca560           2ca560       4f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca5b0           2ca5b0       4f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca600           2ca600       91    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca6a0           2ca6a0       96    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca740           2ca740       93    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e9160           2e9160        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e9170           2e9170        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e93b0           2e93b0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e93c0           2e93c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ea720           2ea720        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ea850           2ea850        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eac70           2eac70       38    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ead80           2ead80       38    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eb1e0           2eb1e0       11    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eb220           2eb220       11    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ef5a0           2ef5a0       61    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f07a0           2f07a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f12a0           2f12a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f12c0           2f12c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f1640           2f1640        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f61c0           2f61c0       d3    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f62a0           2f62a0       e1    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6390           2f6390       d5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6470           2f6470        9    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6480           2f6480        9    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6490           2f6490        9    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f64a0           2f64a0        9    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/32e860           32e860        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/36b340           36b340        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/373b30           373b30        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/393650           393650        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3cc890           3cc890        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3cc8a0           3cc8a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9ed0           3e9ed0       14    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9ef0           3e9ef0       1b    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9f10           3e9f10       71    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9f90           3e9f90       6f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea000           3ea000       74    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea2e0           3ea2e0       3c    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea320           3ea320       4e    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea370           3ea370       26    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea3a0           3ea3a0       26    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea440           3ea440       4d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea490           3ea490       6f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4a70           3f4a70       67    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4ae0           3f4ae0        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4b70           3f4b70      205    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4774e0           4774e0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4774f0           4774f0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4fc9e0           4fc9e0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4fc9f0           4fc9f0       26    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/512310           512310       4f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/512360           512360       93    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/537360           537360        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/543bc0           543bc0       71    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/548450           548450        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/548560           548560        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/566b20           566b20       d5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585af0           585af0       4f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585b40           585b40       4f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585b90           585b90       4f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585be0           585be0       92    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585c80           585c80       93    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585d20           585d20       93    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/594be0           594be0        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/594bf0           594bf0        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5a1f00           5a1f00        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5a1f10           5a1f10       26    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb250           5bb250        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb440           5bb440        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb490           5bb490        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb4c0           5bb4c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb560           5bb560        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5be340           5be340        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca040           5ca040       71    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca0c0           5ca0c0       71    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca140           5ca140       70    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5d4900           5d4900        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc5a0           5fc5a0       d5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc680           5fc680       d3    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc760           5fc760       de    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/727c20           727c20        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/727c30           727c30        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/72dc20           72dc20        5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/734120           734120       4f    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/734170           734170       93    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/7347c0           7347c0       71    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/73c6a0           73c6a0       d5    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866530           866530        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866540           866540        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866560           866560        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866570           866570       3e    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8665c0           8665c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8665d0           8665d0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866640           866640       99    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8668e0           8668e0        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866950           866950        d    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86ac10           86ac10       59    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86ac70           86ac70       52    16         /target/debug/deps",
+    "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86acd0           86acd0       30    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/rustckhyxw7/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.030y3wwpmxpslzwi3m4ydm7x2.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0al51i56e137z2kc5nunukczm.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0b5cu7jowlr0y0g4vwd8a9ci2.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0c6h82rfesfc1gt8k7r6g0oqw.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.0zogmtdguj4hicd36oif1ytxl.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1qnuft0824tf4ewdv94bwwtnz.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.1wwx7oapljv9fqq4vvrg9frny.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.20ivuadoo7yyr8ei8pcvs1yqh.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.31b2vd9gg954cucaewcf2wg10.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3l6vwlgugy6qvjeui7spv41i4.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3n0h4vamwi4srwxgjgnhxqmjg.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.3xif1qzcna4xix4e6pbldgf11.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.47geen3afhfg3rd67znzzmctb.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.52jbyqkp68dmb0rynnrhxn2di.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.59pn9ay3ijnoei2ryqr82p6v7.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5hr32dodhdwpscme98twstapn.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.5ijw18l8o8m2qyr95vy6xnoav.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6l99m77nzatk5lb1h38s0kzt9.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6nwq24ja3zv3r93rdwhfw61fb.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.6rxj44piqzowqrnisevxplvkg.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.7ajajha6d8uv637zxkjaqq0og.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8lfc8ix4aj4ycveffu6ccc618.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8mzjzp7dq4zhwb4dvutdzje2m.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.8t6syfeim378xsq99ammhgepr.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.94ug0hh7lrcuxfmkmlhcspzy6.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.a8j68d6y3jgdz5exffuz2dkmg.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.abhtey2cqzyi4s054bvxu69ra.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.aehrbj3oky7o3x50ovgzqnnnc.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.agg2jcv6eb49maqab4a3qufu7.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.atff2rkietz5h4wh0t8jmwikf.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.b8kxtyi8ri6fq50wfdjy65qp2.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.ba7f4rka82wa5fk5yxv3bj34v.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhfltv5xhpor92chnqm9ahjog.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.bhljj1u95x1tgr4vfyp400atu.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.c32arnc7k2k5q5jd0jg2ncrvo.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.csqnmr37lyzgdzcrnhu4fwcrp.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.da1au9ddmp2w79loi8uu9lfit.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.enqxai73guzptqrk6km71mmvi.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eoxcepwy1v5yrxrifyfjrh5dv.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.esx5d2vxskxaw0bf6y2i8r9vj.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.eyn7zmyawanjhnvkzo51mrrf2.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.f1d68q5vmfkz04q2a3l6p1rns.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/onig_sys-59f907ac8401f24a",
+      "kind": "object",
+      "path": "/target/debug/build/onig_sys-59f907ac8401f24a/build_script_build-59f907ac8401f24a.4rh8elk36cnt9k1r8qa5p31uu.0pixejb.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.7.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.8.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librustc_hash-50381adac9c6bd06.rlib(rustc_hash-50381adac9c6bd06.rustc_hash.60e31a1142227527-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib(regex-2d88a0e1b23bb94b.regex.767ee1af487a2862-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib(regex-2d88a0e1b23bb94b.regex.767ee1af487a2862-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnom-bff3d058a5fd0465.rlib(nom-bff3d058a5fd0465.nom.be319d5384944f78-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnom-bff3d058a5fd0465.rlib(nom-bff3d058a5fd0465.nom.be319d5384944f78-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-fe0246c2c3daffc4.rlib(clang_sys-fe0246c2c3daffc4.clang_sys.b05dbd32af3c8cd0-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibloading-965dc4a4f36fba38.rlib(libloading-965dc4a4f36fba38.libloading.4662e362d2848a00-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-990c7a0ec8065751.rlib(syn-990c7a0ec8065751.syn.a19fc28ca16a0207-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblog-a72a6a177ec68abc.rlib(log-a72a6a177ec68abc.log.38a6f7161a506d1b-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.7.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-64766898606113cc.rlib(proc_macro2-64766898606113cc.proc_macro2.e0dd478508da2cd8-cgu.8.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_ident-a00e74d44458319e.rlib(unicode_ident-a00e74d44458319e.unicode_ident.63312ffda0e13c64-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib(proc_macro-9a3b801af650b923.proc_macro.bfe8d0f5e0c53783-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbitflags-aac1defa16229336.rlib(bitflags-aac1defa16229336.bitflags.39d5ce01501916e1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-2b3ba03fe50d3b73.rlib(cc-2b3ba03fe50d3b73.cc.99b14daadbfb1512-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-9d2fae39757f538b.rlib(shlex-9d2fae39757f538b.shlex.1ceebad2f47cb4e6-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-d058549e4bf596c7.rlib(pkg_config-d058549e4bf596c7.pkg_config.b47de1c65bde1503-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib(std_detect-e305c7135f50bfab.std_detect.4859ea97f15b1179-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.139.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.022.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.109.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.005.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/140954           140954       18     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/140954           140954       18     4         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.gcc_except_table._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1a81bf12972c3066E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.gcc_except_table._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1a81bf12972c3066E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/149d3c           149d3c       30     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/149d3c           149d3c       30     4         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.gcc_except_table._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17hc388d77f0fd4da07E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.gcc_except_table._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17hc388d77f0fd4da07E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/18463c           18463c       24     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/18463c           18463c       24     4         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17haafbdb6dc1055c56E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17haafbdb6dc1055c56E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca510           2ca510       4d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca510           2ca510       4d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h586a5e6a106fdfdeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h586a5e6a106fdfdeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca560           2ca560       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca560           2ca560       4f    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h83a95aff9ed8366dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h83a95aff9ed8366dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca5b0           2ca5b0       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca5b0           2ca5b0       4f    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17ha40ecc9944f0ed7fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17ha40ecc9944f0ed7fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca600           2ca600       91    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca600           2ca600       91    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h5db1a22ea0902125E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h5db1a22ea0902125E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca6a0           2ca6a0       96    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca6a0           2ca6a0       96    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h79228daacb064db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h79228daacb064db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca740           2ca740       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ca740           2ca740       93    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h87aa0a82bc460559E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h87aa0a82bc460559E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e9160           2e9160        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e9160           2e9160        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h86c22386fc4da81eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h86c22386fc4da81eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e9170           2e9170        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e9170           2e9170        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$bindgen..ir..context..ItemId$GT$$GT$17h3e346ad38feb2bf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$bindgen..ir..context..ItemId$GT$$GT$17h3e346ad38feb2bf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e93b0           2e93b0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e93b0           2e93b0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17hd4bc5801b67fb808E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17hd4bc5801b67fb808E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e93c0           2e93c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2e93c0           2e93c0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$bindgen..ir..context..ItemId$GT$$GT$17h676ded6275feb06eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$bindgen..ir..context..ItemId$GT$$GT$17h676ded6275feb06eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ea720           2ea720        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ea720           2ea720        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr175drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$17hd5dc92e528b1fe31E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr175drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$17hd5dc92e528b1fe31E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ea850           2ea850        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ea850           2ea850        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr179drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$17h5c05301557a2bf31E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr179drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$17h5c05301557a2bf31E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eac70           2eac70       38    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eac70           2eac70       38    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr203drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$$GT$17ha3dfad13f0650c51E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr203drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$$GT$17ha3dfad13f0650c51E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ead80           2ead80       38    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ead80           2ead80       38    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr207drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$$GT$17h02b6af51012716adE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr207drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$$GT$17h02b6af51012716adE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eb1e0           2eb1e0       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eb1e0           2eb1e0       11    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr311drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$17h2ee8360805653083E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr311drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$17h2ee8360805653083E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eb220           2eb220       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2eb220           2eb220       11    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr317drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$GT$17hd82bc9e09a4e888cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr317drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$GT$17hd82bc9e09a4e888cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ef5a0           2ef5a0       61    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2ef5a0           2ef5a0       61    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1a81bf12972c3066E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1a81bf12972c3066E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f07a0           2f07a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f07a0           2f07a0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr777drop_in_place$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h0ae6ab19f4c85870E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr777drop_in_place$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h0ae6ab19f4c85870E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f12a0           2f12a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f12a0           2f12a0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr88drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..item..Item$GT$$GT$17h8029c1aacdd196aaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr88drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..item..Item$GT$$GT$17h8029c1aacdd196aaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f12c0           2f12c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f12c0           2f12c0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr893drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h9cf376f877cb3511E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr893drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h9cf376f877cb3511E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f1640           2f1640        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f1640           2f1640        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr92drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..item..Item$GT$$GT$17h971facd5fc15467fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN4core3ptr92drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..item..Item$GT$$GT$17h971facd5fc15467fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f61c0           2f61c0       d3    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f61c0           2f61c0       d3    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h360a6ffe0f8addd2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h360a6ffe0f8addd2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f62a0           2f62a0       e1    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f62a0           2f62a0       e1    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4f3b6ab48d5a9502E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4f3b6ab48d5a9502E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6390           2f6390       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6390           2f6390       d5    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hd08b321225441163E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hd08b321225441163E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6470           2f6470        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6470           2f6470        9    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h1aff07628fdc0ba5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h1aff07628fdc0ba5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6480           2f6480        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6480           2f6480        9    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h87d3ed654502ed59E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h87d3ed654502ed59E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6490           2f6490        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f6490           2f6490        9    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hae8e69f58d96e67fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hae8e69f58d96e67fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f64a0           2f64a0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/2f64a0           2f64a0        9    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf40ed48776b4bd40E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.04.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf40ed48776b4bd40E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/32e860           32e860        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/32e860           32e860        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.05.rcgu.o):(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h3c7e6d6cbbd407d2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.05.rcgu.o):(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h3c7e6d6cbbd407d2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/36b340           36b340        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/36b340           36b340        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.06.rcgu.o):(.text._ZN94_$LT$core..iter..adapters..skip..Skip$LT$I$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h1155e774e8c9ffd7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.06.rcgu.o):(.text._ZN94_$LT$core..iter..adapters..skip..Skip$LT$I$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h1155e774e8c9ffd7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/373b30           373b30        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/373b30           373b30        5    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.07.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h662e3c289cd697e8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.07.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h662e3c289cd697e8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/393650           393650        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/393650           393650        5    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h26ebb90a94a7bb2dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h26ebb90a94a7bb2dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3cc890           3cc890        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3cc890           3cc890        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17haedd1c82a64ecad1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17haedd1c82a64ecad1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3cc8a0           3cc8a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3cc8a0           3cc8a0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hb9d744c44d6b606aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hb9d744c44d6b606aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9ed0           3e9ed0       14    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9ed0           3e9ed0       14    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h969c544c06b2b1b6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h969c544c06b2b1b6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9ef0           3e9ef0       1b    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9ef0           3e9ef0       1b    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17had5f7565d1aa26c7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17had5f7565d1aa26c7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9f10           3e9f10       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9f10           3e9f10       71    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h23902b3f39fcd133E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h23902b3f39fcd133E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9f90           3e9f90       6f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3e9f90           3e9f90       6f    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h756c0154bdcc9772E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h756c0154bdcc9772E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea000           3ea000       74    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea000           3ea000       74    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8378f256d992b73dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.10.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8378f256d992b73dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea2e0           3ea2e0       3c    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea2e0           3ea2e0       3c    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h210871def7e8984aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h210871def7e8984aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea320           3ea320       4e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea320           3ea320       4e    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h6cfe855645af07faE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h6cfe855645af07faE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea370           3ea370       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea370           3ea370       26    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h0f2e5d07f0eb36beE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h0f2e5d07f0eb36beE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea3a0           3ea3a0       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea3a0           3ea3a0       26    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h4bb07752b7467925E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h4bb07752b7467925E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea440           3ea440       4d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea440           3ea440       4d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$14visit_file_mut17h4e8c7932b118135eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$14visit_file_mut17h4e8c7932b118135eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea490           3ea490       6f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3ea490           3ea490       6f    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$18visit_item_mod_mut17h27d454bee18bdb36E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$18visit_item_mod_mut17h27d454bee18bdb36E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4a70           3f4a70       67    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4a70           3f4a70       67    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN67_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Debug$GT$3fmt17h5c8436ec4c85547eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN67_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Debug$GT$3fmt17h5c8436ec4c85547eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4ae0           3f4ae0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4ae0           3f4ae0        5    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h6c304434cf49de79E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h6c304434cf49de79E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4b70           3f4b70      205    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/3f4b70           3f4b70      205    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17hc388d77f0fd4da07E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.11.rcgu.o):(.text._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17hc388d77f0fd4da07E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4774e0           4774e0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4774e0           4774e0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.14.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h598116bbd38effbeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.14.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h598116bbd38effbeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4774f0           4774f0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4774f0           4774f0        d    16         /target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.14.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17ha29d3dc519755e2bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-631146e6ecc62096.rlib(bindgen-631146e6ecc62096.bindgen.9292d6883605bfbc-cgu.14.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17ha29d3dc519755e2bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4fc9e0           4fc9e0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4fc9e0           4fc9e0        d    16         /target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.8.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h2cd17c534e3e39d4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.8.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h2cd17c534e3e39d4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4fc9f0           4fc9f0       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/4fc9f0           4fc9f0       26    16         /target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.8.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h7f17ab289a077663E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libprettyplease-419b923d66c1d09f.rlib(prettyplease-419b923d66c1d09f.prettyplease.58ba13102f27942d-cgu.8.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h7f17ab289a077663E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/512310           512310       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/512310           512310       4f    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h29bdd259d25212d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h29bdd259d25212d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/512360           512360       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/512360           512360       93    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h933885abe47e667eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h933885abe47e667eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/537360           537360        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/537360           537360        5    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17he6dafa1e9118fcfdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17he6dafa1e9118fcfdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/543bc0           543bc0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/543bc0           543bc0       71    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h2c3f9021bca7eb7fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h2c3f9021bca7eb7fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/548450           548450        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/548450           548450        d    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr108drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h1adad809666007d8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr108drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h1adad809666007d8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/548560           548560        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/548560           548560        d    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr112drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..literal..Literal$GT$$GT$17he60fda6ad78bcbd1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr112drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..literal..Literal$GT$$GT$17he60fda6ad78bcbd1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/566b20           566b20       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/566b20           566b20       d5    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.13.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe8c5ddcedb5252aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.13.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe8c5ddcedb5252aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585af0           585af0       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585af0           585af0       4f    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h57719be82573443fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h57719be82573443fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585b40           585b40       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585b40           585b40       4f    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5e2c965d8b8e3c99E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5e2c965d8b8e3c99E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585b90           585b90       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585b90           585b90       4f    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbcedccd668e29cf4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbcedccd668e29cf4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585be0           585be0       92    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585be0           585be0       92    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h06d39454163e0d89E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h06d39454163e0d89E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585c80           585c80       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585c80           585c80       93    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h34ce0523137f23c3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h34ce0523137f23c3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585d20           585d20       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/585d20           585d20       93    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h3e07cf8790ea1516E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h3e07cf8790ea1516E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/594be0           594be0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/594be0           594be0        5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h2ea0c94b6d1fd095E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h2ea0c94b6d1fd095E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/594bf0           594bf0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/594bf0           594bf0        5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd815c5e5180737e3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd815c5e5180737e3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5a1f00           5a1f00        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5a1f00           5a1f00        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3b8d94a3d4e20183E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3b8d94a3d4e20183E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5a1f10           5a1f10       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5a1f10           5a1f10       26    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h97f2438e2463222eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h97f2438e2463222eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb250           5bb250        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb250           5bb250        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr100drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..ast..Span$GT$$GT$17hc9a3981022033e84E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr100drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..ast..Span$GT$$GT$17hc9a3981022033e84E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb440           5bb440        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb440           5bb440        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hb4e12ae01e638a68E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hb4e12ae01e638a68E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb490           5bb490        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb490           5bb490        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr109drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h2d951b1408d64cf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr109drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h2d951b1408d64cf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb4c0           5bb4c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb4c0           5bb4c0        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hbd4ed163e109149cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hbd4ed163e109149cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb560           5bb560        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5bb560           5bb560        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr113drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17hfec4f1b14cd065d7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr113drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17hfec4f1b14cd065d7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5be340           5be340        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5be340           5be340        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr96drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..ast..Span$GT$$GT$17h11b22883eb3576a7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr96drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..ast..Span$GT$$GT$17h11b22883eb3576a7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca040           5ca040       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca040           5ca040       71    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h03d183b1f5111790E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h03d183b1f5111790E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca0c0           5ca0c0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca0c0           5ca0c0       71    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h469d2a6287b89404E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h469d2a6287b89404E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca140           5ca140       70    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5ca140           5ca140       70    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe9982ec38d612bcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe9982ec38d612bcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5d4900           5d4900        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5d4900           5d4900        5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h81fc2084a3c8f0bfE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h81fc2084a3c8f0bfE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc5a0           5fc5a0       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc5a0           5fc5a0       d5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h14d4caff7724febcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h14d4caff7724febcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc680           5fc680       d3    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc680           5fc680       d3    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc3ce9426d8e3e13cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc3ce9426d8e3e13cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc760           5fc760       de    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/5fc760           5fc760       de    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he2237efbf9c7e6fbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he2237efbf9c7e6fbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/727c20           727c20        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/727c20           727c20        d    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6da913d79d27e8c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6da913d79d27e8c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/727c30           727c30        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/727c30           727c30        d    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17h6e8edfc8e61ba9a2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17h6e8edfc8e61ba9a2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/72dc20           72dc20        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/72dc20           72dc20        5    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h8af82363c188ee44E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h8af82363c188ee44E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/734120           734120       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/734120           734120       4f    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5b5fb598648350feE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5b5fb598648350feE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/734170           734170       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/734170           734170       93    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hc6fc31b097d5ecd2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hc6fc31b097d5ecd2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/7347c0           7347c0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/7347c0           7347c0       71    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4b50b9a2cd32781dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4b50b9a2cd32781dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/73c6a0           73c6a0       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/73c6a0           73c6a0       d5    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.3.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8f31ee18033d1603E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.3.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8f31ee18033d1603E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866530           866530        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866530           866530        d    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h9550c9ee5712c1b0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h9550c9ee5712c1b0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866540           866540        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866540           866540        d    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17h242610d8971890e2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17h242610d8971890e2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866560           866560        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866560           866560        d    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17h389f7d5f2a4539f1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17h389f7d5f2a4539f1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866570           866570       3e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866570           866570       3e    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hf3d63fe15c9eefb0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hf3d63fe15c9eefb0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8665c0           8665c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8665c0           8665c0        d    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h2e19acf47125ba4dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h2e19acf47125ba4dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8665d0           8665d0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8665d0           8665d0        d    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h22826c25987af61dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h22826c25987af61dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866640           866640       99    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866640           866640       99    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17haafbdb6dc1055c56E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17haafbdb6dc1055c56E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8668e0           8668e0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/8668e0           8668e0        d    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17ha08f8c259643887cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17ha08f8c259643887cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866950           866950        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/866950           866950        d    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hed716de6ed3f8b47E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hed716de6ed3f8b47E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86ac10           86ac10       59    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86ac10           86ac10       59    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h4e7a072779eebf46E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h4e7a072779eebf46E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86ac70           86ac70       52    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86ac70           86ac70       52    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hf4ef9fcb89e20223E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hf4ef9fcb89e20223E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86acd0           86acd0       30    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/86acd0           86acd0       30    16         /target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h8554311d6a95e689E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-72949d5822e90cd0.rlib(quote-72949d5822e90cd0.quote.ca4f9c8d9ee9c8a3-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h8554311d6a95e689E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-223773-1783993312395669638.map",
+  "pid": 223773,
+  "ppid": 223528,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-223773-1783993312395669638.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -38,7 +3142,852 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regexec.o",
+    "-c",
+    "oniguruma/src/regexec.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 224821,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regerror.o",
+    "-c",
+    "oniguruma/src/regerror.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 224972,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regparse.o",
+    "-c",
+    "oniguruma/src/regparse.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 225022,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regext.o",
+    "-c",
+    "oniguruma/src/regext.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 225347,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regcomp.o",
+    "-c",
+    "oniguruma/src/regcomp.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 225429,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-reggnu.o",
+    "-c",
+    "oniguruma/src/reggnu.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 225907,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regenc.o",
+    "-c",
+    "oniguruma/src/regenc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 225923,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regsyntax.o",
+    "-c",
+    "oniguruma/src/regsyntax.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 225992,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regtrav.o",
+    "-c",
+    "oniguruma/src/regtrav.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 226004,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regversion.o",
+    "-c",
+    "oniguruma/src/regversion.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 226017,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-st.o",
+    "-c",
+    "oniguruma/src/st.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 226035,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-onig_init.o",
+    "-c",
+    "oniguruma/src/onig_init.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 226062,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "HAVE_UNISTD_H=1",
+    "-D",
+    "HAVE_SYS_TYPES_H=1",
+    "-D",
+    "HAVE_SYS_TIME_H=1",
+    "oniguruma/src/unicode.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 226084,
+  "ppid": 226080,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-ascii.o",
+    "-c",
+    "oniguruma/src/ascii.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 226218,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-utf16_be.o",
+    "-c",
+    "oniguruma/src/utf16_be.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 226309,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-utf16_le.o",
+    "-c",
+    "oniguruma/src/utf16_le.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 224264,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 226363,
+  "ppid": 224264,
+  "root_cargo_pid": 218062,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 
@@ -122,19 +4071,19 @@ _None._
     "HAVE_SYS_TYPES_H=1",
     "-D",
     "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/regerror.c",
+    "oniguruma/src/regsyntax.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
     "..."
   ],
-  "src": "oniguruma/src/regerror.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regerror.o",
+  "src": "oniguruma/src/regsyntax.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regsyntax.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 224982,
-  "ppid": 224972,
+  "pid": 225993,
+  "ppid": 225992,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,
@@ -178,19 +4127,19 @@ _None._
     "HAVE_SYS_TYPES_H=1",
     "-D",
     "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/utf16_be.c",
+    "oniguruma/src/regexec.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
     "..."
   ],
-  "src": "oniguruma/src/utf16_be.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-utf16_be.o",
+  "src": "oniguruma/src/regexec.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regexec.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 226312,
-  "ppid": 226309,
+  "pid": 224823,
+  "ppid": 224821,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,
@@ -211,118 +4160,6 @@ _None._
 ```
 
 #### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
-    "-I",
-    "oniguruma/src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "HAVE_UNISTD_H=1",
-    "-D",
-    "HAVE_SYS_TYPES_H=1",
-    "-D",
-    "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/st.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
-    "..."
-  ],
-  "src": "oniguruma/src/st.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-st.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 226037,
-  "ppid": 226035,
-  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "root_cargo_pid": 218062,
-  "build_script_root_pid": 224264,
-  "build_script_related": true,
-  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
-    "-I",
-    "oniguruma/src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "HAVE_UNISTD_H=1",
-    "-D",
-    "HAVE_SYS_TYPES_H=1",
-    "-D",
-    "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/regtrav.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
-    "..."
-  ],
-  "src": "oniguruma/src/regtrav.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regtrav.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 226006,
-  "ppid": 226004,
-  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "root_cargo_pid": 218062,
-  "build_script_root_pid": 224264,
-  "build_script_related": true,
-  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
 
 ```json
 {
@@ -378,175 +4215,119 @@ _None._
 }
 ```
 
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "HAVE_UNISTD_H=1",
+    "-D",
+    "HAVE_SYS_TYPES_H=1",
+    "-D",
+    "HAVE_SYS_TIME_H=1",
+    "oniguruma/src/utf16_be.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
+    "..."
+  ],
+  "src": "oniguruma/src/utf16_be.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-utf16_be.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 226312,
+  "ppid": 226309,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "root_cargo_pid": 218062,
+  "build_script_root_pid": 224264,
+  "build_script_related": true,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "HAVE_UNISTD_H=1",
+    "-D",
+    "HAVE_SYS_TYPES_H=1",
+    "-D",
+    "HAVE_SYS_TIME_H=1",
+    "oniguruma/src/st.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
+    "..."
+  ],
+  "src": "oniguruma/src/st.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-st.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 226037,
+  "ppid": 226035,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "root_cargo_pid": 218062,
+  "build_script_root_pid": 224264,
+  "build_script_related": true,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
-    "-I",
-    "oniguruma/src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "HAVE_UNISTD_H=1",
-    "-D",
-    "HAVE_SYS_TYPES_H=1",
-    "-D",
-    "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/regext.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
-    "..."
-  ],
-  "src": "oniguruma/src/regext.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regext.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 225350,
-  "ppid": 225347,
-  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "root_cargo_pid": 218062,
-  "build_script_root_pid": 224264,
-  "build_script_related": true,
-  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
-    "-I",
-    "oniguruma/src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "HAVE_UNISTD_H=1",
-    "-D",
-    "HAVE_SYS_TYPES_H=1",
-    "-D",
-    "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/regversion.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
-    "..."
-  ],
-  "src": "oniguruma/src/regversion.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regversion.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 226019,
-  "ppid": 226017,
-  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "root_cargo_pid": 218062,
-  "build_script_root_pid": 224264,
-  "build_script_related": true,
-  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
-    "-I",
-    "oniguruma/src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "HAVE_UNISTD_H=1",
-    "-D",
-    "HAVE_SYS_TYPES_H=1",
-    "-D",
-    "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/utf8.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
-    "..."
-  ],
-  "src": "oniguruma/src/utf8.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-utf8.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 226273,
-  "ppid": 226259,
-  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "root_cargo_pid": 218062,
-  "build_script_root_pid": 224264,
-  "build_script_related": true,
-  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
-  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 10
 
 ```json
 {
@@ -602,43 +4383,43 @@ _None._
 }
 ```
 
-#### Record 11
+#### Record 8
 
 ```json
 {
   "event": "compile",
-  "tool": "/usr/bin/riscv64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/riscv64-linux-gnu-gcc",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/bin/riscv64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "-march=rv64gc",
-    "-mabi=lp64d",
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
     "-I",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
     "-I",
     "oniguruma/src",
-    "-DHAVE_UNISTD_H=1",
-    "-DHAVE_SYS_TYPES_H=1",
-    "-DHAVE_SYS_TIME_H=1",
-    "-o",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-unicode.o",
-    "-c",
-    "oniguruma/src/unicode.c",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "HAVE_UNISTD_H=1",
+    "-D",
+    "HAVE_SYS_TYPES_H=1",
+    "-D",
+    "HAVE_SYS_TIME_H=1",
+    "oniguruma/src/regparse.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
     "..."
   ],
-  "src": "oniguruma/src/unicode.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-unicode.o",
+  "src": "oniguruma/src/regparse.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regparse.o",
   "success": true,
-  "evidence_source": "process_exec_argv",
+  "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 226080,
-  "ppid": 224264,
+  "pid": 225025,
+  "ppid": 225022,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,
@@ -654,8 +4435,175 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "HAVE_UNISTD_H=1",
+    "-D",
+    "HAVE_SYS_TYPES_H=1",
+    "-D",
+    "HAVE_SYS_TIME_H=1",
+    "oniguruma/src/regerror.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
+    "..."
+  ],
+  "src": "oniguruma/src/regerror.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regerror.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 224982,
+  "ppid": 224972,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "root_cargo_pid": 218062,
+  "build_script_root_pid": 224264,
+  "build_script_related": true,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "HAVE_UNISTD_H=1",
+    "-D",
+    "HAVE_SYS_TYPES_H=1",
+    "-D",
+    "HAVE_SYS_TIME_H=1",
+    "oniguruma/src/reggnu.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
+    "..."
+  ],
+  "src": "oniguruma/src/reggnu.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-reggnu.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 225908,
+  "ppid": 225907,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "root_cargo_pid": 218062,
+  "build_script_root_pid": 224264,
+  "build_script_related": true,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
+    "-I",
+    "oniguruma/src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "HAVE_UNISTD_H=1",
+    "-D",
+    "HAVE_SYS_TYPES_H=1",
+    "-D",
+    "HAVE_SYS_TIME_H=1",
+    "oniguruma/src/regversion.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
+    "..."
+  ],
+  "src": "oniguruma/src/regversion.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regversion.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 226019,
+  "ppid": 226017,
+  "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "root_cargo_pid": 218062,
+  "build_script_root_pid": 224264,
+  "build_script_related": true,
+  "build_script_target_dir": "onig_sys-59f907ac8401f24a",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
+  "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
+  "_cwd_recovered_from_compiler_parent": true
 }
 ```
 
@@ -683,19 +4631,19 @@ _None._
     "HAVE_SYS_TYPES_H=1",
     "-D",
     "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/regsyntax.c",
+    "oniguruma/src/ascii.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
     "..."
   ],
-  "src": "oniguruma/src/regsyntax.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regsyntax.o",
+  "src": "oniguruma/src/ascii.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-ascii.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 225993,
-  "ppid": 225992,
+  "pid": 226219,
+  "ppid": 226218,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,
@@ -739,19 +4687,19 @@ _None._
     "HAVE_SYS_TYPES_H=1",
     "-D",
     "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/regexec.c",
+    "oniguruma/src/regext.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
     "..."
   ],
-  "src": "oniguruma/src/regexec.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regexec.o",
+  "src": "oniguruma/src/regext.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regext.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 224823,
-  "ppid": 224821,
+  "pid": 225350,
+  "ppid": 225347,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,
@@ -851,19 +4799,19 @@ _None._
     "HAVE_SYS_TYPES_H=1",
     "-D",
     "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/reggnu.c",
+    "oniguruma/src/utf8.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
     "..."
   ],
-  "src": "oniguruma/src/reggnu.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-reggnu.o",
+  "src": "oniguruma/src/utf8.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-utf8.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 225908,
-  "ppid": 225907,
+  "pid": 226273,
+  "ppid": 226259,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,
@@ -888,38 +4836,38 @@ _None._
 ```json
 {
   "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "tool": "/usr/bin/riscv64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/riscv64-linux-gnu-gcc",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
     "-I",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out",
     "-I",
     "oniguruma/src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "HAVE_UNISTD_H=1",
-    "-D",
-    "HAVE_SYS_TYPES_H=1",
-    "-D",
-    "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/ascii.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
+    "-DHAVE_UNISTD_H=1",
+    "-DHAVE_SYS_TYPES_H=1",
+    "-DHAVE_SYS_TIME_H=1",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-unicode.o",
+    "-c",
+    "oniguruma/src/unicode.c",
     "..."
   ],
-  "src": "oniguruma/src/ascii.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-ascii.o",
+  "src": "oniguruma/src/unicode.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-unicode.o",
   "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "evidence_source": "process_exec_argv",
   "recovered_from_process_exec": true,
-  "pid": 226219,
-  "ppid": 226218,
+  "pid": 226080,
+  "ppid": 224264,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,
@@ -935,7 +4883,8 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "_build_script_out_dir": "/target/debug/build/onig_sys-59f907ac8401f24a/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -963,19 +4912,19 @@ _None._
     "HAVE_SYS_TYPES_H=1",
     "-D",
     "HAVE_SYS_TIME_H=1",
-    "oniguruma/src/regparse.c",
+    "oniguruma/src/regtrav.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/",
     "..."
   ],
-  "src": "oniguruma/src/regparse.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regparse.o",
+  "src": "oniguruma/src/regtrav.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regtrav.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 225025,
-  "ppid": 225022,
+  "pid": 226006,
+  "ppid": 226004,
   "cwd": "/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1",
   "root_cargo_pid": 218062,
   "build_script_root_pid": 224264,

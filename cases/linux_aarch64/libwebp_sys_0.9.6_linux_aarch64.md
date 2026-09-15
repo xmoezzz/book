@@ -81,11 +81,11 @@ Working directory: `/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6`
 ### Compilation
 
 ```text
-gcc -O0 -ffunction-sections -fdata-sections -fPIC -I <include directory> -Wall -Wextra -fvisibility=hidden -Wall -DNDEBUG=1 -D_THREAD_SAFE=1 -DWEBP_HAVE_NEON=1 -o <object> -c <source>
+cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D NDEBUG=1 -D _THREAD_SAFE=1 -D WEBP_HAVE_NEON=1 <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> ...
 ```
 
 ```text
-cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D NDEBUG=1 -D _THREAD_SAFE=1 -D WEBP_HAVE_NEON=1 <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> ...
+gcc -O0 -ffunction-sections -fdata-sections -fPIC -I <include directory> -Wall -Wextra -fvisibility=hidden -Wall -DNDEBUG=1 -D_THREAD_SAFE=1 -DWEBP_HAVE_NEON=1 -o <object> -c <source>
 ```
 
 ### Static library construction

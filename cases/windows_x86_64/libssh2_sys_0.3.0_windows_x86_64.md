@@ -4,6 +4,18 @@ Platform: Windows x86_64
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0`
+
+```text
+git submodule update --init
+```
+
+Acquisition kind: `git_submodule`
+
+Outcome: failed (exit code 128)
+
 ### Other root-owned linker native-library inputs
 
 #### Linker process 4564

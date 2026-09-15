@@ -4,6 +4,748 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-14608-1783961157487\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\rustcRQKzuf\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.2wk518ngyh3gshewh3bdoirgv.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.5p778knlsc0u56pfxwvclqz8q.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.8sjeurka2gf1j12tef8ssqiy9.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.8vone90hnmb6e5wgb8c1iu1wa.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.a0fu97bii0x4h3cbc1k3r9nfo.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.c1eumvw4ixdsuyaxplu9pu0e4.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.d0mnao81gsub57vo0epa2l1hw.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.eiwz48cmt8lbxybf6ntwfxu55.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.f4lb24oymoh42d63sm6funazj.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.68paqjow39lzx8zahzv04w9gy.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\libcc-c7f5a777797ba992.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "kernel32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\rustcRQKzuf\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.2wk518ngyh3gshewh3bdoirgv.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.5p778knlsc0u56pfxwvclqz8q.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.8sjeurka2gf1j12tef8ssqiy9.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.8vone90hnmb6e5wgb8c1iu1wa.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.a0fu97bii0x4h3cbc1k3r9nfo.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.c1eumvw4ixdsuyaxplu9pu0e4.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.d0mnao81gsub57vo0epa2l1hw.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.eiwz48cmt8lbxybf6ntwfxu55.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.f4lb24oymoh42d63sm6funazj.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.68paqjow39lzx8zahzv04w9gy.1xz5dmv.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "advapi32.lib",
+    "kernel32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0#alloca@0.4.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-14608-1783961157487\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\rustcRQKzuf\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.2wk518ngyh3gshewh3bdoirgv.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.5p778knlsc0u56pfxwvclqz8q.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.8sjeurka2gf1j12tef8ssqiy9.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.8vone90hnmb6e5wgb8c1iu1wa.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.a0fu97bii0x4h3cbc1k3r9nfo.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.c1eumvw4ixdsuyaxplu9pu0e4.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.d0mnao81gsub57vo0epa2l1hw.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.eiwz48cmt8lbxybf6ntwfxu55.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.f4lb24oymoh42d63sm6funazj.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.68paqjow39lzx8zahzv04w9gy.1xz5dmv.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\libcc-c7f5a777797ba992.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "kernel32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7b949907915d356c\\build_script_build-7b949907915d356c.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000290       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000318       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000330       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000340       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000350       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000003e8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000400       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000410       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000440       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000458       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400a3020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000290       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000290       \\177KERNEL32_NULL_THUNK_DATA 00000001400a3290     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002a8       \\177OLEAUT32_NULL_THUNK_DATA 00000001400a32a8     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002f8       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400a32f8     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000318       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400a3318     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000330       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000330       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400a3330     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000340       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000340       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400a3340     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000350       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000350       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400a3350     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000003e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000003e8       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400a33e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000400       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000400       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400a3400     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000410       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000410       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400a3410     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000440       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000440       \\177ntdll_NULL_THUNK_DATA  00000001400a3440     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000458       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000458       \\177ole32_NULL_THUNK_DATA  00000001400a3458     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-link-link-10220-1783961160827217300.map",
+  "pid": 10220,
+  "ppid": 11492,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-link-link-10220-1783961160827217300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0#alloca@0.4.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-O2",
+    "-Z7",
+    "-Brepro",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out\\alloca.o",
+    "-c",
+    "alloca.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out\\alloca.o",
+    "alloca.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0#alloca@0.4.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out\\libcalloca.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out\\alloca.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out\\alloca.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out\\libcalloca.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0#alloca@0.4.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-14608-1783961157487\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\rustcQdaDEj\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.1mnltc5e20xcryn7ckkw6k5jr.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.43zmv7kgr1pf8zg0ooob58jxl.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.52gjpa8osbralk4px83dlg3go.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.5fqgevw44rwgzj140ig7r53ac.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.6lllyvx7dbm21xfvuk4drp7cz.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.9r6asvdbalf6ib03jh2yezvfa.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.b8mpndmdjc5vmcy7djone3x50.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.bqe37jf6slu8g1lf1rc7hhr5l.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.cjmcz3nqiwo4ch2it9xp67vsc.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.ee56zeuslkrobq5cfs7dtqf47.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.eh6r90pbv6zsdmspmtetftyxa.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.ehoreq1w2hmvg6e01bvixb3zu.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.0mlz0zg6zlgus35u5fwi1qkvq.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\liballoca-eb087130478768e0.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/LIBPATH:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\rustcQdaDEj\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.1mnltc5e20xcryn7ckkw6k5jr.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.43zmv7kgr1pf8zg0ooob58jxl.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.52gjpa8osbralk4px83dlg3go.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.5fqgevw44rwgzj140ig7r53ac.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.6lllyvx7dbm21xfvuk4drp7cz.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.9r6asvdbalf6ib03jh2yezvfa.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.b8mpndmdjc5vmcy7djone3x50.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.bqe37jf6slu8g1lf1rc7hhr5l.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.cjmcz3nqiwo4ch2it9xp67vsc.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.ee56zeuslkrobq5cfs7dtqf47.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.eh6r90pbv6zsdmspmtetftyxa.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.ehoreq1w2hmvg6e01bvixb3zu.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.0mlz0zg6zlgus35u5fwi1qkvq.1fddsao.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out"
+  ],
+  "libs": [
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0#alloca@0.4.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-14608-1783961157487\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\rustcQdaDEj\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.1mnltc5e20xcryn7ckkw6k5jr.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.43zmv7kgr1pf8zg0ooob58jxl.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.52gjpa8osbralk4px83dlg3go.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.5fqgevw44rwgzj140ig7r53ac.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.6lllyvx7dbm21xfvuk4drp7cz.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.9r6asvdbalf6ib03jh2yezvfa.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.b8mpndmdjc5vmcy7djone3x50.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.bqe37jf6slu8g1lf1rc7hhr5l.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.cjmcz3nqiwo4ch2it9xp67vsc.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.ee56zeuslkrobq5cfs7dtqf47.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.eh6r90pbv6zsdmspmtetftyxa.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.ehoreq1w2hmvg6e01bvixb3zu.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.0mlz0zg6zlgus35u5fwi1qkvq.1fddsao.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\liballoca-eb087130478768e0.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/LIBPATH:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\build\\alloca-7528ce3311ea27b9\\out",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\target\\debug\\deps\\alloca.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000148       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001b8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001e0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000288       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002b8       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000148       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000148       \\177KERNEL32_NULL_THUNK_DATA 0000000140016148     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000198       \\177VCRUNTIME140_NULL_THUNK_DATA 0000000140016198     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001b8       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400161b8     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001d0       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400161d0     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001e0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001e0       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400161e0     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000001f0       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400161f0     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000288       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:00000288       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000140016288     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002a0       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400162a0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\0002:000002b8       \\177ntdll_NULL_THUNK_DATA  00000001400162b8     ntdll:ntdll.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-link-link-17220-1783961161516250100.map",
+  "pid": 17220,
+  "ppid": 8432,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-63wp951u\\src\\alloca-0.4.0\\.tmp\\native-trace-link-link-17220-1783961161516250100.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "alloca",
+    "version": "0.4.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0#alloca@0.4.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-63wp951u/src/alloca-0.4.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

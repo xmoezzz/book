@@ -4,6 +4,1008 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx/symbols.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.0owsqb32exlfz9e4zfy0ukea5.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.175rns0t3mto1q68tklv0b5l0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1m6fxg0l15yug644tcux9gjlo.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1q38h7mx232y0f5ya0agquj58.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1ujpieqphkid929u2zuyasxqt.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.25khb4azaf0fq6s6swdjebtbv.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2af5gqqiubpq4cqdl8ytzrp11.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2ccchi18isbwame7asnbrh0is.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2iaq2akuhy619k2q9ur21cmcc.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.3iaay4mqhdkquavjojy4cd1g0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4fi2h0rwt4487uy6c5vkpvs9c.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4gbz6zsvg5lh1vf4p9yxge7ih.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4wpqpg81apa012xp4t3sjppbe.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.5xtsps6ysob9qvd5rh2oi3o1k.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6e3vio2x47zjtkhyr0qg8jhfv.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6io54tamcv850218sosv933ru.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6ltsdown4dk7dus3kz0c2sh13.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7bt8ho6w7crjn9j7a0h9zx0r1.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7hdbfynhxla546gbashcdknt2.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9ag94a0yhfmnclpjxoud779y8.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9chxpi5t30opwfwcllu9zl80w.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9h99epwww4oh6vrv5hna0k0oi.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9jaraabn9ttfqjbrf9pktwnpb.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.a7r6kowa17idd6x4nhy2sss79.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.aj2icvqoluol03wa9e9qzju5d.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ap160jlcj8m8wyswanpa5caik.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ats69virqba3qoy20vefohrw0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.bdloj62cf8qo6w8t2p4syyy6u.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.btayayn7luxb750hlte2f7mxw.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cka4i2hapdnj3aemqghlj2w1b.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cmrhfcxqku7m0jm5zzjmp2wep.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.crvf1y24ug0vgrn87nly0nafd.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ddv4u8fft6503ttgoi7druehj.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.dez4ql1dwryx48q577n3f755l.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e5arefwpz848c5yc6e1cm3rjt.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e88085fkrdevura7ztawjrzap.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.f31ixccuavb76obeo11jyee2b.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9cm05mpnye6dxg3fny7mdzyfp.14shm4m.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-1fff6ce2512517c9.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib",
+    "/target/debug/deps/libjobserver-2257cd342bfcfda4.rlib",
+    "/target/debug/deps/liblibc-04d575a399b4c08c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx/symbols.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.0owsqb32exlfz9e4zfy0ukea5.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.175rns0t3mto1q68tklv0b5l0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1m6fxg0l15yug644tcux9gjlo.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1q38h7mx232y0f5ya0agquj58.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1ujpieqphkid929u2zuyasxqt.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.25khb4azaf0fq6s6swdjebtbv.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2af5gqqiubpq4cqdl8ytzrp11.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2ccchi18isbwame7asnbrh0is.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2iaq2akuhy619k2q9ur21cmcc.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.3iaay4mqhdkquavjojy4cd1g0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4fi2h0rwt4487uy6c5vkpvs9c.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4gbz6zsvg5lh1vf4p9yxge7ih.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4wpqpg81apa012xp4t3sjppbe.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.5xtsps6ysob9qvd5rh2oi3o1k.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6e3vio2x47zjtkhyr0qg8jhfv.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6io54tamcv850218sosv933ru.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6ltsdown4dk7dus3kz0c2sh13.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7bt8ho6w7crjn9j7a0h9zx0r1.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7hdbfynhxla546gbashcdknt2.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9ag94a0yhfmnclpjxoud779y8.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9chxpi5t30opwfwcllu9zl80w.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9h99epwww4oh6vrv5hna0k0oi.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9jaraabn9ttfqjbrf9pktwnpb.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.a7r6kowa17idd6x4nhy2sss79.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.aj2icvqoluol03wa9e9qzju5d.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ap160jlcj8m8wyswanpa5caik.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ats69virqba3qoy20vefohrw0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.bdloj62cf8qo6w8t2p4syyy6u.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.btayayn7luxb750hlte2f7mxw.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cka4i2hapdnj3aemqghlj2w1b.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cmrhfcxqku7m0jm5zzjmp2wep.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.crvf1y24ug0vgrn87nly0nafd.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ddv4u8fft6503ttgoi7druehj.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.dez4ql1dwryx48q577n3f755l.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e5arefwpz848c5yc6e1cm3rjt.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e88085fkrdevura7ztawjrzap.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.f31ixccuavb76obeo11jyee2b.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9cm05mpnye6dxg3fny7mdzyfp.14shm4m.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx/symbols.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.0owsqb32exlfz9e4zfy0ukea5.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.175rns0t3mto1q68tklv0b5l0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1m6fxg0l15yug644tcux9gjlo.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1q38h7mx232y0f5ya0agquj58.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1ujpieqphkid929u2zuyasxqt.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.25khb4azaf0fq6s6swdjebtbv.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2af5gqqiubpq4cqdl8ytzrp11.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2ccchi18isbwame7asnbrh0is.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2iaq2akuhy619k2q9ur21cmcc.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.3iaay4mqhdkquavjojy4cd1g0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4fi2h0rwt4487uy6c5vkpvs9c.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4gbz6zsvg5lh1vf4p9yxge7ih.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4wpqpg81apa012xp4t3sjppbe.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.5xtsps6ysob9qvd5rh2oi3o1k.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6e3vio2x47zjtkhyr0qg8jhfv.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6io54tamcv850218sosv933ru.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6ltsdown4dk7dus3kz0c2sh13.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7bt8ho6w7crjn9j7a0h9zx0r1.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7hdbfynhxla546gbashcdknt2.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9ag94a0yhfmnclpjxoud779y8.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9chxpi5t30opwfwcllu9zl80w.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9h99epwww4oh6vrv5hna0k0oi.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9jaraabn9ttfqjbrf9pktwnpb.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.a7r6kowa17idd6x4nhy2sss79.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.aj2icvqoluol03wa9e9qzju5d.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ap160jlcj8m8wyswanpa5caik.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ats69virqba3qoy20vefohrw0.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.bdloj62cf8qo6w8t2p4syyy6u.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.btayayn7luxb750hlte2f7mxw.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cka4i2hapdnj3aemqghlj2w1b.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cmrhfcxqku7m0jm5zzjmp2wep.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.crvf1y24ug0vgrn87nly0nafd.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ddv4u8fft6503ttgoi7druehj.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.dez4ql1dwryx48q577n3f755l.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e5arefwpz848c5yc6e1cm3rjt.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e88085fkrdevura7ztawjrzap.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.f31ixccuavb76obeo11jyee2b.14shm4m.rcgu.o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9cm05mpnye6dxg3fny7mdzyfp.14shm4m.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-1fff6ce2512517c9.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib",
+    "/target/debug/deps/libjobserver-2257cd342bfcfda4.rlib",
+    "/target/debug/deps/liblibc-04d575a399b4c08c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx",
+    "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/705f0            705f0       14    16         /target/debug/build/av-scenechange-d4dc305b1a920ba5",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/107150           107150        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/108090           108090       3e    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/1087a0           1087a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/109380           109380        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fd70           10fd70        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fdc0           10fdc0       48    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fe10           10fe10       30    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/117540           117540        9    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/rustcfqUSqx/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.0owsqb32exlfz9e4zfy0ukea5.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.175rns0t3mto1q68tklv0b5l0.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1m6fxg0l15yug644tcux9gjlo.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1q38h7mx232y0f5ya0agquj58.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.1ujpieqphkid929u2zuyasxqt.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.25khb4azaf0fq6s6swdjebtbv.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2af5gqqiubpq4cqdl8ytzrp11.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2ccchi18isbwame7asnbrh0is.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.2iaq2akuhy619k2q9ur21cmcc.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.3iaay4mqhdkquavjojy4cd1g0.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4fi2h0rwt4487uy6c5vkpvs9c.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4gbz6zsvg5lh1vf4p9yxge7ih.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.4wpqpg81apa012xp4t3sjppbe.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.5xtsps6ysob9qvd5rh2oi3o1k.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6e3vio2x47zjtkhyr0qg8jhfv.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6io54tamcv850218sosv933ru.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.6ltsdown4dk7dus3kz0c2sh13.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7bt8ho6w7crjn9j7a0h9zx0r1.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.7hdbfynhxla546gbashcdknt2.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9ag94a0yhfmnclpjxoud779y8.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9chxpi5t30opwfwcllu9zl80w.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9h99epwww4oh6vrv5hna0k0oi.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9jaraabn9ttfqjbrf9pktwnpb.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.a7r6kowa17idd6x4nhy2sss79.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.aj2icvqoluol03wa9e9qzju5d.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ap160jlcj8m8wyswanpa5caik.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ats69virqba3qoy20vefohrw0.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.bdloj62cf8qo6w8t2p4syyy6u.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.btayayn7luxb750hlte2f7mxw.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cka4i2hapdnj3aemqghlj2w1b.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.cmrhfcxqku7m0jm5zzjmp2wep.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.crvf1y24ug0vgrn87nly0nafd.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.ddv4u8fft6503ttgoi7druehj.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.dez4ql1dwryx48q577n3f755l.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e5arefwpz848c5yc6e1cm3rjt.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.e88085fkrdevura7ztawjrzap.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.f31ixccuavb76obeo11jyee2b.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "object",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.9cm05mpnye6dxg3fny7mdzyfp.14shm4m.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-1fff6ce2512517c9.rlib(cc-1fff6ce2512517c9.cc.b10ce1a07c44e816-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-9d2fae39757f538b.rlib(shlex-9d2fae39757f538b.shlex.1ceebad2f47cb4e6-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-2257cd342bfcfda4.rlib(jobserver-2257cd342bfcfda4.jobserver.29dd7e2569ef1d9a-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-2257cd342bfcfda4.rlib(jobserver-2257cd342bfcfda4.jobserver.29dd7e2569ef1d9a-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-2257cd342bfcfda4.rlib(jobserver-2257cd342bfcfda4.jobserver.29dd7e2569ef1d9a-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-2257cd342bfcfda4.rlib(jobserver-2257cd342bfcfda4.jobserver.29dd7e2569ef1d9a-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/705f0            705f0       14    16         /target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/705f0            705f0       14    16         /target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.5xtsps6ysob9qvd5rh2oi3o1k.14shm4m.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h76f73afeb37f6fedE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/av-scenechange-d4dc305b1a920ba5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/build_script_build-d4dc305b1a920ba5.5xtsps6ysob9qvd5rh2oi3o1k.14shm4m.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h76f73afeb37f6fedE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/107150           107150        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/107150           107150        d    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN100_$LT$core..iter..adapters..GenericShunt$LT$I$C$R$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h0e2335157bc07150E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN100_$LT$core..iter..adapters..GenericShunt$LT$I$C$R$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h0e2335157bc07150E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/108090           108090       3e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/108090           108090       3e    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN4core3ptr106drop_in_place$LT$core..option..Option$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$$GT$17h7fcbe100250c6b7cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN4core3ptr106drop_in_place$LT$core..option..Option$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$$GT$17h7fcbe100250c6b7cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/1087a0           1087a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/1087a0           1087a0        d    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN4core3ptr238drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$C$core..iter..adapters..map..Map$LT$std..env..SplitPaths$C$nasm_rs..Build..find_nasm..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$$GT$17hd03f537c557778d7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN4core3ptr238drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$C$core..iter..adapters..map..Map$LT$std..env..SplitPaths$C$nasm_rs..Build..find_nasm..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$$GT$17hd03f537c557778d7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/109380           109380        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/109380           109380        d    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN4core3ptr78drop_in_place$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$17h74070b84327c3c6cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.1.rcgu.o):(.text._ZN4core3ptr78drop_in_place$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$17h74070b84327c3c6cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fd70           10fd70        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fd70           10fd70        d    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.2.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h04695dea159cc948E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.2.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h04695dea159cc948E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fdc0           10fdc0       48    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fdc0           10fdc0       48    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.2.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hb8360aff88424e1fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.2.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hb8360aff88424e1fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fe10           10fe10       30    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/10fe10           10fe10       30    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.2.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hff8063ba6c9c355fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.2.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hff8063ba6c9c355fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/117540           117540        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1/117540           117540        9    16         /target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.4.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h3d4e79e7c099763bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-c9ea799433d4b06d.rlib(nasm_rs-c9ea799433d4b06d.nasm_rs.daed5471b09179ef-cgu.4.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h3d4e79e7c099763bE",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-537360-1783994722640712433.map",
+  "pid": 537360,
+  "ppid": 537203,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-537360-1783994722640712433.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -27,7 +1029,299 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/d3c8c71c163dd1a4-mc.o",
+    "-c",
+    "src/asm/arm/64/mc.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 537468,
+  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 537493,
+  "ppid": 537468,
+  "root_cargo_pid": 531131,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/d3c8c71c163dd1a4-mc16.o",
+    "-c",
+    "src/asm/arm/64/mc16.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 537468,
+  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 537494,
+  "ppid": 537468,
+  "root_cargo_pid": 531131,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/d3c8c71c163dd1a4-ipred.o",
+    "-c",
+    "src/asm/arm/64/ipred.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 537468,
+  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 537500,
+  "ppid": 537468,
+  "root_cargo_pid": 531131,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/d3c8c71c163dd1a4-ipred16.o",
+    "-c",
+    "src/asm/arm/64/ipred16.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 537468,
+  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 537502,
+  "ppid": 537468,
+  "root_cargo_pid": 531131,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/d3c8c71c163dd1a4-satd.o",
+    "-c",
+    "src/asm/arm/64/satd.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 537468,
+  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 537505,
+  "ppid": 537468,
+  "root_cargo_pid": 531131,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/4c2c960ff68e8e3a-tables.o",
+    "-c",
+    "src/asm/arm/tables.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 537468,
+  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 537508,
+  "ppid": 537468,
+  "root_cargo_pid": 531131,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 
@@ -49,7 +1343,7 @@ _None._
     "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
     "-imultiarch",
     "aarch64-linux-gnu",
-    "src/asm/arm/64/ipred.S",
+    "src/asm/arm/tables.S",
     "-mlittle-endian",
     "-mabi=lp64",
     "-Wall",
@@ -61,13 +1355,13 @@ _None._
     "-gdwarf-4",
     "..."
   ],
-  "src": "src/asm/arm/64/ipred.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/d3c8c71c163dd1a4-ipred.o",
+  "src": "src/asm/arm/tables.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/4c2c960ff68e8e3a-tables.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 537504,
-  "ppid": 537500,
+  "pid": 537512,
+  "ppid": 537508,
   "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
   "root_cargo_pid": 531131,
   "build_script_root_pid": 537468,
@@ -217,62 +1511,6 @@ _None._
     "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
     "-imultiarch",
     "aarch64-linux-gnu",
-    "src/asm/arm/tables.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-Wall",
-    "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "src/asm/arm/tables.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/4c2c960ff68e8e3a-tables.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 537512,
-  "ppid": 537508,
-  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
-  "root_cargo_pid": 531131,
-  "build_script_root_pid": 537468,
-  "build_script_related": true,
-  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
-  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
     "src/asm/arm/64/mc.S",
     "-mlittle-endian",
     "-mabi=lp64",
@@ -311,7 +1549,7 @@ _None._
 }
 ```
 
-#### Record 6
+#### Record 5
 
 ```json
 {
@@ -348,6 +1586,62 @@ _None._
   "recovered_from_process_exec": true,
   "pid": 537501,
   "ppid": 537494,
+  "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "root_cargo_pid": 531131,
+  "build_script_root_pid": 537468,
+  "build_script_related": true,
+  "build_script_target_dir": "av-scenechange-d4dc305b1a920ba5",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
+  "_build_script_out_dir": "/target/debug/build/av-scenechange-d4dc305b1a920ba5/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/asm/arm/64/ipred.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/asm/arm/64/ipred.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/av-scenechange-0236b9f8ccc13322/out/d3c8c71c163dd1a4-ipred.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 537504,
+  "ppid": 537500,
   "cwd": "/tmp/crate-build-aarch64-n6vby1d1/src/av-scenechange-0.14.1",
   "root_cargo_pid": 531131,
   "build_script_root_pid": 537468,

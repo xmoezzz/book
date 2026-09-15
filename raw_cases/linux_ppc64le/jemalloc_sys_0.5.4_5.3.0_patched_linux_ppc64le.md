@@ -4,6 +4,1255 @@ Platform: Linux ppc64le
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8/symbols.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0hb8bo0ai3wh8qtirrip45ee1.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0om4g7sc0ff3ocfazssqjbofx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0so4r21n8ium9ahwnh9xm8n82.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.11dk77ezfbj7dev2y17iyex6c.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.131g1nai30ln4c06z1fzf3yom.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.254mrm06c0jc4io4yk4i2xgfk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2bb8cn95utlm1sj1gbfl1v6r8.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2m30vg20m7hw0gge5el7q49ze.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.308tajf8bglcpyheb2z1digum.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3qhpaq2eg4qxn4iumwpew3n26.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3vc0dgwzu9berluwmimernevx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.403dcj65g66x3cgmfxj4v1to6.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.57n3rprx42hp7vov5i855b53m.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5j8fxwlqfbgr28b20jdiz5hpf.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5mj7zylmjke810kuqjybdq6jl.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5v71717df1nu0rhb6pwya7zkr.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64au1ratz7xivfg69emd1vmfd.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64m75g3iv5iipol7flt8unprb.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.65djntttvsmwfae7hi0nrrqrx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6cab86js6imievlbc16j8gdsm.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6qjzqq1kvzq6gwxhtw9n45kys.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6w9tk0654r9dsb33eacfaktzq.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.70spdol3d74zbtes6saz4kh5e.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.7hv4iuo118zvjhi790nbcvhpt.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8l7pp9rq29kptvgbiz2kd6bcl.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8xciti2foua54l01691wzxlku.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8yoxxdqhtnrozefrc8duez4rd.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.95uzkvcmbg3pnrpmvistwqd5h.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.abn786ikn2ghv7bz01dezozie.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.athtcvoij4h7sct9vgf534xea.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.axjpodq7pvy4tjg7vrx8bauuk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.b2iqzvhujmjdxpqmuckese9d5.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bj5myjkku0xlz8fh3rgswcla3.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bumzz25ra9lru0xvos5qtqat8.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cmh051d28s4nnt4o8z5oydb57.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cv1ax8k35zcibj4ad33tsyn5t.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cvprm79jn62il95ay000ocklw.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cw3i70dxi4l3b6pv7oqdgl71d.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dgjzynmq15p35iznqlifdjsu4.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dhbuec3d64p89nn76zajc7h4n.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dxlobxubtqbwbb9mi496chwna.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eamzm9lxt90zl8uf0hgfi3cht.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.ec73jq4y5ulx9ri3u2gxx7ka9.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eqfjr5jivgtz34utpmtha4sbk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.es0cordrckau4ftfxus0dki7r.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.esctml5s83kth1j0hsdhuajd7.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.etk6x6zbba8ptinoj9sg3yzzn.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.d543tel5yyiydnhnacm3y3ldi.0pjj4qu.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8/symbols.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0hb8bo0ai3wh8qtirrip45ee1.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0om4g7sc0ff3ocfazssqjbofx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0so4r21n8ium9ahwnh9xm8n82.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.11dk77ezfbj7dev2y17iyex6c.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.131g1nai30ln4c06z1fzf3yom.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.254mrm06c0jc4io4yk4i2xgfk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2bb8cn95utlm1sj1gbfl1v6r8.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2m30vg20m7hw0gge5el7q49ze.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.308tajf8bglcpyheb2z1digum.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3qhpaq2eg4qxn4iumwpew3n26.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3vc0dgwzu9berluwmimernevx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.403dcj65g66x3cgmfxj4v1to6.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.57n3rprx42hp7vov5i855b53m.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5j8fxwlqfbgr28b20jdiz5hpf.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5mj7zylmjke810kuqjybdq6jl.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5v71717df1nu0rhb6pwya7zkr.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64au1ratz7xivfg69emd1vmfd.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64m75g3iv5iipol7flt8unprb.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.65djntttvsmwfae7hi0nrrqrx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6cab86js6imievlbc16j8gdsm.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6qjzqq1kvzq6gwxhtw9n45kys.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6w9tk0654r9dsb33eacfaktzq.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.70spdol3d74zbtes6saz4kh5e.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.7hv4iuo118zvjhi790nbcvhpt.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8l7pp9rq29kptvgbiz2kd6bcl.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8xciti2foua54l01691wzxlku.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8yoxxdqhtnrozefrc8duez4rd.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.95uzkvcmbg3pnrpmvistwqd5h.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.abn786ikn2ghv7bz01dezozie.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.athtcvoij4h7sct9vgf534xea.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.axjpodq7pvy4tjg7vrx8bauuk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.b2iqzvhujmjdxpqmuckese9d5.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bj5myjkku0xlz8fh3rgswcla3.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bumzz25ra9lru0xvos5qtqat8.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cmh051d28s4nnt4o8z5oydb57.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cv1ax8k35zcibj4ad33tsyn5t.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cvprm79jn62il95ay000ocklw.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cw3i70dxi4l3b6pv7oqdgl71d.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dgjzynmq15p35iznqlifdjsu4.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dhbuec3d64p89nn76zajc7h4n.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dxlobxubtqbwbb9mi496chwna.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eamzm9lxt90zl8uf0hgfi3cht.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.ec73jq4y5ulx9ri3u2gxx7ka9.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eqfjr5jivgtz34utpmtha4sbk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.es0cordrckau4ftfxus0dki7r.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.esctml5s83kth1j0hsdhuajd7.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.etk6x6zbba8ptinoj9sg3yzzn.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.d543tel5yyiydnhnacm3y3ldi.0pjj4qu.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8/symbols.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0hb8bo0ai3wh8qtirrip45ee1.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0om4g7sc0ff3ocfazssqjbofx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0so4r21n8ium9ahwnh9xm8n82.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.11dk77ezfbj7dev2y17iyex6c.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.131g1nai30ln4c06z1fzf3yom.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.254mrm06c0jc4io4yk4i2xgfk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2bb8cn95utlm1sj1gbfl1v6r8.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2m30vg20m7hw0gge5el7q49ze.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.308tajf8bglcpyheb2z1digum.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3qhpaq2eg4qxn4iumwpew3n26.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3vc0dgwzu9berluwmimernevx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.403dcj65g66x3cgmfxj4v1to6.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.57n3rprx42hp7vov5i855b53m.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5j8fxwlqfbgr28b20jdiz5hpf.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5mj7zylmjke810kuqjybdq6jl.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5v71717df1nu0rhb6pwya7zkr.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64au1ratz7xivfg69emd1vmfd.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64m75g3iv5iipol7flt8unprb.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.65djntttvsmwfae7hi0nrrqrx.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6cab86js6imievlbc16j8gdsm.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6qjzqq1kvzq6gwxhtw9n45kys.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6w9tk0654r9dsb33eacfaktzq.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.70spdol3d74zbtes6saz4kh5e.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.7hv4iuo118zvjhi790nbcvhpt.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8l7pp9rq29kptvgbiz2kd6bcl.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8xciti2foua54l01691wzxlku.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8yoxxdqhtnrozefrc8duez4rd.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.95uzkvcmbg3pnrpmvistwqd5h.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.abn786ikn2ghv7bz01dezozie.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.athtcvoij4h7sct9vgf534xea.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.axjpodq7pvy4tjg7vrx8bauuk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.b2iqzvhujmjdxpqmuckese9d5.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bj5myjkku0xlz8fh3rgswcla3.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bumzz25ra9lru0xvos5qtqat8.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cmh051d28s4nnt4o8z5oydb57.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cv1ax8k35zcibj4ad33tsyn5t.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cvprm79jn62il95ay000ocklw.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cw3i70dxi4l3b6pv7oqdgl71d.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dgjzynmq15p35iznqlifdjsu4.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dhbuec3d64p89nn76zajc7h4n.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dxlobxubtqbwbb9mi496chwna.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eamzm9lxt90zl8uf0hgfi3cht.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.ec73jq4y5ulx9ri3u2gxx7ka9.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eqfjr5jivgtz34utpmtha4sbk.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.es0cordrckau4ftfxus0dki7r.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.esctml5s83kth1j0hsdhuajd7.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.etk6x6zbba8ptinoj9sg3yzzn.0pjj4qu.rcgu.o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.d543tel5yyiydnhnacm3y3ldi.0pjj4qu.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8",
+    "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/rustcbuyUy8/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0hb8bo0ai3wh8qtirrip45ee1.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0om4g7sc0ff3ocfazssqjbofx.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.0so4r21n8ium9ahwnh9xm8n82.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.11dk77ezfbj7dev2y17iyex6c.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.131g1nai30ln4c06z1fzf3yom.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.254mrm06c0jc4io4yk4i2xgfk.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2bb8cn95utlm1sj1gbfl1v6r8.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.2m30vg20m7hw0gge5el7q49ze.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.308tajf8bglcpyheb2z1digum.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3qhpaq2eg4qxn4iumwpew3n26.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.3vc0dgwzu9berluwmimernevx.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.403dcj65g66x3cgmfxj4v1to6.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.57n3rprx42hp7vov5i855b53m.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5j8fxwlqfbgr28b20jdiz5hpf.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5mj7zylmjke810kuqjybdq6jl.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.5v71717df1nu0rhb6pwya7zkr.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64au1ratz7xivfg69emd1vmfd.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.64m75g3iv5iipol7flt8unprb.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.65djntttvsmwfae7hi0nrrqrx.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6cab86js6imievlbc16j8gdsm.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6qjzqq1kvzq6gwxhtw9n45kys.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.6w9tk0654r9dsb33eacfaktzq.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.70spdol3d74zbtes6saz4kh5e.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.7hv4iuo118zvjhi790nbcvhpt.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8l7pp9rq29kptvgbiz2kd6bcl.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8xciti2foua54l01691wzxlku.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.8yoxxdqhtnrozefrc8duez4rd.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.95uzkvcmbg3pnrpmvistwqd5h.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.abn786ikn2ghv7bz01dezozie.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.athtcvoij4h7sct9vgf534xea.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.axjpodq7pvy4tjg7vrx8bauuk.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.b2iqzvhujmjdxpqmuckese9d5.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bj5myjkku0xlz8fh3rgswcla3.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.bumzz25ra9lru0xvos5qtqat8.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cmh051d28s4nnt4o8z5oydb57.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cv1ax8k35zcibj4ad33tsyn5t.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cvprm79jn62il95ay000ocklw.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.cw3i70dxi4l3b6pv7oqdgl71d.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dgjzynmq15p35iznqlifdjsu4.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dhbuec3d64p89nn76zajc7h4n.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.dxlobxubtqbwbb9mi496chwna.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eamzm9lxt90zl8uf0hgfi3cht.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.ec73jq4y5ulx9ri3u2gxx7ka9.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.eqfjr5jivgtz34utpmtha4sbk.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.es0cordrckau4ftfxus0dki7r.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.esctml5s83kth1j0hsdhuajd7.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.etk6x6zbba8ptinoj9sg3yzzn.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/jemalloc-sys-277a43c081ce2406",
+      "kind": "object",
+      "path": "/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406.d543tel5yyiydnhnacm3y3ldi.0pjj4qu.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-435327-1783994441450940332.map",
+  "pid": 435327,
+  "ppid": 434762,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-435327-1783994441450940332.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "ar",
+    "crus",
+    "lib/libjemalloc.a",
+    "src/jemalloc.o",
+    "src/arena.o",
+    "src/background_thread.o",
+    "src/base.o",
+    "src/bin.o",
+    "src/bin_info.o",
+    "src/bitmap.o",
+    "src/buf_writer.o",
+    "src/cache_bin.o",
+    "src/ckh.o",
+    "src/counter.o",
+    "src/ctl.o",
+    "src/decay.o",
+    "src/div.o",
+    "src/ecache.o",
+    "src/edata.o",
+    "src/edata_cache.o",
+    "src/ehooks.o",
+    "src/emap.o",
+    "src/eset.o",
+    "src/exp_grow.o",
+    "src/extent.o",
+    "src/extent_dss.o",
+    "src/extent_mmap.o",
+    "src/fxp.o",
+    "src/san.o",
+    "src/san_bump.o",
+    "src/hook.o",
+    "src/hpa.o",
+    "src/hpa_hooks.o",
+    "src/hpdata.o",
+    "src/inspect.o",
+    "src/large.o",
+    "src/log.o",
+    "src/malloc_io.o",
+    "src/mutex.o",
+    "src/nstime.o",
+    "src/pa.o",
+    "src/pa_extra.o",
+    "src/pai.o",
+    "src/pac.o",
+    "src/pages.o",
+    "src/peak_event.o",
+    "src/prof.o",
+    "src/prof_data.o",
+    "src/prof_log.o",
+    "src/prof_recent.o",
+    "src/prof_stats.o",
+    "src/prof_sys.o",
+    "src/psset.o",
+    "src/rtree.o",
+    "src/safety_check.o",
+    "src/sc.o",
+    "src/sec.o",
+    "src/stats.o",
+    "src/sz.o",
+    "src/tcache.o",
+    "src/test_hooks.o",
+    "src/thread_event.o",
+    "src/ticker.o",
+    "src/tsd.o",
+    "src/witness.o"
+  ],
+  "cwd": "/target/powerpc64le-unknown-linux-gnu/debug/build/jemalloc-sys-b952f379b7c4b8bf/out/build",
+  "exit_code": 0,
+  "inputs": [
+    "lib/libjemalloc.a",
+    "src/jemalloc.o",
+    "src/arena.o",
+    "src/background_thread.o",
+    "src/base.o",
+    "src/bin.o",
+    "src/bin_info.o",
+    "src/bitmap.o",
+    "src/buf_writer.o",
+    "src/cache_bin.o",
+    "src/ckh.o",
+    "src/counter.o",
+    "src/ctl.o",
+    "src/decay.o",
+    "src/div.o",
+    "src/ecache.o",
+    "src/edata.o",
+    "src/edata_cache.o",
+    "src/ehooks.o",
+    "src/emap.o",
+    "src/eset.o",
+    "src/exp_grow.o",
+    "src/extent.o",
+    "src/extent_dss.o",
+    "src/extent_mmap.o",
+    "src/fxp.o",
+    "src/san.o",
+    "src/san_bump.o",
+    "src/hook.o",
+    "src/hpa.o",
+    "src/hpa_hooks.o",
+    "src/hpdata.o",
+    "src/inspect.o",
+    "src/large.o",
+    "src/log.o",
+    "src/malloc_io.o",
+    "src/mutex.o",
+    "src/nstime.o",
+    "src/pa.o",
+    "src/pa_extra.o",
+    "src/pai.o",
+    "src/pac.o",
+    "src/pages.o",
+    "src/peak_event.o",
+    "src/prof.o",
+    "src/prof_data.o",
+    "src/prof_log.o",
+    "src/prof_recent.o",
+    "src/prof_stats.o",
+    "src/prof_sys.o",
+    "src/psset.o",
+    "src/rtree.o",
+    "src/safety_check.o",
+    "src/sc.o",
+    "src/sec.o",
+    "src/stats.o",
+    "src/sz.o",
+    "src/tcache.o",
+    "src/test_hooks.o",
+    "src/thread_event.o",
+    "src/ticker.o",
+    "src/tsd.o",
+    "src/witness.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "ar",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "ar",
+    "crus",
+    "lib/libjemalloc_pic.a",
+    "src/jemalloc.pic.o",
+    "src/arena.pic.o",
+    "src/background_thread.pic.o",
+    "src/base.pic.o",
+    "src/bin.pic.o",
+    "src/bin_info.pic.o",
+    "src/bitmap.pic.o",
+    "src/buf_writer.pic.o",
+    "src/cache_bin.pic.o",
+    "src/ckh.pic.o",
+    "src/counter.pic.o",
+    "src/ctl.pic.o",
+    "src/decay.pic.o",
+    "src/div.pic.o",
+    "src/ecache.pic.o",
+    "src/edata.pic.o",
+    "src/edata_cache.pic.o",
+    "src/ehooks.pic.o",
+    "src/emap.pic.o",
+    "src/eset.pic.o",
+    "src/exp_grow.pic.o",
+    "src/extent.pic.o",
+    "src/extent_dss.pic.o",
+    "src/extent_mmap.pic.o",
+    "src/fxp.pic.o",
+    "src/san.pic.o",
+    "src/san_bump.pic.o",
+    "src/hook.pic.o",
+    "src/hpa.pic.o",
+    "src/hpa_hooks.pic.o",
+    "src/hpdata.pic.o",
+    "src/inspect.pic.o",
+    "src/large.pic.o",
+    "src/log.pic.o",
+    "src/malloc_io.pic.o",
+    "src/mutex.pic.o",
+    "src/nstime.pic.o",
+    "src/pa.pic.o",
+    "src/pa_extra.pic.o",
+    "src/pai.pic.o",
+    "src/pac.pic.o",
+    "src/pages.pic.o",
+    "src/peak_event.pic.o",
+    "src/prof.pic.o",
+    "src/prof_data.pic.o",
+    "src/prof_log.pic.o",
+    "src/prof_recent.pic.o",
+    "src/prof_stats.pic.o",
+    "src/prof_sys.pic.o",
+    "src/psset.pic.o",
+    "src/rtree.pic.o",
+    "src/safety_check.pic.o",
+    "src/sc.pic.o",
+    "src/sec.pic.o",
+    "src/stats.pic.o",
+    "src/sz.pic.o",
+    "src/tcache.pic.o",
+    "src/test_hooks.pic.o",
+    "src/thread_event.pic.o",
+    "src/ticker.pic.o",
+    "src/tsd.pic.o",
+    "src/witness.pic.o"
+  ],
+  "cwd": "/target/powerpc64le-unknown-linux-gnu/debug/build/jemalloc-sys-b952f379b7c4b8bf/out/build",
+  "exit_code": 0,
+  "inputs": [
+    "lib/libjemalloc_pic.a",
+    "src/jemalloc.pic.o",
+    "src/arena.pic.o",
+    "src/background_thread.pic.o",
+    "src/base.pic.o",
+    "src/bin.pic.o",
+    "src/bin_info.pic.o",
+    "src/bitmap.pic.o",
+    "src/buf_writer.pic.o",
+    "src/cache_bin.pic.o",
+    "src/ckh.pic.o",
+    "src/counter.pic.o",
+    "src/ctl.pic.o",
+    "src/decay.pic.o",
+    "src/div.pic.o",
+    "src/ecache.pic.o",
+    "src/edata.pic.o",
+    "src/edata_cache.pic.o",
+    "src/ehooks.pic.o",
+    "src/emap.pic.o",
+    "src/eset.pic.o",
+    "src/exp_grow.pic.o",
+    "src/extent.pic.o",
+    "src/extent_dss.pic.o",
+    "src/extent_mmap.pic.o",
+    "src/fxp.pic.o",
+    "src/san.pic.o",
+    "src/san_bump.pic.o",
+    "src/hook.pic.o",
+    "src/hpa.pic.o",
+    "src/hpa_hooks.pic.o",
+    "src/hpdata.pic.o",
+    "src/inspect.pic.o",
+    "src/large.pic.o",
+    "src/log.pic.o",
+    "src/malloc_io.pic.o",
+    "src/mutex.pic.o",
+    "src/nstime.pic.o",
+    "src/pa.pic.o",
+    "src/pa_extra.pic.o",
+    "src/pai.pic.o",
+    "src/pac.pic.o",
+    "src/pages.pic.o",
+    "src/peak_event.pic.o",
+    "src/prof.pic.o",
+    "src/prof_data.pic.o",
+    "src/prof_log.pic.o",
+    "src/prof_recent.pic.o",
+    "src/prof_stats.pic.o",
+    "src/prof_sys.pic.o",
+    "src/psset.pic.o",
+    "src/rtree.pic.o",
+    "src/safety_check.pic.o",
+    "src/sc.pic.o",
+    "src/sec.pic.o",
+    "src/stats.pic.o",
+    "src/sz.pic.o",
+    "src/tcache.pic.o",
+    "src/test_hooks.pic.o",
+    "src/thread_event.pic.o",
+    "src/ticker.pic.o",
+    "src/tsd.pic.o",
+    "src/witness.pic.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "ar",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -58,7 +1307,8605 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/decay.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450143,
+  "ppid": 450135,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450189,
+  "ppid": 450186,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/extent.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "extent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450245,
+  "ppid": 450244,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/exp_grow.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "exp_grow.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450243,
+  "ppid": 450227,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/bitmap.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450323,
+  "ppid": 450307,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/extent_mmap.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "extent_mmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450353,
+  "ppid": 450337,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/base.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450399,
+  "ppid": 450398,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ehooks.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/ehooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450401,
+  "ppid": 450400,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/fxp.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450409,
+  "ppid": 450408,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent_mmap.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/extent_mmap.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450416,
+  "ppid": 450415,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/exp_grow.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/exp_grow.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450427,
+  "ppid": 450424,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/san_bump.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450429,
+  "ppid": 450426,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/extent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450448,
+  "ppid": 450443,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450477,
+  "ppid": 450473,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa_hooks.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/hpa_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450495,
+  "ppid": 450491,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/pac.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "pac.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450525,
+  "ppid": 450522,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/inspect.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/inspect.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450529,
+  "ppid": 450526,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ctl.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/ctl.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450530,
+  "ppid": 450528,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/malloc_io.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450546,
+  "ppid": 450543,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/log.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450555,
+  "ppid": 450553,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/nstime.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/nstime.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450556,
+  "ppid": 450554,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/mutex.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/mutex.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450573,
+  "ppid": 450570,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpdata.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/hpdata.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450579,
+  "ppid": 450576,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa_extra.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/pa_extra.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450601,
+  "ppid": 450595,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/pa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450621,
+  "ppid": 450618,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pac.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/pac.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450623,
+  "ppid": 450620,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/peak_event.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/peak_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450653,
+  "ppid": 450651,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sc.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/sc.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450675,
+  "ppid": 450674,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/rtree.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/rtree.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450690,
+  "ppid": 450688,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/test_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450692,
+  "ppid": 450691,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/witness.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "witness.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450709,
+  "ppid": 450706,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/sec.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450752,
+  "ppid": 450751,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_log.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/prof_log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450766,
+  "ppid": 450764,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/prof_recent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450771,
+  "ppid": 450767,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/thread_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450845,
+  "ppid": 450839,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/tsd.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450936,
+  "ppid": 450934,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 451023,
+  "ppid": 451022,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/jemalloc.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454036,
+  "ppid": 454034,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.o",
+    "-o",
+    "src/decay.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454530,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.o",
+    "-o",
+    "src/base.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454546,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454551,
+  "ppid": 454546,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.o",
+    "-o",
+    "src/background_thread.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454625,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454636,
+  "ppid": 454625,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.o",
+    "-o",
+    "src/ecache.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454635,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454656,
+  "ppid": 454635,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.o",
+    "-o",
+    "src/bitmap.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454788,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454791,
+  "ppid": 454788,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/exp_grow.o",
+    "-o",
+    "src/exp_grow.d",
+    "src/exp_grow.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455098,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/exp_grow.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/exp_grow.c",
+    "-o",
+    "src/exp_grow.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455101,
+  "ppid": 455098,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.o",
+    "-o",
+    "src/edata.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455185,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455188,
+  "ppid": 455185,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/fxp.o",
+    "-o",
+    "src/fxp.d",
+    "src/fxp.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455239,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/fxp.c",
+    "-o",
+    "src/fxp.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455250,
+  "ppid": 455239,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent_mmap.o",
+    "-o",
+    "src/extent_mmap.d",
+    "src/extent_mmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455433,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/san_bump.o",
+    "-o",
+    "src/san_bump.d",
+    "src/san_bump.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455447,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-o",
+    "src/san_bump.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455452,
+  "ppid": 455447,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ehooks.o",
+    "-o",
+    "src/ehooks.d",
+    "src/ehooks.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455664,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/emap.o",
+    "-o",
+    "src/emap.d",
+    "src/emap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455866,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/emap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/emap.c",
+    "-o",
+    "src/emap.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455868,
+  "ppid": 455866,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/hpa_hooks.o",
+    "-o",
+    "src/hpa_hooks.d",
+    "src/hpa_hooks.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456179,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa_hooks.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa_hooks.c",
+    "-o",
+    "src/hpa_hooks.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456182,
+  "ppid": 456179,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.o",
+    "-o",
+    "src/arena.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456198,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456204,
+  "ppid": 456198,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent.o",
+    "-o",
+    "src/extent.d",
+    "src/extent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456236,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "src/extent.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456251,
+  "ppid": 456236,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/log.o",
+    "-o",
+    "src/log.d",
+    "src/log.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456294,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/malloc_io.o",
+    "-o",
+    "src/malloc_io.d",
+    "src/malloc_io.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456345,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-o",
+    "src/malloc_io.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456351,
+  "ppid": 456345,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/nstime.o",
+    "-o",
+    "src/nstime.d",
+    "src/nstime.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456352,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/nstime.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/nstime.c",
+    "-o",
+    "src/nstime.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456360,
+  "ppid": 456352,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/pa.o",
+    "-o",
+    "src/pa.d",
+    "src/pa.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456359,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pa.c",
+    "-o",
+    "src/pa.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456367,
+  "ppid": 456359,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/pa_extra.o",
+    "-o",
+    "src/pa_extra.d",
+    "src/pa_extra.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456365,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/pac.o",
+    "-o",
+    "src/pac.d",
+    "src/pac.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456372,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa_extra.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pa_extra.c",
+    "-o",
+    "src/pa_extra.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456373,
+  "ppid": 456365,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ctl.o",
+    "-o",
+    "src/ctl.d",
+    "src/ctl.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456384,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 77
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/inspect.o",
+    "-o",
+    "src/inspect.d",
+    "src/inspect.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456404,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 78
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/inspect.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/inspect.c",
+    "-o",
+    "src/inspect.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456410,
+  "ppid": 456404,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 79
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/hpdata.o",
+    "-o",
+    "src/hpdata.d",
+    "src/hpdata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456461,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpdata.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpdata.c",
+    "-o",
+    "src/hpdata.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456490,
+  "ppid": 456461,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 81
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/mutex.o",
+    "-o",
+    "src/mutex.d",
+    "src/mutex.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456523,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 82
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/mutex.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/mutex.c",
+    "-o",
+    "src/mutex.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456525,
+  "ppid": 456523,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 83
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/peak_event.o",
+    "-o",
+    "src/peak_event.d",
+    "src/peak_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456527,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 84
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "src/test_hooks.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456601,
+  "ppid": 456599,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 85
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sc.o",
+    "-o",
+    "src/sc.d",
+    "src/sc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456621,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 86
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sec.o",
+    "-o",
+    "src/sec.d",
+    "src/sec.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456647,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 87
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/rtree.o",
+    "-o",
+    "src/rtree.d",
+    "src/rtree.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456658,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 88
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/rtree.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/rtree.c",
+    "-o",
+    "src/rtree.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456660,
+  "ppid": 456658,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 89
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "src/sec.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456653,
+  "ppid": 456647,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 90
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_recent.o",
+    "-o",
+    "src/prof_recent.d",
+    "src/prof_recent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456680,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 91
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "src/prof_recent.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456681,
+  "ppid": 456680,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 92
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/witness.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-o",
+    "src/witness.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456708,
+  "ppid": 456703,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 93
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_log.o",
+    "-o",
+    "src/prof_log.d",
+    "src/prof_log.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456798,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 94
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_log.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_log.c",
+    "-o",
+    "src/prof_log.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456806,
+  "ppid": 456798,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 95
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/thread_event.o",
+    "-o",
+    "src/thread_event.d",
+    "src/thread_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456859,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 96
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-o",
+    "src/background_thread.pic.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456879,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 97
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456898,
+  "ppid": 456879,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 98
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-o",
+    "src/bitmap.pic.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457029,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 99
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457051,
+  "ppid": 457029,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 100
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/stats.o",
+    "-o",
+    "src/stats.d",
+    "src/stats.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457085,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 101
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "src/stats.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457088,
+  "ppid": 457085,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 102
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/tsd.o",
+    "-o",
+    "src/tsd.d",
+    "src/tsd.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457093,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 103
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "src/tsd.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457098,
+  "ppid": 457093,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 104
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.pic.o",
+    "-o",
+    "src/base.pic.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457166,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 105
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.pic.o",
+    "-o",
+    "src/decay.pic.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457190,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 106
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "src/decay.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457196,
+  "ppid": 457190,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 107
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457168,
+  "ppid": 457166,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 108
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.pic.o",
+    "-o",
+    "src/ecache.pic.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457232,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 109
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457236,
+  "ppid": 457232,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 110
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ehooks.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ehooks.c",
+    "-o",
+    "src/ehooks.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457551,
+  "ppid": 457546,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 111
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/exp_grow.pic.o",
+    "-o",
+    "src/exp_grow.pic.d",
+    "src/exp_grow.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457588,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 112
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/exp_grow.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/exp_grow.c",
+    "-o",
+    "src/exp_grow.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457590,
+  "ppid": 457588,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 113
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent_mmap.pic.o",
+    "-o",
+    "src/extent_mmap.pic.d",
+    "src/extent_mmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457705,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 114
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent_mmap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent_mmap.c",
+    "-o",
+    "src/extent_mmap.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457713,
+  "ppid": 457705,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 115
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/fxp.pic.o",
+    "-o",
+    "src/fxp.pic.d",
+    "src/fxp.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457800,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 116
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/fxp.c",
+    "-o",
+    "src/fxp.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457829,
+  "ppid": 457800,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 117
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.pic.o",
+    "-o",
+    "src/edata.pic.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457847,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 118
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457849,
+  "ppid": 457847,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 119
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpdata.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "hpdata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457875,
+  "ppid": 457869,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 120
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.pic.o",
+    "-o",
+    "src/arena.pic.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457912,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 121
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457933,
+  "ppid": 457912,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 122
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/emap.pic.o",
+    "-o",
+    "src/emap.pic.d",
+    "src/emap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458042,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 123
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/emap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/emap.c",
+    "-o",
+    "src/emap.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458047,
+  "ppid": 458042,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 124
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/san_bump.pic.o",
+    "-o",
+    "src/san_bump.pic.d",
+    "src/san_bump.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458143,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 125
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-o",
+    "src/san_bump.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458146,
+  "ppid": 458143,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 126
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/hpa_hooks.pic.o",
+    "-o",
+    "src/hpa_hooks.pic.d",
+    "src/hpa_hooks.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458145,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 127
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa_hooks.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa_hooks.c",
+    "-o",
+    "src/hpa_hooks.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458165,
+  "ppid": 458145,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 128
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ctl.pic.o",
+    "-o",
+    "src/ctl.pic.d",
+    "src/ctl.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458188,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 129
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent.pic.o",
+    "-o",
+    "src/extent.pic.d",
+    "src/extent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458206,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 130
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "src/extent.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458208,
+  "ppid": 458206,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 131
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/malloc_io.pic.o",
+    "-o",
+    "src/malloc_io.pic.d",
+    "src/malloc_io.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458256,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 132
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-o",
+    "src/malloc_io.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458258,
+  "ppid": 458256,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 133
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/log.pic.o",
+    "-o",
+    "src/log.pic.d",
+    "src/log.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458315,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 134
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_log.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "prof_log.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458324,
+  "ppid": 458320,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 135
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/nstime.pic.o",
+    "-o",
+    "src/nstime.pic.d",
+    "src/nstime.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458355,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 136
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/pac.pic.o",
+    "-o",
+    "src/pac.pic.d",
+    "src/pac.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458360,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 137
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/inspect.pic.o",
+    "-o",
+    "src/inspect.pic.d",
+    "src/inspect.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458362,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 138
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pac.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pac.c",
+    "-o",
+    "src/pac.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458371,
+  "ppid": 458360,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 139
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/nstime.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/nstime.c",
+    "-o",
+    "src/nstime.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458357,
+  "ppid": 458355,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 140
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/inspect.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/inspect.c",
+    "-o",
+    "src/inspect.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458375,
+  "ppid": 458362,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 141
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pa.c",
+    "-o",
+    "src/pa.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458392,
+  "ppid": 458390,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 142
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/pa_extra.pic.o",
+    "-o",
+    "src/pa_extra.pic.d",
+    "src/pa_extra.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458435,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 143
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa_extra.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pa_extra.c",
+    "-o",
+    "src/pa_extra.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458437,
+  "ppid": 458435,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 144
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/peak_event.pic.o",
+    "-o",
+    "src/peak_event.pic.d",
+    "src/peak_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458462,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 145
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/peak_event.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/peak_event.c",
+    "-o",
+    "src/peak_event.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458464,
+  "ppid": 458462,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 146
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/mutex.pic.o",
+    "-o",
+    "src/mutex.pic.d",
+    "src/mutex.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458491,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 147
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/mutex.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/mutex.c",
+    "-o",
+    "src/mutex.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458496,
+  "ppid": 458491,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 148
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/rtree.pic.o",
+    "-o",
+    "src/rtree.pic.d",
+    "src/rtree.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458513,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 149
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/rtree.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/rtree.c",
+    "-o",
+    "src/rtree.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458514,
+  "ppid": 458513,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 150
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sc.pic.o",
+    "-o",
+    "src/sc.pic.d",
+    "src/sc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458517,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 151
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sc.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sc.c",
+    "-o",
+    "src/sc.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458524,
+  "ppid": 458517,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 152
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_log.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_log.c",
+    "-o",
+    "src/prof_log.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458580,
+  "ppid": 458576,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 153
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/test_hooks.pic.o",
+    "-o",
+    "src/test_hooks.pic.d",
+    "src/test_hooks.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458581,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 154
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "src/test_hooks.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458585,
+  "ppid": 458581,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 155
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/hpdata.pic.o",
+    "-o",
+    "src/hpdata.pic.d",
+    "src/hpdata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458584,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 156
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sec.pic.o",
+    "-o",
+    "src/sec.pic.d",
+    "src/sec.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458588,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 157
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpdata.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpdata.c",
+    "-o",
+    "src/hpdata.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458589,
+  "ppid": 458584,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 158
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "src/sec.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458592,
+  "ppid": 458588,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 159
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_recent.pic.o",
+    "-o",
+    "src/prof_recent.pic.d",
+    "src/prof_recent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458615,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 160
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "src/prof_recent.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458625,
+  "ppid": 458615,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 161
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/tsd.pic.o",
+    "-o",
+    "src/tsd.pic.d",
+    "src/tsd.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458774,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 162
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "src/tsd.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458775,
+  "ppid": 458774,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 163
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/witness.pic.o",
+    "-o",
+    "src/witness.pic.d",
+    "src/witness.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458797,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 164
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/witness.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-o",
+    "src/witness.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458852,
+  "ppid": 458797,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 165
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/thread_event.pic.o",
+    "-o",
+    "src/thread_event.pic.d",
+    "src/thread_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 459074,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 166
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-o",
+    "src/thread_event.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 459083,
+  "ppid": 459074,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 167
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/stats.pic.o",
+    "-o",
+    "src/stats.pic.d",
+    "src/stats.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 459294,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 168
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "src/stats.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 459301,
+  "ppid": 459294,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 169
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.o",
+    "-o",
+    "src/jemalloc.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 462151,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 170
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 462152,
+  "ppid": 462151,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 171
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-o",
+    "src/jemalloc.pic.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 463277,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 172
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 463283,
+  "ppid": 463277,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
 
 ### Compilation records
 
@@ -83,22 +9930,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/rtree.c",
+    "src/pa.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "rtree.c",
+    "pa.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/rtree.c",
-  "output": "src/rtree.o",
+  "src": "src/pa.c",
+  "output": "src/pa.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456460,
-  "ppid": 456450,
+  "pid": 455941,
+  "ppid": 455931,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -137,22 +9984,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/extent_mmap.c",
+    "src/pac.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "extent_mmap.c",
+    "pac.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/extent_mmap.c",
-  "output": "src/extent_mmap.o",
+  "src": "src/pac.c",
+  "output": "src/pac.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454747,
-  "ppid": 454741,
+  "pid": 456228,
+  "ppid": 456226,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -191,22 +10038,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/stats.c",
+    "src/sec.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "stats.c",
+    "sec.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/stats.c",
-  "output": "src/stats.o",
+  "src": "src/sec.c",
+  "output": "src/sec.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456532,
-  "ppid": 456529,
+  "pid": 456495,
+  "ppid": 456493,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -245,22 +10092,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_log.c",
+    "src/decay.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "prof_log.c",
+    "decay.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/prof_log.c",
-  "output": "src/prof_log.o",
+  "src": "src/decay.c",
+  "output": "src/decay.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456407,
-  "ppid": 456401,
+  "pid": 454285,
+  "ppid": 454280,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -299,22 +10146,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/extent.c",
+    "src/exp_grow.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "extent.c",
+    "exp_grow.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/extent.c",
-  "output": "src/extent.o",
+  "src": "src/exp_grow.c",
+  "output": "src/exp_grow.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454689,
-  "ppid": 454685,
+  "pid": 454690,
+  "ppid": 454682,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -353,22 +10200,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/san_bump.c",
+    "src/inspect.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "san_bump.c",
+    "inspect.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/san_bump.c",
-  "output": "src/san_bump.o",
+  "src": "src/inspect.c",
+  "output": "src/inspect.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454939,
-  "ppid": 454938,
+  "pid": 455288,
+  "ppid": 455287,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -407,22 +10254,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/pac.c",
+    "src/malloc_io.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "pac.c",
+    "malloc_io.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/pac.c",
-  "output": "src/pac.o",
+  "src": "src/malloc_io.c",
+  "output": "src/malloc_io.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456228,
-  "ppid": 456226,
+  "pid": 455530,
+  "ppid": 455523,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -515,22 +10362,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/pa.c",
+    "src/prof_recent.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "pa.c",
+    "prof_recent.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/pa.c",
-  "output": "src/pa.o",
+  "src": "src/prof_recent.c",
+  "output": "src/prof_recent.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 455941,
-  "ppid": 455931,
+  "pid": 456419,
+  "ppid": 456409,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -569,22 +10416,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/pa_extra.c",
+    "src/base.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "pa_extra.c",
+    "base.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/pa_extra.c",
-  "output": "src/pa_extra.o",
+  "src": "src/base.c",
+  "output": "src/base.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456209,
-  "ppid": 456200,
+  "pid": 454124,
+  "ppid": 454114,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -677,22 +10524,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/hpdata.c",
+    "src/fxp.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "hpdata.c",
+    "fxp.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/hpdata.c",
-  "output": "src/hpdata.o",
+  "src": "src/fxp.c",
+  "output": "src/fxp.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 455240,
-  "ppid": 455221,
+  "pid": 454808,
+  "ppid": 454805,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -731,22 +10578,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_recent.c",
+    "src/hpa_hooks.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "prof_recent.c",
+    "hpa_hooks.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/prof_recent.c",
-  "output": "src/prof_recent.o",
+  "src": "src/hpa_hooks.c",
+  "output": "src/hpa_hooks.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456419,
-  "ppid": 456409,
+  "pid": 455181,
+  "ppid": 455177,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -785,22 +10632,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/inspect.c",
+    "src/arena.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "inspect.c",
+    "arena.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/inspect.c",
-  "output": "src/inspect.o",
+  "src": "src/arena.c",
+  "output": "src/arena.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 455288,
-  "ppid": 455287,
+  "pid": 454102,
+  "ppid": 454097,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -839,22 +10686,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/sc.c",
+    "src/peak_event.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "sc.c",
+    "peak_event.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/sc.c",
-  "output": "src/sc.o",
+  "src": "src/peak_event.c",
+  "output": "src/peak_event.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456494,
-  "ppid": 456492,
+  "pid": 456379,
+  "ppid": 456374,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -947,22 +10794,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/decay.c",
+    "src/sc.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "decay.c",
+    "sc.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/decay.c",
-  "output": "src/decay.o",
+  "src": "src/sc.c",
+  "output": "src/sc.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454285,
-  "ppid": 454280,
+  "pid": 456494,
+  "ppid": 456492,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1001,22 +10848,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bitmap.c",
+    "src/emap.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "bitmap.c",
+    "emap.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/bitmap.c",
-  "output": "src/bitmap.o",
+  "src": "src/emap.c",
+  "output": "src/emap.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454179,
-  "ppid": 454167,
+  "pid": 454567,
+  "ppid": 454553,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1055,22 +10902,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/arena.c",
+    "src/extent.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "arena.c",
+    "extent.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/arena.c",
-  "output": "src/arena.o",
+  "src": "src/extent.c",
+  "output": "src/extent.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454102,
-  "ppid": 454097,
+  "pid": 454689,
+  "ppid": 454685,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1109,22 +10956,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/base.c",
+    "src/hpdata.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "base.c",
+    "hpdata.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/base.c",
-  "output": "src/base.o",
+  "src": "src/hpdata.c",
+  "output": "src/hpdata.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454124,
-  "ppid": 454114,
+  "pid": 455240,
+  "ppid": 455221,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1163,22 +11010,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/mutex.c",
+    "src/rtree.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "mutex.c",
+    "rtree.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/mutex.c",
-  "output": "src/mutex.o",
+  "src": "src/rtree.c",
+  "output": "src/rtree.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 455837,
-  "ppid": 455818,
+  "pid": 456460,
+  "ppid": 456450,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1197,114 +11044,6 @@ _None._
 ```
 
 #### Record 22
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/fxp.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "fxp.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/fxp.c",
-  "output": "src/fxp.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454808,
-  "ppid": 454805,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 23
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/ehooks.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "ehooks.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/ehooks.c",
-  "output": "src/ehooks.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454556,
-  "ppid": 454550,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 24
 
 ```json
 {
@@ -1358,7 +11097,7 @@ _None._
 }
 ```
 
-#### Record 25
+#### Record 23
 
 ```json
 {
@@ -1379,22 +11118,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/nstime.c",
+    "src/stats.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "nstime.c",
+    "stats.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/nstime.c",
-  "output": "src/nstime.o",
+  "src": "src/stats.c",
+  "output": "src/stats.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 455872,
-  "ppid": 455869,
+  "pid": 456532,
+  "ppid": 456529,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1412,7 +11151,7 @@ _None._
 }
 ```
 
-#### Record 26
+#### Record 24
 
 ```json
 {
@@ -1466,331 +11205,7 @@ _None._
 }
 ```
 
-#### Record 27
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/malloc_io.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "malloc_io.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/malloc_io.c",
-  "output": "src/malloc_io.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 455530,
-  "ppid": 455523,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 28
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/thread_event.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "thread_event.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/thread_event.c",
-  "output": "src/thread_event.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456581,
-  "ppid": 456577,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 29
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/sec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "sec.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/sec.c",
-  "output": "src/sec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456495,
-  "ppid": 456493,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 30
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/witness.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "witness.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/witness.c",
-  "output": "src/witness.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456639,
-  "ppid": 456637,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 31
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/log.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "log.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/log.c",
-  "output": "src/log.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 455531,
-  "ppid": 455521,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 32
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/exp_grow.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "exp_grow.c",
-    "-m64",
-    "-mcpu=power8",
-    "..."
-  ],
-  "src": "src/exp_grow.c",
-  "output": "src/exp_grow.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454690,
-  "ppid": 454682,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 33
+#### Record 25
 
 ```json
 {
@@ -1844,7 +11259,7 @@ _None._
 }
 ```
 
-#### Record 34
+#### Record 26
 
 ```json
 {
@@ -1865,22 +11280,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/hpa_hooks.c",
+    "src/prof_log.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "hpa_hooks.c",
+    "prof_log.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/hpa_hooks.c",
-  "output": "src/hpa_hooks.o",
+  "src": "src/prof_log.c",
+  "output": "src/prof_log.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 455181,
-  "ppid": 455177,
+  "pid": 456407,
+  "ppid": 456401,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1898,7 +11313,7 @@ _None._
 }
 ```
 
-#### Record 35
+#### Record 27
 
 ```json
 {
@@ -1919,22 +11334,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/peak_event.c",
+    "src/mutex.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "peak_event.c",
+    "mutex.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/peak_event.c",
-  "output": "src/peak_event.o",
+  "src": "src/mutex.c",
+  "output": "src/mutex.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456379,
-  "ppid": 456374,
+  "pid": 455837,
+  "ppid": 455818,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -1952,7 +11367,169 @@ _None._
 }
 ```
 
-#### Record 36
+#### Record 28
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent_mmap.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "extent_mmap.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/extent_mmap.c",
+  "output": "src/extent_mmap.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454747,
+  "ppid": 454741,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pa_extra.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "pa_extra.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/pa_extra.c",
+  "output": "src/pa_extra.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456209,
+  "ppid": 456200,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ehooks.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "ehooks.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/ehooks.c",
+  "output": "src/ehooks.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454556,
+  "ppid": 454550,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 31
 
 ```json
 {
@@ -2006,6 +11583,276 @@ _None._
 }
 ```
 
+#### Record 32
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "bitmap.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/bitmap.c",
+  "output": "src/bitmap.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454179,
+  "ppid": 454167,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/nstime.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "nstime.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/nstime.c",
+  "output": "src/nstime.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 455872,
+  "ppid": 455869,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "thread_event.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/thread_event.c",
+  "output": "src/thread_event.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456581,
+  "ppid": 456577,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 35
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "witness.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/witness.c",
+  "output": "src/witness.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456639,
+  "ppid": 456637,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "san_bump.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/san_bump.c",
+  "output": "src/san_bump.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454939,
+  "ppid": 454938,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
 #### Record 37
 
 ```json
@@ -2027,22 +11874,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/emap.c",
+    "src/log.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "emap.c",
+    "log.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/emap.c",
-  "output": "src/emap.o",
+  "src": "src/log.c",
+  "output": "src/log.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454567,
-  "ppid": 454553,
+  "pid": 455531,
+  "ppid": 455521,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2313,7 +12160,10555 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/counter.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "counter.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 449887,
+  "ppid": 449881,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450082,
+  "ppid": 450080,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/decay.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450143,
+  "ppid": 450135,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450153,
+  "ppid": 450141,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450157,
+  "ppid": 450152,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450189,
+  "ppid": 450186,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/extent.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "extent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450245,
+  "ppid": 450244,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/bitmap.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450323,
+  "ppid": 450307,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/edata_cache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450335,
+  "ppid": 450333,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/buf_writer.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/buf_writer.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450361,
+  "ppid": 450358,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/base.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450399,
+  "ppid": 450398,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/fxp.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450409,
+  "ppid": 450408,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/eset.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/eset.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450425,
+  "ppid": 450423,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/san_bump.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450429,
+  "ppid": 450426,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hook.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/hook.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450430,
+  "ppid": 450428,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/extent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450448,
+  "ppid": 450443,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/san.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450456,
+  "ppid": 450453,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450477,
+  "ppid": 450473,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/ckh.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450489,
+  "ppid": 450486,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/hpa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450512,
+  "ppid": 450504,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/inspect.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/inspect.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450529,
+  "ppid": 450526,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/malloc_io.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450546,
+  "ppid": 450543,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/nstime.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/nstime.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450556,
+  "ppid": 450554,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/psset.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "psset.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450596,
+  "ppid": 450589,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/large.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/large.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450619,
+  "ppid": 450616,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_stats.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/prof_stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450646,
+  "ppid": 450645,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/peak_event.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/peak_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450653,
+  "ppid": 450651,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sc.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/sc.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450675,
+  "ppid": 450674,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/safety_check.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/safety_check.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450687,
+  "ppid": 450682,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/rtree.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/rtree.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450690,
+  "ppid": 450688,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/test_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450692,
+  "ppid": 450691,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/psset.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/psset.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450695,
+  "ppid": 450694,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/witness.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "witness.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450709,
+  "ppid": 450706,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/sec.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450752,
+  "ppid": 450751,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sz.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/sz.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450768,
+  "ppid": 450765,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/prof_recent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450771,
+  "ppid": 450767,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ticker.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/ticker.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450799,
+  "ppid": 450793,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/thread_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450845,
+  "ppid": 450839,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/tsd.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450936,
+  "ppid": 450934,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tcache.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/tcache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450980,
+  "ppid": 450979,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_data.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/prof_data.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450994,
+  "ppid": 450993,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 451023,
+  "ppid": 451022,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/jemalloc.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454036,
+  "ppid": 454034,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "counter.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454264,
+  "ppid": 454254,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "div.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454303,
+  "ppid": 454288,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/div.o",
+    "-o",
+    "src/div.d",
+    "src/div.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454401,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "src/div.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454404,
+  "ppid": 454401,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "src/counter.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454489,
+  "ppid": 454478,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.o",
+    "-o",
+    "src/decay.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454530,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.o",
+    "-o",
+    "src/base.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454546,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454551,
+  "ppid": 454546,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bin.o",
+    "-o",
+    "src/bin.d",
+    "src/bin.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454563,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.o",
+    "-o",
+    "src/background_thread.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454625,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454636,
+  "ppid": 454625,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.o",
+    "-o",
+    "src/ecache.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454635,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454656,
+  "ppid": 454635,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata_cache.o",
+    "-o",
+    "src/edata_cache.d",
+    "src/edata_cache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454714,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "src/edata_cache.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454716,
+  "ppid": 454714,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.o",
+    "-o",
+    "src/bitmap.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454788,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454791,
+  "ppid": 454788,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/buf_writer.o",
+    "-o",
+    "src/buf_writer.d",
+    "src/buf_writer.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454880,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "hook.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454992,
+  "ppid": 454979,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/hook.o",
+    "-o",
+    "src/hook.d",
+    "src/hook.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455106,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hook.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-o",
+    "src/hook.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455115,
+  "ppid": 455106,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "hpa.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455174,
+  "ppid": 455171,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.o",
+    "-o",
+    "src/edata.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455185,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455188,
+  "ppid": 455185,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/san.o",
+    "-o",
+    "src/san.d",
+    "src/san.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455195,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san.c",
+    "-o",
+    "src/san.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455219,
+  "ppid": 455195,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/fxp.o",
+    "-o",
+    "src/fxp.d",
+    "src/fxp.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455239,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/fxp.c",
+    "-o",
+    "src/fxp.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455250,
+  "ppid": 455239,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent_dss.o",
+    "-o",
+    "src/extent_dss.d",
+    "src/extent_dss.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455309,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent_dss.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent_dss.c",
+    "-o",
+    "src/extent_dss.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455420,
+  "ppid": 455309,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/san_bump.o",
+    "-o",
+    "src/san_bump.d",
+    "src/san_bump.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455447,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-o",
+    "src/san_bump.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455452,
+  "ppid": 455447,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/emap.o",
+    "-o",
+    "src/emap.d",
+    "src/emap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455866,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 77
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/emap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/emap.c",
+    "-o",
+    "src/emap.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455868,
+  "ppid": 455866,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 78
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/eset.o",
+    "-o",
+    "src/eset.d",
+    "src/eset.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455971,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 79
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/eset.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/eset.c",
+    "-o",
+    "src/eset.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455982,
+  "ppid": 455971,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ckh.o",
+    "-o",
+    "src/ckh.d",
+    "src/ckh.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456163,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 81
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/large.o",
+    "-o",
+    "src/large.d",
+    "src/large.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456183,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 82
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/large.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/large.c",
+    "-o",
+    "src/large.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456186,
+  "ppid": 456183,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 83
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.o",
+    "-o",
+    "src/arena.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456198,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 84
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456204,
+  "ppid": 456198,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 85
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent.o",
+    "-o",
+    "src/extent.d",
+    "src/extent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456236,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 86
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "src/extent.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456251,
+  "ppid": 456236,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 87
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/hpa.o",
+    "-o",
+    "src/hpa.d",
+    "src/hpa.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456344,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 88
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/malloc_io.o",
+    "-o",
+    "src/malloc_io.d",
+    "src/malloc_io.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456345,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 89
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-o",
+    "src/malloc_io.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456351,
+  "ppid": 456345,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 90
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/nstime.o",
+    "-o",
+    "src/nstime.d",
+    "src/nstime.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456352,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 91
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/nstime.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/nstime.c",
+    "-o",
+    "src/nstime.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456360,
+  "ppid": 456352,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 92
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/inspect.o",
+    "-o",
+    "src/inspect.d",
+    "src/inspect.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456404,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 93
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/inspect.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/inspect.c",
+    "-o",
+    "src/inspect.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456410,
+  "ppid": 456404,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 94
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/peak_event.o",
+    "-o",
+    "src/peak_event.d",
+    "src/peak_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456527,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 95
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "tcache.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456548,
+  "ppid": 456546,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 96
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_stats.o",
+    "-o",
+    "src/prof_stats.d",
+    "src/prof_stats.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456587,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 97
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_stats.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_stats.c",
+    "-o",
+    "src/prof_stats.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456591,
+  "ppid": 456587,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 98
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "src/test_hooks.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456601,
+  "ppid": 456599,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 99
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ticker.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "ticker.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456615,
+  "ppid": 456609,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 100
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sc.o",
+    "-o",
+    "src/sc.d",
+    "src/sc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456621,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 101
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sec.o",
+    "-o",
+    "src/sec.d",
+    "src/sec.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456647,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 102
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_sys.o",
+    "-o",
+    "src/prof_sys.d",
+    "src/prof_sys.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456652,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 103
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/rtree.o",
+    "-o",
+    "src/rtree.d",
+    "src/rtree.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456658,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 104
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_sys.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-o",
+    "src/prof_sys.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456659,
+  "ppid": 456652,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 105
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/rtree.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/rtree.c",
+    "-o",
+    "src/rtree.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456660,
+  "ppid": 456658,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 106
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/safety_check.o",
+    "-o",
+    "src/safety_check.d",
+    "src/safety_check.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456661,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 107
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "src/sec.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456653,
+  "ppid": 456647,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 108
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ticker.o",
+    "-o",
+    "src/ticker.d",
+    "src/ticker.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456663,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 109
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/safety_check.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/safety_check.c",
+    "-o",
+    "src/safety_check.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456662,
+  "ppid": 456661,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 110
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ticker.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ticker.c",
+    "-o",
+    "src/ticker.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456666,
+  "ppid": 456663,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 111
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_recent.o",
+    "-o",
+    "src/prof_recent.d",
+    "src/prof_recent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456680,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 112
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "src/prof_recent.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456681,
+  "ppid": 456680,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 113
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/witness.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-o",
+    "src/witness.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456708,
+  "ppid": 456703,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 114
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/psset.o",
+    "-o",
+    "src/psset.d",
+    "src/psset.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456749,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 115
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/psset.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/psset.c",
+    "-o",
+    "src/psset.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456751,
+  "ppid": 456749,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 116
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bin.pic.o",
+    "-o",
+    "src/bin.pic.d",
+    "src/bin.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456807,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 117
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "src/bin.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456808,
+  "ppid": 456807,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 118
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/thread_event.o",
+    "-o",
+    "src/thread_event.d",
+    "src/thread_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456859,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 119
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-o",
+    "src/background_thread.pic.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456879,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 120
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456898,
+  "ppid": 456879,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 121
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-o",
+    "src/bitmap.pic.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457029,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 122
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457051,
+  "ppid": 457029,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 123
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/stats.o",
+    "-o",
+    "src/stats.d",
+    "src/stats.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457085,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 124
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "src/stats.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457088,
+  "ppid": 457085,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 125
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/tsd.o",
+    "-o",
+    "src/tsd.d",
+    "src/tsd.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457093,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 126
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "src/tsd.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457098,
+  "ppid": 457093,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 127
+
+```json
+{
+  "argv": [
+    "/usr/sbin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/div.pic.o",
+    "-o",
+    "src/div.pic.d",
+    "src/div.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/sbin/powerpc64le-linux-gnu-gcc",
+  "pid": 457140,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 128
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "src/div.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457149,
+  "ppid": 457140,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 129
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.pic.o",
+    "-o",
+    "src/base.pic.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457166,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 130
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/counter.pic.o",
+    "-o",
+    "src/counter.pic.d",
+    "src/counter.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457177,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 131
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "src/counter.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457178,
+  "ppid": 457177,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 132
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/buf_writer.pic.o",
+    "-o",
+    "src/buf_writer.pic.d",
+    "src/buf_writer.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457189,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 133
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/buf_writer.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/buf_writer.c",
+    "-o",
+    "src/buf_writer.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457192,
+  "ppid": 457189,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 134
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.pic.o",
+    "-o",
+    "src/decay.pic.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457190,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 135
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "src/decay.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457196,
+  "ppid": 457190,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 136
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457168,
+  "ppid": 457166,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 137
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.pic.o",
+    "-o",
+    "src/ecache.pic.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457232,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 138
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457236,
+  "ppid": 457232,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 139
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/eset.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/eset.c",
+    "-o",
+    "src/eset.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457516,
+  "ppid": 457508,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 140
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/eset.pic.o",
+    "-o",
+    "src/eset.pic.d",
+    "src/eset.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457508,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 141
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "src/edata_cache.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457536,
+  "ppid": 457533,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 142
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/tcache.o",
+    "-o",
+    "src/tcache.d",
+    "src/tcache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457677,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 143
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tcache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-o",
+    "src/tcache.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457680,
+  "ppid": 457677,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 144
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/fxp.pic.o",
+    "-o",
+    "src/fxp.pic.d",
+    "src/fxp.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457800,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 145
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/fxp.c",
+    "-o",
+    "src/fxp.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457829,
+  "ppid": 457800,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 146
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.pic.o",
+    "-o",
+    "src/edata.pic.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457847,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 147
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457849,
+  "ppid": 457847,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 148
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.pic.o",
+    "-o",
+    "src/arena.pic.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457912,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 149
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457933,
+  "ppid": 457912,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 150
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/san.pic.o",
+    "-o",
+    "src/san.pic.d",
+    "src/san.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457998,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 151
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san.c",
+    "-o",
+    "src/san.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458043,
+  "ppid": 457998,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 152
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/emap.pic.o",
+    "-o",
+    "src/emap.pic.d",
+    "src/emap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458042,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 153
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/emap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/emap.c",
+    "-o",
+    "src/emap.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458047,
+  "ppid": 458042,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 154
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent_dss.pic.o",
+    "-o",
+    "src/extent_dss.pic.d",
+    "src/extent_dss.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458048,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 155
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent_dss.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent_dss.c",
+    "-o",
+    "src/extent_dss.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458059,
+  "ppid": 458048,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 156
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hook.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-o",
+    "src/hook.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458090,
+  "ppid": 458084,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 157
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/san_bump.pic.o",
+    "-o",
+    "src/san_bump.pic.d",
+    "src/san_bump.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458143,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 158
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-o",
+    "src/san_bump.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458146,
+  "ppid": 458143,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 159
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/hpa.pic.o",
+    "-o",
+    "src/hpa.pic.d",
+    "src/hpa.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458204,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 160
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa.c",
+    "-o",
+    "src/hpa.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458205,
+  "ppid": 458204,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 161
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/extent.pic.o",
+    "-o",
+    "src/extent.pic.d",
+    "src/extent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458206,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 162
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "src/extent.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458208,
+  "ppid": 458206,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 163
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_data.o",
+    "-o",
+    "src/prof_data.d",
+    "src/prof_data.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458217,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 164
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_data.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_data.c",
+    "-o",
+    "src/prof_data.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458226,
+  "ppid": 458217,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 165
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/malloc_io.pic.o",
+    "-o",
+    "src/malloc_io.pic.d",
+    "src/malloc_io.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458256,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 166
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-o",
+    "src/malloc_io.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458258,
+  "ppid": 458256,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 167
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/large.pic.o",
+    "-o",
+    "src/large.pic.d",
+    "src/large.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458295,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 168
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/large.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/large.c",
+    "-o",
+    "src/large.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458296,
+  "ppid": 458295,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 169
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ckh.pic.o",
+    "-o",
+    "src/ckh.pic.d",
+    "src/ckh.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458301,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 170
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-o",
+    "src/ckh.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458305,
+  "ppid": 458301,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 171
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/nstime.pic.o",
+    "-o",
+    "src/nstime.pic.d",
+    "src/nstime.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458355,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 172
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/inspect.pic.o",
+    "-o",
+    "src/inspect.pic.d",
+    "src/inspect.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458362,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 173
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/nstime.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/nstime.c",
+    "-o",
+    "src/nstime.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458357,
+  "ppid": 458355,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 174
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/inspect.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/inspect.c",
+    "-o",
+    "src/inspect.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458375,
+  "ppid": 458362,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 175
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_stats.pic.o",
+    "-o",
+    "src/prof_stats.pic.d",
+    "src/prof_stats.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458436,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 176
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_stats.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_stats.c",
+    "-o",
+    "src/prof_stats.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458438,
+  "ppid": 458436,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 177
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/peak_event.pic.o",
+    "-o",
+    "src/peak_event.pic.d",
+    "src/peak_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458462,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 178
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/peak_event.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/peak_event.c",
+    "-o",
+    "src/peak_event.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458464,
+  "ppid": 458462,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 179
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/rtree.pic.o",
+    "-o",
+    "src/rtree.pic.d",
+    "src/rtree.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458513,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 180
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/rtree.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/rtree.c",
+    "-o",
+    "src/rtree.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458514,
+  "ppid": 458513,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 181
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sc.pic.o",
+    "-o",
+    "src/sc.pic.d",
+    "src/sc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458517,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 182
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sc.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sc.c",
+    "-o",
+    "src/sc.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458524,
+  "ppid": 458517,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 183
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/psset.pic.o",
+    "-o",
+    "src/psset.pic.d",
+    "src/psset.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458549,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 184
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/psset.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/psset.c",
+    "-o",
+    "src/psset.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458552,
+  "ppid": 458549,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 185
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/safety_check.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/safety_check.c",
+    "-o",
+    "src/safety_check.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458582,
+  "ppid": 458579,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 186
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/test_hooks.pic.o",
+    "-o",
+    "src/test_hooks.pic.d",
+    "src/test_hooks.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458581,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 187
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "src/test_hooks.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458585,
+  "ppid": 458581,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 188
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_sys.pic.o",
+    "-o",
+    "src/prof_sys.pic.d",
+    "src/prof_sys.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458587,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 189
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_sys.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-o",
+    "src/prof_sys.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458590,
+  "ppid": 458587,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 190
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/sec.pic.o",
+    "-o",
+    "src/sec.pic.d",
+    "src/sec.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458588,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 191
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "src/sec.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458592,
+  "ppid": 458588,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 192
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sz.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sz.c",
+    "-o",
+    "src/sz.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458594,
+  "ppid": 458591,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 193
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_recent.pic.o",
+    "-o",
+    "src/prof_recent.pic.d",
+    "src/prof_recent.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458615,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 194
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "src/prof_recent.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458625,
+  "ppid": 458615,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 195
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tcache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-o",
+    "src/tcache.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458772,
+  "ppid": 458768,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 196
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/tsd.pic.o",
+    "-o",
+    "src/tsd.pic.d",
+    "src/tsd.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458774,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 197
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "src/tsd.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458775,
+  "ppid": 458774,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 198
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/witness.pic.o",
+    "-o",
+    "src/witness.pic.d",
+    "src/witness.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458797,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 199
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/witness.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-o",
+    "src/witness.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458852,
+  "ppid": 458797,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 200
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ticker.pic.o",
+    "-o",
+    "src/ticker.pic.d",
+    "src/ticker.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458849,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 201
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ticker.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ticker.c",
+    "-o",
+    "src/ticker.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458890,
+  "ppid": 458849,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 202
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/prof_data.pic.o",
+    "-o",
+    "src/prof_data.pic.d",
+    "src/prof_data.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458964,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 203
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_data.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_data.c",
+    "-o",
+    "src/prof_data.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458965,
+  "ppid": 458964,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 204
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/thread_event.pic.o",
+    "-o",
+    "src/thread_event.pic.d",
+    "src/thread_event.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 459074,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 205
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-o",
+    "src/thread_event.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 459083,
+  "ppid": 459074,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 206
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/stats.pic.o",
+    "-o",
+    "src/stats.pic.d",
+    "src/stats.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 459294,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 207
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "src/stats.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 459301,
+  "ppid": 459294,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 208
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.o",
+    "-o",
+    "src/jemalloc.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 462151,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 209
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 462152,
+  "ppid": 462151,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 210
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-o",
+    "src/jemalloc.pic.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 463277,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 211
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 463283,
+  "ppid": 463277,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
 
 ### Compilation records
 
@@ -2340,20 +22735,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bin.c",
+    "src/counter.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "bin.c",
+    "counter.c",
     "..."
   ],
-  "src": "src/bin.c",
-  "output": "src/bin.pic.o",
+  "src": "src/counter.c",
+  "output": "src/counter.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456725,
-  "ppid": 456721,
+  "pid": 456942,
+  "ppid": 456906,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2394,20 +22789,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/psset.c",
+    "src/test_hooks.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "psset.c",
+    "test_hooks.c",
     "..."
   ],
-  "src": "src/psset.c",
-  "output": "src/psset.pic.o",
+  "src": "src/test_hooks.c",
+  "output": "src/test_hooks.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 458413,
-  "ppid": 458406,
+  "pid": 458546,
+  "ppid": 458545,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2448,20 +22843,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/ticker.c",
+    "src/hook.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "ticker.c",
+    "hook.c",
     "..."
   ],
-  "src": "src/ticker.c",
-  "output": "src/ticker.pic.o",
+  "src": "src/hook.c",
+  "output": "src/hook.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 458575,
-  "ppid": 458557,
+  "pid": 457775,
+  "ppid": 457768,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2502,20 +22897,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/peak_event.c",
+    "src/extent.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "peak_event.c",
+    "extent.c",
     "..."
   ],
-  "src": "src/peak_event.c",
-  "output": "src/peak_event.pic.o",
+  "src": "src/extent.c",
+  "output": "src/extent.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 458261,
-  "ppid": 458257,
+  "pid": 457304,
+  "ppid": 457298,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2556,20 +22951,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/inspect.c",
+    "src/prof_sys.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "inspect.c",
+    "prof_sys.c",
     "..."
   ],
-  "src": "src/inspect.c",
-  "output": "src/inspect.pic.o",
+  "src": "src/prof_sys.c",
+  "output": "src/prof_sys.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 458060,
-  "ppid": 458057,
+  "pid": 458393,
+  "ppid": 458391,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2610,20 +23005,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/hpa.c",
+    "src/nstime.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "hpa.c",
+    "nstime.c",
     "..."
   ],
-  "src": "src/hpa.c",
-  "output": "src/hpa.pic.o",
+  "src": "src/nstime.c",
+  "output": "src/nstime.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457798,
-  "ppid": 457790,
+  "pid": 458170,
+  "ppid": 458167,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2664,20 +23059,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/edata.c",
+    "src/arena.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "edata.c",
+    "arena.c",
     "..."
   ],
-  "src": "src/edata.c",
-  "output": "src/edata.pic.o",
+  "src": "src/arena.c",
+  "output": "src/arena.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457128,
-  "ppid": 457121,
+  "pid": 456689,
+  "ppid": 456687,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2696,60 +23091,6 @@ _None._
 ```
 
 #### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/stats.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "stats.c",
-    "..."
-  ],
-  "src": "src/stats.c",
-  "output": "src/stats.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458501,
-  "ppid": 458499,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 9
 
 ```json
 {
@@ -2803,6 +23144,60 @@ _None._
 }
 ```
 
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "background_thread.c",
+    "..."
+  ],
+  "src": "src/background_thread.c",
+  "output": "src/background_thread.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456693,
+  "ppid": 456690,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
 #### Record 10
 
 ```json
@@ -2826,20 +23221,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bitmap.c",
+    "src/rtree.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "bitmap.c",
+    "rtree.c",
     "..."
   ],
-  "src": "src/bitmap.c",
-  "output": "src/bitmap.pic.o",
+  "src": "src/rtree.c",
+  "output": "src/rtree.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456743,
-  "ppid": 456742,
+  "pid": 458419,
+  "ppid": 458414,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2880,20 +23275,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_stats.c",
+    "src/sec.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "prof_stats.c",
+    "sec.c",
     "..."
   ],
-  "src": "src/prof_stats.c",
-  "output": "src/prof_stats.pic.o",
+  "src": "src/sec.c",
+  "output": "src/sec.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 458337,
-  "ppid": 458336,
+  "pid": 458503,
+  "ppid": 458500,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -2934,20 +23329,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/eset.c",
+    "src/san_bump.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "eset.c",
+    "san_bump.c",
     "..."
   ],
-  "src": "src/eset.c",
-  "output": "src/eset.pic.o",
+  "src": "src/san_bump.c",
+  "output": "src/san_bump.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457235,
-  "ppid": 457220,
+  "pid": 457750,
+  "ppid": 457746,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -3042,20 +23437,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/ecache.c",
+    "src/fxp.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "ecache.c",
+    "fxp.c",
     "..."
   ],
-  "src": "src/ecache.c",
-  "output": "src/ecache.pic.o",
+  "src": "src/fxp.c",
+  "output": "src/fxp.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457116,
-  "ppid": 457102,
+  "pid": 457567,
+  "ppid": 457558,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -3096,20 +23491,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/san_bump.c",
+    "src/hpa.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "san_bump.c",
+    "hpa.c",
     "..."
   ],
-  "src": "src/san_bump.c",
-  "output": "src/san_bump.pic.o",
+  "src": "src/hpa.c",
+  "output": "src/hpa.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457750,
-  "ppid": 457746,
+  "pid": 457798,
+  "ppid": 457790,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -3150,20 +23545,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/sc.c",
+    "src/eset.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "sc.c",
+    "eset.c",
     "..."
   ],
-  "src": "src/sc.c",
-  "output": "src/sc.pic.o",
+  "src": "src/eset.c",
+  "output": "src/eset.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 458497,
-  "ppid": 458493,
+  "pid": 457235,
+  "ppid": 457220,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -3204,20 +23599,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/base.c",
+    "src/inspect.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "base.c",
+    "inspect.c",
     "..."
   ],
-  "src": "src/base.c",
-  "output": "src/base.pic.o",
+  "src": "src/inspect.c",
+  "output": "src/inspect.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456712,
-  "ppid": 456709,
+  "pid": 458060,
+  "ppid": 458057,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -3258,20 +23653,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/san.c",
+    "src/ticker.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "san.c",
+    "ticker.c",
     "..."
   ],
-  "src": "src/san.c",
-  "output": "src/san.pic.o",
+  "src": "src/ticker.c",
+  "output": "src/ticker.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457718,
-  "ppid": 457708,
+  "pid": 458575,
+  "ppid": 458557,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -3290,168 +23685,6 @@ _None._
 ```
 
 #### Record 19
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/ckh.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "ckh.c",
-    "..."
-  ],
-  "src": "src/ckh.c",
-  "output": "src/ckh.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456881,
-  "ppid": 456874,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 20
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/prof_recent.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "prof_recent.c",
-    "..."
-  ],
-  "src": "src/prof_recent.c",
-  "output": "src/prof_recent.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458332,
-  "ppid": 458327,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 21
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/safety_check.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "safety_check.c",
-    "..."
-  ],
-  "src": "src/safety_check.c",
-  "output": "src/safety_check.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458463,
-  "ppid": 458441,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 22
 
 ```json
 {
@@ -3505,7 +23738,7 @@ _None._
 }
 ```
 
-#### Record 23
+#### Record 20
 
 ```json
 {
@@ -3528,20 +23761,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/jemalloc.c",
+    "src/prof_stats.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "jemalloc.c",
+    "prof_stats.c",
     "..."
   ],
-  "src": "src/jemalloc.c",
-  "output": "src/jemalloc.pic.o",
+  "src": "src/prof_stats.c",
+  "output": "src/prof_stats.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456678,
-  "ppid": 456677,
+  "pid": 458337,
+  "ppid": 458336,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -3559,1033 +23792,7 @@ _None._
 }
 ```
 
-#### Record 24
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/nstime.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "nstime.c",
-    "..."
-  ],
-  "src": "src/nstime.c",
-  "output": "src/nstime.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458170,
-  "ppid": 458167,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 25
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/sec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "sec.c",
-    "..."
-  ],
-  "src": "src/sec.c",
-  "output": "src/sec.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458503,
-  "ppid": 458500,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 26
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/rtree.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "rtree.c",
-    "..."
-  ],
-  "src": "src/rtree.c",
-  "output": "src/rtree.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458419,
-  "ppid": 458414,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 27
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/counter.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "counter.c",
-    "..."
-  ],
-  "src": "src/counter.c",
-  "output": "src/counter.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456942,
-  "ppid": 456906,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 28
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/background_thread.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "background_thread.c",
-    "..."
-  ],
-  "src": "src/background_thread.c",
-  "output": "src/background_thread.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456693,
-  "ppid": 456690,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 29
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/extent_dss.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "extent_dss.c",
-    "..."
-  ],
-  "src": "src/extent_dss.c",
-  "output": "src/extent_dss.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 457323,
-  "ppid": 457315,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 30
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/emap.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "emap.c",
-    "..."
-  ],
-  "src": "src/emap.c",
-  "output": "src/emap.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 457183,
-  "ppid": 457180,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 31
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/buf_writer.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "buf_writer.c",
-    "..."
-  ],
-  "src": "src/buf_writer.c",
-  "output": "src/buf_writer.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456826,
-  "ppid": 456819,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 32
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/extent.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "extent.c",
-    "..."
-  ],
-  "src": "src/extent.c",
-  "output": "src/extent.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 457304,
-  "ppid": 457298,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 33
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/tsd.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "tsd.c",
-    "..."
-  ],
-  "src": "src/tsd.c",
-  "output": "src/tsd.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458603,
-  "ppid": 458601,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 34
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/malloc_io.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "malloc_io.c",
-    "..."
-  ],
-  "src": "src/malloc_io.c",
-  "output": "src/malloc_io.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458132,
-  "ppid": 458130,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 35
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/prof_sys.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "prof_sys.c",
-    "..."
-  ],
-  "src": "src/prof_sys.c",
-  "output": "src/prof_sys.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458393,
-  "ppid": 458391,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 36
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/arena.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "arena.c",
-    "..."
-  ],
-  "src": "src/arena.c",
-  "output": "src/arena.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456689,
-  "ppid": 456687,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 37
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/div.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "div.c",
-    "..."
-  ],
-  "src": "src/div.c",
-  "output": "src/div.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 457072,
-  "ppid": 457065,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 38
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/edata_cache.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "edata_cache.c",
-    "..."
-  ],
-  "src": "src/edata_cache.c",
-  "output": "src/edata_cache.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 457162,
-  "ppid": 457159,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 39
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/test_hooks.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "test_hooks.c",
-    "..."
-  ],
-  "src": "src/test_hooks.c",
-  "output": "src/test_hooks.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458546,
-  "ppid": 458545,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 40
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/hook.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "hook.c",
-    "..."
-  ],
-  "src": "src/hook.c",
-  "output": "src/hook.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 457775,
-  "ppid": 457768,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 41
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/thread_event.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "thread_event.c",
-    "..."
-  ],
-  "src": "src/thread_event.c",
-  "output": "src/thread_event.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458595,
-  "ppid": 458593,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 42
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/witness.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "witness.c",
-    "..."
-  ],
-  "src": "src/witness.c",
-  "output": "src/witness.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 458627,
-  "ppid": 458626,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 43
+#### Record 21
 
 ```json
 {
@@ -4639,7 +23846,709 @@ _None._
 }
 ```
 
-#### Record 44
+#### Record 22
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "tsd.c",
+    "..."
+  ],
+  "src": "src/tsd.c",
+  "output": "src/tsd.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458603,
+  "ppid": 458601,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "stats.c",
+    "..."
+  ],
+  "src": "src/stats.c",
+  "output": "src/stats.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458501,
+  "ppid": 458499,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "san.c",
+    "..."
+  ],
+  "src": "src/san.c",
+  "output": "src/san.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 457718,
+  "ppid": 457708,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/safety_check.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "safety_check.c",
+    "..."
+  ],
+  "src": "src/safety_check.c",
+  "output": "src/safety_check.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458463,
+  "ppid": 458441,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/buf_writer.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "buf_writer.c",
+    "..."
+  ],
+  "src": "src/buf_writer.c",
+  "output": "src/buf_writer.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456826,
+  "ppid": 456819,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "edata_cache.c",
+    "..."
+  ],
+  "src": "src/edata_cache.c",
+  "output": "src/edata_cache.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 457162,
+  "ppid": 457159,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "ckh.c",
+    "..."
+  ],
+  "src": "src/ckh.c",
+  "output": "src/ckh.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456881,
+  "ppid": 456874,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/peak_event.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "peak_event.c",
+    "..."
+  ],
+  "src": "src/peak_event.c",
+  "output": "src/peak_event.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458261,
+  "ppid": 458257,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/psset.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "psset.c",
+    "..."
+  ],
+  "src": "src/psset.c",
+  "output": "src/psset.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458413,
+  "ppid": 458406,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 31
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "div.c",
+    "..."
+  ],
+  "src": "src/div.c",
+  "output": "src/div.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 457072,
+  "ppid": 457065,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent_dss.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "extent_dss.c",
+    "..."
+  ],
+  "src": "src/extent_dss.c",
+  "output": "src/extent_dss.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 457323,
+  "ppid": 457315,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "sc.c",
+    "..."
+  ],
+  "src": "src/sc.c",
+  "output": "src/sc.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458497,
+  "ppid": 458493,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "bin.c",
+    "..."
+  ],
+  "src": "src/bin.c",
+  "output": "src/bin.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456725,
+  "ppid": 456721,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 35
 
 ```json
 {
@@ -4693,6 +24602,492 @@ _None._
 }
 ```
 
+#### Record 36
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "jemalloc.c",
+    "..."
+  ],
+  "src": "src/jemalloc.c",
+  "output": "src/jemalloc.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456678,
+  "ppid": 456677,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "bitmap.c",
+    "..."
+  ],
+  "src": "src/bitmap.c",
+  "output": "src/bitmap.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456743,
+  "ppid": 456742,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "ecache.c",
+    "..."
+  ],
+  "src": "src/ecache.c",
+  "output": "src/ecache.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 457116,
+  "ppid": 457102,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 39
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "witness.c",
+    "..."
+  ],
+  "src": "src/witness.c",
+  "output": "src/witness.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458627,
+  "ppid": 458626,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 40
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "thread_event.c",
+    "..."
+  ],
+  "src": "src/thread_event.c",
+  "output": "src/thread_event.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458595,
+  "ppid": 458593,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 41
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "prof_recent.c",
+    "..."
+  ],
+  "src": "src/prof_recent.c",
+  "output": "src/prof_recent.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458332,
+  "ppid": 458327,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 42
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "malloc_io.c",
+    "..."
+  ],
+  "src": "src/malloc_io.c",
+  "output": "src/malloc_io.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 458132,
+  "ppid": 458130,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 43
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/emap.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "emap.c",
+    "..."
+  ],
+  "src": "src/emap.c",
+  "output": "src/emap.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 457183,
+  "ppid": 457180,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 44
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "base.c",
+    "..."
+  ],
+  "src": "src/base.c",
+  "output": "src/base.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456712,
+  "ppid": 456709,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
 #### Record 45
 
 ```json
@@ -4716,20 +25111,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/fxp.c",
+    "src/edata.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "fxp.c",
+    "edata.c",
     "..."
   ],
-  "src": "src/fxp.c",
-  "output": "src/fxp.pic.o",
+  "src": "src/edata.c",
+  "output": "src/edata.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457567,
-  "ppid": 457558,
+  "pid": 457128,
+  "ppid": 457121,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -4956,19 +25351,13 @@ _None._
 
 ### Source preparation records
 
-_None._
-
-### Compilation records
-
 #### Record 1
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
   "argv": [
     "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
     "-quiet",
     "-I",
     "include",
@@ -4976,31 +25365,29 @@ _None._
     "include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "-dD",
+    "-MM",
+    "-MT",
+    "src/decay.sym.o",
     "-D",
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bitmap.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "bitmap.c",
-    "-m64",
-    "-mcpu=power8",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/decay.c",
+    "-o",
     "..."
   ],
-  "src": "src/bitmap.c",
-  "output": "src/bitmap.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454179,
-  "ppid": 454167,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
   "build_script_related": true,
+  "build_script_root_pid": 435509,
   "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450143,
+  "ppid": 450135,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "jemalloc-sys",
     "version": "0.5.4+5.3.0-patched",
@@ -5018,11 +25405,9 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
   "argv": [
     "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
     "-quiet",
     "-I",
     "include",
@@ -5030,31 +25415,29 @@ _None._
     "include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "-dD",
+    "-MM",
+    "-MT",
+    "src/background_thread.sym.o",
     "-D",
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/arena.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "arena.c",
-    "-m64",
-    "-mcpu=power8",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/background_thread.c",
+    "-o",
     "..."
   ],
-  "src": "src/arena.c",
-  "output": "src/arena.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454102,
-  "ppid": 454097,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
   "build_script_related": true,
+  "build_script_root_pid": 435509,
   "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450189,
+  "ppid": 450186,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "jemalloc-sys",
     "version": "0.5.4+5.3.0-patched",
@@ -5072,11 +25455,9 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
   "argv": [
     "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
     "-quiet",
     "-I",
     "include",
@@ -5084,31 +25465,29 @@ _None._
     "include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "-dD",
+    "-MM",
+    "-MT",
+    "src/bitmap.sym.o",
     "-D",
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/edata.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "edata.c",
-    "-m64",
-    "-mcpu=power8",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/bitmap.c",
+    "-o",
     "..."
   ],
-  "src": "src/edata.c",
-  "output": "src/edata.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454321,
-  "ppid": 454310,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
   "build_script_related": true,
+  "build_script_root_pid": 435509,
   "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450323,
+  "ppid": 450307,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "jemalloc-sys",
     "version": "0.5.4+5.3.0-patched",
@@ -5126,11 +25505,9 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
   "argv": [
     "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
     "-quiet",
     "-I",
     "include",
@@ -5138,31 +25515,29 @@ _None._
     "include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "-dD",
+    "-MM",
+    "-MT",
+    "src/base.sym.o",
     "-D",
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/jemalloc.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "jemalloc.c",
-    "-m64",
-    "-mcpu=power8",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/base.c",
+    "-o",
     "..."
   ],
-  "src": "src/jemalloc.c",
-  "output": "src/jemalloc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454098,
-  "ppid": 454088,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
   "build_script_related": true,
+  "build_script_root_pid": 435509,
   "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450399,
+  "ppid": 450398,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "jemalloc-sys",
     "version": "0.5.4+5.3.0-patched",
@@ -5180,11 +25555,9 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
   "argv": [
     "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
     "-quiet",
     "-I",
     "include",
@@ -5192,31 +25565,29 @@ _None._
     "include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "-dD",
+    "-MM",
+    "-MT",
+    "src/arena.sym.o",
     "-D",
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/ecache.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "ecache.c",
-    "-m64",
-    "-mcpu=power8",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/arena.c",
+    "-o",
     "..."
   ],
-  "src": "src/ecache.c",
-  "output": "src/ecache.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 454309,
-  "ppid": 454295,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
   "build_script_related": true,
+  "build_script_root_pid": 435509,
   "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450477,
+  "ppid": 450473,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "jemalloc-sys",
     "version": "0.5.4+5.3.0-patched",
@@ -5231,6 +25602,1758 @@ _None._
 ```
 
 #### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ctl.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/ctl.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450530,
+  "ppid": 450528,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/jemalloc.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454036,
+  "ppid": 454034,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.o",
+    "-o",
+    "src/decay.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454530,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.o",
+    "-o",
+    "src/base.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454546,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454551,
+  "ppid": 454546,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.o",
+    "-o",
+    "src/background_thread.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454625,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454636,
+  "ppid": 454625,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.o",
+    "-o",
+    "src/ecache.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454635,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454656,
+  "ppid": 454635,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.o",
+    "-o",
+    "src/bitmap.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454788,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454791,
+  "ppid": 454788,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.o",
+    "-o",
+    "src/edata.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455185,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455188,
+  "ppid": 455185,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.o",
+    "-o",
+    "src/arena.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456198,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456204,
+  "ppid": 456198,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ctl.o",
+    "-o",
+    "src/ctl.d",
+    "src/ctl.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456384,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-o",
+    "src/background_thread.pic.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456879,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456898,
+  "ppid": 456879,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-o",
+    "src/bitmap.pic.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457029,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457051,
+  "ppid": 457029,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.pic.o",
+    "-o",
+    "src/base.pic.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457166,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.pic.o",
+    "-o",
+    "src/decay.pic.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457190,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "src/decay.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457196,
+  "ppid": 457190,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457168,
+  "ppid": 457166,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.pic.o",
+    "-o",
+    "src/ecache.pic.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457232,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457236,
+  "ppid": 457232,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.pic.o",
+    "-o",
+    "src/edata.pic.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457847,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457849,
+  "ppid": 457847,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.pic.o",
+    "-o",
+    "src/arena.pic.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457912,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457933,
+  "ppid": 457912,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ctl.pic.o",
+    "-o",
+    "src/ctl.pic.d",
+    "src/ctl.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458188,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.o",
+    "-o",
+    "src/jemalloc.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 462151,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 462152,
+  "ppid": 462151,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-o",
+    "src/jemalloc.pic.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 463277,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 463283,
+  "ppid": 463277,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+### Compilation records
+
+#### Record 1
 
 ```json
 {
@@ -5284,7 +27407,115 @@ _None._
 }
 ```
 
-#### Record 7
+#### Record 2
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "background_thread.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/background_thread.c",
+  "output": "src/background_thread.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454108,
+  "ppid": 454099,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "arena.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/arena.c",
+  "output": "src/arena.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454102,
+  "ppid": 454097,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 4
 
 ```json
 {
@@ -5338,6 +27569,168 @@ _None._
 }
 ```
 
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "jemalloc.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/jemalloc.c",
+  "output": "src/jemalloc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454098,
+  "ppid": 454088,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "bitmap.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/bitmap.c",
+  "output": "src/bitmap.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454179,
+  "ppid": 454167,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "ecache.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "src": "src/ecache.c",
+  "output": "src/ecache.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 454309,
+  "ppid": 454295,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
 #### Record 8
 
 ```json
@@ -5359,22 +27752,22 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/background_thread.c",
+    "src/edata.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "background_thread.c",
+    "edata.c",
     "-m64",
     "-mcpu=power8",
     "..."
   ],
-  "src": "src/background_thread.c",
-  "output": "src/background_thread.o",
+  "src": "src/edata.c",
+  "output": "src/edata.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 454108,
-  "ppid": 454099,
+  "pid": 454321,
+  "ppid": 454310,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -5573,7 +27966,3255 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/counter.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "counter.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 449887,
+  "ppid": 449881,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450082,
+  "ppid": 450080,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/decay.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450143,
+  "ppid": 450135,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450153,
+  "ppid": 450141,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450157,
+  "ppid": 450152,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450189,
+  "ppid": 450186,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/bitmap.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450323,
+  "ppid": 450307,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/edata_cache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450335,
+  "ppid": 450333,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/buf_writer.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/buf_writer.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450361,
+  "ppid": 450358,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/base.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450399,
+  "ppid": 450398,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450477,
+  "ppid": 450473,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/ckh.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 450489,
+  "ppid": 450486,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.sym.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/jemalloc.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454036,
+  "ppid": 454034,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "counter.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454264,
+  "ppid": 454254,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "div.c",
+    "-m64",
+    "-mcpu=power8",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454303,
+  "ppid": 454288,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/div.o",
+    "-o",
+    "src/div.d",
+    "src/div.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454401,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "src/div.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454404,
+  "ppid": 454401,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "src/counter.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454489,
+  "ppid": 454478,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.o",
+    "-o",
+    "src/decay.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454530,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.o",
+    "-o",
+    "src/base.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454546,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454551,
+  "ppid": 454546,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bin.o",
+    "-o",
+    "src/bin.d",
+    "src/bin.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454563,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.o",
+    "-o",
+    "src/background_thread.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454625,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454636,
+  "ppid": 454625,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.o",
+    "-o",
+    "src/ecache.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454635,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454656,
+  "ppid": 454635,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata_cache.o",
+    "-o",
+    "src/edata_cache.d",
+    "src/edata_cache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454714,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "src/edata_cache.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454716,
+  "ppid": 454714,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.o",
+    "-o",
+    "src/bitmap.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454788,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 454791,
+  "ppid": 454788,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/buf_writer.o",
+    "-o",
+    "src/buf_writer.d",
+    "src/buf_writer.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 454880,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.o",
+    "-o",
+    "src/edata.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 455185,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 455188,
+  "ppid": 455185,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ckh.o",
+    "-o",
+    "src/ckh.d",
+    "src/ckh.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456163,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.o",
+    "-o",
+    "src/arena.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456198,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456204,
+  "ppid": 456198,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bin.pic.o",
+    "-o",
+    "src/bin.pic.d",
+    "src/bin.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456807,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "src/bin.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456808,
+  "ppid": 456807,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-o",
+    "src/background_thread.pic.d",
+    "src/background_thread.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 456879,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "src/background_thread.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 456898,
+  "ppid": 456879,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-o",
+    "src/bitmap.pic.d",
+    "src/bitmap.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457029,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "src/bitmap.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457051,
+  "ppid": 457029,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "/usr/sbin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/div.pic.o",
+    "-o",
+    "src/div.pic.d",
+    "src/div.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/sbin/powerpc64le-linux-gnu-gcc",
+  "pid": 457140,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "src/div.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457149,
+  "ppid": 457140,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/base.pic.o",
+    "-o",
+    "src/base.pic.d",
+    "src/base.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457166,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/counter.pic.o",
+    "-o",
+    "src/counter.pic.d",
+    "src/counter.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457177,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "src/counter.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457178,
+  "ppid": 457177,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/buf_writer.pic.o",
+    "-o",
+    "src/buf_writer.pic.d",
+    "src/buf_writer.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457189,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/buf_writer.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/buf_writer.c",
+    "-o",
+    "src/buf_writer.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457192,
+  "ppid": 457189,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/decay.pic.o",
+    "-o",
+    "src/decay.pic.d",
+    "src/decay.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457190,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "src/decay.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457196,
+  "ppid": 457190,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/base.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/base.c",
+    "-o",
+    "src/base.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457168,
+  "ppid": 457166,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ecache.pic.o",
+    "-o",
+    "src/ecache.pic.d",
+    "src/ecache.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457232,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ecache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ecache.c",
+    "-o",
+    "src/ecache.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457236,
+  "ppid": 457232,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "src/edata_cache.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457536,
+  "ppid": 457533,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/edata.pic.o",
+    "-o",
+    "src/edata.pic.d",
+    "src/edata.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457847,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata.c",
+    "-o",
+    "src/edata.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457849,
+  "ppid": 457847,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/arena.pic.o",
+    "-o",
+    "src/arena.pic.d",
+    "src/arena.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 457912,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "src/arena.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 457933,
+  "ppid": 457912,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/ckh.pic.o",
+    "-o",
+    "src/ckh.pic.d",
+    "src/ckh.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 458301,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-o",
+    "src/ckh.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 458305,
+  "ppid": 458301,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.o",
+    "-o",
+    "src/jemalloc.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 462151,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 462152,
+  "ppid": 462151,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-MM",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-D_GNU_SOURCE",
+    "-D_REENTRANT",
+    "-Iinclude",
+    "-Iinclude",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-o",
+    "src/jemalloc.pic.d",
+    "src/jemalloc.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 463277,
+  "ppid": 449812,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/jemalloc.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/jemalloc.c",
+    "-o",
+    "src/jemalloc.pic.d",
+    "-msecure-plt",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 435509,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "pid": 463283,
+  "ppid": 463277,
+  "root_cargo_pid": 432168,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
 
 ### Compilation records
 
@@ -5600,20 +31241,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/ckh.c",
+    "src/arena.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "ckh.c",
+    "arena.c",
     "..."
   ],
-  "src": "src/ckh.c",
-  "output": "src/ckh.pic.o",
+  "src": "src/arena.c",
+  "output": "src/arena.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456881,
-  "ppid": 456874,
+  "pid": 456689,
+  "ppid": 456687,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -5708,20 +31349,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bitmap.c",
+    "src/edata_cache.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "bitmap.c",
+    "edata_cache.c",
     "..."
   ],
-  "src": "src/bitmap.c",
-  "output": "src/bitmap.pic.o",
+  "src": "src/edata_cache.c",
+  "output": "src/edata_cache.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456743,
-  "ppid": 456742,
+  "pid": 457162,
+  "ppid": 457159,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -5762,20 +31403,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/counter.c",
+    "src/base.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "counter.c",
+    "base.c",
     "..."
   ],
-  "src": "src/counter.c",
-  "output": "src/counter.pic.o",
+  "src": "src/base.c",
+  "output": "src/base.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456942,
-  "ppid": 456906,
+  "pid": 456712,
+  "ppid": 456709,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -5816,20 +31457,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/edata_cache.c",
+    "src/bin.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "edata_cache.c",
+    "bin.c",
     "..."
   ],
-  "src": "src/edata_cache.c",
-  "output": "src/edata_cache.pic.o",
+  "src": "src/bin.c",
+  "output": "src/bin.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457162,
-  "ppid": 457159,
+  "pid": 456725,
+  "ppid": 456721,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -5870,20 +31511,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/decay.c",
+    "src/bitmap.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "decay.c",
+    "bitmap.c",
     "..."
   ],
-  "src": "src/decay.c",
-  "output": "src/decay.pic.o",
+  "src": "src/bitmap.c",
+  "output": "src/bitmap.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457026,
-  "ppid": 457016,
+  "pid": 456743,
+  "ppid": 456742,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -5902,114 +31543,6 @@ _None._
 ```
 
 #### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/buf_writer.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "buf_writer.c",
-    "..."
-  ],
-  "src": "src/buf_writer.c",
-  "output": "src/buf_writer.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 456826,
-  "ppid": 456819,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/edata.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "edata.c",
-    "..."
-  ],
-  "src": "src/edata.c",
-  "output": "src/edata.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 457128,
-  "ppid": 457121,
-  "root_cargo_pid": 432168,
-  "build_script_root_pid": 435509,
-  "build_script_related": true,
-  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
-  "_owner": {
-    "crate": "jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
-}
-```
-
-#### Record 9
 
 ```json
 {
@@ -6063,6 +31596,114 @@ _None._
 }
 ```
 
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "counter.c",
+    "..."
+  ],
+  "src": "src/counter.c",
+  "output": "src/counter.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 456942,
+  "ppid": 456906,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "decay.c",
+    "..."
+  ],
+  "src": "src/decay.c",
+  "output": "src/decay.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 457026,
+  "ppid": 457016,
+  "root_cargo_pid": 432168,
+  "build_script_root_pid": 435509,
+  "build_script_related": true,
+  "build_script_target_dir": "jemalloc-sys-277a43c081ce2406",
+  "_owner": {
+    "crate": "jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched#jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/jemalloc-sys-277a43c081ce2406/out"
+}
+```
+
 #### Record 10
 
 ```json
@@ -6086,20 +31727,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/base.c",
+    "src/div.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "base.c",
+    "div.c",
     "..."
   ],
-  "src": "src/base.c",
-  "output": "src/base.pic.o",
+  "src": "src/div.c",
+  "output": "src/div.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456712,
-  "ppid": 456709,
+  "pid": 457072,
+  "ppid": 457065,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -6194,20 +31835,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/div.c",
+    "src/edata.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "div.c",
+    "edata.c",
     "..."
   ],
-  "src": "src/div.c",
-  "output": "src/div.pic.o",
+  "src": "src/edata.c",
+  "output": "src/edata.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 457072,
-  "ppid": 457065,
+  "pid": 457128,
+  "ppid": 457121,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -6248,20 +31889,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bin.c",
+    "src/ckh.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "bin.c",
+    "ckh.c",
     "..."
   ],
-  "src": "src/bin.c",
-  "output": "src/bin.pic.o",
+  "src": "src/ckh.c",
+  "output": "src/ckh.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456725,
-  "ppid": 456721,
+  "pid": 456881,
+  "ppid": 456874,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,
@@ -6302,20 +31943,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/arena.c",
+    "src/buf_writer.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "arena.c",
+    "buf_writer.c",
     "..."
   ],
-  "src": "src/arena.c",
-  "output": "src/arena.pic.o",
+  "src": "src/buf_writer.c",
+  "output": "src/buf_writer.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 456689,
-  "ppid": 456687,
+  "pid": 456826,
+  "ppid": 456819,
   "root_cargo_pid": 432168,
   "build_script_root_pid": 435509,
   "build_script_related": true,

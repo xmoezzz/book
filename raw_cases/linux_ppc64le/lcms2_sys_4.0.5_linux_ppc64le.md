@@ -4,6 +4,871 @@ Platform: Linux ppc64le
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti/symbols.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.09bebreip4d7ceuk1j346meop.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.0bfgs41zzlbvf2nfyuviqoxnk.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.1hu7bmxvg5id2fslomcoda7fz.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2by24mlteaa821dc8ar0n17fs.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2gipby2pxxm9wrnfsycb2t25a.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2m1vtd6u0sabdtnvb3qoqewog.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3egzyk70bralz6qwzz4lcm213.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3mpapql5cen1xn4q7ob5prlu5.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3zwdfm7ii9oxp67uddeanxa3f.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.4e1viehy925v8n1qj8hwmtr1z.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.503omuuko22bc2v6ds06xt7ae.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6oytpe1b1qviyfcni6cfd9a3y.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6ysgba621ebw2movst9zg9pvb.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.7ao0d30n6150osrt7d81e26op.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.89v5i1xblplt6izitjf0q0gjj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8c5hfdtl1mjvlpqyj7z8lr589.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8jv5fr97p2rlih1vtbeuzfmja.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8scq6gtwrqj9iv8ngd2m5y1jj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8tmx2l1oqqgqnxsorbe2k0dnj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.99gvi2i5sc7f89x8pv63l4w1s.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9ur6t2hkge69dt8orelpidauy.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9xosuzq1dar1irnjdofck42o7.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.a7g140luvw0mj3ajmb2gctd1n.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aa7leyx9ogt93yqjf96wva4jy.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aav3bd9wqz6sdwo3lu0ozpib8.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.c0j14xgoinnn4y8c49yxmgp4y.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.ce4wifdgflpoj59lsigjomp11.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.cqkq7pgne8wfqdl15vltozf05.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.d4xrtwf45opsvp251wmsfbk3k.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.au6f269hqwddw1xxwtsi540nw.1baoi8g.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libdunce-4f7b53b0577547b7.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti/symbols.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.09bebreip4d7ceuk1j346meop.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.0bfgs41zzlbvf2nfyuviqoxnk.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.1hu7bmxvg5id2fslomcoda7fz.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2by24mlteaa821dc8ar0n17fs.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2gipby2pxxm9wrnfsycb2t25a.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2m1vtd6u0sabdtnvb3qoqewog.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3egzyk70bralz6qwzz4lcm213.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3mpapql5cen1xn4q7ob5prlu5.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3zwdfm7ii9oxp67uddeanxa3f.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.4e1viehy925v8n1qj8hwmtr1z.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.503omuuko22bc2v6ds06xt7ae.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6oytpe1b1qviyfcni6cfd9a3y.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6ysgba621ebw2movst9zg9pvb.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.7ao0d30n6150osrt7d81e26op.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.89v5i1xblplt6izitjf0q0gjj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8c5hfdtl1mjvlpqyj7z8lr589.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8jv5fr97p2rlih1vtbeuzfmja.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8scq6gtwrqj9iv8ngd2m5y1jj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8tmx2l1oqqgqnxsorbe2k0dnj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.99gvi2i5sc7f89x8pv63l4w1s.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9ur6t2hkge69dt8orelpidauy.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9xosuzq1dar1irnjdofck42o7.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.a7g140luvw0mj3ajmb2gctd1n.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aa7leyx9ogt93yqjf96wva4jy.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aav3bd9wqz6sdwo3lu0ozpib8.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.c0j14xgoinnn4y8c49yxmgp4y.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.ce4wifdgflpoj59lsigjomp11.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.cqkq7pgne8wfqdl15vltozf05.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.d4xrtwf45opsvp251wmsfbk3k.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.au6f269hqwddw1xxwtsi540nw.1baoi8g.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti/symbols.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.09bebreip4d7ceuk1j346meop.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.0bfgs41zzlbvf2nfyuviqoxnk.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.1hu7bmxvg5id2fslomcoda7fz.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2by24mlteaa821dc8ar0n17fs.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2gipby2pxxm9wrnfsycb2t25a.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2m1vtd6u0sabdtnvb3qoqewog.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3egzyk70bralz6qwzz4lcm213.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3mpapql5cen1xn4q7ob5prlu5.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3zwdfm7ii9oxp67uddeanxa3f.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.4e1viehy925v8n1qj8hwmtr1z.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.503omuuko22bc2v6ds06xt7ae.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6oytpe1b1qviyfcni6cfd9a3y.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6ysgba621ebw2movst9zg9pvb.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.7ao0d30n6150osrt7d81e26op.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.89v5i1xblplt6izitjf0q0gjj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8c5hfdtl1mjvlpqyj7z8lr589.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8jv5fr97p2rlih1vtbeuzfmja.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8scq6gtwrqj9iv8ngd2m5y1jj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8tmx2l1oqqgqnxsorbe2k0dnj.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.99gvi2i5sc7f89x8pv63l4w1s.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9ur6t2hkge69dt8orelpidauy.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9xosuzq1dar1irnjdofck42o7.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.a7g140luvw0mj3ajmb2gctd1n.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aa7leyx9ogt93yqjf96wva4jy.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aav3bd9wqz6sdwo3lu0ozpib8.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.c0j14xgoinnn4y8c49yxmgp4y.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.ce4wifdgflpoj59lsigjomp11.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.cqkq7pgne8wfqdl15vltozf05.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.d4xrtwf45opsvp251wmsfbk3k.1baoi8g.rcgu.o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.au6f269hqwddw1xxwtsi540nw.1baoi8g.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libdunce-4f7b53b0577547b7.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti",
+    "/target/debug/build/lcms2-sys-e678190117c9ae61",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/rustcecdSti/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.09bebreip4d7ceuk1j346meop.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.0bfgs41zzlbvf2nfyuviqoxnk.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.1hu7bmxvg5id2fslomcoda7fz.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2by24mlteaa821dc8ar0n17fs.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2gipby2pxxm9wrnfsycb2t25a.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.2m1vtd6u0sabdtnvb3qoqewog.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3egzyk70bralz6qwzz4lcm213.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3mpapql5cen1xn4q7ob5prlu5.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.3zwdfm7ii9oxp67uddeanxa3f.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.4e1viehy925v8n1qj8hwmtr1z.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.503omuuko22bc2v6ds06xt7ae.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6oytpe1b1qviyfcni6cfd9a3y.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.6ysgba621ebw2movst9zg9pvb.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.7ao0d30n6150osrt7d81e26op.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.89v5i1xblplt6izitjf0q0gjj.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8c5hfdtl1mjvlpqyj7z8lr589.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8jv5fr97p2rlih1vtbeuzfmja.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8scq6gtwrqj9iv8ngd2m5y1jj.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.8tmx2l1oqqgqnxsorbe2k0dnj.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.99gvi2i5sc7f89x8pv63l4w1s.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9ur6t2hkge69dt8orelpidauy.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.9xosuzq1dar1irnjdofck42o7.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.a7g140luvw0mj3ajmb2gctd1n.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aa7leyx9ogt93yqjf96wva4jy.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.aav3bd9wqz6sdwo3lu0ozpib8.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.c0j14xgoinnn4y8c49yxmgp4y.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.ce4wifdgflpoj59lsigjomp11.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.cqkq7pgne8wfqdl15vltozf05.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.d4xrtwf45opsvp251wmsfbk3k.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/lcms2-sys-e678190117c9ae61",
+      "kind": "object",
+      "path": "/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61.au6f269hqwddw1xxwtsi540nw.1baoi8g.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-995501-1783998912381279443.map",
+  "pid": 995501,
+  "ppid": 995466,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-995501-1783998912381279443.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -38,7 +903,789 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsalpha.o",
+    "-c",
+    "vendor/src/cmsalpha.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995528,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmscam02.o",
+    "-c",
+    "vendor/src/cmscam02.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995529,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmscgats.o",
+    "-c",
+    "vendor/src/cmscgats.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995531,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmscnvrt.o",
+    "-c",
+    "vendor/src/cmscnvrt.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995533,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmserr.o",
+    "-c",
+    "vendor/src/cmserr.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995534,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsgamma.o",
+    "-c",
+    "vendor/src/cmsgamma.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995537,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsgmt.o",
+    "-c",
+    "vendor/src/cmsgmt.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995538,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmshalf.o",
+    "-c",
+    "vendor/src/cmshalf.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995540,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio0.o",
+    "-c",
+    "vendor/src/cmsio0.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995544,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsintrp.o",
+    "-c",
+    "vendor/src/cmsintrp.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995542,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio1.o",
+    "-c",
+    "vendor/src/cmsio1.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995546,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmd5.o",
+    "-c",
+    "vendor/src/cmsmd5.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995551,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmtrx.o",
+    "-c",
+    "vendor/src/cmsmtrx.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995553,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsnamed.o",
+    "-c",
+    "vendor/src/cmsnamed.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995555,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsopt.o",
+    "-c",
+    "vendor/src/cmsopt.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995557,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-I",
+    "vendor/include",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmspack.o",
+    "-c",
+    "vendor/src/cmspack.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 995522,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 995571,
+  "ppid": 995522,
+  "root_cargo_pid": 995188,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 
@@ -56,15 +1703,15 @@ _None._
     "vendor/include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "vendor/src/cmsopt.c",
+    "vendor/src/cmsio0.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "cmsopt.c",
+    "cmsio0.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsopt.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio0.o",
     "-g",
     "-gdwarf-4",
     "-O0",
@@ -72,13 +1719,13 @@ _None._
     "-Wextra",
     "..."
   ],
-  "src": "vendor/src/cmsopt.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsopt.o",
+  "src": "vendor/src/cmsio0.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio0.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 995559,
-  "ppid": 995557,
+  "pid": 995548,
+  "ppid": 995544,
   "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
   "root_cargo_pid": 995188,
   "build_script_root_pid": 995522,
@@ -168,15 +1815,15 @@ _None._
     "vendor/include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "vendor/src/cmspack.c",
+    "vendor/src/cmsmtrx.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "cmspack.c",
+    "cmsmtrx.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmspack.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmtrx.o",
     "-g",
     "-gdwarf-4",
     "-O0",
@@ -184,13 +1831,13 @@ _None._
     "-Wextra",
     "..."
   ],
-  "src": "vendor/src/cmspack.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmspack.o",
+  "src": "vendor/src/cmsmtrx.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmtrx.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 995574,
-  "ppid": 995571,
+  "pid": 995556,
+  "ppid": 995553,
   "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
   "root_cargo_pid": 995188,
   "build_script_root_pid": 995522,
@@ -280,286 +1927,6 @@ _None._
     "vendor/include",
     "-imultiarch",
     "powerpc64le-linux-gnu",
-    "vendor/src/cmscnvrt.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmscnvrt.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmscnvrt.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmscnvrt.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmscnvrt.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995536,
-  "ppid": 995533,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmsmtrx.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmsmtrx.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmtrx.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmsmtrx.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmtrx.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995556,
-  "ppid": 995553,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmsalpha.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmsalpha.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsalpha.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmsalpha.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsalpha.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995530,
-  "ppid": 995528,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmsio1.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmsio1.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio1.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmsio1.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio1.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995550,
-  "ppid": 995546,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmslut.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmslut.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmslut.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmslut.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmslut.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995552,
-  "ppid": 995549,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 10
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
     "vendor/src/cmshalf.c",
     "-msecure-plt",
     "-quiet",
@@ -602,231 +1969,7 @@ _None._
 }
 ```
 
-#### Record 11
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmsintrp.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmsintrp.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsintrp.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmsintrp.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsintrp.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995547,
-  "ppid": 995542,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 12
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmsio0.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmsio0.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio0.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmsio0.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio0.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995548,
-  "ppid": 995544,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 13
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmsmd5.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmsmd5.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmd5.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmsmd5.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmd5.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995554,
-  "ppid": 995551,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 14
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "vendor/include",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "vendor/src/cmsnamed.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "cmsnamed.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsnamed.o",
-    "-g",
-    "-gdwarf-4",
-    "-O0",
-    "-Wall",
-    "-Wextra",
-    "..."
-  ],
-  "src": "vendor/src/cmsnamed.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsnamed.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 995558,
-  "ppid": 995555,
-  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "root_cargo_pid": 995188,
-  "build_script_root_pid": 995522,
-  "build_script_related": true,
-  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
-  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 15
+#### Record 6
 
 ```json
 {
@@ -882,7 +2025,343 @@ _None._
 }
 ```
 
-#### Record 16
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmsnamed.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmsnamed.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsnamed.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmsnamed.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsnamed.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995558,
+  "ppid": 995555,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmsintrp.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmsintrp.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsintrp.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmsintrp.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsintrp.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995547,
+  "ppid": 995542,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmsio1.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmsio1.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio1.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmsio1.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsio1.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995550,
+  "ppid": 995546,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmsmd5.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmsmd5.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmd5.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmsmd5.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsmd5.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995554,
+  "ppid": 995551,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmspack.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmspack.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmspack.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmspack.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmspack.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995574,
+  "ppid": 995571,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmsopt.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmsopt.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsopt.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmsopt.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsopt.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995559,
+  "ppid": 995557,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
 
 ```json
 {
@@ -938,7 +2417,7 @@ _None._
 }
 ```
 
-#### Record 17
+#### Record 14
 
 ```json
 {
@@ -975,6 +2454,174 @@ _None._
   "recovered_from_process_exec": true,
   "pid": 995532,
   "ppid": 995529,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmsalpha.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmsalpha.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsalpha.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmsalpha.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmsalpha.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995530,
+  "ppid": 995528,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmscnvrt.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmscnvrt.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmscnvrt.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmscnvrt.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmscnvrt.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995536,
+  "ppid": 995533,
+  "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "root_cargo_pid": 995188,
+  "build_script_root_pid": 995522,
+  "build_script_related": true,
+  "build_script_target_dir": "lcms2-sys-e678190117c9ae61",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
+  "_build_script_out_dir": "/target/debug/build/lcms2-sys-e678190117c9ae61/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 17
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "vendor/include",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "vendor/src/cmslut.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "cmslut.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmslut.o",
+    "-g",
+    "-gdwarf-4",
+    "-O0",
+    "-Wall",
+    "-Wextra",
+    "..."
+  ],
+  "src": "vendor/src/cmslut.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/lcms2-sys-5fede971eb0990c2/out/49c72391db7e6a2b-cmslut.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 995552,
+  "ppid": 995549,
   "cwd": "/tmp/crate-build-ppc64le-bs80rzv_/src/lcms2-sys-4.0.5",
   "root_cargo_pid": 995188,
   "build_script_root_pid": 995522,

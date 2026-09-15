@@ -4,6 +4,1112 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5/symbols.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0dbdedjn6587a875ucbyn7wk6.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0emcaawbtm13w155y8xlv41ce.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0gn4zsaoh6zi74n5qsgifrhcu.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0n11uu7z2vv88ln0gfj8mtyfc.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0nwcc7x7rw5ahk1txt5qysd6i.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0pfqb80p1bo9ifoyzzeup01y3.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.16o7wgjuy6pzx1sx2h57ejyo2.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1m6rkghtaots5c32air4dm3ce.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2cui7j3b69k8lcswva8w78s4x.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2dir6wg1rudblb5unc0p39y9h.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2ha3td18irod8kqp2om4p1g7w.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2vu69nopcq36y6w4ipibkxptv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.37z146xe6fvjmxbhwaepfsprx.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3bqfaknowce3g76eidiuzpo29.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3byvoelvcz8ej0o5bl1l3mrcn.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3eov67rbnytpo3awv240t6ksu.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.49sfslgrgpybmrat7l1a7i1bq.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4efxgp8kut51bwusxe7xcgoem.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4ju2aad2rlom9pl7vojche1sd.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4k52vvdwl3chq1a0juabbit7a.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4kjk11qxqu7ymntfa9zl0yzo9.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5pva3d47w8e52htlhf6hnong9.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5qqo439u2yxmrwl6fzog5c2zv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.63b41647etsg7a1q4rwqmdmuy.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6d87k0e1zj84gp91qrcmepy13.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6hyq7ohn7nf84fa034n0mgdvb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6ieerb58dg2kkxs7r6ph81d6v.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6nrbo6tczumsj214crw58kjgq.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6pfa95ogy6f5szxklh3y3h4hl.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6qtjbp39i4qxy8xtnufahukjm.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6uuy8p9yhqc4s70vydcfiz820.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.737iw8hj73lqs1rudqql6xx9k.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.7buujw1qfuj8o52gbmv0ti8rx.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.811d8q6p87p0d8mv2zdhjvtzi.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8cf5v544ln9q4ndv1l81p6ldb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8nqltayo5k065ny4b5ugrkzu6.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8qfzcj3vb68svrvwh72cntip0.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8wiomxormbfjb2qls6i0am5mr.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.945sqlh048pyx8rgd5ngql0xv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.987slk3pu9ovgwosj097kn72l.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9a110gdlfldr1thotib9u2821.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9ptujw7ia5cb5iamgwuhtluih.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9vprp4ollcyeolhwz1vfow7fi.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.a50yy4pvh412r2gzct31igah7.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.afpqeo9as6yk38taflj0xve53.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.b47n2fntkn34k98u9jcnuk51k.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bajbi3d8t0n56zjgv61wb567d.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bfm6dlxn7ypbbenivemyeq5xb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bhttxhik3t7s36vxj6ad08kom.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.btmy385yufc180fb07nnx4kxw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bwpj385yy34wjonueg0vfcbwy.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bztlai1yt2y1216dw5390wq7z.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.c5um28eu1g8zt0w7rhe6d3en8.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cezhhp32il6mmr2vlgj1zfgd4.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cu4vsy60rxuuuz6v9ngxrb881.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.d1om65qx7albtgpply38a409a.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ep96zn8wmzpn557hsjhscwpsw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.epn1xklituzug8gel38279p7m.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ev1ixh1vq3v8v00xmokti2h1r.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6h4dgvlfy418s3f1q886ugnrl.0je97i3.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-4d2da58fbc320c87.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5/symbols.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0dbdedjn6587a875ucbyn7wk6.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0emcaawbtm13w155y8xlv41ce.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0gn4zsaoh6zi74n5qsgifrhcu.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0n11uu7z2vv88ln0gfj8mtyfc.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0nwcc7x7rw5ahk1txt5qysd6i.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0pfqb80p1bo9ifoyzzeup01y3.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.16o7wgjuy6pzx1sx2h57ejyo2.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1m6rkghtaots5c32air4dm3ce.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2cui7j3b69k8lcswva8w78s4x.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2dir6wg1rudblb5unc0p39y9h.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2ha3td18irod8kqp2om4p1g7w.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2vu69nopcq36y6w4ipibkxptv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.37z146xe6fvjmxbhwaepfsprx.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3bqfaknowce3g76eidiuzpo29.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3byvoelvcz8ej0o5bl1l3mrcn.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3eov67rbnytpo3awv240t6ksu.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.49sfslgrgpybmrat7l1a7i1bq.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4efxgp8kut51bwusxe7xcgoem.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4ju2aad2rlom9pl7vojche1sd.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4k52vvdwl3chq1a0juabbit7a.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4kjk11qxqu7ymntfa9zl0yzo9.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5pva3d47w8e52htlhf6hnong9.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5qqo439u2yxmrwl6fzog5c2zv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.63b41647etsg7a1q4rwqmdmuy.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6d87k0e1zj84gp91qrcmepy13.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6hyq7ohn7nf84fa034n0mgdvb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6ieerb58dg2kkxs7r6ph81d6v.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6nrbo6tczumsj214crw58kjgq.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6pfa95ogy6f5szxklh3y3h4hl.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6qtjbp39i4qxy8xtnufahukjm.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6uuy8p9yhqc4s70vydcfiz820.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.737iw8hj73lqs1rudqql6xx9k.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.7buujw1qfuj8o52gbmv0ti8rx.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.811d8q6p87p0d8mv2zdhjvtzi.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8cf5v544ln9q4ndv1l81p6ldb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8nqltayo5k065ny4b5ugrkzu6.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8qfzcj3vb68svrvwh72cntip0.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8wiomxormbfjb2qls6i0am5mr.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.945sqlh048pyx8rgd5ngql0xv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.987slk3pu9ovgwosj097kn72l.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9a110gdlfldr1thotib9u2821.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9ptujw7ia5cb5iamgwuhtluih.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9vprp4ollcyeolhwz1vfow7fi.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.a50yy4pvh412r2gzct31igah7.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.afpqeo9as6yk38taflj0xve53.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.b47n2fntkn34k98u9jcnuk51k.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bajbi3d8t0n56zjgv61wb567d.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bfm6dlxn7ypbbenivemyeq5xb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bhttxhik3t7s36vxj6ad08kom.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.btmy385yufc180fb07nnx4kxw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bwpj385yy34wjonueg0vfcbwy.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bztlai1yt2y1216dw5390wq7z.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.c5um28eu1g8zt0w7rhe6d3en8.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cezhhp32il6mmr2vlgj1zfgd4.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cu4vsy60rxuuuz6v9ngxrb881.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.d1om65qx7albtgpply38a409a.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ep96zn8wmzpn557hsjhscwpsw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.epn1xklituzug8gel38279p7m.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ev1ixh1vq3v8v00xmokti2h1r.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6h4dgvlfy418s3f1q886ugnrl.0je97i3.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5/symbols.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0dbdedjn6587a875ucbyn7wk6.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0emcaawbtm13w155y8xlv41ce.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0gn4zsaoh6zi74n5qsgifrhcu.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0n11uu7z2vv88ln0gfj8mtyfc.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0nwcc7x7rw5ahk1txt5qysd6i.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0pfqb80p1bo9ifoyzzeup01y3.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.16o7wgjuy6pzx1sx2h57ejyo2.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1m6rkghtaots5c32air4dm3ce.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2cui7j3b69k8lcswva8w78s4x.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2dir6wg1rudblb5unc0p39y9h.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2ha3td18irod8kqp2om4p1g7w.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2vu69nopcq36y6w4ipibkxptv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.37z146xe6fvjmxbhwaepfsprx.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3bqfaknowce3g76eidiuzpo29.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3byvoelvcz8ej0o5bl1l3mrcn.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3eov67rbnytpo3awv240t6ksu.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.49sfslgrgpybmrat7l1a7i1bq.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4efxgp8kut51bwusxe7xcgoem.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4ju2aad2rlom9pl7vojche1sd.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4k52vvdwl3chq1a0juabbit7a.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4kjk11qxqu7ymntfa9zl0yzo9.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5pva3d47w8e52htlhf6hnong9.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5qqo439u2yxmrwl6fzog5c2zv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.63b41647etsg7a1q4rwqmdmuy.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6d87k0e1zj84gp91qrcmepy13.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6hyq7ohn7nf84fa034n0mgdvb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6ieerb58dg2kkxs7r6ph81d6v.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6nrbo6tczumsj214crw58kjgq.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6pfa95ogy6f5szxklh3y3h4hl.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6qtjbp39i4qxy8xtnufahukjm.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6uuy8p9yhqc4s70vydcfiz820.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.737iw8hj73lqs1rudqql6xx9k.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.7buujw1qfuj8o52gbmv0ti8rx.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.811d8q6p87p0d8mv2zdhjvtzi.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8cf5v544ln9q4ndv1l81p6ldb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8nqltayo5k065ny4b5ugrkzu6.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8qfzcj3vb68svrvwh72cntip0.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8wiomxormbfjb2qls6i0am5mr.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.945sqlh048pyx8rgd5ngql0xv.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.987slk3pu9ovgwosj097kn72l.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9a110gdlfldr1thotib9u2821.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9ptujw7ia5cb5iamgwuhtluih.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9vprp4ollcyeolhwz1vfow7fi.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.a50yy4pvh412r2gzct31igah7.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.afpqeo9as6yk38taflj0xve53.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.b47n2fntkn34k98u9jcnuk51k.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bajbi3d8t0n56zjgv61wb567d.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bfm6dlxn7ypbbenivemyeq5xb.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bhttxhik3t7s36vxj6ad08kom.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.btmy385yufc180fb07nnx4kxw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bwpj385yy34wjonueg0vfcbwy.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bztlai1yt2y1216dw5390wq7z.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.c5um28eu1g8zt0w7rhe6d3en8.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cezhhp32il6mmr2vlgj1zfgd4.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cu4vsy60rxuuuz6v9ngxrb881.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.d1om65qx7albtgpply38a409a.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ep96zn8wmzpn557hsjhscwpsw.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.epn1xklituzug8gel38279p7m.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ev1ixh1vq3v8v00xmokti2h1r.0je97i3.rcgu.o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6h4dgvlfy418s3f1q886ugnrl.0je97i3.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-4d2da58fbc320c87.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5",
+    "/target/debug/build/ring-19b641f5c8ef9c4a",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/670b0            670b0        9    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/670c0            670c0        9    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/6d8b0            6d8b0        c    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/6d8c0            6d8c0        c    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/76580            76580        c    16         /target/debug/build/ring-19b641f5c8ef9c4a"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/rustcF3M6F5/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0dbdedjn6587a875ucbyn7wk6.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0emcaawbtm13w155y8xlv41ce.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0gn4zsaoh6zi74n5qsgifrhcu.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0n11uu7z2vv88ln0gfj8mtyfc.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0nwcc7x7rw5ahk1txt5qysd6i.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.0pfqb80p1bo9ifoyzzeup01y3.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.16o7wgjuy6pzx1sx2h57ejyo2.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1m6rkghtaots5c32air4dm3ce.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2cui7j3b69k8lcswva8w78s4x.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2dir6wg1rudblb5unc0p39y9h.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2ha3td18irod8kqp2om4p1g7w.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.2vu69nopcq36y6w4ipibkxptv.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.37z146xe6fvjmxbhwaepfsprx.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3bqfaknowce3g76eidiuzpo29.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3byvoelvcz8ej0o5bl1l3mrcn.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.3eov67rbnytpo3awv240t6ksu.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.49sfslgrgpybmrat7l1a7i1bq.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4efxgp8kut51bwusxe7xcgoem.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4ju2aad2rlom9pl7vojche1sd.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4k52vvdwl3chq1a0juabbit7a.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.4kjk11qxqu7ymntfa9zl0yzo9.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5pva3d47w8e52htlhf6hnong9.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5qqo439u2yxmrwl6fzog5c2zv.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.63b41647etsg7a1q4rwqmdmuy.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6d87k0e1zj84gp91qrcmepy13.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6hyq7ohn7nf84fa034n0mgdvb.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6ieerb58dg2kkxs7r6ph81d6v.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6nrbo6tczumsj214crw58kjgq.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6pfa95ogy6f5szxklh3y3h4hl.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6qtjbp39i4qxy8xtnufahukjm.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6uuy8p9yhqc4s70vydcfiz820.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.737iw8hj73lqs1rudqql6xx9k.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.7buujw1qfuj8o52gbmv0ti8rx.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.811d8q6p87p0d8mv2zdhjvtzi.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8cf5v544ln9q4ndv1l81p6ldb.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8nqltayo5k065ny4b5ugrkzu6.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8qfzcj3vb68svrvwh72cntip0.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.8wiomxormbfjb2qls6i0am5mr.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.945sqlh048pyx8rgd5ngql0xv.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.987slk3pu9ovgwosj097kn72l.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9a110gdlfldr1thotib9u2821.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9ptujw7ia5cb5iamgwuhtluih.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9vprp4ollcyeolhwz1vfow7fi.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.a50yy4pvh412r2gzct31igah7.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.afpqeo9as6yk38taflj0xve53.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.b47n2fntkn34k98u9jcnuk51k.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bajbi3d8t0n56zjgv61wb567d.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bfm6dlxn7ypbbenivemyeq5xb.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bhttxhik3t7s36vxj6ad08kom.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.btmy385yufc180fb07nnx4kxw.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bwpj385yy34wjonueg0vfcbwy.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.bztlai1yt2y1216dw5390wq7z.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.c5um28eu1g8zt0w7rhe6d3en8.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cezhhp32il6mmr2vlgj1zfgd4.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.cu4vsy60rxuuuz6v9ngxrb881.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.d1om65qx7albtgpply38a409a.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ep96zn8wmzpn557hsjhscwpsw.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.epn1xklituzug8gel38279p7m.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.ev1ixh1vq3v8v00xmokti2h1r.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "object",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.6h4dgvlfy418s3f1q886ugnrl.0je97i3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-4d2da58fbc320c87.rlib(cc-4d2da58fbc320c87.cc.666c062ec44311b5-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-9d2fae39757f538b.rlib(shlex-9d2fae39757f538b.shlex.1ceebad2f47cb4e6-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/670b0            670b0        9    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/670b0            670b0        9    16         /target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o:(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h7a18e479b3125dbdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o:(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h7a18e479b3125dbdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/670c0            670c0        9    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/670c0            670c0        9    16         /target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o:(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hd72c406a41cccde4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.1iq9f1ot30qpcl1eamz0wwhut.0je97i3.rcgu.o:(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hd72c406a41cccde4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/6d8b0            6d8b0        c    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/6d8b0            6d8b0        c    16         /target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o:(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17ha428c28b9d7eacddE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o:(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17ha428c28b9d7eacddE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/6d8c0            6d8c0        c    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/6d8c0            6d8c0        c    16         /target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o:(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17he64db3380fb150dcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.5a5j0tyuzvvn0yeiaydp7uymw.0je97i3.rcgu.o:(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17he64db3380fb150dcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/76580            76580        c    16         /target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/76580            76580        c    16         /target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9vprp4ollcyeolhwz1vfow7fi.0je97i3.rcgu.o:(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf8dc9af5bee149d6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/ring-19b641f5c8ef9c4a",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/ring-19b641f5c8ef9c4a/build_script_build-19b641f5c8ef9c4a.9vprp4ollcyeolhwz1vfow7fi.0je97i3.rcgu.o:(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf8dc9af5bee149d6E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-30673-1783992706069598200.map",
+  "pid": 30673,
+  "ppid": 30513,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-30673-1783992706069598200.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -51,6 +1157,8 @@ _None._
   "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
   "argv": [
     "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
     "-quiet",
     "-I",
     "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
@@ -61,24 +1169,22 @@ _None._
     "-dD",
     "-D",
     "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/bn/montgomery.c",
-    "-quiet",
-    "-dumpbase",
-    "montgomery.c",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-gcm-armv8-linux64.S",
     "-mlittle-endian",
     "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/00c879ee3285a50d-montgomery.o",
-    "-gdwarf-4",
+    "-std=c11",
+    "-Wextra",
+    "-Wall",
+    "-Wbad-function-cast",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/bn/montgomery.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/00c879ee3285a50d-montgomery.o",
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-gcm-armv8-linux64.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/c322a0bcc369f531-aesv8-gcm-armv8-linux64.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 30867,
-  "ppid": 30866,
+  "pid": 31003,
+  "ppid": 31002,
   "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
   "root_cargo_pid": 29032,
   "build_script_root_pid": 30748,
@@ -117,24 +1223,24 @@ _None._
     "-dD",
     "-D",
     "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/curve25519/curve25519.c",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/mem.c",
     "-quiet",
     "-dumpbase",
-    "curve25519.c",
+    "mem.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/25ac62e5b3c53843-curve25519.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a4019cc0736b0423-mem.o",
     "-gdwarf-4",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/curve25519/curve25519.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/25ac62e5b3c53843-curve25519.o",
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/mem.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a4019cc0736b0423-mem.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 30757,
-  "ppid": 30753,
+  "pid": 30924,
+  "ppid": 30922,
   "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
   "root_cargo_pid": 29032,
   "build_script_root_pid": 30748,
@@ -229,24 +1335,24 @@ _None._
     "-dD",
     "-D",
     "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/poly1305/poly1305.c",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/bn/montgomery.c",
     "-quiet",
     "-dumpbase",
-    "poly1305.c",
+    "montgomery.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/d5a9841f3dc6e253-poly1305.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/00c879ee3285a50d-montgomery.o",
     "-gdwarf-4",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/poly1305/poly1305.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/d5a9841f3dc6e253-poly1305.o",
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/bn/montgomery.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/00c879ee3285a50d-montgomery.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 30931,
-  "ppid": 30930,
+  "pid": 30867,
+  "ppid": 30866,
   "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
   "root_cargo_pid": 29032,
   "build_script_root_pid": 30748,
@@ -267,286 +1373,6 @@ _None._
 ```
 
 #### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p256.c",
-    "-quiet",
-    "-dumpbase",
-    "gfp_p256.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p256.o",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p256.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p256.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 30886,
-  "ppid": 30885,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/limbs/limbs.c",
-    "-quiet",
-    "-dumpbase",
-    "limbs.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/aaa1ba3e455ee2e1-limbs.o",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/limbs/limbs.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/aaa1ba3e455ee2e1-limbs.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 30911,
-  "ppid": 30909,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/mem.c",
-    "-quiet",
-    "-dumpbase",
-    "mem.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a4019cc0736b0423-mem.o",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/mem.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a4019cc0736b0423-mem.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 30924,
-  "ppid": 30922,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-armx-linux64.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-std=c11",
-    "-Wextra",
-    "-Wall",
-    "-Wbad-function-cast",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-armx-linux64.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/c322a0bcc369f531-aesv8-armx-linux64.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 30999,
-  "ppid": 30997,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256.c",
-    "-quiet",
-    "-dumpbase",
-    "p256.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256.o",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 30902,
-  "ppid": 30901,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 10
 
 ```json
 {
@@ -602,119 +1428,7 @@ _None._
 }
 ```
 
-#### Record 11
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256-nistz.c",
-    "-quiet",
-    "-dumpbase",
-    "p256-nistz.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256-nistz.o",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256-nistz.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256-nistz.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 30937,
-  "ppid": 30935,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 12
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/aes/aes_nohw.c",
-    "-quiet",
-    "-dumpbase",
-    "aes_nohw.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/0bbbd18bda93c05b-aes_nohw.o",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/aes/aes_nohw.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/0bbbd18bda93c05b-aes_nohw.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 30851,
-  "ppid": 30849,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 13
+#### Record 6
 
 ```json
 {
@@ -770,7 +1484,119 @@ _None._
 }
 ```
 
-#### Record 14
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/curve25519/curve25519.c",
+    "-quiet",
+    "-dumpbase",
+    "curve25519.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/25ac62e5b3c53843-curve25519.o",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/curve25519/curve25519.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/25ac62e5b3c53843-curve25519.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30757,
+  "ppid": 30753,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p384.c",
+    "-quiet",
+    "-dumpbase",
+    "gfp_p384.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p384.o",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p384.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p384.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30893,
+  "ppid": 30892,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
 
 ```json
 {
@@ -826,63 +1652,7 @@ _None._
 }
 ```
 
-#### Record 15
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
-    "-I",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-dD",
-    "-D",
-    "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-gcm-armv8-linux64.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-std=c11",
-    "-Wextra",
-    "-Wall",
-    "-Wbad-function-cast",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-gcm-armv8-linux64.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/c322a0bcc369f531-aesv8-gcm-armv8-linux64.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 31003,
-  "ppid": 31002,
-  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "root_cargo_pid": 29032,
-  "build_script_root_pid": 30748,
-  "build_script_related": true,
-  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
-  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 16
+#### Record 10
 
 ```json
 {
@@ -938,6 +1708,342 @@ _None._
 }
 ```
 
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p256.c",
+    "-quiet",
+    "-dumpbase",
+    "gfp_p256.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p256.o",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p256.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p256.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30886,
+  "ppid": 30885,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/poly1305/poly1305.c",
+    "-quiet",
+    "-dumpbase",
+    "poly1305.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/d5a9841f3dc6e253-poly1305.o",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/poly1305/poly1305.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/d5a9841f3dc6e253-poly1305.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30931,
+  "ppid": 30930,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/aes/aes_nohw.c",
+    "-quiet",
+    "-dumpbase",
+    "aes_nohw.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/0bbbd18bda93c05b-aes_nohw.o",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/aes/aes_nohw.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/0bbbd18bda93c05b-aes_nohw.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30851,
+  "ppid": 30849,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/limbs/limbs.c",
+    "-quiet",
+    "-dumpbase",
+    "limbs.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/aaa1ba3e455ee2e1-limbs.o",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/limbs/limbs.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/aaa1ba3e455ee2e1-limbs.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30911,
+  "ppid": 30909,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256-nistz.c",
+    "-quiet",
+    "-dumpbase",
+    "p256-nistz.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256-nistz.o",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256-nistz.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256-nistz.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30937,
+  "ppid": 30935,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/include",
+    "-I",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-dD",
+    "-D",
+    "NDEBUG",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-armx-linux64.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-std=c11",
+    "-Wextra",
+    "-Wall",
+    "-Wbad-function-cast",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/pregenerated/aesv8-armx-linux64.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/c322a0bcc369f531-aesv8-armx-linux64.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 30999,
+  "ppid": 30997,
+  "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "root_cargo_pid": 29032,
+  "build_script_root_pid": 30748,
+  "build_script_related": true,
+  "build_script_target_dir": "ring-19b641f5c8ef9c4a",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
+  "_build_script_out_dir": "/target/debug/build/ring-19b641f5c8ef9c4a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 17
 
 ```json
@@ -957,24 +2063,24 @@ _None._
     "-dD",
     "-D",
     "NDEBUG",
-    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p384.c",
+    "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256.c",
     "-quiet",
     "-dumpbase",
-    "gfp_p384.c",
+    "p256.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p384.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256.o",
     "-gdwarf-4",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/gfp_p384.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-gfp_p384.o",
+  "src": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14/crypto/fipsmodule/ec/p256.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/ring-cc8314ad93c6a068/out/a0330e891e733f4e-p256.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 30893,
-  "ppid": 30892,
+  "pid": 30902,
+  "ppid": 30901,
   "cwd": "/tmp/crate-build-aarch64-s6wg4hei/src/ring-0.17.14",
   "root_cargo_pid": 29032,
   "build_script_root_pid": 30748,

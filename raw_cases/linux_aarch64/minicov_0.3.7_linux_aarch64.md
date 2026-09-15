@@ -4,6 +4,820 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3/symbols.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.0snjcl17kbj8h5sqkdj4nhca6.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.143ss6hvahz87o8lacg8ralpl.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.1546sghj4ah2so2eweudn3alr.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.17tngdofwif7414zsbkln492m.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2392x879pp8hnkbt69nk2cdrd.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.23kcizx4pl2gf285068nq9uo6.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2e0vmf5i4enyh2zoc21ablzpm.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.3kqcwwoinmpjpksquuohu424t.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4h8fszidx3zqrobtahwubnnz9.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4krxp3xp3xqkv1uf93nmfgyl4.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4royhq48wrwxxn418cgh9wf4i.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5bsliq4eqlj10bvn2jgtxpjsv.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5ixcaymv6n8h3eaikh5zssc5r.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.69o0n7u77iqy629ed5smlyoez.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.6v8cpxbasy1wqaowqh82bnr60.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.916x0yuoi9yq3snfdjvbokk5r.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9gc5jee95ikh3rbxu0hconjn1.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9o177txrgfpdene6j9pcktzj2.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.bcsx89f34kgj14exnrqjrklct.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.eajdybspa52zmfkro1pdb31q5.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.euepajaqfwe3c5tepdwle74d7.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.7wwt3fmpctl0uyysq7p5qybyx.1uj3mve.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib",
+    "/target/debug/deps/libsame_file-e4e8dba317b28e66.rlib",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3/symbols.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.0snjcl17kbj8h5sqkdj4nhca6.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.143ss6hvahz87o8lacg8ralpl.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.1546sghj4ah2so2eweudn3alr.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.17tngdofwif7414zsbkln492m.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2392x879pp8hnkbt69nk2cdrd.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.23kcizx4pl2gf285068nq9uo6.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2e0vmf5i4enyh2zoc21ablzpm.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.3kqcwwoinmpjpksquuohu424t.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4h8fszidx3zqrobtahwubnnz9.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4krxp3xp3xqkv1uf93nmfgyl4.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4royhq48wrwxxn418cgh9wf4i.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5bsliq4eqlj10bvn2jgtxpjsv.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5ixcaymv6n8h3eaikh5zssc5r.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.69o0n7u77iqy629ed5smlyoez.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.6v8cpxbasy1wqaowqh82bnr60.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.916x0yuoi9yq3snfdjvbokk5r.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9gc5jee95ikh3rbxu0hconjn1.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9o177txrgfpdene6j9pcktzj2.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.bcsx89f34kgj14exnrqjrklct.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.eajdybspa52zmfkro1pdb31q5.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.euepajaqfwe3c5tepdwle74d7.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.7wwt3fmpctl0uyysq7p5qybyx.1uj3mve.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3/symbols.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.0snjcl17kbj8h5sqkdj4nhca6.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.143ss6hvahz87o8lacg8ralpl.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.1546sghj4ah2so2eweudn3alr.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.17tngdofwif7414zsbkln492m.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2392x879pp8hnkbt69nk2cdrd.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.23kcizx4pl2gf285068nq9uo6.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2e0vmf5i4enyh2zoc21ablzpm.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.3kqcwwoinmpjpksquuohu424t.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4h8fszidx3zqrobtahwubnnz9.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4krxp3xp3xqkv1uf93nmfgyl4.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4royhq48wrwxxn418cgh9wf4i.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5bsliq4eqlj10bvn2jgtxpjsv.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5ixcaymv6n8h3eaikh5zssc5r.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.69o0n7u77iqy629ed5smlyoez.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.6v8cpxbasy1wqaowqh82bnr60.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.916x0yuoi9yq3snfdjvbokk5r.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9gc5jee95ikh3rbxu0hconjn1.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9o177txrgfpdene6j9pcktzj2.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.bcsx89f34kgj14exnrqjrklct.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.eajdybspa52zmfkro1pdb31q5.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.euepajaqfwe3c5tepdwle74d7.1uj3mve.rcgu.o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.7wwt3fmpctl0uyysq7p5qybyx.1uj3mve.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib",
+    "/target/debug/deps/libsame_file-e4e8dba317b28e66.rlib",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3",
+    "/target/debug/build/minicov-cf5e8875ec696c31",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/61e80            61e80       de    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/62600            62600        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/62610            62610        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/66bf0            66bf0       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69e60            69e60       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69eb0            69eb0       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69fb0            69fb0        5    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/rustczi4TP3/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.0snjcl17kbj8h5sqkdj4nhca6.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.143ss6hvahz87o8lacg8ralpl.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.1546sghj4ah2so2eweudn3alr.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.17tngdofwif7414zsbkln492m.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2392x879pp8hnkbt69nk2cdrd.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.23kcizx4pl2gf285068nq9uo6.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.2e0vmf5i4enyh2zoc21ablzpm.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.3kqcwwoinmpjpksquuohu424t.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4h8fszidx3zqrobtahwubnnz9.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4krxp3xp3xqkv1uf93nmfgyl4.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.4royhq48wrwxxn418cgh9wf4i.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5bsliq4eqlj10bvn2jgtxpjsv.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.5ixcaymv6n8h3eaikh5zssc5r.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.69o0n7u77iqy629ed5smlyoez.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.6v8cpxbasy1wqaowqh82bnr60.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.916x0yuoi9yq3snfdjvbokk5r.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9gc5jee95ikh3rbxu0hconjn1.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.9o177txrgfpdene6j9pcktzj2.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.bcsx89f34kgj14exnrqjrklct.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.eajdybspa52zmfkro1pdb31q5.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.euepajaqfwe3c5tepdwle74d7.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/minicov-cf5e8875ec696c31",
+      "kind": "object",
+      "path": "/target/debug/build/minicov-cf5e8875ec696c31/build_script_build-cf5e8875ec696c31.7wwt3fmpctl0uyysq7p5qybyx.1uj3mve.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsame_file-e4e8dba317b28e66.rlib(same_file-e4e8dba317b28e66.same_file.a6c6e09a59c03cf4-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/61e80            61e80       de    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/61e80            61e80       de    16         /target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.0.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc468619f7a7b90e3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.0.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc468619f7a7b90e3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/62600            62600        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/62600            62600        d    16         /target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.1.rcgu.o):(.text._ZN4core3ptr148drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$core..result..Result$LT$walkdir..dent..DirEntry$C$walkdir..error..Error$GT$$GT$$GT$17hf669cca8a43b550aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.1.rcgu.o):(.text._ZN4core3ptr148drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$core..result..Result$LT$walkdir..dent..DirEntry$C$walkdir..error..Error$GT$$GT$$GT$17hf669cca8a43b550aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/62610            62610        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/62610            62610        d    16         /target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.1.rcgu.o):(.text._ZN4core3ptr152drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$core..result..Result$LT$walkdir..dent..DirEntry$C$walkdir..error..Error$GT$$GT$$GT$17hea02927db358b56cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.1.rcgu.o):(.text._ZN4core3ptr152drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$core..result..Result$LT$walkdir..dent..DirEntry$C$walkdir..error..Error$GT$$GT$$GT$17hea02927db358b56cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/66bf0            66bf0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/66bf0            66bf0       71    16         /target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17ha20c13238b070f0fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17ha20c13238b070f0fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69e60            69e60       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69e60            69e60       4f    16         /target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.2.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5b17d619a5a844cdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.2.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5b17d619a5a844cdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69eb0            69eb0       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69eb0            69eb0       93    16         /target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.2.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hb74a5921bb4b2375E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.2.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hb74a5921bb4b2375E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69fb0            69fb0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7/69fb0            69fb0        5    16         /target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.2.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h855cd469cf99d85dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libwalkdir-f83c702250a7b97f.rlib(walkdir-f83c702250a7b97f.walkdir.b8796b52b540d700-cgu.2.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h855cd469cf99d85dE",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-512243-1783994658473701300.map",
+  "pid": 512243,
+  "ppid": 512187,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-512243-1783994658473701300.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -36,428 +850,6 @@ _None._
 ### Compilation records
 
 #### Record 1
-
-```json
-{
-  "argv": [
-    "clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformWindows.o",
-    "-c",
-    "c/InstrProfilingPlatformWindows.c"
-  ],
-  "cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformWindows.o",
-  "src": "c/InstrProfilingPlatformWindows.c",
-  "success": true,
-  "tool": "clang",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 2
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/clang",
-  "real_tool": "/usr/bin/clang",
-  "argv": [
-    "/usr/bin/clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformLinux.o",
-    "-c",
-    "c/InstrProfilingPlatformLinux.c",
-    "..."
-  ],
-  "src": "c/InstrProfilingPlatformLinux.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformLinux.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 512549,
-  "ppid": 512548,
-  "root_cargo_pid": 511742,
-  "build_script_root_pid": 512264,
-  "build_script_related": true,
-  "build_script_target_dir": "minicov-cf5e8875ec696c31",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
-}
-```
-
-#### Record 3
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/clang",
-  "real_tool": "/usr/bin/clang",
-  "argv": [
-    "/usr/bin/clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfiling.o",
-    "-c",
-    "c/InstrProfiling.c",
-    "..."
-  ],
-  "src": "c/InstrProfiling.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfiling.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 512371,
-  "ppid": 512369,
-  "root_cargo_pid": 511742,
-  "build_script_root_pid": 512264,
-  "build_script_related": true,
-  "build_script_target_dir": "minicov-cf5e8875ec696c31",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
-}
-```
-
-#### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/clang",
-  "real_tool": "/usr/bin/clang",
-  "argv": [
-    "/usr/bin/clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingInternal.o",
-    "-c",
-    "c/InstrProfilingInternal.c",
-    "..."
-  ],
-  "src": "c/InstrProfilingInternal.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingInternal.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 512481,
-  "ppid": 512479,
-  "root_cargo_pid": 511742,
-  "build_script_root_pid": 512264,
-  "build_script_related": true,
-  "build_script_target_dir": "minicov-cf5e8875ec696c31",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/clang",
-  "real_tool": "/usr/bin/clang",
-  "argv": [
-    "/usr/bin/clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformOther.o",
-    "-c",
-    "c/InstrProfilingPlatformOther.c",
-    "..."
-  ],
-  "src": "c/InstrProfilingPlatformOther.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformOther.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 512560,
-  "ppid": 512558,
-  "root_cargo_pid": 511742,
-  "build_script_root_pid": 512264,
-  "build_script_related": true,
-  "build_script_target_dir": "minicov-cf5e8875ec696c31",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/clang",
-  "real_tool": "/usr/bin/clang",
-  "argv": [
-    "/usr/bin/clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingWriter.o",
-    "-c",
-    "c/InstrProfilingWriter.c",
-    "..."
-  ],
-  "src": "c/InstrProfilingWriter.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingWriter.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 512596,
-  "ppid": 512595,
-  "root_cargo_pid": 511742,
-  "build_script_root_pid": 512264,
-  "build_script_related": true,
-  "build_script_target_dir": "minicov-cf5e8875ec696c31",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/clang",
-  "real_tool": "/usr/bin/clang",
-  "argv": [
-    "/usr/bin/clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingVersionVar.o",
-    "-c",
-    "c/InstrProfilingVersionVar.c",
-    "..."
-  ],
-  "src": "c/InstrProfilingVersionVar.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingVersionVar.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 512754,
-  "ppid": 512753,
-  "root_cargo_pid": 511742,
-  "build_script_root_pid": 512264,
-  "build_script_related": true,
-  "build_script_target_dir": "minicov-cf5e8875ec696c31",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/clang",
-  "real_tool": "/usr/bin/clang",
-  "argv": [
-    "/usr/bin/clang",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "--target=aarch64-unknown-linux-gnu",
-    "-Wall",
-    "-Wextra",
-    "-nostdlibinc",
-    "-fno-stack-protector",
-    "-fno-profile-instr-generate",
-    "-fno-coverage-mapping",
-    "-DCOMPILER_RT_HAS_ATOMICS=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingValue.o",
-    "-c",
-    "c/InstrProfilingValue.c",
-    "..."
-  ],
-  "src": "c/InstrProfilingValue.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingValue.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 512688,
-  "ppid": 512687,
-  "root_cargo_pid": 511742,
-  "build_script_root_pid": 512264,
-  "build_script_related": true,
-  "build_script_target_dir": "minicov-cf5e8875ec696c31",
-  "_owner": {
-    "crate": "minicov",
-    "version": "0.3.7",
-    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
-    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
-  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
-}
-```
-
-#### Record 9
 
 ```json
 {
@@ -511,7 +903,115 @@ _None._
 }
 ```
 
-#### Record 10
+#### Record 2
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/clang",
+  "real_tool": "/usr/bin/clang",
+  "argv": [
+    "/usr/bin/clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingValue.o",
+    "-c",
+    "c/InstrProfilingValue.c",
+    "..."
+  ],
+  "src": "c/InstrProfilingValue.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingValue.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 512688,
+  "ppid": 512687,
+  "root_cargo_pid": 511742,
+  "build_script_root_pid": 512264,
+  "build_script_related": true,
+  "build_script_target_dir": "minicov-cf5e8875ec696c31",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/clang",
+  "real_tool": "/usr/bin/clang",
+  "argv": [
+    "/usr/bin/clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingVersionVar.o",
+    "-c",
+    "c/InstrProfilingVersionVar.c",
+    "..."
+  ],
+  "src": "c/InstrProfilingVersionVar.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingVersionVar.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 512754,
+  "ppid": 512753,
+  "root_cargo_pid": 511742,
+  "build_script_root_pid": 512264,
+  "build_script_related": true,
+  "build_script_target_dir": "minicov-cf5e8875ec696c31",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 4
 
 ```json
 {
@@ -562,6 +1062,320 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
   "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/clang",
+  "real_tool": "/usr/bin/clang",
+  "argv": [
+    "/usr/bin/clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingInternal.o",
+    "-c",
+    "c/InstrProfilingInternal.c",
+    "..."
+  ],
+  "src": "c/InstrProfilingInternal.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingInternal.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 512481,
+  "ppid": 512479,
+  "root_cargo_pid": 511742,
+  "build_script_root_pid": 512264,
+  "build_script_related": true,
+  "build_script_target_dir": "minicov-cf5e8875ec696c31",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/clang",
+  "real_tool": "/usr/bin/clang",
+  "argv": [
+    "/usr/bin/clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformOther.o",
+    "-c",
+    "c/InstrProfilingPlatformOther.c",
+    "..."
+  ],
+  "src": "c/InstrProfilingPlatformOther.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformOther.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 512560,
+  "ppid": 512558,
+  "root_cargo_pid": 511742,
+  "build_script_root_pid": 512264,
+  "build_script_related": true,
+  "build_script_target_dir": "minicov-cf5e8875ec696c31",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/clang",
+  "real_tool": "/usr/bin/clang",
+  "argv": [
+    "/usr/bin/clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformLinux.o",
+    "-c",
+    "c/InstrProfilingPlatformLinux.c",
+    "..."
+  ],
+  "src": "c/InstrProfilingPlatformLinux.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformLinux.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 512549,
+  "ppid": 512548,
+  "root_cargo_pid": 511742,
+  "build_script_root_pid": 512264,
+  "build_script_related": true,
+  "build_script_target_dir": "minicov-cf5e8875ec696c31",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/clang",
+  "real_tool": "/usr/bin/clang",
+  "argv": [
+    "/usr/bin/clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfiling.o",
+    "-c",
+    "c/InstrProfiling.c",
+    "..."
+  ],
+  "src": "c/InstrProfiling.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfiling.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 512371,
+  "ppid": 512369,
+  "root_cargo_pid": 511742,
+  "build_script_root_pid": 512264,
+  "build_script_related": true,
+  "build_script_target_dir": "minicov-cf5e8875ec696c31",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/clang",
+  "real_tool": "/usr/bin/clang",
+  "argv": [
+    "/usr/bin/clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingWriter.o",
+    "-c",
+    "c/InstrProfilingWriter.c",
+    "..."
+  ],
+  "src": "c/InstrProfilingWriter.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingWriter.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 512596,
+  "ppid": 512595,
+  "root_cargo_pid": 511742,
+  "build_script_root_pid": 512264,
+  "build_script_related": true,
+  "build_script_target_dir": "minicov-cf5e8875ec696c31",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "_build_script_out_dir": "/target/debug/build/minicov-cf5e8875ec696c31/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "clang",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "--target=aarch64-unknown-linux-gnu",
+    "-Wall",
+    "-Wextra",
+    "-nostdlibinc",
+    "-fno-stack-protector",
+    "-fno-profile-instr-generate",
+    "-fno-coverage-mapping",
+    "-DCOMPILER_RT_HAS_ATOMICS=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformWindows.o",
+    "-c",
+    "c/InstrProfilingPlatformWindows.c"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/minicov-a741e09b7757f515/out/a1edd97dd51cd48d-InstrProfilingPlatformWindows.o",
+  "src": "c/InstrProfilingPlatformWindows.c",
+  "success": true,
+  "tool": "clang",
+  "_owner": {
+    "crate": "minicov",
+    "version": "0.3.7",
+    "package_id": "path+file:///tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7#minicov@0.3.7",
+    "manifest_dir": "/tmp/crate-build-aarch64-tr935jbb/src/minicov-0.3.7",
+    "source": "cargo_manifest_dir"
+  }
 }
 ```
 

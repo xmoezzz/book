@@ -4,6 +4,481 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\.tmp\\native-trace-15252-1783962268734\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\rustc1YU9Nx\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.36fdiwwf43iv0zxvy9ey9x6n4.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.4xscv36xae5cdeqdm74cssi13.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.ae1j38m98wuken516lm7bh9ld.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.bndzk9oophnifmoszrk7wsiq6.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.dqp4r9iy99oez0cuwr20gfv9j.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.e826aytolm80wjysv45ugdzbn.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.3nqjjm4uujjwouzvcegorknfn.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\deps\\libcc-0f468202457db9e8.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\rustc1YU9Nx\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.36fdiwwf43iv0zxvy9ey9x6n4.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.4xscv36xae5cdeqdm74cssi13.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.ae1j38m98wuken516lm7bh9ld.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.bndzk9oophnifmoszrk7wsiq6.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.dqp4r9iy99oez0cuwr20gfv9j.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.e826aytolm80wjysv45ugdzbn.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.3nqjjm4uujjwouzvcegorknfn.0as1ty9.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "ducc-sys",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2#ducc-sys@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\.tmp\\native-trace-15252-1783962268734\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\rustc1YU9Nx\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.36fdiwwf43iv0zxvy9ey9x6n4.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.4xscv36xae5cdeqdm74cssi13.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.ae1j38m98wuken516lm7bh9ld.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.bndzk9oophnifmoszrk7wsiq6.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.dqp4r9iy99oez0cuwr20gfv9j.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.e826aytolm80wjysv45ugdzbn.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.3nqjjm4uujjwouzvcegorknfn.0as1ty9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\deps\\libcc-0f468202457db9e8.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-c7e2652c7fbdd127\\build_script_build-c7e2652c7fbdd127.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000288       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000002a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000002f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000328       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000003e0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000003f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000438       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000450       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 0000000140084020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000288       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000288       \\177KERNEL32_NULL_THUNK_DATA 0000000140084288     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000002a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000002a0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400842a0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000002f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000002f0       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400842f0     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000310       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140084310     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000328       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000328       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000140084328     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000338       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 0000000140084338     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000348       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 0000000140084348     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000003e0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000003e0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400843e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000003f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:000003f8       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400843f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000408       \\177bcryptprimitives_NULL_THUNK_DATA 0000000140084408     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000438       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000438       \\177ntdll_NULL_THUNK_DATA  0000000140084438     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\0002:00000450       \\177ole32_NULL_THUNK_DATA  0000000140084450     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\.tmp\\native-trace-link-link-1500-1783962269802107400.map",
+  "pid": 1500,
+  "ppid": 16140,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\.tmp\\native-trace-link-link-1500-1783962269802107400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "ducc-sys",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2#ducc-sys@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "duktape",
+    "-W4",
+    "-std=c99",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/duktape.o",
+    "-c",
+    "duktape/duktape.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/duktape.o",
+    "duktape/duktape.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ducc-sys",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2#ducc-sys@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "duktape",
+    "-W4",
+    "-std=c99",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/wrapper.o",
+    "-c",
+    "duktape/wrapper.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/wrapper.o",
+    "duktape/wrapper.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ducc-sys",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2#ducc-sys@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\libduktape.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/duktape.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/wrapper.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/duktape.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\duktape/wrapper.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-weg8e3m0\\src\\ducc-sys-0.1.2\\target\\debug\\build\\ducc-sys-483e8fcdf1ab5ff3\\out\\libduktape.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "ducc-sys",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2#ducc-sys@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-weg8e3m0/src/ducc-sys-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

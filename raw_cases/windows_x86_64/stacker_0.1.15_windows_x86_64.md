@@ -4,6 +4,494 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\.tmp\\native-trace-17208-1783954579746\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\rustcjnIljw\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.0tvlbszezcb3r34zrzn1oljw0.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.2ri4us7wiqpihvqzdohwhm77g.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.37isvhx38quhv5qy4kzliyghu.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.3kml3g13jc54sodkl1bbnmrd7.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.8evngkef98mybfp4030fkfkre.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.9d9vqxpm8707l4qgd5lu9ynib.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.af3p8qljn7amj86p5eswi5hjq.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.c9lsa1fweyi061tcl7y10z1f6.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.cncleh3t20g9llzsyzu5mzvqp.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.cyo3ouv0d54vwvoz9cmy1870y.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.dew15cnt60auksoh6qx9nks91.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.etkc4nwc42t6qubjhg29kyvxd.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.7p1jvwj91duv0yhq16mi7lq8o.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\rustcjnIljw\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.0tvlbszezcb3r34zrzn1oljw0.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.2ri4us7wiqpihvqzdohwhm77g.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.37isvhx38quhv5qy4kzliyghu.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.3kml3g13jc54sodkl1bbnmrd7.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.8evngkef98mybfp4030fkfkre.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.9d9vqxpm8707l4qgd5lu9ynib.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.af3p8qljn7amj86p5eswi5hjq.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.c9lsa1fweyi061tcl7y10z1f6.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.cncleh3t20g9llzsyzu5mzvqp.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.cyo3ouv0d54vwvoz9cmy1870y.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.dew15cnt60auksoh6qx9nks91.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.etkc4nwc42t6qubjhg29kyvxd.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.7p1jvwj91duv0yhq16mi7lq8o.0ar6777.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "stacker",
+    "version": "0.1.15",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15#stacker@0.1.15",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\.tmp\\native-trace-17208-1783954579746\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\rustcjnIljw\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.0tvlbszezcb3r34zrzn1oljw0.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.2ri4us7wiqpihvqzdohwhm77g.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.37isvhx38quhv5qy4kzliyghu.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.3kml3g13jc54sodkl1bbnmrd7.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.8evngkef98mybfp4030fkfkre.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.9d9vqxpm8707l4qgd5lu9ynib.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.af3p8qljn7amj86p5eswi5hjq.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.c9lsa1fweyi061tcl7y10z1f6.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.cncleh3t20g9llzsyzu5mzvqp.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.cyo3ouv0d54vwvoz9cmy1870y.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.dew15cnt60auksoh6qx9nks91.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.etkc4nwc42t6qubjhg29kyvxd.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.7p1jvwj91duv0yhq16mi7lq8o.0ar6777.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-f13018b14d5179e2\\build_script_build-f13018b14d5179e2.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400cf020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400cf298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400cf2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400cf300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400cf320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400cf338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400cf348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400cf358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400cf3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400cf408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400cf418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400cf448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400cf460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\.tmp\\native-trace-link-link-14988-1783954581458228900.map",
+  "pid": 14988,
+  "ppid": 6456,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\.tmp\\native-trace-link-link-14988-1783954581458228900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "stacker",
+    "version": "0.1.15",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15#stacker@0.1.15",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\2102954680883442441detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\2102954680883442441detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "stacker",
+    "version": "0.1.15",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15#stacker@0.1.15",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "src/arch",
+    "-W4",
+    "-DWINDOWS",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\2d87c5a413c3c6c5-windows.o",
+    "-c",
+    "src/arch/windows.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\2d87c5a413c3c6c5-windows.o",
+    "src/arch/windows.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "stacker",
+    "version": "0.1.15",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15#stacker@0.1.15",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\libstacker.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\2d87c5a413c3c6c5-windows.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\2d87c5a413c3c6c5-windows.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-g6vajp6y\\src\\stacker-0.1.15\\target\\debug\\build\\stacker-c66f40e46d06e89d\\out\\libstacker.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "stacker",
+    "version": "0.1.15",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15#stacker@0.1.15",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-g6vajp6y/src/stacker-0.1.15",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

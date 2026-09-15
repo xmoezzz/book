@@ -4,6 +4,481 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\.tmp\\native-trace-17556-1783961554619\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\rustc1mjBeU\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.0cn3ys6k37s819cgc9kx0uwiw.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.19klnrgis44tgihlo39q99x9b.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.2rpc8oz24g1arhoz896d86d8t.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.5un3nf5i1g2u21du95e62p9el.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.7wapy9813k50pwjlekqg6yt04.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.84a6a0ukvnqtezojqtvt8dech.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8bvsjpxtm5oih4wahi8gjcws3.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8nlgv532aas5vmz94bey87atu.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.di8vgqt4wkh01kdgxdir4r81j.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8yq8q219uazdup1wv6rr1v914.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\deps\\libcc-01c2ea25b197ac9f.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\deps\\libshlex-8a85cb2cd59e9679.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\rustc1mjBeU\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.0cn3ys6k37s819cgc9kx0uwiw.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.19klnrgis44tgihlo39q99x9b.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.2rpc8oz24g1arhoz896d86d8t.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.5un3nf5i1g2u21du95e62p9el.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.7wapy9813k50pwjlekqg6yt04.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.84a6a0ukvnqtezojqtvt8dech.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8bvsjpxtm5oih4wahi8gjcws3.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8nlgv532aas5vmz94bey87atu.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.di8vgqt4wkh01kdgxdir4r81j.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8yq8q219uazdup1wv6rr1v914.1p5khw9.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "vswhom-sys",
+    "version": "0.1.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3#vswhom-sys@0.1.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\.tmp\\native-trace-17556-1783961554619\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\rustc1mjBeU\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.0cn3ys6k37s819cgc9kx0uwiw.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.19klnrgis44tgihlo39q99x9b.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.2rpc8oz24g1arhoz896d86d8t.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.5un3nf5i1g2u21du95e62p9el.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.7wapy9813k50pwjlekqg6yt04.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.84a6a0ukvnqtezojqtvt8dech.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8bvsjpxtm5oih4wahi8gjcws3.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8nlgv532aas5vmz94bey87atu.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.di8vgqt4wkh01kdgxdir4r81j.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.8yq8q219uazdup1wv6rr1v914.1p5khw9.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\deps\\libcc-01c2ea25b197ac9f.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\deps\\libshlex-8a85cb2cd59e9679.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-3cb1706151377e5b\\build_script_build-3cb1706151377e5b.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400be020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400be298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400be2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400be300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400be320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400be338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400be348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400be358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400be3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400be408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400be418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400be448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400be460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\.tmp\\native-trace-link-link-17868-1783961556088313600.map",
+  "pid": 17868,
+  "ppid": 10200,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\.tmp\\native-trace-link-link-17868-1783961556088313600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "vswhom-sys",
+    "version": "0.1.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3#vswhom-sys@0.1.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\13896105223068335302detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\13896105223068335302detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "vswhom-sys",
+    "version": "0.1.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3#vswhom-sys@0.1.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-W4",
+    "/Zm2000",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\71b29add3157f200-vswhom.o",
+    "-c",
+    "ext/vswhom.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\71b29add3157f200-vswhom.o",
+    "ext/vswhom.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "vswhom-sys",
+    "version": "0.1.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3#vswhom-sys@0.1.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\libvswhom.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\71b29add3157f200-vswhom.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\71b29add3157f200-vswhom.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-j27pl2fg\\src\\vswhom-sys-0.1.3\\target\\debug\\build\\vswhom-sys-86c36ead52057fa0\\out\\libvswhom.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "vswhom-sys",
+    "version": "0.1.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3#vswhom-sys@0.1.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-j27pl2fg/src/vswhom-sys-0.1.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

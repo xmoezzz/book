@@ -4,6 +4,588 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP/symbols.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.0x73k4246xykgv94hti1jxfr8.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.100ui1x7m1t3vt5mlf0y94f7k.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.12v5avvf71v6ppyxv8adddekt.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.17dp268w9qkrbfn830rbaeesm.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.5354ybxjvnk2qcisbwopae2zc.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.6sew81wmis9az8b1vcwm0wosj.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.ai2ybbhi9pbwv6n6nt5sax71x.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.bl7ioju3khow33h515nfzd7e5.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.c1szprmjp9w17j2avrv5rcv6i.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.dip1hy3tk3iz53ht26a5ezd47.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.e92cy9puz42f2l4av17rab49b.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.a743dtcprhmilvkxbsofz9dy8.10e4xgr.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP/symbols.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.0x73k4246xykgv94hti1jxfr8.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.100ui1x7m1t3vt5mlf0y94f7k.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.12v5avvf71v6ppyxv8adddekt.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.17dp268w9qkrbfn830rbaeesm.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.5354ybxjvnk2qcisbwopae2zc.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.6sew81wmis9az8b1vcwm0wosj.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.ai2ybbhi9pbwv6n6nt5sax71x.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.bl7ioju3khow33h515nfzd7e5.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.c1szprmjp9w17j2avrv5rcv6i.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.dip1hy3tk3iz53ht26a5ezd47.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.e92cy9puz42f2l4av17rab49b.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.a743dtcprhmilvkxbsofz9dy8.10e4xgr.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "tree-sitter-python",
+    "version": "0.23.6",
+    "package_id": "path+file:///tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6#tree-sitter-python@0.23.6",
+    "manifest_dir": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP/symbols.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.0x73k4246xykgv94hti1jxfr8.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.100ui1x7m1t3vt5mlf0y94f7k.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.12v5avvf71v6ppyxv8adddekt.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.17dp268w9qkrbfn830rbaeesm.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.5354ybxjvnk2qcisbwopae2zc.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.6sew81wmis9az8b1vcwm0wosj.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.ai2ybbhi9pbwv6n6nt5sax71x.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.bl7ioju3khow33h515nfzd7e5.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.c1szprmjp9w17j2avrv5rcv6i.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.dip1hy3tk3iz53ht26a5ezd47.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.e92cy9puz42f2l4av17rab49b.10e4xgr.rcgu.o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.a743dtcprhmilvkxbsofz9dy8.10e4xgr.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP",
+    "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/rustc4K61EP/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.0x73k4246xykgv94hti1jxfr8.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.100ui1x7m1t3vt5mlf0y94f7k.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.12v5avvf71v6ppyxv8adddekt.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.17dp268w9qkrbfn830rbaeesm.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.5354ybxjvnk2qcisbwopae2zc.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.6sew81wmis9az8b1vcwm0wosj.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.ai2ybbhi9pbwv6n6nt5sax71x.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.bl7ioju3khow33h515nfzd7e5.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.c1szprmjp9w17j2avrv5rcv6i.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.dip1hy3tk3iz53ht26a5ezd47.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.e92cy9puz42f2l4av17rab49b.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311",
+      "kind": "object",
+      "path": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/build_script_build-aa2e09fbaf36d311.a743dtcprhmilvkxbsofz9dy8.10e4xgr.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-901423-1783998225926571325.map",
+  "pid": 901423,
+  "ppid": 901406,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-901423-1783998225926571325.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "tree-sitter-python",
+    "version": "0.23.6",
+    "package_id": "path+file:///tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6#tree-sitter-python@0.23.6",
+    "manifest_dir": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -23,52 +605,43 @@ _None._
 
 ### Source preparation records
 
-_None._
-
-### Compilation records
-
 #### Record 1
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "src/parser.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-python-d893b7dc18556f5a/out/",
-    "-dumpbase",
-    "ea708c7824d36062-parser.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
+    "-std=c11",
+    "-I",
+    "src",
+    "-Wall",
+    "-Wextra",
+    "-Wno-unused-value",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-python-d893b7dc18556f5a/out/ea708c7824d36062-parser.o",
+    "-c",
+    "src/parser.c",
     "..."
   ],
-  "src": "src/parser.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-python-d893b7dc18556f5a/out/ea708c7824d36062-parser.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 901455,
-  "ppid": 901454,
-  "cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
-  "root_cargo_pid": 901321,
-  "build_script_root_pid": 901444,
   "build_script_related": true,
+  "build_script_root_pid": 901444,
   "build_script_target_dir": "tree-sitter-python-aa2e09fbaf36d311",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 901454,
+  "ppid": 901444,
+  "root_cargo_pid": 901321,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "tree-sitter-python",
     "version": "0.23.6",
@@ -79,11 +652,68 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
   "_build_script_out_dir": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
 #### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c11",
+    "-I",
+    "src",
+    "-Wall",
+    "-Wextra",
+    "-Wno-unused-value",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-python-d893b7dc18556f5a/out/ea708c7824d36062-scanner.o",
+    "-c",
+    "src/scanner.c",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 901444,
+  "build_script_target_dir": "tree-sitter-python-aa2e09fbaf36d311",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 901457,
+  "ppid": 901444,
+  "root_cargo_pid": 901321,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tree-sitter-python",
+    "version": "0.23.6",
+    "package_id": "path+file:///tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6#tree-sitter-python@0.23.6",
+    "manifest_dir": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "_build_script_out_dir": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+### Compilation records
+
+#### Record 1
 
 ```json
 {
@@ -120,6 +750,62 @@ _None._
   "recovered_from_process_exec": true,
   "pid": 901458,
   "ppid": 901457,
+  "cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "root_cargo_pid": 901321,
+  "build_script_root_pid": 901444,
+  "build_script_related": true,
+  "build_script_target_dir": "tree-sitter-python-aa2e09fbaf36d311",
+  "_owner": {
+    "crate": "tree-sitter-python",
+    "version": "0.23.6",
+    "package_id": "path+file:///tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6#tree-sitter-python@0.23.6",
+    "manifest_dir": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
+  "_build_script_out_dir": "/target/debug/build/tree-sitter-python-aa2e09fbaf36d311/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "src/parser.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-python-d893b7dc18556f5a/out/",
+    "-dumpbase",
+    "ea708c7824d36062-parser.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "src/parser.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-python-d893b7dc18556f5a/out/ea708c7824d36062-parser.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 901455,
+  "ppid": 901454,
   "cwd": "/tmp/crate-build-riscv64-76u37nr7/src/tree-sitter-python-0.23.6",
   "root_cargo_pid": 901321,
   "build_script_root_pid": 901444,

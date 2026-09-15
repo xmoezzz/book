@@ -4,6 +4,2554 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp/symbols.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.04ksyktgfsj40p5iecg7ekxgg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.0fldx8ju1q7pj3zv648qwtq4b.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1e1vclbnpv64rgycpj2kioycd.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1tinpxk2hwz7h1533767x8nga.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2hews1dzytoltdc9eihfxecc2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2khppd5m5gk7ou6pam8dgivt1.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2m0mt2pp13zsa5lm59ya5we2k.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3hjqyh25gkx4xhtjetq3vjnkw.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3k9oknxrhyyxj04qszjnh6jal.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4f79oo0cklkewrq7g510ii6n5.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4uqvz4ybmjvucv5egm9p42z3r.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.59e6mvdbaqzhpoo4dvw0h6k7m.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5pxwoynsbfifvxdqovq48iyon.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5vgiwqi7b0p5kjkeqjupno74v.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5yp008utvfshn39iuk0frm7a2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5zlx0h2nt9jb1s2cmsnd7e8bv.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6lycv47zbpftpgzq9ucjl28np.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6mzkc468zct5dswq4g1n32bgj.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6qz63wzzxzvj3iuhgjwsjm31h.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6xmkw2hqeu1d8nvzdpa1te47a.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.71rsvbtyp713o1648urcqcuqd.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7l18du1hmiq0n2rnmkwywrj1d.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7snlnzrhtejy43rq7xcwjukjt.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8lvmdo94lpqna0d4frw7csans.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8r9y251eti93rd2wzyfy3faqg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.a2vu91fcqaceqm1aoledcg7rw.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b2ie1bu9wjhgq1j93km8dtrdb.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b7485qlvepuduz1m41h4u4cti.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bg3wylxn0j0mvylr45ai6pxtc.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bjzxbp94dokthci64adv7jnjg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bkyj8dexd9lqg1g9d2fjm336z.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bm7o0m89xy639hw6su31679m7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ck45aimd404rjd6hsmficqu2c.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cp6b6rtqbwz9pss259grb9ee6.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cvpdtlxhptl3d8k6pzhmmc4e7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cw2jdlekhchlj0qy0hap9yy8s.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.diflmqt87oh1vtyfz8pvl9c0i.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.dordslygv2nn6j5a5vy58bsu2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.e8ua29gipfgjbxfywbp3pcas7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ehrhlddqa4j17qv4lqp57bo64.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.elprr5ej389b7buep1fsri5pn.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.btwzdt7gva050ac1h4cndt6a4.1s4zp4y.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib",
+    "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib",
+    "/target/debug/deps/liburl-077406d032edebba.rlib",
+    "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib",
+    "/target/debug/deps/libunicode_normalization-8bb82f6bd2712781.rlib",
+    "/target/debug/deps/libtinyvec-21bcf2cdfd03dbc3.rlib",
+    "/target/debug/deps/libtinyvec_macros-ae826fd0b2f5f044.rlib",
+    "/target/debug/deps/libunicode_bidi-596abc667d7a7ae2.rlib",
+    "/target/debug/deps/libform_urlencoded-489c326db869c23f.rlib",
+    "/target/debug/deps/libpercent_encoding-2490259065368812.rlib",
+    "/target/debug/deps/liblog-70f9d83415c85269.rlib",
+    "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib",
+    "/target/debug/deps/liblibz_sys-88d2b54214590352.rlib",
+    "/target/debug/deps/libbitflags-0516d765c5c9485a.rlib",
+    "/target/debug/deps/libcc-31856e7dc3234394.rlib",
+    "/target/debug/deps/libjobserver-56ba78f9d108d0c2.rlib",
+    "/target/debug/deps/liblibc-83be939c4b99b549.rlib",
+    "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib",
+    "/target/debug/deps/librayon-9ee4593520a928b5.rlib",
+    "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib",
+    "/target/debug/deps/libcrossbeam_deque-16dda0e87ead8914.rlib",
+    "/target/debug/deps/libcrossbeam_epoch-2fd3404459caa848.rlib",
+    "/target/debug/deps/libcrossbeam_utils-c194ab8372c564b6.rlib",
+    "/target/debug/deps/libeither-d7d70f9d274551f4.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lz",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/target/debug/build/libgit2-sys-cd271db9c6fdb55a/out/build",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp/symbols.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.04ksyktgfsj40p5iecg7ekxgg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.0fldx8ju1q7pj3zv648qwtq4b.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1e1vclbnpv64rgycpj2kioycd.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1tinpxk2hwz7h1533767x8nga.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2hews1dzytoltdc9eihfxecc2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2khppd5m5gk7ou6pam8dgivt1.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2m0mt2pp13zsa5lm59ya5we2k.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3hjqyh25gkx4xhtjetq3vjnkw.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3k9oknxrhyyxj04qszjnh6jal.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4f79oo0cklkewrq7g510ii6n5.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4uqvz4ybmjvucv5egm9p42z3r.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.59e6mvdbaqzhpoo4dvw0h6k7m.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5pxwoynsbfifvxdqovq48iyon.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5vgiwqi7b0p5kjkeqjupno74v.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5yp008utvfshn39iuk0frm7a2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5zlx0h2nt9jb1s2cmsnd7e8bv.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6lycv47zbpftpgzq9ucjl28np.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6mzkc468zct5dswq4g1n32bgj.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6qz63wzzxzvj3iuhgjwsjm31h.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6xmkw2hqeu1d8nvzdpa1te47a.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.71rsvbtyp713o1648urcqcuqd.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7l18du1hmiq0n2rnmkwywrj1d.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7snlnzrhtejy43rq7xcwjukjt.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8lvmdo94lpqna0d4frw7csans.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8r9y251eti93rd2wzyfy3faqg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.a2vu91fcqaceqm1aoledcg7rw.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b2ie1bu9wjhgq1j93km8dtrdb.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b7485qlvepuduz1m41h4u4cti.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bg3wylxn0j0mvylr45ai6pxtc.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bjzxbp94dokthci64adv7jnjg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bkyj8dexd9lqg1g9d2fjm336z.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bm7o0m89xy639hw6su31679m7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ck45aimd404rjd6hsmficqu2c.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cp6b6rtqbwz9pss259grb9ee6.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cvpdtlxhptl3d8k6pzhmmc4e7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cw2jdlekhchlj0qy0hap9yy8s.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.diflmqt87oh1vtyfz8pvl9c0i.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.dordslygv2nn6j5a5vy58bsu2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.e8ua29gipfgjbxfywbp3pcas7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ehrhlddqa4j17qv4lqp57bo64.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.elprr5ej389b7buep1fsri5pn.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.btwzdt7gva050ac1h4cndt6a4.1s4zp4y.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp/raw-dylibs",
+    "/target/debug/build/libgit2-sys-cd271db9c6fdb55a/out/build",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "z",
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp/symbols.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.04ksyktgfsj40p5iecg7ekxgg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.0fldx8ju1q7pj3zv648qwtq4b.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1e1vclbnpv64rgycpj2kioycd.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1tinpxk2hwz7h1533767x8nga.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2hews1dzytoltdc9eihfxecc2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2khppd5m5gk7ou6pam8dgivt1.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2m0mt2pp13zsa5lm59ya5we2k.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3hjqyh25gkx4xhtjetq3vjnkw.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3k9oknxrhyyxj04qszjnh6jal.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4f79oo0cklkewrq7g510ii6n5.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4uqvz4ybmjvucv5egm9p42z3r.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.59e6mvdbaqzhpoo4dvw0h6k7m.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5pxwoynsbfifvxdqovq48iyon.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5vgiwqi7b0p5kjkeqjupno74v.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5yp008utvfshn39iuk0frm7a2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5zlx0h2nt9jb1s2cmsnd7e8bv.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6lycv47zbpftpgzq9ucjl28np.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6mzkc468zct5dswq4g1n32bgj.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6qz63wzzxzvj3iuhgjwsjm31h.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6xmkw2hqeu1d8nvzdpa1te47a.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.71rsvbtyp713o1648urcqcuqd.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7l18du1hmiq0n2rnmkwywrj1d.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7snlnzrhtejy43rq7xcwjukjt.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8lvmdo94lpqna0d4frw7csans.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8r9y251eti93rd2wzyfy3faqg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.a2vu91fcqaceqm1aoledcg7rw.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b2ie1bu9wjhgq1j93km8dtrdb.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b7485qlvepuduz1m41h4u4cti.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bg3wylxn0j0mvylr45ai6pxtc.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bjzxbp94dokthci64adv7jnjg.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bkyj8dexd9lqg1g9d2fjm336z.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bm7o0m89xy639hw6su31679m7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ck45aimd404rjd6hsmficqu2c.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cp6b6rtqbwz9pss259grb9ee6.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cvpdtlxhptl3d8k6pzhmmc4e7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cw2jdlekhchlj0qy0hap9yy8s.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.diflmqt87oh1vtyfz8pvl9c0i.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.dordslygv2nn6j5a5vy58bsu2.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.e8ua29gipfgjbxfywbp3pcas7.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ehrhlddqa4j17qv4lqp57bo64.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.elprr5ej389b7buep1fsri5pn.1s4zp4y.rcgu.o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.btwzdt7gva050ac1h4cndt6a4.1s4zp4y.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib",
+    "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib",
+    "/target/debug/deps/liburl-077406d032edebba.rlib",
+    "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib",
+    "/target/debug/deps/libunicode_normalization-8bb82f6bd2712781.rlib",
+    "/target/debug/deps/libtinyvec-21bcf2cdfd03dbc3.rlib",
+    "/target/debug/deps/libtinyvec_macros-ae826fd0b2f5f044.rlib",
+    "/target/debug/deps/libunicode_bidi-596abc667d7a7ae2.rlib",
+    "/target/debug/deps/libform_urlencoded-489c326db869c23f.rlib",
+    "/target/debug/deps/libpercent_encoding-2490259065368812.rlib",
+    "/target/debug/deps/liblog-70f9d83415c85269.rlib",
+    "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib",
+    "/target/debug/deps/liblibz_sys-88d2b54214590352.rlib",
+    "/target/debug/deps/libbitflags-0516d765c5c9485a.rlib",
+    "/target/debug/deps/libcc-31856e7dc3234394.rlib",
+    "/target/debug/deps/libjobserver-56ba78f9d108d0c2.rlib",
+    "/target/debug/deps/liblibc-83be939c4b99b549.rlib",
+    "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib",
+    "/target/debug/deps/librayon-9ee4593520a928b5.rlib",
+    "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib",
+    "/target/debug/deps/libcrossbeam_deque-16dda0e87ead8914.rlib",
+    "/target/debug/deps/libcrossbeam_epoch-2fd3404459caa848.rlib",
+    "/target/debug/deps/libcrossbeam_utils-c194ab8372c564b6.rlib",
+    "/target/debug/deps/libeither-d7d70f9d274551f4.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lz",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/target/debug/build/libgit2-sys-cd271db9c6fdb55a/out/build",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp",
+    "/target/debug/build/rav1e-c02e5306165d5a98",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/ba0b0            ba0b0       14    16         /target/debug/build/rav1e-c02e5306165d5a98",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c2b40            c2b40        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c3100            c3100        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c61f0            c61f0       78    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/d4ad0            d4ad0       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/ed706            ed706       73     1         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/154fac           154fac       ae     1         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/15505a           15505a       7c     1         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/155128           155128       42     1         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/155879           155879       47     1         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/217090           217090       3e    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/217680           217680        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/218170           218170        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/224e90           224e90       48    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/224ee0           224ee0       30    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/rustcYVxqjp/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.04ksyktgfsj40p5iecg7ekxgg.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.0fldx8ju1q7pj3zv648qwtq4b.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1e1vclbnpv64rgycpj2kioycd.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.1tinpxk2hwz7h1533767x8nga.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2hews1dzytoltdc9eihfxecc2.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2khppd5m5gk7ou6pam8dgivt1.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2m0mt2pp13zsa5lm59ya5we2k.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3hjqyh25gkx4xhtjetq3vjnkw.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.3k9oknxrhyyxj04qszjnh6jal.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4f79oo0cklkewrq7g510ii6n5.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.4uqvz4ybmjvucv5egm9p42z3r.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.59e6mvdbaqzhpoo4dvw0h6k7m.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5pxwoynsbfifvxdqovq48iyon.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5vgiwqi7b0p5kjkeqjupno74v.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5yp008utvfshn39iuk0frm7a2.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.5zlx0h2nt9jb1s2cmsnd7e8bv.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6lycv47zbpftpgzq9ucjl28np.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6mzkc468zct5dswq4g1n32bgj.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6qz63wzzxzvj3iuhgjwsjm31h.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.6xmkw2hqeu1d8nvzdpa1te47a.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.71rsvbtyp713o1648urcqcuqd.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7l18du1hmiq0n2rnmkwywrj1d.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.7snlnzrhtejy43rq7xcwjukjt.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8lvmdo94lpqna0d4frw7csans.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.8r9y251eti93rd2wzyfy3faqg.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.a2vu91fcqaceqm1aoledcg7rw.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b2ie1bu9wjhgq1j93km8dtrdb.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.b7485qlvepuduz1m41h4u4cti.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bg3wylxn0j0mvylr45ai6pxtc.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bjzxbp94dokthci64adv7jnjg.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bkyj8dexd9lqg1g9d2fjm336z.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.bm7o0m89xy639hw6su31679m7.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ck45aimd404rjd6hsmficqu2c.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cp6b6rtqbwz9pss259grb9ee6.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cvpdtlxhptl3d8k6pzhmmc4e7.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.cw2jdlekhchlj0qy0hap9yy8s.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.diflmqt87oh1vtyfz8pvl9c0i.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.dordslygv2nn6j5a5vy58bsu2.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.e8ua29gipfgjbxfywbp3pcas7.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.ehrhlddqa4j17qv4lqp57bo64.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.elprr5ej389b7buep1fsri5pn.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "object",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.btwzdt7gva050ac1h4cndt6a4.1s4zp4y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libgit2-f5f986b7faa191ec.rlib(git2-f5f986b7faa191ec.git2.8ecdc4dd0b944eec-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liburl-077406d032edebba.rlib(url-077406d032edebba.url.15888e4ce2ce17b0-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liburl-077406d032edebba.rlib(url-077406d032edebba.url.15888e4ce2ce17b0-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liburl-077406d032edebba.rlib(url-077406d032edebba.url.15888e4ce2ce17b0-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liburl-077406d032edebba.rlib(url-077406d032edebba.url.15888e4ce2ce17b0-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liburl-077406d032edebba.rlib(url-077406d032edebba.url.15888e4ce2ce17b0-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liburl-077406d032edebba.rlib(url-077406d032edebba.url.15888e4ce2ce17b0-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.7.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libidna-3c8c5259136fcbb5.rlib(idna-3c8c5259136fcbb5.idna.e32d94d0d7ca22e-cgu.8.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_normalization-8bb82f6bd2712781.rlib(unicode_normalization-8bb82f6bd2712781.unicode_normalization.247e77763f792248-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_bidi-596abc667d7a7ae2.rlib(unicode_bidi-596abc667d7a7ae2.unicode_bidi.be712846ba72b4ae-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_bidi-596abc667d7a7ae2.rlib(unicode_bidi-596abc667d7a7ae2.unicode_bidi.be712846ba72b4ae-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_bidi-596abc667d7a7ae2.rlib(unicode_bidi-596abc667d7a7ae2.unicode_bidi.be712846ba72b4ae-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_bidi-596abc667d7a7ae2.rlib(unicode_bidi-596abc667d7a7ae2.unicode_bidi.be712846ba72b4ae-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_bidi-596abc667d7a7ae2.rlib(unicode_bidi-596abc667d7a7ae2.unicode_bidi.be712846ba72b4ae-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libform_urlencoded-489c326db869c23f.rlib(form_urlencoded-489c326db869c23f.form_urlencoded.bb2b8ebbe932e583-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpercent_encoding-2490259065368812.rlib(percent_encoding-2490259065368812.percent_encoding.df6abfebc1d42fc2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblog-70f9d83415c85269.rlib(log-70f9d83415c85269.log.185e58e32e7dcfda-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(libgit2_sys-2db73f6df70b598d.libgit2_sys.f49d027452df8fb-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(annotated_commit.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(apply.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(attr.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(attr_file.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(attrcache.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(blame.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(blame_git.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(blob.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(branch.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(buf.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(checkout.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(cherrypick.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(clone.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(commit.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(config.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(config_cache.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(config_file.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(config_entries.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(config_parse.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(config_snapshot.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(delta.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(describe.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(commit_list.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(commit_graph.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_generate.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_parse.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_print.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_stats.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_tform.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(email.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(errors.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(filter.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(crlf.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(grafts.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(graph.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(hashsig.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(ident.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(ignore.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(index.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(idxmap.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(indexer.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(iterator.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(libgit2.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(cache.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(mailmap.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(merge.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(merge_driver.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(merge_file.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(message.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(mwindow.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(notes.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(object.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(object_api.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(odb.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(odb_loose.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(odb_mempack.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(odb_pack.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(midx.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(oid.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(oidarray.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(oidmap.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pack-objects.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pack.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(offmap.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(parse.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(patch.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(patch_generate.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_file.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_driver.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(diff_xdiff.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(patch_parse.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(path.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pathspec.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(reader.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(rebase.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(reflog.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(refdb.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(refdb_fs.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(refs.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(refspec.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(remote.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(proxy.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(push.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(fetch.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(fetchhead.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(repository.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(reset.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(revert.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(revparse.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(revwalk.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(signature.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(stash.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(status.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(strarray.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(submodule.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sysdir.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(tag.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(threadstate.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(trace.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(trailer.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(transaction.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(transport.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(tree-cache.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(tree.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(worktree.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(alloc.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(date.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(filebuf.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(fs_path.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(futils.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(hash.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(net.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pool.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(posix.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pqueue.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(rand.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(regexp.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(runtime.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(str.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(strmap.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(thread.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(tsort.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(utf8.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(util.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(varint.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(vector.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(wildmatch.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(zstream.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(credential.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(git.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(http.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(httpclient.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(auth.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(local.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(smart.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(smart_pkt.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(smart_protocol.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(ssh.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(mbedtls.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(openssl.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(registry.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(socket.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(tls.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(http_parser.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(xdiffi.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(xemit.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(xhistogram.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(xmerge.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(xpatience.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(xprepare.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(xutils.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pcre_compile.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pcre_chartables.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pcre_exec.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pcre_globals.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pcre_newline.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(pcre_tables.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(failalloc.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(stdalloc.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(map.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(realpath.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(collisiondetect.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sha1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(ubc_check.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(builtin.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sha224-256.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbitflags-0516d765c5c9485a.rlib(bitflags-0516d765c5c9485a.bitflags.297499627de7a205-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-31856e7dc3234394.rlib(cc-31856e7dc3234394.cc.5da2e02261f668a1-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-56ba78f9d108d0c2.rlib(jobserver-56ba78f9d108d0c2.jobserver.243ea46d79d7d226-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-56ba78f9d108d0c2.rlib(jobserver-56ba78f9d108d0c2.jobserver.243ea46d79d7d226-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-56ba78f9d108d0c2.rlib(jobserver-56ba78f9d108d0c2.jobserver.243ea46d79d7d226-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-56ba78f9d108d0c2.rlib(jobserver-56ba78f9d108d0c2.jobserver.243ea46d79d7d226-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.7.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon-9ee4593520a928b5.rlib(rayon-9ee4593520a928b5.rayon.4cfbdbafe80aab3c-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon-9ee4593520a928b5.rlib(rayon-9ee4593520a928b5.rayon.4cfbdbafe80aab3c-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librayon_core-fac5553d7b9baeea.rlib(rayon_core-fac5553d7b9baeea.rayon_core.65d84ac6efbe44c0-cgu.7.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcrossbeam_epoch-2fd3404459caa848.rlib(crossbeam_epoch-2fd3404459caa848.crossbeam_epoch.a49e9dfc69b9eca8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcrossbeam_utils-c194ab8372c564b6.rlib(crossbeam_utils-c194ab8372c564b6.crossbeam_utils.18bd925780611ddf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcrossbeam_utils-c194ab8372c564b6.rlib(crossbeam_utils-c194ab8372c564b6.crossbeam_utils.18bd925780611ddf-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libz.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/ba0b0            ba0b0       14    16         /target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/ba0b0            ba0b0       14    16         /target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2hews1dzytoltdc9eihfxecc2.1s4zp4y.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hb04f76886df7c61fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/rav1e-c02e5306165d5a98",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/rav1e-c02e5306165d5a98/build_script_build-c02e5306165d5a98.2hews1dzytoltdc9eihfxecc2.1s4zp4y.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hb04f76886df7c61fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c2b40            c2b40        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c2b40            c2b40        d    16         /target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.3.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..unstable..quicksort..GapGuardRaw$LT$alloc..string..String$GT$$GT$17he24ab7abfdd90d08E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.3.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..unstable..quicksort..GapGuardRaw$LT$alloc..string..String$GT$$GT$17he24ab7abfdd90d08E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c3100            c3100        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c3100            c3100        d    16         /target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.3.rcgu.o):(.text._ZN4core3ptr98drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..string..String$GT$$GT$17h230d6e62d6394cddE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.3.rcgu.o):(.text._ZN4core3ptr98drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..string..String$GT$$GT$17h230d6e62d6394cddE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c61f0            c61f0       78    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/c61f0            c61f0       78    16         /target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.2.rcgu.o):(.text._ZN102_$LT$core..slice..sort..unstable..quicksort..GapGuardRaw$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h9567599ab314db23E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.2.rcgu.o):(.text._ZN102_$LT$core..slice..sort..unstable..quicksort..GapGuardRaw$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h9567599ab314db23E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/d4ad0            d4ad0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/d4ad0            d4ad0       71    16         /target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.0.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbb9bca46a73499a5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbuilt-bdf9b37722d2ba55.rlib(built-bdf9b37722d2ba55.built.bf4abe4e5595dcff-cgu.0.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbb9bca46a73499a5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/ed706            ed706       73     1         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/ed706            ed706       73     1         /target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(attr_file.o):(.text.sort_by_hash_and_name",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(attr_file.o):(.text.sort_by_hash_and_name",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/154fac           154fac       ae     1         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/154fac           154fac       ae     1         /target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_clear",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_clear",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/15505a           15505a       7c     1         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/15505a           15505a       7c     1         /target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_free",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_free",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/155128           155128       42     1         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/155128           155128       42     1         /target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_copy_item",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_copy_item",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/155879           155879       47     1         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/155879           155879       47     1         /target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_magic_cmp",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/liblibgit2_sys-2db73f6df70b598d.rlib(sortedcache.o):(.text.sortedcache_magic_cmp",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/217090           217090       3e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/217090           217090       3e    16         /target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.3.rcgu.o):(.text._ZN4core3ptr106drop_in_place$LT$core..option..Option$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$$GT$17h81cc5ba50e06ebc1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.3.rcgu.o):(.text._ZN4core3ptr106drop_in_place$LT$core..option..Option$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$$GT$17h81cc5ba50e06ebc1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/217680           217680        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/217680           217680        d    16         /target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.3.rcgu.o):(.text._ZN4core3ptr238drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$C$core..iter..adapters..map..Map$LT$std..env..SplitPaths$C$nasm_rs..Build..find_nasm..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$$GT$17h2cfe3cfd8ce3f728E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.3.rcgu.o):(.text._ZN4core3ptr238drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$C$core..iter..adapters..map..Map$LT$std..env..SplitPaths$C$nasm_rs..Build..find_nasm..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$$GT$17h2cfe3cfd8ce3f728E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/218170           218170        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/218170           218170        d    16         /target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.3.rcgu.o):(.text._ZN4core3ptr78drop_in_place$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$17ha85577588b3cfd09E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.3.rcgu.o):(.text._ZN4core3ptr78drop_in_place$LT$core..iter..sources..once..Once$LT$std..path..PathBuf$GT$$GT$17ha85577588b3cfd09E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/224e90           224e90       48    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/224e90           224e90       48    16         /target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.6.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3036710b094cde57E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.6.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3036710b094cde57E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/224ee0           224ee0       30    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1/224ee0           224ee0       30    16         /target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.6.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h3445def43eb2f418E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libnasm_rs-46835b2eb7a78c27.rlib(nasm_rs-46835b2eb7a78c27.nasm_rs.e10639fe1ea662c8-cgu.6.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h3445def43eb2f418E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-271654-1783993621592764243.map",
+  "pid": 271654,
+  "ppid": 271506,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-271654-1783993621592764243.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -34,52 +2582,39 @@ _None._
 
 ### Source preparation records
 
-_None._
-
-### Compilation records
-
 #### Record 1
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-I",
     ".",
     "-I",
     "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "src/arm/64/ipred.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
     "-Wall",
     "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef16.o",
+    "-c",
+    "src/arm/64/cdef16.S"
   ],
-  "src": "src/arm/64/ipred.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/ipred.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272482,
-  "ppid": 272479,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
   "build_script_related": true,
+  "build_script_root_pid": 272331,
   "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272398,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "rav1e",
     "version": "0.7.1",
@@ -90,7 +2625,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -98,9 +2635,6 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
   "argv": [
     "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
     "-E",
@@ -112,7 +2646,7 @@ _None._
     "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
     "-imultiarch",
     "aarch64-linux-gnu",
-    "src/arm/64/itx16.S",
+    "src/arm/64/cdef.S",
     "-mlittle-endian",
     "-mabi=lp64",
     "-Wall",
@@ -124,18 +2658,16 @@ _None._
     "-gdwarf-4",
     "..."
   ],
-  "src": "src/arm/64/itx16.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/itx16.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272480,
-  "ppid": 272477,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
   "build_script_related": true,
+  "build_script_root_pid": 272331,
   "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 272409,
+  "ppid": 272397,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "rav1e",
     "version": "0.7.1",
@@ -146,6 +2678,7 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_cwd_recovered_from_compiler_parent": true
 }
 ```
@@ -154,9 +2687,6 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
   "argv": [
     "/usr/bin/aarch64-linux-gnu-gcc",
     "-O1",
@@ -172,22 +2702,20 @@ _None._
     "-Wall",
     "-Wextra",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef_dist.o",
     "-c",
-    "src/arm/64/cdef.S"
+    "src/arm/64/cdef_dist.S"
   ],
-  "src": "src/arm/64/cdef.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 272397,
-  "ppid": 272331,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
   "build_script_related": true,
+  "build_script_root_pid": 272331,
   "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272423,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "rav1e",
     "version": "0.7.1",
@@ -199,6 +2727,7 @@ _None._
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
   "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_cwd_recovered_from_build_script_run": true
 }
 ```
@@ -207,289 +2736,6 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "src/arm/64/itx.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-Wall",
-    "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "src/arm/64/itx.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/itx.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272476,
-  "ppid": 272473,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
-  "build_script_related": true,
-  "build_script_target_dir": "rav1e-c02e5306165d5a98",
-  "_owner": {
-    "crate": "rav1e",
-    "version": "0.7.1",
-    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
-    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "src/arm/64/cdef_dist.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-Wall",
-    "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "src/arm/64/cdef_dist.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef_dist.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272437,
-  "ppid": 272423,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
-  "build_script_related": true,
-  "build_script_target_dir": "rav1e-c02e5306165d5a98",
-  "_owner": {
-    "crate": "rav1e",
-    "version": "0.7.1",
-    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
-    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "src/arm/64/ipred16.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-Wall",
-    "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "src/arm/64/ipred16.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/ipred16.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272485,
-  "ppid": 272481,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
-  "build_script_related": true,
-  "build_script_target_dir": "rav1e-c02e5306165d5a98",
-  "_owner": {
-    "crate": "rav1e",
-    "version": "0.7.1",
-    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
-    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "src/arm/64/sse.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-Wall",
-    "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "src/arm/64/sse.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/sse.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272494,
-  "ppid": 272489,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
-  "build_script_related": true,
-  "build_script_target_dir": "rav1e-c02e5306165d5a98",
-  "_owner": {
-    "crate": "rav1e",
-    "version": "0.7.1",
-    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
-    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "src/arm/tables.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-Wall",
-    "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "src/arm/tables.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/tables.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272515,
-  "ppid": 272492,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
-  "build_script_related": true,
-  "build_script_target_dir": "rav1e-c02e5306165d5a98",
-  "_owner": {
-    "crate": "rav1e",
-    "version": "0.7.1",
-    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
-    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
   "argv": [
     "/usr/bin/aarch64-linux-gnu-gcc",
     "-O1",
@@ -505,22 +2751,20 @@ _None._
     "-Wall",
     "-Wextra",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/satd.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/mc.o",
     "-c",
-    "src/arm/64/satd.S"
+    "src/arm/64/mc.S"
   ],
-  "src": "src/arm/64/satd.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/satd.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 272486,
-  "ppid": 272331,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
   "build_script_related": true,
+  "build_script_root_pid": 272331,
   "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272429,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "rav1e",
     "version": "0.7.1",
@@ -532,11 +2776,461 @@ _None._
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
   "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/mc16.o",
+    "-c",
+    "src/arm/64/mc16.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272466,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/itx.o",
+    "-c",
+    "src/arm/64/itx.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272473,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/itx16.o",
+    "-c",
+    "src/arm/64/itx16.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272477,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/ipred.o",
+    "-c",
+    "src/arm/64/ipred.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272479,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/ipred16.o",
+    "-c",
+    "src/arm/64/ipred16.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272481,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
   "_cwd_recovered_from_build_script_run": true
 }
 ```
 
 #### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/sad.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 272487,
+  "ppid": 272483,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/sse.o",
+    "-c",
+    "src/arm/64/sse.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272489,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/tables.o",
+    "-c",
+    "src/arm/tables.S"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 272492,
+  "ppid": 272331,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/satd.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 272331,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 272490,
+  "ppid": 272486,
+  "root_cargo_pid": 248571,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+### Compilation records
+
+#### Record 1
 
 ```json
 {
@@ -592,7 +3286,393 @@ _None._
 }
 ```
 
-#### Record 11
+#### Record 2
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/ipred16.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/64/ipred16.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/ipred16.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272485,
+  "ppid": 272481,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/satd.o",
+    "-c",
+    "src/arm/64/satd.S"
+  ],
+  "src": "src/arm/64/satd.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/satd.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 272486,
+  "ppid": 272331,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/tables.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/tables.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/tables.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272515,
+  "ppid": 272492,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/ipred.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/64/ipred.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/ipred.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272482,
+  "ppid": 272479,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/itx.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/64/itx.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/itx.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272476,
+  "ppid": 272473,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O1",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-Wall",
+    "-Wextra",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef.o",
+    "-c",
+    "src/arm/64/cdef.S"
+  ],
+  "src": "src/arm/64/cdef.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 272397,
+  "ppid": 272331,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/cdef16.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/64/cdef16.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef16.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272401,
+  "ppid": 272398,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
 
 ```json
 {
@@ -648,7 +3728,175 @@ _None._
 }
 ```
 
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/itx16.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/64/itx16.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/itx16.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272480,
+  "ppid": 272477,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/cdef_dist.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/64/cdef_dist.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef_dist.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272437,
+  "ppid": 272423,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-E",
+    "-lang-asm",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "src/arm/64/sse.S",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-Wall",
+    "-Wextra",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "-gdwarf-4",
+    "..."
+  ],
+  "src": "src/arm/64/sse.S",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/sse.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 272494,
+  "ppid": 272489,
+  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "root_cargo_pid": 248571,
+  "build_script_root_pid": 272331,
+  "build_script_related": true,
+  "build_script_target_dir": "rav1e-c02e5306165d5a98",
+  "_owner": {
+    "crate": "rav1e",
+    "version": "0.7.1",
+    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
+    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
+  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
 
 ```json
 {
@@ -698,62 +3946,6 @@ _None._
   "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
   "_direct_build_script_child": true,
   "_cwd_recovered_from_build_script_run": true
-}
-```
-
-#### Record 13
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-E",
-    "-lang-asm",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "src/arm/64/cdef16.S",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-Wall",
-    "-Wextra",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "-gdwarf-4",
-    "..."
-  ],
-  "src": "src/arm/64/cdef16.S",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/rav1e-42dd61522fe100f1/out/src/arm/64/cdef16.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 272401,
-  "ppid": 272398,
-  "cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "root_cargo_pid": 248571,
-  "build_script_root_pid": 272331,
-  "build_script_related": true,
-  "build_script_target_dir": "rav1e-c02e5306165d5a98",
-  "_owner": {
-    "crate": "rav1e",
-    "version": "0.7.1",
-    "package_id": "path+file:///tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1#rav1e@0.7.1",
-    "manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-qtua4pf4/src/rav1e-0.7.1",
-  "_build_script_out_dir": "/target/debug/build/rav1e-c02e5306165d5a98/out",
-  "_cwd_recovered_from_compiler_parent": true
 }
 ```
 

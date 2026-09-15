@@ -4,6 +4,748 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa/symbols.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.0i5tjbhbdu4bqa9ni2mrz30l8.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.1tqx1meyn8xt2bwuhp7usxezm.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.2kiddyzc4299ul2qgs718w33a.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.37o7q4a87x4hc7g6kstwjz8xm.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.3cxue7mbfren4xp93zaq678d5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.43vdf9q5nsylpe1prm92e8vhj.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.54i2py05kzmfmdc98q09bhekp.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.5g2l0fdxw018rskfwlv7x9wpl.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.6zj46qk30ytl8o46a70op8da0.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.79kgknhgd00cznzhs8ztz6pi8.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7cgsmhv76e2n00h2n13j4r23e.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7sywv2yz3ll10ghruu7bkearq.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.81k91kvu2w9uunkpupx039gfc.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.8mbq323vs71lmksb3pxc1w376.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9gutwo934gmmnticu3c1u21h6.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9haew8fftgrl84oe18x6j9qtt.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.b8e3btzh8duh9ftylkveohvjf.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.bgjz92wcw25itl7okfomay8r5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.cb5v2w1c27v4bpd47eqd7t8o5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.d4ozu1v03r7rtvbs4uibrp6ic.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dffdhrui4bgez854852a9ip8g.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dmpui3t2tck3jz4t2y9o6yskn.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e5zu8kguor7asf9606q4ynuva.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e86ry4q5cebbnmxai9dljakel.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.epz23mu4onf21fhrfxmvsi898.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.etgwfdbbws56llbr4u0nqy4n7.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9jpy1bonb8xxipsnl5dn4ztcl.1k5dgt2.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-b74ee3a3051a8508.rlib",
+    "/target/debug/deps/libjobserver-77f261b5c1c759c8.rlib",
+    "/target/debug/deps/liblibc-16035498215d9c39.rlib",
+    "/target/debug/deps/libshlex-aaaa183895c5a685.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-6f68ae1f01e962b3.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-d281860057e71e32.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-5e94bab7951e12c1.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-df7b07a1ad651ab7.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-630d6a5acef403e0.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-22f3bf398782f370.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-e95ac7af8d6b7d91.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-97393e6e9cfab1cb.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-cae678ead87d0029.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-fa6020075f7eebc9.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-e32776d5500ca01c.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-0d5f6acebce85c85.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-0119a5ea6e2fd0b8.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-ea4f063d2019e7ed.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-bece2977a4165f51.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-0bace0cbb9a5e80d.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-e5308cff699be18c.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-b43b9827c978e29a.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-85c945391c9d3eb7.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa/symbols.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.0i5tjbhbdu4bqa9ni2mrz30l8.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.1tqx1meyn8xt2bwuhp7usxezm.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.2kiddyzc4299ul2qgs718w33a.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.37o7q4a87x4hc7g6kstwjz8xm.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.3cxue7mbfren4xp93zaq678d5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.43vdf9q5nsylpe1prm92e8vhj.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.54i2py05kzmfmdc98q09bhekp.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.5g2l0fdxw018rskfwlv7x9wpl.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.6zj46qk30ytl8o46a70op8da0.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.79kgknhgd00cznzhs8ztz6pi8.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7cgsmhv76e2n00h2n13j4r23e.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7sywv2yz3ll10ghruu7bkearq.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.81k91kvu2w9uunkpupx039gfc.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.8mbq323vs71lmksb3pxc1w376.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9gutwo934gmmnticu3c1u21h6.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9haew8fftgrl84oe18x6j9qtt.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.b8e3btzh8duh9ftylkveohvjf.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.bgjz92wcw25itl7okfomay8r5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.cb5v2w1c27v4bpd47eqd7t8o5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.d4ozu1v03r7rtvbs4uibrp6ic.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dffdhrui4bgez854852a9ip8g.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dmpui3t2tck3jz4t2y9o6yskn.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e5zu8kguor7asf9606q4ynuva.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e86ry4q5cebbnmxai9dljakel.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.epz23mu4onf21fhrfxmvsi898.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.etgwfdbbws56llbr4u0nqy4n7.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9jpy1bonb8xxipsnl5dn4ztcl.1k5dgt2.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa/symbols.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.0i5tjbhbdu4bqa9ni2mrz30l8.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.1tqx1meyn8xt2bwuhp7usxezm.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.2kiddyzc4299ul2qgs718w33a.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.37o7q4a87x4hc7g6kstwjz8xm.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.3cxue7mbfren4xp93zaq678d5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.43vdf9q5nsylpe1prm92e8vhj.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.54i2py05kzmfmdc98q09bhekp.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.5g2l0fdxw018rskfwlv7x9wpl.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.6zj46qk30ytl8o46a70op8da0.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.79kgknhgd00cznzhs8ztz6pi8.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7cgsmhv76e2n00h2n13j4r23e.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7sywv2yz3ll10ghruu7bkearq.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.81k91kvu2w9uunkpupx039gfc.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.8mbq323vs71lmksb3pxc1w376.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9gutwo934gmmnticu3c1u21h6.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9haew8fftgrl84oe18x6j9qtt.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.b8e3btzh8duh9ftylkveohvjf.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.bgjz92wcw25itl7okfomay8r5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.cb5v2w1c27v4bpd47eqd7t8o5.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.d4ozu1v03r7rtvbs4uibrp6ic.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dffdhrui4bgez854852a9ip8g.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dmpui3t2tck3jz4t2y9o6yskn.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e5zu8kguor7asf9606q4ynuva.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e86ry4q5cebbnmxai9dljakel.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.epz23mu4onf21fhrfxmvsi898.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.etgwfdbbws56llbr4u0nqy4n7.1k5dgt2.rcgu.o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9jpy1bonb8xxipsnl5dn4ztcl.1k5dgt2.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-b74ee3a3051a8508.rlib",
+    "/target/debug/deps/libjobserver-77f261b5c1c759c8.rlib",
+    "/target/debug/deps/liblibc-16035498215d9c39.rlib",
+    "/target/debug/deps/libshlex-aaaa183895c5a685.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-6f68ae1f01e962b3.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-d281860057e71e32.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-5e94bab7951e12c1.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-df7b07a1ad651ab7.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-630d6a5acef403e0.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-22f3bf398782f370.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-e95ac7af8d6b7d91.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-97393e6e9cfab1cb.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-cae678ead87d0029.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-fa6020075f7eebc9.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-e32776d5500ca01c.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-0d5f6acebce85c85.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-0119a5ea6e2fd0b8.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-ea4f063d2019e7ed.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-bece2977a4165f51.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-0bace0cbb9a5e80d.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-e5308cff699be18c.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-b43b9827c978e29a.rlib",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-85c945391c9d3eb7.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa",
+    "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/rustcDBHxSa/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.0i5tjbhbdu4bqa9ni2mrz30l8.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.1tqx1meyn8xt2bwuhp7usxezm.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.2kiddyzc4299ul2qgs718w33a.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.37o7q4a87x4hc7g6kstwjz8xm.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.3cxue7mbfren4xp93zaq678d5.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.43vdf9q5nsylpe1prm92e8vhj.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.54i2py05kzmfmdc98q09bhekp.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.5g2l0fdxw018rskfwlv7x9wpl.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.6zj46qk30ytl8o46a70op8da0.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.79kgknhgd00cznzhs8ztz6pi8.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7cgsmhv76e2n00h2n13j4r23e.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.7sywv2yz3ll10ghruu7bkearq.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.81k91kvu2w9uunkpupx039gfc.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.8mbq323vs71lmksb3pxc1w376.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9gutwo934gmmnticu3c1u21h6.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9haew8fftgrl84oe18x6j9qtt.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.b8e3btzh8duh9ftylkveohvjf.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.bgjz92wcw25itl7okfomay8r5.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.cb5v2w1c27v4bpd47eqd7t8o5.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.d4ozu1v03r7rtvbs4uibrp6ic.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dffdhrui4bgez854852a9ip8g.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.dmpui3t2tck3jz4t2y9o6yskn.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e5zu8kguor7asf9606q4ynuva.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.e86ry4q5cebbnmxai9dljakel.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.epz23mu4onf21fhrfxmvsi898.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.etgwfdbbws56llbr4u0nqy4n7.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libfuzzer-sys-903e12b1e257365f",
+      "kind": "object",
+      "path": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/build_script_build-903e12b1e257365f.9jpy1bonb8xxipsnl5dn4ztcl.1k5dgt2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-b74ee3a3051a8508.rlib(cc-b74ee3a3051a8508.cc.4e9ea6a09acb364f-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-77f261b5c1c759c8.rlib(jobserver-77f261b5c1c759c8.jobserver.a5a1e013108bbb64-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-77f261b5c1c759c8.rlib(jobserver-77f261b5c1c759c8.jobserver.a5a1e013108bbb64-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-aaaa183895c5a685.rlib(shlex-aaaa183895c5a685.shlex.a2f0c4ec059c5293-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-6f68ae1f01e962b3.rlib(std-6f68ae1f01e962b3.std.e484e3d4f01e0fed-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-d281860057e71e32.rlib(panic_unwind-d281860057e71e32.panic_unwind.98b2726b01a4da2d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-5e94bab7951e12c1.rlib(object-5e94bab7951e12c1.object.57930c333f10d0b9-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-df7b07a1ad651ab7.rlib(memchr-df7b07a1ad651ab7.memchr.20f3b7e46d403e2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-630d6a5acef403e0.rlib(addr2line-630d6a5acef403e0.addr2line.f7f409e5ee725daa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-22f3bf398782f370.rlib(gimli-22f3bf398782f370.gimli.f96e59f8d3f4ee50-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-97393e6e9cfab1cb.rlib(rustc_demangle-97393e6e9cfab1cb.rustc_demangle.a20ab0dde2a3057f-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-fa6020075f7eebc9.rlib(hashbrown-fa6020075f7eebc9.hashbrown.75db2cee7022d9c4-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-0d5f6acebce85c85.rlib(miniz_oxide-0d5f6acebce85c85.miniz_oxide.a00e1682ee42e08a-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-0119a5ea6e2fd0b8.rlib(adler2-0119a5ea6e2fd0b8.adler2.cdb2abd853a51b5c-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-e5308cff699be18c.rlib(alloc-e5308cff699be18c.alloc.a6174e8bdd8d2dbd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-b43b9827c978e29a.rlib(core-b43b9827c978e29a.core.9e0dc83c8483b671-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-85c945391c9d3eb7.rlib(compiler_builtins-85c945391c9d3eb7.compiler_builtins.2000e1e9639534ec-cgu.117.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-85c945391c9d3eb7.rlib(compiler_builtins-85c945391c9d3eb7.compiler_builtins.2000e1e9639534ec-cgu.121.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-85c945391c9d3eb7.rlib(compiler_builtins-85c945391c9d3eb7.compiler_builtins.2000e1e9639534ec-cgu.134.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-85c945391c9d3eb7.rlib(compiler_builtins-85c945391c9d3eb7.compiler_builtins.2000e1e9639534ec-cgu.270.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-262736-1783993495596337870.map",
+  "pid": 262736,
+  "ppid": 262498,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-262736-1783993495596337870.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -38,185 +780,10 @@ _None._
 
 ### Source preparation records
 
-_None._
-
-### Compilation records
-
 #### Record 1
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-    "-quiet",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerUtilDarwin.cpp",
-    "-quiet",
-    "-dumpbase",
-    "FuzzerUtilDarwin.cpp",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilDarwin.o",
-    "-gdwarf-4",
-    "-O0",
-    "-std=c++17",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "..."
-  ],
-  "src": "libfuzzer/FuzzerUtilDarwin.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilDarwin.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 263298,
-  "ppid": 263294,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
-  "build_script_related": true,
-  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
-  "_owner": {
-    "crate": "libfuzzer-sys",
-    "version": "0.4.10",
-    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
-    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 2
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-    "-quiet",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerTracePC.cpp",
-    "-quiet",
-    "-dumpbase",
-    "FuzzerTracePC.cpp",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerTracePC.o",
-    "-gdwarf-4",
-    "-O0",
-    "-std=c++17",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "..."
-  ],
-  "src": "libfuzzer/FuzzerTracePC.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerTracePC.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 263309,
-  "ppid": 263303,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
-  "build_script_related": true,
-  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
-  "_owner": {
-    "crate": "libfuzzer-sys",
-    "version": "0.4.10",
-    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
-    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 3
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-    "-quiet",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerUtilFuchsia.cpp",
-    "-quiet",
-    "-dumpbase",
-    "FuzzerUtilFuchsia.cpp",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilFuchsia.o",
-    "-gdwarf-4",
-    "-O0",
-    "-std=c++17",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "..."
-  ],
-  "src": "libfuzzer/FuzzerUtilFuchsia.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilFuchsia.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 263295,
-  "ppid": 263289,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
-  "build_script_related": true,
-  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
-  "_owner": {
-    "crate": "libfuzzer-sys",
-    "version": "0.4.10",
-    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
-    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-g++",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
   "argv": [
     "/usr/bin/aarch64-linux-gnu-g++",
     "-O0",
@@ -227,22 +794,20 @@ _None._
     "-fno-omit-frame-pointer",
     "-std=c++17",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMerge.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilWindows.o",
     "-c",
-    "libfuzzer/FuzzerMerge.cpp"
+    "libfuzzer/FuzzerUtilWindows.cpp"
   ],
-  "src": "libfuzzer/FuzzerMerge.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMerge.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 263312,
-  "ppid": 263180,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
   "build_script_related": true,
+  "build_script_root_pid": 263180,
   "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263268,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "libfuzzer-sys",
     "version": "0.4.10",
@@ -254,6 +819,139 @@ _None._
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
   "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilPosix.o",
+    "-c",
+    "libfuzzer/FuzzerUtilPosix.cpp"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 263180,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263280,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilFuchsia.o",
+    "-c",
+    "libfuzzer/FuzzerUtilFuchsia.cpp"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 263180,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263289,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilDarwin.o",
+    "-c",
+    "libfuzzer/FuzzerUtilDarwin.cpp"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 263180,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263294,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_cwd_recovered_from_build_script_run": true
 }
 ```
@@ -262,23 +960,20 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
   "argv": [
     "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
     "-quiet",
     "-imultiarch",
     "aarch64-linux-gnu",
     "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerUtilPosix.cpp",
+    "libfuzzer/FuzzerUtilLinux.cpp",
     "-quiet",
     "-dumpbase",
-    "FuzzerUtilPosix.cpp",
+    "FuzzerUtilLinux.cpp",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilPosix.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilLinux.o",
     "-gdwarf-4",
     "-O0",
     "-std=c++17",
@@ -288,18 +983,16 @@ _None._
     "-fno-omit-frame-pointer",
     "..."
   ],
-  "src": "libfuzzer/FuzzerUtilPosix.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilPosix.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 263286,
-  "ppid": 263280,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
   "build_script_related": true,
+  "build_script_root_pid": 263180,
   "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "cc1plus",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "pid": 263299,
+  "ppid": 263284,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "libfuzzer-sys",
     "version": "0.4.10",
@@ -310,6 +1003,7 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_cwd_recovered_from_compiler_parent": true
 }
 ```
@@ -318,9 +1012,6 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-g++",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
   "argv": [
     "/usr/bin/aarch64-linux-gnu-g++",
     "-O0",
@@ -331,22 +1022,20 @@ _None._
     "-fno-omit-frame-pointer",
     "-std=c++17",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerLoop.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtil.o",
     "-c",
-    "libfuzzer/FuzzerLoop.cpp"
+    "libfuzzer/FuzzerUtil.cpp"
   ],
-  "src": "libfuzzer/FuzzerLoop.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerLoop.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 263318,
-  "ppid": 263180,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
   "build_script_related": true,
+  "build_script_root_pid": 263180,
   "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263301,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "libfuzzer-sys",
     "version": "0.4.10",
@@ -358,6 +1047,7 @@ _None._
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
   "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_cwd_recovered_from_build_script_run": true
 }
 ```
@@ -366,121 +1056,6 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-    "-quiet",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerIOWindows.cpp",
-    "-quiet",
-    "-dumpbase",
-    "FuzzerIOWindows.cpp",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIOWindows.o",
-    "-gdwarf-4",
-    "-O0",
-    "-std=c++17",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "..."
-  ],
-  "src": "libfuzzer/FuzzerIOWindows.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIOWindows.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 263343,
-  "ppid": 263337,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
-  "build_script_related": true,
-  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
-  "_owner": {
-    "crate": "libfuzzer-sys",
-    "version": "0.4.10",
-    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
-    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-    "-quiet",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerUtil.cpp",
-    "-quiet",
-    "-dumpbase",
-    "FuzzerUtil.cpp",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtil.o",
-    "-gdwarf-4",
-    "-O0",
-    "-std=c++17",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-fno-omit-frame-pointer",
-    "..."
-  ],
-  "src": "libfuzzer/FuzzerUtil.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtil.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 263304,
-  "ppid": 263301,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
-  "build_script_related": true,
-  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
-  "_owner": {
-    "crate": "libfuzzer-sys",
-    "version": "0.4.10",
-    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
-    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-g++",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
   "argv": [
     "/usr/bin/aarch64-linux-gnu-g++",
     "-O0",
@@ -491,22 +1066,20 @@ _None._
     "-fno-omit-frame-pointer",
     "-std=c++17",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIO.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerTracePC.o",
     "-c",
-    "libfuzzer/FuzzerIO.cpp"
+    "libfuzzer/FuzzerTracePC.cpp"
   ],
-  "src": "libfuzzer/FuzzerIO.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIO.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 263344,
-  "ppid": 263180,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
   "build_script_related": true,
+  "build_script_root_pid": 263180,
   "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263303,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "libfuzzer-sys",
     "version": "0.4.10",
@@ -518,6 +1091,95 @@ _None._
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
   "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMutate.o",
+    "-c",
+    "libfuzzer/FuzzerMutate.cpp"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 263180,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263310,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerSHA1.o",
+    "-c",
+    "libfuzzer/FuzzerSHA1.cpp"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 263180,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263305,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_cwd_recovered_from_build_script_run": true
 }
 ```
@@ -526,9 +1188,6 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-g++",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
   "argv": [
     "/usr/bin/aarch64-linux-gnu-g++",
     "-O0",
@@ -539,22 +1198,20 @@ _None._
     "-fno-omit-frame-pointer",
     "-std=c++17",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilLinux.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMain.o",
     "-c",
-    "libfuzzer/FuzzerUtilLinux.cpp"
+    "libfuzzer/FuzzerMain.cpp"
   ],
-  "src": "libfuzzer/FuzzerUtilLinux.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilLinux.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 263284,
-  "ppid": 263180,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
   "build_script_related": true,
+  "build_script_root_pid": 263180,
   "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263315,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "libfuzzer-sys",
     "version": "0.4.10",
@@ -566,6 +1223,7 @@ _None._
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
   "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_cwd_recovered_from_build_script_run": true
 }
 ```
@@ -574,23 +1232,20 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
   "argv": [
     "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
     "-quiet",
     "-imultiarch",
     "aarch64-linux-gnu",
     "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerMain.cpp",
+    "libfuzzer/FuzzerMerge.cpp",
     "-quiet",
     "-dumpbase",
-    "FuzzerMain.cpp",
+    "FuzzerMerge.cpp",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMain.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMerge.o",
     "-gdwarf-4",
     "-O0",
     "-std=c++17",
@@ -600,18 +1255,16 @@ _None._
     "-fno-omit-frame-pointer",
     "..."
   ],
-  "src": "libfuzzer/FuzzerMain.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMain.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 263322,
-  "ppid": 263315,
-  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
-  "root_cargo_pid": 260169,
-  "build_script_root_pid": 263180,
   "build_script_related": true,
+  "build_script_root_pid": 263180,
   "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "cc1plus",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "pid": 263314,
+  "ppid": 263312,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "libfuzzer-sys",
     "version": "0.4.10",
@@ -622,11 +1275,110 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "_cwd_recovered_from_compiler_parent": true
 }
 ```
 
 #### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerInterceptors.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerInterceptors.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerInterceptors.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 263180,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "cc1plus",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "pid": 263336,
+  "ppid": 263321,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerFork.o",
+    "-c",
+    "libfuzzer/FuzzerFork.cpp"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 263180,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-g++",
+  "pid": 263349,
+  "ppid": 263180,
+  "root_cargo_pid": 260169,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+### Compilation records
+
+#### Record 1
 
 ```json
 {
@@ -682,7 +1434,431 @@ _None._
 }
 ```
 
-#### Record 13
+#### Record 2
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerInterceptors.o",
+    "-c",
+    "libfuzzer/FuzzerInterceptors.cpp"
+  ],
+  "src": "libfuzzer/FuzzerInterceptors.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerInterceptors.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 263321,
+  "ppid": 263180,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerUtilWindows.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerUtilWindows.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilWindows.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "src": "libfuzzer/FuzzerUtilWindows.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilWindows.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 263282,
+  "ppid": 263268,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerIOWindows.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerIOWindows.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIOWindows.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "src": "libfuzzer/FuzzerIOWindows.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIOWindows.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 263343,
+  "ppid": 263337,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerUtilDarwin.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerUtilDarwin.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilDarwin.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "src": "libfuzzer/FuzzerUtilDarwin.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilDarwin.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 263298,
+  "ppid": 263294,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerUtil.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerUtil.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtil.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "src": "libfuzzer/FuzzerUtil.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtil.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 263304,
+  "ppid": 263301,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIO.o",
+    "-c",
+    "libfuzzer/FuzzerIO.cpp"
+  ],
+  "src": "libfuzzer/FuzzerIO.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerIO.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 263344,
+  "ppid": 263180,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerLoop.o",
+    "-c",
+    "libfuzzer/FuzzerLoop.cpp"
+  ],
+  "src": "libfuzzer/FuzzerLoop.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerLoop.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 263318,
+  "ppid": 263180,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerUtilFuchsia.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerUtilFuchsia.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilFuchsia.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "src": "libfuzzer/FuzzerUtilFuchsia.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilFuchsia.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 263295,
+  "ppid": 263289,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 10
 
 ```json
 {
@@ -730,7 +1906,111 @@ _None._
 }
 ```
 
-#### Record 14
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerUtilPosix.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerUtilPosix.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilPosix.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "src": "libfuzzer/FuzzerUtilPosix.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilPosix.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 263286,
+  "ppid": 263280,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-g++",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-std=c++17",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMerge.o",
+    "-c",
+    "libfuzzer/FuzzerMerge.cpp"
+  ],
+  "src": "libfuzzer/FuzzerMerge.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMerge.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 263312,
+  "ppid": 263180,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 13
 
 ```json
 {
@@ -786,7 +2066,7 @@ _None._
 }
 ```
 
-#### Record 15
+#### Record 14
 
 ```json
 {
@@ -842,7 +2122,7 @@ _None._
 }
 ```
 
-#### Record 16
+#### Record 15
 
 ```json
 {
@@ -859,16 +2139,16 @@ _None._
     "-fno-omit-frame-pointer",
     "-std=c++17",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerInterceptors.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilLinux.o",
     "-c",
-    "libfuzzer/FuzzerInterceptors.cpp"
+    "libfuzzer/FuzzerUtilLinux.cpp"
   ],
-  "src": "libfuzzer/FuzzerInterceptors.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerInterceptors.o",
+  "src": "libfuzzer/FuzzerUtilLinux.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilLinux.o",
   "success": true,
   "evidence_source": "process_exec_argv",
   "recovered_from_process_exec": true,
-  "pid": 263321,
+  "pid": 263284,
   "ppid": 263180,
   "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "root_cargo_pid": 260169,
@@ -890,6 +2170,62 @@ _None._
 }
 ```
 
+#### Record 16
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus",
+    "-quiet",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "libfuzzer/FuzzerTracePC.cpp",
+    "-quiet",
+    "-dumpbase",
+    "FuzzerTracePC.cpp",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerTracePC.o",
+    "-gdwarf-4",
+    "-O0",
+    "-std=c++17",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-fno-omit-frame-pointer",
+    "..."
+  ],
+  "src": "libfuzzer/FuzzerTracePC.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerTracePC.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 263309,
+  "ppid": 263303,
+  "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "root_cargo_pid": 260169,
+  "build_script_root_pid": 263180,
+  "build_script_related": true,
+  "build_script_target_dir": "libfuzzer-sys-903e12b1e257365f",
+  "_owner": {
+    "crate": "libfuzzer-sys",
+    "version": "0.4.10",
+    "package_id": "path+file:///tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10#libfuzzer-sys@0.4.10",
+    "manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
+  "_build_script_out_dir": "/target/debug/build/libfuzzer-sys-903e12b1e257365f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 17
 
 ```json
@@ -903,14 +2239,14 @@ _None._
     "-imultiarch",
     "aarch64-linux-gnu",
     "-D_GNU_SOURCE",
-    "libfuzzer/FuzzerUtilWindows.cpp",
+    "libfuzzer/FuzzerMain.cpp",
     "-quiet",
     "-dumpbase",
-    "FuzzerUtilWindows.cpp",
+    "FuzzerMain.cpp",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilWindows.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMain.o",
     "-gdwarf-4",
     "-O0",
     "-std=c++17",
@@ -920,13 +2256,13 @@ _None._
     "-fno-omit-frame-pointer",
     "..."
   ],
-  "src": "libfuzzer/FuzzerUtilWindows.cpp",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilWindows.o",
+  "src": "libfuzzer/FuzzerMain.cpp",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerMain.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 263282,
-  "ppid": 263268,
+  "pid": 263322,
+  "ppid": 263315,
   "cwd": "/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10",
   "root_cargo_pid": 260169,
   "build_script_root_pid": 263180,

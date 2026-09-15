@@ -4,6 +4,2443 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\.tmp\\native-trace-17448-1783954497278\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-6fbfbdf39d3793ef\\rustc1xh74f\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-6fbfbdf39d3793ef\\rustc1xh74f\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\7026909872142609413detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\7026909872142609413detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
+    "-c",
+    "oniguruma\\src\\regexec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
+    "oniguruma\\src\\regexec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
+    "-c",
+    "oniguruma\\src\\regerror.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
+    "oniguruma\\src\\regerror.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
+    "-c",
+    "oniguruma\\src\\regparse.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
+    "oniguruma\\src\\regparse.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
+    "-c",
+    "oniguruma\\src\\regext.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
+    "oniguruma\\src\\regext.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
+    "-c",
+    "oniguruma\\src\\regcomp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
+    "oniguruma\\src\\regcomp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
+    "-c",
+    "oniguruma\\src\\reggnu.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
+    "oniguruma\\src\\reggnu.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
+    "-c",
+    "oniguruma\\src\\regenc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
+    "oniguruma\\src\\regenc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
+    "-c",
+    "oniguruma\\src\\regsyntax.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
+    "oniguruma\\src\\regsyntax.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
+    "-c",
+    "oniguruma\\src\\regtrav.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
+    "oniguruma\\src\\regtrav.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regversion.o",
+    "-c",
+    "oniguruma\\src\\regversion.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regversion.o",
+    "oniguruma\\src\\regversion.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
+    "-c",
+    "oniguruma\\src\\st.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
+    "oniguruma\\src\\st.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
+    "-c",
+    "oniguruma\\src\\onig_init.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
+    "oniguruma\\src\\onig_init.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
+    "-c",
+    "oniguruma\\src\\unicode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
+    "oniguruma\\src\\unicode.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-ascii.o",
+    "-c",
+    "oniguruma\\src\\ascii.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-ascii.o",
+    "oniguruma\\src\\ascii.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
+    "-c",
+    "oniguruma\\src\\utf8.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
+    "oniguruma\\src\\utf8.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_be.o",
+    "-c",
+    "oniguruma\\src\\utf16_be.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_be.o",
+    "oniguruma\\src\\utf16_be.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
+    "-c",
+    "oniguruma\\src\\utf16_le.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
+    "oniguruma\\src\\utf16_le.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
+    "-c",
+    "oniguruma\\src\\utf32_be.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
+    "oniguruma\\src\\utf32_be.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
+    "-c",
+    "oniguruma\\src\\utf32_le.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
+    "oniguruma\\src\\utf32_le.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
+    "-c",
+    "oniguruma\\src\\euc_jp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
+    "oniguruma\\src\\euc_jp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
+    "-c",
+    "oniguruma\\src\\sjis.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
+    "oniguruma\\src\\sjis.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
+    "-c",
+    "oniguruma\\src\\iso8859_1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
+    "oniguruma\\src\\iso8859_1.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
+    "-c",
+    "oniguruma\\src\\iso8859_2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
+    "oniguruma\\src\\iso8859_2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
+    "-c",
+    "oniguruma\\src\\iso8859_3.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
+    "oniguruma\\src\\iso8859_3.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
+    "-c",
+    "oniguruma\\src\\iso8859_4.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
+    "oniguruma\\src\\iso8859_4.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
+    "-c",
+    "oniguruma\\src\\iso8859_5.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
+    "oniguruma\\src\\iso8859_5.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
+    "-c",
+    "oniguruma\\src\\iso8859_6.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
+    "oniguruma\\src\\iso8859_6.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
+    "-c",
+    "oniguruma\\src\\iso8859_7.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
+    "oniguruma\\src\\iso8859_7.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
+    "-c",
+    "oniguruma\\src\\iso8859_8.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
+    "oniguruma\\src\\iso8859_8.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
+    "-c",
+    "oniguruma\\src\\iso8859_9.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
+    "oniguruma\\src\\iso8859_9.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
+    "-c",
+    "oniguruma\\src\\iso8859_10.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
+    "oniguruma\\src\\iso8859_10.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
+    "-c",
+    "oniguruma\\src\\iso8859_11.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
+    "oniguruma\\src\\iso8859_11.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
+    "-c",
+    "oniguruma\\src\\iso8859_13.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
+    "oniguruma\\src\\iso8859_13.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
+    "-c",
+    "oniguruma\\src\\iso8859_14.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
+    "oniguruma\\src\\iso8859_14.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
+    "-c",
+    "oniguruma\\src\\iso8859_15.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
+    "oniguruma\\src\\iso8859_15.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
+    "-c",
+    "oniguruma\\src\\iso8859_16.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
+    "oniguruma\\src\\iso8859_16.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
+    "-c",
+    "oniguruma\\src\\euc_tw.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
+    "oniguruma\\src\\euc_tw.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
+    "-c",
+    "oniguruma\\src\\euc_kr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
+    "oniguruma\\src\\euc_kr.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
+    "-c",
+    "oniguruma\\src\\big5.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
+    "oniguruma\\src\\big5.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-gb18030.o",
+    "-c",
+    "oniguruma\\src\\gb18030.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-gb18030.o",
+    "oniguruma\\src\\gb18030.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
+    "-c",
+    "oniguruma\\src\\koi8_r.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
+    "oniguruma\\src\\koi8_r.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
+    "-c",
+    "oniguruma\\src\\cp1251.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
+    "oniguruma\\src\\cp1251.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
+    "-c",
+    "oniguruma\\src\\euc_jp_prop.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
+    "oniguruma\\src\\euc_jp_prop.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
+    "-c",
+    "oniguruma\\src\\sjis_prop.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
+    "oniguruma\\src\\sjis_prop.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
+    "-c",
+    "oniguruma\\src\\unicode_unfold_key.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
+    "oniguruma\\src\\unicode_unfold_key.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
+    "-c",
+    "oniguruma\\src\\unicode_fold1_key.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
+    "oniguruma\\src\\unicode_fold1_key.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold2_key.o",
+    "-c",
+    "oniguruma\\src\\unicode_fold2_key.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold2_key.o",
+    "oniguruma\\src\\unicode_fold2_key.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o",
+    "-c",
+    "oniguruma\\src\\unicode_fold3_key.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o",
+    "oniguruma\\src\\unicode_fold3_key.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\libonig.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regversion.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-ascii.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_be.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-gb18030.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold2_key.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regversion.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-ascii.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_be.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-gb18030.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold2_key.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\libonig.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\.tmp\\native-trace-17448-1783954497278\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-6fbfbdf39d3793ef\\rustc1xh74f\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "directories": [
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.53.0\\lib",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000048       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000070       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000090       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000b8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000168       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000180       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000190       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000001a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000438       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000468       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000480       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000498       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.53.0\\lib",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.53.0\\lib\\windows.0.53.0.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\legacy_stdio_definitions.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000048       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000048       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001405fe048     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000070       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000070       \\177advapi32_NULL_THUNK_DATA 00000001405fe070     windows.0.53.0:advapi32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000090       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000090       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001405fe090     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000a8       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001405fe0a8     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000b8       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001405fe0b8     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000000d0       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001405fe0d0     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000168       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000168       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001405fe168     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000180       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000180       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001405fe180     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000190       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000190       \\177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 00000001405fe190     ucrt:api-ms-win-crt-string-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000001a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:000001a0       \\177bcryptprimitives_NULL_THUNK_DATA 00000001405fe1a0     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000438       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000438       \\177kernel32_NULL_THUNK_DATA 00000001405fe438     windows.0.53.0:kernel32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000468       \\177ntdll_NULL_THUNK_DATA  00000001405fe468     windows.0.53.0:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000480       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000480       \\177ole32_NULL_THUNK_DATA  00000001405fe480     windows.0.53.0:ole32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000498       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\0002:00000498       \\177oleaut32_NULL_THUNK_DATA 00000001405fe498     windows.0.53.0:oleaut32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\.tmp\\native-trace-link-link-4648-1783954504323770300.map",
+  "pid": 4648,
+  "ppid": 13644,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\.tmp\\native-trace-link-link-4648-1783954504323770300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -87,870 +2524,6 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
     "-I",
     "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
-    "-c",
-    "oniguruma\\src\\euc_tw.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
-  "src": "oniguruma\\src\\euc_tw.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
-    "-c",
-    "oniguruma\\src\\unicode.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
-  "src": "oniguruma\\src\\unicode.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
-    "-c",
-    "oniguruma\\src\\euc_jp.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
-  "src": "oniguruma\\src\\euc_jp.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
-    "-c",
-    "oniguruma\\src\\regsyntax.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
-  "src": "oniguruma\\src\\regsyntax.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
-    "-c",
-    "oniguruma\\src\\regerror.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
-  "src": "oniguruma\\src\\regerror.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
-    "-c",
-    "oniguruma\\src\\euc_jp_prop.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
-  "src": "oniguruma\\src\\euc_jp_prop.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
-    "-c",
-    "oniguruma\\src\\iso8859_10.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
-  "src": "oniguruma\\src\\iso8859_10.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o",
-    "-c",
-    "oniguruma\\src\\unicode_fold3_key.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o",
-  "src": "oniguruma\\src\\unicode_fold3_key.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
-    "-c",
-    "oniguruma\\src\\koi8_r.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
-  "src": "oniguruma\\src\\koi8_r.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
-    "-c",
-    "oniguruma\\src\\utf32_be.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
-  "src": "oniguruma\\src\\utf32_be.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
-    "-c",
-    "oniguruma\\src\\regcomp.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
-  "src": "oniguruma\\src\\regcomp.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
-    "-c",
-    "oniguruma\\src\\iso8859_4.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
-  "src": "oniguruma\\src\\iso8859_4.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
-    "-c",
-    "oniguruma\\src\\utf32_le.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
-  "src": "oniguruma\\src\\utf32_le.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 14
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
-    "-c",
-    "oniguruma\\src\\sjis_prop.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
-  "src": "oniguruma\\src\\sjis_prop.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 15
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
-    "-c",
-    "oniguruma\\src\\regexec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
-  "src": "oniguruma\\src\\regexec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 16
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
-    "-c",
-    "oniguruma\\src\\iso8859_13.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
-  "src": "oniguruma\\src\\iso8859_13.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
-    "-c",
-    "oniguruma\\src\\utf8.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
-  "src": "oniguruma\\src\\utf8.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 18
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
-    "-c",
-    "oniguruma\\src\\utf16_le.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
-  "src": "oniguruma\\src\\utf16_le.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
-    "-c",
-    "oniguruma\\src\\iso8859_3.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
-  "src": "oniguruma\\src\\iso8859_3.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 20
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
-    "-c",
-    "oniguruma\\src\\regenc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
-  "src": "oniguruma\\src\\regenc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
-    "-c",
-    "oniguruma\\src\\iso8859_9.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
-  "src": "oniguruma\\src\\iso8859_9.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 22
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
-    "-c",
-    "oniguruma\\src\\iso8859_15.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
-  "src": "oniguruma\\src\\iso8859_15.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 23
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
-    "-c",
-    "oniguruma\\src\\regext.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
-  "src": "oniguruma\\src\\regext.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 24
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
-    "-c",
-    "oniguruma\\src\\euc_kr.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
-  "src": "oniguruma\\src\\euc_kr.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 25
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
     "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-gb18030.o",
     "-c",
     "oniguruma\\src\\gb18030.c"
@@ -973,151 +2546,7 @@ _None._
 }
 ```
 
-#### Record 26
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
-    "-c",
-    "oniguruma\\src\\unicode_unfold_key.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
-  "src": "oniguruma\\src\\unicode_unfold_key.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 27
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
-    "-c",
-    "oniguruma\\src\\unicode_fold1_key.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
-  "src": "oniguruma\\src\\unicode_fold1_key.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 28
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
-    "-c",
-    "oniguruma\\src\\iso8859_5.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
-  "src": "oniguruma\\src\\iso8859_5.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 29
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
-    "-c",
-    "oniguruma\\src\\reggnu.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
-  "src": "oniguruma\\src\\reggnu.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 30
+#### Record 2
 
 ```json
 {
@@ -1153,7 +2582,7 @@ _None._
 }
 ```
 
-#### Record 31
+#### Record 3
 
 ```json
 {
@@ -1167,16 +2596,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
     "-I",
     "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
     "-c",
-    "oniguruma\\src\\sjis.c"
+    "oniguruma\\src\\unicode_unfold_key.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
-  "src": "oniguruma\\src\\sjis.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_unfold_key.o",
+  "src": "oniguruma\\src\\unicode_unfold_key.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1189,367 +2618,7 @@ _None._
 }
 ```
 
-#### Record 32
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
-    "-c",
-    "oniguruma\\src\\iso8859_7.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
-  "src": "oniguruma\\src\\iso8859_7.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 33
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
-    "-c",
-    "oniguruma\\src\\iso8859_2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
-  "src": "oniguruma\\src\\iso8859_2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 34
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
-    "-c",
-    "oniguruma\\src\\iso8859_6.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
-  "src": "oniguruma\\src\\iso8859_6.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 35
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
-    "-c",
-    "oniguruma\\src\\onig_init.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
-  "src": "oniguruma\\src\\onig_init.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 36
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
-    "-c",
-    "oniguruma\\src\\iso8859_11.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
-  "src": "oniguruma\\src\\iso8859_11.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 37
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
-    "-c",
-    "oniguruma\\src\\st.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
-  "src": "oniguruma\\src\\st.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 38
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
-    "-c",
-    "oniguruma\\src\\cp1251.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
-  "src": "oniguruma\\src\\cp1251.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 39
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
-    "-c",
-    "oniguruma\\src\\iso8859_14.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
-  "src": "oniguruma\\src\\iso8859_14.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 40
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
-    "-c",
-    "oniguruma\\src\\regtrav.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
-  "src": "oniguruma\\src\\regtrav.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 41
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
-    "-c",
-    "oniguruma\\src\\regparse.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
-  "src": "oniguruma\\src\\regparse.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 42
+#### Record 4
 
 ```json
 {
@@ -1585,115 +2654,7 @@ _None._
 }
 ```
 
-#### Record 43
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
-    "-c",
-    "oniguruma\\src\\iso8859_1.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
-  "src": "oniguruma\\src\\iso8859_1.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 44
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
-    "-c",
-    "oniguruma\\src\\iso8859_8.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
-  "src": "oniguruma\\src\\iso8859_8.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 45
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
-    "-I",
-    "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
-    "-c",
-    "oniguruma\\src\\iso8859_16.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
-  "src": "oniguruma\\src\\iso8859_16.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "onig_sys",
-    "version": "69.9.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 46
+#### Record 5
 
 ```json
 {
@@ -1729,7 +2690,1087 @@ _None._
 }
 ```
 
-#### Record 47
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
+    "-c",
+    "oniguruma\\src\\iso8859_15.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_15.o",
+  "src": "oniguruma\\src\\iso8859_15.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
+    "-c",
+    "oniguruma\\src\\regext.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regext.o",
+  "src": "oniguruma\\src\\regext.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
+    "-c",
+    "oniguruma\\src\\regcomp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regcomp.o",
+  "src": "oniguruma\\src\\regcomp.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
+    "-c",
+    "oniguruma\\src\\reggnu.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-reggnu.o",
+  "src": "oniguruma\\src\\reggnu.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
+    "-c",
+    "oniguruma\\src\\iso8859_13.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_13.o",
+  "src": "oniguruma\\src\\iso8859_13.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
+    "-c",
+    "oniguruma\\src\\regsyntax.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regsyntax.o",
+  "src": "oniguruma\\src\\regsyntax.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
+    "-c",
+    "oniguruma\\src\\regparse.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regparse.o",
+  "src": "oniguruma\\src\\regparse.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
+    "-c",
+    "oniguruma\\src\\regerror.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regerror.o",
+  "src": "oniguruma\\src\\regerror.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
+    "-c",
+    "oniguruma\\src\\cp1251.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-cp1251.o",
+  "src": "oniguruma\\src\\cp1251.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
+    "-c",
+    "oniguruma\\src\\euc_jp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp.o",
+  "src": "oniguruma\\src\\euc_jp.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
+    "-c",
+    "oniguruma\\src\\iso8859_5.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_5.o",
+  "src": "oniguruma\\src\\iso8859_5.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
+    "-c",
+    "oniguruma\\src\\utf16_le.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf16_le.o",
+  "src": "oniguruma\\src\\utf16_le.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
+    "-c",
+    "oniguruma\\src\\utf32_le.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_le.o",
+  "src": "oniguruma\\src\\utf32_le.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
+    "-c",
+    "oniguruma\\src\\iso8859_8.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_8.o",
+  "src": "oniguruma\\src\\iso8859_8.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
+    "-c",
+    "oniguruma\\src\\sjis_prop.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis_prop.o",
+  "src": "oniguruma\\src\\sjis_prop.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
+    "-c",
+    "oniguruma\\src\\regenc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regenc.o",
+  "src": "oniguruma\\src\\regenc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
+    "-c",
+    "oniguruma\\src\\iso8859_6.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_6.o",
+  "src": "oniguruma\\src\\iso8859_6.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
+    "-c",
+    "oniguruma\\src\\iso8859_9.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_9.o",
+  "src": "oniguruma\\src\\iso8859_9.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
+    "-c",
+    "oniguruma\\src\\iso8859_10.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_10.o",
+  "src": "oniguruma\\src\\iso8859_10.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
+    "-c",
+    "oniguruma\\src\\iso8859_11.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_11.o",
+  "src": "oniguruma\\src\\iso8859_11.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o",
+    "-c",
+    "oniguruma\\src\\unicode_fold3_key.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold3_key.o",
+  "src": "oniguruma\\src\\unicode_fold3_key.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
+    "-c",
+    "oniguruma\\src\\iso8859_16.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_16.o",
+  "src": "oniguruma\\src\\iso8859_16.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
+    "-c",
+    "oniguruma\\src\\big5.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
+  "src": "oniguruma\\src\\big5.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
+    "-c",
+    "oniguruma\\src\\utf8.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf8.o",
+  "src": "oniguruma\\src\\utf8.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
+    "-c",
+    "oniguruma\\src\\st.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-st.o",
+  "src": "oniguruma\\src\\st.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
+    "-c",
+    "oniguruma\\src\\koi8_r.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-koi8_r.o",
+  "src": "oniguruma\\src\\koi8_r.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
+    "-c",
+    "oniguruma\\src\\iso8859_4.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_4.o",
+  "src": "oniguruma\\src\\iso8859_4.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
+    "-c",
+    "oniguruma\\src\\iso8859_1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_1.o",
+  "src": "oniguruma\\src\\iso8859_1.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
+    "-c",
+    "oniguruma\\src\\regexec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regexec.o",
+  "src": "oniguruma\\src\\regexec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
+    "-c",
+    "oniguruma\\src\\euc_kr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_kr.o",
+  "src": "oniguruma\\src\\euc_kr.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
 
 ```json
 {
@@ -1765,6 +3806,402 @@ _None._
 }
 ```
 
+#### Record 37
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
+    "-c",
+    "oniguruma\\src\\iso8859_2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_2.o",
+  "src": "oniguruma\\src\\iso8859_2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
+    "-c",
+    "oniguruma\\src\\iso8859_14.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_14.o",
+  "src": "oniguruma\\src\\iso8859_14.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
+    "-c",
+    "oniguruma\\src\\sjis.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-sjis.o",
+  "src": "oniguruma\\src\\sjis.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
+    "-c",
+    "oniguruma\\src\\euc_jp_prop.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_jp_prop.o",
+  "src": "oniguruma\\src\\euc_jp_prop.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
+    "-c",
+    "oniguruma\\src\\iso8859_7.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_7.o",
+  "src": "oniguruma\\src\\iso8859_7.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
+    "-c",
+    "oniguruma\\src\\onig_init.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-onig_init.o",
+  "src": "oniguruma\\src\\onig_init.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
+    "-c",
+    "oniguruma\\src\\unicode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode.o",
+  "src": "oniguruma\\src\\unicode.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
+    "-c",
+    "oniguruma\\src\\iso8859_3.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-iso8859_3.o",
+  "src": "oniguruma\\src\\iso8859_3.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
+    "-c",
+    "oniguruma\\src\\euc_tw.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-euc_tw.o",
+  "src": "oniguruma\\src\\euc_tw.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
+    "-c",
+    "oniguruma\\src\\regtrav.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-regtrav.o",
+  "src": "oniguruma\\src\\regtrav.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
+    "-I",
+    "oniguruma\\src",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
+    "-c",
+    "oniguruma\\src\\utf32_be.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-utf32_be.o",
+  "src": "oniguruma\\src\\utf32_be.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "onig_sys",
+    "version": "69.9.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1#onig_sys@69.9.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-jg4_ltgv/src/onig_sys-69.9.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 48
 
 ```json
@@ -1779,16 +4216,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out",
     "-I",
     "oniguruma\\src",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
     "-c",
-    "oniguruma\\src\\big5.c"
+    "oniguruma\\src\\unicode_fold1_key.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-big5.o",
-  "src": "oniguruma\\src\\big5.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-jg4_ltgv\\src\\onig_sys-69.9.1\\target\\debug\\build\\onig_sys-7d708c62da0a46c5\\out\\2dc0da2129e760c5-unicode_fold1_key.o",
+  "src": "oniguruma\\src\\unicode_fold1_key.c",
   "success": true,
   "tool": "cl",
   "_owner": {

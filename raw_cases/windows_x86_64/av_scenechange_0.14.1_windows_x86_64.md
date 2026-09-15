@@ -4,6 +4,540 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-10304-1783961320472\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-0c3d2436dfdbc333\\rustckTjwIr\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-0c3d2436dfdbc333\\rustckTjwIr\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\libavscasm.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_avx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_plane.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd16_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\tables.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx512.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_sse.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_avx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_plane.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd16_avx2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\tables.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\libavscasm.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\7785889490364497805detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\7785889490364497805detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-10304-1783961320472\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\deps\\rustcobI160\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\deps\\rustcobI160\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-10304-1783961320472\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-0c3d2436dfdbc333\\rustckTjwIr\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000318       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000368       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000388       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003c0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000458       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000470       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000480       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000004b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000004c8       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400f7020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000300       \\177KERNEL32_NULL_THUNK_DATA 00000001400f7300     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000318       \\177OLEAUT32_NULL_THUNK_DATA 00000001400f7318     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000368       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000368       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400f7368     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000388       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000388       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400f7388     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003a0       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400f73a0     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003b0       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400f73b0     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003c0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000003c0       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400f73c0     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000458       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000458       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400f7458     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000470       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000470       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400f7470     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000480       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000480       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400f7480     libgetrandom-9aaa648ef222dd01:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000004b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000004b0       \\177ntdll_NULL_THUNK_DATA  00000001400f74b0     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000004c8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000004c8       \\177ole32_NULL_THUNK_DATA  00000001400f74c8     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-link-link-13888-1783961323862376400.map",
+  "pid": 13888,
+  "ppid": 6664,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-link-link-13888-1783961323862376400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-10304-1783961320472\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\deps\\rustcobI160\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "directories": [
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.52.6\\lib",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000048       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000068       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000080       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000090       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000000b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000148       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000160       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000368       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.52.6\\lib",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.52.6\\lib\\windows.0.52.0.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\legacy_stdio_definitions.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000048       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000048       \\177VCRUNTIME140_NULL_THUNK_DATA 0000000140275048     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000068       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000068       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140275068     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000080       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000080       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000140275080     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000090       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000090       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 0000000140275090     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000000b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:000000b0       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001402750b0     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000148       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000148       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000140275148     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000160       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000160       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000140275160     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000348       \\177kernel32_NULL_THUNK_DATA 0000000140275348     windows.0.52.0:kernel32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000368       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\0002:00000368       \\177ntdll_NULL_THUNK_DATA  0000000140275368     windows.0.52.0:ntdll.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-link-link-16920-1783961331073387800.map",
+  "pid": 16920,
+  "ppid": 18304,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\.tmp\\native-trace-link-link-16920-1783961331073387800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -53,16 +587,16 @@ _None._
     "-g",
     "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
     "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd16_avx2.asm",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_sse.asm",
     "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd16_avx2.o"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_sse.o"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd16_avx2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd16_avx2.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_sse.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_sse.asm",
   "success": true,
   "tool": "nasm",
   "_owner": {
@@ -117,38 +651,6 @@ _None._
     "-g",
     "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
     "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_sse.asm",
-    "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_sse.o"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_sse.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_sse.asm",
-  "success": true,
-  "tool": "nasm",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "nasm",
-    "-fwin64",
-    "-g",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
-    "-Isrc/",
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_avx2.asm",
     "-o",
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx2.o"
@@ -171,6 +673,38 @@ _None._
 }
 ```
 
+#### Record 4
+
+```json
+{
+  "argv": [
+    "nasm",
+    "-fwin64",
+    "-g",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
+    "-Isrc/",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_avx512.asm",
+    "-o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx512.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx512.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_avx512.asm",
+  "success": true,
+  "tool": "nasm",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 5
 
 ```json
@@ -181,16 +715,16 @@ _None._
     "-g",
     "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
     "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc16_avx512.asm",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_sse.asm",
     "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx512.o"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_sse.o"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx512.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc16_avx512.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_sse.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_sse.asm",
   "success": true,
   "tool": "nasm",
   "_owner": {
@@ -245,102 +779,6 @@ _None._
     "-g",
     "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
     "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd.asm",
-    "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd.o"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd.asm",
-  "success": true,
-  "tool": "nasm",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "nasm",
-    "-fwin64",
-    "-g",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
-    "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx2.asm",
-    "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx2.o"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx2.asm",
-  "success": true,
-  "tool": "nasm",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "nasm",
-    "-fwin64",
-    "-g",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
-    "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_avx512.asm",
-    "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx512.o"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx512.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_avx512.asm",
-  "success": true,
-  "tool": "nasm",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "nasm",
-    "-fwin64",
-    "-g",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
-    "-Isrc/",
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/sad_sse2.asm",
     "-o",
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_sse2.o"
@@ -363,103 +801,103 @@ _None._
 }
 ```
 
+#### Record 8
+
+```json
+{
+  "argv": [
+    "nasm",
+    "-fwin64",
+    "-g",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
+    "-Isrc/",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_sse.asm",
+    "-o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_sse.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_sse.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_sse.asm",
+  "success": true,
+  "tool": "nasm",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "nasm",
+    "-fwin64",
+    "-g",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
+    "-Isrc/",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc16_avx512.asm",
+    "-o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx512.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc16_avx512.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc16_avx512.asm",
+  "success": true,
+  "tool": "nasm",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "nasm",
+    "-fwin64",
+    "-g",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
+    "-Isrc/",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd16_avx2.asm",
+    "-o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd16_avx2.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd16_avx2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd16_avx2.asm",
+  "success": true,
+  "tool": "nasm",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 11
-
-```json
-{
-  "argv": [
-    "nasm",
-    "-fwin64",
-    "-g",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
-    "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_sse.asm",
-    "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_sse.o"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_sse.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_sse.asm",
-  "success": true,
-  "tool": "nasm",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
-
-```json
-{
-  "argv": [
-    "nasm",
-    "-fwin64",
-    "-g",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
-    "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/sad_avx.asm",
-    "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_avx.o"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_avx.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/sad_avx.asm",
-  "success": true,
-  "tool": "nasm",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
-
-```json
-{
-  "argv": [
-    "nasm",
-    "-fwin64",
-    "-g",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
-    "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/tables.asm",
-    "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\tables.o"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\tables.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/tables.asm",
-  "success": true,
-  "tool": "nasm",
-  "_owner": {
-    "crate": "av-scenechange",
-    "version": "0.14.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 14
 
 ```json
 {
@@ -491,6 +929,102 @@ _None._
 }
 ```
 
+#### Record 12
+
+```json
+{
+  "argv": [
+    "nasm",
+    "-fwin64",
+    "-g",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
+    "-Isrc/",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/tables.asm",
+    "-o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\tables.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\tables.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/tables.asm",
+  "success": true,
+  "tool": "nasm",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "nasm",
+    "-fwin64",
+    "-g",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
+    "-Isrc/",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd.asm",
+    "-o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\satd.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/satd.asm",
+  "success": true,
+  "tool": "nasm",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "nasm",
+    "-fwin64",
+    "-g",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
+    "-Isrc/",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/sad_avx.asm",
+    "-o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_avx.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\sad_avx.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/sad_avx.asm",
+  "success": true,
+  "tool": "nasm",
+  "_owner": {
+    "crate": "av-scenechange",
+    "version": "0.14.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1#av-scenechange@0.14.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-_0jkyb_t/src/av-scenechange-0.14.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 15
 
 ```json
@@ -501,16 +1035,16 @@ _None._
     "-g",
     "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
     "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_avx512.asm",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_avx512.asm",
     "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx512.o"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx512.o"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_avx512.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_avx512.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred_avx512.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred_avx512.asm",
   "success": true,
   "tool": "nasm",
   "_owner": {
@@ -565,16 +1099,16 @@ _None._
     "-g",
     "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
     "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_sse.asm",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx512.asm",
     "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_sse.o"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx512.o"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\mc_sse.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/mc_sse.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx512.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx512.asm",
   "success": true,
   "tool": "nasm",
   "_owner": {
@@ -597,16 +1131,16 @@ _None._
     "-g",
     "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out/",
     "-Isrc/",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx512.asm",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx2.asm",
     "-o",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx512.o"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx2.o"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx512.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx512.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\target\\debug\\build\\av-scenechange-dda1b900df1dc047\\out\\ipred16_avx2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-_0jkyb_t\\src\\av-scenechange-0.14.1\\src/asm/x86/ipred16_avx2.asm",
   "success": true,
   "tool": "nasm",
   "_owner": {

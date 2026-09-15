@@ -4,6 +4,2145 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS/symbols.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.09vshm1qaxafzqo1evwt2in39.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0vnlohnu5n4s73inihi0y81sa.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1363b87i1ddlse50czhmxbjlv.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.13sqyqqqdow9we9axyslk3alt.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1an6fajl90q59q94r0rnije24.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1aq7xjkzf8rhg8d9vg695zhkl.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1h3rvwjsc6c18pvnnze3gz2b0.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1sy8lu2ar6v5h4lkghkyn5s0u.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1tmcmo0sui25rkv0845farhnc.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2hz3kdb6h3poc8jgbck9tuh26.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2m80b2tihiow9xoqk51s2cwif.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2o0enrlhapfavvcqnk2tspzge.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.39l8b4uury3ktkk901ixgv2fy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3gb1vrl0dhgwe6xunkg3uloko.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jimvs27b0vy7myi98088zcnq.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jvm6z3osohwfl9mk3v8iddj9.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3rjv2namonwvlx457ma869x8z.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3y6nk95j4upinh4x83urm8qls.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.472361pymmqldqfkf25nnhmge.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4v7vgch31ru3qy3s8fj1xcqu4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4zh7a8lwt7d103az07twdfi4p.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.56rhvvkgxft4r6zsrt4evaxgg.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.577b1fgr7igw3nkvdcobrh6da.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.59prozcqvsm5gzk1vq57yn8gm.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5ay4bi7dvlytzfowfsvzig3x7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5i8lwp10m253dmqr7yyoijgfw.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5nhs1wyewr9bzcjvsvahrrrz4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5vb0fkn2b0i2kcd512enf3e2y.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6a8qj2xzmiwhfeg1abxyv2px6.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6fb6nwoa7whq4km9nmfsu263y.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6up3xwck25qauaxzq8ltbfzdv.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6vxegg6v50c6m7f4xtr3d5y04.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74chs3t4neli3qw0r9t0shyxj.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74dedupguxddawc5b29c24vd4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7fp0yf99xm1hndw1kdswer2g7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ucssn5vkjw5nrr511s9bgc6x.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7z2ncdwhyk682jentndm49kpq.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.889d1orkf0buclixdrlcrdu8m.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8iyclw2sesx8zy1bd98qo3n0r.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8umtrzqvij7x3xxciy6tl4a1i.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9jhfxvw8j69se2gr9jend4qs9.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9sr9c8bs0shmwifenoh353m2d.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9uv90ksxdplzcuqdkf606tz28.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a4yhbimsdo67hvg8h82ym4kt3.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a5yr9fuim94zudbo7z2e9mkrk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a87wvoxkp7ho633qob85x45dg.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.adlkht5252dxxzifjqupdl4by.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b0gjgj5d4sowbp5unmuktev5v.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b1juejqclcmzpq38fpzkpbbjs.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bbi5wchyjhh23fzttsc0lpfzr.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.begojodd5lilk5t18fuc2f7lm.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bisecuo3rnop0vo8qonnoz1hy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.blrz8vm0sgm82a850ffcfvo25.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bndggfp7kky09i7sidnt55o94.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bomipmyyoncwvbsqoor81fwmr.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpgtwl3dl66ayj1cfs3s8bvlu.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpnblcqyi2h5jdipcawjiblqy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.br8vhfr2v25bjxnzrmolxj3en.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bxrthkrqxsqjzljages8ef47d.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c16qufeyp4h52dcfiez6vjidt.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c3x7qq4ja48xa6fgqy1sclyfk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c5kblr6aa639x9zwde9l9r7vz.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cir4d9abfl8bz4247fhw7kbp2.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.clz1sqb2ob7bzu6pul7j73e41.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cp7tzhle0fs3f5cd4gvf7fba7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cw7x38wl0912dhe8m273dy76p.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.dgirsksq6nei5s4ostesf9upo.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.djj32b3g42mtrqjdj3menrkpc.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.e51y5omdkkpg902gfntx1p9vs.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb06wzwkgyd89aeerqu8pwqlk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb223j93245e1xfsm43jtsq6h.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.edfuhg3y4pnc7zyhjgtuzpxok.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.ej9ag29r2tjjyu29ur0jgr1jp.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.f0yz0qw7gjs1pyo881c1iff1r.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0i711w97ipbfb0u5aopibuikd.197mzh0.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib",
+    "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib",
+    "/target/debug/deps/libscratch-0c3e2a9ff227d64a.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libindexmap-4f1a333b58ee667e.rlib",
+    "/target/debug/deps/libequivalent-09a05a12e658fb17.rlib",
+    "/target/debug/deps/libhashbrown-376ddd616f0223c3.rlib",
+    "/target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib",
+    "/target/debug/deps/libunicode_width-a98708a0d0280085.rlib",
+    "/target/debug/deps/libtermcolor-e25636badd086c0b.rlib",
+    "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib",
+    "/target/debug/deps/libquote-8a51fc732a07acac.rlib",
+    "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib",
+    "/target/debug/deps/libunicode_ident-2a4577d1de655b9f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS/symbols.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.09vshm1qaxafzqo1evwt2in39.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0vnlohnu5n4s73inihi0y81sa.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1363b87i1ddlse50czhmxbjlv.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.13sqyqqqdow9we9axyslk3alt.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1an6fajl90q59q94r0rnije24.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1aq7xjkzf8rhg8d9vg695zhkl.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1h3rvwjsc6c18pvnnze3gz2b0.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1sy8lu2ar6v5h4lkghkyn5s0u.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1tmcmo0sui25rkv0845farhnc.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2hz3kdb6h3poc8jgbck9tuh26.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2m80b2tihiow9xoqk51s2cwif.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2o0enrlhapfavvcqnk2tspzge.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.39l8b4uury3ktkk901ixgv2fy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3gb1vrl0dhgwe6xunkg3uloko.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jimvs27b0vy7myi98088zcnq.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jvm6z3osohwfl9mk3v8iddj9.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3rjv2namonwvlx457ma869x8z.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3y6nk95j4upinh4x83urm8qls.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.472361pymmqldqfkf25nnhmge.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4v7vgch31ru3qy3s8fj1xcqu4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4zh7a8lwt7d103az07twdfi4p.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.56rhvvkgxft4r6zsrt4evaxgg.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.577b1fgr7igw3nkvdcobrh6da.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.59prozcqvsm5gzk1vq57yn8gm.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5ay4bi7dvlytzfowfsvzig3x7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5i8lwp10m253dmqr7yyoijgfw.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5nhs1wyewr9bzcjvsvahrrrz4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5vb0fkn2b0i2kcd512enf3e2y.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6a8qj2xzmiwhfeg1abxyv2px6.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6fb6nwoa7whq4km9nmfsu263y.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6up3xwck25qauaxzq8ltbfzdv.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6vxegg6v50c6m7f4xtr3d5y04.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74chs3t4neli3qw0r9t0shyxj.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74dedupguxddawc5b29c24vd4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7fp0yf99xm1hndw1kdswer2g7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ucssn5vkjw5nrr511s9bgc6x.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7z2ncdwhyk682jentndm49kpq.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.889d1orkf0buclixdrlcrdu8m.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8iyclw2sesx8zy1bd98qo3n0r.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8umtrzqvij7x3xxciy6tl4a1i.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9jhfxvw8j69se2gr9jend4qs9.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9sr9c8bs0shmwifenoh353m2d.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9uv90ksxdplzcuqdkf606tz28.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a4yhbimsdo67hvg8h82ym4kt3.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a5yr9fuim94zudbo7z2e9mkrk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a87wvoxkp7ho633qob85x45dg.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.adlkht5252dxxzifjqupdl4by.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b0gjgj5d4sowbp5unmuktev5v.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b1juejqclcmzpq38fpzkpbbjs.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bbi5wchyjhh23fzttsc0lpfzr.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.begojodd5lilk5t18fuc2f7lm.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bisecuo3rnop0vo8qonnoz1hy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.blrz8vm0sgm82a850ffcfvo25.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bndggfp7kky09i7sidnt55o94.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bomipmyyoncwvbsqoor81fwmr.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpgtwl3dl66ayj1cfs3s8bvlu.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpnblcqyi2h5jdipcawjiblqy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.br8vhfr2v25bjxnzrmolxj3en.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bxrthkrqxsqjzljages8ef47d.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c16qufeyp4h52dcfiez6vjidt.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c3x7qq4ja48xa6fgqy1sclyfk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c5kblr6aa639x9zwde9l9r7vz.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cir4d9abfl8bz4247fhw7kbp2.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.clz1sqb2ob7bzu6pul7j73e41.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cp7tzhle0fs3f5cd4gvf7fba7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cw7x38wl0912dhe8m273dy76p.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.dgirsksq6nei5s4ostesf9upo.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.djj32b3g42mtrqjdj3menrkpc.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.e51y5omdkkpg902gfntx1p9vs.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb06wzwkgyd89aeerqu8pwqlk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb223j93245e1xfsm43jtsq6h.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.edfuhg3y4pnc7zyhjgtuzpxok.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.ej9ag29r2tjjyu29ur0jgr1jp.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.f0yz0qw7gjs1pyo881c1iff1r.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0i711w97ipbfb0u5aopibuikd.197mzh0.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "wasm-opt-sys",
+    "version": "0.116.0",
+    "package_id": "path+file:///tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0#wasm-opt-sys@0.116.0",
+    "manifest_dir": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS/symbols.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.09vshm1qaxafzqo1evwt2in39.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0vnlohnu5n4s73inihi0y81sa.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1363b87i1ddlse50czhmxbjlv.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.13sqyqqqdow9we9axyslk3alt.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1an6fajl90q59q94r0rnije24.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1aq7xjkzf8rhg8d9vg695zhkl.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1h3rvwjsc6c18pvnnze3gz2b0.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1sy8lu2ar6v5h4lkghkyn5s0u.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1tmcmo0sui25rkv0845farhnc.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2hz3kdb6h3poc8jgbck9tuh26.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2m80b2tihiow9xoqk51s2cwif.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2o0enrlhapfavvcqnk2tspzge.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.39l8b4uury3ktkk901ixgv2fy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3gb1vrl0dhgwe6xunkg3uloko.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jimvs27b0vy7myi98088zcnq.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jvm6z3osohwfl9mk3v8iddj9.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3rjv2namonwvlx457ma869x8z.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3y6nk95j4upinh4x83urm8qls.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.472361pymmqldqfkf25nnhmge.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4v7vgch31ru3qy3s8fj1xcqu4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4zh7a8lwt7d103az07twdfi4p.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.56rhvvkgxft4r6zsrt4evaxgg.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.577b1fgr7igw3nkvdcobrh6da.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.59prozcqvsm5gzk1vq57yn8gm.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5ay4bi7dvlytzfowfsvzig3x7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5i8lwp10m253dmqr7yyoijgfw.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5nhs1wyewr9bzcjvsvahrrrz4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5vb0fkn2b0i2kcd512enf3e2y.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6a8qj2xzmiwhfeg1abxyv2px6.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6fb6nwoa7whq4km9nmfsu263y.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6up3xwck25qauaxzq8ltbfzdv.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6vxegg6v50c6m7f4xtr3d5y04.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74chs3t4neli3qw0r9t0shyxj.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74dedupguxddawc5b29c24vd4.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7fp0yf99xm1hndw1kdswer2g7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ucssn5vkjw5nrr511s9bgc6x.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7z2ncdwhyk682jentndm49kpq.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.889d1orkf0buclixdrlcrdu8m.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8iyclw2sesx8zy1bd98qo3n0r.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8umtrzqvij7x3xxciy6tl4a1i.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9jhfxvw8j69se2gr9jend4qs9.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9sr9c8bs0shmwifenoh353m2d.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9uv90ksxdplzcuqdkf606tz28.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a4yhbimsdo67hvg8h82ym4kt3.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a5yr9fuim94zudbo7z2e9mkrk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a87wvoxkp7ho633qob85x45dg.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.adlkht5252dxxzifjqupdl4by.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b0gjgj5d4sowbp5unmuktev5v.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b1juejqclcmzpq38fpzkpbbjs.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bbi5wchyjhh23fzttsc0lpfzr.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.begojodd5lilk5t18fuc2f7lm.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bisecuo3rnop0vo8qonnoz1hy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.blrz8vm0sgm82a850ffcfvo25.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bndggfp7kky09i7sidnt55o94.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bomipmyyoncwvbsqoor81fwmr.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpgtwl3dl66ayj1cfs3s8bvlu.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpnblcqyi2h5jdipcawjiblqy.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.br8vhfr2v25bjxnzrmolxj3en.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bxrthkrqxsqjzljages8ef47d.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c16qufeyp4h52dcfiez6vjidt.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c3x7qq4ja48xa6fgqy1sclyfk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c5kblr6aa639x9zwde9l9r7vz.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cir4d9abfl8bz4247fhw7kbp2.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.clz1sqb2ob7bzu6pul7j73e41.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cp7tzhle0fs3f5cd4gvf7fba7.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cw7x38wl0912dhe8m273dy76p.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.dgirsksq6nei5s4ostesf9upo.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.djj32b3g42mtrqjdj3menrkpc.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.e51y5omdkkpg902gfntx1p9vs.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb06wzwkgyd89aeerqu8pwqlk.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb223j93245e1xfsm43jtsq6h.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.edfuhg3y4pnc7zyhjgtuzpxok.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.ej9ag29r2tjjyu29ur0jgr1jp.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.f0yz0qw7gjs1pyo881c1iff1r.197mzh0.rcgu.o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0i711w97ipbfb0u5aopibuikd.197mzh0.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib",
+    "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib",
+    "/target/debug/deps/libscratch-0c3e2a9ff227d64a.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libindexmap-4f1a333b58ee667e.rlib",
+    "/target/debug/deps/libequivalent-09a05a12e658fb17.rlib",
+    "/target/debug/deps/libhashbrown-376ddd616f0223c3.rlib",
+    "/target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib",
+    "/target/debug/deps/libunicode_width-a98708a0d0280085.rlib",
+    "/target/debug/deps/libtermcolor-e25636badd086c0b.rlib",
+    "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib",
+    "/target/debug/deps/libquote-8a51fc732a07acac.rlib",
+    "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib",
+    "/target/debug/deps/libunicode_ident-2a4577d1de655b9f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS",
+    "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/93430            93430       24     4         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/16cdf0           16cdf0       14    16         /target/debug/build/wasm-opt-sys-4333945289f5eebf",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/16ce10           16ce10       2a    16         /target/debug/build/wasm-opt-sys-4333945289f5eebf",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fd20           18fd20       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fd70           18fd70       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fdc0           18fdc0       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fe60           18fe60       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/19c050           19c050        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/210f00           210f00       de    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/210fe0           210fe0       d5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/227d10           227d10       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/227d90           227d90       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f990           27f990       14    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f9b0           27f9b0       14    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f9d0           27f9d0       1b    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29bea0           29bea0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29bfa0           29bfa0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29d870           29d870        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29da60           29da60        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a0220           2a0220        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2370           2a2370        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2380           2a2380        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2670           2a2670        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2b6990           2b6990        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/36d8b0           36d8b0       41    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55a0           4a55a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55b0           4a55b0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55d0           4a55d0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55e0           4a55e0       3e    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5630           4a5630        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5640           4a5640        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a56b0           4a56b0       99    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a58b0           4a58b0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5920           4a5920        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8a70           4a8a70       59    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8ad0           4a8ad0       46    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8b20           4a8b20       30    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9650           4b9650        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b99f0           4b99f0       11    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9a20           4b9a20       11    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9a40           4b9a40       11    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9af0           4b9af0        d    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/rustc1vEltS/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.09vshm1qaxafzqo1evwt2in39.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0vnlohnu5n4s73inihi0y81sa.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1363b87i1ddlse50czhmxbjlv.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.13sqyqqqdow9we9axyslk3alt.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1an6fajl90q59q94r0rnije24.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1aq7xjkzf8rhg8d9vg695zhkl.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1h3rvwjsc6c18pvnnze3gz2b0.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1sy8lu2ar6v5h4lkghkyn5s0u.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.1tmcmo0sui25rkv0845farhnc.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2hz3kdb6h3poc8jgbck9tuh26.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2m80b2tihiow9xoqk51s2cwif.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.2o0enrlhapfavvcqnk2tspzge.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.39l8b4uury3ktkk901ixgv2fy.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3gb1vrl0dhgwe6xunkg3uloko.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jimvs27b0vy7myi98088zcnq.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3jvm6z3osohwfl9mk3v8iddj9.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3rjv2namonwvlx457ma869x8z.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.3y6nk95j4upinh4x83urm8qls.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.472361pymmqldqfkf25nnhmge.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4v7vgch31ru3qy3s8fj1xcqu4.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.4zh7a8lwt7d103az07twdfi4p.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.56rhvvkgxft4r6zsrt4evaxgg.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.577b1fgr7igw3nkvdcobrh6da.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.59prozcqvsm5gzk1vq57yn8gm.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5ay4bi7dvlytzfowfsvzig3x7.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5i8lwp10m253dmqr7yyoijgfw.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5nhs1wyewr9bzcjvsvahrrrz4.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.5vb0fkn2b0i2kcd512enf3e2y.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6a8qj2xzmiwhfeg1abxyv2px6.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6fb6nwoa7whq4km9nmfsu263y.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6up3xwck25qauaxzq8ltbfzdv.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.6vxegg6v50c6m7f4xtr3d5y04.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74chs3t4neli3qw0r9t0shyxj.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.74dedupguxddawc5b29c24vd4.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7fp0yf99xm1hndw1kdswer2g7.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ucssn5vkjw5nrr511s9bgc6x.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7z2ncdwhyk682jentndm49kpq.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.889d1orkf0buclixdrlcrdu8m.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8iyclw2sesx8zy1bd98qo3n0r.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.8umtrzqvij7x3xxciy6tl4a1i.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9jhfxvw8j69se2gr9jend4qs9.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9sr9c8bs0shmwifenoh353m2d.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.9uv90ksxdplzcuqdkf606tz28.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a4yhbimsdo67hvg8h82ym4kt3.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a5yr9fuim94zudbo7z2e9mkrk.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.a87wvoxkp7ho633qob85x45dg.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.adlkht5252dxxzifjqupdl4by.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b0gjgj5d4sowbp5unmuktev5v.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.b1juejqclcmzpq38fpzkpbbjs.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bbi5wchyjhh23fzttsc0lpfzr.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.begojodd5lilk5t18fuc2f7lm.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bisecuo3rnop0vo8qonnoz1hy.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.blrz8vm0sgm82a850ffcfvo25.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bndggfp7kky09i7sidnt55o94.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bomipmyyoncwvbsqoor81fwmr.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpgtwl3dl66ayj1cfs3s8bvlu.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bpnblcqyi2h5jdipcawjiblqy.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.br8vhfr2v25bjxnzrmolxj3en.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.bxrthkrqxsqjzljages8ef47d.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c16qufeyp4h52dcfiez6vjidt.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c3x7qq4ja48xa6fgqy1sclyfk.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.c5kblr6aa639x9zwde9l9r7vz.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cir4d9abfl8bz4247fhw7kbp2.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.clz1sqb2ob7bzu6pul7j73e41.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cp7tzhle0fs3f5cd4gvf7fba7.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.cw7x38wl0912dhe8m273dy76p.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.dgirsksq6nei5s4ostesf9upo.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.djj32b3g42mtrqjdj3menrkpc.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.e51y5omdkkpg902gfntx1p9vs.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb06wzwkgyd89aeerqu8pwqlk.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.eb223j93245e1xfsm43jtsq6h.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.edfuhg3y4pnc7zyhjgtuzpxok.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.ej9ag29r2tjjyu29ur0jgr1jp.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.f0yz0qw7gjs1pyo881c1iff1r.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "object",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.0i711w97ipbfb0u5aopibuikd.197mzh0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libscratch-0c3e2a9ff227d64a.rlib(scratch-0c3e2a9ff227d64a.scratch.6313fbfa70ff97e4-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libhashbrown-376ddd616f0223c3.rlib(hashbrown-376ddd616f0223c3.hashbrown.c0cce6a542e0f2f2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib(codespan_reporting-d0f2b3418e40c99d.codespan_reporting.8415eb14fa31fd38-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib(codespan_reporting-d0f2b3418e40c99d.codespan_reporting.8415eb14fa31fd38-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib(codespan_reporting-d0f2b3418e40c99d.codespan_reporting.8415eb14fa31fd38-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib(codespan_reporting-d0f2b3418e40c99d.codespan_reporting.8415eb14fa31fd38-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_width-a98708a0d0280085.rlib(unicode_width-a98708a0d0280085.unicode_width.de919972519b891e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libtermcolor-e25636badd086c0b.rlib(termcolor-e25636badd086c0b.termcolor.af1c69daa57a5d9e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libtermcolor-e25636badd086c0b.rlib(termcolor-e25636badd086c0b.termcolor.af1c69daa57a5d9e-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libtermcolor-e25636badd086c0b.rlib(termcolor-e25636badd086c0b.termcolor.af1c69daa57a5d9e-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-b3f48ac0406d1412.rlib(syn-b3f48ac0406d1412.syn.c5c9b66510389046-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_ident-2a4577d1de655b9f.rlib(unicode_ident-2a4577d1de655b9f.unicode_ident.b7059f6c374da03-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib(proc_macro-9a3b801af650b923.proc_macro.bfe8d0f5e0c53783-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/93430            93430       24     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/93430            93430       24     4         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17h761e17bb96c2d585E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17h761e17bb96c2d585E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/16cdf0           16cdf0       14    16         /target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/16cdf0           16cdf0       14    16         /target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hd8b210b8dfa078faE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hd8b210b8dfa078faE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/16ce10           16ce10       2a    16         /target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/16ce10           16ce10       2a    16         /target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hf0d3dc68d7275bb1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/wasm-opt-sys-4333945289f5eebf",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/wasm-opt-sys-4333945289f5eebf/build_script_build-4333945289f5eebf.7ohtaty6gkabc19lg0k3ujnng.197mzh0.rcgu.o:(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hf0d3dc68d7275bb1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fd20           18fd20       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fd20           18fd20       4f    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h09b3a1e78b288c54E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h09b3a1e78b288c54E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fd70           18fd70       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fd70           18fd70       4f    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h8fe1b4c46dee61fdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h8fe1b4c46dee61fdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fdc0           18fdc0       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fdc0           18fdc0       93    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h5f05f8d96e68e0d8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h5f05f8d96e68e0d8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fe60           18fe60       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/18fe60           18fe60       93    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17he3cf5d1964ca785fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.02.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17he3cf5d1964ca785fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/19c050           19c050        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/19c050           19c050        5    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.03.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h4b2b3705b88a8f2aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.03.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h4b2b3705b88a8f2aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/210f00           210f00       de    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/210f00           210f00       de    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.06.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4c26e3b8d7a47178E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.06.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4c26e3b8d7a47178E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/210fe0           210fe0       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/210fe0           210fe0       d5    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.06.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17ha9a41b81bdb8baa7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.06.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17ha9a41b81bdb8baa7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/227d10           227d10       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/227d10           227d10       71    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h471a94d2620b5c04E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h471a94d2620b5c04E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/227d90           227d90       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/227d90           227d90       71    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17haefb593b77b9651dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17haefb593b77b9651dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f990           27f990       14    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f990           27f990       14    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.12.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h15cbec8d10fbb33fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.12.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h15cbec8d10fbb33fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f9b0           27f9b0       14    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f9b0           27f9b0       14    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.12.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h7f0f1e0cec64cd8bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.12.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h7f0f1e0cec64cd8bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f9d0           27f9d0       1b    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/27f9d0           27f9d0       1b    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.12.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hf3a5a96365551156E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.12.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hf3a5a96365551156E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29bea0           29bea0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29bea0           29bea0        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$$LP$usize$C$std..path..PathBuf$RP$$GT$$GT$17h82e779a7a43b76b9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$$LP$usize$C$std..path..PathBuf$RP$$GT$$GT$17h82e779a7a43b76b9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29bfa0           29bfa0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29bfa0           29bfa0        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$$LP$usize$C$std..path..PathBuf$RP$$GT$$GT$17h9f1034ff3d9b88d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$$LP$usize$C$std..path..PathBuf$RP$$GT$$GT$17h9f1034ff3d9b88d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29d870           29d870        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29d870           29d870        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr262drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h265367b538950469E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr262drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h265367b538950469E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29da60           29da60        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/29da60           29da60        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr414drop_in_place$LT$alloc..vec..Vec$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$GT$..extend_trusted$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17hdfaefc9e20e94d01E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr414drop_in_place$LT$alloc..vec..Vec$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$GT$..extend_trusted$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17hdfaefc9e20e94d01E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a0220           2a0220        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a0220           2a0220        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr584drop_in_place$LT$core..iter..traits..iterator..Iterator..for_each..call$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$C$alloc..vec..Vec$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$GT$..extend_trusted$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17hc145eba54663f96dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr584drop_in_place$LT$core..iter..traits..iterator..Iterator..for_each..call$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$C$alloc..vec..Vec$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$GT$..extend_trusted$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17hc145eba54663f96dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2370           2a2370        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2370           2a2370        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..error..Error$GT$$GT$17h793b05f632cf0e3fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..error..Error$GT$$GT$17h793b05f632cf0e3fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2380           2a2380        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2380           2a2380        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr913drop_in_place$LT$core..iter..adapters..map..map_fold$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$C$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$C$$LP$$RP$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$C$core..iter..traits..iterator..Iterator..for_each..call$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$C$alloc..vec..Vec$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$GT$..extend_trusted$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17heb78b33aea145523E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr913drop_in_place$LT$core..iter..adapters..map..map_fold$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$C$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$C$$LP$$RP$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$C$core..iter..traits..iterator..Iterator..for_each..call$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$C$alloc..vec..Vec$LT$$LP$$RF$proc_macro2..Ident$C$cxx_build..bridge..nested..NamespaceEntries$RP$$GT$..extend_trusted$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$$LP$$RF$proc_macro2..Ident$C$alloc..vec..Vec$LT$$RF$cxx_build..syntax..Api$GT$$RP$$GT$$C$cxx_build..bridge..nested..sort_by_inner_namespace..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17heb78b33aea145523E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2670           2a2670        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2a2670           2a2670        d    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..error..Error$GT$$GT$17h91d476fa9925ee57E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.14.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..error..Error$GT$$GT$17h91d476fa9925ee57E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2b6990           2b6990        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/2b6990           2b6990        5    16         /target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.15.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h0afca0cd30febc00E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcxx_build-94cb72d9c95b4c47.rlib(cxx_build-94cb72d9c95b4c47.cxx_build.67382014534199c2-cgu.15.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h0afca0cd30febc00E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/36d8b0           36d8b0       41    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/36d8b0           36d8b0       41    16         /target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib(codespan_reporting-d0f2b3418e40c99d.codespan_reporting.8415eb14fa31fd38-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h06387d40cec951c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libcodespan_reporting-d0f2b3418e40c99d.rlib(codespan_reporting-d0f2b3418e40c99d.codespan_reporting.8415eb14fa31fd38-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h06387d40cec951c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55a0           4a55a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55a0           4a55a0        d    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h489c22b8557032efE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h489c22b8557032efE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55b0           4a55b0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55b0           4a55b0        d    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17hdfa5f5056bf8ed15E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17hdfa5f5056bf8ed15E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55d0           4a55d0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55d0           4a55d0        d    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17h13b98dbfd5c886d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17h13b98dbfd5c886d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55e0           4a55e0       3e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a55e0           4a55e0       3e    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hb9953e37e29c9c1fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hb9953e37e29c9c1fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5630           4a5630        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5630           4a5630        d    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h55131b3e50a3929aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h55131b3e50a3929aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5640           4a5640        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5640           4a5640        d    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hbb2916e3cd62296bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hbb2916e3cd62296bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a56b0           4a56b0       99    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a56b0           4a56b0       99    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17h761e17bb96c2d585E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17h761e17bb96c2d585E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a58b0           4a58b0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a58b0           4a58b0        d    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17h00177ab656823746E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17h00177ab656823746E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5920           4a5920        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a5920           4a5920        d    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hfcc107f8c4435fabE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hfcc107f8c4435fabE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8a70           4a8a70       59    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8a70           4a8a70       59    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3ccda52b78d9ab8eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3ccda52b78d9ab8eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8ad0           4a8ad0       46    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8ad0           4a8ad0       46    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h45fc323c7f3d30d2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h45fc323c7f3d30d2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8b20           4a8b20       30    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4a8b20           4a8b20       30    16         /target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h352e52c5054ceaf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-8a51fc732a07acac.rlib(quote-8a51fc732a07acac.quote.ab4d58d9ed02fb97-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h352e52c5054ceaf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9650           4b9650        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9650           4b9650        d    16         /target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr53drop_in_place$LT$proc_macro2..fallback..SourceMap$GT$17h2eb3cae549a51b31E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr53drop_in_place$LT$proc_macro2..fallback..SourceMap$GT$17h2eb3cae549a51b31E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b99f0           4b99f0       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b99f0           4b99f0       11    16         /target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr76drop_in_place$LT$core..cell..Ref$LT$proc_macro2..fallback..SourceMap$GT$$GT$17h3cc74eacac4cd50bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr76drop_in_place$LT$core..cell..Ref$LT$proc_macro2..fallback..SourceMap$GT$$GT$17h3cc74eacac4cd50bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9a20           4b9a20       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9a20           4b9a20       11    16         /target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr79drop_in_place$LT$core..cell..RefMut$LT$proc_macro2..fallback..SourceMap$GT$$GT$17hb36f093474b2aeadE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr79drop_in_place$LT$core..cell..RefMut$LT$proc_macro2..fallback..SourceMap$GT$$GT$17hb36f093474b2aeadE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9a40           4b9a40       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9a40           4b9a40       11    16         /target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr80drop_in_place$LT$core..cell..RefCell$LT$proc_macro2..fallback..SourceMap$GT$$GT$17h42121244610dc9e1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr80drop_in_place$LT$core..cell..RefCell$LT$proc_macro2..fallback..SourceMap$GT$$GT$17h42121244610dc9e1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9af0           4b9af0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0/4b9af0           4b9af0        d    16         /target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr83drop_in_place$LT$core..cell..UnsafeCell$LT$proc_macro2..fallback..SourceMap$GT$$GT$17ha5edbf031909813cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libproc_macro2-34433eb6e5a36183.rlib(proc_macro2-34433eb6e5a36183.proc_macro2.3d6273b2c3c9bc6d-cgu.05.rcgu.o):(.text._ZN4core3ptr83drop_in_place$LT$core..cell..UnsafeCell$LT$proc_macro2..fallback..SourceMap$GT$$GT$17ha5edbf031909813cE",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-625471-1783994948968441923.map",
+  "pid": 625471,
+  "ppid": 625144,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-625471-1783994948968441923.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "wasm-opt-sys",
+    "version": "0.116.0",
+    "package_id": "path+file:///tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0#wasm-opt-sys@0.116.0",
+    "manifest_dir": "/tmp/crate-build-aarch64-m04n5ok3/src/wasm-opt-sys-0.116.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

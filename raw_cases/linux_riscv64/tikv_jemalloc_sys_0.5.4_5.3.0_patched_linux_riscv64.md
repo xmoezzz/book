@@ -4,6 +4,1232 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0/symbols.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.142w7imvvv4hvt4p30vvovdvh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1j5ao02pgw5h2qltoals8dkuc.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1r479s7nrlo82c5udvzp7u6b4.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1xec7thovqqxtzuatn1hqpahh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.238v6lul0zzownzvuu1lituf2.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2i7046k9zy6zgb5wvbn7vxwpi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2j22gfden4x4ma3lmiau6xxhn.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2udsmvlnr8t32zj0uh6taztez.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.31o44bfezp1su6da7uqqiok9h.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.34s2m4dyjwrkwcttogu5krfld.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.38e3mi7a8ppewip9syjm1x9ou.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.43adimvnwerkz1x6y0s1cijid.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.44syhyrstyjtm7ea0umsrwkfh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4lojknxuw50gvfy7bchcl2o24.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4qkjasoavpnv86lcyx0lxaqih.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4whjdv1qvrnddryid7luao59m.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4zr41at9hw4pc9nk47jfagzg3.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.50neoxxu02jn1ewf13ov9zat0.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.5fke3gzb81yjkb1ffc6ul0wki.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6l5r4qulb8mnwccgnessfzmzd.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6t1qyxvhjitgur31tlpalxy16.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6uqanbndeabr4g3hzbvoowg49.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7c3qvftkbpy84l8e9f4uinuvc.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7hr4x1k3u7uhwmxjotkewjrk6.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8l4qlt9aq7o88kcwyu5k8x3mw.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8mlbdq5amuxbhjyrfk4fdtata.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8rlapizgldwezx72lr6pwifbi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8sgq5cnw3tp5vgnw8wadi9g4d.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8skjtqhco2m063zxlcosw9d7c.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8x0xaqpqug6zkvk9jo8ecgkx4.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.93vny2326ivhokun8933gndny.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.9b6294d5bneh2jdlcrlbwpyyt.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.a1bowi6b1d2a0ipyne7glrc81.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.amd03ix6vq7lwj2t71c15hnbq.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.aw2uwmtas7gsr1qety18rxwh1.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.b7db9y36srj2rvcme0xquvel8.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bcpqe12mr6gkci3qjur05e52q.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bdaobcnli1kljinhbadwzs3ce.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.chjja83p5lsjbp855htrwz574.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.cqljdzia0k975e744elqzjucm.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.curpkc9umq8uq07p8mhy4kjji.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.diu6qetw9ersr18ffvqgu5xq8.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.e4iqdwmdywjlc8qjvcasvd1hu.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.ee310k5qxbbxqatdkew3bozhr.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.erwp84e3agtp6t8dklg3lpdsi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.eufu70vcrqr7yvyr4xdyhic42.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.f1prrxhsla6x7s4x39boppwwk.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.41zldfdieouv738fke97zwrzx.055baja.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0/symbols.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.142w7imvvv4hvt4p30vvovdvh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1j5ao02pgw5h2qltoals8dkuc.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1r479s7nrlo82c5udvzp7u6b4.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1xec7thovqqxtzuatn1hqpahh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.238v6lul0zzownzvuu1lituf2.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2i7046k9zy6zgb5wvbn7vxwpi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2j22gfden4x4ma3lmiau6xxhn.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2udsmvlnr8t32zj0uh6taztez.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.31o44bfezp1su6da7uqqiok9h.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.34s2m4dyjwrkwcttogu5krfld.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.38e3mi7a8ppewip9syjm1x9ou.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.43adimvnwerkz1x6y0s1cijid.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.44syhyrstyjtm7ea0umsrwkfh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4lojknxuw50gvfy7bchcl2o24.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4qkjasoavpnv86lcyx0lxaqih.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4whjdv1qvrnddryid7luao59m.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4zr41at9hw4pc9nk47jfagzg3.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.50neoxxu02jn1ewf13ov9zat0.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.5fke3gzb81yjkb1ffc6ul0wki.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6l5r4qulb8mnwccgnessfzmzd.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6t1qyxvhjitgur31tlpalxy16.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6uqanbndeabr4g3hzbvoowg49.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7c3qvftkbpy84l8e9f4uinuvc.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7hr4x1k3u7uhwmxjotkewjrk6.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8l4qlt9aq7o88kcwyu5k8x3mw.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8mlbdq5amuxbhjyrfk4fdtata.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8rlapizgldwezx72lr6pwifbi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8sgq5cnw3tp5vgnw8wadi9g4d.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8skjtqhco2m063zxlcosw9d7c.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8x0xaqpqug6zkvk9jo8ecgkx4.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.93vny2326ivhokun8933gndny.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.9b6294d5bneh2jdlcrlbwpyyt.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.a1bowi6b1d2a0ipyne7glrc81.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.amd03ix6vq7lwj2t71c15hnbq.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.aw2uwmtas7gsr1qety18rxwh1.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.b7db9y36srj2rvcme0xquvel8.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bcpqe12mr6gkci3qjur05e52q.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bdaobcnli1kljinhbadwzs3ce.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.chjja83p5lsjbp855htrwz574.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.cqljdzia0k975e744elqzjucm.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.curpkc9umq8uq07p8mhy4kjji.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.diu6qetw9ersr18ffvqgu5xq8.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.e4iqdwmdywjlc8qjvcasvd1hu.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.ee310k5qxbbxqatdkew3bozhr.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.erwp84e3agtp6t8dklg3lpdsi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.eufu70vcrqr7yvyr4xdyhic42.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.f1prrxhsla6x7s4x39boppwwk.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.41zldfdieouv738fke97zwrzx.055baja.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0/symbols.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.142w7imvvv4hvt4p30vvovdvh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1j5ao02pgw5h2qltoals8dkuc.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1r479s7nrlo82c5udvzp7u6b4.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1xec7thovqqxtzuatn1hqpahh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.238v6lul0zzownzvuu1lituf2.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2i7046k9zy6zgb5wvbn7vxwpi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2j22gfden4x4ma3lmiau6xxhn.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2udsmvlnr8t32zj0uh6taztez.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.31o44bfezp1su6da7uqqiok9h.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.34s2m4dyjwrkwcttogu5krfld.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.38e3mi7a8ppewip9syjm1x9ou.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.43adimvnwerkz1x6y0s1cijid.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.44syhyrstyjtm7ea0umsrwkfh.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4lojknxuw50gvfy7bchcl2o24.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4qkjasoavpnv86lcyx0lxaqih.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4whjdv1qvrnddryid7luao59m.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4zr41at9hw4pc9nk47jfagzg3.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.50neoxxu02jn1ewf13ov9zat0.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.5fke3gzb81yjkb1ffc6ul0wki.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6l5r4qulb8mnwccgnessfzmzd.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6t1qyxvhjitgur31tlpalxy16.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6uqanbndeabr4g3hzbvoowg49.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7c3qvftkbpy84l8e9f4uinuvc.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7hr4x1k3u7uhwmxjotkewjrk6.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8l4qlt9aq7o88kcwyu5k8x3mw.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8mlbdq5amuxbhjyrfk4fdtata.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8rlapizgldwezx72lr6pwifbi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8sgq5cnw3tp5vgnw8wadi9g4d.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8skjtqhco2m063zxlcosw9d7c.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8x0xaqpqug6zkvk9jo8ecgkx4.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.93vny2326ivhokun8933gndny.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.9b6294d5bneh2jdlcrlbwpyyt.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.a1bowi6b1d2a0ipyne7glrc81.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.amd03ix6vq7lwj2t71c15hnbq.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.aw2uwmtas7gsr1qety18rxwh1.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.b7db9y36srj2rvcme0xquvel8.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bcpqe12mr6gkci3qjur05e52q.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bdaobcnli1kljinhbadwzs3ce.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.chjja83p5lsjbp855htrwz574.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.cqljdzia0k975e744elqzjucm.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.curpkc9umq8uq07p8mhy4kjji.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.diu6qetw9ersr18ffvqgu5xq8.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.e4iqdwmdywjlc8qjvcasvd1hu.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.ee310k5qxbbxqatdkew3bozhr.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.erwp84e3agtp6t8dklg3lpdsi.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.eufu70vcrqr7yvyr4xdyhic42.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.f1prrxhsla6x7s4x39boppwwk.055baja.rcgu.o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.41zldfdieouv738fke97zwrzx.055baja.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0",
+    "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/rustcTqhYx0/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.142w7imvvv4hvt4p30vvovdvh.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1j5ao02pgw5h2qltoals8dkuc.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1r479s7nrlo82c5udvzp7u6b4.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.1xec7thovqqxtzuatn1hqpahh.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.238v6lul0zzownzvuu1lituf2.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2i7046k9zy6zgb5wvbn7vxwpi.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2j22gfden4x4ma3lmiau6xxhn.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.2udsmvlnr8t32zj0uh6taztez.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.31o44bfezp1su6da7uqqiok9h.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.34s2m4dyjwrkwcttogu5krfld.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.38e3mi7a8ppewip9syjm1x9ou.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.43adimvnwerkz1x6y0s1cijid.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.44syhyrstyjtm7ea0umsrwkfh.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4lojknxuw50gvfy7bchcl2o24.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4qkjasoavpnv86lcyx0lxaqih.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4whjdv1qvrnddryid7luao59m.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.4zr41at9hw4pc9nk47jfagzg3.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.50neoxxu02jn1ewf13ov9zat0.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.5fke3gzb81yjkb1ffc6ul0wki.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6l5r4qulb8mnwccgnessfzmzd.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6t1qyxvhjitgur31tlpalxy16.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.6uqanbndeabr4g3hzbvoowg49.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7c3qvftkbpy84l8e9f4uinuvc.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.7hr4x1k3u7uhwmxjotkewjrk6.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8l4qlt9aq7o88kcwyu5k8x3mw.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8mlbdq5amuxbhjyrfk4fdtata.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8rlapizgldwezx72lr6pwifbi.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8sgq5cnw3tp5vgnw8wadi9g4d.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8skjtqhco2m063zxlcosw9d7c.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.8x0xaqpqug6zkvk9jo8ecgkx4.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.93vny2326ivhokun8933gndny.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.9b6294d5bneh2jdlcrlbwpyyt.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.a1bowi6b1d2a0ipyne7glrc81.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.amd03ix6vq7lwj2t71c15hnbq.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.aw2uwmtas7gsr1qety18rxwh1.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.b7db9y36srj2rvcme0xquvel8.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bcpqe12mr6gkci3qjur05e52q.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.bdaobcnli1kljinhbadwzs3ce.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.chjja83p5lsjbp855htrwz574.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.cqljdzia0k975e744elqzjucm.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.curpkc9umq8uq07p8mhy4kjji.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.diu6qetw9ersr18ffvqgu5xq8.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.e4iqdwmdywjlc8qjvcasvd1hu.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.ee310k5qxbbxqatdkew3bozhr.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.erwp84e3agtp6t8dklg3lpdsi.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.eufu70vcrqr7yvyr4xdyhic42.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.f1prrxhsla6x7s4x39boppwwk.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75",
+      "kind": "object",
+      "path": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75.41zldfdieouv738fke97zwrzx.055baja.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-170476-1783993156030003363.map",
+  "pid": 170476,
+  "ppid": 170305,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-170476-1783993156030003363.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "ar",
+    "crus",
+    "lib/libjemalloc.a",
+    "src/jemalloc.o",
+    "src/arena.o",
+    "src/background_thread.o",
+    "src/base.o",
+    "src/bin.o",
+    "src/bin_info.o",
+    "src/bitmap.o",
+    "src/buf_writer.o",
+    "src/cache_bin.o",
+    "src/ckh.o",
+    "src/counter.o",
+    "src/ctl.o",
+    "src/decay.o",
+    "src/div.o",
+    "src/ecache.o",
+    "src/edata.o",
+    "src/edata_cache.o",
+    "src/ehooks.o",
+    "src/emap.o",
+    "src/eset.o",
+    "src/exp_grow.o",
+    "src/extent.o",
+    "src/extent_dss.o",
+    "src/extent_mmap.o",
+    "src/fxp.o",
+    "src/san.o",
+    "src/san_bump.o",
+    "src/hook.o",
+    "src/hpa.o",
+    "src/hpa_hooks.o",
+    "src/hpdata.o",
+    "src/inspect.o",
+    "src/large.o",
+    "src/log.o",
+    "src/malloc_io.o",
+    "src/mutex.o",
+    "src/nstime.o",
+    "src/pa.o",
+    "src/pa_extra.o",
+    "src/pai.o",
+    "src/pac.o",
+    "src/pages.o",
+    "src/peak_event.o",
+    "src/prof.o",
+    "src/prof_data.o",
+    "src/prof_log.o",
+    "src/prof_recent.o",
+    "src/prof_stats.o",
+    "src/prof_sys.o",
+    "src/psset.o",
+    "src/rtree.o",
+    "src/safety_check.o",
+    "src/sc.o",
+    "src/sec.o",
+    "src/stats.o",
+    "src/sz.o",
+    "src/tcache.o",
+    "src/test_hooks.o",
+    "src/thread_event.o",
+    "src/ticker.o",
+    "src/tsd.o",
+    "src/witness.o"
+  ],
+  "cwd": "/target/riscv64gc-unknown-linux-gnu/debug/build/tikv-jemalloc-sys-4c6c62b373690563/out/build",
+  "exit_code": 0,
+  "inputs": [
+    "lib/libjemalloc.a",
+    "src/jemalloc.o",
+    "src/arena.o",
+    "src/background_thread.o",
+    "src/base.o",
+    "src/bin.o",
+    "src/bin_info.o",
+    "src/bitmap.o",
+    "src/buf_writer.o",
+    "src/cache_bin.o",
+    "src/ckh.o",
+    "src/counter.o",
+    "src/ctl.o",
+    "src/decay.o",
+    "src/div.o",
+    "src/ecache.o",
+    "src/edata.o",
+    "src/edata_cache.o",
+    "src/ehooks.o",
+    "src/emap.o",
+    "src/eset.o",
+    "src/exp_grow.o",
+    "src/extent.o",
+    "src/extent_dss.o",
+    "src/extent_mmap.o",
+    "src/fxp.o",
+    "src/san.o",
+    "src/san_bump.o",
+    "src/hook.o",
+    "src/hpa.o",
+    "src/hpa_hooks.o",
+    "src/hpdata.o",
+    "src/inspect.o",
+    "src/large.o",
+    "src/log.o",
+    "src/malloc_io.o",
+    "src/mutex.o",
+    "src/nstime.o",
+    "src/pa.o",
+    "src/pa_extra.o",
+    "src/pai.o",
+    "src/pac.o",
+    "src/pages.o",
+    "src/peak_event.o",
+    "src/prof.o",
+    "src/prof_data.o",
+    "src/prof_log.o",
+    "src/prof_recent.o",
+    "src/prof_stats.o",
+    "src/prof_sys.o",
+    "src/psset.o",
+    "src/rtree.o",
+    "src/safety_check.o",
+    "src/sc.o",
+    "src/sec.o",
+    "src/stats.o",
+    "src/sz.o",
+    "src/tcache.o",
+    "src/test_hooks.o",
+    "src/thread_event.o",
+    "src/ticker.o",
+    "src/tsd.o",
+    "src/witness.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "ar",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "ar",
+    "crus",
+    "lib/libjemalloc_pic.a",
+    "src/jemalloc.pic.o",
+    "src/arena.pic.o",
+    "src/background_thread.pic.o",
+    "src/base.pic.o",
+    "src/bin.pic.o",
+    "src/bin_info.pic.o",
+    "src/bitmap.pic.o",
+    "src/buf_writer.pic.o",
+    "src/cache_bin.pic.o",
+    "src/ckh.pic.o",
+    "src/counter.pic.o",
+    "src/ctl.pic.o",
+    "src/decay.pic.o",
+    "src/div.pic.o",
+    "src/ecache.pic.o",
+    "src/edata.pic.o",
+    "src/edata_cache.pic.o",
+    "src/ehooks.pic.o",
+    "src/emap.pic.o",
+    "src/eset.pic.o",
+    "src/exp_grow.pic.o",
+    "src/extent.pic.o",
+    "src/extent_dss.pic.o",
+    "src/extent_mmap.pic.o",
+    "src/fxp.pic.o",
+    "src/san.pic.o",
+    "src/san_bump.pic.o",
+    "src/hook.pic.o",
+    "src/hpa.pic.o",
+    "src/hpa_hooks.pic.o",
+    "src/hpdata.pic.o",
+    "src/inspect.pic.o",
+    "src/large.pic.o",
+    "src/log.pic.o",
+    "src/malloc_io.pic.o",
+    "src/mutex.pic.o",
+    "src/nstime.pic.o",
+    "src/pa.pic.o",
+    "src/pa_extra.pic.o",
+    "src/pai.pic.o",
+    "src/pac.pic.o",
+    "src/pages.pic.o",
+    "src/peak_event.pic.o",
+    "src/prof.pic.o",
+    "src/prof_data.pic.o",
+    "src/prof_log.pic.o",
+    "src/prof_recent.pic.o",
+    "src/prof_stats.pic.o",
+    "src/prof_sys.pic.o",
+    "src/psset.pic.o",
+    "src/rtree.pic.o",
+    "src/safety_check.pic.o",
+    "src/sc.pic.o",
+    "src/sec.pic.o",
+    "src/stats.pic.o",
+    "src/sz.pic.o",
+    "src/tcache.pic.o",
+    "src/test_hooks.pic.o",
+    "src/thread_event.pic.o",
+    "src/ticker.pic.o",
+    "src/tsd.pic.o",
+    "src/witness.pic.o"
+  ],
+  "cwd": "/target/riscv64gc-unknown-linux-gnu/debug/build/tikv-jemalloc-sys-4c6c62b373690563/out/build",
+  "exit_code": 0,
+  "inputs": [
+    "lib/libjemalloc_pic.a",
+    "src/jemalloc.pic.o",
+    "src/arena.pic.o",
+    "src/background_thread.pic.o",
+    "src/base.pic.o",
+    "src/bin.pic.o",
+    "src/bin_info.pic.o",
+    "src/bitmap.pic.o",
+    "src/buf_writer.pic.o",
+    "src/cache_bin.pic.o",
+    "src/ckh.pic.o",
+    "src/counter.pic.o",
+    "src/ctl.pic.o",
+    "src/decay.pic.o",
+    "src/div.pic.o",
+    "src/ecache.pic.o",
+    "src/edata.pic.o",
+    "src/edata_cache.pic.o",
+    "src/ehooks.pic.o",
+    "src/emap.pic.o",
+    "src/eset.pic.o",
+    "src/exp_grow.pic.o",
+    "src/extent.pic.o",
+    "src/extent_dss.pic.o",
+    "src/extent_mmap.pic.o",
+    "src/fxp.pic.o",
+    "src/san.pic.o",
+    "src/san_bump.pic.o",
+    "src/hook.pic.o",
+    "src/hpa.pic.o",
+    "src/hpa_hooks.pic.o",
+    "src/hpdata.pic.o",
+    "src/inspect.pic.o",
+    "src/large.pic.o",
+    "src/log.pic.o",
+    "src/malloc_io.pic.o",
+    "src/mutex.pic.o",
+    "src/nstime.pic.o",
+    "src/pa.pic.o",
+    "src/pa_extra.pic.o",
+    "src/pai.pic.o",
+    "src/pac.pic.o",
+    "src/pages.pic.o",
+    "src/peak_event.pic.o",
+    "src/prof.pic.o",
+    "src/prof_data.pic.o",
+    "src/prof_log.pic.o",
+    "src/prof_recent.pic.o",
+    "src/prof_stats.pic.o",
+    "src/prof_sys.pic.o",
+    "src/psset.pic.o",
+    "src/rtree.pic.o",
+    "src/safety_check.pic.o",
+    "src/sc.pic.o",
+    "src/sec.pic.o",
+    "src/stats.pic.o",
+    "src/sz.pic.o",
+    "src/tcache.pic.o",
+    "src/test_hooks.pic.o",
+    "src/thread_event.pic.o",
+    "src/ticker.pic.o",
+    "src/tsd.pic.o",
+    "src/witness.pic.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "ar",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -59,7 +1285,3455 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/hpa.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 186734,
+  "ppid": 186727,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/stats.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 187391,
+  "ppid": 187388,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/witness.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 188558,
+  "ppid": 188556,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195241,
+  "ppid": 195238,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195427,
+  "ppid": 195413,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195494,
+  "ppid": 195491,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195641,
+  "ppid": 195620,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195780,
+  "ppid": 195774,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195821,
+  "ppid": 195814,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin_info.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin_info.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195899,
+  "ppid": 195898,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/exp_grow.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/exp_grow.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196207,
+  "ppid": 196204,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hook.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196236,
+  "ppid": 196233,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/fxp.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196478,
+  "ppid": 196471,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196709,
+  "ppid": 196686,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196918,
+  "ppid": 196915,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/mutex.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/mutex.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196923,
+  "ppid": 196920,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/log.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196922,
+  "ppid": 196912,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 197997,
+  "ppid": 197993,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198130,
+  "ppid": 198109,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198238,
+  "ppid": 198233,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_stats.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198314,
+  "ppid": 198296,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pages.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pages.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198350,
+  "ppid": 198346,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_sys.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198491,
+  "ppid": 198490,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/large.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/large.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198575,
+  "ppid": 198557,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198804,
+  "ppid": 198803,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199088,
+  "ppid": 199086,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199265,
+  "ppid": 199263,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199491,
+  "ppid": 199490,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199615,
+  "ppid": 199596,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199702,
+  "ppid": 199696,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199784,
+  "ppid": 199780,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199864,
+  "ppid": 199862,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200019,
+  "ppid": 200017,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_data.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_data.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200108,
+  "ppid": 200104,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200107,
+  "ppid": 200065,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/cache_bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/cache_bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200131,
+  "ppid": 200106,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tcache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200160,
+  "ppid": 200148,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200244,
+  "ppid": 200209,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200294,
+  "ppid": 200284,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200407,
+  "ppid": 200406,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/exp_grow.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/exp_grow.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200409,
+  "ppid": 200408,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/buf_writer.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/buf_writer.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200556,
+  "ppid": 200554,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200668,
+  "ppid": 200665,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200671,
+  "ppid": 200666,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hook.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200680,
+  "ppid": 200677,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200683,
+  "ppid": 200672,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200706,
+  "ppid": 200705,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/mutex.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200719,
+  "ppid": 200718,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pai.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200821,
+  "ppid": 200813,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/log.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200895,
+  "ppid": 200890,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/mutex.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/mutex.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200900,
+  "ppid": 200897,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200923,
+  "ppid": 200918,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpdata.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpdata.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200983,
+  "ppid": 200981,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/malloc_io.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200987,
+  "ppid": 200984,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pai.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pai.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200991,
+  "ppid": 200989,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pa.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200993,
+  "ppid": 200986,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pages.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pages.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201100,
+  "ppid": 201098,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_sys.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201170,
+  "ppid": 201168,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_stats.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201226,
+  "ppid": 201219,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201341,
+  "ppid": 201338,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201362,
+  "ppid": 201361,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/witness.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201376,
+  "ppid": 201375,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201378,
+  "ppid": 201377,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201380,
+  "ppid": 201379,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ticker.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ticker.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201382,
+  "ppid": 201381,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201386,
+  "ppid": 201385,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tcache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201390,
+  "ppid": 201389,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201420,
+  "ppid": 201419,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_data.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_data.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201422,
+  "ppid": 201421,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
 
 ### Compilation records
 
@@ -86,20 +4760,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/exp_grow.c",
+    "src/pai.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/exp_grow.c",
-  "output": "src/exp_grow.o",
+  "src": "src/pai.c",
+  "output": "src/pai.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195742,
-  "ppid": 195738,
+  "pid": 197034,
+  "ppid": 197030,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -140,20 +4814,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/counter.c",
+    "src/stats.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/counter.c",
-  "output": "src/counter.o",
+  "src": "src/stats.c",
+  "output": "src/stats.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195107,
-  "ppid": 195103,
+  "pid": 198644,
+  "ppid": 198628,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -194,20 +4868,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/pac.c",
+    "src/background_thread.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/pac.c",
-  "output": "src/pac.o",
+  "src": "src/background_thread.c",
+  "output": "src/background_thread.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 197081,
-  "ppid": 197080,
+  "pid": 195051,
+  "ppid": 195042,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -248,20 +4922,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/buf_writer.c",
+    "src/bin_info.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/buf_writer.c",
-  "output": "src/buf_writer.o",
+  "src": "src/bin_info.c",
+  "output": "src/bin_info.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195087,
-  "ppid": 195075,
+  "pid": 195074,
+  "ppid": 195058,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -302,20 +4976,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/sec.c",
+    "src/tsd.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/sec.c",
-  "output": "src/sec.o",
+  "src": "src/tsd.c",
+  "output": "src/tsd.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 198426,
-  "ppid": 198415,
+  "pid": 199097,
+  "ppid": 199087,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -356,20 +5030,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/san_bump.c",
+    "src/sec.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/san_bump.c",
-  "output": "src/san_bump.o",
+  "src": "src/sec.c",
+  "output": "src/sec.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 196058,
-  "ppid": 196056,
+  "pid": 198426,
+  "ppid": 198415,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -518,20 +5192,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/div.c",
+    "src/fxp.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/div.c",
-  "output": "src/div.o",
+  "src": "src/fxp.c",
+  "output": "src/fxp.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195125,
-  "ppid": 195119,
+  "pid": 195992,
+  "ppid": 195988,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -550,60 +5224,6 @@ _None._
 ```
 
 #### Record 10
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/tcache.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/tcache.c",
-  "output": "src/tcache.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 198662,
-  "ppid": 198654,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 11
 
 ```json
 {
@@ -657,817 +5277,7 @@ _None._
 }
 ```
 
-#### Record 12
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/pages.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/pages.c",
-  "output": "src/pages.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 197129,
-  "ppid": 197128,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 13
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/hook.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/hook.c",
-  "output": "src/hook.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 196071,
-  "ppid": 196065,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 14
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/large.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/large.c",
-  "output": "src/large.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 196394,
-  "ppid": 196390,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 15
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/mutex.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/mutex.c",
-  "output": "src/mutex.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 196567,
-  "ppid": 196551,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 16
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/bin_info.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/bin_info.c",
-  "output": "src/bin_info.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195074,
-  "ppid": 195058,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 17
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/witness.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/witness.c",
-  "output": "src/witness.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199107,
-  "ppid": 199105,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 18
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/extent.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/extent.c",
-  "output": "src/extent.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195741,
-  "ppid": 195734,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 19
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/stats.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/stats.c",
-  "output": "src/stats.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 198644,
-  "ppid": 198628,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 20
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/test_hooks.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/test_hooks.c",
-  "output": "src/test_hooks.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 198764,
-  "ppid": 198748,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 21
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/fxp.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/fxp.c",
-  "output": "src/fxp.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195992,
-  "ppid": 195988,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 22
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/prof_recent.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/prof_recent.c",
-  "output": "src/prof_recent.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 197988,
-  "ppid": 197987,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 23
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/background_thread.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/background_thread.c",
-  "output": "src/background_thread.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195051,
-  "ppid": 195042,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 24
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/pa.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/pa.c",
-  "output": "src/pa.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 196758,
-  "ppid": 196757,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 25
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/hpa.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/hpa.c",
-  "output": "src/hpa.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 196097,
-  "ppid": 196090,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 26
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/prof_stats.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/prof_stats.c",
-  "output": "src/prof_stats.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 198066,
-  "ppid": 198065,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 27
+#### Record 11
 
 ```json
 {
@@ -1521,7 +5331,7 @@ _None._
 }
 ```
 
-#### Record 28
+#### Record 12
 
 ```json
 {
@@ -1544,20 +5354,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_data.c",
+    "src/exp_grow.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/prof_data.c",
-  "output": "src/prof_data.o",
+  "src": "src/exp_grow.c",
+  "output": "src/exp_grow.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 197719,
-  "ppid": 197718,
+  "pid": 195742,
+  "ppid": 195738,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -1575,115 +5385,7 @@ _None._
 }
 ```
 
-#### Record 29
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/log.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/log.c",
-  "output": "src/log.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 196395,
-  "ppid": 196392,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 30
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/tsd.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/tsd.c",
-  "output": "src/tsd.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199097,
-  "ppid": 199087,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 31
+#### Record 13
 
 ```json
 {
@@ -1737,7 +5439,7 @@ _None._
 }
 ```
 
-#### Record 32
+#### Record 14
 
 ```json
 {
@@ -1760,20 +5462,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/pai.c",
+    "src/mutex.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/pai.c",
-  "output": "src/pai.o",
+  "src": "src/mutex.c",
+  "output": "src/mutex.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 197034,
-  "ppid": 197030,
+  "pid": 196567,
+  "ppid": 196551,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -1791,7 +5493,817 @@ _None._
 }
 ```
 
-#### Record 33
+#### Record 15
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/counter.c",
+  "output": "src/counter.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195107,
+  "ppid": 195103,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/hpa.c",
+  "output": "src/hpa.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 196097,
+  "ppid": 196090,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pac.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/pac.c",
+  "output": "src/pac.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 197081,
+  "ppid": 197080,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_stats.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/prof_stats.c",
+  "output": "src/prof_stats.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 198066,
+  "ppid": 198065,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 19
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/hook.c",
+  "output": "src/hook.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 196071,
+  "ppid": 196065,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 20
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/malloc_io.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/malloc_io.c",
+  "output": "src/malloc_io.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 196472,
+  "ppid": 196470,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/san_bump.c",
+  "output": "src/san_bump.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 196058,
+  "ppid": 196056,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pages.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/pages.c",
+  "output": "src/pages.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 197129,
+  "ppid": 197128,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/div.c",
+  "output": "src/div.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195125,
+  "ppid": 195119,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/buf_writer.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/buf_writer.c",
+  "output": "src/buf_writer.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195087,
+  "ppid": 195075,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/tcache.c",
+  "output": "src/tcache.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 198662,
+  "ppid": 198654,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/prof_recent.c",
+  "output": "src/prof_recent.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 197988,
+  "ppid": 197987,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/large.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/large.c",
+  "output": "src/large.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 196394,
+  "ppid": 196390,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/witness.c",
+  "output": "src/witness.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199107,
+  "ppid": 199105,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_data.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/prof_data.c",
+  "output": "src/prof_data.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 197719,
+  "ppid": 197718,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 30
 
 ```json
 {
@@ -1845,6 +6357,168 @@ _None._
 }
 ```
 
+#### Record 31
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/prof_sys.c",
+  "output": "src/prof_sys.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 198184,
+  "ppid": 198178,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/log.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/log.c",
+  "output": "src/log.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 196395,
+  "ppid": 196392,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/test_hooks.c",
+  "output": "src/test_hooks.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 198764,
+  "ppid": 198748,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
 #### Record 34
 
 ```json
@@ -1868,20 +6542,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/malloc_io.c",
+    "src/ticker.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/malloc_io.c",
-  "output": "src/malloc_io.o",
+  "src": "src/ticker.c",
+  "output": "src/ticker.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 196472,
-  "ppid": 196470,
+  "pid": 199057,
+  "ppid": 199052,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -1976,20 +6650,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_sys.c",
+    "src/extent.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/prof_sys.c",
-  "output": "src/prof_sys.o",
+  "src": "src/extent.c",
+  "output": "src/extent.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 198184,
-  "ppid": 198178,
+  "pid": 195741,
+  "ppid": 195734,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2030,20 +6704,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bitmap.c",
+    "src/pa.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/bitmap.c",
-  "output": "src/bitmap.o",
+  "src": "src/pa.c",
+  "output": "src/pa.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195078,
-  "ppid": 195062,
+  "pid": 196758,
+  "ppid": 196757,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2084,20 +6758,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/ticker.c",
+    "src/bitmap.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/ticker.c",
-  "output": "src/ticker.o",
+  "src": "src/bitmap.c",
+  "output": "src/bitmap.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 199057,
-  "ppid": 199052,
+  "pid": 195078,
+  "ppid": 195062,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2366,7 +7040,4005 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/hpa.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 186734,
+  "ppid": 186727,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/psset.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 187241,
+  "ppid": 187240,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/stats.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 187391,
+  "ppid": 187388,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "-D",
+    "JEMALLOC_NO_PRIVATE_NAMESPACE",
+    "src/witness.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 188558,
+  "ppid": 188556,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195241,
+  "ppid": 195238,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ehooks.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195313,
+  "ppid": 195307,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195427,
+  "ppid": 195413,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195494,
+  "ppid": 195491,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/emap.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195543,
+  "ppid": 195541,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195641,
+  "ppid": 195620,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195780,
+  "ppid": 195774,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ehooks.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ehooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195981,
+  "ppid": 195979,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196005,
+  "ppid": 196001,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/exp_grow.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/exp_grow.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196207,
+  "ppid": 196204,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hook.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196236,
+  "ppid": 196233,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa_hooks.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196334,
+  "ppid": 196327,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/inspect.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196376,
+  "ppid": 196364,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/fxp.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/fxp.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196478,
+  "ppid": 196471,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196604,
+  "ppid": 196596,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196709,
+  "ppid": 196686,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/log.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196922,
+  "ppid": 196912,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 197211,
+  "ppid": 197210,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/peak_event.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/peak_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 197949,
+  "ppid": 197944,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/inspect.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/inspect.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198236,
+  "ppid": 198232,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198238,
+  "ppid": 198233,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_stats.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198314,
+  "ppid": 198296,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pages.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pages.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198350,
+  "ppid": 198346,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/safety_check.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198369,
+  "ppid": 198368,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_sys.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198491,
+  "ppid": 198490,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198627,
+  "ppid": 198622,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/safety_check.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/safety_check.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198781,
+  "ppid": 198763,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198804,
+  "ppid": 198803,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199088,
+  "ppid": 199086,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_log.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199085,
+  "ppid": 199082,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199265,
+  "ppid": 199263,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199491,
+  "ppid": 199490,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199615,
+  "ppid": 199596,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199784,
+  "ppid": 199780,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ctl.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ctl.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199837,
+  "ppid": 199835,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199864,
+  "ppid": 199862,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200019,
+  "ppid": 200017,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_data.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_data.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200108,
+  "ppid": 200104,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200107,
+  "ppid": 200065,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/cache_bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/cache_bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200131,
+  "ppid": 200106,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tcache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200160,
+  "ppid": 200148,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200244,
+  "ppid": 200209,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200294,
+  "ppid": 200284,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200407,
+  "ppid": 200406,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/exp_grow.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/exp_grow.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200409,
+  "ppid": 200408,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200512,
+  "ppid": 200510,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/eset.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/eset.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200660,
+  "ppid": 200655,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/extent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/extent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200671,
+  "ppid": 200666,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200673,
+  "ppid": 200670,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hook.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hook.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200680,
+  "ppid": 200677,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/san_bump.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200683,
+  "ppid": 200672,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/emap.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/emap.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200878,
+  "ppid": 200877,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ctl.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ctl.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200885,
+  "ppid": 200884,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/log.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200895,
+  "ppid": 200890,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200923,
+  "ppid": 200918,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpa_hooks.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200931,
+  "ppid": 200929,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/hpdata.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpdata.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200983,
+  "ppid": 200981,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/nstime.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/nstime.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200990,
+  "ppid": 200985,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/peak_event.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/peak_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201092,
+  "ppid": 201082,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/pages.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pages.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201100,
+  "ppid": 201098,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_sys.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201170,
+  "ppid": 201168,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/safety_check.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/safety_check.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201217,
+  "ppid": 201215,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201220,
+  "ppid": 201216,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_stats.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201226,
+  "ppid": 201219,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sz.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sz.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201326,
+  "ppid": 201317,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/test_hooks.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/test_hooks.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201341,
+  "ppid": 201338,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/sec.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/sec.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201362,
+  "ppid": 201361,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/witness.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201376,
+  "ppid": 201375,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_recent.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_recent.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201378,
+  "ppid": 201377,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/thread_event.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201380,
+  "ppid": 201379,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ticker.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ticker.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201382,
+  "ppid": 201381,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tsd.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201386,
+  "ppid": 201385,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 77
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_log.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_log.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201388,
+  "ppid": 201387,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 78
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/tcache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201390,
+  "ppid": 201389,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 79
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/stats.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201420,
+  "ppid": 201419,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/prof_data.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_data.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 201422,
+  "ppid": 201421,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
 
 ### Compilation records
 
@@ -2395,18 +11067,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_stats.c",
+    "src/fxp.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/prof_stats.c",
-  "output": "src/prof_stats.pic.o",
+  "src": "src/fxp.c",
+  "output": "src/fxp.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 201004,
-  "ppid": 201001,
+  "pid": 200417,
+  "ppid": 200415,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2449,18 +11121,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/hpa_hooks.c",
+    "src/sz.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/hpa_hooks.c",
-  "output": "src/hpa_hooks.pic.o",
+  "src": "src/sz.c",
+  "output": "src/sz.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 200590,
-  "ppid": 200586,
+  "pid": 201129,
+  "ppid": 201125,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2479,6 +11151,60 @@ _None._
 ```
 
 #### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/psset.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/psset.c",
+  "output": "src/psset.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 201032,
+  "ppid": 201029,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 4
 
 ```json
 {
@@ -2532,7 +11258,7 @@ _None._
 }
 ```
 
-#### Record 4
+#### Record 5
 
 ```json
 {
@@ -2586,7 +11312,7 @@ _None._
 }
 ```
 
-#### Record 5
+#### Record 6
 
 ```json
 {
@@ -2640,60 +11366,6 @@ _None._
 }
 ```
 
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/decay.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/decay.c",
-  "output": "src/decay.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199879,
-  "ppid": 199877,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
 #### Record 7
 
 ```json
@@ -2719,18 +11391,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof.c",
+    "src/prof_stats.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/prof.c",
-  "output": "src/prof.pic.o",
+  "src": "src/prof_stats.c",
+  "output": "src/prof_stats.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 200933,
-  "ppid": 200932,
+  "pid": 201004,
+  "ppid": 201001,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2773,18 +11445,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_data.c",
+    "src/prof_log.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/prof_data.c",
-  "output": "src/prof_data.pic.o",
+  "src": "src/prof_log.c",
+  "output": "src/prof_log.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 200995,
-  "ppid": 200992,
+  "pid": 201000,
+  "ppid": 200994,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2803,6 +11475,60 @@ _None._
 ```
 
 #### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof_sys.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/prof_sys.c",
+  "output": "src/prof_sys.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 201033,
+  "ppid": 201031,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 10
 
 ```json
 {
@@ -2856,60 +11582,6 @@ _None._
 }
 ```
 
-#### Record 10
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/eset.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/eset.c",
-  "output": "src/eset.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200255,
-  "ppid": 200252,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
 #### Record 11
 
 ```json
@@ -2935,18 +11607,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/safety_check.c",
+    "src/san.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/safety_check.c",
-  "output": "src/safety_check.pic.o",
+  "src": "src/san.c",
+  "output": "src/san.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 201042,
-  "ppid": 201039,
+  "pid": 200421,
+  "ppid": 200420,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -2989,18 +11661,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/tcache.c",
+    "src/ticker.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/tcache.c",
-  "output": "src/tcache.pic.o",
+  "src": "src/ticker.c",
+  "output": "src/ticker.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 201188,
-  "ppid": 201187,
+  "pid": 201339,
+  "ppid": 201334,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -3043,18 +11715,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/fxp.c",
+    "src/ehooks.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/fxp.c",
-  "output": "src/fxp.pic.o",
+  "src": "src/ehooks.c",
+  "output": "src/ehooks.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 200417,
-  "ppid": 200415,
+  "pid": 200247,
+  "ppid": 200243,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -3151,18 +11823,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/prof_log.c",
+    "src/extent.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/prof_log.c",
-  "output": "src/prof_log.pic.o",
+  "src": "src/extent.c",
+  "output": "src/extent.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 201000,
-  "ppid": 200994,
+  "pid": 200337,
+  "ppid": 200327,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -3181,600 +11853,6 @@ _None._
 ```
 
 #### Record 16
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/ctl.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/ctl.c",
-  "output": "src/ctl.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199817,
-  "ppid": 199816,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 17
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/background_thread.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/background_thread.c",
-  "output": "src/background_thread.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199180,
-  "ppid": 199176,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 18
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/ehooks.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/ehooks.c",
-  "output": "src/ehooks.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200247,
-  "ppid": 200243,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 19
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/prof_sys.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/prof_sys.c",
-  "output": "src/prof_sys.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 201033,
-  "ppid": 201031,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 20
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/stats.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/stats.c",
-  "output": "src/stats.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 201104,
-  "ppid": 201103,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 21
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/hpdata.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/hpdata.c",
-  "output": "src/hpdata.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200656,
-  "ppid": 200592,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 22
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/log.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/log.c",
-  "output": "src/log.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200700,
-  "ppid": 200697,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 23
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/tsd.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/tsd.c",
-  "output": "src/tsd.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 201345,
-  "ppid": 201343,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 24
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/san_bump.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/san_bump.c",
-  "output": "src/san_bump.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200469,
-  "ppid": 200431,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 25
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/san.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/san.c",
-  "output": "src/san.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200421,
-  "ppid": 200420,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 26
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/witness.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/witness.c",
-  "output": "src/witness.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 201346,
-  "ppid": 201344,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 27
 
 ```json
 {
@@ -3828,7 +11906,61 @@ _None._
 }
 ```
 
-#### Record 28
+#### Record 17
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pages.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/pages.c",
+  "output": "src/pages.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 200906,
+  "ppid": 200905,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 18
 
 ```json
 {
@@ -3882,7 +12014,7 @@ _None._
 }
 ```
 
-#### Record 29
+#### Record 19
 
 ```json
 {
@@ -3907,18 +12039,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/div.c",
+    "src/hpa.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/div.c",
-  "output": "src/div.pic.o",
+  "src": "src/hpa.c",
+  "output": "src/hpa.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 199888,
-  "ppid": 199887,
+  "pid": 200562,
+  "ppid": 200561,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -3936,7 +12068,385 @@ _None._
 }
 ```
 
-#### Record 30
+#### Record 20
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tcache.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/tcache.c",
+  "output": "src/tcache.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 201188,
+  "ppid": 201187,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 21
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/san_bump.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/san_bump.c",
+  "output": "src/san_bump.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 200469,
+  "ppid": 200431,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 22
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ctl.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/ctl.c",
+  "output": "src/ctl.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199817,
+  "ppid": 199816,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 23
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/stats.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/stats.c",
+  "output": "src/stats.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 201104,
+  "ppid": 201103,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 24
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/pac.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/pac.c",
+  "output": "src/pac.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 200901,
+  "ppid": 200898,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 25
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/witness.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/witness.c",
+  "output": "src/witness.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 201346,
+  "ppid": 201344,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 26
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/prof.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/prof.c",
+  "output": "src/prof.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 200933,
+  "ppid": 200932,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 27
 
 ```json
 {
@@ -3990,6 +12500,168 @@ _None._
 }
 ```
 
+#### Record 28
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/inspect.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/inspect.c",
+  "output": "src/inspect.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 200699,
+  "ppid": 200695,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 29
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/tsd.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/tsd.c",
+  "output": "src/tsd.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 201345,
+  "ppid": 201343,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 30
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpdata.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/hpdata.c",
+  "output": "src/hpdata.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 200656,
+  "ppid": 200592,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
 #### Record 31
 
 ```json
@@ -4015,18 +12687,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/counter.c",
+    "src/arena.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/counter.c",
-  "output": "src/counter.pic.o",
+  "src": "src/arena.c",
+  "output": "src/arena.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 199769,
-  "ppid": 199747,
+  "pid": 199158,
+  "ppid": 199149,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4123,18 +12795,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/pac.c",
+    "src/cache_bin.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/pac.c",
-  "output": "src/pac.pic.o",
+  "src": "src/cache_bin.c",
+  "output": "src/cache_bin.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 200901,
-  "ppid": 200898,
+  "pid": 199684,
+  "ppid": 199679,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4153,222 +12825,6 @@ _None._
 ```
 
 #### Record 34
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/extent.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/extent.c",
-  "output": "src/extent.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200337,
-  "ppid": 200327,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 35
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/thread_event.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/thread_event.c",
-  "output": "src/thread_event.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 201244,
-  "ppid": 201242,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 36
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/hpa.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/hpa.c",
-  "output": "src/hpa.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 200562,
-  "ppid": 200561,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 37
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/psset.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/psset.c",
-  "output": "src/psset.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 201032,
-  "ppid": 201029,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 38
 
 ```json
 {
@@ -4422,6 +12878,222 @@ _None._
 }
 ```
 
+#### Record 35
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/hpa_hooks.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/hpa_hooks.c",
+  "output": "src/hpa_hooks.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 200590,
+  "ppid": 200586,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 36
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/thread_event.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/thread_event.c",
+  "output": "src/thread_event.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 201244,
+  "ppid": 201242,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 37
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/counter.c",
+  "output": "src/counter.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199769,
+  "ppid": 199747,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 38
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/div.c",
+  "output": "src/div.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199888,
+  "ppid": 199887,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
 #### Record 39
 
 ```json
@@ -4447,18 +13119,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/arena.c",
+    "src/log.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/arena.c",
-  "output": "src/arena.pic.o",
+  "src": "src/log.c",
+  "output": "src/log.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 199158,
-  "ppid": 199149,
+  "pid": 200700,
+  "ppid": 200697,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4501,18 +13173,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/sz.c",
+    "src/prof_data.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/sz.c",
-  "output": "src/sz.pic.o",
+  "src": "src/prof_data.c",
+  "output": "src/prof_data.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 201129,
-  "ppid": 201125,
+  "pid": 200995,
+  "ppid": 200992,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4555,18 +13227,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/pages.c",
+    "src/safety_check.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/pages.c",
-  "output": "src/pages.pic.o",
+  "src": "src/safety_check.c",
+  "output": "src/safety_check.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 200906,
-  "ppid": 200905,
+  "pid": 201042,
+  "ppid": 201039,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4609,18 +13281,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/cache_bin.c",
+    "src/decay.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/cache_bin.c",
-  "output": "src/cache_bin.pic.o",
+  "src": "src/decay.c",
+  "output": "src/decay.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 199684,
-  "ppid": 199679,
+  "pid": 199879,
+  "ppid": 199877,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4663,18 +13335,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/ticker.c",
+    "src/eset.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/ticker.c",
-  "output": "src/ticker.pic.o",
+  "src": "src/eset.c",
+  "output": "src/eset.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 201339,
-  "ppid": 201334,
+  "pid": 200255,
+  "ppid": 200252,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4717,18 +13389,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/inspect.c",
+    "src/background_thread.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/inspect.c",
-  "output": "src/inspect.pic.o",
+  "src": "src/background_thread.c",
+  "output": "src/background_thread.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 200699,
-  "ppid": 200695,
+  "pid": 199180,
+  "ppid": 199176,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -4958,7 +13630,905 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195241,
+  "ppid": 195238,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195427,
+  "ppid": 195413,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195494,
+  "ppid": 195491,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195641,
+  "ppid": 195620,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195780,
+  "ppid": 195774,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bitmap.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195821,
+  "ppid": 195814,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin_info.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin_info.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195899,
+  "ppid": 195898,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198130,
+  "ppid": 198109,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198238,
+  "ppid": 198233,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199615,
+  "ppid": 199596,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199702,
+  "ppid": 199696,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200019,
+  "ppid": 200017,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200107,
+  "ppid": 200065,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/cache_bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/cache_bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200131,
+  "ppid": 200106,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200244,
+  "ppid": 200209,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200294,
+  "ppid": 200284,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/buf_writer.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/buf_writer.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200556,
+  "ppid": 200554,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ckh.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200668,
+  "ppid": 200665,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
 
 ### Compilation records
 
@@ -4985,20 +14555,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bitmap.c",
+    "src/buf_writer.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/bitmap.c",
-  "output": "src/bitmap.o",
+  "src": "src/buf_writer.c",
+  "output": "src/buf_writer.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195078,
-  "ppid": 195062,
+  "pid": 195087,
+  "ppid": 195075,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -5093,20 +14663,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/bin_info.c",
+    "src/background_thread.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/bin_info.c",
-  "output": "src/bin_info.o",
+  "src": "src/background_thread.c",
+  "output": "src/background_thread.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195074,
-  "ppid": 195058,
+  "pid": 195051,
+  "ppid": 195042,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -5147,20 +14717,20 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/arena.c",
+    "src/bin_info.c",
     "-quiet",
     "-dumpdir",
     "src/",
     "-dumpbase",
     "..."
   ],
-  "src": "src/arena.c",
-  "output": "src/arena.o",
+  "src": "src/bin_info.c",
+  "output": "src/bin_info.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 195044,
-  "ppid": 195038,
+  "pid": 195074,
+  "ppid": 195058,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -5179,276 +14749,6 @@ _None._
 ```
 
 #### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/buf_writer.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/buf_writer.c",
-  "output": "src/buf_writer.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195087,
-  "ppid": 195075,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/ckh.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/ckh.c",
-  "output": "src/ckh.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195095,
-  "ppid": 195093,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/div.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/div.c",
-  "output": "src/div.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195125,
-  "ppid": 195119,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/cache_bin.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/cache_bin.c",
-  "output": "src/cache_bin.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195099,
-  "ppid": 195096,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/background_thread.c",
-    "-quiet",
-    "-dumpdir",
-    "src/",
-    "-dumpbase",
-    "..."
-  ],
-  "src": "src/background_thread.c",
-  "output": "src/background_thread.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 195051,
-  "ppid": 195042,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 10
 
 ```json
 {
@@ -5502,7 +14802,223 @@ _None._
 }
 ```
 
-#### Record 11
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/arena.c",
+  "output": "src/arena.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195044,
+  "ppid": 195038,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bitmap.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/bitmap.c",
+  "output": "src/bitmap.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195078,
+  "ppid": 195062,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ckh.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/ckh.c",
+  "output": "src/ckh.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195095,
+  "ppid": 195093,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/div.c",
+  "output": "src/div.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195125,
+  "ppid": 195119,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 10
 
 ```json
 {
@@ -5539,6 +15055,60 @@ _None._
   "recovered_from_process_exec": true,
   "pid": 195131,
   "ppid": 195127,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/cache_bin.c",
+    "-quiet",
+    "-dumpdir",
+    "src/",
+    "-dumpbase",
+    "..."
+  ],
+  "src": "src/cache_bin.c",
+  "output": "src/cache_bin.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 195099,
+  "ppid": 195096,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -5676,7 +15246,805 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195241,
+  "ppid": 195238,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/decay.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195427,
+  "ppid": 195413,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195494,
+  "ppid": 195491,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195641,
+  "ppid": 195620,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 195780,
+  "ppid": 195774,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 196005,
+  "ppid": 196001,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 198238,
+  "ppid": 198233,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199615,
+  "ppid": 199596,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ctl.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ctl.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 199837,
+  "ppid": 199835,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/div.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/div.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200019,
+  "ppid": 200017,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/background_thread.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200107,
+  "ppid": 200065,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/cache_bin.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/cache_bin.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200131,
+  "ppid": 200106,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/counter.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200244,
+  "ppid": 200209,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/arena.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/arena.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200294,
+  "ppid": 200284,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/edata_cache.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/edata_cache.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200512,
+  "ppid": 200510,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-E",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-MM",
+    "-MT",
+    "src/ctl.pic.o",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ctl.c",
+    "-o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 170539,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 200885,
+  "ppid": 200884,
+  "root_cargo_pid": 168693,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
 
 ### Compilation records
 
@@ -5705,18 +16073,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/ctl.c",
+    "src/arena.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/ctl.c",
-  "output": "src/ctl.pic.o",
+  "src": "src/arena.c",
+  "output": "src/arena.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 199817,
-  "ppid": 199816,
+  "pid": 199158,
+  "ppid": 199149,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,
@@ -5813,60 +16181,6 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/counter.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/counter.c",
-  "output": "src/counter.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199769,
-  "ppid": 199747,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
     "src/edata_cache.c",
     "-quiet",
     "-dumpdir",
@@ -5896,169 +16210,7 @@ _None._
 }
 ```
 
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/decay.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/decay.c",
-  "output": "src/decay.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199879,
-  "ppid": 199877,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/background_thread.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/background_thread.c",
-  "output": "src/background_thread.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199180,
-  "ppid": 199176,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "include",
-    "-I",
-    "include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-dD",
-    "-D",
-    "PIC",
-    "-D",
-    "_GNU_SOURCE",
-    "-D",
-    "_REENTRANT",
-    "src/div.c",
-    "-quiet",
-    "-dumpdir",
-    "..."
-  ],
-  "src": "src/div.c",
-  "output": "src/div.pic.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 199888,
-  "ppid": 199887,
-  "root_cargo_pid": 168693,
-  "build_script_root_pid": 170539,
-  "build_script_related": true,
-  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
-  "_owner": {
-    "crate": "tikv-jemalloc-sys",
-    "version": "0.5.4+5.3.0-patched",
-    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
-    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
-  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
-}
-```
-
-#### Record 8
+#### Record 4
 
 ```json
 {
@@ -6112,6 +16264,222 @@ _None._
 }
 ```
 
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/background_thread.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/background_thread.c",
+  "output": "src/background_thread.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199180,
+  "ppid": 199176,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/counter.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/counter.c",
+  "output": "src/counter.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199769,
+  "ppid": 199747,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/ctl.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/ctl.c",
+  "output": "src/ctl.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199817,
+  "ppid": 199816,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "include",
+    "-I",
+    "include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-dD",
+    "-D",
+    "PIC",
+    "-D",
+    "_GNU_SOURCE",
+    "-D",
+    "_REENTRANT",
+    "src/decay.c",
+    "-quiet",
+    "-dumpdir",
+    "..."
+  ],
+  "src": "src/decay.c",
+  "output": "src/decay.pic.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 199879,
+  "ppid": 199877,
+  "root_cargo_pid": 168693,
+  "build_script_root_pid": 170539,
+  "build_script_related": true,
+  "build_script_target_dir": "tikv-jemalloc-sys-d50a5e8ce9a12b75",
+  "_owner": {
+    "crate": "tikv-jemalloc-sys",
+    "version": "0.5.4+5.3.0-patched",
+    "package_id": "path+file:///tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched#tikv-jemalloc-sys@0.5.4+5.3.0-patched",
+    "manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched",
+  "_build_script_out_dir": "/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/out"
+}
+```
+
 #### Record 9
 
 ```json
@@ -6137,18 +16505,18 @@ _None._
     "_GNU_SOURCE",
     "-D",
     "_REENTRANT",
-    "src/arena.c",
+    "src/div.c",
     "-quiet",
     "-dumpdir",
     "..."
   ],
-  "src": "src/arena.c",
-  "output": "src/arena.pic.o",
+  "src": "src/div.c",
+  "output": "src/div.pic.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 199158,
-  "ppid": 199149,
+  "pid": 199888,
+  "ppid": 199887,
   "root_cargo_pid": 168693,
   "build_script_root_pid": 170539,
   "build_script_related": true,

@@ -4,6 +4,643 @@ Platform: Linux ppc64le
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz/symbols.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.0qymk5uimotfmjuzkdny9f00f.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.2f6afxfr5p3uvc5rrmvtwl0fp.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6cne00e8pawk00azv6yyxuawq.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6jviwmxrdnegnitq6dkys41ng.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.75k574cwqpzj2icfwqm839xiq.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.93tem34l024zmd4x9dflex8sx.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.9l0cm14iuch8d7ykzaforujp0.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.amlldk3egap1rveyvw3dlqjku.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ar4t2tyu2fbgl7xlbq2t3nzgz.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.avws2mgws69k5kg8h4ke1h6zu.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.axcbkr0mp41cnowuc09rswm7s.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.cxffip0wjzccfvkodc4uuaoz8.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.da5sirulez6gpnhwoa9uu3aqs.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.dp8vrmsaobp8au64r37h5p5ka.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ea3bm7qcibyipg0c687hvam95.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.eba46r3q5m7c0dmdtjahbrg8e.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ebjfhoqsemlff2vqirsz3nufe.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.bov8k3h5gemr92kbzo3w7e334.10tnw9y.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-91fc076b68b0f97c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz/symbols.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.0qymk5uimotfmjuzkdny9f00f.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.2f6afxfr5p3uvc5rrmvtwl0fp.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6cne00e8pawk00azv6yyxuawq.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6jviwmxrdnegnitq6dkys41ng.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.75k574cwqpzj2icfwqm839xiq.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.93tem34l024zmd4x9dflex8sx.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.9l0cm14iuch8d7ykzaforujp0.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.amlldk3egap1rveyvw3dlqjku.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ar4t2tyu2fbgl7xlbq2t3nzgz.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.avws2mgws69k5kg8h4ke1h6zu.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.axcbkr0mp41cnowuc09rswm7s.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.cxffip0wjzccfvkodc4uuaoz8.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.da5sirulez6gpnhwoa9uu3aqs.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.dp8vrmsaobp8au64r37h5p5ka.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ea3bm7qcibyipg0c687hvam95.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.eba46r3q5m7c0dmdtjahbrg8e.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ebjfhoqsemlff2vqirsz3nufe.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.bov8k3h5gemr92kbzo3w7e334.10tnw9y.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "psm",
+    "version": "0.1.21",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21#psm@0.1.21",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz/symbols.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.0qymk5uimotfmjuzkdny9f00f.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.2f6afxfr5p3uvc5rrmvtwl0fp.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6cne00e8pawk00azv6yyxuawq.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6jviwmxrdnegnitq6dkys41ng.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.75k574cwqpzj2icfwqm839xiq.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.93tem34l024zmd4x9dflex8sx.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.9l0cm14iuch8d7ykzaforujp0.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.amlldk3egap1rveyvw3dlqjku.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ar4t2tyu2fbgl7xlbq2t3nzgz.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.avws2mgws69k5kg8h4ke1h6zu.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.axcbkr0mp41cnowuc09rswm7s.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.cxffip0wjzccfvkodc4uuaoz8.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.da5sirulez6gpnhwoa9uu3aqs.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.dp8vrmsaobp8au64r37h5p5ka.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ea3bm7qcibyipg0c687hvam95.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.eba46r3q5m7c0dmdtjahbrg8e.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ebjfhoqsemlff2vqirsz3nufe.10tnw9y.rcgu.o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.bov8k3h5gemr92kbzo3w7e334.10tnw9y.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-91fc076b68b0f97c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz",
+    "/target/debug/build/psm-b8491c55b4fe6077",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/rustcYnT1Wz/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.0qymk5uimotfmjuzkdny9f00f.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.2f6afxfr5p3uvc5rrmvtwl0fp.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6cne00e8pawk00azv6yyxuawq.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.6jviwmxrdnegnitq6dkys41ng.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.75k574cwqpzj2icfwqm839xiq.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.93tem34l024zmd4x9dflex8sx.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.9l0cm14iuch8d7ykzaforujp0.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.amlldk3egap1rveyvw3dlqjku.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ar4t2tyu2fbgl7xlbq2t3nzgz.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.avws2mgws69k5kg8h4ke1h6zu.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.axcbkr0mp41cnowuc09rswm7s.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.cxffip0wjzccfvkodc4uuaoz8.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.da5sirulez6gpnhwoa9uu3aqs.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.dp8vrmsaobp8au64r37h5p5ka.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ea3bm7qcibyipg0c687hvam95.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.eba46r3q5m7c0dmdtjahbrg8e.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.ebjfhoqsemlff2vqirsz3nufe.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/psm-b8491c55b4fe6077",
+      "kind": "object",
+      "path": "/target/debug/build/psm-b8491c55b4fe6077/build_script_build-b8491c55b4fe6077.bov8k3h5gemr92kbzo3w7e334.10tnw9y.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-91fc076b68b0f97c.rlib(cc-91fc076b68b0f97c.cc.55b6edb116c44065-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-202302-1783993240281682405.map",
+  "pid": 202302,
+  "ppid": 202279,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-202302-1783993240281682405.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "psm",
+    "version": "0.1.21",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21#psm@0.1.21",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -22,7 +659,55 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/powerpc64le-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-fno-omit-frame-pointer",
+    "-m64",
+    "-Wall",
+    "-Wextra",
+    "-xassembler-with-cpp",
+    "-DCFG_TARGET_OS_linux",
+    "-DCFG_TARGET_ARCH_powerpc64",
+    "-DCFG_TARGET_ENV_gnu",
+    "-o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/psm-95dd3c80e9e1d924/out/src/arch/powerpc64_openpower.o",
+    "-c",
+    "src/arch/powerpc64_openpower.s"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 202343,
+  "build_script_target_dir": "psm-b8491c55b4fe6077",
+  "comm": "powerpc64le-lin",
+  "event": "process_exec",
+  "image": "/usr/bin/powerpc64le-linux-gnu-gcc",
+  "pid": 202344,
+  "ppid": 202343,
+  "root_cargo_pid": 202178,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "psm",
+    "version": "0.1.21",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21#psm@0.1.21",
+    "manifest_dir": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+  "_build_script_out_dir": "/target/debug/build/psm-b8491c55b4fe6077/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-ppc64le-bgdfexpp/src/psm-0.1.21",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 

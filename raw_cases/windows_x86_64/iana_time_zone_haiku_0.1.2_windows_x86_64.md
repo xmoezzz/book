@@ -4,6 +4,558 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\.tmp\\native-trace-4588-1783954125904\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\rustc6wQSRd\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.03568aggga19nv4wwepgaip9o.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.0g9klyljvhnys635ukpawrda9.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.2yizkwa9tkvofdopjp69x49du.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.35u39obyx7mzu9j38glaggj71.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.3v1jau6v579wnampi123zmcvn.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.53f0ba4wfrnjg4lwuwfxae1et.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.6e0e7adn471bfork757nqirhd.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.80rp0kauybp6syclpmyi0k8ij.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.dcvg2eg1ujvs91lwye5b1fsjl.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.ee0pf4zpv6ajm28kto67eftr5.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.eujgajcfuo7b0g3b5i9c62pag.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.9mzfu2zq691fldaqdwxqbinj4.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\rustc6wQSRd\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.03568aggga19nv4wwepgaip9o.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.0g9klyljvhnys635ukpawrda9.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.2yizkwa9tkvofdopjp69x49du.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.35u39obyx7mzu9j38glaggj71.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.3v1jau6v579wnampi123zmcvn.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.53f0ba4wfrnjg4lwuwfxae1et.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.6e0e7adn471bfork757nqirhd.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.80rp0kauybp6syclpmyi0k8ij.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.dcvg2eg1ujvs91lwye5b1fsjl.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.ee0pf4zpv6ajm28kto67eftr5.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.eujgajcfuo7b0g3b5i9c62pag.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.9mzfu2zq691fldaqdwxqbinj4.0ttpunw.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "iana-time-zone-haiku",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2#iana-time-zone-haiku@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\.tmp\\native-trace-4588-1783954125904\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\rustc6wQSRd\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.03568aggga19nv4wwepgaip9o.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.0g9klyljvhnys635ukpawrda9.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.2yizkwa9tkvofdopjp69x49du.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.35u39obyx7mzu9j38glaggj71.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.3v1jau6v579wnampi123zmcvn.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.53f0ba4wfrnjg4lwuwfxae1et.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.6e0e7adn471bfork757nqirhd.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.80rp0kauybp6syclpmyi0k8ij.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.dcvg2eg1ujvs91lwye5b1fsjl.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.ee0pf4zpv6ajm28kto67eftr5.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.eujgajcfuo7b0g3b5i9c62pag.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.9mzfu2zq691fldaqdwxqbinj4.0ttpunw.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-d3617e5841dd77e2\\build_script_build-d3617e5841dd77e2.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400ce020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400ce298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400ce2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400ce300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400ce320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400ce338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400ce348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400ce358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400ce3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400ce408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400ce418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400ce448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400ce460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\.tmp\\native-trace-link-link-10188-1783954127653085300.map",
+  "pid": 10188,
+  "ppid": 14648,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\.tmp\\native-trace-link-link-10188-1783954127653085300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "iana-time-zone-haiku",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2#iana-time-zone-haiku@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\18381724412497779473detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\18381724412497779473detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "iana-time-zone-haiku",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2#iana-time-zone-haiku@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\12506921068928783772detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\12506921068928783772detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "iana-time-zone-haiku",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2#iana-time-zone-haiku@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "-std=c++11",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\flag_check",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\flag_check.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\flag_check.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "iana-time-zone-haiku",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2#iana-time-zone-haiku@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\48d3f1b29a630f4c-implementation.o",
+    "-c",
+    "src/implementation.cc"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\48d3f1b29a630f4c-implementation.o",
+    "src/implementation.cc"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "iana-time-zone-haiku",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2#iana-time-zone-haiku@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\libtz_haiku.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\48d3f1b29a630f4c-implementation.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\48d3f1b29a630f4c-implementation.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-1_rop_zz\\src\\iana-time-zone-haiku-0.1.2\\target\\debug\\build\\iana-time-zone-haiku-81154bf7f96db168\\out\\libtz_haiku.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "iana-time-zone-haiku",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2#iana-time-zone-haiku@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-1_rop_zz/src/iana-time-zone-haiku-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

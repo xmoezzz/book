@@ -4,6 +4,48 @@ Platform: Linux x86_64
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `/work`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/work`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/work`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/work`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
 ### pkg-config / pkgconf
 
 Working directory: `/work/target/debug/build/rdkafka-sys-a3bd02638dd1413f/out`
@@ -1593,11 +1635,11 @@ c++ -shared <native inputs> -o <native artifact> -L../src -lrdkafka
 ### Compilation
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -O3 -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -c <source> -o <object>
 ```
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -O3 -c <source> -o <object>
 ```
 
 ### Static library construction
@@ -1627,11 +1669,11 @@ ar rcs <static library> <object files>
 ### Compilation
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -O3 -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -c <source> -o <object>
 ```
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -O3 -c <source> -o <object>
 ```
 
 ### Native linking

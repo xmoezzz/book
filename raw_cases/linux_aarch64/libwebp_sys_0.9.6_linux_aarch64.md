@@ -4,6 +4,900 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ/symbols.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.0qefe2a.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libglob-9388cb1c80a1d539.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ/symbols.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.0qefe2a.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ/symbols.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.0qefe2a.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.0qefe2a.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libglob-9388cb1c80a1d539.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ",
+    "/target/debug/build/libwebp-sys-d20e776345980990",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/7b7f0            7b7f0        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81020            81020       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81070            81070       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81eb0            81eb0       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/85480            85480       d5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/86cb0            86cb0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/86cc0            86cc0        d    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/rustcw85PZQ/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.0qefe2a.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/7b7f0            7b7f0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/7b7f0            7b7f0        5    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd057598450f28db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd057598450f28db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81020            81020       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81020            81020       4f    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hccc409fbe5d9c588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hccc409fbe5d9c588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81070            81070       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81070            81070       93    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h2fb88c1a269c33e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h2fb88c1a269c33e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81eb0            81eb0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/81eb0            81eb0       71    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h89dd2937613d167eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h89dd2937613d167eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/85480            85480       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/85480            85480       d5    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he24a9ae39ecf6891E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he24a9ae39ecf6891E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/86cb0            86cb0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/86cb0            86cb0        d    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6a12409c08082d19E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6a12409c08082d19E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/86cc0            86cc0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/86cc0            86cc0        d    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17hee34b05e615103a1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17hee34b05e615103a1E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-1003456-1783998975073285405.map",
+  "pid": 1003456,
+  "ppid": 1003377,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-1003456-1783998975073285405.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -27,7 +921,257 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_cpu.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_cpu.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003585,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_csp.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003588,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_dsp.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_dsp.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003589,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_neon.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_neon.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003596,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c",
+    "-quiet",
+    "-dumpbase",
+    "sharpyuv_sse2.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 1003613,
+  "ppid": 1003604,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
 
 ### Compilation records
 
@@ -92,35 +1236,38 @@ _None._
 ```json
 {
   "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
   "argv": [
-    "/usr/bin/aarch64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
     "-I",
     "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-Wall",
-    "-Wextra",
-    "-fvisibility=hidden",
-    "-Wall",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_NEON=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
-    "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c"
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
+    "-quiet",
+    "-dumpbase",
+    "sharpyuv_csp.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_csp.o",
+    "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_csp.o",
   "success": true,
-  "evidence_source": "process_exec_argv",
+  "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003604,
-  "ppid": 1003547,
+  "pid": 1003590,
+  "ppid": 1003588,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -136,8 +1283,7 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
+  "_cwd_recovered_from_compiler_parent": true
 }
 ```
 
@@ -202,38 +1348,35 @@ _None._
 ```json
 {
   "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
   "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
     "-I",
     "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv.c",
-    "-quiet",
-    "-dumpbase",
-    "sharpyuv.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv.o",
-    "..."
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c"
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
   "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "evidence_source": "process_exec_argv",
   "recovered_from_process_exec": true,
-  "pid": 1003587,
-  "ppid": 1003582,
+  "pid": 1003604,
+  "ppid": 1003547,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -249,7 +1392,8 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -329,23 +1473,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv.c",
     "-quiet",
     "-dumpbase",
-    "sharpyuv_csp.c",
+    "sharpyuv.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_csp.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv_csp.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/ba9ae331e1c03d63-sharpyuv.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003590,
-  "ppid": 1003588,
+  "pid": 1003587,
+  "ppid": 1003582,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -513,7 +1657,2613 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-alpha_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/alpha_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003792,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c",
+    "-quiet",
+    "-dumpbase",
+    "buffer_dec.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-buffer_dec.o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 1003797,
+  "ppid": 1003793,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-frame_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/frame_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003795,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-idec_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/idec_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003800,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-io_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/io_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003801,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-quant_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003804,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-tree_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/tree_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003808,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003809,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-webp_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003814,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_mips_dsp_r2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_mips_dsp_r2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003827,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_sse2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003850,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_sse41.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003852,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/local/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/local/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003993,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse41.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003996,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003998,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_mips_dsp_r2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_mips_dsp_r2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1003999,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_sse2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_sse2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004006,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004007,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004011,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips32.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips32.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004015,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004019,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_msa.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_msa.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004021,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_neon.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_neon.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004024,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004074,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse41.c",
+    "-quiet",
+    "-dumpbase",
+    "lossless_enc_sse41.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse41.o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 1004078,
+  "ppid": 1004075,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_mips_dsp_r2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_mips_dsp_r2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004077,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_msa.c",
+    "-quiet",
+    "-dumpbase",
+    "lossless_msa.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_msa.o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 1004084,
+  "ppid": 1004080,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips32.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004177,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004179,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_neon.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004181,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_sse2.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse2.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004183,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_sse41.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse41.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004186,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-alpha_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/alpha_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004188,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-analysis_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004192,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_cost_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004243,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-config_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004250,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c",
+    "-quiet",
+    "-dumpbase",
+    "backward_references_enc.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_enc.o",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "pid": 1004253,
+  "ppid": 1004247,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-filter_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/filter_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004263,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-frame_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004269,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-histogram_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/histogram_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004273,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-iterator_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004279,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-near_lossless_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/near_lossless_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004282,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-picture_csp_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/picture_csp_enc.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004285,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-huffman_encode_utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_encode_utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004483,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-huffman_utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004486,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-palette.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/palette.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004489,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_dec_utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004494,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004497,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-random_utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/random_utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004501,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-rescaler_utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/rescaler_utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004509,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-thread_utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/thread_utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004511,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-utils.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 1003547,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "comm": "aarch64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/aarch64-linux-gnu-gcc",
+  "pid": 1004520,
+  "ppid": 1003547,
+  "root_cargo_pid": 1003043,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 
@@ -537,23 +4287,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/alpha_dec.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
     "-quiet",
     "-dumpbase",
-    "alpha_dec.c",
+    "vp8l_dec.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-alpha_dec.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8l_dec.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/alpha_dec.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-alpha_dec.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8l_dec.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003794,
-  "ppid": 1003792,
+  "pid": 1003815,
+  "ppid": 1003811,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -649,23 +4399,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
     "-quiet",
     "-dumpbase",
-    "alpha_processing_sse41.c",
+    "quant_dec.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_sse41.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-quant_dec.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_sse41.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-quant_dec.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003854,
-  "ppid": 1003852,
+  "pid": 1003806,
+  "ppid": 1003804,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -686,284 +4436,6 @@ _None._
 ```
 
 #### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
-    "-quiet",
-    "-dumpbase",
-    "webp_dec.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-webp_dec.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-webp_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003819,
-  "ppid": 1003814,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
-    "-quiet",
-    "-dumpbase",
-    "vp8l_dec.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8l_dec.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8l_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003815,
-  "ppid": 1003811,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing.c",
-    "-quiet",
-    "-dumpbase",
-    "alpha_processing.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003832,
-  "ppid": 1003826,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
-    "-quiet",
-    "-dumpbase",
-    "alpha_processing_neon.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_neon.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_neon.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003851,
-  "ppid": 1003847,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "argv": [
-    "/usr/bin/aarch64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-Wall",
-    "-Wextra",
-    "-fvisibility=hidden",
-    "-Wall",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_NEON=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-demux.o",
-    "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c"
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-demux.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 1003823,
-  "ppid": 1003547,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
-}
-```
-
-#### Record 9
 
 ```json
 {
@@ -1019,227 +4491,7 @@ _None._
 }
 ```
 
-#### Record 10
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "argv": [
-    "/usr/bin/aarch64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-Wall",
-    "-Wextra",
-    "-fvisibility=hidden",
-    "-Wall",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_NEON=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-buffer_dec.o",
-    "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c"
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-buffer_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 1003793,
-  "ppid": 1003547,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
-}
-```
-
-#### Record 11
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
-    "-quiet",
-    "-dumpbase",
-    "quant_dec.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-quant_dec.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-quant_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003806,
-  "ppid": 1003804,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 12
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
-    "-quiet",
-    "-dumpbase",
-    "vp8_dec.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8_dec.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003813,
-  "ppid": 1003809,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 13
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "argv": [
-    "/usr/bin/aarch64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-Wall",
-    "-Wextra",
-    "-fvisibility=hidden",
-    "-Wall",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_NEON=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-anim_decode.o",
-    "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c"
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-anim_decode.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 1003817,
-  "ppid": 1003547,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
-}
-```
-
-#### Record 14
+#### Record 5
 
 ```json
 {
@@ -1295,7 +4547,117 @@ _None._
 }
 ```
 
-#### Record 15
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
+    "-quiet",
+    "-dumpbase",
+    "vp8_dec.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8_dec.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-vp8_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003813,
+  "ppid": 1003809,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-anim_decode.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c"
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-anim_decode.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 1003817,
+  "ppid": 1003547,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
 
 ```json
 {
@@ -1351,7 +4713,341 @@ _None._
 }
 ```
 
-#### Record 16
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
+    "-quiet",
+    "-dumpbase",
+    "alpha_processing_sse41.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_sse41.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_sse41.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003854,
+  "ppid": 1003852,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing.c",
+    "-quiet",
+    "-dumpbase",
+    "alpha_processing.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003832,
+  "ppid": 1003826,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
+    "-quiet",
+    "-dumpbase",
+    "webp_dec.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-webp_dec.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-webp_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003819,
+  "ppid": 1003814,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
+    "-quiet",
+    "-dumpbase",
+    "alpha_processing_neon.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_neon.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-alpha_processing_neon.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003851,
+  "ppid": 1003847,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-buffer_dec.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c"
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-buffer_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 1003793,
+  "ppid": 1003547,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/alpha_dec.c",
+    "-quiet",
+    "-dumpbase",
+    "alpha_dec.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-alpha_dec.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dec/alpha_dec.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/89142eb2371e4544-alpha_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003794,
+  "ppid": 1003792,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 15
 
 ```json
 {
@@ -1404,6 +5100,60 @@ _None._
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
   "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-demux.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c"
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/59869f3beea225dc-demux.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 1003823,
+  "ppid": 1003547,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -1483,23 +5233,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_msa.c",
     "-quiet",
     "-dumpbase",
-    "lossless_enc_sse2.c",
+    "lossless_enc_msa.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse2.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_msa.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse2.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_msa.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_msa.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004076,
-  "ppid": 1004074,
+  "pid": 1004025,
+  "ppid": 1004021,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -1520,452 +5270,6 @@ _None._
 ```
 
 #### Record 19
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse2.c",
-    "-quiet",
-    "-dumpbase",
-    "enc_sse2.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse2.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse2.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003997,
-  "ppid": 1003993,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 20
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
-    "-quiet",
-    "-dumpbase",
-    "enc_sse41.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse41.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse41.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004002,
-  "ppid": 1003996,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 21
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_mips_dsp_r2.c",
-    "-quiet",
-    "-dumpbase",
-    "filters_mips_dsp_r2.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_mips_dsp_r2.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_mips_dsp_r2.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_mips_dsp_r2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004003,
-  "ppid": 1003999,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 22
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips32.c",
-    "-quiet",
-    "-dumpbase",
-    "lossless_enc_mips32.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips32.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips32.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips32.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004017,
-  "ppid": 1004015,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 23
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
-    "-quiet",
-    "-dumpbase",
-    "lossless_enc_mips_dsp_r2.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004022,
-  "ppid": 1004019,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 24
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "argv": [
-    "/usr/bin/aarch64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-Wall",
-    "-Wextra",
-    "-fvisibility=hidden",
-    "-Wall",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_NEON=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_msa.o",
-    "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_msa.c"
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_msa.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_msa.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 1004080,
-  "ppid": 1003547,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
-}
-```
-
-#### Record 25
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
-    "-quiet",
-    "-dumpbase",
-    "filters_neon.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_neon.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_neon.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004008,
-  "ppid": 1004004,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 26
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc.c",
-    "-quiet",
-    "-dumpbase",
-    "lossless_enc.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004016,
-  "ppid": 1004011,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 27
 
 ```json
 {
@@ -2021,7 +5325,7 @@ _None._
 }
 ```
 
-#### Record 28
+#### Record 20
 
 ```json
 {
@@ -2041,23 +5345,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_neon.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips32.c",
     "-quiet",
     "-dumpbase",
-    "lossless_enc_neon.c",
+    "lossless_enc_mips32.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_neon.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips32.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_neon.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_neon.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips32.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips32.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004026,
-  "ppid": 1004024,
+  "pid": 1004017,
+  "ppid": 1004015,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -2077,7 +5381,117 @@ _None._
 }
 ```
 
-#### Record 29
+#### Record 21
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_msa.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c"
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_msa.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 1004001,
+  "ppid": 1003547,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 22
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
+    "-quiet",
+    "-dumpbase",
+    "lossless_enc_sse2.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse2.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004076,
+  "ppid": 1004074,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 23
 
 ```json
 {
@@ -2133,43 +5547,40 @@ _None._
 }
 ```
 
-#### Record 30
+#### Record 24
 
 ```json
 {
   "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
   "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
     "-I",
     "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_msa.c",
-    "-quiet",
-    "-dumpbase",
-    "lossless_enc_msa.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_msa.o",
-    "..."
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse41.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse41.c"
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_msa.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_msa.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse41.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse41.o",
   "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "evidence_source": "process_exec_argv",
   "recovered_from_process_exec": true,
-  "pid": 1004025,
-  "ppid": 1004021,
+  "pid": 1004075,
+  "ppid": 1003547,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -2185,67 +5596,12 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
-#### Record 31
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless.c",
-    "-quiet",
-    "-dumpbase",
-    "lossless.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004014,
-  "ppid": 1004007,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 32
+#### Record 25
 
 ```json
 {
@@ -2301,7 +5657,119 @@ _None._
 }
 ```
 
-#### Record 33
+#### Record 26
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
+    "-quiet",
+    "-dumpbase",
+    "lossless_enc_mips_dsp_r2.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004022,
+  "ppid": 1004019,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 27
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
+    "-quiet",
+    "-dumpbase",
+    "enc_sse41.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse41.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse41.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004002,
+  "ppid": 1003996,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 28
 
 ```json
 {
@@ -2324,16 +5792,16 @@ _None._
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_NEON=1",
     "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_msa.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_msa.o",
     "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c"
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_msa.c"
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_msa.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_msa.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_msa.o",
   "success": true,
   "evidence_source": "process_exec_argv",
   "recovered_from_process_exec": true,
-  "pid": 1004001,
+  "pid": 1004080,
   "ppid": 1003547,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
@@ -2355,40 +5823,43 @@ _None._
 }
 ```
 
-#### Record 34
+#### Record 29
 
 ```json
 {
   "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
   "argv": [
-    "/usr/bin/aarch64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
     "-I",
     "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-Wall",
-    "-Wextra",
-    "-fvisibility=hidden",
-    "-Wall",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_NEON=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse41.o",
-    "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse41.c"
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless.c",
+    "-quiet",
+    "-dumpbase",
+    "lossless.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless.o",
+    "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse41.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_sse41.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless.o",
   "success": true,
-  "evidence_source": "process_exec_argv",
+  "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004075,
-  "ppid": 1003547,
+  "pid": 1004014,
+  "ppid": 1004007,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -2404,8 +5875,287 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 30
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_mips_dsp_r2.c",
+    "-quiet",
+    "-dumpbase",
+    "filters_mips_dsp_r2.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_mips_dsp_r2.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_mips_dsp_r2.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_mips_dsp_r2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004003,
+  "ppid": 1003999,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 31
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc.c",
+    "-quiet",
+    "-dumpbase",
+    "lossless_enc.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004016,
+  "ppid": 1004011,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 32
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse2.c",
+    "-quiet",
+    "-dumpbase",
+    "enc_sse2.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse2.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse2.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-enc_sse2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003997,
+  "ppid": 1003993,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 33
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_neon.c",
+    "-quiet",
+    "-dumpbase",
+    "lossless_enc_neon.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_neon.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_neon.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-lossless_enc_neon.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004026,
+  "ppid": 1004024,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 34
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
+    "-quiet",
+    "-dumpbase",
+    "filters_neon.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_neon.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-filters_neon.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004008,
+  "ppid": 1004004,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
 }
 ```
 
@@ -2429,23 +6179,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/histogram_enc.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/filter_enc.c",
     "-quiet",
     "-dumpbase",
-    "histogram_enc.c",
+    "filter_enc.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-histogram_enc.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-filter_enc.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/histogram_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-histogram_enc.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/filter_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-filter_enc.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004280,
-  "ppid": 1004273,
+  "pid": 1004271,
+  "ppid": 1004263,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -2470,35 +6220,38 @@ _None._
 ```json
 {
   "event": "compile",
-  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
   "argv": [
-    "/usr/bin/aarch64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
     "-I",
     "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-Wall",
-    "-Wextra",
-    "-fvisibility=hidden",
-    "-Wall",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_NEON=1",
-    "-o",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_enc.o",
-    "-c",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c"
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
+    "-quiet",
+    "-dumpbase",
+    "yuv_neon.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_neon.o",
+    "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_enc.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_neon.o",
   "success": true,
-  "evidence_source": "process_exec_argv",
+  "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004247,
-  "ppid": 1003547,
+  "pid": 1004184,
+  "ppid": 1004181,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -2514,8 +6267,7 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
+  "_cwd_recovered_from_compiler_parent": true
 }
 ```
 
@@ -2539,23 +6291,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/cost_enc.c",
     "-quiet",
     "-dumpbase",
-    "frame_enc.c",
+    "cost_enc.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-frame_enc.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-cost_enc.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-frame_enc.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/cost_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-cost_enc.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004276,
-  "ppid": 1004269,
+  "pid": 1004264,
+  "ppid": 1004254,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -2651,23 +6403,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
     "-quiet",
     "-dumpbase",
-    "config_enc.c",
+    "frame_enc.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-config_enc.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-frame_enc.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-config_enc.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-frame_enc.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004255,
-  "ppid": 1004250,
+  "pid": 1004276,
+  "ppid": 1004269,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -2688,454 +6440,6 @@ _None._
 ```
 
 #### Record 40
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
-    "-quiet",
-    "-dumpbase",
-    "iterator_enc.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-iterator_enc.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-iterator_enc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004283,
-  "ppid": 1004279,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 41
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
-    "-quiet",
-    "-dumpbase",
-    "yuv_neon.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_neon.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_neon.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004184,
-  "ppid": 1004181,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 42
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/filter_enc.c",
-    "-quiet",
-    "-dumpbase",
-    "filter_enc.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-filter_enc.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/filter_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-filter_enc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004271,
-  "ppid": 1004263,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 43
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
-    "-quiet",
-    "-dumpbase",
-    "yuv_mips32.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips32.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips32.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004180,
-  "ppid": 1004177,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 44
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
-    "-quiet",
-    "-dumpbase",
-    "analysis_enc.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-analysis_enc.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-analysis_enc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004196,
-  "ppid": 1004192,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 45
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/near_lossless_enc.c",
-    "-quiet",
-    "-dumpbase",
-    "near_lossless_enc.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-near_lossless_enc.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/near_lossless_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-near_lossless_enc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004290,
-  "ppid": 1004282,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 46
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse41.c",
-    "-quiet",
-    "-dumpbase",
-    "yuv_sse41.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_sse41.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse41.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_sse41.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004190,
-  "ppid": 1004186,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 47
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
-    "-quiet",
-    "-dumpbase",
-    "backward_references_cost_enc.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_cost_enc.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_cost_enc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004249,
-  "ppid": 1004243,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 48
 
 ```json
 {
@@ -3191,7 +6495,7 @@ _None._
 }
 ```
 
-#### Record 49
+#### Record 41
 
 ```json
 {
@@ -3211,23 +6515,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
     "-quiet",
     "-dumpbase",
-    "yuv_mips_dsp_r2.c",
+    "config_enc.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-config_enc.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-config_enc.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004182,
-  "ppid": 1004179,
+  "pid": 1004255,
+  "ppid": 1004250,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -3247,7 +6551,341 @@ _None._
 }
 ```
 
-#### Record 50
+#### Record 42
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/aarch64-linux-gnu-gcc",
+  "argv": [
+    "/usr/bin/aarch64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-Wall",
+    "-Wextra",
+    "-fvisibility=hidden",
+    "-Wall",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_NEON=1",
+    "-o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_enc.o",
+    "-c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c"
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_argv",
+  "recovered_from_process_exec": true,
+  "pid": 1004247,
+  "ppid": 1003547,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 43
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/histogram_enc.c",
+    "-quiet",
+    "-dumpbase",
+    "histogram_enc.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-histogram_enc.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/histogram_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-histogram_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004280,
+  "ppid": 1004273,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 44
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
+    "-quiet",
+    "-dumpbase",
+    "yuv_mips32.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips32.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips32.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004180,
+  "ppid": 1004177,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 45
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
+    "-quiet",
+    "-dumpbase",
+    "iterator_enc.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-iterator_enc.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-iterator_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004283,
+  "ppid": 1004279,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 46
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/near_lossless_enc.c",
+    "-quiet",
+    "-dumpbase",
+    "near_lossless_enc.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-near_lossless_enc.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/near_lossless_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-near_lossless_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004290,
+  "ppid": 1004282,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 47
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
+    "-quiet",
+    "-dumpbase",
+    "analysis_enc.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-analysis_enc.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-analysis_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004196,
+  "ppid": 1004192,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 48
 
 ```json
 {
@@ -3303,6 +6941,118 @@ _None._
 }
 ```
 
+#### Record 49
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
+    "-quiet",
+    "-dumpbase",
+    "backward_references_cost_enc.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_cost_enc.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-backward_references_cost_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004249,
+  "ppid": 1004243,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 50
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
+    "-quiet",
+    "-dumpbase",
+    "yuv_mips_dsp_r2.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004182,
+  "ppid": 1004179,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 51
 
 ```json
@@ -3323,23 +7073,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/cost_enc.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse41.c",
     "-quiet",
     "-dumpbase",
-    "cost_enc.c",
+    "yuv_sse41.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-cost_enc.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_sse41.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/enc/cost_enc.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3da13b085afb116c-cost_enc.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse41.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/3837fcc86d364de3-yuv_sse41.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004264,
-  "ppid": 1004254,
+  "pid": 1004190,
+  "ppid": 1004186,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -3379,23 +7129,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/rescaler_utils.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
     "-quiet",
     "-dumpbase",
-    "rescaler_utils.c",
+    "quant_levels_dec_utils.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-rescaler_utils.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_dec_utils.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/rescaler_utils.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-rescaler_utils.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_dec_utils.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004510,
-  "ppid": 1004509,
+  "pid": 1004496,
+  "ppid": 1004494,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -3435,23 +7185,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/random_utils.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
     "-quiet",
     "-dumpbase",
-    "random_utils.c",
+    "utils.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-random_utils.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-utils.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/random_utils.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-random_utils.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-utils.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004504,
-  "ppid": 1004501,
+  "pid": 1004524,
+  "ppid": 1004520,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,
@@ -3547,174 +7297,6 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_utils.c",
-    "-quiet",
-    "-dumpbase",
-    "huffman_utils.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-huffman_utils.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_utils.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-huffman_utils.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004488,
-  "ppid": 1004486,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 56
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
-    "-quiet",
-    "-dumpbase",
-    "quant_levels_dec_utils.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_dec_utils.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_dec_utils.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004496,
-  "ppid": 1004494,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 57
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_utils.c",
-    "-quiet",
-    "-dumpbase",
-    "quant_levels_utils.c",
-    "-mlittle-endian",
-    "-mabi=lp64",
-    "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_utils.o",
-    "..."
-  ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_utils.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_utils.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1004502,
-  "ppid": 1004497,
-  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1003043,
-  "build_script_root_pid": 1003547,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 58
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "aarch64-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "-D",
-    "WEBP_HAVE_NEON=1",
     "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_encode_utils.c",
     "-quiet",
     "-dumpbase",
@@ -3751,7 +7333,7 @@ _None._
 }
 ```
 
-#### Record 59
+#### Record 56
 
 ```json
 {
@@ -3807,6 +7389,174 @@ _None._
 }
 ```
 
+#### Record 57
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/rescaler_utils.c",
+    "-quiet",
+    "-dumpbase",
+    "rescaler_utils.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-rescaler_utils.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/rescaler_utils.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-rescaler_utils.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004510,
+  "ppid": 1004509,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 58
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/random_utils.c",
+    "-quiet",
+    "-dumpbase",
+    "random_utils.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-random_utils.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/random_utils.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-random_utils.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004504,
+  "ppid": 1004501,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 59
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "aarch64-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "-D",
+    "WEBP_HAVE_NEON=1",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_utils.c",
+    "-quiet",
+    "-dumpbase",
+    "quant_levels_utils.c",
+    "-mlittle-endian",
+    "-mabi=lp64",
+    "-auxbase-strip",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_utils.o",
+    "..."
+  ],
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_utils.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-quant_levels_utils.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1004502,
+  "ppid": 1004497,
+  "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1003043,
+  "build_script_root_pid": 1003547,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 60
 
 ```json
@@ -3827,23 +7577,23 @@ _None._
     "_THREAD_SAFE=1",
     "-D",
     "WEBP_HAVE_NEON=1",
-    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
+    "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_utils.c",
     "-quiet",
     "-dumpbase",
-    "utils.c",
+    "huffman_utils.c",
     "-mlittle-endian",
     "-mabi=lp64",
     "-auxbase-strip",
-    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-utils.o",
+    "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-huffman_utils.o",
     "..."
   ],
-  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
-  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-utils.o",
+  "src": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_utils.c",
+  "output": "/target/aarch64-unknown-linux-gnu/debug/build/libwebp-sys-3212adcfa46bb5b0/out/a2a4113ee633e098-huffman_utils.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1004524,
-  "ppid": 1004520,
+  "pid": 1004488,
+  "ppid": 1004486,
   "cwd": "/tmp/crate-build-aarch64-vqe8rpqm/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1003043,
   "build_script_root_pid": 1003547,

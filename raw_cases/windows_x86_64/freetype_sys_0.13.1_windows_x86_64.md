@@ -4,6 +4,3457 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-748cff546b1a8275\\rustc37a6c0\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-748cff546b1a8275\\rustc37a6c0\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\17655278105395234288detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\17655278105395234288detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\5673269848333095267detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\5673269848333095267detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1/.tmp/native-trace-12016-1783961300435/shims/cl.exe",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "CMakeCCompilerId.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdC",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeCCompilerId.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1/.tmp/native-trace-12016-1783961300435/shims/cl.exe",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "CMakeCXXCompilerId.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdCXX",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeCXXCompilerId.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_ddf69.dir\\CMakeCCompilerABI.c.obj",
+    "/FdCMakeFiles\\cmTC_ddf69.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_ddf69.dir\\CMakeCCompilerABI.c.obj",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_ddf69.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_ddf69.exe",
+    "/implib:cmTC_ddf69.lib",
+    "/pdb:cmTC_ddf69.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_ddf69.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_ddf69.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_ddf69.dir\\CMakeCCompilerABI.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_ddf69.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "/TP",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_d7411.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/FdCMakeFiles\\cmTC_d7411.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_d7411.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d7411.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_d7411.exe",
+    "/implib:cmTC_d7411.lib",
+    "/pdb:cmTC_d7411.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d7411.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d7411.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_d7411.dir\\CMakeCXXCompilerABI.cpp.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_d7411.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfstype.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfstype.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgasp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgasp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsynth.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsynth.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsystem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsystem.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\fttype1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\fttype1.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbbox.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbbox.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftpatent.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpatent.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftpatent.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpatent.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftwinfnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftwinfnt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftinit.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftinit.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftinit.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftinit.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bzip2\\ftbzip2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bzip2\\ftbzip2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfntfmt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfntfmt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbdf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbdf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftlcdfil.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftlcdfil.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftglyph.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftglyph.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpfr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpfr.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgxval.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgxval.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftotval.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftotval.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftotval.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftotval.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbitmap.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbitmap.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbitmap.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbitmap.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftmm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftmm.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftcid.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftcid.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftstroke.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftstroke.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\builds\\windows\\ftdebug.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\builds\\windows\\ftdebug.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\lzw\\ftlzw.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\lzw\\ftlzw.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bdf\\bdf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bdf\\bdf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pcf\\pcf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pcf\\pcf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\winfonts\\winfnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\winfonts\\winfnt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\psnames\\psnames.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psnames\\psnames.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\psnames\\psnames.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psnames\\psnames.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cid\\type1cid.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cid\\type1cid.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cache\\ftcache.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cache\\ftcache.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type42\\type42.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type42\\type42.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type1\\type1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type1\\type1.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pshinter\\pshinter.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pshinter\\pshinter.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\smooth\\smooth.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\smooth\\smooth.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\gzip\\ftgzip.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\gzip\\ftgzip.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\raster\\raster.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\raster\\raster.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\raster\\raster.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\raster\\raster.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pfr\\pfr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pfr\\pfr.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psaux\\psaux.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psaux\\psaux.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\autofit\\autofit.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\autofit\\autofit.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\autofit\\autofit.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\autofit\\autofit.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\sfnt\\sfnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\sfnt\\sfnt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbase.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbase.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\truetype\\truetype.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\truetype\\truetype.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cff\\cff.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cff\\cff.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\lib.exe",
+    "/nologo",
+    "/machine:x64",
+    "/out:freetype.lib",
+    "CMakeFiles\\freetype.dir\\src\\autofit\\autofit.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbitmap.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftinit.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftotval.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftpatent.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\psnames\\psnames.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\raster\\raster.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
+    "CMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/out:freetype.lib",
+    "CMakeFiles\\freetype.dir\\src\\autofit\\autofit.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftbitmap.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftinit.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftotval.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftpatent.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\psnames\\psnames.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\raster\\raster.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
+    "CMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
+    "CMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-748cff546b1a8275\\rustc37a6c0\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000290       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000002a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000318       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000330       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000340       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000350       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000003e8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000400       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000410       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000420       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000450       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000468       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400fc020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000290       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000290       \\177KERNEL32_NULL_THUNK_DATA 00000001400fc290     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000002a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000002a8       \\177OLEAUT32_NULL_THUNK_DATA 00000001400fc2a8     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000002f8       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400fc2f8     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000318       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400fc318     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000330       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000330       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400fc330     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000340       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000340       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400fc340     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000350       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000350       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400fc350     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000003e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:000003e8       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400fc3e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000400       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000400       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400fc400     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000410       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000410       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400fc410     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000420       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000420       \\177kernel32_NULL_THUNK_DATA 00000001400fc420     libcmake-9bc450aeda2ebb2a:kernel32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000450       \\177ntdll_NULL_THUNK_DATA  00000001400fc450     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\0002:00000468       \\177ole32_NULL_THUNK_DATA  00000001400fc468     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-20164-1783961302035504100.map",
+  "pid": 20164,
+  "ppid": 8220,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-20164-1783961302035504100.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_ddf69.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_ddf69.exe",
+    "/implib:cmTC_ddf69.lib",
+    "/pdb:cmTC_ddf69.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_ddf69.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_ddf69.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-17488-1783961304303129400.map",
+  "pid": 17488,
+  "ppid": 19992,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-17488-1783961304303129400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_ddf69.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_ddf69.exe",
+    "/implib:cmTC_ddf69.lib",
+    "/pdb:cmTC_ddf69.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_ddf69.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_ddf69.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-epxllx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-21356-1783961304553273800.map",
+  "pid": 21356,
+  "ppid": 19992,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-21356-1783961304553273800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d7411.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_d7411.exe",
+    "/implib:cmTC_d7411.lib",
+    "/pdb:cmTC_d7411.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d7411.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d7411.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-17436-1783961305125231500.map",
+  "pid": 17436,
+  "ppid": 5632,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-17436-1783961305125231500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d7411.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_d7411.exe",
+    "/implib:cmTC_d7411.lib",
+    "/pdb:cmTC_d7411.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d7411.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d7411.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-si544p\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-5728-1783961305265761300.map",
+  "pid": 5728,
+  "ppid": 5632,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-link-link-5728-1783961305265761300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -86,18 +3537,18 @@ _None._
     "/Ob2",
     "/DNDEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
     "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftmm.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsystem.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftmm.c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsystem.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -111,436 +3562,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftwinfnt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftwinfnt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbdf.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbdf.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type1\\type1.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type1\\type1.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cff\\cff.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cff\\cff.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfntfmt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfntfmt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psaux\\psaux.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psaux\\psaux.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpfr.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpfr.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\lzw\\ftlzw.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\lzw\\ftlzw.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsynth.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsynth.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftcid.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftcid.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
 
 ```json
 {
@@ -583,265 +3604,7 @@ _None._
 }
 ```
 
-#### Record 13
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftglyph.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftglyph.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 14
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\gzip\\ftgzip.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\gzip\\ftgzip.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 15
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pcf\\pcf.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pcf\\pcf.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 16
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bzip2\\ftbzip2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bzip2\\ftbzip2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\fttype1.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\fttype1.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 18
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cache\\ftcache.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cache\\ftcache.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
+#### Record 3
 
 ```json
 {
@@ -884,437 +3647,7 @@ _None._
 }
 ```
 
-#### Record 20
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type42\\type42.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type42\\type42.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsystem.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftsystem.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsystem.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 22
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\builds\\windows\\ftdebug.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\builds\\windows\\ftdebug.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 23
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftstroke.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftstroke.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 24
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bdf\\bdf.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bdf\\bdf.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 25
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgasp.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgasp.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 26
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgxval.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgxval.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 27
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftlcdfil.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftlcdfil.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 28
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\smooth\\smooth.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\smooth\\smooth.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 29
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbase.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbase.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 30
+#### Record 4
 
 ```json
 {
@@ -1357,222 +3690,7 @@ _None._
 }
 ```
 
-#### Record 31
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\winfonts\\winfnt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\winfonts\\winfnt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 32
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\sfnt\\sfnt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\sfnt\\sfnt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 33
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cid\\type1cid.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cid\\type1cid.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 34
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbbox.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbbox.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 35
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\truetype\\truetype.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\truetype\\truetype.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 36
+#### Record 5
 
 ```json
 {
@@ -1615,7 +3733,50 @@ _None._
 }
 ```
 
-#### Record 37
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\smooth\\smooth.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\smooth\\smooth.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\smooth\\smooth.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
 
 ```json
 {
@@ -1658,7 +3819,7 @@ _None._
 }
 ```
 
-#### Record 38
+#### Record 8
 
 ```json
 {
@@ -1677,18 +3838,18 @@ _None._
     "/Ob2",
     "/DNDEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
+    "/FoCMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj",
     "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfstype.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\builds\\windows\\ftdebug.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfstype.c",
+  "output": "CMakeFiles\\freetype.dir\\builds\\windows\\ftdebug.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\builds\\windows\\ftdebug.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1701,7 +3862,7 @@ _None._
 }
 ```
 
-#### Record 39
+#### Record 9
 
 ```json
 {
@@ -1720,18 +3881,18 @@ _None._
     "/Ob2",
     "/DNDEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
     "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pfr\\pfr.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbbox.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pfr\\pfr.c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftbbox.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbbox.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1744,50 +3905,7 @@ _None._
 }
 ```
 
-#### Record 40
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
-    "/nologo",
-    "-DFT2_BUILD_LIBRARY",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "-W0",
-    "/MD",
-    "/O2",
-    "/Ob2",
-    "/DNDEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
-    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pshinter\\pshinter.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pshinter\\pshinter.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "freetype-sys",
-    "version": "0.13.1",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 41
+#### Record 10
 
 ```json
 {
@@ -1830,7 +3948,867 @@ _None._
 }
 ```
 
-#### Record 42
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftwinfnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftwinfnt.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftwinfnt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\winfonts\\winfnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\winfonts\\winfnt.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\winfonts\\winfnt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\gzip\\ftgzip.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\gzip\\ftgzip.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\gzip\\ftgzip.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psaux\\psaux.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\psaux\\psaux.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psaux\\psaux.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbase.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftbase.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbase.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfstype.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftfstype.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfstype.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cache\\ftcache.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\cache\\ftcache.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cache\\ftcache.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftglyph.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftglyph.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftglyph.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pfr\\pfr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\pfr\\pfr.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pfr\\pfr.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type1\\type1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\type1\\type1.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type1\\type1.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pcf\\pcf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\pcf\\pcf.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pcf\\pcf.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bdf\\bdf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\bdf\\bdf.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bdf\\bdf.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgxval.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftgxval.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgxval.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftcid.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftcid.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftcid.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbdf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftbdf.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftbdf.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftstroke.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftstroke.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftstroke.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\truetype\\truetype.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\truetype\\truetype.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\truetype\\truetype.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type42\\type42.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\type42\\type42.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\type42\\type42.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cid\\type1cid.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\cid\\type1cid.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cid\\type1cid.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bzip2\\ftbzip2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\bzip2\\ftbzip2.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\bzip2\\ftbzip2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
 
 ```json
 {
@@ -1861,6 +4839,479 @@ _None._
   "language": "c",
   "output": "CMakeFiles\\freetype.dir\\src\\psnames\\psnames.c.obj",
   "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\psnames\\psnames.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\lzw\\ftlzw.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\lzw\\ftlzw.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\lzw\\ftlzw.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsynth.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftsynth.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftsynth.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pshinter\\pshinter.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\pshinter\\pshinter.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\pshinter\\pshinter.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\sfnt\\sfnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\sfnt\\sfnt.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\sfnt\\sfnt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftlcdfil.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftlcdfil.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftlcdfil.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfntfmt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftfntfmt.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftfntfmt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftmm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftmm.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftmm.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgasp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftgasp.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftgasp.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cff\\cff.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\cff\\cff.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\cff\\cff.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\fttype1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\fttype1.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\fttype1.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "freetype-sys",
+    "version": "0.13.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1#freetype-sys@0.13.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-a7400scv/src/freetype-sys-0.13.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\.tmp\\native-trace-12016-1783961300435\\shims\\cl.exe",
+    "/nologo",
+    "-DFT2_BUILD_LIBRARY",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build\\include",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\include",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MD",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
+    "/FdCMakeFiles\\freetype.dir\\freetype.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpfr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\target\\debug\\build\\freetype-sys-40ace3b8a3690db4\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\freetype.dir\\src\\base\\ftpfr.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-a7400scv\\src\\freetype-sys-0.13.1\\freetype2\\src\\base\\ftpfr.c",
   "success": true,
   "tool": "cl",
   "_owner": {

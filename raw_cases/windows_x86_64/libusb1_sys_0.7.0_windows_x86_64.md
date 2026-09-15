@@ -4,6 +4,829 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\.tmp\\native-trace-4600-1783962115687\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-f584e82167a0b2d3\\rustcAc8wDH\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-f584e82167a0b2d3\\rustcAc8wDH\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/events_windows.o",
+    "-c",
+    "libusb\\libusb/os/events_windows.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/events_windows.o",
+    "libusb\\libusb/os/events_windows.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/threads_windows.o",
+    "-c",
+    "libusb\\libusb/os/threads_windows.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/threads_windows.o",
+    "libusb\\libusb/os/threads_windows.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
+    "-c",
+    "libusb\\libusb/os/windows_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
+    "libusb\\libusb/os/windows_common.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
+    "-c",
+    "libusb\\libusb/os/windows_usbdk.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
+    "libusb\\libusb/os/windows_usbdk.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
+    "-c",
+    "libusb\\libusb/os/windows_winusb.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
+    "libusb\\libusb/os/windows_winusb.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/core.o",
+    "-c",
+    "libusb\\libusb/core.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/core.o",
+    "libusb\\libusb/core.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
+    "-c",
+    "libusb\\libusb/descriptor.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
+    "libusb\\libusb/descriptor.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
+    "-c",
+    "libusb\\libusb/hotplug.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
+    "libusb\\libusb/hotplug.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
+    "-c",
+    "libusb\\libusb/io.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
+    "libusb\\libusb/io.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
+    "-c",
+    "libusb\\libusb/strerror.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
+    "libusb\\libusb/strerror.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o",
+    "-c",
+    "libusb\\libusb/sync.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o",
+    "libusb\\libusb/sync.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb-vendored.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/events_windows.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/threads_windows.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/core.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/events_windows.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/threads_windows.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/core.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb-vendored.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\.tmp\\native-trace-4600-1783962115687\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-f584e82167a0b2d3\\rustcAc8wDH\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000288       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000002a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000002f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000328       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000003e0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000003f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000438       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000450       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400d7020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000288       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000288       \\177KERNEL32_NULL_THUNK_DATA 00000001400d7288     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000002a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000002a0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400d72a0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000002f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000002f0       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400d72f0     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000310       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400d7310     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000328       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000328       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400d7328     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000338       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400d7338     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000348       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400d7348     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000003e0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000003e0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400d73e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000003f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:000003f8       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400d73f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000408       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400d7408     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000438       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000438       \\177ntdll_NULL_THUNK_DATA  00000001400d7438     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\0002:00000450       \\177ole32_NULL_THUNK_DATA  00000001400d7450     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\.tmp\\native-trace-link-link-5900-1783962118060109500.map",
+  "pid": 5900,
+  "ppid": 10144,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\.tmp\\native-trace-link-link-5900-1783962118060109500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -56,16 +879,16 @@ _None._
     "-DOS_WINDOWS=1",
     "-DDEFAULT_VISIBILITY=",
     "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
     "-c",
-    "libusb\\libusb/descriptor.c"
+    "libusb\\libusb/os/windows_common.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
-  "src": "libusb\\libusb/descriptor.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
+  "src": "libusb\\libusb/os/windows_common.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -79,48 +902,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
-    "-I",
-    "libusb\\libusb",
-    "/source-charset:utf-8",
-    "-DPRINTF_FORMAT(a, b)=",
-    "-DENABLE_LOGGING=1",
-    "-DOS_WINDOWS=1",
-    "-DDEFAULT_VISIBILITY=",
-    "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
-    "-c",
-    "libusb\\libusb/os/windows_usbdk.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
-  "src": "libusb\\libusb/os/windows_usbdk.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libusb1-sys",
-    "version": "0.7.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
 
 ```json
 {
@@ -162,6 +943,48 @@ _None._
 }
 ```
 
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\include",
+    "-I",
+    "libusb\\libusb",
+    "/source-charset:utf-8",
+    "-DPRINTF_FORMAT(a, b)=",
+    "-DENABLE_LOGGING=1",
+    "-DOS_WINDOWS=1",
+    "-DDEFAULT_VISIBILITY=",
+    "-DPLATFORM_WINDOWS=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
+    "-c",
+    "libusb\\libusb/io.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
+  "src": "libusb\\libusb/io.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libusb1-sys",
+    "version": "0.7.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0#libusb1-sys@0.7.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tbpizpwk/src/libusb1-sys-0.7.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 4
 
 ```json
@@ -182,16 +1005,16 @@ _None._
     "-DOS_WINDOWS=1",
     "-DDEFAULT_VISIBILITY=",
     "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
     "-c",
-    "libusb\\libusb/os/windows_winusb.c"
+    "libusb\\libusb/strerror.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
-  "src": "libusb\\libusb/os/windows_winusb.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
+  "src": "libusb\\libusb/strerror.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -224,16 +1047,16 @@ _None._
     "-DOS_WINDOWS=1",
     "-DDEFAULT_VISIBILITY=",
     "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o",
     "-c",
-    "libusb\\libusb/os/windows_common.c"
+    "libusb\\libusb/sync.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_common.o",
-  "src": "libusb\\libusb/os/windows_common.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o",
+  "src": "libusb\\libusb/sync.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -266,16 +1089,16 @@ _None._
     "-DOS_WINDOWS=1",
     "-DDEFAULT_VISIBILITY=",
     "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
     "-c",
-    "libusb\\libusb/strerror.c"
+    "libusb\\libusb/descriptor.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/strerror.o",
-  "src": "libusb\\libusb/strerror.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/descriptor.o",
+  "src": "libusb\\libusb/descriptor.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -350,16 +1173,16 @@ _None._
     "-DOS_WINDOWS=1",
     "-DDEFAULT_VISIBILITY=",
     "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
     "-c",
-    "libusb\\libusb/hotplug.c"
+    "libusb\\libusb/os/windows_usbdk.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
-  "src": "libusb\\libusb/hotplug.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_usbdk.o",
+  "src": "libusb\\libusb/os/windows_usbdk.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -392,16 +1215,16 @@ _None._
     "-DOS_WINDOWS=1",
     "-DDEFAULT_VISIBILITY=",
     "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
     "-c",
-    "libusb\\libusb/io.c"
+    "libusb\\libusb/os/windows_winusb.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/io.o",
-  "src": "libusb\\libusb/io.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/os/windows_winusb.o",
+  "src": "libusb\\libusb/os/windows_winusb.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -476,16 +1299,16 @@ _None._
     "-DOS_WINDOWS=1",
     "-DDEFAULT_VISIBILITY=",
     "-DPLATFORM_WINDOWS=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
     "-c",
-    "libusb\\libusb/sync.c"
+    "libusb\\libusb/hotplug.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/sync.o",
-  "src": "libusb\\libusb/sync.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tbpizpwk\\src\\libusb1-sys-0.7.0\\target\\debug\\build\\libusb1-sys-b1615f00d4ba7c03\\out\\libusb\\libusb/hotplug.o",
+  "src": "libusb\\libusb/hotplug.c",
   "success": true,
   "tool": "cl",
   "_owner": {

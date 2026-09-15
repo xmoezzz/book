@@ -4,35 +4,9 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
-## Root-owned native flows
+## Root-owned build-level evidence
 
-## Flow 001
-
-Artifact: `/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/libbrotli.a`
-
-Owner: `brotli-sys` `0.3.2`
-
-### Source files
-
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/common/dictionary.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/bit_reader.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/decode.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/huffman.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/state.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/backward_references.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/backward_references_hq.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/bit_cost.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/block_splitter.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/brotli_bit_stream.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/cluster.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/compress_fragment.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/compress_fragment_two_pass.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/dictionary_hash.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/encode.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/entropy_encode.c`
-* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/histogram.c`
-
-### Source acquisition records
+### Network / source acquisition records
 
 #### Record 1
 
@@ -67,54 +41,691 @@ Owner: `brotli-sys` `0.3.2`
 }
 ```
 
-### Source preparation records
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/git",
+    "submodule",
+    "update",
+    "--init"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "git",
+  "event": "process_exec",
+  "image": "/usr/bin/git",
+  "pid": 467216,
+  "ppid": 467215,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out"
+}
+```
+
+### pkg-config / pkgconf records
 
 _None._
 
-### Compilation records
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
 
 #### Record 1
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/enc/cluster.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "62394abbbe01bffa-cluster.c",
-    "-dumpbase-ext",
-    ".c",
+    "cc",
+    "-m64",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X/symbols.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.0n7qjats2kg6cx322byqyz5lj.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2fwxha7ofxl4umlsl93oxhvmz.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2prt6v6439a4ak1a669yvanuf.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.38kci45acko4otg8oe7z0u0ir.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.39tdgugmq4o7g3xlea26tv36n.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.59to0jztayjciompzme8csnix.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.5fcouaruei4ivy6daaxwx8v06.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.61vv5in54hnlxt3mu8s9zs6cj.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.7de8xiwtjfokt9z3oyn8ki4he.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.9qn3env0nfno4dzhpr9dtcn3p.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.d9o2g4hdqlxt42ofw0adgp3rp.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.ev3eqlx75d5kv139p1w07baz7.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.cdc92z7dbay7d31wo38mgo3pe.0lwb3w1.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X/symbols.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.0n7qjats2kg6cx322byqyz5lj.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2fwxha7ofxl4umlsl93oxhvmz.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2prt6v6439a4ak1a669yvanuf.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.38kci45acko4otg8oe7z0u0ir.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.39tdgugmq4o7g3xlea26tv36n.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.59to0jztayjciompzme8csnix.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.5fcouaruei4ivy6daaxwx8v06.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.61vv5in54hnlxt3mu8s9zs6cj.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.7de8xiwtjfokt9z3oyn8ki4he.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.9qn3env0nfno4dzhpr9dtcn3p.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.d9o2g4hdqlxt42ofw0adgp3rp.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.ev3eqlx75d5kv139p1w07baz7.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.cdc92z7dbay7d31wo38mgo3pe.0lwb3w1.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X/symbols.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.0n7qjats2kg6cx322byqyz5lj.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2fwxha7ofxl4umlsl93oxhvmz.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2prt6v6439a4ak1a669yvanuf.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.38kci45acko4otg8oe7z0u0ir.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.39tdgugmq4o7g3xlea26tv36n.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.59to0jztayjciompzme8csnix.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.5fcouaruei4ivy6daaxwx8v06.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.61vv5in54hnlxt3mu8s9zs6cj.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.7de8xiwtjfokt9z3oyn8ki4he.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.9qn3env0nfno4dzhpr9dtcn3p.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.d9o2g4hdqlxt42ofw0adgp3rp.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.ev3eqlx75d5kv139p1w07baz7.0lwb3w1.rcgu.o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.cdc92z7dbay7d31wo38mgo3pe.0lwb3w1.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X",
+    "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/rustcYzio3X/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.0n7qjats2kg6cx322byqyz5lj.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2fwxha7ofxl4umlsl93oxhvmz.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.2prt6v6439a4ak1a669yvanuf.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.38kci45acko4otg8oe7z0u0ir.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.39tdgugmq4o7g3xlea26tv36n.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.59to0jztayjciompzme8csnix.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.5fcouaruei4ivy6daaxwx8v06.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.61vv5in54hnlxt3mu8s9zs6cj.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.7de8xiwtjfokt9z3oyn8ki4he.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.9qn3env0nfno4dzhpr9dtcn3p.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.d9o2g4hdqlxt42ofw0adgp3rp.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.ev3eqlx75d5kv139p1w07baz7.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/brotli-sys-b6f66f13a6f3816f",
+      "kind": "object",
+      "path": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f.cdc92z7dbay7d31wo38mgo3pe.0lwb3w1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-467155-1783994532518387716.map",
+  "pid": 467155,
+  "ppid": 467111,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-467155-1783994532518387716.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+## Root-owned native flows
+
+## Flow 001
+
+Artifact: `/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/libbrotli.a`
+
+Owner: `brotli-sys` `0.3.2`
+
+### Source files
+
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/common/dictionary.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/bit_reader.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/decode.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/huffman.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/dec/state.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/backward_references.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/backward_references_hq.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/bit_cost.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/block_splitter.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/brotli_bit_stream.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/cluster.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/compress_fragment.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/compress_fragment_two_pass.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/dictionary_hash.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/encode.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/entropy_encode.c`
+* `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2/brotli/enc/histogram.c`
+
+### Source acquisition records
+
+_None._
+
+### Source preparation records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/e198953d800c79d4-dictionary.o",
+    "-c",
+    "brotli/common/dictionary.c"
   ],
-  "src": "brotli/enc/cluster.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-cluster.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467449,
-  "ppid": 467448,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467294,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -125,7 +736,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -133,44 +746,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/dec/bit_reader.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "76d4580618152496-bit_reader.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-bit_reader.o",
+    "-c",
+    "brotli/dec/bit_reader.c"
   ],
-  "src": "brotli/dec/bit_reader.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-bit_reader.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467336,
-  "ppid": 467335,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467335,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -181,7 +785,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -189,44 +795,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/dec/huffman.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "76d4580618152496-huffman.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-decode.o",
+    "-c",
+    "brotli/dec/decode.c"
   ],
-  "src": "brotli/dec/huffman.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-huffman.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467356,
-  "ppid": 467355,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467338,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -237,7 +834,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -245,44 +844,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/enc/dictionary_hash.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "62394abbbe01bffa-dictionary_hash.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-huffman.o",
+    "-c",
+    "brotli/dec/huffman.c"
   ],
-  "src": "brotli/enc/dictionary_hash.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-dictionary_hash.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467473,
-  "ppid": 467472,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467355,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -293,7 +883,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -301,44 +893,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/common/dictionary.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "e198953d800c79d4-dictionary.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-state.o",
+    "-c",
+    "brotli/dec/state.c"
   ],
-  "src": "brotli/common/dictionary.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/e198953d800c79d4-dictionary.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467295,
-  "ppid": 467294,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467360,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -349,7 +932,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -357,44 +942,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/enc/backward_references_hq.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "62394abbbe01bffa-backward_references_hq.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-backward_references.o",
+    "-c",
+    "brotli/enc/backward_references.c"
   ],
-  "src": "brotli/enc/backward_references_hq.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-backward_references_hq.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467392,
-  "ppid": 467391,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467366,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -405,7 +981,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -413,44 +991,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/enc/block_splitter.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "62394abbbe01bffa-block_splitter.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-backward_references_hq.o",
+    "-c",
+    "brotli/enc/backward_references_hq.c"
   ],
-  "src": "brotli/enc/block_splitter.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-block_splitter.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467426,
-  "ppid": 467425,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467391,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -461,7 +1030,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -469,44 +1040,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/enc/entropy_encode.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "62394abbbe01bffa-entropy_encode.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-bit_cost.o",
+    "-c",
+    "brotli/enc/bit_cost.c"
   ],
-  "src": "brotli/enc/entropy_encode.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-entropy_encode.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467491,
-  "ppid": 467490,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467414,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -517,7 +1079,9 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -525,44 +1089,35 @@ _None._
 
 ```json
 {
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/enc/backward_references.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "62394abbbe01bffa-backward_references.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-block_splitter.o",
+    "-c",
+    "brotli/enc/block_splitter.c"
   ],
-  "src": "brotli/enc/backward_references.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-backward_references.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467367,
-  "ppid": 467366,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
   "build_script_related": true,
+  "build_script_root_pid": 467213,
   "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467425,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
   "_owner": {
     "crate": "brotli-sys",
     "version": "0.3.2",
@@ -573,11 +1128,407 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
 #### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-brotli_bit_stream.o",
+    "-c",
+    "brotli/enc/brotli_bit_stream.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467436,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-cluster.o",
+    "-c",
+    "brotli/enc/cluster.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467448,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-compress_fragment.o",
+    "-c",
+    "brotli/enc/compress_fragment.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467451,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-compress_fragment_two_pass.o",
+    "-c",
+    "brotli/enc/compress_fragment_two_pass.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467463,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-dictionary_hash.o",
+    "-c",
+    "brotli/enc/dictionary_hash.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467472,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-encode.o",
+    "-c",
+    "brotli/enc/encode.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467478,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-entropy_encode.o",
+    "-c",
+    "brotli/enc/entropy_encode.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467490,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "brotli/include",
+    "-w",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-histogram.o",
+    "-c",
+    "brotli/enc/histogram.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 467213,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 467494,
+  "ppid": 467213,
+  "root_cargo_pid": 466421,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+### Compilation records
+
+#### Record 1
 
 ```json
 {
@@ -633,7 +1584,231 @@ _None._
 }
 ```
 
-#### Record 11
+#### Record 2
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/enc/brotli_bit_stream.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "62394abbbe01bffa-brotli_bit_stream.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/enc/brotli_bit_stream.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-brotli_bit_stream.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467437,
+  "ppid": 467436,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/enc/entropy_encode.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "62394abbbe01bffa-entropy_encode.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/enc/entropy_encode.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-entropy_encode.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467491,
+  "ppid": 467490,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/dec/huffman.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "76d4580618152496-huffman.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/dec/huffman.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-huffman.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467356,
+  "ppid": 467355,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/enc/backward_references.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "62394abbbe01bffa-backward_references.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/enc/backward_references.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-backward_references.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467367,
+  "ppid": 467366,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 6
 
 ```json
 {
@@ -689,63 +1864,7 @@ _None._
 }
 ```
 
-#### Record 12
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "brotli/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "brotli/enc/histogram.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
-    "-dumpbase",
-    "62394abbbe01bffa-histogram.c",
-    "-dumpbase-ext",
-    ".c",
-    "-march=rv64gc",
-    "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
-  ],
-  "src": "brotli/enc/histogram.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-histogram.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 467495,
-  "ppid": 467494,
-  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "root_cargo_pid": 466421,
-  "build_script_root_pid": 467213,
-  "build_script_related": true,
-  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
-  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 13
+#### Record 7
 
 ```json
 {
@@ -782,6 +1901,342 @@ _None._
   "recovered_from_process_exec": true,
   "pid": 467452,
   "ppid": 467451,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/enc/bit_cost.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "62394abbbe01bffa-bit_cost.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/enc/bit_cost.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-bit_cost.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467416,
+  "ppid": 467414,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/dec/state.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "76d4580618152496-state.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/dec/state.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-state.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467362,
+  "ppid": 467360,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/enc/cluster.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "62394abbbe01bffa-cluster.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/enc/cluster.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-cluster.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467449,
+  "ppid": 467448,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/enc/dictionary_hash.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "62394abbbe01bffa-dictionary_hash.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/enc/dictionary_hash.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-dictionary_hash.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467473,
+  "ppid": 467472,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/common/dictionary.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "e198953d800c79d4-dictionary.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/common/dictionary.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/e198953d800c79d4-dictionary.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467295,
+  "ppid": 467294,
+  "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "root_cargo_pid": 466421,
+  "build_script_root_pid": 467213,
+  "build_script_related": true,
+  "build_script_target_dir": "brotli-sys-b6f66f13a6f3816f",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
+  "_build_script_out_dir": "/target/debug/build/brotli-sys-b6f66f13a6f3816f/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "brotli/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "brotli/enc/block_splitter.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
+    "-dumpbase",
+    "62394abbbe01bffa-block_splitter.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "brotli/enc/block_splitter.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-block_splitter.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 467426,
+  "ppid": 467425,
   "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "root_cargo_pid": 466421,
   "build_script_root_pid": 467213,
@@ -873,12 +2328,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "brotli/enc/brotli_bit_stream.c",
+    "brotli/enc/backward_references_hq.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
     "-dumpbase",
-    "62394abbbe01bffa-brotli_bit_stream.c",
+    "62394abbbe01bffa-backward_references_hq.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -887,13 +2342,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "brotli/enc/brotli_bit_stream.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-brotli_bit_stream.o",
+  "src": "brotli/enc/backward_references_hq.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-backward_references_hq.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 467437,
-  "ppid": 467436,
+  "pid": 467392,
+  "ppid": 467391,
   "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "root_cargo_pid": 466421,
   "build_script_root_pid": 467213,
@@ -929,12 +2384,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "brotli/enc/bit_cost.c",
+    "brotli/dec/bit_reader.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
     "-dumpbase",
-    "62394abbbe01bffa-bit_cost.c",
+    "76d4580618152496-bit_reader.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -943,13 +2398,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "brotli/enc/bit_cost.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-bit_cost.o",
+  "src": "brotli/dec/bit_reader.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-bit_reader.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 467416,
-  "ppid": 467414,
+  "pid": 467336,
+  "ppid": 467335,
   "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "root_cargo_pid": 466421,
   "build_script_root_pid": 467213,
@@ -985,12 +2440,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "brotli/dec/state.c",
+    "brotli/enc/histogram.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/",
     "-dumpbase",
-    "76d4580618152496-state.c",
+    "62394abbbe01bffa-histogram.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -999,13 +2454,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "brotli/dec/state.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/76d4580618152496-state.o",
+  "src": "brotli/enc/histogram.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/62394abbbe01bffa-histogram.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 467362,
-  "ppid": 467360,
+  "pid": 467495,
+  "ppid": 467494,
   "cwd": "/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2",
   "root_cargo_pid": 466421,
   "build_script_root_pid": 467213,

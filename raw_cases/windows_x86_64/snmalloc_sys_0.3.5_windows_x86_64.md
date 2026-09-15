@@ -4,6 +4,2249 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-a664e12f4db22737\\rustc5WPABE\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-a664e12f4db22737\\rustc5WPABE\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\1285968450178762565detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\1285968450178762565detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\14680635670485497218detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\14680635670485497218detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5/.tmp/native-trace-4364-1783961601861/shims/cl.exe",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "CMakeCXXCompilerId.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdCXX",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeCXXCompilerId.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\cl.exe",
+    "/nologo",
+    "/TP",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_fb1bb.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/FdCMakeFiles\\cmTC_fb1bb.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_fb1bb.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_fb1bb.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_fb1bb.exe",
+    "/implib:cmTC_fb1bb.lib",
+    "/pdb:cmTC_fb1bb.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_fb1bb.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_fb1bb.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_fb1bb.dir\\CMakeCXXCompilerABI.cpp.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_fb1bb.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\cl.exe",
+    "/nologo",
+    "/TP",
+    "-DCONST_QUALIFIED_MALLOC_USABLE_SIZE",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_3da80.dir\\src.cxx.obj",
+    "/FdCMakeFiles\\cmTC_3da80.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\src.cxx"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_3da80.dir\\src.cxx.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\src.cxx"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_3da80.dir\\src.cxx.obj",
+    "/out:cmTC_3da80.exe",
+    "/implib:cmTC_3da80.lib",
+    "/pdb:cmTC_3da80.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_3da80.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_3da80.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_3da80.dir\\src.cxx.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_3da80.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\cl.exe",
+    "/nologo",
+    "/TP",
+    "-DSNMALLOC_LINKER_SUPPORT_NO_ALLOW_SHLIB_UNDEF",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_32e13.dir\\src.cxx.obj",
+    "/FdCMakeFiles\\cmTC_32e13.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\src.cxx"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_32e13.dir\\src.cxx.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\src.cxx"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_32e13.dir\\src.cxx.obj",
+    "/out:cmTC_32e13.exe",
+    "/implib:cmTC_32e13.lib",
+    "/pdb:cmTC_32e13.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "-Wl,--no-undefined",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_32e13.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_32e13.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_32e13.dir\\src.cxx.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_32e13.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": "-Wl,--no-undefined",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\cl.exe",
+    "/nologo",
+    "/TP",
+    "-DLLD_WORKS",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_604e4.dir\\src.cxx.obj",
+    "/FdCMakeFiles\\cmTC_604e4.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\src.cxx"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_604e4.dir\\src.cxx.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\src.cxx"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_604e4.dir\\src.cxx.obj",
+    "/out:cmTC_604e4.exe",
+    "/implib:cmTC_604e4.lib",
+    "/pdb:cmTC_604e4.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "-fuse-ld=lld",
+    "-Wl,--icf=all",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_604e4.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_604e4.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_604e4.dir\\src.cxx.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_604e4.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": "-fuse-ld=lld",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\cl.exe",
+    "/TP",
+    "-DMALLOC_USABLE_SIZE_QUALIFIER=const",
+    "-DSNMALLOC_CHECK_LOADS=false",
+    "-DSNMALLOC_NO_REALLOCARR",
+    "-DSNMALLOC_NO_REALLOCARRAY",
+    "-DSNMALLOC_PAGEID=false",
+    "-DSNMALLOC_USE_CXX11_DESTRUCTORS",
+    "-D_HAS_EXCEPTIONS=0",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\snmalloc\\src",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/O2",
+    "/Ob2",
+    "/DNDEBUG",
+    "/EHsc",
+    "-std:c++20",
+    "/Zi",
+    "/W4",
+    "/WX",
+    "/wd4127",
+    "/wd4324",
+    "/wd4201",
+    "/showIncludes",
+    "/FoCMakeFiles\\snmallocshim-rust.dir\\src\\snmalloc\\override\\rust.cc.obj",
+    "/FdCMakeFiles\\snmallocshim-rust.dir\\snmallocshim-rust.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\snmalloc\\src\\snmalloc\\override\\rust.cc"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\snmallocshim-rust.dir\\src\\snmalloc\\override\\rust.cc.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\snmalloc\\src\\snmalloc\\override\\rust.cc"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\lib.exe",
+    "/machine:x64",
+    "/out:snmallocshim-rust.lib",
+    "CMakeFiles\\snmallocshim-rust.dir\\src\\snmalloc\\override\\rust.cc.obj"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/out:snmallocshim-rust.lib",
+    "CMakeFiles\\snmallocshim-rust.dir\\src\\snmalloc\\override\\rust.cc.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-a664e12f4db22737\\rustc5WPABE\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000290       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000002a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000318       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000330       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000340       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000350       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000003e8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000400       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000410       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000420       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000450       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000468       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400d9020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000290       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000290       \\177KERNEL32_NULL_THUNK_DATA 00000001400d9290     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000002a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000002a8       \\177OLEAUT32_NULL_THUNK_DATA 00000001400d92a8     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000002f8       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400d92f8     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000318       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400d9318     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000330       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000330       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400d9330     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000340       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000340       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400d9340     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000350       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000350       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400d9350     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000003e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:000003e8       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400d93e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000400       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000400       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400d9400     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000410       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000410       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400d9410     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000420       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000420       \\177kernel32_NULL_THUNK_DATA 00000001400d9420     libcmake-9bc450aeda2ebb2a:kernel32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000450       \\177ntdll_NULL_THUNK_DATA  00000001400d9450     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\0002:00000468       \\177ole32_NULL_THUNK_DATA  00000001400d9468     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-17944-1783961603485141400.map",
+  "pid": 17944,
+  "ppid": 10404,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-17944-1783961603485141400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_fb1bb.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_fb1bb.exe",
+    "/implib:cmTC_fb1bb.lib",
+    "/pdb:cmTC_fb1bb.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_fb1bb.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_fb1bb.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-16576-1783961604809928400.map",
+  "pid": 16576,
+  "ppid": 18388,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-16576-1783961604809928400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_fb1bb.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_fb1bb.exe",
+    "/implib:cmTC_fb1bb.lib",
+    "/pdb:cmTC_fb1bb.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_fb1bb.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_fb1bb.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e24z42\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-7440-1783961605038673900.map",
+  "pid": 7440,
+  "ppid": 18388,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-7440-1783961605038673900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_3da80.dir\\src.cxx.obj",
+    "/out:cmTC_3da80.exe",
+    "/implib:cmTC_3da80.lib",
+    "/pdb:cmTC_3da80.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_3da80.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_3da80.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-16948-1783961605633369500.map",
+  "pid": 16948,
+  "ppid": 19524,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-16948-1783961605633369500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_3da80.dir\\src.cxx.obj",
+    "/out:cmTC_3da80.exe",
+    "/implib:cmTC_3da80.lib",
+    "/pdb:cmTC_3da80.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_3da80.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_3da80.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4g23g8\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-18584-1783961605784552600.map",
+  "pid": 18584,
+  "ppid": 19524,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-18584-1783961605784552600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_32e13.dir\\src.cxx.obj",
+    "/out:cmTC_32e13.exe",
+    "/implib:cmTC_32e13.lib",
+    "/pdb:cmTC_32e13.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "-Wl,--no-undefined",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_32e13.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_32e13.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-18308-1783961607207318300.map",
+  "pid": 18308,
+  "ppid": 16288,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-18308-1783961607207318300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_32e13.dir\\src.cxx.obj",
+    "/out:cmTC_32e13.exe",
+    "/implib:cmTC_32e13.lib",
+    "/pdb:cmTC_32e13.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "-Wl,--no-undefined",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_32e13.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_32e13.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49753w\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-19812-1783961607357765300.map",
+  "pid": 19812,
+  "ppid": 16288,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-19812-1783961607357765300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_604e4.dir\\src.cxx.obj",
+    "/out:cmTC_604e4.exe",
+    "/implib:cmTC_604e4.lib",
+    "/pdb:cmTC_604e4.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "-fuse-ld=lld",
+    "-Wl,--icf=all",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_604e4.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_604e4.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-4252-1783961607807898000.map",
+  "pid": 4252,
+  "ppid": 12660,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-4252-1783961607807898000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-4364-1783961601861\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_604e4.dir\\src.cxx.obj",
+    "/out:cmTC_604e4.exe",
+    "/implib:cmTC_604e4.lib",
+    "/pdb:cmTC_604e4.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "-fuse-ld=lld",
+    "-Wl,--icf=all",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_604e4.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_604e4.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\target\\debug\\build\\snmalloc-sys-53837b178283d37d\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-thawxb\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-14264-1783961607963277800.map",
+  "pid": 14264,
+  "ppid": 12660,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-6mcqfb22\\src\\snmalloc-sys-0.3.5\\.tmp\\native-trace-link-link-14264-1783961607963277800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "snmalloc-sys",
+    "version": "0.3.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5#snmalloc-sys@0.3.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-6mcqfb22/src/snmalloc-sys-0.3.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

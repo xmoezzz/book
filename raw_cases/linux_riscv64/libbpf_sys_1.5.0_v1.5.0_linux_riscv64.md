@@ -4,6 +4,984 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "pkg-config",
+    "--cflags",
+    "libelf",
+    "zlib"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0/libbpf/src",
+  "exit_code": 0,
+  "kind": "exec",
+  "pid": 832742,
+  "ppid": 832725,
+  "success": true,
+  "tool": "pkg-config",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS/symbols.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.10lcc27ag7bmun9m8evk1ynao.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1gg5wi5xg85kxmoo7kgmlc9jy.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1kak3l74900pn53chvtpvf1i8.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2cveai2g9lv248ec76kjj9fbj.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2u9xdb01n44h55251x9qv271j.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2xifuezgbmvge61019svny2c3.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.34vt3vs2n96a6jk2g7gw2s490.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3ezudoc741yvtmzh8rd7u9460.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3iatdvaysusrlnu81hfzhbk01.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.45lb6hufvhfiuiapmu5si29r6.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.46u9rjol3015emrn10k4ufz06.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4r99vdscs8lzy36js99kmuzqw.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4uyggfrm0sp5e46me0cripssg.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.519ruof0kdgpxltr89p6gpw8u.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.5cncr143s302r1n0ch1l8l11t.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6an15zahunzuergj3lm1n0gti.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6pcpwp99pdjkudiuf81l97s34.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6wq3a8nqfj80ssuw76mghzj06.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6yv0to3tdj4hkmrzyngjohuib.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.73jc1uz91zpv9waj93vfsz18o.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.7laak6ewdp0veyen80sngdjoo.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.83k3kubw8s8d9g7llzzbg0c41.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8ei29boq07fuvee0ekqu5vsgt.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8qqzpt29ynxnn65629wmolf5j.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.92n0j04wdg0nhfk7aquk3y44w.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.98oifr92q1l3gxkbipzylgmf6.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.acccpwwutpanyeebi73ckqfj2.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.af08qrjovmdfubjx077ay3wma.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ajpxe9jfzjuwwzuetoh4740cz.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.an6z2zas4u8ltl6br1k72sz91.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.axiuy4x0mx6ew3dhd7792k2jh.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.blxauqyaiygc3axuw86935j4c.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bmrtkkqwih8yml3c881eclxj8.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bsjcqi3h9mzect6orn35ouehq.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.cq62tj2utayb5tnszlwlw1guc.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ddtwbhq589famtjwo0pm0ioil.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dtwes5mxytrdy55ik6ac4qg63.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dwvh7okaps2r8oue21tyw39v2.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.50u0fsj6uyb3lfi8lv9p8jgpx.06c31nx.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libnix-1e193aefed70a669.rlib",
+    "/target/debug/deps/libbitflags-64384aa228de0361.rlib",
+    "/target/debug/deps/libcfg_if-595cd1fd9b5b1165.rlib",
+    "/target/debug/deps/liblibc-3fae812d9c521a02.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS/symbols.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.10lcc27ag7bmun9m8evk1ynao.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1gg5wi5xg85kxmoo7kgmlc9jy.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1kak3l74900pn53chvtpvf1i8.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2cveai2g9lv248ec76kjj9fbj.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2u9xdb01n44h55251x9qv271j.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2xifuezgbmvge61019svny2c3.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.34vt3vs2n96a6jk2g7gw2s490.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3ezudoc741yvtmzh8rd7u9460.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3iatdvaysusrlnu81hfzhbk01.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.45lb6hufvhfiuiapmu5si29r6.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.46u9rjol3015emrn10k4ufz06.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4r99vdscs8lzy36js99kmuzqw.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4uyggfrm0sp5e46me0cripssg.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.519ruof0kdgpxltr89p6gpw8u.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.5cncr143s302r1n0ch1l8l11t.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6an15zahunzuergj3lm1n0gti.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6pcpwp99pdjkudiuf81l97s34.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6wq3a8nqfj80ssuw76mghzj06.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6yv0to3tdj4hkmrzyngjohuib.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.73jc1uz91zpv9waj93vfsz18o.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.7laak6ewdp0veyen80sngdjoo.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.83k3kubw8s8d9g7llzzbg0c41.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8ei29boq07fuvee0ekqu5vsgt.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8qqzpt29ynxnn65629wmolf5j.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.92n0j04wdg0nhfk7aquk3y44w.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.98oifr92q1l3gxkbipzylgmf6.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.acccpwwutpanyeebi73ckqfj2.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.af08qrjovmdfubjx077ay3wma.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ajpxe9jfzjuwwzuetoh4740cz.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.an6z2zas4u8ltl6br1k72sz91.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.axiuy4x0mx6ew3dhd7792k2jh.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.blxauqyaiygc3axuw86935j4c.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bmrtkkqwih8yml3c881eclxj8.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bsjcqi3h9mzect6orn35ouehq.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.cq62tj2utayb5tnszlwlw1guc.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ddtwbhq589famtjwo0pm0ioil.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dtwes5mxytrdy55ik6ac4qg63.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dwvh7okaps2r8oue21tyw39v2.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.50u0fsj6uyb3lfi8lv9p8jgpx.06c31nx.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS/symbols.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.10lcc27ag7bmun9m8evk1ynao.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1gg5wi5xg85kxmoo7kgmlc9jy.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1kak3l74900pn53chvtpvf1i8.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2cveai2g9lv248ec76kjj9fbj.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2u9xdb01n44h55251x9qv271j.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2xifuezgbmvge61019svny2c3.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.34vt3vs2n96a6jk2g7gw2s490.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3ezudoc741yvtmzh8rd7u9460.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3iatdvaysusrlnu81hfzhbk01.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.45lb6hufvhfiuiapmu5si29r6.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.46u9rjol3015emrn10k4ufz06.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4r99vdscs8lzy36js99kmuzqw.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4uyggfrm0sp5e46me0cripssg.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.519ruof0kdgpxltr89p6gpw8u.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.5cncr143s302r1n0ch1l8l11t.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6an15zahunzuergj3lm1n0gti.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6pcpwp99pdjkudiuf81l97s34.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6wq3a8nqfj80ssuw76mghzj06.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6yv0to3tdj4hkmrzyngjohuib.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.73jc1uz91zpv9waj93vfsz18o.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.7laak6ewdp0veyen80sngdjoo.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.83k3kubw8s8d9g7llzzbg0c41.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8ei29boq07fuvee0ekqu5vsgt.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8qqzpt29ynxnn65629wmolf5j.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.92n0j04wdg0nhfk7aquk3y44w.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.98oifr92q1l3gxkbipzylgmf6.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.acccpwwutpanyeebi73ckqfj2.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.af08qrjovmdfubjx077ay3wma.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ajpxe9jfzjuwwzuetoh4740cz.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.an6z2zas4u8ltl6br1k72sz91.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.axiuy4x0mx6ew3dhd7792k2jh.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.blxauqyaiygc3axuw86935j4c.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bmrtkkqwih8yml3c881eclxj8.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bsjcqi3h9mzect6orn35ouehq.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.cq62tj2utayb5tnszlwlw1guc.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ddtwbhq589famtjwo0pm0ioil.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dtwes5mxytrdy55ik6ac4qg63.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dwvh7okaps2r8oue21tyw39v2.06c31nx.rcgu.o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.50u0fsj6uyb3lfi8lv9p8jgpx.06c31nx.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libnix-1e193aefed70a669.rlib",
+    "/target/debug/deps/libbitflags-64384aa228de0361.rlib",
+    "/target/debug/deps/libcfg_if-595cd1fd9b5b1165.rlib",
+    "/target/debug/deps/liblibc-3fae812d9c521a02.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS",
+    "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/rustceVm0QS/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.10lcc27ag7bmun9m8evk1ynao.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1gg5wi5xg85kxmoo7kgmlc9jy.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.1kak3l74900pn53chvtpvf1i8.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2cveai2g9lv248ec76kjj9fbj.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2u9xdb01n44h55251x9qv271j.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.2xifuezgbmvge61019svny2c3.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.34vt3vs2n96a6jk2g7gw2s490.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3ezudoc741yvtmzh8rd7u9460.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.3iatdvaysusrlnu81hfzhbk01.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.45lb6hufvhfiuiapmu5si29r6.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.46u9rjol3015emrn10k4ufz06.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4r99vdscs8lzy36js99kmuzqw.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.4uyggfrm0sp5e46me0cripssg.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.519ruof0kdgpxltr89p6gpw8u.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.5cncr143s302r1n0ch1l8l11t.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6an15zahunzuergj3lm1n0gti.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6pcpwp99pdjkudiuf81l97s34.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6wq3a8nqfj80ssuw76mghzj06.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.6yv0to3tdj4hkmrzyngjohuib.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.73jc1uz91zpv9waj93vfsz18o.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.7laak6ewdp0veyen80sngdjoo.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.83k3kubw8s8d9g7llzzbg0c41.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8ei29boq07fuvee0ekqu5vsgt.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.8qqzpt29ynxnn65629wmolf5j.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.92n0j04wdg0nhfk7aquk3y44w.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.98oifr92q1l3gxkbipzylgmf6.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.acccpwwutpanyeebi73ckqfj2.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.af08qrjovmdfubjx077ay3wma.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ajpxe9jfzjuwwzuetoh4740cz.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.an6z2zas4u8ltl6br1k72sz91.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.axiuy4x0mx6ew3dhd7792k2jh.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.blxauqyaiygc3axuw86935j4c.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bmrtkkqwih8yml3c881eclxj8.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.bsjcqi3h9mzect6orn35ouehq.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.cq62tj2utayb5tnszlwlw1guc.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.ddtwbhq589famtjwo0pm0ioil.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dtwes5mxytrdy55ik6ac4qg63.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.dwvh7okaps2r8oue21tyw39v2.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libbpf-sys-7bc730b0c3eff001",
+      "kind": "object",
+      "path": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001.50u0fsj6uyb3lfi8lv9p8jgpx.06c31nx.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnix-1e193aefed70a669.rlib(nix-1e193aefed70a669.nix.e89801ce530762eb-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnix-1e193aefed70a669.rlib(nix-1e193aefed70a669.nix.e89801ce530762eb-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnix-1e193aefed70a669.rlib(nix-1e193aefed70a669.nix.e89801ce530762eb-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnix-1e193aefed70a669.rlib(nix-1e193aefed70a669.nix.e89801ce530762eb-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnix-1e193aefed70a669.rlib(nix-1e193aefed70a669.nix.e89801ce530762eb-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbitflags-64384aa228de0361.rlib(bitflags-64384aa228de0361.bitflags.4e44fcf973a03c96-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-832596-1783997101201140879.map",
+  "pid": 832596,
+  "ppid": 832449,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-832596-1783997101201140879.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "ar",
+    "rcs",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/libbpf.a",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/bpf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf_errno.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/netlink.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/nlattr.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/str_error.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf_probes.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/bpf_prog_linfo.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_dump.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/hashmap.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/ringbuf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/strset.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/linker.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/gen_loader.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/relo_core.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/usdt.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/zip.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/elf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/features.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_iter.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_relocate.o"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0/libbpf/src",
+  "exit_code": 0,
+  "inputs": [
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/libbpf.a",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/bpf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf_errno.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/netlink.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/nlattr.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/str_error.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf_probes.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/bpf_prog_linfo.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_dump.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/hashmap.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/ringbuf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/strset.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/linker.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/gen_loader.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/relo_core.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/usdt.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/zip.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/elf.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/features.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_iter.o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_relocate.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "ar",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -61,19 +1039,19 @@ _None._
     "_LARGEFILE64_SOURCE",
     "-D",
     "_FILE_OFFSET_BITS=64",
-    "libbpf.c",
+    "strset.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
     "..."
   ],
-  "src": "libbpf.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf.o",
+  "src": "strset.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/strset.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 832818,
-  "ppid": 832813,
+  "pid": 832936,
+  "ppid": 832932,
   "root_cargo_pid": 830470,
   "build_script_root_pid": 832685,
   "build_script_related": true,
@@ -92,438 +1070,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "usdt.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "usdt.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/usdt.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 833022,
-  "ppid": 833017,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 3
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "libbpf_probes.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "libbpf_probes.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf_probes.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 832883,
-  "ppid": 832876,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "bpf_prog_linfo.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "bpf_prog_linfo.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/bpf_prog_linfo.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 832882,
-  "ppid": 832877,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "btf.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "btf.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 832815,
-  "ppid": 832809,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "linker.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "linker.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/linker.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 832954,
-  "ppid": 832933,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "btf_iter.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "btf_iter.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_iter.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 833178,
-  "ppid": 833166,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "elf.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "elf.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/elf.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 833025,
-  "ppid": 833023,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    ".",
-    "-I",
-    "../include",
-    "-I",
-    "../include/uapi",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "_LARGEFILE64_SOURCE",
-    "-D",
-    "_FILE_OFFSET_BITS=64",
-    "gen_loader.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
-    "..."
-  ],
-  "src": "gen_loader.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/gen_loader.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 833020,
-  "ppid": 833012,
-  "root_cargo_pid": 830470,
-  "build_script_root_pid": 832685,
-  "build_script_related": true,
-  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
-  "_owner": {
-    "crate": "libbpf-sys",
-    "version": "1.5.0+v1.5.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
-  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
-}
-```
-
-#### Record 10
 
 ```json
 {
@@ -577,6 +1123,438 @@ _None._
 }
 ```
 
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "bpf_prog_linfo.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "bpf_prog_linfo.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/bpf_prog_linfo.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 832882,
+  "ppid": 832877,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
+#### Record 4
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "libbpf_probes.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "libbpf_probes.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf_probes.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 832883,
+  "ppid": 832876,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "elf.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "elf.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/elf.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 833025,
+  "ppid": 833023,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "zip.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "zip.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/zip.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 833049,
+  "ppid": 833027,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "gen_loader.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "gen_loader.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/gen_loader.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 833020,
+  "ppid": 833012,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "linker.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "linker.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/linker.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 832954,
+  "ppid": 832933,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "btf_iter.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "btf_iter.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf_iter.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 833178,
+  "ppid": 833166,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    ".",
+    "-I",
+    "../include",
+    "-I",
+    "../include/uapi",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "_LARGEFILE64_SOURCE",
+    "-D",
+    "_FILE_OFFSET_BITS=64",
+    "btf.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
+    "..."
+  ],
+  "src": "btf.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/btf.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 832815,
+  "ppid": 832809,
+  "root_cargo_pid": 830470,
+  "build_script_root_pid": 832685,
+  "build_script_related": true,
+  "build_script_target_dir": "libbpf-sys-7bc730b0c3eff001",
+  "_owner": {
+    "crate": "libbpf-sys",
+    "version": "1.5.0+v1.5.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0#libbpf-sys@1.5.0+v1.5.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0",
+  "_build_script_out_dir": "/target/debug/build/libbpf-sys-7bc730b0c3eff001/out"
+}
+```
+
 #### Record 11
 
 ```json
@@ -601,19 +1579,19 @@ _None._
     "_LARGEFILE64_SOURCE",
     "-D",
     "_FILE_OFFSET_BITS=64",
-    "strset.c",
+    "libbpf.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
     "..."
   ],
-  "src": "strset.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/strset.o",
+  "src": "libbpf.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/libbpf.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 832936,
-  "ppid": 832932,
+  "pid": 832818,
+  "ppid": 832813,
   "root_cargo_pid": 830470,
   "build_script_root_pid": 832685,
   "build_script_related": true,
@@ -655,19 +1633,19 @@ _None._
     "_LARGEFILE64_SOURCE",
     "-D",
     "_FILE_OFFSET_BITS=64",
-    "zip.c",
+    "usdt.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/",
     "..."
   ],
-  "src": "zip.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/zip.o",
+  "src": "usdt.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/staticobjs/usdt.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 833049,
-  "ppid": 833027,
+  "pid": 833022,
+  "ppid": 833017,
   "root_cargo_pid": 830470,
   "build_script_root_pid": 832685,
   "build_script_related": true,

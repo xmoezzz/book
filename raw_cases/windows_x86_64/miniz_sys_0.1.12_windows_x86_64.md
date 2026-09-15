@@ -4,6 +4,496 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\.tmp\\native-trace-15400-1783962429546\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\rustcdLMP4A\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.0a9flzuiv8zjudmzufu3iyedl.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.1hfhrq16a5x0gf4c95qtie73p.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.3o8n11n2f6yzrod33kmyahn7f.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.3p6o57k1qtjf4rdhovg5bttx5.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.5f1w7vddgwa2b0bp1ef2n1byd.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.6gnbymf8qut7qbc5quorvrvxl.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.6tokmllau6opmro27k4cz9lvo.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.7hoq3hx5a9eai2y6kx959e277.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.8hn6uqnihvtc58a1qlrsuolt7.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.8luecynqm6pr3idyyh5pf24o4.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.9t31rhfkcxy92t0mrdbtjwfvv.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.dhg1i1i45p2bmitegbdocn9z1.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.cfeqc12djbkm6orytyg3mv3l7.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\rustcdLMP4A\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.0a9flzuiv8zjudmzufu3iyedl.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.1hfhrq16a5x0gf4c95qtie73p.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.3o8n11n2f6yzrod33kmyahn7f.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.3p6o57k1qtjf4rdhovg5bttx5.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.5f1w7vddgwa2b0bp1ef2n1byd.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.6gnbymf8qut7qbc5quorvrvxl.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.6tokmllau6opmro27k4cz9lvo.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.7hoq3hx5a9eai2y6kx959e277.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.8hn6uqnihvtc58a1qlrsuolt7.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.8luecynqm6pr3idyyh5pf24o4.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.9t31rhfkcxy92t0mrdbtjwfvv.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.dhg1i1i45p2bmitegbdocn9z1.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.cfeqc12djbkm6orytyg3mv3l7.0i90tb2.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "miniz-sys",
+    "version": "0.1.12",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12#miniz-sys@0.1.12",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\.tmp\\native-trace-15400-1783962429546\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\rustcdLMP4A\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.0a9flzuiv8zjudmzufu3iyedl.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.1hfhrq16a5x0gf4c95qtie73p.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.3o8n11n2f6yzrod33kmyahn7f.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.3p6o57k1qtjf4rdhovg5bttx5.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.5f1w7vddgwa2b0bp1ef2n1byd.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.6gnbymf8qut7qbc5quorvrvxl.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.6tokmllau6opmro27k4cz9lvo.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.7hoq3hx5a9eai2y6kx959e277.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.8hn6uqnihvtc58a1qlrsuolt7.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.8luecynqm6pr3idyyh5pf24o4.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.9t31rhfkcxy92t0mrdbtjwfvv.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.dhg1i1i45p2bmitegbdocn9z1.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.cfeqc12djbkm6orytyg3mv3l7.0i90tb2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-3199fafb537e253c\\build_script_build-3199fafb537e253c.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400cf020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400cf298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400cf2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400cf300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400cf320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400cf338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400cf348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400cf358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400cf3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400cf408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400cf418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400cf448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400cf460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\.tmp\\native-trace-link-link-12108-1783962431481396900.map",
+  "pid": 12108,
+  "ppid": 1920,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\.tmp\\native-trace-link-link-12108-1783962431481396900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "miniz-sys",
+    "version": "0.1.12",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12#miniz-sys@0.1.12",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\14118208512128832599detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\14118208512128832599detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "miniz-sys",
+    "version": "0.1.12",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12#miniz-sys@0.1.12",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-W0",
+    "-DMINIZ_NO_STDIO",
+    "-DMINIZ_NO_ARCHIVE_APIS",
+    "-DMINIZ_NO_ARCHIVE_WRITING_APIS",
+    "-DMINIZ_NO_TIME",
+    "-DMINIZ_NO_ZLIB_COMPATIBLE_NAMES",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\db3b6bfb95261072-miniz.o",
+    "-c",
+    "miniz.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\db3b6bfb95261072-miniz.o",
+    "miniz.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "miniz-sys",
+    "version": "0.1.12",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12#miniz-sys@0.1.12",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\libminiz.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\db3b6bfb95261072-miniz.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\db3b6bfb95261072-miniz.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0edkis72\\src\\miniz-sys-0.1.12\\target\\debug\\build\\miniz-sys-e9cb3caf4c75e064\\out\\libminiz.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "miniz-sys",
+    "version": "0.1.12",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12#miniz-sys@0.1.12",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0edkis72/src/miniz-sys-0.1.12",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

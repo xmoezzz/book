@@ -95,11 +95,11 @@ Working directory: `/tmp/crate-build-aarch64-ijugia1j/src/libz-sys-1.1.22`
 ### Compilation
 
 ```text
-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I <include directory> -fvisibility=hidden -DSTDC -D_LARGEFILE64_SOURCE -D_POSIX_SOURCE -o <object> -c <source>
+cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D STDC -D _LARGEFILE64_SOURCE -D _POSIX_SOURCE <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> ...
 ```
 
 ```text
-cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu -D STDC -D _LARGEFILE64_SOURCE -D _POSIX_SOURCE <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> ...
+gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I <include directory> -fvisibility=hidden -DSTDC -D_LARGEFILE64_SOURCE -D_POSIX_SOURCE -o <object> -c <source>
 ```
 
 ### Static library construction

@@ -4,6 +4,11755 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-a729133d9b4c190e\\rustc6hkYPW\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-a729133d9b4c190e\\rustc6hkYPW\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\6931051551269694068detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\6931051551269694068detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\12290712398950387259detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\12290712398950387259detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22/.tmp/native-trace-15452-1783961926524/shims/cl.exe",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "CMakeCCompilerId.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdC",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeCCompilerId.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_bf2b3.dir\\CMakeCCompilerABI.c.obj",
+    "/FdCMakeFiles\\cmTC_bf2b3.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_bf2b3.dir\\CMakeCCompilerABI.c.obj",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bf2b3.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_bf2b3.exe",
+    "/implib:cmTC_bf2b3.lib",
+    "/pdb:cmTC_bf2b3.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bf2b3.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bf2b3.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_bf2b3.dir\\CMakeCCompilerABI.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_bf2b3.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-D_LARGEFILE64_SOURCE=1",
+    "-D__USE_LARGEFILE64",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_eb954.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_eb954.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_eb954.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_eb954.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_eb954.exe",
+    "/implib:cmTC_eb954.lib",
+    "/pdb:cmTC_eb954.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_eb954.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_eb954.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_eb954.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_eb954.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-D_LARGEFILE64_SOURCE=1",
+    "-D__USE_LARGEFILE64",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_16f17.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_16f17.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_16f17.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_16f17.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_16f17.exe",
+    "/implib:cmTC_16f17.lib",
+    "/pdb:cmTC_16f17.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_16f17.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_16f17.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_16f17.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_16f17.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-D_LARGEFILE64_SOURCE=1",
+    "-D__USE_LARGEFILE64",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_d11f1.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_d11f1.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_d11f1.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d11f1.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_d11f1.exe",
+    "/implib:cmTC_d11f1.lib",
+    "/pdb:cmTC_d11f1.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d11f1.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d11f1.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_d11f1.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_d11f1.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "-DCHECK_FUNCTION_EXISTS=fseeko",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_3a2d1.dir\\CheckFunctionExists.c.obj",
+    "/FdCMakeFiles\\cmTC_3a2d1.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82unul\\CheckFunctionExists.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82unul",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_3a2d1.dir\\CheckFunctionExists.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-82unul\\CheckFunctionExists.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "-DCHECK_FUNCTION_EXISTS=strerror",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_5688c.dir\\CheckFunctionExists.c.obj",
+    "/FdCMakeFiles\\cmTC_5688c.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\CheckFunctionExists.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_5688c.dir\\CheckFunctionExists.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\CheckFunctionExists.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_5688c.dir\\CheckFunctionExists.c.obj",
+    "/out:cmTC_5688c.exe",
+    "/implib:cmTC_5688c.lib",
+    "/pdb:cmTC_5688c.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_5688c.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_5688c.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_5688c.dir\\CheckFunctionExists.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_5688c.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_NO_INTERPOSITION",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "-fno-semantic-interposition",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_e1da8.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_e1da8.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_e1da8.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e1da8.dir\\src.c.obj",
+    "/out:cmTC_e1da8.exe",
+    "/implib:cmTC_e1da8.lib",
+    "/pdb:cmTC_e1da8.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e1da8.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e1da8.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_e1da8.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_e1da8.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_bfe35.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_bfe35.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_bfe35.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bfe35.dir\\src.c.obj",
+    "/out:cmTC_bfe35.exe",
+    "/implib:cmTC_bfe35.lib",
+    "/pdb:cmTC_bfe35.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bfe35.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bfe35.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_bfe35.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_bfe35.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_CTZ",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_748a5.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_748a5.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjgho8\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjgho8",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_748a5.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vjgho8\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_CTZLL",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_f807f.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_f807f.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dj8di\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dj8di",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_f807f.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6dj8di\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_PTRDIFF_T",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_bb357.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_bb357.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_bb357.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bb357.dir\\src.c.obj",
+    "/out:cmTC_bb357.exe",
+    "/implib:cmTC_bb357.lib",
+    "/pdb:cmTC_bb357.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bb357.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bb357.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_bb357.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_bb357.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_XSAVE_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_cca60.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_cca60.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_cca60.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_cca60.dir\\src.c.obj",
+    "/out:cmTC_cca60.exe",
+    "/implib:cmTC_cca60.lib",
+    "/pdb:cmTC_cca60.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_cca60.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_cca60.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_cca60.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_cca60.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_SSE2_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_90479.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_90479.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_90479.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_90479.dir\\src.c.obj",
+    "/out:cmTC_90479.exe",
+    "/implib:cmTC_90479.lib",
+    "/pdb:cmTC_90479.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_90479.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_90479.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_90479.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_90479.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_SSSE3_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_daab8.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_daab8.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_daab8.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_daab8.dir\\src.c.obj",
+    "/out:cmTC_daab8.exe",
+    "/implib:cmTC_daab8.lib",
+    "/pdb:cmTC_daab8.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_daab8.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_daab8.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_daab8.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_daab8.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_SSE42_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_9772c.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_9772c.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_9772c.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_9772c.dir\\src.c.obj",
+    "/out:cmTC_9772c.exe",
+    "/implib:cmTC_9772c.lib",
+    "/pdb:cmTC_9772c.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_9772c.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_9772c.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_9772c.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_9772c.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_PCLMULQDQ_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_98301.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_98301.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_98301.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_98301.dir\\src.c.obj",
+    "/out:cmTC_98301.exe",
+    "/implib:cmTC_98301.lib",
+    "/pdb:cmTC_98301.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_98301.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_98301.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_98301.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_98301.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_AVX2_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/arch:AVX2",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_bbb94.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_bbb94.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_bbb94.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bbb94.dir\\src.c.obj",
+    "/out:cmTC_bbb94.exe",
+    "/implib:cmTC_bbb94.lib",
+    "/pdb:cmTC_bbb94.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bbb94.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bbb94.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_bbb94.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_bbb94.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_AVX512_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/arch:AVX512",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_330da.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_330da.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_330da.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_330da.dir\\src.c.obj",
+    "/out:cmTC_330da.exe",
+    "/implib:cmTC_330da.lib",
+    "/pdb:cmTC_330da.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_330da.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_330da.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_330da.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_330da.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_AVX512VNNI_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/arch:AVX512",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_e4207.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_e4207.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_e4207.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e4207.dir\\src.c.obj",
+    "/out:cmTC_e4207.exe",
+    "/implib:cmTC_e4207.lib",
+    "/pdb:cmTC_e4207.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e4207.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e4207.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_e4207.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_e4207.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_VPCLMULQDQ_INTRIN",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_d4796.dir\\src.c.obj",
+    "/FdCMakeFiles\\cmTC_d4796.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\src.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_d4796.dir\\src.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\src.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d4796.dir\\src.c.obj",
+    "/out:cmTC_d4796.exe",
+    "/implib:cmTC_d4796.lib",
+    "/pdb:cmTC_d4796.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d4796.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d4796.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_d4796.dir\\src.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_d4796.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\compress.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\compress.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\compress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_braid_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_braid_c.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\inftrees.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inftrees.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\inftrees.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inftrees.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\crc32.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\crc32.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_fold_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_fold_c.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_fold_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_fold_c.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\slide_hash_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\slide_hash_c.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32_braid_comb.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32_braid_comb.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\insert_string.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\insert_string.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_c.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\infback.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\infback.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\infback.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\infback.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\adler32.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\adler32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\adler32.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\adler32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_stored.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_stored.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate_stored.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_stored.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_huff.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_huff.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate_huff.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_huff.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_slow.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_slow.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate_slow.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_slow.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_fast.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate_fast.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_fast.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_medium.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_medium.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate_medium.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_medium.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_quick.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_quick.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate_quick.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_quick.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\inflate.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inflate.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\inflate.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inflate.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_rle.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_rle.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate_rle.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_rle.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\deflate.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\chunkset_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\chunkset_c.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\functable.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\functable.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\functable.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\functable.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\compare256_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\compare256_c.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string_roll.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string_roll.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\uncompr.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\uncompr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\uncompr.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\uncompr.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\cpu_features.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\cpu_features.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\cpu_features.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\cpu_features.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\trees.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\trees.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\trees.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\trees.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\x86_features.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\x86_features.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\zutil.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\zutil.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\zutil.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\zutil.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\compare256_sse2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\compare256_sse2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX2",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_avx2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_avx2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_sse42.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_sse42.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 77
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_ssse3.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_ssse3.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 78
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX2",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_avx2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_avx2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 79
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_ssse3.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_ssse3.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_pclmulqdq.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_pclmulqdq.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 81
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\gzwrite.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzwrite.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\gzwrite.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzwrite.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 82
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\gzread.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\gzread.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\gzread.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\gzread.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 83
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\gzlib.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzlib.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\gzlib.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzlib.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 84
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX2",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 85
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX512",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx512.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx512.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 86
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX2",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 87
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX512",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\crc32_vpclmulqdq.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_vpclmulqdq.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\crc32_vpclmulqdq.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_vpclmulqdq.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 88
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX512",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 89
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX512",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512_vnni.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512_vnni.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 90
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\lib.exe",
+    "/nologo",
+    "/machine:x64",
+    "/out:zlibstatic-ngd.lib",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
+    "CMakeFiles\\zlib.dir\\adler32.c.obj",
+    "CMakeFiles\\zlib.dir\\compress.c.obj",
+    "CMakeFiles\\zlib.dir\\crc32.c.obj",
+    "CMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_fast.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_huff.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_medium.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_quick.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_rle.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_slow.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_stored.c.obj",
+    "CMakeFiles\\zlib.dir\\functable.c.obj",
+    "CMakeFiles\\zlib.dir\\infback.c.obj",
+    "CMakeFiles\\zlib.dir\\inflate.c.obj",
+    "CMakeFiles\\zlib.dir\\inftrees.c.obj",
+    "CMakeFiles\\zlib.dir\\insert_string.c.obj",
+    "CMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
+    "CMakeFiles\\zlib.dir\\trees.c.obj",
+    "CMakeFiles\\zlib.dir\\uncompr.c.obj",
+    "CMakeFiles\\zlib.dir\\zutil.c.obj",
+    "CMakeFiles\\zlib.dir\\cpu_features.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\compare256_sse2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\crc32_vpclmulqdq.c.obj",
+    "CMakeFiles\\zlib.dir\\gzlib.c.obj",
+    "CMakeFiles\\zlib.dir\\gzread.c.obj",
+    "CMakeFiles\\zlib.dir\\gzwrite.c.obj"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/out:zlibstatic-ngd.lib",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
+    "CMakeFiles\\zlib.dir\\adler32.c.obj",
+    "CMakeFiles\\zlib.dir\\compress.c.obj",
+    "CMakeFiles\\zlib.dir\\crc32.c.obj",
+    "CMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_fast.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_huff.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_medium.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_quick.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_rle.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_slow.c.obj",
+    "CMakeFiles\\zlib.dir\\deflate_stored.c.obj",
+    "CMakeFiles\\zlib.dir\\functable.c.obj",
+    "CMakeFiles\\zlib.dir\\infback.c.obj",
+    "CMakeFiles\\zlib.dir\\inflate.c.obj",
+    "CMakeFiles\\zlib.dir\\inftrees.c.obj",
+    "CMakeFiles\\zlib.dir\\insert_string.c.obj",
+    "CMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
+    "CMakeFiles\\zlib.dir\\trees.c.obj",
+    "CMakeFiles\\zlib.dir\\uncompr.c.obj",
+    "CMakeFiles\\zlib.dir\\zutil.c.obj",
+    "CMakeFiles\\zlib.dir\\cpu_features.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\compare256_sse2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx2.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
+    "CMakeFiles\\zlib.dir\\arch\\x86\\crc32_vpclmulqdq.c.obj",
+    "CMakeFiles\\zlib.dir\\gzlib.c.obj",
+    "CMakeFiles\\zlib.dir\\gzread.c.obj",
+    "CMakeFiles\\zlib.dir\\gzwrite.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-a729133d9b4c190e\\rustc6hkYPW\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400bf020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400bf298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400bf2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400bf300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400bf320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400bf338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400bf348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400bf358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400bf3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400bf408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400bf418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400bf448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400bf460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-4388-1783961928111297900.map",
+  "pid": 4388,
+  "ppid": 12496,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-4388-1783961928111297900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bf2b3.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_bf2b3.exe",
+    "/implib:cmTC_bf2b3.lib",
+    "/pdb:cmTC_bf2b3.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bf2b3.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bf2b3.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18088-1783961929534159400.map",
+  "pid": 18088,
+  "ppid": 13872,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18088-1783961929534159400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bf2b3.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_bf2b3.exe",
+    "/implib:cmTC_bf2b3.lib",
+    "/pdb:cmTC_bf2b3.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bf2b3.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bf2b3.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4msnk\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-760-1783961929763644400.map",
+  "pid": 760,
+  "ppid": 13872,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-760-1783961929763644400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_eb954.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_eb954.exe",
+    "/implib:cmTC_eb954.lib",
+    "/pdb:cmTC_eb954.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_eb954.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_eb954.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20216-1783961931559220300.map",
+  "pid": 20216,
+  "ppid": 11328,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20216-1783961931559220300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_eb954.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_eb954.exe",
+    "/implib:cmTC_eb954.lib",
+    "/pdb:cmTC_eb954.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_eb954.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_eb954.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6bn9y8\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-12824-1783961931714211200.map",
+  "pid": 12824,
+  "ppid": 11328,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-12824-1783961931714211200.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_16f17.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_16f17.exe",
+    "/implib:cmTC_16f17.lib",
+    "/pdb:cmTC_16f17.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_16f17.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_16f17.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15140-1783961932186332500.map",
+  "pid": 15140,
+  "ppid": 12944,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15140-1783961932186332500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_16f17.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_16f17.exe",
+    "/implib:cmTC_16f17.lib",
+    "/pdb:cmTC_16f17.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_16f17.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_16f17.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d3iatf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18992-1783961932334355000.map",
+  "pid": 18992,
+  "ppid": 12944,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18992-1783961932334355000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d11f1.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_d11f1.exe",
+    "/implib:cmTC_d11f1.lib",
+    "/pdb:cmTC_d11f1.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d11f1.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d11f1.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-6784-1783961932802762400.map",
+  "pid": 6784,
+  "ppid": 1732,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-6784-1783961932802762400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d11f1.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_d11f1.exe",
+    "/implib:cmTC_d11f1.lib",
+    "/pdb:cmTC_d11f1.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d11f1.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d11f1.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kq2b3x\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-8052-1783961932967124600.map",
+  "pid": 8052,
+  "ppid": 1732,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-8052-1783961932967124600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_5688c.dir\\CheckFunctionExists.c.obj",
+    "/out:cmTC_5688c.exe",
+    "/implib:cmTC_5688c.lib",
+    "/pdb:cmTC_5688c.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_5688c.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_5688c.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000310       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000310       \\177ucrtbased_NULL_THUNK_DATA 000000014000e310     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-16848-1783961935050913800.map",
+  "pid": 16848,
+  "ppid": 18680,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-16848-1783961935050913800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_5688c.dir\\CheckFunctionExists.c.obj",
+    "/out:cmTC_5688c.exe",
+    "/implib:cmTC_5688c.lib",
+    "/pdb:cmTC_5688c.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_5688c.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_5688c.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000310       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tra9op\\0005:00000310       \\177ucrtbased_NULL_THUNK_DATA 000000014000e310     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20004-1783961935221924900.map",
+  "pid": 20004,
+  "ppid": 18680,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20004-1783961935221924900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e1da8.dir\\src.c.obj",
+    "/out:cmTC_e1da8.exe",
+    "/implib:cmTC_e1da8.lib",
+    "/pdb:cmTC_e1da8.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e1da8.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e1da8.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-6264-1783961936234616800.map",
+  "pid": 6264,
+  "ppid": 16464,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-6264-1783961936234616800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e1da8.dir\\src.c.obj",
+    "/out:cmTC_e1da8.exe",
+    "/implib:cmTC_e1da8.lib",
+    "/pdb:cmTC_e1da8.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e1da8.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e1da8.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nyomum\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15864-1783961936395170300.map",
+  "pid": 15864,
+  "ppid": 16464,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15864-1783961936395170300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bfe35.dir\\src.c.obj",
+    "/out:cmTC_bfe35.exe",
+    "/implib:cmTC_bfe35.lib",
+    "/pdb:cmTC_bfe35.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bfe35.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bfe35.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-14500-1783961937658157300.map",
+  "pid": 14500,
+  "ppid": 16064,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-14500-1783961937658157300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bfe35.dir\\src.c.obj",
+    "/out:cmTC_bfe35.exe",
+    "/implib:cmTC_bfe35.lib",
+    "/pdb:cmTC_bfe35.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bfe35.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bfe35.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zwth1l\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20316-1783961937816089600.map",
+  "pid": 20316,
+  "ppid": 16064,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20316-1783961937816089600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bb357.dir\\src.c.obj",
+    "/out:cmTC_bb357.exe",
+    "/implib:cmTC_bb357.lib",
+    "/pdb:cmTC_bb357.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bb357.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bb357.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-21088-1783961939186740000.map",
+  "pid": 21088,
+  "ppid": 15752,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-21088-1783961939186740000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bb357.dir\\src.c.obj",
+    "/out:cmTC_bb357.exe",
+    "/implib:cmTC_bb357.lib",
+    "/pdb:cmTC_bb357.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bb357.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bb357.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-69g8tx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17016-1783961939356767300.map",
+  "pid": 17016,
+  "ppid": 15752,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17016-1783961939356767300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_cca60.dir\\src.c.obj",
+    "/out:cmTC_cca60.exe",
+    "/implib:cmTC_cca60.lib",
+    "/pdb:cmTC_cca60.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_cca60.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_cca60.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20612-1783961939842160300.map",
+  "pid": 20612,
+  "ppid": 19376,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-20612-1783961939842160300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_cca60.dir\\src.c.obj",
+    "/out:cmTC_cca60.exe",
+    "/implib:cmTC_cca60.lib",
+    "/pdb:cmTC_cca60.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_cca60.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_cca60.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gw44mf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17916-1783961939993567000.map",
+  "pid": 17916,
+  "ppid": 19376,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17916-1783961939993567000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_90479.dir\\src.c.obj",
+    "/out:cmTC_90479.exe",
+    "/implib:cmTC_90479.lib",
+    "/pdb:cmTC_90479.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_90479.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_90479.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-21388-1783961940481747900.map",
+  "pid": 21388,
+  "ppid": 19092,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-21388-1783961940481747900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_90479.dir\\src.c.obj",
+    "/out:cmTC_90479.exe",
+    "/implib:cmTC_90479.lib",
+    "/pdb:cmTC_90479.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_90479.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_90479.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-keuaak\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18628-1783961940646916400.map",
+  "pid": 18628,
+  "ppid": 19092,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18628-1783961940646916400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_daab8.dir\\src.c.obj",
+    "/out:cmTC_daab8.exe",
+    "/implib:cmTC_daab8.lib",
+    "/pdb:cmTC_daab8.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_daab8.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_daab8.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17300-1783961941128123100.map",
+  "pid": 17300,
+  "ppid": 18464,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17300-1783961941128123100.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_daab8.dir\\src.c.obj",
+    "/out:cmTC_daab8.exe",
+    "/implib:cmTC_daab8.lib",
+    "/pdb:cmTC_daab8.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_daab8.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_daab8.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r06zd9\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-9840-1783961941287000700.map",
+  "pid": 9840,
+  "ppid": 18464,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-9840-1783961941287000700.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_9772c.dir\\src.c.obj",
+    "/out:cmTC_9772c.exe",
+    "/implib:cmTC_9772c.lib",
+    "/pdb:cmTC_9772c.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_9772c.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_9772c.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15476-1783961941765040800.map",
+  "pid": 15476,
+  "ppid": 15352,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15476-1783961941765040800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_9772c.dir\\src.c.obj",
+    "/out:cmTC_9772c.exe",
+    "/implib:cmTC_9772c.lib",
+    "/pdb:cmTC_9772c.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_9772c.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_9772c.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g26xn6\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18692-1783961941918800900.map",
+  "pid": 18692,
+  "ppid": 15352,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-18692-1783961941918800900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_98301.dir\\src.c.obj",
+    "/out:cmTC_98301.exe",
+    "/implib:cmTC_98301.lib",
+    "/pdb:cmTC_98301.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_98301.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_98301.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-11028-1783961942403796600.map",
+  "pid": 11028,
+  "ppid": 16552,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-11028-1783961942403796600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_98301.dir\\src.c.obj",
+    "/out:cmTC_98301.exe",
+    "/implib:cmTC_98301.lib",
+    "/pdb:cmTC_98301.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_98301.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_98301.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nblunx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-21464-1783961942557116800.map",
+  "pid": 21464,
+  "ppid": 16552,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-21464-1783961942557116800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bbb94.dir\\src.c.obj",
+    "/out:cmTC_bbb94.exe",
+    "/implib:cmTC_bbb94.lib",
+    "/pdb:cmTC_bbb94.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bbb94.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bbb94.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-19756-1783961943044679500.map",
+  "pid": 19756,
+  "ppid": 3448,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-19756-1783961943044679500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_bbb94.dir\\src.c.obj",
+    "/out:cmTC_bbb94.exe",
+    "/implib:cmTC_bbb94.lib",
+    "/pdb:cmTC_bbb94.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_bbb94.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_bbb94.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x4w06c\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-4524-1783961943207974800.map",
+  "pid": 4524,
+  "ppid": 3448,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-4524-1783961943207974800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_330da.dir\\src.c.obj",
+    "/out:cmTC_330da.exe",
+    "/implib:cmTC_330da.lib",
+    "/pdb:cmTC_330da.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_330da.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_330da.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17608-1783961943709600600.map",
+  "pid": 17608,
+  "ppid": 20904,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-17608-1783961943709600600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_330da.dir\\src.c.obj",
+    "/out:cmTC_330da.exe",
+    "/implib:cmTC_330da.lib",
+    "/pdb:cmTC_330da.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_330da.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_330da.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uixig6\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15584-1783961943872585900.map",
+  "pid": 15584,
+  "ppid": 20904,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-15584-1783961943872585900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e4207.dir\\src.c.obj",
+    "/out:cmTC_e4207.exe",
+    "/implib:cmTC_e4207.lib",
+    "/pdb:cmTC_e4207.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e4207.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e4207.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-14316-1783961944371087000.map",
+  "pid": 14316,
+  "ppid": 20292,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-14316-1783961944371087000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e4207.dir\\src.c.obj",
+    "/out:cmTC_e4207.exe",
+    "/implib:cmTC_e4207.lib",
+    "/pdb:cmTC_e4207.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e4207.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e4207.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n7ile\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-13272-1783961944527420600.map",
+  "pid": 13272,
+  "ppid": 20292,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-13272-1783961944527420600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d4796.dir\\src.c.obj",
+    "/out:cmTC_d4796.exe",
+    "/implib:cmTC_d4796.lib",
+    "/pdb:cmTC_d4796.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d4796.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d4796.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-16092-1783961945005805700.map",
+  "pid": 16092,
+  "ppid": 6256,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-16092-1783961945005805700.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_d4796.dir\\src.c.obj",
+    "/out:cmTC_d4796.exe",
+    "/implib:cmTC_d4796.lib",
+    "/pdb:cmTC_d4796.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_d4796.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_d4796.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ssovyx\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-19652-1783961945159589500.map",
+  "pid": 19652,
+  "ppid": 6256,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-link-link-19652-1783961945159589500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -116,18 +11865,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate_quick.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_quick.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\chunkset_c.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate_quick.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_quick.c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\chunkset_c.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -183,18 +11932,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate_stored.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\deflate_slow.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_stored.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_slow.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate_stored.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_stored.c",
+  "output": "CMakeFiles\\zlib.dir\\deflate_slow.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_slow.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -208,1282 +11957,6 @@ _None._
 ```
 
 #### Record 3
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate_rle.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_rle.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate_rle.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_rle.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_ssse3.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_ssse3.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_c.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_c.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_braid_c.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_braid_c.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\x86_features.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\x86_features.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/arch:AVX512",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512_vnni.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512_vnni.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\crc32.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\crc32.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\insert_string.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\insert_string.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\inflate.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inflate.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\inflate.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inflate.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/arch:AVX512",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx512.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx512.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 14
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string_roll.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string_roll.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 15
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 16
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate_medium.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_medium.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate_medium.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_medium.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\gzlib.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzlib.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\gzlib.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzlib.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 18
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_fold_c.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_fold_c.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_sse42.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_sse42.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 20
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/arch:AVX2",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_avx2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_avx2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_ssse3.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_ssse3.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 22
 
 ```json
 {
@@ -1551,7 +12024,679 @@ _None._
 }
 ```
 
-#### Record 23
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX512",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx512.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx512.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx512.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\gzread.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\gzread.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\gzread.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\gzread.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX2",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_pclmulqdq.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_pclmulqdq.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\gzwrite.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzwrite.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\gzwrite.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzwrite.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\crc32.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\crc32.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_sse2.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_medium.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_medium.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\deflate_medium.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_medium.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\trees.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\trees.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\trees.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\trees.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_braid_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_braid_c.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_braid_c.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
 
 ```json
 {
@@ -1618,6 +12763,610 @@ _None._
 }
 ```
 
+#### Record 15
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\slide_hash_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\slide_hash_c.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\compare256_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\compare256_c.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\x86_features.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\x86_features.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\x86_features.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\deflate.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_stored.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_stored.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\deflate_stored.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_stored.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_fold_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_fold_c.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX2",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_avx2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_avx2.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_avx2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string_roll.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\insert_string_roll.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string_roll.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\inftrees.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inftrees.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\inftrees.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inftrees.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 24
 
 ```json
@@ -1661,18 +13410,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\gzwrite.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\adler32.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzwrite.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\adler32.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\gzwrite.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzwrite.c",
+  "output": "CMakeFiles\\zlib.dir\\adler32.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\adler32.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1795,18 +13544,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\cpu_features.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\deflate_fast.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\cpu_features.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_fast.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\cpu_features.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\cpu_features.c",
+  "output": "CMakeFiles\\zlib.dir\\deflate_fast.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_fast.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1820,745 +13569,6 @@ _None._
 ```
 
 #### Record 27
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\compare256_c.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\compare256_c.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\compare256_c.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 28
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate_huff.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_huff.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate_huff.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_huff.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 29
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\adler32.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\adler32.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\adler32.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\adler32.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 30
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\trees.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\trees.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\trees.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\trees.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 31
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\gzread.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\gzread.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\gzread.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build\\gzread.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 32
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/arch:AVX2",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_avx2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_avx2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 33
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\functable.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\functable.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\functable.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\functable.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 34
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32_braid_comb.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32_braid_comb.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 35
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/arch:AVX2",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_avx2.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_avx2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 36
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_fold_c.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_fold_c.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_fold_c.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 37
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\uncompr.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\uncompr.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\uncompr.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\uncompr.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 38
 
 ```json
 {
@@ -2626,7 +13636,7 @@ _None._
 }
 ```
 
-#### Record 39
+#### Record 28
 
 ```json
 {
@@ -2669,18 +13679,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\insert_string.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate.c",
+  "output": "CMakeFiles\\zlib.dir\\insert_string.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\insert_string.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -2693,208 +13703,7 @@ _None._
 }
 ```
 
-#### Record 40
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\chunkset_c.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\chunkset_c.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\chunkset_c.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 41
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\compress.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\compress.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\compress.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\compress.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 42
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
-    "/nologo",
-    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
-    "-DNO_FSEEKO",
-    "-DWITH_GZFILEOP",
-    "-DX86_AVX2",
-    "-DX86_AVX512",
-    "-DX86_AVX512VNNI",
-    "-DX86_FEATURES",
-    "-DX86_HAVE_XSAVE_INTRIN",
-    "-DX86_PCLMULQDQ_CRC",
-    "-DX86_SSE2",
-    "-DX86_SSE42",
-    "-DX86_SSSE3",
-    "-DX86_VPCLMULQDQ_CRC",
-    "-DZLIBNG_NATIVE_API",
-    "-D_CRT_NONSTDC_NO_DEPRECATE",
-    "-D_CRT_SECURE_NO_DEPRECATE",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
-    "-nologo",
-    "-MD",
-    "-Brepro",
-    "/utf-8",
-    "/Ob0",
-    "/Od",
-    "/RTC1",
-    "-std:c11",
-    "-MDd",
-    "-Zi",
-    "/W3",
-    "/w34242",
-    "/WX",
-    "/wd4206",
-    "/wd4054",
-    "/wd4324",
-    "-DZLIB_DEBUG",
-    "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
-    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
-    "/FS",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\slide_hash_c.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\slide_hash_c.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\slide_hash_c.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libz-ng-sys",
-    "version": "1.1.22",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 43
+#### Record 29
 
 ```json
 {
@@ -2961,7 +13770,7 @@ _None._
 }
 ```
 
-#### Record 44
+#### Record 30
 
 ```json
 {
@@ -3004,18 +13813,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\inftrees.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\inflate.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inftrees.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inflate.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\inftrees.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inftrees.c",
+  "output": "CMakeFiles\\zlib.dir\\inflate.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\inflate.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3028,7 +13837,276 @@ _None._
 }
 ```
 
-#### Record 45
+#### Record 31
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\slide_hash_sse2.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\slide_hash_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\uncompr.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\uncompr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\uncompr.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\uncompr.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_ssse3.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_ssse3.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_ssse3.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX512",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512_vnni.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_avx512_vnni.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_avx512_vnni.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
 
 ```json
 {
@@ -3096,6 +14174,677 @@ _None._
 }
 ```
 
+#### Record 36
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\gzlib.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzlib.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\gzlib.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\gzlib.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_quick.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_quick.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\deflate_quick.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_quick.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_ssse3.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\chunkset_ssse3.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\chunkset_ssse3.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/arch:AVX2",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_avx2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\compare256_avx2.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\compare256_avx2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_rle.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_rle.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\deflate_rle.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_rle.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_sse42.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\adler32_sse42.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\adler32_sse42.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\deflate_huff.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_huff.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\deflate_huff.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_huff.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\cpu_features.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\cpu_features.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\cpu_features.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\cpu_features.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_fold_c.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\crc32_fold_c.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\crc32_fold_c.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\.tmp\\native-trace-15452-1783961926524\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_BUILTIN_ASSUME_ALIGNED",
+    "-DNO_FSEEKO",
+    "-DWITH_GZFILEOP",
+    "-DX86_AVX2",
+    "-DX86_AVX512",
+    "-DX86_AVX512VNNI",
+    "-DX86_FEATURES",
+    "-DX86_HAVE_XSAVE_INTRIN",
+    "-DX86_PCLMULQDQ_CRC",
+    "-DX86_SSE2",
+    "-DX86_SSE42",
+    "-DX86_SSSE3",
+    "-DX86_VPCLMULQDQ_CRC",
+    "-DZLIBNG_NATIVE_API",
+    "-D_CRT_NONSTDC_NO_DEPRECATE",
+    "-D_CRT_SECURE_NO_DEPRECATE",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "/utf-8",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-std:c11",
+    "-MDd",
+    "-Zi",
+    "/W3",
+    "/w34242",
+    "/WX",
+    "/wd4206",
+    "/wd4054",
+    "/wd4324",
+    "-DZLIB_DEBUG",
+    "/showIncludes",
+    "/FoCMakeFiles\\zlib.dir\\compress.c.obj",
+    "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "CMakeFiles\\zlib.dir\\compress.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\compress.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libz-ng-sys",
+    "version": "1.1.22",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22#libz-ng-sys@1.1.22",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 46
 
 ```json
@@ -3139,18 +14888,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_pclmulqdq.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_c.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\arch\\x86\\crc32_pclmulqdq.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\x86\\crc32_pclmulqdq.c",
+  "output": "CMakeFiles\\zlib.dir\\arch\\generic\\adler32_c.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\arch\\generic\\adler32_c.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3206,18 +14955,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate_slow.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\functable.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_slow.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\functable.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate_slow.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_slow.c",
+  "output": "CMakeFiles\\zlib.dir\\functable.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\functable.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3273,18 +15022,18 @@ _None._
     "/wd4324",
     "-DZLIB_DEBUG",
     "/showIncludes",
-    "/FoCMakeFiles\\zlib.dir\\deflate_fast.c.obj",
+    "/FoCMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
     "/FdCMakeFiles\\zlib.dir\\zlib.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_fast.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32_braid_comb.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\target\\debug\\build\\libz-ng-sys-49b708f297538d88\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\zlib.dir\\deflate_fast.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\deflate_fast.c",
+  "output": "CMakeFiles\\zlib.dir\\crc32_braid_comb.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-w9f2kzpt\\src\\libz-ng-sys-1.1.22\\src\\zlib-ng\\crc32_braid_comb.c",
   "success": true,
   "tool": "cl",
   "_owner": {

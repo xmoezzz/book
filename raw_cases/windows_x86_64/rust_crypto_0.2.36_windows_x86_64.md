@@ -4,6 +4,412 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\.tmp\\native-trace-20344-1783961363494\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\rustc0xxFBO\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.2upwx9lbdrv0svki0rd50q0si.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.4emb8bfapgw73coi5p6wxyrz0.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.6ht855yjltfeqrdojni499izr.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.6npvpesdlmfytirmi7t9jcywf.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.824gt1t3jnxbq5vcqf1lu9fj3.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8k0bislc35pq8t2hjary4x67x.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8m805nc9126m72v8sd607wv4k.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.9i8p4f0tha9r80xl8avdepzfd.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.9tyondos0xacqzivi319erysx.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.aqbmjifi2w6zzt2ofoh4lkuqf.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.av4ah5ebbtte4gh5u1y3pbpy6.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.c6z7ggrnnuj3v2tl0nlqfpm3u.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.dfyg8jag1yp82500v3hr4a5lg.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8eu6p6dvztxrj1w7vsknzargb.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\deps\\libgcc-22a20215e7325720.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\rustc0xxFBO\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.2upwx9lbdrv0svki0rd50q0si.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.4emb8bfapgw73coi5p6wxyrz0.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.6ht855yjltfeqrdojni499izr.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.6npvpesdlmfytirmi7t9jcywf.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.824gt1t3jnxbq5vcqf1lu9fj3.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8k0bislc35pq8t2hjary4x67x.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8m805nc9126m72v8sd607wv4k.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.9i8p4f0tha9r80xl8avdepzfd.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.9tyondos0xacqzivi319erysx.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.aqbmjifi2w6zzt2ofoh4lkuqf.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.av4ah5ebbtte4gh5u1y3pbpy6.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.c6z7ggrnnuj3v2tl0nlqfpm3u.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.dfyg8jag1yp82500v3hr4a5lg.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8eu6p6dvztxrj1w7vsknzargb.02u51x4.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "rust-crypto",
+    "version": "0.2.36",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tgnjxog_/src/rust-crypto-0.2.36#rust-crypto@0.2.36",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tgnjxog_/src/rust-crypto-0.2.36",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\.tmp\\native-trace-20344-1783961363494\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\rustc0xxFBO\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.2upwx9lbdrv0svki0rd50q0si.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.4emb8bfapgw73coi5p6wxyrz0.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.6ht855yjltfeqrdojni499izr.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.6npvpesdlmfytirmi7t9jcywf.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.824gt1t3jnxbq5vcqf1lu9fj3.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8k0bislc35pq8t2hjary4x67x.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8m805nc9126m72v8sd607wv4k.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.9i8p4f0tha9r80xl8avdepzfd.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.9tyondos0xacqzivi319erysx.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.aqbmjifi2w6zzt2ofoh4lkuqf.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.av4ah5ebbtte4gh5u1y3pbpy6.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.c6z7ggrnnuj3v2tl0nlqfpm3u.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.dfyg8jag1yp82500v3hr4a5lg.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.8eu6p6dvztxrj1w7vsknzargb.02u51x4.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\deps\\libgcc-22a20215e7325720.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-580380dcf4ac1a90\\build_script_build-580380dcf4ac1a90.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000280       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000002e8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000308       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000330       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000340       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000003d8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000420       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000438       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 0000000140070020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000280       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000280       \\177KERNEL32_NULL_THUNK_DATA 0000000140070280     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000298       \\177OLEAUT32_NULL_THUNK_DATA 0000000140070298     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000002e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000002e8       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400702e8     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000308       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140070308     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000320       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000140070320     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000330       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000330       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 0000000140070330     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000340       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000340       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 0000000140070340     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000003d8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000003d8       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400703d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:000003f0       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400703f0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000420       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000420       \\177ntdll_NULL_THUNK_DATA  0000000140070420     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000438       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\0002:00000438       \\177ole32_NULL_THUNK_DATA  0000000140070438     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\.tmp\\native-trace-link-link-14952-1783961365212132600.map",
+  "pid": 14952,
+  "ppid": 10368,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\.tmp\\native-trace-link-link-14952-1783961365212132600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "rust-crypto",
+    "version": "0.2.36",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tgnjxog_/src/rust-crypto-0.2.36#rust-crypto@0.2.36",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tgnjxog_/src/rust-crypto-0.2.36",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\.tmp\\native-trace-20344-1783961363494\\shims\\lib.exe",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-c0be18d3a93af500\\out\\lib_rust_crypto_helpers.a",
+    "/nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-c0be18d3a93af500\\out\\src/util_helpers.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-c0be18d3a93af500\\out\\src/aesni_helpers.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36",
+  "exit_code": 0,
+  "inputs": [
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-c0be18d3a93af500\\out\\lib_rust_crypto_helpers.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-c0be18d3a93af500\\out\\src/util_helpers.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tgnjxog_\\src\\rust-crypto-0.2.36\\target\\debug\\build\\rust-crypto-c0be18d3a93af500\\out\\src/aesni_helpers.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "rust-crypto",
+    "version": "0.2.36",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tgnjxog_/src/rust-crypto-0.2.36#rust-crypto@0.2.36",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tgnjxog_/src/rust-crypto-0.2.36",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

@@ -4,6 +4,48 @@ Platform: Linux aarch64
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-aarch64-959zsodz/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
 ### pkg-config / pkgconf
 
 Working directory: `/target/aarch64-unknown-linux-gnu/debug/build/rdkafka-sys-7133559545dcb492/out`

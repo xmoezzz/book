@@ -4,6 +4,18 @@ Platform: Windows x86_64
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-q1p319p7/src/curl-sys-0.4.72+curl-8.6.0`
+
+```text
+git submodule update --init curl
+```
+
+Acquisition kind: `git_submodule`
+
+Outcome: failed (exit code 128)
+
 ### Other root-owned linker native-library inputs
 
 #### Linker process 2008

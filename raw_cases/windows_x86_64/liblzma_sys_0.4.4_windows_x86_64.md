@@ -4,6 +4,5085 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\.tmp\\native-trace-16760-1783954894077\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-3e9cb7f6c6b04397\\rustcBBjIYO\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-3e9cb7f6c6b04397\\rustcBBjIYO\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9011288696678785366detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9011288696678785366detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder_memusage.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_encoder_memusage.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder_memusage.o",
+    "xz/src/liblzma/common\\easy_encoder_memusage.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_decoder_memusage.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
+    "xz/src/liblzma/common\\easy_decoder_memusage.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_buffer_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_buffer_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_buffer_encoder.o",
+    "xz/src/liblzma/common\\easy_buffer_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
+    "xz/src/liblzma/common\\easy_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_preset.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
+    "xz/src/liblzma/common\\easy_preset.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\auto_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
+    "xz/src/liblzma/common\\auto_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_buffer_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
+    "xz/src/liblzma/common\\block_buffer_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_buffer_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
+    "xz/src/liblzma/common\\filter_buffer_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_header_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
+    "xz/src/liblzma/common\\block_header_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_header_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
+    "xz/src/liblzma/common\\block_header_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
+    "-c",
+    "xz/src/liblzma/check\\check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
+    "xz/src/liblzma/check\\check.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
+    "-c",
+    "xz/src/liblzma/common\\block_util.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
+    "xz/src/liblzma/common\\block_util.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\alone_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
+    "xz/src/liblzma/common\\alone_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_buffer_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
+    "xz/src/liblzma/common\\block_buffer_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
+    "-c",
+    "xz/src/liblzma/check\\crc32_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
+    "xz/src/liblzma/check\\crc32_fast.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
+    "-c",
+    "xz/src/liblzma/common\\common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
+    "xz/src/liblzma/common\\common.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
+    "xz/src/liblzma/common\\block_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
+    "-c",
+    "xz/src/liblzma/common\\file_info.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
+    "xz/src/liblzma/common\\file_info.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\alone_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
+    "xz/src/liblzma/common\\alone_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
+    "-c",
+    "xz/src/common/tuklib_physmem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
+    "xz/src/common/tuklib_physmem.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
+    "xz/src/liblzma/common\\block_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
+    "-c",
+    "xz/src/liblzma/check\\sha256.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
+    "xz/src/liblzma/check\\sha256.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
+    "-c",
+    "xz/src/common/tuklib_cpucores.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
+    "xz/src/common/tuklib_cpucores.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
+    "-c",
+    "xz/src/liblzma/check\\crc64_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
+    "xz/src/liblzma/check\\crc64_fast.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_buffer_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
+    "xz/src/liblzma/common\\filter_buffer_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
+    "xz/src/liblzma/common\\filter_common.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_flags_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_decoder.o",
+    "xz/src/liblzma/common\\filter_flags_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_flags_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
+    "xz/src/liblzma/common\\filter_flags_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
+    "-c",
+    "xz/src/liblzma/common\\hardware_physmem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
+    "xz/src/liblzma/common\\hardware_physmem.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
+    "-c",
+    "xz/src/liblzma/common\\hardware_cputhreads.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
+    "xz/src/liblzma/common\\hardware_cputhreads.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
+    "xz/src/liblzma/common\\filter_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
+    "xz/src/liblzma/common\\filter_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\lzip_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
+    "xz/src/liblzma/common\\lzip_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
+    "-c",
+    "xz/src/liblzma/common\\index_hash.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
+    "xz/src/liblzma/common\\index_hash.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\index_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
+    "xz/src/liblzma/common\\index_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
+    "-c",
+    "xz/src/liblzma/common\\index.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
+    "xz/src/liblzma/common\\index.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_buffer_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
+    "xz/src/liblzma/common\\stream_buffer_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\vli_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
+    "xz/src/liblzma/common\\vli_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\microlzma_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
+    "xz/src/liblzma/common\\microlzma_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_encoder.o",
+    "xz/src/liblzma/common\\stream_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\index_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
+    "xz/src/liblzma/common\\index_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\microlzma_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
+    "xz/src/liblzma/common\\microlzma_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
+    "-c",
+    "xz/src/liblzma/common\\outqueue.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
+    "xz/src/liblzma/common\\outqueue.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_flags_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
+    "xz/src/liblzma/common\\stream_flags_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_flags_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
+    "xz/src/liblzma/common\\stream_flags_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
+    "-c",
+    "xz/src/liblzma/common\\string_conversion.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
+    "xz/src/liblzma/common\\string_conversion.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_buffer_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
+    "xz/src/liblzma/common\\stream_buffer_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\vli_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
+    "xz/src/liblzma/common\\vli_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
+    "xz/src/liblzma/common\\stream_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
+    "-c",
+    "xz/src/liblzma/common\\vli_size.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
+    "xz/src/liblzma/common\\vli_size.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma2_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
+    "xz/src/liblzma/lzma\\lzma2_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
+    "-c",
+    "xz/src/liblzma/lz\\lz_encoder_mf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
+    "xz/src/liblzma/lz\\lz_encoder_mf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
+    "-c",
+    "xz/src/liblzma/lzma\\fastpos_table.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
+    "xz/src/liblzma/lzma\\fastpos_table.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
+    "-c",
+    "xz/src/liblzma/lz\\lz_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
+    "xz/src/liblzma/lz\\lz_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
+    "-c",
+    "xz/src/liblzma/lz\\lz_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
+    "xz/src/liblzma/lz\\lz_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
+    "-c",
+    "xz/src/liblzma/delta\\delta_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
+    "xz/src/liblzma/delta\\delta_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
+    "-c",
+    "xz/src/liblzma/rangecoder\\price_table.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
+    "xz/src/liblzma/rangecoder\\price_table.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_encoder_presets.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
+    "xz/src/liblzma/lzma\\lzma_encoder_presets.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
+    "-c",
+    "xz/src/liblzma/delta\\delta_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
+    "xz/src/liblzma/delta\\delta_common.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_flags_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
+    "xz/src/liblzma/common\\stream_flags_common.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
+    "-c",
+    "xz/src/liblzma/delta\\delta_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
+    "xz/src/liblzma/delta\\delta_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
+    "xz/src/liblzma/lzma\\lzma_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_encoder_optimum_normal.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
+    "xz/src/liblzma/lzma\\lzma_encoder_optimum_normal.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
+    "xz/src/liblzma/lzma\\lzma_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma2_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
+    "xz/src/liblzma/lzma\\lzma2_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
+    "-c",
+    "xz/src/liblzma/simple\\riscv.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
+    "xz/src/liblzma/simple\\riscv.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
+    "-c",
+    "xz/src/liblzma/simple\\arm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
+    "xz/src/liblzma/simple\\arm.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_coder.o",
+    "-c",
+    "xz/src/liblzma/simple\\simple_coder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_coder.o",
+    "xz/src/liblzma/simple\\simple_coder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_encoder_optimum_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
+    "xz/src/liblzma/lzma\\lzma_encoder_optimum_fast.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
+    "-c",
+    "xz/src/liblzma/simple\\ia64.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
+    "xz/src/liblzma/simple\\ia64.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
+    "-c",
+    "xz/src/liblzma/simple\\arm64.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
+    "xz/src/liblzma/simple\\arm64.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
+    "-c",
+    "xz/src/liblzma/simple\\powerpc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
+    "xz/src/liblzma/simple\\powerpc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
+    "-c",
+    "xz/src/liblzma/simple\\sparc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
+    "xz/src/liblzma/simple\\sparc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
+    "-c",
+    "xz/src/liblzma/simple\\simple_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
+    "xz/src/liblzma/simple\\simple_decoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 77
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
+    "-c",
+    "xz/src/liblzma/simple\\armthumb.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
+    "xz/src/liblzma/simple\\armthumb.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 78
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
+    "-c",
+    "xz/src/liblzma/simple\\simple_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
+    "xz/src/liblzma/simple\\simple_encoder.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 79
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o",
+    "-c",
+    "xz/src/liblzma/simple\\x86.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o",
+    "xz/src/liblzma/simple\\x86.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\liblzma.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder_memusage.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_coder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder_memusage.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_coder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\liblzma.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\.tmp\\native-trace-16760-1783954894077\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-3e9cb7f6c6b04397\\rustcBBjIYO\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000360       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000380       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000398       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000003a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000003b8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000450       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000468       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000478       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000004a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000004c0       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 0000000140103020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000002f8       \\177KERNEL32_NULL_THUNK_DATA 00000001401032f8     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000310       \\177OLEAUT32_NULL_THUNK_DATA 0000000140103310     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000360       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000360       \\177VCRUNTIME140_NULL_THUNK_DATA 0000000140103360     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000380       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000380       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140103380     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000398       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000398       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000140103398     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000003a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000003a8       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001401033a8     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000003b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000003b8       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001401033b8     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000450       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000140103450     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000468       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000140103468     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000478       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:00000478       \\177bcryptprimitives_NULL_THUNK_DATA 0000000140103478     libgetrandom-9aaa648ef222dd01:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000004a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000004a8       \\177ntdll_NULL_THUNK_DATA  00000001401034a8     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000004c0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\0002:000004c0       \\177ole32_NULL_THUNK_DATA  00000001401034c0     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\.tmp\\native-trace-link-link-19908-1783954896219795300.map",
+  "pid": 19908,
+  "ppid": 1444,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\.tmp\\native-trace-link-link-19908-1783954896219795300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -134,16 +5213,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
     "-c",
-    "xz/src/liblzma/common\\file_info.c"
+    "xz/src/liblzma/common\\block_header_encoder.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
-  "src": "xz/src/liblzma/common\\file_info.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
+  "src": "xz/src/liblzma/common\\block_header_encoder.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -157,1626 +5236,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
-    "-c",
-    "xz/src/liblzma/lzma\\lzma_encoder_presets.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
-  "src": "xz/src/liblzma/lzma\\lzma_encoder_presets.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\block_buffer_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
-  "src": "xz/src/liblzma/common\\block_buffer_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
-    "-c",
-    "xz/src/liblzma/lzma\\lzma2_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
-  "src": "xz/src/liblzma/lzma\\lzma2_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
-    "-c",
-    "xz/src/liblzma/check\\crc64_fast.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
-  "src": "xz/src/liblzma/check\\crc64_fast.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\lzip_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
-  "src": "xz/src/liblzma/common\\lzip_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
-    "-c",
-    "xz/src/liblzma/common\\easy_preset.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
-  "src": "xz/src/liblzma/common\\easy_preset.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\vli_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
-  "src": "xz/src/liblzma/common\\vli_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\stream_buffer_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
-  "src": "xz/src/liblzma/common\\stream_buffer_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
-    "-c",
-    "xz/src/liblzma/common\\string_conversion.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
-  "src": "xz/src/liblzma/common\\string_conversion.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
-    "-c",
-    "xz/src/liblzma/common\\hardware_physmem.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
-  "src": "xz/src/liblzma/common\\hardware_physmem.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
-    "-c",
-    "xz/src/common/tuklib_cpucores.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
-  "src": "xz/src/common/tuklib_cpucores.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
-    "-c",
-    "xz/src/liblzma/simple\\simple_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
-  "src": "xz/src/liblzma/simple\\simple_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 14
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
-    "-c",
-    "xz/src/liblzma/simple\\arm64.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
-  "src": "xz/src/liblzma/simple\\arm64.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 15
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
-    "-c",
-    "xz/src/liblzma/lzma\\lzma_encoder_optimum_fast.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
-  "src": "xz/src/liblzma/lzma\\lzma_encoder_optimum_fast.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 16
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
-    "-c",
-    "xz/src/liblzma/lzma\\lzma_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
-  "src": "xz/src/liblzma/lzma\\lzma_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\easy_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
-  "src": "xz/src/liblzma/common\\easy_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 18
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
-    "-c",
-    "xz/src/liblzma/common\\stream_flags_common.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
-  "src": "xz/src/liblzma/common\\stream_flags_common.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
-    "-c",
-    "xz/src/liblzma/lz\\lz_encoder_mf.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
-  "src": "xz/src/liblzma/lz\\lz_encoder_mf.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 20
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
-    "-c",
-    "xz/src/liblzma/delta\\delta_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
-  "src": "xz/src/liblzma/delta\\delta_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
-    "-c",
-    "xz/src/liblzma/lzma\\lzma_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
-  "src": "xz/src/liblzma/lzma\\lzma_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 22
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
-    "-c",
-    "xz/src/liblzma/simple\\riscv.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
-  "src": "xz/src/liblzma/simple\\riscv.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 23
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\microlzma_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
-  "src": "xz/src/liblzma/common\\microlzma_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 24
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o",
-    "-c",
-    "xz/src/liblzma/simple\\x86.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o",
-  "src": "xz/src/liblzma/simple\\x86.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 25
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
-    "-c",
-    "xz/src/liblzma/check\\crc32_fast.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
-  "src": "xz/src/liblzma/check\\crc32_fast.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 26
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
-    "-c",
-    "xz/src/liblzma/common\\index.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
-  "src": "xz/src/liblzma/common\\index.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 27
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
-    "-c",
-    "xz/src/liblzma/rangecoder\\price_table.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
-  "src": "xz/src/liblzma/rangecoder\\price_table.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 28
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
-    "-c",
-    "xz/src/common/tuklib_physmem.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
-  "src": "xz/src/common/tuklib_physmem.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 29
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\block_buffer_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
-  "src": "xz/src/liblzma/common\\block_buffer_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 30
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
-    "-c",
-    "xz/src/liblzma/common\\vli_size.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
-  "src": "xz/src/liblzma/common\\vli_size.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 31
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
-    "-c",
-    "xz/src/liblzma/check\\check.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
-  "src": "xz/src/liblzma/check\\check.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 32
 
 ```json
 {
@@ -1830,1087 +5289,7 @@ _None._
 }
 ```
 
-#### Record 33
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\filter_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
-  "src": "xz/src/liblzma/common\\filter_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 34
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\index_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
-  "src": "xz/src/liblzma/common\\index_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 35
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
-    "-c",
-    "xz/src/liblzma/common\\index_hash.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
-  "src": "xz/src/liblzma/common\\index_hash.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 36
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
-    "-c",
-    "xz/src/liblzma/simple\\armthumb.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
-  "src": "xz/src/liblzma/simple\\armthumb.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 37
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
-    "-c",
-    "xz/src/liblzma/delta\\delta_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
-  "src": "xz/src/liblzma/delta\\delta_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 38
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\block_header_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_encoder.o",
-  "src": "xz/src/liblzma/common\\block_header_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 39
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\stream_flags_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
-  "src": "xz/src/liblzma/common\\stream_flags_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 40
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\filter_flags_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
-  "src": "xz/src/liblzma/common\\filter_flags_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 41
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
-    "-c",
-    "xz/src/liblzma/common\\outqueue.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
-  "src": "xz/src/liblzma/common\\outqueue.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 42
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\vli_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
-  "src": "xz/src/liblzma/common\\vli_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 43
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
-    "-c",
-    "xz/src/liblzma/simple\\powerpc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
-  "src": "xz/src/liblzma/simple\\powerpc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 44
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\auto_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
-  "src": "xz/src/liblzma/common\\auto_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 45
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\index_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
-  "src": "xz/src/liblzma/common\\index_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 46
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
-    "-c",
-    "xz/src/liblzma/lzma\\lzma2_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
-  "src": "xz/src/liblzma/lzma\\lzma2_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 47
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
-    "-c",
-    "xz/src/liblzma/simple\\sparc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
-  "src": "xz/src/liblzma/simple\\sparc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 48
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
-    "-c",
-    "xz/src/liblzma/common\\filter_common.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
-  "src": "xz/src/liblzma/common\\filter_common.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 49
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
-    "-c",
-    "xz/src/liblzma/common\\common.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
-  "src": "xz/src/liblzma/common\\common.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 50
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\stream_flags_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
-  "src": "xz/src/liblzma/common\\stream_flags_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 51
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
-    "-c",
-    "xz/src/liblzma/simple\\arm.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
-  "src": "xz/src/liblzma/simple\\arm.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 52
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\alone_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
-  "src": "xz/src/liblzma/common\\alone_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 53
+#### Record 3
 
 ```json
 {
@@ -2964,763 +5343,7 @@ _None._
 }
 ```
 
-#### Record 54
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\filter_buffer_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
-  "src": "xz/src/liblzma/common\\filter_buffer_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 55
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
-    "-c",
-    "xz/src/liblzma/common\\block_util.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
-  "src": "xz/src/liblzma/common\\block_util.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 56
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
-    "-c",
-    "xz/src/liblzma/common\\easy_decoder_memusage.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
-  "src": "xz/src/liblzma/common\\easy_decoder_memusage.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 57
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\stream_buffer_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
-  "src": "xz/src/liblzma/common\\stream_buffer_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 58
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\filter_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
-  "src": "xz/src/liblzma/common\\filter_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 59
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
-    "-c",
-    "xz/src/liblzma/lzma\\lzma_encoder_optimum_normal.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
-  "src": "xz/src/liblzma/lzma\\lzma_encoder_optimum_normal.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 60
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
-    "-c",
-    "xz/src/liblzma/delta\\delta_common.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
-  "src": "xz/src/liblzma/delta\\delta_common.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 61
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\filter_buffer_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
-  "src": "xz/src/liblzma/common\\filter_buffer_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 62
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
-    "-c",
-    "xz/src/liblzma/simple\\simple_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
-  "src": "xz/src/liblzma/simple\\simple_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 63
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
-    "-c",
-    "xz/src/liblzma/lz\\lz_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
-  "src": "xz/src/liblzma/lz\\lz_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 64
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
-    "-c",
-    "xz/src/liblzma/common\\stream_decoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
-  "src": "xz/src/liblzma/common\\stream_decoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 65
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
-    "-c",
-    "xz/src/liblzma/check\\sha256.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
-  "src": "xz/src/liblzma/check\\sha256.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 66
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
-    "-c",
-    "xz/src/liblzma/lzma\\fastpos_table.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
-  "src": "xz/src/liblzma/lzma\\fastpos_table.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 67
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "xz/src/liblzma/api",
-    "-I",
-    "xz/src/liblzma/lzma",
-    "-I",
-    "xz/src/liblzma/lz",
-    "-I",
-    "xz/src/liblzma/check",
-    "-I",
-    "xz/src/liblzma/simple",
-    "-I",
-    "xz/src/liblzma/delta",
-    "-I",
-    "xz/src/liblzma/common",
-    "-I",
-    "xz/src/liblzma/rangecoder",
-    "-I",
-    "xz/src/common",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-    "-W4",
-    "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
-    "-c",
-    "xz/src/liblzma/common\\block_encoder.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
-  "src": "xz/src/liblzma/common\\block_encoder.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "liblzma-sys",
-    "version": "0.4.4",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 68
+#### Record 4
 
 ```json
 {
@@ -3774,7 +5397,7 @@ _None._
 }
 ```
 
-#### Record 69
+#### Record 5
 
 ```json
 {
@@ -3806,16 +5429,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
     "-c",
-    "xz/src/liblzma/simple\\ia64.c"
+    "xz/src/liblzma/rangecoder\\price_table.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
-  "src": "xz/src/liblzma/simple\\ia64.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\7c719ae6a71ec396-price_table.o",
+  "src": "xz/src/liblzma/rangecoder\\price_table.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3828,7 +5451,7 @@ _None._
 }
 ```
 
-#### Record 70
+#### Record 6
 
 ```json
 {
@@ -3860,16 +5483,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
     "-c",
-    "xz/src/liblzma/common\\alone_encoder.c"
+    "xz/src/liblzma/common\\block_buffer_decoder.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
-  "src": "xz/src/liblzma/common\\alone_encoder.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_decoder.o",
+  "src": "xz/src/liblzma/common\\block_buffer_decoder.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3882,7 +5505,7 @@ _None._
 }
 ```
 
-#### Record 71
+#### Record 7
 
 ```json
 {
@@ -3914,16 +5537,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
     "-c",
-    "xz/src/liblzma/common\\hardware_cputhreads.c"
+    "xz/src/liblzma/common\\stream_buffer_decoder.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
-  "src": "xz/src/liblzma/common\\hardware_cputhreads.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_decoder.o",
+  "src": "xz/src/liblzma/common\\stream_buffer_decoder.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3936,7 +5559,7 @@ _None._
 }
 ```
 
-#### Record 72
+#### Record 8
 
 ```json
 {
@@ -3968,16 +5591,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
     "-c",
-    "xz/src/liblzma/common\\block_header_decoder.c"
+    "xz/src/liblzma/lzma\\lzma_encoder_optimum_fast.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
-  "src": "xz/src/liblzma/common\\block_header_decoder.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_fast.o",
+  "src": "xz/src/liblzma/lzma\\lzma_encoder_optimum_fast.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3990,7 +5613,7 @@ _None._
 }
 ```
 
-#### Record 73
+#### Record 9
 
 ```json
 {
@@ -4022,16 +5645,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
     "-c",
-    "xz/src/liblzma/lz\\lz_decoder.c"
+    "xz/src/liblzma/delta\\delta_encoder.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
-  "src": "xz/src/liblzma/lz\\lz_decoder.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_encoder.o",
+  "src": "xz/src/liblzma/delta\\delta_encoder.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4044,7 +5667,7 @@ _None._
 }
 ```
 
-#### Record 74
+#### Record 10
 
 ```json
 {
@@ -4076,16 +5699,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
     "-c",
-    "xz/src/liblzma/common\\block_decoder.c"
+    "xz/src/liblzma/common\\filter_common.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
-  "src": "xz/src/liblzma/common\\block_decoder.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_common.o",
+  "src": "xz/src/liblzma/common\\filter_common.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4098,7 +5721,169 @@ _None._
 }
 ```
 
-#### Record 75
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
+    "-c",
+    "xz/src/common/tuklib_cpucores.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_cpucores.o",
+  "src": "xz/src/common/tuklib_cpucores.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
+    "-c",
+    "xz/src/liblzma/simple\\riscv.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-riscv.o",
+  "src": "xz/src/liblzma/simple\\riscv.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_encoder.o",
+  "src": "xz/src/liblzma/common\\easy_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
 
 ```json
 {
@@ -4152,7 +5937,1249 @@ _None._
 }
 ```
 
-#### Record 76
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_decoder_memusage.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_decoder_memusage.o",
+  "src": "xz/src/liblzma/common\\easy_decoder_memusage.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\index_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_decoder.o",
+  "src": "xz/src/liblzma/common\\index_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_decoder.o",
+  "src": "xz/src/liblzma/lzma\\lzma_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_buffer_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_encoder.o",
+  "src": "xz/src/liblzma/common\\filter_buffer_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\alone_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_decoder.o",
+  "src": "xz/src/liblzma/common\\alone_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_decoder.o",
+  "src": "xz/src/liblzma/common\\block_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
+    "-c",
+    "xz/src/liblzma/delta\\delta_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_decoder.o",
+  "src": "xz/src/liblzma/delta\\delta_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\alone_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-alone_encoder.o",
+  "src": "xz/src/liblzma/common\\alone_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\vli_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_encoder.o",
+  "src": "xz/src/liblzma/common\\vli_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\lzip_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-lzip_decoder.o",
+  "src": "xz/src/liblzma/common\\lzip_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o",
+    "-c",
+    "xz/src/liblzma/simple\\x86.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-x86.o",
+  "src": "xz/src/liblzma/simple\\x86.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_encoder_optimum_normal.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_optimum_normal.o",
+  "src": "xz/src/liblzma/lzma\\lzma_encoder_optimum_normal.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
+    "-c",
+    "xz/src/liblzma/check\\sha256.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-sha256.o",
+  "src": "xz/src/liblzma/check\\sha256.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_decoder.o",
+  "src": "xz/src/liblzma/common\\stream_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
+    "-c",
+    "xz/src/liblzma/delta\\delta_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\3c89bc10545ea310-delta_common.o",
+  "src": "xz/src/liblzma/delta\\delta_common.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder.o",
+  "src": "xz/src/liblzma/lzma\\lzma_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
+    "-c",
+    "xz/src/liblzma/lz\\lz_encoder_mf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder_mf.o",
+  "src": "xz/src/liblzma/lz\\lz_encoder_mf.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
+    "-c",
+    "xz/src/liblzma/common\\outqueue.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-outqueue.o",
+  "src": "xz/src/liblzma/common\\outqueue.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
+    "-c",
+    "xz/src/liblzma/lzma\\fastpos_table.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-fastpos_table.o",
+  "src": "xz/src/liblzma/lzma\\fastpos_table.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\microlzma_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
+  "src": "xz/src/liblzma/common\\microlzma_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_flags_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_decoder.o",
+  "src": "xz/src/liblzma/common\\stream_flags_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
+    "-c",
+    "xz/src/liblzma/common\\hardware_physmem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_physmem.o",
+  "src": "xz/src/liblzma/common\\hardware_physmem.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
+    "-c",
+    "xz/src/liblzma/simple\\simple_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_decoder.o",
+  "src": "xz/src/liblzma/simple\\simple_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
 
 ```json
 {
@@ -4206,6 +7233,2058 @@ _None._
 }
 ```
 
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
+    "-c",
+    "xz/src/liblzma/common\\hardware_cputhreads.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-hardware_cputhreads.o",
+  "src": "xz/src/liblzma/common\\hardware_cputhreads.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma2_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_decoder.o",
+  "src": "xz/src/liblzma/lzma\\lzma2_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
+    "-c",
+    "xz/src/liblzma/check\\crc32_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc32_fast.o",
+  "src": "xz/src/liblzma/check\\crc32_fast.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_header_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_header_decoder.o",
+  "src": "xz/src/liblzma/common\\block_header_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
+    "-c",
+    "xz/src/liblzma/check\\check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-check.o",
+  "src": "xz/src/liblzma/check\\check.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\index_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_encoder.o",
+  "src": "xz/src/liblzma/common\\index_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
+    "-c",
+    "xz/src/liblzma/check\\crc64_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\9958957cfa71505a-crc64_fast.o",
+  "src": "xz/src/liblzma/check\\crc64_fast.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
+    "-c",
+    "xz/src/liblzma/common\\block_util.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_util.o",
+  "src": "xz/src/liblzma/common\\block_util.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_flags_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_common.o",
+  "src": "xz/src/liblzma/common\\stream_flags_common.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
+    "-c",
+    "xz/src/liblzma/common\\file_info.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-file_info.o",
+  "src": "xz/src/liblzma/common\\file_info.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
+    "-c",
+    "xz/src/liblzma/simple\\arm64.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm64.o",
+  "src": "xz/src/liblzma/simple\\arm64.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\vli_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_decoder.o",
+  "src": "xz/src/liblzma/common\\vli_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
+    "-c",
+    "xz/src/liblzma/simple\\armthumb.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-armthumb.o",
+  "src": "xz/src/liblzma/simple\\armthumb.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\auto_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-auto_decoder.o",
+  "src": "xz/src/liblzma/common\\auto_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma2_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma2_encoder.o",
+  "src": "xz/src/liblzma/lzma\\lzma2_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
+    "-c",
+    "xz/src/liblzma/common\\vli_size.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-vli_size.o",
+  "src": "xz/src/liblzma/common\\vli_size.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
+    "-c",
+    "xz/src/liblzma/lzma\\lzma_encoder_presets.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\fcf37daa71d57c9f-lzma_encoder_presets.o",
+  "src": "xz/src/liblzma/lzma\\lzma_encoder_presets.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
+    "-c",
+    "xz/src/common/tuklib_physmem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\0b27bbdc3d149821-tuklib_physmem.o",
+  "src": "xz/src/common/tuklib_physmem.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
+    "-c",
+    "xz/src/liblzma/common\\easy_preset.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-easy_preset.o",
+  "src": "xz/src/liblzma/common\\easy_preset.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
+    "-c",
+    "xz/src/liblzma/common\\index_hash.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index_hash.o",
+  "src": "xz/src/liblzma/common\\index_hash.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_buffer_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_buffer_decoder.o",
+  "src": "xz/src/liblzma/common\\filter_buffer_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_flags_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_flags_encoder.o",
+  "src": "xz/src/liblzma/common\\filter_flags_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
+    "-c",
+    "xz/src/liblzma/lz\\lz_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_encoder.o",
+  "src": "xz/src/liblzma/lz\\lz_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
+    "-c",
+    "xz/src/liblzma/simple\\ia64.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-ia64.o",
+  "src": "xz/src/liblzma/simple\\ia64.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
+    "-c",
+    "xz/src/liblzma/simple\\simple_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-simple_encoder.o",
+  "src": "xz/src/liblzma/simple\\simple_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
+    "-c",
+    "xz/src/liblzma/common\\common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-common.o",
+  "src": "xz/src/liblzma/common\\common.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_flags_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_flags_encoder.o",
+  "src": "xz/src/liblzma/common\\stream_flags_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
+    "-c",
+    "xz/src/liblzma/simple\\powerpc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-powerpc.o",
+  "src": "xz/src/liblzma/simple\\powerpc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
+    "-c",
+    "xz/src/liblzma/common\\string_conversion.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-string_conversion.o",
+  "src": "xz/src/liblzma/common\\string_conversion.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_encoder.o",
+  "src": "xz/src/liblzma/common\\block_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
+    "-c",
+    "xz/src/liblzma/simple\\arm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-arm.o",
+  "src": "xz/src/liblzma/simple\\arm.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\microlzma_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_encoder.o",
+  "src": "xz/src/liblzma/common\\microlzma_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_encoder.o",
+  "src": "xz/src/liblzma/common\\filter_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\stream_buffer_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-stream_buffer_encoder.o",
+  "src": "xz/src/liblzma/common\\stream_buffer_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
+    "-c",
+    "xz/src/liblzma/common\\block_buffer_encoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-block_buffer_encoder.o",
+  "src": "xz/src/liblzma/common\\block_buffer_encoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
+    "-c",
+    "xz/src/liblzma/common\\index.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-index.o",
+  "src": "xz/src/liblzma/common\\index.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
+    "-c",
+    "xz/src/liblzma/simple\\sparc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\2e0640d3389a53eb-sparc.o",
+  "src": "xz/src/liblzma/simple\\sparc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "xz/src/liblzma/api",
+    "-I",
+    "xz/src/liblzma/lzma",
+    "-I",
+    "xz/src/liblzma/lz",
+    "-I",
+    "xz/src/liblzma/check",
+    "-I",
+    "xz/src/liblzma/simple",
+    "-I",
+    "xz/src/liblzma/delta",
+    "-I",
+    "xz/src/liblzma/common",
+    "-I",
+    "xz/src/liblzma/rangecoder",
+    "-I",
+    "xz/src/common",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+    "-W4",
+    "-DHAVE_CONFIG_H=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
+    "-c",
+    "xz/src/liblzma/common\\filter_decoder.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-filter_decoder.o",
+  "src": "xz/src/liblzma/common\\filter_decoder.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "liblzma-sys",
+    "version": "0.4.4",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4#liblzma-sys@0.4.4",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-brel29mo/src/liblzma-sys-0.4.4",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 77
 
 ```json
@@ -4238,16 +9317,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
     "-W4",
     "-DHAVE_CONFIG_H=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
     "-c",
-    "xz/src/liblzma/common\\microlzma_decoder.c"
+    "xz/src/liblzma/lz\\lz_decoder.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\f44dda72c9a620b7-microlzma_decoder.o",
-  "src": "xz/src/liblzma/common\\microlzma_decoder.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-brel29mo\\src\\liblzma-sys-0.4.4\\target\\debug\\build\\liblzma-sys-a159df74c649242e\\out\\a67eba6608962b1f-lz_decoder.o",
+  "src": "xz/src/liblzma/lz\\lz_decoder.c",
   "success": true,
   "tool": "cl",
   "_owner": {

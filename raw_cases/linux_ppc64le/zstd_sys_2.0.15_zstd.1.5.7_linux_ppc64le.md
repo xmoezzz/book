@@ -4,6 +4,3280 @@ Platform: Linux ppc64le
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6/symbols.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mjwqxcg041x5sxf8zur3j755.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mn2k6cklepit90rd69u5yzt1.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.10uoxm56lyht4i2zq8kto1hmn.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.11izj9a6shb95skgt2opfsfma.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12ex4xams63bhpj8h7c9kf8db.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12k6jbktswhlumngk7zonxih4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.16rgsgr4a4pbb5tkpeqn4y2je.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.1px72tpn33idcwn6f4s5b650r.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.22w9r8l2k6qiblqc7hfu3gbwc.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3avdbvy7c6kqiu8qi1643ayg0.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3co7y1teyxb970nntmzyhgdnk.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3dzcv5oy1tgeet9gx96txatlj.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4a87lf0r99u087lmky3sr34x5.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4geykjxt8f08qcz3g98cwavka.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4hlnjpa1iziis8wzabhoocp2e.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4m1tbax6gc8d95n3fmyj6vr8q.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4t4ltsby8gqg60wkk5hnwuitk.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.537tqdkodp5xio57z50ycu72t.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5n96mi2vkqv0lkl5vech4uhm4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5own2nt5h5n4ajqieg1lohcyz.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6t8dfc4j9eognpe38yb9mfoek.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6ud4vcicmvxhd8qqfh1ke70et.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.81j6v3byoat4vkwtr035k2r6l.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8amqmkbsnw39gb7nk7t9w63k9.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8fl0sfacp1ec575ghh2d7h0x1.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8h2i1wq4todcxauxl9o0awup6.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8hti4dcyimfglskw4ihp11w60.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8mugtmoongpdoyc14zsd9nql4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8xjj3rkf3mlezzrti0c282s43.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.992zvl7cf43bjm2efej7yv7ia.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9eshp36lsi7yv21wwltapkthf.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9hn1bi6v1qlyaox70itcm3t8o.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9rfdek877ap3scgiakgru5aor.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9sxc0xzpfcx1tnaet4nwhmn43.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.a41sug4suzkkjqe9x7nrx9g2r.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ai0oj9to8hvccojcg9gju1lpf.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.aqm3lsbxga77fs1zsh6qfdled.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.awtad32fd0hry2i8zalq2ogso.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bitzu61s168lz1p64j6e3bl9q.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c08rbrhlu3zoks7vj0q74lgpa.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cbqc10eg6hqa5tfkhfae0t42d.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cfme2a2v65x761jl9b9x342uo.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cm2eia1bn6qkkz34cweusad88.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cmecqnogs8b6unkmpwbk6riva.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.crbn3ovz8x3jasmct1vu7isnt.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cscvynfjvvwhewcswephojkik.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.d6530o6jox4bh2cxw8ujhskso.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.dge7t6zenvl6ewc105frd4p11.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.do2ywoq7mmu2ortuj6jv4vw2s.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e4cjrppd13yqlxqtwu9ypngf3.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e51pb9xfgxrrl8t59xyyun47c.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ef13mttp2ehlnaely0kb9jouz.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.eh04ipyoqsmzwd2bn82dqmutv.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.epp3gat1ydyto5twarcq4nqte.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.7ahhkho9doke7corsgozmed9q.0s4hjyp.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7ae3a76068628c6b.rlib",
+    "/target/debug/deps/libjobserver-03bfb9dc6b982c6f.rlib",
+    "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib",
+    "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/librustc_hash-50381adac9c6bd06.rlib",
+    "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib",
+    "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib",
+    "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib",
+    "/target/debug/deps/libitertools-86bc9c0f63f0acda.rlib",
+    "/target/debug/deps/libeither-3e9a73e943db67c6.rlib",
+    "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib",
+    "/target/debug/deps/libnom-bff3d058a5fd0465.rlib",
+    "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib",
+    "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib",
+    "/target/debug/deps/liblibloading-8f924d2cd76c8862.rlib",
+    "/target/debug/deps/libcfg_if-4a499ef178f2ff1a.rlib",
+    "/target/debug/deps/liblibc-b9fa285a9e57b734.rlib",
+    "/target/debug/deps/libglob-a91c897b77dd6906.rlib",
+    "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib",
+    "/target/debug/deps/libquote-c1488b5e2639759c.rlib",
+    "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib",
+    "/target/debug/deps/libunicode_ident-782201109a0a21cf.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/target/debug/deps/libbitflags-02ec3f97841c269a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-ldl",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6/symbols.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mjwqxcg041x5sxf8zur3j755.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mn2k6cklepit90rd69u5yzt1.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.10uoxm56lyht4i2zq8kto1hmn.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.11izj9a6shb95skgt2opfsfma.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12ex4xams63bhpj8h7c9kf8db.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12k6jbktswhlumngk7zonxih4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.16rgsgr4a4pbb5tkpeqn4y2je.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.1px72tpn33idcwn6f4s5b650r.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.22w9r8l2k6qiblqc7hfu3gbwc.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3avdbvy7c6kqiu8qi1643ayg0.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3co7y1teyxb970nntmzyhgdnk.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3dzcv5oy1tgeet9gx96txatlj.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4a87lf0r99u087lmky3sr34x5.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4geykjxt8f08qcz3g98cwavka.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4hlnjpa1iziis8wzabhoocp2e.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4m1tbax6gc8d95n3fmyj6vr8q.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4t4ltsby8gqg60wkk5hnwuitk.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.537tqdkodp5xio57z50ycu72t.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5n96mi2vkqv0lkl5vech4uhm4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5own2nt5h5n4ajqieg1lohcyz.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6t8dfc4j9eognpe38yb9mfoek.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6ud4vcicmvxhd8qqfh1ke70et.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.81j6v3byoat4vkwtr035k2r6l.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8amqmkbsnw39gb7nk7t9w63k9.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8fl0sfacp1ec575ghh2d7h0x1.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8h2i1wq4todcxauxl9o0awup6.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8hti4dcyimfglskw4ihp11w60.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8mugtmoongpdoyc14zsd9nql4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8xjj3rkf3mlezzrti0c282s43.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.992zvl7cf43bjm2efej7yv7ia.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9eshp36lsi7yv21wwltapkthf.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9hn1bi6v1qlyaox70itcm3t8o.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9rfdek877ap3scgiakgru5aor.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9sxc0xzpfcx1tnaet4nwhmn43.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.a41sug4suzkkjqe9x7nrx9g2r.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ai0oj9to8hvccojcg9gju1lpf.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.aqm3lsbxga77fs1zsh6qfdled.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.awtad32fd0hry2i8zalq2ogso.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bitzu61s168lz1p64j6e3bl9q.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c08rbrhlu3zoks7vj0q74lgpa.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cbqc10eg6hqa5tfkhfae0t42d.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cfme2a2v65x761jl9b9x342uo.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cm2eia1bn6qkkz34cweusad88.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cmecqnogs8b6unkmpwbk6riva.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.crbn3ovz8x3jasmct1vu7isnt.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cscvynfjvvwhewcswephojkik.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.d6530o6jox4bh2cxw8ujhskso.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.dge7t6zenvl6ewc105frd4p11.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.do2ywoq7mmu2ortuj6jv4vw2s.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e4cjrppd13yqlxqtwu9ypngf3.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e51pb9xfgxrrl8t59xyyun47c.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ef13mttp2ehlnaely0kb9jouz.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.eh04ipyoqsmzwd2bn82dqmutv.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.epp3gat1ydyto5twarcq4nqte.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.7ahhkho9doke7corsgozmed9q.0s4hjyp.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "dl",
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6/symbols.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mjwqxcg041x5sxf8zur3j755.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mn2k6cklepit90rd69u5yzt1.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.10uoxm56lyht4i2zq8kto1hmn.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.11izj9a6shb95skgt2opfsfma.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12ex4xams63bhpj8h7c9kf8db.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12k6jbktswhlumngk7zonxih4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.16rgsgr4a4pbb5tkpeqn4y2je.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.1px72tpn33idcwn6f4s5b650r.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.22w9r8l2k6qiblqc7hfu3gbwc.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3avdbvy7c6kqiu8qi1643ayg0.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3co7y1teyxb970nntmzyhgdnk.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3dzcv5oy1tgeet9gx96txatlj.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4a87lf0r99u087lmky3sr34x5.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4geykjxt8f08qcz3g98cwavka.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4hlnjpa1iziis8wzabhoocp2e.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4m1tbax6gc8d95n3fmyj6vr8q.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4t4ltsby8gqg60wkk5hnwuitk.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.537tqdkodp5xio57z50ycu72t.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5n96mi2vkqv0lkl5vech4uhm4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5own2nt5h5n4ajqieg1lohcyz.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6t8dfc4j9eognpe38yb9mfoek.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6ud4vcicmvxhd8qqfh1ke70et.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.81j6v3byoat4vkwtr035k2r6l.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8amqmkbsnw39gb7nk7t9w63k9.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8fl0sfacp1ec575ghh2d7h0x1.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8h2i1wq4todcxauxl9o0awup6.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8hti4dcyimfglskw4ihp11w60.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8mugtmoongpdoyc14zsd9nql4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8xjj3rkf3mlezzrti0c282s43.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.992zvl7cf43bjm2efej7yv7ia.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9eshp36lsi7yv21wwltapkthf.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9hn1bi6v1qlyaox70itcm3t8o.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9rfdek877ap3scgiakgru5aor.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9sxc0xzpfcx1tnaet4nwhmn43.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.a41sug4suzkkjqe9x7nrx9g2r.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ai0oj9to8hvccojcg9gju1lpf.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.aqm3lsbxga77fs1zsh6qfdled.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.awtad32fd0hry2i8zalq2ogso.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bitzu61s168lz1p64j6e3bl9q.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c08rbrhlu3zoks7vj0q74lgpa.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cbqc10eg6hqa5tfkhfae0t42d.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cfme2a2v65x761jl9b9x342uo.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cm2eia1bn6qkkz34cweusad88.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cmecqnogs8b6unkmpwbk6riva.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.crbn3ovz8x3jasmct1vu7isnt.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cscvynfjvvwhewcswephojkik.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.d6530o6jox4bh2cxw8ujhskso.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.dge7t6zenvl6ewc105frd4p11.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.do2ywoq7mmu2ortuj6jv4vw2s.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e4cjrppd13yqlxqtwu9ypngf3.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e51pb9xfgxrrl8t59xyyun47c.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ef13mttp2ehlnaely0kb9jouz.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.eh04ipyoqsmzwd2bn82dqmutv.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.epp3gat1ydyto5twarcq4nqte.0s4hjyp.rcgu.o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.7ahhkho9doke7corsgozmed9q.0s4hjyp.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7ae3a76068628c6b.rlib",
+    "/target/debug/deps/libjobserver-03bfb9dc6b982c6f.rlib",
+    "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib",
+    "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/librustc_hash-50381adac9c6bd06.rlib",
+    "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib",
+    "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib",
+    "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib",
+    "/target/debug/deps/libitertools-86bc9c0f63f0acda.rlib",
+    "/target/debug/deps/libeither-3e9a73e943db67c6.rlib",
+    "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib",
+    "/target/debug/deps/libnom-bff3d058a5fd0465.rlib",
+    "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib",
+    "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib",
+    "/target/debug/deps/liblibloading-8f924d2cd76c8862.rlib",
+    "/target/debug/deps/libcfg_if-4a499ef178f2ff1a.rlib",
+    "/target/debug/deps/liblibc-b9fa285a9e57b734.rlib",
+    "/target/debug/deps/libglob-a91c897b77dd6906.rlib",
+    "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib",
+    "/target/debug/deps/libquote-c1488b5e2639759c.rlib",
+    "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib",
+    "/target/debug/deps/libunicode_ident-782201109a0a21cf.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/target/debug/deps/libbitflags-02ec3f97841c269a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-ldl",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6",
+    "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/e7b08            e7b08       30     4         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/ecc80            ecc80       18     4         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/1297dc           1297dc       24     4         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8920           2a8920        c    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8930           2a8930        c    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8940           2a8940       de    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8a20           2a8a20       71    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a9620           2a9620       4f    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a9670           2a9670       93    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2ab170           2ab170        5    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384e60           384e60       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384eb0           384eb0       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384f00           384f00       4d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384f50           384f50       96    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384ff0           384ff0       91    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/385090           385090       93    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3a21f0           3a21f0       67    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3a2510           3a2510      205    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3c2ce0           3c2ce0        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3df0e0           3df0e0       4d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3df130           3df130       6f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa690           3fa690       74    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa710           3fa710       71    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa790           3fa790       6f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a120           42a120        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a130           42a130        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a370           42a370        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a380           42a380        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42b6e0           42b6e0        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42b810           42b810        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42bc30           42bc30       38    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42bd40           42bd40       38    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42c1a0           42c1a0       11    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42c1e0           42c1e0       11    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/430560           430560       61    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/431760           431760        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432260           432260        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432280           432280        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432600           432600        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bbf0           43bbf0       e1    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bce0           43bce0       d3    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bdc0           43bdc0       d5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bea0           43bea0        9    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43beb0           43beb0        9    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bec0           43bec0        9    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bed0           43bed0        9    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/462990           462990        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/463940           463940        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/464900           464900        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/464910           464910        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/487d10           487d10       14    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/487d30           487d30       1b    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/49c390           49c390        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4a5090           4a5090        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4800           4c4800       3c    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4840           4c4840       4e    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4890           4c4890       26    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c48c0           4c48c0       26    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4f78b0           4f78b0        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4f78c0           4f78c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/55cd10           55cd10       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/55cd60           55cd60       93    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/581d60           581d60        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/58e5c0           58e5c0       71    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/592e50           592e50        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/592f60           592f60        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5b1520           5b1520       d5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d04f0           5d04f0       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0540           5d0540       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0590           5d0590       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d05e0           5d05e0       92    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0680           5d0680       93    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0720           5d0720       93    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5df5e0           5df5e0        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5df5f0           5df5f0        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5ec900           5ec900        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5ec910           5ec910       26    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605c50           605c50        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605e40           605e40        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605e90           605e90        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605ec0           605ec0        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605f60           605f60        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/608d40           608d40        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614a40           614a40       71    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614ac0           614ac0       71    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614b40           614b40       70    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/61f300           61f300        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/646f80           646f80       d5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/647060           647060       d3    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/647140           647140       de    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/772580           772580        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/772590           772590        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/778580           778580        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77ea80           77ea80       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77ead0           77ead0       93    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77f120           77f120       71    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/787000           787000       d5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac870           8ac870        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac880           8ac880        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac8a0           8ac8a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac8b0           8ac8b0       3e    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac900           8ac900        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac910           8ac910        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac980           8ac980       99    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8acb80           8acb80        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8acbf0           8acbf0        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af790           8af790       59    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af7f0           8af7f0       52    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af850           8af850       30    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/rustcRhJRW6/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mjwqxcg041x5sxf8zur3j755.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.0mn2k6cklepit90rd69u5yzt1.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.10uoxm56lyht4i2zq8kto1hmn.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.11izj9a6shb95skgt2opfsfma.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12ex4xams63bhpj8h7c9kf8db.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.12k6jbktswhlumngk7zonxih4.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.16rgsgr4a4pbb5tkpeqn4y2je.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.1px72tpn33idcwn6f4s5b650r.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.22w9r8l2k6qiblqc7hfu3gbwc.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3avdbvy7c6kqiu8qi1643ayg0.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3co7y1teyxb970nntmzyhgdnk.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.3dzcv5oy1tgeet9gx96txatlj.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4a87lf0r99u087lmky3sr34x5.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4geykjxt8f08qcz3g98cwavka.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4hlnjpa1iziis8wzabhoocp2e.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4m1tbax6gc8d95n3fmyj6vr8q.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.4t4ltsby8gqg60wkk5hnwuitk.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.537tqdkodp5xio57z50ycu72t.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5n96mi2vkqv0lkl5vech4uhm4.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.5own2nt5h5n4ajqieg1lohcyz.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6t8dfc4j9eognpe38yb9mfoek.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.6ud4vcicmvxhd8qqfh1ke70et.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.81j6v3byoat4vkwtr035k2r6l.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8amqmkbsnw39gb7nk7t9w63k9.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8fl0sfacp1ec575ghh2d7h0x1.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8h2i1wq4todcxauxl9o0awup6.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8hti4dcyimfglskw4ihp11w60.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8mugtmoongpdoyc14zsd9nql4.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.8xjj3rkf3mlezzrti0c282s43.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.992zvl7cf43bjm2efej7yv7ia.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9eshp36lsi7yv21wwltapkthf.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9hn1bi6v1qlyaox70itcm3t8o.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9rfdek877ap3scgiakgru5aor.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.9sxc0xzpfcx1tnaet4nwhmn43.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.a41sug4suzkkjqe9x7nrx9g2r.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ai0oj9to8hvccojcg9gju1lpf.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.aqm3lsbxga77fs1zsh6qfdled.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.awtad32fd0hry2i8zalq2ogso.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bitzu61s168lz1p64j6e3bl9q.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c08rbrhlu3zoks7vj0q74lgpa.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cbqc10eg6hqa5tfkhfae0t42d.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cfme2a2v65x761jl9b9x342uo.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cm2eia1bn6qkkz34cweusad88.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cmecqnogs8b6unkmpwbk6riva.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.crbn3ovz8x3jasmct1vu7isnt.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.cscvynfjvvwhewcswephojkik.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.d6530o6jox4bh2cxw8ujhskso.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.dge7t6zenvl6ewc105frd4p11.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.do2ywoq7mmu2ortuj6jv4vw2s.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e4cjrppd13yqlxqtwu9ypngf3.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.e51pb9xfgxrrl8t59xyyun47c.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.ef13mttp2ehlnaely0kb9jouz.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.eh04ipyoqsmzwd2bn82dqmutv.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.epp3gat1ydyto5twarcq4nqte.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "object",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.7ahhkho9doke7corsgozmed9q.0s4hjyp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7ae3a76068628c6b.rlib(cc-7ae3a76068628c6b.cc.762d9cd2915e89c0-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-03bfb9dc6b982c6f.rlib(jobserver-03bfb9dc6b982c6f.jobserver.e8ae7488f3354477-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-03bfb9dc6b982c6f.rlib(jobserver-03bfb9dc6b982c6f.jobserver.e8ae7488f3354477-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-03bfb9dc6b982c6f.rlib(jobserver-03bfb9dc6b982c6f.jobserver.e8ae7488f3354477-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-03bfb9dc6b982c6f.rlib(jobserver-03bfb9dc6b982c6f.jobserver.e8ae7488f3354477-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-60dc64799e6cfcae.rlib(pkg_config-60dc64799e6cfcae.pkg_config.3afc7aa45511888a-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-9d2fae39757f538b.rlib(shlex-9d2fae39757f538b.shlex.1ceebad2f47cb4e6-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/librustc_hash-50381adac9c6bd06.rlib(rustc_hash-50381adac9c6bd06.rustc_hash.60e31a1142227527-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib(regex-2d88a0e1b23bb94b.regex.767ee1af487a2862-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex-2d88a0e1b23bb94b.rlib(regex-2d88a0e1b23bb94b.regex.767ee1af487a2862-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-30cb8dd73d3ee8e1.rlib(cexpr-30cb8dd73d3ee8e1.cexpr.9c53d270b13ca7f9-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnom-bff3d058a5fd0465.rlib(nom-bff3d058a5fd0465.nom.be319d5384944f78-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnom-bff3d058a5fd0465.rlib(nom-bff3d058a5fd0465.nom.be319d5384944f78-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-cd13e3d78083c723.rlib(memchr-cd13e3d78083c723.memchr.8af4c25a31f78989-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-0f89bdfccc2da59c.rlib(clang_sys-0f89bdfccc2da59c.clang_sys.8323630041563438-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibloading-8f924d2cd76c8862.rlib(libloading-8f924d2cd76c8862.libloading.46488f71314ea2b0-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-e1733fdc77bc01a9.rlib(syn-e1733fdc77bc01a9.syn.3938cd8a61a477b4-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.7.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-5df2a1b046959e8d.rlib(proc_macro2-5df2a1b046959e8d.proc_macro2.c75d9e21d95c7772-cgu.8.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_ident-782201109a0a21cf.rlib(unicode_ident-782201109a0a21cf.unicode_ident.79bdaaf414f8dac6-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib(proc_macro-9a3b801af650b923.proc_macro.bfe8d0f5e0c53783-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbitflags-02ec3f97841c269a.rlib(bitflags-02ec3f97841c269a.bitflags.2f6e3c64cd386515-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib(std_detect-e305c7135f50bfab.std_detect.4859ea97f15b1179-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.139.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.022.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.109.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.005.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/e7b08            e7b08       30     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/e7b08            e7b08       30     4         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.04.rcgu.o):(.gcc_except_table._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h16f6ec3553c91439E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.04.rcgu.o):(.gcc_except_table._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h16f6ec3553c91439E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/ecc80            ecc80       18     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/ecc80            ecc80       18     4         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.gcc_except_table._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17hdfb9236624874bbaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.gcc_except_table._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17hdfb9236624874bbaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/1297dc           1297dc       24     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/1297dc           1297dc       24     4         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha09b803a55916889E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha09b803a55916889E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8920           2a8920        c    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8920           2a8920        c    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN4core3ptr91drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$std..path..PathBuf$GT$$GT$17h70f7e78c3bf46765E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN4core3ptr91drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$std..path..PathBuf$GT$$GT$17h70f7e78c3bf46765E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8930           2a8930        c    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8930           2a8930        c    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN4core3ptr95drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$std..path..PathBuf$GT$$GT$17h9deb2169d150e929E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN4core3ptr95drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$std..path..PathBuf$GT$$GT$17h9deb2169d150e929E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8940           2a8940       de    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8940           2a8940       de    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h7dff6479058fe8e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h7dff6479058fe8e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8a20           2a8a20       71    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a8a20           2a8a20       71    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h99fb94dccf77a607E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.bfohnr3j5dr2fh7wgpzn61rfo.0s4hjyp.rcgu.o:(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h99fb94dccf77a607E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a9620           2a9620       4f    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a9620           2a9620       4f    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbd3da87a90ef8b81E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbd3da87a90ef8b81E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a9670           2a9670       93    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2a9670           2a9670       93    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17he7d877ba2bb11e9aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.c2uvcc265k1ryczbolco9r8c4.0s4hjyp.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17he7d877ba2bb11e9aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2ab170           2ab170        5    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/2ab170           2ab170        5    16         /target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.epp3gat1ydyto5twarcq4nqte.0s4hjyp.rcgu.o:(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h5e151b5bcbb76292E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/zstd-sys-357f87bbc9efc9f5",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/zstd-sys-357f87bbc9efc9f5/build_script_build-357f87bbc9efc9f5.epp3gat1ydyto5twarcq4nqte.0s4hjyp.rcgu.o:(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h5e151b5bcbb76292E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384e60           384e60       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384e60           384e60       4f    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h6852bfa6e71a10f6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h6852bfa6e71a10f6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384eb0           384eb0       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384eb0           384eb0       4f    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17ha063f28f787333a5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17ha063f28f787333a5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384f00           384f00       4d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384f00           384f00       4d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17he06dde24b8db5635E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17he06dde24b8db5635E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384f50           384f50       96    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384f50           384f50       96    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h0db9da9495d9e332E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h0db9da9495d9e332E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384ff0           384ff0       91    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/384ff0           384ff0       91    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h3e598e3ce03524dcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h3e598e3ce03524dcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/385090           385090       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/385090           385090       93    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h80456023035ce5deE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h80456023035ce5deE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3a21f0           3a21f0       67    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3a21f0           3a21f0       67    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.04.rcgu.o):(.text._ZN67_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Debug$GT$3fmt17h28f6992dc50ced8aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.04.rcgu.o):(.text._ZN67_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Debug$GT$3fmt17h28f6992dc50ced8aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3a2510           3a2510      205    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3a2510           3a2510      205    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.04.rcgu.o):(.text._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h16f6ec3553c91439E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.04.rcgu.o):(.text._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h16f6ec3553c91439E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3c2ce0           3c2ce0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3c2ce0           3c2ce0        5    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hb9505a9d63cb8e20E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hb9505a9d63cb8e20E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3df0e0           3df0e0       4d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3df0e0           3df0e0       4d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$14visit_file_mut17hea741df4a74fe94eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$14visit_file_mut17hea741df4a74fe94eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3df130           3df130       6f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3df130           3df130       6f    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$18visit_item_mod_mut17h3874114194108353E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$18visit_item_mod_mut17h3874114194108353E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa690           3fa690       74    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa690           3fa690       74    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h31145d09c3e874e2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h31145d09c3e874e2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa710           3fa710       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa710           3fa710       71    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h6de7b79bc6bf6604E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h6de7b79bc6bf6604E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa790           3fa790       6f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/3fa790           3fa790       6f    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hb3333008da92b457E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hb3333008da92b457E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a120           42a120        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a120           42a120        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h69ff21f21ff3f72aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h69ff21f21ff3f72aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a130           42a130        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a130           42a130        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$bindgen..ir..context..ItemId$GT$$GT$17h9cc7a4a5aead9babE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$bindgen..ir..context..ItemId$GT$$GT$17h9cc7a4a5aead9babE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a370           42a370        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a370           42a370        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h11a2a5c23cba3503E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h11a2a5c23cba3503E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a380           42a380        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42a380           42a380        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$bindgen..ir..context..ItemId$GT$$GT$17hb5e443cc93b5c181E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$bindgen..ir..context..ItemId$GT$$GT$17hb5e443cc93b5c181E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42b6e0           42b6e0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42b6e0           42b6e0        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr175drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$17ha9641db0b9be26b5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr175drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$17ha9641db0b9be26b5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42b810           42b810        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42b810           42b810        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr179drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$17hfa6bf064d5796d4aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr179drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$17hfa6bf064d5796d4aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42bc30           42bc30       38    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42bc30           42bc30       38    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr203drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$$GT$17hcdd770f2007aae09E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr203drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$$GT$17hcdd770f2007aae09E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42bd40           42bd40       38    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42bd40           42bd40       38    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr207drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$$GT$17h7a750161115cceaeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr207drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$$GT$17h7a750161115cceaeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42c1a0           42c1a0       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42c1a0           42c1a0       11    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr311drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$17h9a4fc5182b3f6dbaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr311drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$17h9a4fc5182b3f6dbaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42c1e0           42c1e0       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/42c1e0           42c1e0       11    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr317drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$GT$17h736baddb1d2de30aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr317drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$GT$17h736baddb1d2de30aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/430560           430560       61    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/430560           430560       61    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17hdfb9236624874bbaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17hdfb9236624874bbaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/431760           431760        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/431760           431760        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr777drop_in_place$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17hf3dd440fb08f27a6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr777drop_in_place$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17hf3dd440fb08f27a6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432260           432260        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432260           432260        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr88drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..item..Item$GT$$GT$17h6fbfe0b52ccddf37E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr88drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..item..Item$GT$$GT$17h6fbfe0b52ccddf37E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432280           432280        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432280           432280        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr893drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h64721486e6cae39bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr893drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h64721486e6cae39bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432600           432600        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/432600           432600        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr92drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..item..Item$GT$$GT$17h20dd06ac63d093c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN4core3ptr92drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..item..Item$GT$$GT$17h20dd06ac63d093c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bbf0           43bbf0       e1    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bbf0           43bbf0       e1    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h22b779c2c92ad384E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h22b779c2c92ad384E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bce0           43bce0       d3    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bce0           43bce0       d3    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h747fb0994e7d0342E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h747fb0994e7d0342E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bdc0           43bdc0       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bdc0           43bdc0       d5    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hb11a41c9557173c6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hb11a41c9557173c6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bea0           43bea0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bea0           43bea0        9    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h224f8cd06cb34d18E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h224f8cd06cb34d18E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43beb0           43beb0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43beb0           43beb0        9    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h4ebe00867736810aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h4ebe00867736810aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bec0           43bec0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bec0           43bec0        9    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h644c3d86282cf598E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h644c3d86282cf598E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bed0           43bed0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/43bed0           43bed0        9    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hfdb052ef9a7ef7afE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.07.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hfdb052ef9a7ef7afE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/462990           462990        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/462990           462990        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.08.rcgu.o):(.text._ZN94_$LT$core..iter..adapters..skip..Skip$LT$I$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17ha85f28b46bbe758aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.08.rcgu.o):(.text._ZN94_$LT$core..iter..adapters..skip..Skip$LT$I$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17ha85f28b46bbe758aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/463940           463940        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/463940           463940        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h0a941517ec2edafaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h0a941517ec2edafaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/464900           464900        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/464900           464900        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h3d0b833bb80b5fe3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h3d0b833bb80b5fe3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/464910           464910        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/464910           464910        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h4be624890cdd5088E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h4be624890cdd5088E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/487d10           487d10       14    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/487d10           487d10       14    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h9d7976be69101ba0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h9d7976be69101ba0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/487d30           487d30       1b    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/487d30           487d30       1b    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h1c504be1c91f178fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h1c504be1c91f178fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/49c390           49c390        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/49c390           49c390        5    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.10.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h0d162a2b1c1a28fcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.10.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h0d162a2b1c1a28fcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4a5090           4a5090        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4a5090           4a5090        5    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.11.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h4f386856f438f9b1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.11.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h4f386856f438f9b1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4800           4c4800       3c    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4800           4c4800       3c    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h7b477bcbadf6ee96E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h7b477bcbadf6ee96E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4840           4c4840       4e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4840           4c4840       4e    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hbbcb254782141f42E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hbbcb254782141f42E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4890           4c4890       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c4890           4c4890       26    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h4fdb3bf246db3e1bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h4fdb3bf246db3e1bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c48c0           4c48c0       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4c48c0           4c48c0       26    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hd8be0a32b98daa56E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.12.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hd8be0a32b98daa56E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4f78b0           4f78b0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4f78b0           4f78b0        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.13.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h02b82d907778c28dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.13.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h02b82d907778c28dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4f78c0           4f78c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/4f78c0           4f78c0        d    16         /target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.13.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf64edbadb084d643E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-2b161b7bf423e2aa.rlib(bindgen-2b161b7bf423e2aa.bindgen.e5be87c107a681c0-cgu.13.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf64edbadb084d643E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/55cd10           55cd10       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/55cd10           55cd10       4f    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h29bdd259d25212d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h29bdd259d25212d0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/55cd60           55cd60       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/55cd60           55cd60       93    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h933885abe47e667eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h933885abe47e667eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/581d60           581d60        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/581d60           581d60        5    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17he6dafa1e9118fcfdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17he6dafa1e9118fcfdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/58e5c0           58e5c0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/58e5c0           58e5c0       71    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h2c3f9021bca7eb7fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.07.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h2c3f9021bca7eb7fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/592e50           592e50        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/592e50           592e50        d    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr108drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h1adad809666007d8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr108drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h1adad809666007d8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/592f60           592f60        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/592f60           592f60        d    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr112drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..literal..Literal$GT$$GT$17he60fda6ad78bcbd1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.08.rcgu.o):(.text._ZN4core3ptr112drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..literal..Literal$GT$$GT$17he60fda6ad78bcbd1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5b1520           5b1520       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5b1520           5b1520       d5    16         /target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.13.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe8c5ddcedb5252aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-e2a3deda0be7b60e.rlib(regex_automata-e2a3deda0be7b60e.regex_automata.2be9efce2831097e-cgu.13.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe8c5ddcedb5252aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d04f0           5d04f0       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d04f0           5d04f0       4f    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h57719be82573443fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h57719be82573443fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0540           5d0540       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0540           5d0540       4f    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5e2c965d8b8e3c99E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5e2c965d8b8e3c99E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0590           5d0590       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0590           5d0590       4f    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbcedccd668e29cf4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbcedccd668e29cf4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d05e0           5d05e0       92    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d05e0           5d05e0       92    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h06d39454163e0d89E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h06d39454163e0d89E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0680           5d0680       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0680           5d0680       93    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h34ce0523137f23c3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h34ce0523137f23c3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0720           5d0720       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5d0720           5d0720       93    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h3e07cf8790ea1516E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h3e07cf8790ea1516E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5df5e0           5df5e0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5df5e0           5df5e0        5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h2ea0c94b6d1fd095E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h2ea0c94b6d1fd095E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5df5f0           5df5f0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5df5f0           5df5f0        5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd815c5e5180737e3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd815c5e5180737e3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5ec900           5ec900        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5ec900           5ec900        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3b8d94a3d4e20183E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h3b8d94a3d4e20183E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5ec910           5ec910       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/5ec910           5ec910       26    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h97f2438e2463222eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.03.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h97f2438e2463222eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605c50           605c50        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605c50           605c50        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr100drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..ast..Span$GT$$GT$17hc9a3981022033e84E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr100drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..ast..Span$GT$$GT$17hc9a3981022033e84E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605e40           605e40        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605e40           605e40        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hb4e12ae01e638a68E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hb4e12ae01e638a68E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605e90           605e90        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605e90           605e90        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr109drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h2d951b1408d64cf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr109drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h2d951b1408d64cf0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605ec0           605ec0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605ec0           605ec0        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hbd4ed163e109149cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17hbd4ed163e109149cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605f60           605f60        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/605f60           605f60        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr113drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17hfec4f1b14cd065d7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr113drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17hfec4f1b14cd065d7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/608d40           608d40        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/608d40           608d40        d    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr96drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..ast..Span$GT$$GT$17h11b22883eb3576a7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.05.rcgu.o):(.text._ZN4core3ptr96drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..ast..Span$GT$$GT$17h11b22883eb3576a7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614a40           614a40       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614a40           614a40       71    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h03d183b1f5111790E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h03d183b1f5111790E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614ac0           614ac0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614ac0           614ac0       71    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h469d2a6287b89404E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h469d2a6287b89404E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614b40           614b40       70    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/614b40           614b40       70    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe9982ec38d612bcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.06.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbe9982ec38d612bcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/61f300           61f300        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/61f300           61f300        5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h81fc2084a3c8f0bfE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h81fc2084a3c8f0bfE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/646f80           646f80       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/646f80           646f80       d5    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h14d4caff7724febcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h14d4caff7724febcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/647060           647060       d3    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/647060           647060       d3    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc3ce9426d8e3e13cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc3ce9426d8e3e13cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/647140           647140       de    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/647140           647140       de    16         /target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he2237efbf9c7e6fbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-84599e8869d32fad.rlib(regex_syntax-84599e8869d32fad.regex_syntax.96bdf140734cc370-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he2237efbf9c7e6fbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/772580           772580        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/772580           772580        d    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6da913d79d27e8c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6da913d79d27e8c5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/772590           772590        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/772590           772590        d    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17h6e8edfc8e61ba9a2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17h6e8edfc8e61ba9a2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/778580           778580        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/778580           778580        5    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h8af82363c188ee44E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h8af82363c188ee44E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77ea80           77ea80       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77ea80           77ea80       4f    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5b5fb598648350feE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h5b5fb598648350feE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77ead0           77ead0       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77ead0           77ead0       93    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hc6fc31b097d5ecd2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hc6fc31b097d5ecd2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77f120           77f120       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/77f120           77f120       71    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4b50b9a2cd32781dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h4b50b9a2cd32781dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/787000           787000       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/787000           787000       d5    16         /target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.3.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8f31ee18033d1603E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-a91c897b77dd6906.rlib(glob-a91c897b77dd6906.glob.204abacb55ef33b0-cgu.3.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8f31ee18033d1603E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac870           8ac870        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac870           8ac870        d    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17ha1e0e35ec1601726E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17ha1e0e35ec1601726E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac880           8ac880        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac880           8ac880        d    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17h9ecbd453a9dc9588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17h9ecbd453a9dc9588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac8a0           8ac8a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac8a0           8ac8a0        d    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17hc0e51800cc73d796E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17hc0e51800cc73d796E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac8b0           8ac8b0       3e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac8b0           8ac8b0       3e    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17ha670f5127cd04683E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17ha670f5127cd04683E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac900           8ac900        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac900           8ac900        d    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h3dac605ab52e8e5fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h3dac605ab52e8e5fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac910           8ac910        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac910           8ac910        d    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h8e1aa869714e2797E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17h8e1aa869714e2797E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac980           8ac980       99    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8ac980           8ac980       99    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha09b803a55916889E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha09b803a55916889E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8acb80           8acb80        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8acb80           8acb80        d    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17h18ac9337c6b68295E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17h18ac9337c6b68295E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8acbf0           8acbf0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8acbf0           8acbf0        d    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hae512efe1c7053deE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hae512efe1c7053deE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af790           8af790       59    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af790           8af790       59    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h4becf467ec46e42eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h4becf467ec46e42eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af7f0           8af7f0       52    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af7f0           8af7f0       52    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h81445bf083b2366bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h81445bf083b2366bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af850           8af850       30    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7/8af850           8af850       30    16         /target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h78b1316e90f8de49E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-c1488b5e2639759c.rlib(quote-c1488b5e2639759c.quote.5abdd9a54511918-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h78b1316e90f8de49E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-154767-1783993099471211958.map",
+  "pid": 154767,
+  "ppid": 154701,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-154767-1783993099471211958.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "/tmp/crate-build-ppc64le-dm1i8xze/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

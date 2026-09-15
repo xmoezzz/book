@@ -4,6 +4,479 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\.tmp\\native-trace-15528-1783954923576\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\rustcY7lxIB\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.1mhhuvcvbvqpxyx89j35z9krs.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.1v8hxrkpqxpywq200wxdki6ro.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.2ohmf6inyndigq66igpt5p0pr.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.4nlvwx2fvarq87byxe0ueo2bw.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.61uceqv27eeahh5uai9nex6ju.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.7opddycyhoaan5byesrq1elt4.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.92cpjrfoizuyj2tqb5locuznf.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.e99aw7ma8386khlpbv28hl836.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.e7r3uxobi6f7ospn0zf7mhr7e.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\rustcY7lxIB\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.1mhhuvcvbvqpxyx89j35z9krs.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.1v8hxrkpqxpywq200wxdki6ro.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.2ohmf6inyndigq66igpt5p0pr.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.4nlvwx2fvarq87byxe0ueo2bw.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.61uceqv27eeahh5uai9nex6ju.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.7opddycyhoaan5byesrq1elt4.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.92cpjrfoizuyj2tqb5locuznf.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.e99aw7ma8386khlpbv28hl836.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.e7r3uxobi6f7ospn0zf7mhr7e.0wrdc6n.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "wepoll-ffi",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2#wepoll-ffi@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\.tmp\\native-trace-15528-1783954923576\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\rustcY7lxIB\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.1mhhuvcvbvqpxyx89j35z9krs.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.1v8hxrkpqxpywq200wxdki6ro.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.2ohmf6inyndigq66igpt5p0pr.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.4nlvwx2fvarq87byxe0ueo2bw.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.61uceqv27eeahh5uai9nex6ju.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.7opddycyhoaan5byesrq1elt4.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.92cpjrfoizuyj2tqb5locuznf.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.e99aw7ma8386khlpbv28hl836.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.e7r3uxobi6f7ospn0zf7mhr7e.0wrdc6n.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-9b82731ef6b53e2c\\build_script_build-9b82731ef6b53e2c.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400ce020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400ce298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400ce2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400ce300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400ce320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400ce338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400ce348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400ce358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400ce3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400ce408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400ce418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400ce448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400ce460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\.tmp\\native-trace-link-link-18644-1783954925097330200.map",
+  "pid": 18644,
+  "ppid": 18580,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\.tmp\\native-trace-link-link-18644-1783954925097330200.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "wepoll-ffi",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2#wepoll-ffi@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\10791194952888692127detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\10791194952888692127detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "wepoll-ffi",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2#wepoll-ffi@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\e1c7f154c3ab103e-wepoll.o",
+    "-c",
+    "vendor/wepoll/wepoll.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\e1c7f154c3ab103e-wepoll.o",
+    "vendor/wepoll/wepoll.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "wepoll-ffi",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2#wepoll-ffi@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\libwepoll.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\e1c7f154c3ab103e-wepoll.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\e1c7f154c3ab103e-wepoll.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o7qa8j5o\\src\\wepoll-ffi-0.1.2\\target\\debug\\build\\wepoll-ffi-26e1c128ea631885\\out\\libwepoll.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "wepoll-ffi",
+    "version": "0.1.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2#wepoll-ffi@0.1.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o7qa8j5o/src/wepoll-ffi-0.1.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

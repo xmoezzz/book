@@ -4,6 +4,1326 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\.tmp\\native-trace-8088-1783954127221\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-ef6825de5a22f02f\\rustcEPyag1\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-ef6825de5a22f02f\\rustcEPyag1\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\15050629465198373628detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\15050629465198373628detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/aes/aes_nohw.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/aes/aes_nohw.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery_inv.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery_inv.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/ecp_nistz.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/ecp_nistz.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p256.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p256.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p256.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p384.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p384.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/limbs/limbs.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/limbs/limbs.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/mem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/mem.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/poly1305/poly1305.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/poly1305/poly1305.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/crypto.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/crypto.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-cpu_intel.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/cpu_intel.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-cpu_intel.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/cpu_intel.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519_64_adx.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519_64_adx.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256-nistz.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256-nistz.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\libring_core_0_17_14_.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-cpu_intel.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\chacha-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\aes-gcm-avx2-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\aesni-gcm-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\aesni-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\ghash-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\vpaes-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\x86_64-mont-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\x86_64-mont5-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\p256-x86_64-asm-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\sha512-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\chacha20_poly1305_x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\sha256-x86_64-nasm.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-cpu_intel.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\chacha-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\aes-gcm-avx2-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\aesni-gcm-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\aesni-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\ghash-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\vpaes-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\x86_64-mont-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\x86_64-mont5-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\p256-x86_64-asm-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\sha512-x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\chacha20_poly1305_x86_64-nasm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated\\sha256-x86_64-nasm.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\libring_core_0_17_14_.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\7506618364810571117detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\7506618364810571117detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-constant_time_test.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/constant_time_test.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-constant_time_test.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/constant_time_test.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\libring_core_0_17_14__test.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-constant_time_test.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-constant_time_test.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\libring_core_0_17_14__test.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\.tmp\\native-trace-8088-1783954127221\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-ef6825de5a22f02f\\rustcEPyag1\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400cf020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400cf298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400cf2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400cf300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400cf320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400cf338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400cf348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400cf358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400cf3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400cf408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400cf418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400cf448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400cf460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\.tmp\\native-trace-link-link-11096-1783954130459022300.map",
+  "pid": 11096,
+  "ppid": 6968,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\.tmp\\native-trace-link-link-11096-1783954130459022300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -68,16 +1388,16 @@ _None._
     "/wd4820",
     "/wd5045",
     "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/aes/aes_nohw.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/mem.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/aes/aes_nohw.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/mem.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -91,256 +1411,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
-    "-W4",
-    "/Gy",
-    "/Zc:wchar_t",
-    "/Zc:forScope",
-    "/Zc:inline",
-    "/Wall",
-    "/wd4127",
-    "/wd4464",
-    "/wd4514",
-    "/wd4710",
-    "/wd4711",
-    "/wd4820",
-    "/wd5045",
-    "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519_64_adx.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519_64_adx.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
-    "-W4",
-    "/Gy",
-    "/Zc:wchar_t",
-    "/Zc:forScope",
-    "/Zc:inline",
-    "/Wall",
-    "/wd4127",
-    "/wd4464",
-    "/wd4514",
-    "/wd4710",
-    "/wd4711",
-    "/wd4820",
-    "/wd5045",
-    "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p384.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p384.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
-    "-W4",
-    "/Gy",
-    "/Zc:wchar_t",
-    "/Zc:forScope",
-    "/Zc:inline",
-    "/Wall",
-    "/wd4127",
-    "/wd4464",
-    "/wd4514",
-    "/wd4710",
-    "/wd4711",
-    "/wd4820",
-    "/wd5045",
-    "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/poly1305/poly1305.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/poly1305/poly1305.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
-    "-W4",
-    "/Gy",
-    "/Zc:wchar_t",
-    "/Zc:forScope",
-    "/Zc:inline",
-    "/Wall",
-    "/wd4127",
-    "/wd4464",
-    "/wd4514",
-    "/wd4710",
-    "/wd4711",
-    "/wd4820",
-    "/wd5045",
-    "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256-nistz.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256-nistz.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
-    "-W4",
-    "/Gy",
-    "/Zc:wchar_t",
-    "/Zc:forScope",
-    "/Zc:inline",
-    "/Wall",
-    "/wd4127",
-    "/wd4464",
-    "/wd4514",
-    "/wd4710",
-    "/wd4711",
-    "/wd4820",
-    "/wd5045",
-    "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/ecp_nistz.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/ecp_nistz.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
 
 ```json
 {
@@ -390,7 +1460,7 @@ _None._
 }
 ```
 
-#### Record 8
+#### Record 3
 
 ```json
 {
@@ -418,16 +1488,16 @@ _None._
     "/wd4820",
     "/wd5045",
     "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256-nistz.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-p256-nistz.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/p256-nistz.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -440,7 +1510,7 @@ _None._
 }
 ```
 
-#### Record 9
+#### Record 4
 
 ```json
 {
@@ -468,16 +1538,16 @@ _None._
     "/wd4820",
     "/wd5045",
     "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery_inv.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/ecp_nistz.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery_inv.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-ecp_nistz.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/ecp_nistz.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -490,7 +1560,7 @@ _None._
 }
 ```
 
-#### Record 10
+#### Record 5
 
 ```json
 {
@@ -518,16 +1588,16 @@ _None._
     "/wd4820",
     "/wd5045",
     "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/limbs/limbs.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p384.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/limbs/limbs.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\e46c95d99eadae07-gfp_p384.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/ec/gfp_p384.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -540,107 +1610,7 @@ _None._
 }
 ```
 
-#### Record 11
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
-    "-W4",
-    "/Gy",
-    "/Zc:wchar_t",
-    "/Zc:forScope",
-    "/Zc:inline",
-    "/Wall",
-    "/wd4127",
-    "/wd4464",
-    "/wd4514",
-    "/wd4710",
-    "/wd4711",
-    "/wd4820",
-    "/wd5045",
-    "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/crypto.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/crypto.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
-    "-W4",
-    "/Gy",
-    "/Zc:wchar_t",
-    "/Zc:forScope",
-    "/Zc:inline",
-    "/Wall",
-    "/wd4127",
-    "/wd4464",
-    "/wd4514",
-    "/wd4710",
-    "/wd4711",
-    "/wd4820",
-    "/wd5045",
-    "-DNDEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/mem.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-mem.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/mem.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "ring",
-    "version": "0.17.14",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
+#### Record 6
 
 ```json
 {
@@ -690,7 +1660,157 @@ _None._
 }
 ```
 
-#### Record 14
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery_inv.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\1859b2c20cf03fad-montgomery_inv.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/bn/montgomery_inv.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/limbs/limbs.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f8e4f2976ecfe535-limbs.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/limbs/limbs.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
 
 ```json
 {
@@ -740,7 +1860,7 @@ _None._
 }
 ```
 
-#### Record 15
+#### Record 11
 
 ```json
 {
@@ -778,6 +1898,206 @@ _None._
   "language": "c",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-cpu_intel.o",
   "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/cpu_intel.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/aes/aes_nohw.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\3c60697ff6d5dd9e-aes_nohw.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/fipsmodule/aes/aes_nohw.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519_64_adx.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\73090ba2100ad232-curve25519_64_adx.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/curve25519/curve25519_64_adx.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/poly1305/poly1305.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\79abf3e07b579fd2-poly1305.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/poly1305/poly1305.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "ring",
+    "version": "0.17.14",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14#ring@0.17.14",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ptvefzem/src/ring-0.17.14",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\pregenerated",
+    "-W4",
+    "/Gy",
+    "/Zc:wchar_t",
+    "/Zc:forScope",
+    "/Zc:inline",
+    "/Wall",
+    "/wd4127",
+    "/wd4464",
+    "/wd4514",
+    "/wd4710",
+    "/wd4711",
+    "/wd4820",
+    "/wd5045",
+    "-DNDEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/crypto.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\target\\debug\\build\\ring-6fa0dd4e7a135ad8\\out\\f86aece002c00db7-crypto.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ptvefzem\\src\\ring-0.17.14\\crypto/crypto.c",
   "success": true,
   "tool": "cl",
   "_owner": {

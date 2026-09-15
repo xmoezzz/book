@@ -4,6 +4,18 @@ Platform: Windows x86_64
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2`
+
+```text
+git submodule update --init
+```
+
+Acquisition kind: `git_submodule`
+
+Outcome: failed (exit code 128)
+
 ### Build-script executable native dependencies
 
 These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.

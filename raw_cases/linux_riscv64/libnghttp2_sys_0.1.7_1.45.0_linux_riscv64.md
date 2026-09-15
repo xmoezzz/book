@@ -4,6 +4,674 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb/symbols.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0348ehilez7op45bk0k4sg6em.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0jjvkoy4t4u2hzlnnherhuhda.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.11ve52vr0aadxlx2m5mh8ji6m.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1432k5s4lpyihjw304918kbnt.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1ywtnb8zoeqyeik1dz5p10ri9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.24ck5vuclmj8ulc5qeoast4k4.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.46d97enbhxou4g97xihxelofo.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.48fj1bzs358kmeeto5qju9nld.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4fp8lj8l2c5kezvvivin62x4b.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4tu4rhbd2htzye7tfgbw07n80.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4wzjg24cynmgnow93nr0icbwn.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.5ydxn263ucssy3zd7cpdaffbd.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.71zqjdhktuavd2spqvxi0kiv1.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.73apsrjnyvs0d7h97rk88mjgf.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.7xu8ymmnm6mps5gqakj33447h.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9cxwl5yxhvmhcvniuf1jofed9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9gqtbe2q5n3227hpuwikkyk0z.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.aysxotyy2cik87qmuvk8qv582.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bevu9ehl4ctt7yhcea5hh9buz.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bllu0fitdl12plqjrj7q5cbo5.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.btt68ewfea4r11xj03oj24x8p.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ctat8p9idage751adyiggmlra.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.czx0m0x7nzxs3jy87udtevit9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dq0vxkmfgi94wmqztobq9i6j8.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dvldgvxfdcdlx5p8qfcz5qqiu.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ei3bd7tvbfuvkwelcai5it3pp.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.eq4ryeevwh1c4p33aivtcfdfq.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1w5ajwl3recsw3niwjwlcychs.1pd70ey.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-9529824dd9cb4412.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb/symbols.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0348ehilez7op45bk0k4sg6em.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0jjvkoy4t4u2hzlnnherhuhda.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.11ve52vr0aadxlx2m5mh8ji6m.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1432k5s4lpyihjw304918kbnt.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1ywtnb8zoeqyeik1dz5p10ri9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.24ck5vuclmj8ulc5qeoast4k4.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.46d97enbhxou4g97xihxelofo.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.48fj1bzs358kmeeto5qju9nld.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4fp8lj8l2c5kezvvivin62x4b.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4tu4rhbd2htzye7tfgbw07n80.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4wzjg24cynmgnow93nr0icbwn.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.5ydxn263ucssy3zd7cpdaffbd.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.71zqjdhktuavd2spqvxi0kiv1.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.73apsrjnyvs0d7h97rk88mjgf.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.7xu8ymmnm6mps5gqakj33447h.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9cxwl5yxhvmhcvniuf1jofed9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9gqtbe2q5n3227hpuwikkyk0z.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.aysxotyy2cik87qmuvk8qv582.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bevu9ehl4ctt7yhcea5hh9buz.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bllu0fitdl12plqjrj7q5cbo5.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.btt68ewfea4r11xj03oj24x8p.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ctat8p9idage751adyiggmlra.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.czx0m0x7nzxs3jy87udtevit9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dq0vxkmfgi94wmqztobq9i6j8.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dvldgvxfdcdlx5p8qfcz5qqiu.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ei3bd7tvbfuvkwelcai5it3pp.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.eq4ryeevwh1c4p33aivtcfdfq.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1w5ajwl3recsw3niwjwlcychs.1pd70ey.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb/symbols.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0348ehilez7op45bk0k4sg6em.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0jjvkoy4t4u2hzlnnherhuhda.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.11ve52vr0aadxlx2m5mh8ji6m.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1432k5s4lpyihjw304918kbnt.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1ywtnb8zoeqyeik1dz5p10ri9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.24ck5vuclmj8ulc5qeoast4k4.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.46d97enbhxou4g97xihxelofo.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.48fj1bzs358kmeeto5qju9nld.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4fp8lj8l2c5kezvvivin62x4b.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4tu4rhbd2htzye7tfgbw07n80.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4wzjg24cynmgnow93nr0icbwn.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.5ydxn263ucssy3zd7cpdaffbd.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.71zqjdhktuavd2spqvxi0kiv1.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.73apsrjnyvs0d7h97rk88mjgf.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.7xu8ymmnm6mps5gqakj33447h.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9cxwl5yxhvmhcvniuf1jofed9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9gqtbe2q5n3227hpuwikkyk0z.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.aysxotyy2cik87qmuvk8qv582.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bevu9ehl4ctt7yhcea5hh9buz.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bllu0fitdl12plqjrj7q5cbo5.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.btt68ewfea4r11xj03oj24x8p.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ctat8p9idage751adyiggmlra.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.czx0m0x7nzxs3jy87udtevit9.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dq0vxkmfgi94wmqztobq9i6j8.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dvldgvxfdcdlx5p8qfcz5qqiu.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ei3bd7tvbfuvkwelcai5it3pp.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.eq4ryeevwh1c4p33aivtcfdfq.1pd70ey.rcgu.o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1w5ajwl3recsw3niwjwlcychs.1pd70ey.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-9529824dd9cb4412.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb",
+    "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/rustcewjtTb/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0348ehilez7op45bk0k4sg6em.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.0jjvkoy4t4u2hzlnnherhuhda.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.11ve52vr0aadxlx2m5mh8ji6m.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1432k5s4lpyihjw304918kbnt.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1ywtnb8zoeqyeik1dz5p10ri9.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.24ck5vuclmj8ulc5qeoast4k4.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.46d97enbhxou4g97xihxelofo.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.48fj1bzs358kmeeto5qju9nld.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4fp8lj8l2c5kezvvivin62x4b.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4tu4rhbd2htzye7tfgbw07n80.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.4wzjg24cynmgnow93nr0icbwn.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.5ydxn263ucssy3zd7cpdaffbd.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.71zqjdhktuavd2spqvxi0kiv1.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.73apsrjnyvs0d7h97rk88mjgf.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.7xu8ymmnm6mps5gqakj33447h.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9cxwl5yxhvmhcvniuf1jofed9.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.9gqtbe2q5n3227hpuwikkyk0z.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.aysxotyy2cik87qmuvk8qv582.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bevu9ehl4ctt7yhcea5hh9buz.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.bllu0fitdl12plqjrj7q5cbo5.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.btt68ewfea4r11xj03oj24x8p.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ctat8p9idage751adyiggmlra.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.czx0m0x7nzxs3jy87udtevit9.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dq0vxkmfgi94wmqztobq9i6j8.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.dvldgvxfdcdlx5p8qfcz5qqiu.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.ei3bd7tvbfuvkwelcai5it3pp.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.eq4ryeevwh1c4p33aivtcfdfq.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a",
+      "kind": "object",
+      "path": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/build_script_build-722df0cdf52d382a.1w5ajwl3recsw3niwjwlcychs.1pd70ey.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-9529824dd9cb4412.rlib(cc-9529824dd9cb4412.cc.f446371702006ef4-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-563462-1783994787707395079.map",
+  "pid": 563462,
+  "ppid": 563421,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-563462-1783994787707395079.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -66,510 +734,6 @@ _None._
     "HAVE_NETINET_IN",
     "-D",
     "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_map.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_map.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_map.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563631,
-  "ppid": 563626,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 2
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_option.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_option.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_option.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563653,
-  "ppid": 563651,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 3
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_priority_spec.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_priority_spec.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_priority_spec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563665,
-  "ppid": 563663,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_callbacks.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_callbacks.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_callbacks.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563507,
-  "ppid": 563505,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_frame.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_frame.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_frame.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563527,
-  "ppid": 563524,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_helper.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_helper.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_helper.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563600,
-  "ppid": 563596,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_pq.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_pq.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_pq.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563661,
-  "ppid": 563659,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_debug.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_debug.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_debug.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563518,
-  "ppid": 563516,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_mem.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_mem.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_mem.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563641,
-  "ppid": 563639,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 10
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
     "nghttp2/lib/nghttp2_http.c",
     "-quiet",
     "-dumpdir",
@@ -602,287 +766,7 @@ _None._
 }
 ```
 
-#### Record 11
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_hd_huffman.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_hd_huffman.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_hd_huffman.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563576,
-  "ppid": 563573,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 12
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_outbound_item.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_outbound_item.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_outbound_item.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563657,
-  "ppid": 563655,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 13
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_queue.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_queue.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_queue.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563669,
-  "ppid": 563667,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 14
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_hd_huffman_data.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_hd_huffman_data.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_hd_huffman_data.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563590,
-  "ppid": 563584,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 15
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D",
-    "NGHTTP2_STATICLIB",
-    "-D",
-    "HAVE_NETINET_IN",
-    "-D",
-    "HAVE_ARPA_INET_H",
-    "nghttp2/lib/nghttp2_hd.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
-    "..."
-  ],
-  "src": "nghttp2/lib/nghttp2_hd.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_hd.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 563549,
-  "ppid": 563544,
-  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "root_cargo_pid": 563193,
-  "build_script_root_pid": 563491,
-  "build_script_related": true,
-  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
-  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 16
+#### Record 2
 
 ```json
 {
@@ -938,7 +822,231 @@ _None._
 }
 ```
 
-#### Record 17
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_hd.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_hd.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_hd.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563549,
+  "ppid": 563544,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_option.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_option.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_option.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563653,
+  "ppid": 563651,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_priority_spec.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_priority_spec.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_priority_spec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563665,
+  "ppid": 563663,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_outbound_item.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_outbound_item.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_outbound_item.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563657,
+  "ppid": 563655,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 7
 
 ```json
 {
@@ -975,6 +1083,566 @@ _None._
   "recovered_from_process_exec": true,
   "pid": 563646,
   "ppid": 563644,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_hd_huffman_data.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_hd_huffman_data.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_hd_huffman_data.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563590,
+  "ppid": 563584,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_hd_huffman.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_hd_huffman.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_hd_huffman.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563576,
+  "ppid": 563573,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_frame.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_frame.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_frame.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563527,
+  "ppid": 563524,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_mem.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_mem.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_mem.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563641,
+  "ppid": 563639,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_pq.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_pq.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_pq.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563661,
+  "ppid": 563659,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_debug.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_debug.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_debug.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563518,
+  "ppid": 563516,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_queue.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_queue.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_queue.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563669,
+  "ppid": 563667,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_map.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_map.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_map.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563631,
+  "ppid": 563626,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_helper.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_helper.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_helper.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563600,
+  "ppid": 563596,
+  "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "root_cargo_pid": 563193,
+  "build_script_root_pid": 563491,
+  "build_script_related": true,
+  "build_script_target_dir": "libnghttp2-sys-722df0cdf52d382a",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
+  "_build_script_out_dir": "/target/debug/build/libnghttp2-sys-722df0cdf52d382a/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 17
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D",
+    "NGHTTP2_STATICLIB",
+    "-D",
+    "HAVE_NETINET_IN",
+    "-D",
+    "HAVE_ARPA_INET_H",
+    "nghttp2/lib/nghttp2_callbacks.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/",
+    "..."
+  ],
+  "src": "nghttp2/lib/nghttp2_callbacks.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/libnghttp2-sys-6214cd0c0a1bd802/out/i/lib/nghttp2/lib/nghttp2_callbacks.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 563507,
+  "ppid": 563505,
   "cwd": "/tmp/crate-build-riscv64-au80jzj9/src/libnghttp2-sys-0.1.7+1.45.0",
   "root_cargo_pid": 563193,
   "build_script_root_pid": 563491,

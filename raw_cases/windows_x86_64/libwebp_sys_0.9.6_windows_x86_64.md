@@ -4,6 +4,6320 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\.tmp\\native-trace-10424-1783962475538\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-d3ae6718e83b3b05\\rustcctmSlD\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-d3ae6718e83b3b05\\rustcctmSlD\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9315487056670002760detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9315487056670002760detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\11650232275802064040detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\11650232275802064040detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_csp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_csp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_gamma.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_gamma.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_dsp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_dsp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_cpu.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_cpu.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libsharpyuv.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libsharpyuv.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse41.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\quant_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\quant_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\anim_decode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\anim_decode.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-demux.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\demux.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-demux.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\demux.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cpu.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cpu.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\buffer_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\buffer_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\alpha_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\alpha_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-frame_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\frame_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-frame_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\frame_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\idec_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\idec_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\webp_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\webp_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\tree_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\tree_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\io_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\io_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8l_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8l_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8l_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8l_dec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_clip_tables.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_clip_tables.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_msa.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse41.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_msa.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_msa.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_msa.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse41.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse41.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_msa.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_msa.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse41.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips32.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_msa.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 77
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 78
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 79
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 81
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 82
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_neon.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 83
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_mips_dsp_r2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 84
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse41.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 85
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 86
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\config_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\config_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 87
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse41.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 88
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\cost_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\cost_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 89
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 90
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\analysis_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\analysis_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 91
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-alpha_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\alpha_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-alpha_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\alpha_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 92
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_cost_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_cost_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_cost_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_cost_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 93
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 94
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\frame_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\frame_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 95
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\filter_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\filter_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 96
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\near_lossless_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\near_lossless_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 97
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 98
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\iterator_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\iterator_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 99
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_rescale_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_rescale_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 100
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_psnr_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_psnr_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 101
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_csp_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_csp_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 102
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\histogram_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\histogram_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 103
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-token_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\token_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-token_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\token_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 104
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\syntax_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\syntax_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 105
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\predictor_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\predictor_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 106
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_tools_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_tools_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 107
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\tree_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\tree_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 108
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_reader_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_reader_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 109
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_writer_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_writer_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 110
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\webp_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\webp_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 111
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\quant_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\quant_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 112
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxedit.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxedit.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 113
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\filters_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\filters_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 114
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxinternal.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxinternal.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 115
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\color_cache_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\color_cache_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 116
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxread.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxread.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 117
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_encode_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_encode_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 118
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\rescaler_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\rescaler_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 119
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\random_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\random_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 120
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\anim_encode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\anim_encode.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 121
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 122
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\quant_levels_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\quant_levels_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 123
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\vp8l_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\vp8l_enc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 124
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_dec_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\quant_levels_dec_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_dec_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\quant_levels_dec_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 125
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-palette.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\palette.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-palette.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\palette.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 126
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-thread_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\thread_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-thread_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\thread_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 127
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_utils.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 128
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-frame_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8l_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-demux.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-frame_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8l_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-demux.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 129
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 130
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 131
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-alpha_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_cost_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_neon.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-alpha_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_cost_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 132
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-token_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-palette.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_dec_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-thread_utils.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-token_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-palette.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_dec_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-quant_levels_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-thread_utils.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 133
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-utils.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-utils.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\libwebpsys.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\.tmp\\native-trace-10424-1783962475538\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-d3ae6718e83b3b05\\rustcctmSlD\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000360       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000380       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000398       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000003a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000003b8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000450       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000468       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000478       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000004a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000004c0       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 0000000140102020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000002f8       \\177KERNEL32_NULL_THUNK_DATA 00000001401022f8     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000310       \\177OLEAUT32_NULL_THUNK_DATA 0000000140102310     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000360       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000360       \\177VCRUNTIME140_NULL_THUNK_DATA 0000000140102360     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000380       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000380       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140102380     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000398       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000398       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000140102398     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000003a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000003a8       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001401023a8     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000003b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000003b8       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001401023b8     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000450       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000140102450     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000468       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000140102468     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000478       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:00000478       \\177bcryptprimitives_NULL_THUNK_DATA 0000000140102478     libgetrandom-63356ae595a106bd:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000004a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000004a8       \\177ntdll_NULL_THUNK_DATA  00000001401024a8     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000004c0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\0002:000004c0       \\177ole32_NULL_THUNK_DATA  00000001401024c0     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\.tmp\\native-trace-link-link-8004-1783962477415681200.map",
+  "pid": 8004,
+  "ppid": 14264,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\.tmp\\native-trace-link-link-8004-1783962477415681200.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -49,16 +6363,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_dsp.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_neon.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_dsp.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_neon.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -88,16 +6402,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_gamma.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_cpu.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_gamma.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_cpu.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -127,16 +6441,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_sse2.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_gamma.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_sse2.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_gamma.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_gamma.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -205,16 +6519,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_csp.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_dsp.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_csp.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_dsp.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_dsp.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -244,16 +6558,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_cpu.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_sse2.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_cpu.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_cpu.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_sse2.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -283,16 +6597,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_neon.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_csp.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_neon.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\4be9e825c182b55b-sharpyuv_csp.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\sharpyuv\\sharpyuv_csp.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -512,16 +6826,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\webp_dec.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\webp_dec.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -535,45 +6849,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\alpha_dec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\alpha_dec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
 
 ```json
 {
@@ -612,280 +6887,7 @@ _None._
 }
 ```
 
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\quant_dec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\quant_dec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\anim_decode.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\anim_decode.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips_dsp_r2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips_dsp_r2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cpu.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cpu.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8_dec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8_dec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
+#### Record 3
 
 ```json
 {
@@ -924,7 +6926,7 @@ _None._
 }
 ```
 
-#### Record 12
+#### Record 4
 
 ```json
 {
@@ -941,16 +6943,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\webp_dec.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8_dec.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-webp_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\webp_dec.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-vp8_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\vp8_dec.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -963,7 +6965,7 @@ _None._
 }
 ```
 
-#### Record 13
+#### Record 5
 
 ```json
 {
@@ -1002,7 +7004,7 @@ _None._
 }
 ```
 
-#### Record 14
+#### Record 6
 
 ```json
 {
@@ -1019,16 +7021,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\buffer_dec.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\anim_decode.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\buffer_dec.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\9334a45b1b1f9c2b-anim_decode.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\demux\\anim_decode.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1041,319 +7043,7 @@ _None._
 }
 ```
 
-#### Record 15
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\tree_dec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\tree_dec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 16
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips32.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips32.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 18
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\idec_dec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\idec_dec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 20
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\io_dec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\io_dec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_mips_dsp_r2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_mips_dsp_r2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 22
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse41.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse41.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 23
+#### Record 7
 
 ```json
 {
@@ -1392,202 +7082,631 @@ _None._
 }
 ```
 
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\io_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-io_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\io_dec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\alpha_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-alpha_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\alpha_dec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cpu.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cpu.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cpu.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\buffer_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-buffer_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\buffer_dec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips32.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips32.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-cost.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\cost.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\quant_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-quant_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\quant_dec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_sse41.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_sse41.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\tree_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-tree_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\tree_dec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\idec_dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\b2f3cd0795e341cd-idec_dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dec\\idec_dec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-alpha_processing_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\alpha_processing_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 24
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips_dsp_r2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips_dsp_r2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 25
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 26
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_clip_tables.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_clip_tables.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 27
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_msa.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_msa.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 28
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 29
 
 ```json
 {
@@ -1626,514 +7745,7 @@ _None._
 }
 ```
 
-#### Record 30
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_msa.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_msa.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 31
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 32
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 33
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 34
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 35
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips32.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips32.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 36
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips32.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips32.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 37
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 38
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse41.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse41.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 39
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 40
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 41
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 42
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips_dsp_r2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips_dsp_r2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 43
+#### Record 25
 
 ```json
 {
@@ -2172,7 +7784,436 @@ _None._
 }
 ```
 
-#### Record 44
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips32.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips32.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips32.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips32.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse41.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse41.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_clip_tables.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_clip_tables.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_clip_tables.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
 
 ```json
 {
@@ -2211,7 +8252,85 @@ _None._
 }
 ```
 
-#### Record 45
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
 
 ```json
 {
@@ -2250,6 +8369,201 @@ _None._
 }
 ```
 
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_msa.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_msa.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-dec_msa.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\dec_msa.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 46
 
 ```json
@@ -2267,16 +8581,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_mips_dsp_r2.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-filters_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\filters_mips_dsp_r2.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -2345,16 +8659,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips_dsp_r2.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips_dsp_r2.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -2368,201 +8682,6 @@ _None._
 ```
 
 #### Record 49
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 50
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips32.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips32.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 51
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 52
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse41.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse41.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 53
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_msa.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_msa.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 54
 
 ```json
 {
@@ -2601,553 +8720,7 @@ _None._
 }
 ```
 
-#### Record 55
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_msa.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_msa.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 56
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 57
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 58
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 59
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips_dsp_r2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips_dsp_r2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 60
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse41.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse41.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 61
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_mips_dsp_r2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_mips_dsp_r2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 62
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 63
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 64
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 65
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_neon.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_neon.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 66
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips_dsp_r2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_mips_dsp_r2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 67
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 68
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 69
+#### Record 50
 
 ```json
 {
@@ -3186,6 +8759,747 @@ _None._
 }
 ```
 
+#### Record 51
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-ssim_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\ssim_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_msa.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_msa.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_msa.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_msa.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_msa.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_sse41.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_sse41.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_neon.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_neon.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_neon.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-rescaler_mips32.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\rescaler_mips32.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse41.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse41.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-lossless_enc_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\lossless_enc_sse2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 70
 
 ```json
@@ -3203,16 +9517,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_psnr_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse2.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_psnr_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse2.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3242,16 +9556,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\histogram_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_enc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\histogram_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3281,16 +9595,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips_dsp_r2.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_rescale_enc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips_dsp_r2.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_rescale_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3320,16 +9634,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\cost_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse41.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\cost_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse41.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3359,16 +9673,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse2.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\cost_enc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse2.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse2.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-cost_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\cost_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3437,16 +9751,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse41.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_psnr_enc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse41.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_psnr_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_psnr_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3460,474 +9774,6 @@ _None._
 ```
 
 #### Record 77
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\config_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\config_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 78
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 79
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\filter_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\filter_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 80
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\near_lossless_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\near_lossless_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 81
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\analysis_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\analysis_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 82
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\iterator_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\iterator_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 83
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_csp_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_csp_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 84
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\frame_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\frame_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 85
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips32.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips32.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 86
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 87
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_tools_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_tools_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 88
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse41.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_sse41.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_sse41.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 89
 
 ```json
 {
@@ -3966,7 +9812,7 @@ _None._
 }
 ```
 
-#### Record 90
+#### Record 78
 
 ```json
 {
@@ -4005,6 +9851,474 @@ _None._
 }
 ```
 
+#### Record 79
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse41.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-upsampling_sse41.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\upsampling_sse41.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\iterator_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-iterator_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\iterator_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 81
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\frame_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-frame_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\frame_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 82
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 83
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_tools_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_tools_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_tools_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 84
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\histogram_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-histogram_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\histogram_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 85
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips_dsp_r2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips_dsp_r2.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips_dsp_r2.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 86
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\filter_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-filter_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\filter_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 87
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 88
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\config_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-config_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\config_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 89
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips32.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\6c6c8d62a1ae7407-yuv_mips32.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\dsp\\yuv_mips32.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 90
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\analysis_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-analysis_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\analysis_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 91
 
 ```json
@@ -4022,16 +10336,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\near_lossless_enc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-backward_references_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\backward_references_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-near_lossless_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\near_lossless_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4061,16 +10375,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_rescale_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_csp_enc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_rescale_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_rescale_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-picture_csp_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\picture_csp_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4100,16 +10414,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\predictor_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\color_cache_utils.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\predictor_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\color_cache_utils.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4123,318 +10437,6 @@ _None._
 ```
 
 #### Record 94
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\filters_utils.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\filters_utils.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 95
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxedit.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxedit.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 96
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_encode_utils.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_encode_utils.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 97
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\syntax_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\syntax_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 98
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\rescaler_utils.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\rescaler_utils.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 99
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\anim_encode.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\anim_encode.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 100
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxread.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxread.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 101
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\tree_enc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\tree_enc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 102
 
 ```json
 {
@@ -4473,7 +10475,7 @@ _None._
 }
 ```
 
-#### Record 103
+#### Record 95
 
 ```json
 {
@@ -4490,16 +10492,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\quant_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxinternal.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\quant_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxinternal.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4512,7 +10514,46 @@ _None._
 }
 ```
 
-#### Record 104
+#### Record 96
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\syntax_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-syntax_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\syntax_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 97
 
 ```json
 {
@@ -4551,7 +10592,124 @@ _None._
 }
 ```
 
-#### Record 105
+#### Record 98
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\webp_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\webp_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 99
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_encode_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-huffman_encode_utils.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\huffman_encode_utils.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 100
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxedit.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxedit.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxedit.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 101
 
 ```json
 {
@@ -4578,6 +10736,162 @@ _None._
   "language": "c",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-thread_utils.o",
   "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\thread_utils.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 102
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_writer_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_writer_utils.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 103
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\predictor_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-predictor_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\predictor_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 104
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\tree_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-tree_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\tree_enc.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 105
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\vp8l_enc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\vp8l_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4646,16 +10960,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\random_utils.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\quant_enc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\random_utils.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-quant_enc.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\quant_enc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4685,16 +10999,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\webp_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxread.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-webp_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\webp_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxread.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxread.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4708,84 +11022,6 @@ _None._
 ```
 
 #### Record 109
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxinternal.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-muxinternal.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\muxinternal.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 110
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
-    "-W4",
-    "-D_CRT_SECURE_NO_WARNINGS",
-    "-DNDEBUG=1",
-    "-D_THREAD_SAFE=1",
-    "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_writer_utils.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_writer_utils.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_writer_utils.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 111
 
 ```json
 {
@@ -4824,7 +11060,7 @@ _None._
 }
 ```
 
-#### Record 112
+#### Record 110
 
 ```json
 {
@@ -4841,16 +11077,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\color_cache_utils.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_reader_utils.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-color_cache_utils.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\color_cache_utils.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_reader_utils.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4863,7 +11099,7 @@ _None._
 }
 ```
 
-#### Record 113
+#### Record 111
 
 ```json
 {
@@ -4902,6 +11138,84 @@ _None._
 }
 ```
 
+#### Record 112
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\anim_encode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\0d7fa698a455ac8a-anim_encode.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\mux\\anim_encode.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 113
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor",
+    "-W4",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-DNDEBUG=1",
+    "-D_THREAD_SAFE=1",
+    "-DWEBP_HAVE_SSE2=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\random_utils.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-random_utils.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\random_utils.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 114
 
 ```json
@@ -4919,16 +11233,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\vp8l_enc.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\rescaler_utils.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\99a1752561c71d1b-vp8l_enc.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\enc\\vp8l_enc.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-rescaler_utils.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\rescaler_utils.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4958,16 +11272,16 @@ _None._
     "-DNDEBUG=1",
     "-D_THREAD_SAFE=1",
     "-DWEBP_HAVE_SSE2=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_reader_utils.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\filters_utils.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-bit_reader_utils.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\bit_reader_utils.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\target\\debug\\build\\libwebp-sys-6f1eaa72770a292f\\out\\227e5bfdc4155be7-filters_utils.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-o1l_unjy\\src\\libwebp-sys-0.9.6\\vendor\\src\\utils\\filters_utils.c",
   "success": true,
   "tool": "cl",
   "_owner": {

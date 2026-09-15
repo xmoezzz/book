@@ -1,0 +1,3103 @@
+# `drm-fourcc` `2.2.0`
+
+Platform: Linux riscv64
+
+This file contains the unabridged evidence for the corresponding manual-coding case.
+
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-784039-1783996868951964140.map",
+  "pid": 784039,
+  "ppid": 784022,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-784039-1783996868951964140.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+## Root-owned native flows
+
+## Complete analysis record stream
+
+These are the recovered/enriched/generated records actually supplied to native-flow reconstruction.
+
+### Analysis records
+
+#### Record 1
+
+```json
+{
+  "event": "native_trace_root_context",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "workspace_root": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "cargo_args": [
+    "build",
+    "--target",
+    "riscv64gc-unknown-linux-gnu"
+  ],
+  "workspace_default_members": [
+    "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0"
+  ],
+  "packages": [
+    {
+      "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+      "name": "drm-fourcc",
+      "version": "2.2.0",
+      "manifest_path": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0/Cargo.toml",
+      "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0"
+    }
+  ],
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cwd_prefix"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "exit_code": 0,
+  "kind": "exec",
+  "pid": 784039,
+  "ppid": 784022,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:e3f0bbf9ebe89bdf:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+  "pid": 784039,
+  "sha256": "3c88e92332b7de39df5e21839e0ebb7ea3e6b5a5fbf56759e2017a26052cbe77",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:c699644a898b697e:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+  "pid": 784039,
+  "sha256": "d62dd602476e93b30f5a056c9ed5773b8404504368de150622ce60b9212389d5",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:73c124b20534be93:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+  "pid": 784039,
+  "sha256": "3e85850ca8bd2ceae5dbd167af9b57f05ee535759374a38dcb4bba79fc5e077c",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:11115852704ef417:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+  "pid": 784039,
+  "sha256": "01c0d9f436655d77d06a3c94f8d0c98cffc3ccdb3d3be108fcdf741902bdbf1a",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:89c421f96e068455:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+  "pid": 784039,
+  "sha256": "65c2354512867d38f1db3ddbe461b4ddd89ff8cf83a9f4e255a8a9fca31a0785",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:0c80529ef004248f:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+  "pid": 784039,
+  "sha256": "5f2a7df53e74df75d162bd6f9523b70825c5a85991ceb9140b3e8f8498d4dd74",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:c22ce9e9110d1e40:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+  "pid": 784039,
+  "sha256": "da6e182c997284b436756023a913976eabe8ed38ca90e67904106d97edf808fd",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "consumer_kind": "linker",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "used:cc:8263e71cb9ea3872:c24b17e07293b88c:4d3e055c7e61eb52",
+  "exit_code": 0,
+  "input_kind": "object",
+  "kind": "used_input",
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+  "pid": 784039,
+  "sha256": "95478e9f313919749166b172c558525439c91a2274761572bd659f7c177df3ca",
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cargo_manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "cargo_pkg_name": "drm-fourcc",
+  "cargo_pkg_version": "2.2.0",
+  "context_path": "/tmp/native-trace-783010-1783996865565/events/00000000-root-context.jsonl",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "exit_code": 0,
+  "host": null,
+  "kind": "exec_context",
+  "metadata_path": "/tmp/native-trace-783010-1783996865565/events/00000000-cargo-metadata.json",
+  "num_jobs": null,
+  "opt_level": null,
+  "out_dir": null,
+  "pid": 784039,
+  "ppid": 784022,
+  "profile": null,
+  "real_tool": "/usr/bin/cc",
+  "root_cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "success": true,
+  "target": null,
+  "tool": "cc",
+  "workspace_root": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG",
+    "/target/debug/build/drm-fourcc-13ade45021069b5d",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+      "kind": "object",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-784039-1783996868951964140.map",
+  "pid": 784039,
+  "ppid": 784022,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-784039-1783996868951964140.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/local/bin/execsnoop",
+    "-t"
+  ],
+  "event": "process_tracer_diagnostic",
+  "exit_status": null,
+  "parse_error_count": 0,
+  "parsed_event_count": 0,
+  "phase": "start",
+  "platform": "linux_ebpf",
+  "raw_event_count": 0,
+  "spawn_error": null,
+  "stderr": "",
+  "stdout": ""
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/local/bin/execsnoop",
+    "-t"
+  ],
+  "event": "process_tracer_diagnostic",
+  "exit_status": null,
+  "parse_error_count": 1,
+  "parsed_event_count": 306,
+  "phase": "stop",
+  "platform": "linux_ebpf",
+  "raw_event_count": 307,
+  "spawn_error": null,
+  "stderr": "In file included from <built-in>:2:\nIn file included from /virtual/include/bcc/bpf.h:12:\nIn file included from include/linux/types.h:6:\nIn file included from include/uapi/linux/types.h:14:\nIn file included from include/uapi/linux/posix_types.h:5:\nIn file included from include/linux/stddef.h:5:\nIn file included from include/uapi/linux/stddef.h:6:\nIn file included from include/linux/compiler_types.h:184:\ninclude/linux/compiler-clang.h:64:9: warning: '__HAVE_BUILTIN_BSWAP32__' macro redefined [-Wmacro-redefined]\n#define __HAVE_BUILTIN_BSWAP32__\n        ^\n<command line>:4:9: note: previous definition is here\n#define __HAVE_BUILTIN_BSWAP32__ 1\n        ^\nIn file included from <built-in>:2:\nIn file included from /virtual/include/bcc/bpf.h:12:\nIn file included from include/linux/types.h:6:\nIn file included from include/uapi/linux/types.h:14:\nIn file included from include/uapi/linux/posix_types.h:5:\nIn file included from include/linux/stddef.h:5:\nIn file included from include/uapi/linux/stddef.h:6:\nIn file included from include/linux/compiler_types.h:184:\ninclude/linux/compiler-clang.h:65:9: warning: '__HAVE_BUILTIN_BSWAP64__' macro redefined [-Wmacro-redefined]\n#define __HAVE_BUILTIN_BSWAP64__\n        ^\n<command line>:5:9: note: previous definition is here\n#define __HAVE_BUILTIN_BSWAP64__ 1\n        ^\nIn file included from <built-in>:2:\nIn file included from /virtual/include/bcc/bpf.h:12:\nIn file included from include/linux/types.h:6:\nIn file included from include/uapi/linux/types.h:14:\nIn file included from include/uapi/linux/posix_types.h:5:\nIn file included from include/linux/stddef.h:5:\nIn file included from include/uapi/linux/stddef.h:6:\nIn file included from include/linux/compiler_types.h:184:\ninclude/linux/compiler-clang.h:66:9: warning: '__HAVE_BUILTIN_BSWAP16__' macro redefined [-Wmacro-redefined]\n#define __HAVE_BUILTIN_BSWAP16__\n        ^\n<command line>:3:9: note: previous definition is here\n#define __HAVE_BUILTIN_BSWAP16__ 1\n        ^\nIn file included from <built-in>:3:\nIn file included from /virtual/include/bcc/helpers.h:53:\nIn file included from include/linux/log2.h:12:\nIn file included from include/linux/bitops.h:28:\nIn file included from include/asm-generic/bitops/generic-non-atomic.h:7:\nIn file included from arch/x86/include/asm/barrier.h:5:\nIn file included from arch/x86/include/asm/alternative.h:9:\nIn file included from arch/x86/include/asm/bug.h:108:\nIn file included from include/asm-generic/bug.h:22:\nIn file included from include/linux/printk.h:8:\nIn file included from include/linux/linkage.h:8:\nIn file included from arch/x86/include/asm/linkage.h:6:\narch/x86/include/asm/ibt.h:77:8: warning: 'nocf_check' attribute ignored; use -fcf-protection to enable the attribute [-Wignored-attributes]\nextern __noendbr bool is_endbr(u32 *val);\n       ^\narch/x86/include/asm/ibt.h:32:34: note: expanded from macro '__noendbr'\n#define __noendbr       __attribute__((nocf_check))\n                                       ^\narch/x86/include/asm/ibt.h:78:8: warning: 'nocf_check' attribute ignored; use -fcf-protection to enable the attribute [-Wignored-attributes]\nextern __noendbr u64 ibt_save(bool disable);\n       ^\narch/x86/include/asm/ibt.h:32:34: note: expanded from macro '__noendbr'\n#define __noendbr       __attribute__((nocf_check))\n                                       ^\narch/x86/include/asm/ibt.h:79:8: warning: 'nocf_check' attribute ignored; use -fcf-protection to enable the attribute [-Wignored-attributes]\nextern __noendbr void ibt_restore(u64 save);\n       ^\narch/x86/include/asm/ibt.h:32:34: note: expanded from macro '__noendbr'\n#define __noendbr       __attribute__((nocf_check))\n                                       ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:12:\narch/x86/include/asm/current.h:23:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\n                return this_cpu_read_const(const_current_task);\n                       ^\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:30: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n                                    ^\nnote: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:85:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:12:\narch/x86/include/asm/current.h:23:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:9: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n               ^\nnote: (skipping 3 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:84:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:13:\narch/x86/include/asm/processor.h:554:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\n                return this_cpu_read_const(const_cpu_current_top_of_stack);\n                       ^\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:30: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n                                    ^\nnote: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:56:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:13:\narch/x86/include/asm/processor.h:554:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:9: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n               ^\nnote: (skipping 3 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:55:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:4:\ninclude/linux/fs.h:1258:27: warning: unknown attribute '__counted_by__' ignored [-Wunknown-attributes]\n        unsigned char f_handle[] __counted_by(handle_bytes);\n                                 ^\ninclude/linux/compiler_types.h:381:47: note: expanded from macro '__counted_by'\n# define __counted_by(member)           __attribute__((__counted_by__(member)))\n                                                       ^\n11 warnings generated.\nNATIVE_TRACE_EXECSNOOP_READY\n",
+  "stdout": "r-platform riscv64gc-unknown-linux-gnu\n7.656   cargo            785069 785044   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1 --filter-platform riscv64gc-unknown-linux-gnu\n7.667   rustc            785078 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.676   rustc            785080 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n7.688   rustc            785084 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target riscv64gc-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n7.794   rustc            785089 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.817   rustc            785091 785044   0 /home/xmoe/.cargo/bin/rustc --print sysroot\n7.823   rustc            785091 785044   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --print sysroot\n7.835   docker           785103 785044   0 /usr/bin/docker --help\n7.849   docker           785116 785044   0 /usr/bin/docker version -f {{ .Server.Os }},,,{{ .Server.Arch }}\n7.850   cross            785117 4193716   0 /home/xmoe/.cargo/bin/cross build --target aarch64-unknown-linux-gnu\n7.851   rustc            785121 785117   0 /home/xmoe/.cargo/bin/rustc --print target-list\n7.857   rustc            785121 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --print target-list\n7.862   runc             785138 1599     0 /usr/bin/runc --version\n7.865   docker-init      785144 1599     0 /usr/bin/docker-init --version\n7.867   docker           785147 785044   0 /usr/bin/docker info -f {{.SecurityOptions}}\n7.871   rustc            785154 785117   0 /home/xmoe/.cargo/bin/rustc -vV\n7.877   rustc            785154 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.879   runc             785167 1599     0 /usr/bin/runc --version\n7.884   docker-init      785173 1599     0 /usr/bin/docker-init --version\n7.888   cargo            785175 785117   0 /home/xmoe/.cargo/bin/cargo metadata --format-version 1 --filter-platform aarch64-unknown-linux-gnu\n7.893   cargo            785175 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1 --filter-platform aarch64-unknown-linux-gnu\n7.904   rustc            785184 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.908   rustup           785185 785044   0 /home/xmoe/.cargo/bin/rustup toolchain list\n7.914   rustup           785195 785044   0 /home/xmoe/.cargo/bin/rustup target list --toolchain stable-x86_64-unknown-linux-gnu\n7.915   rustc            785196 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n7.928   rustc            785208 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target aarch64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n7.939   rustup           785212 785044   0 /home/xmoe/.cargo/bin/rustup component list --toolchain stable-x86_64-unknown-linux-gnu\n7.963   uname            785222 785044   0 /usr/bin/uname -r\n7.981   docker           785223 785044   0 /usr/bin/docker run --userns host --privileged --pid=host --security-opt seccomp=unconfined --ulimit memlock=-1:-1 -v /lib/modules:/lib/modules:ro -v /usr/src:/usr/src:ro -v /usr/src/kernels/6.18.10-100.fc42.x86_64:/usr/src/kernels/6.18.10-100.fc42.x86_64:ro -v /sys/fs/bpf:/sys/fs/bpf:rw -v /sys/kernel/debug:/sys/kernel/debug:rw ...\n8.022   systemd-sysctl   785236 785032   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vethae4cc8f --prefix=/net/ipv4/neigh/vethae4cc8f --prefix=/net/ipv6/conf/vethae4cc8f --prefix=/net/ipv6/neigh/vethae4cc8f\n8.023   systemd-sysctl   785237 785042   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vethc418ad2 --prefix=/net/ipv4/neigh/vethc418ad2 --prefix=/net/ipv6/conf/vethc418ad2 --prefix=/net/ipv6/neigh/vethc418ad2\n8.031   rustc            785242 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n8.040   containerd-shim  785268 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976 start\n8.045   containerd-shim  785276 785268   0 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976 -address /var/run/docker/containerd/containerd.sock\n8.050   runc             785285 785276   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 --log-format json --systemd-cgroup create --bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 --pid-file /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976\n8.057   exe              785292 785285   0 /proc/self/exe init\n8.059   rustc            785295 785117   0 /home/xmoe/.cargo/bin/rustc --print sysroot\n8.065   rustc            785295 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --print sysroot\n8.077   docker           785315 785117   0 /usr/bin/docker --help\n8.086   exe              785325 785285   0 /proc/1599/exe -exec-root=/var/run/docker 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976 d7da31e8f8e1\n8.090   docker           785331 785117   0 /usr/bin/docker version -f {{ .Server.Os }},,,{{ .Server.Arch }}\n8.103   runc             785344 1599     0 /usr/bin/runc --version\n8.106   docker-init      785350 1599     0 /usr/bin/docker-init --version\n8.109   docker           785352 785117   0 /usr/bin/docker info -f {{.SecurityOptions}}\n8.115   exe              785358 1599     0 /proc/self/exe /var/run/docker/netns/34fb38092dc7 all false\n8.121   runc             785369 1599     0 /usr/bin/runc --version\n8.125   docker-init      785378 1599     0 /usr/bin/docker-init --version\n8.149   rustup           785389 785117   0 /home/xmoe/.cargo/bin/rustup toolchain list\n8.155   rustup           785398 785117   0 /home/xmoe/.cargo/bin/rustup target list --toolchain stable-x86_64-unknown-linux-gnu\n8.161   runc             785409 785276   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 --log-format json --systemd-cgroup start 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976\n8.167   sh               785305 785276   0 /usr/bin/sh -c PATH=\"$PATH\":\"/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin\":\"/home/xmoe/.cargo/bin\" cargo native-trace -- b\n8.168   cargo            785415 785305   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo native-trace -- build --target riscv64gc-unknown-linux-gnu\n8.180   cargo-native-tr  785415 785305   0 /home/xmoe/.cargo/bin/cargo-native-trace native-trace -- build --target riscv64gc-unknown-linux-gnu\n8.182   rustup           785416 785117   0 /home/xmoe/.cargo/bin/rustup component list --toolchain stable-x86_64-unknown-linux-gnu\n8.184   cargo            785417 785415   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1\n8.195   rustc            785426 785417   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n8.206   rustc            785428 785417   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n8.207   uname            785429 785117   0 /usr/bin/uname -r\n8.226   execsnoop        785433 785415   0 /usr/local/bin/execsnoop -t\n8.228   docker           785435 785117   0 /usr/bin/docker run --userns host --privileged --pid=host --security-opt seccomp=unconfined --ulimit memlock=-1:-1 -v /lib/modules:/lib/modules:ro -v /usr/src:/usr/src:ro -v /usr/src/kernels/6.18.10-100.fc42.x86_64:/usr/src/kernels/6.18.10-100.fc42.x86_64:ro -v /sys/fs/bpf:/sys/fs/bpf:rw -v /sys/kernel/debug:/sys/kernel/debug:rw ...\n8.228   python3          785433 785415   0 /usr/bin/python3 /usr/local/lib/native-trace/execsnoop-real -t\n8.284   systemd-sysctl   785450 785032   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth7b58c63 --prefix=/net/ipv4/neigh/veth7b58c63 --prefix=/net/ipv6/conf/veth7b58c63 --prefix=/net/ipv6/neigh/veth7b58c63\n8.284   systemd-sysctl   785449 785265   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth0e407b8 --prefix=/net/ipv4/neigh/veth0e407b8 --prefix=/net/ipv6/conf/veth0e407b8 --prefix=/net/ipv6/neigh/veth0e407b8\n8.301   containerd-shim  785451 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257 start\n8.305   containerd-shim  785457 785451   0 /usr/bin/containerd-shim-runc-v2 -namespace moby -id a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257 -address /var/run/docker/containerd/containerd.sock\n8.308   runc             785469 785457   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a --log-format json --systemd-cgroup create --bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a --pid-file /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257\n8.314   exe              785476 785469   0 /proc/self/exe init\n8.347   exe              785486 785469   0 /proc/1599/exe -exec-root=/var/run/docker a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257 d7da31e8f8e1\n8.372   exe              785494 1599     0 /proc/self/exe /var/run/docker/netns/7e1ad96c9bc5 all false\n8.428   runc             785511 785457   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a --log-format json --systemd-cgroup start a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257\n8.433   sh               785480 785457   0 /usr/bin/sh -c PATH=\"$PATH\":\"/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin\":\"/home/xmoe/.cargo/bin\" cargo native-trace -- b\n8.435   cargo            785517 785480   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo native-trace -- build --target aarch64-unknown-linux-gnu\n8.446   cargo-native-tr  785517 785480   0 /home/xmoe/.cargo/bin/cargo-native-trace native-trace -- build --target aarch64-unknown-linux-gnu\n8.450   cargo            785518 785517   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1\n8.461   rustc            785519 785518   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n8.474   rustc            785521 785518   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n8.493   execsnoop        785525 785517   0 /usr/local/bin/execsnoop -t\n8.494   python3          785525 785517   0 /usr/bin/python3 /usr/local/lib/native-trace/execsnoop-real -t\n9.064   rustc            785529 617400   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name wasm_opt_sys --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"dwarf\" --check-cfg cfg(docsrs,test) ...\n10.457  runc             785599 778816   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac --log-format json --systemd-cgroup kill --all 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2 9\n10.477  runc             785606 778816   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac --log-format json --systemd-cgroup delete 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2\n10.480  cargo            785612 785517   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo build --target aarch64-unknown-linux-gnu\n10.495  rustc            785613 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target aarch64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n10.518  rustc            785623 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=200e81327dd5a365 ...\n10.518  rustc            785621 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=2dfde9935a2aa7cd ...\n10.518  rustc            785625 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n10.518  rustc            785624 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name unicode_ident --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.24/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=16b048854222583a ...\n10.564  cargo            785643 785415   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo build --target riscv64gc-unknown-linux-gnu\n10.578  rustc            785650 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target riscv64gc-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n10.605  rustc            785703 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n10.606  rustc            785699 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=2dfde9935a2aa7cd ...\n10.607  rustc            785702 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=200e81327dd5a365 ...\n10.607  rustc            785700 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name unicode_ident --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.24/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=33bc0340c044253b ...\n10.618  cc               785708 785625   0 /tmp/native-trace-785517-1783996877171/shims/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustc7cU5ey/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.1mwjg9t.rc ...\n10.620  cc               785722 785708   0 /usr/bin/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustc7cU5ey/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.1mwjg9t.rc ...\n10.622  cc               785721 785623   0 /tmp/native-trace-785517-1783996877171/shims/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcgakjC3/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.624  cc               785723 785721   0 /usr/bin/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcgakjC3/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.626  collect2         785724 785722   0 /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Vh0BM.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.628  collect2         785726 785723   0 /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwi6R9R.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.628  ld.lld           785725 785724   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Vh0BM.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c ...\n10.630  rust-lld         785725 785724   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Vh0BM.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.632  ld.lld           785728 785726   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwi6R9R.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7 ...\n10.634  cc               785727 785621   0 /tmp/native-trace-785517-1783996877171/shims/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcldIRtN/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.634  rust-lld         785728 785726   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwi6R9R.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.637  cc               785729 785727   0 /usr/bin/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcldIRtN/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.640  collect2         785730 785729   0 /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAlWZkk.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.642  ld.lld           785731 785730   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAlWZkk.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9 ...\n10.646  rust-lld         785731 785730   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAlWZkk.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.670  containerd-shim  785789 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2 -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac delete\n10.675  runc             785800 785789   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f --log-format json delete --force 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2\n10.702  build-script-bu  785850 785612   0 /target/debug/build/quote-5ea12905e6b8e2d7/build-script-build\n10.705  rustc            785851 785850   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.709  build-script-bu  785854 785612   0 /target/debug/build/proc-macro2-eca720657268f2c9/build-script-build\n10.712  rustc            785857 785854   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.715  cc               785856 785703   0 /tmp/native-trace-785415-1783996876905/shims/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustcKNz22k/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.0hbv40a.rc ...\n10.715  sh               785858 785265   0 /bin/sh -c /usr/sbin/ethtool -i $1 |/usr/bin/sed -n s/^driver:\\ //p -- vethf4dd7b0\n10.717  cc               785860 785856   0 /usr/bin/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustcKNz22k/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.0hbv40a.rc ...\n10.718  sed              785862 785858   0 /usr/bin/sed -n s/^driver: //p\n10.718  ethtool          785861 785858   0 /usr/sbin/ethtool -i vethf4dd7b0\n10.722  collect2         785865 785860   0 /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xYsra.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.724  ld.lld           785867 785865   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xYsra.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c ...\n10.728  build-script-bu  785871 785612   0 /target/debug/build/proc-macro-warning-ad4748846f063e1c/build-script-build\n10.728  rust-lld         785867 785865   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xYsra.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.728  systemd-sysctl   785868 785265   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vethf4dd7b0 --prefix=/net/ipv4/neigh/vethf4dd7b0 --prefix=/net/ipv6/conf/vethf4dd7b0 --prefix=/net/ipv6/neigh/vethf4dd7b0\n10.734  cc               785873 785702   0 /tmp/native-trace-785415-1783996876905/shims/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcymUPvd/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.734  rustc            785872 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro2 --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=62b3a44cd46fff0e ...\n10.735  cc               785874 785873   0 /usr/bin/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcymUPvd/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.738  collect2         785875 785874   0 /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRlCvHh.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.740  ld.lld           785876 785875   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRlCvHh.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7 ...\n10.741  rust-lld         785876 785875   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRlCvHh.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.743  cc               785877 785699   0 /tmp/native-trace-785415-1783996876905/shims/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcO4x7hI/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.745  cc               785894 785877   0 /usr/bin/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcO4x7hI/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.748  collect2         785898 785894   0 /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvrvLC.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.751  ld.lld           785899 785898   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvrvLC.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9 ...\n10.752  rust-lld         785899 785898   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvrvLC.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.795  build-script-bu  785933 785643   0 /target/debug/build/quote-5ea12905e6b8e2d7/build-script-build\n10.797  rustc            785934 785933   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.800  build-script-bu  785936 785643   0 /target/debug/build/proc-macro2-eca720657268f2c9/build-script-build\n10.802  rustc            785937 785936   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.805  build-script-bu  785939 785643   0 /target/debug/build/proc-macro-warning-ad4748846f063e1c/build-script-build\n10.816  rustc            785943 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro2 --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=f80382781c4ff649 ...\n10.914  rustc            785951 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name quote --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=13b38aede1a377aa ...\n10.916  rustc            785952 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name syn --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.118/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"clone-impls\", \"default\", \"derive\", \"extra-traits\", \"fold\", \"full\", \"parsing\", \"printing\", \"proc-macro\", \"te -C metadata=cc2ee696bc0cfdb9 ...\n10.997  rustc            785970 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name syn --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.118/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"clone-impls\", \"default\", \"derive\", \"extra-traits\", \"fold\", \"full\", \"parsing\", \"printing\", \"proc-macro\", \"te -C metadata=63304be103d3cbfe ...\n10.997  rustc            785969 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name quote --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=9ab743b18e379101 ...\n11.150  rustc            785991 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro_warning --edition=2021 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n11.230  rustc            786003 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro_warning --edition=2021 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n12.885  systemd-userwor  786175 50265    0 /usr/lib/systemd/systemd-userwork xxxxxxxxxxxxxxxx\n12.886  systemd-userwor  786176 50265    0 /usr/lib/systemd/systemd-userwork xxxxxxxxxxxxxxxx\n13.135  runc             786177 768912   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9 --log-format json --systemd-cgroup kill --all 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5 9\n13.154  runc             786183 768912   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9 --log-format json --systemd-cgroup delete 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5\n13.362  containerd-shim  786190 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5 -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9 delete\n13.365  runc             786197 786190   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b --log-format json delete --force 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5\n13.407  systemd-sysctl   786202 785265   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vetha0a999b --prefix=/net/ipv4/neigh/vetha0a999b --prefix=/net/ipv6/conf/vetha0a999b --prefix=/net/ipv6/neigh/vetha0a999b\n16.934  runc             786204 782770   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c --log-format json --systemd-cgroup kill --all 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e 9\n16.959  runc             786211 782770   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c --log-format json --systemd-cgroup delete 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e\n17.078  runc             786217 782835   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fd --log-format json --systemd-cgroup kill --all d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba 9\n17.098  runc             786223 782835   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fd --log-format json --systemd-cgroup delete d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba\n17.187  containerd-shim  786229 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c delete\n17.190  runc             786236 786229   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11 --log-format json delete --force 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e\n17.234  sh               786244 786241   0 /bin/sh -c /usr/sbin/ethtool -i $1 |/usr/bin/sed -n s/^driver:\\ //p -- veth4bf77ad\n17.236  ethtool          786245 786244   0 /usr/sbin/ethtool -i veth4bf77ad\n17.236  sed              786246 786244   0 /usr/bin/sed -n s/^driver: //p\n17.243  systemd-sysctl   786249 786241   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth4bf77ad --prefix=/net/ipv4/neigh/veth4bf77ad --prefix=/net/ipv6/conf/veth4bf77ad --prefix=/net/ipv6/neigh/veth4bf77ad\n17.338  containerd-shim  786252 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fd delete\n17.341  runc             786259 786252   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eb --log-format json delete --force d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba\n17.387  systemd-sysctl   786265 786250   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth0780346 --prefix=/net/ipv4/neigh/veth0780346 --prefix=/net/ipv6/conf/veth0780346 --prefix=/net/ipv6/neigh/veth0780346\n"
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "/target/debug/build/drm-fourcc-13ade45021069b5d/build-script-build"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 784073,
+  "build_script_target_dir": "drm-fourcc-13ade45021069b5d",
+  "comm": "build-script-bu",
+  "event": "process_exec",
+  "image": "/target/debug/build/drm-fourcc-13ade45021069b5d/build-script-build",
+  "pid": 784073,
+  "ppid": 784005,
+  "root_cargo_pid": 784005,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "_build_script_out_dir": "/target/debug/build/drm-fourcc-13ade45021069b5d/out"
+}
+```
+
+#### Record 17
+
+```json
+{
+  "crate": "drm-fourcc",
+  "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "event_id": "bsrun:fdf73d9b95fe1960:2e5c452816fbab5c:eb734493b5afb56f",
+  "evidence_kind": "exec_context_out_dir_inferred",
+  "exe": "/target/debug/build/drm-fourcc-13ade45021069b5d/build-script-build",
+  "host": null,
+  "kind": "build_script_run",
+  "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+  "out_dir": "/target/debug/build/drm-fourcc-13ade45021069b5d/out",
+  "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+  "success": true,
+  "target": null,
+  "version": "2.2.0",
+  "_owner": {
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+    "source": "cwd_prefix"
+  }
+}
+```
+
+## Original input record
+
+This is the untouched JSONL object loaded from `successes*.jsonl` before recovery and enrichment.
+
+```json
+{
+  "time": "2026-07-14T02:41:31.557050+00:00",
+  "crate": "drm-fourcc",
+  "version": "2.2.0",
+  "architecture": "riscv64",
+  "duration_seconds": 31.325315336231142,
+  "trace_record_count": 17,
+  "trace_owner_summary": {
+    "owner_package_count": 1,
+    "owner_packages": [
+      {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "manifest_path": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0/Cargo.toml"
+      }
+    ],
+    "attributed_event_count": 14,
+    "unattributed_event_count": 3,
+    "owners": [
+      {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "event_count": 14,
+        "kind_counts": {
+          "native_trace_root_context": 1,
+          "exec": 1,
+          "used_input": 8,
+          "link": 1,
+          "exec_context": 1,
+          "resolved_link": 1,
+          "build_script_run": 1
+        }
+      }
+    ]
+  },
+  "trace_records": [
+    {
+      "event": "native_trace_root_context",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "workspace_root": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "cargo_args": [
+        "build",
+        "--target",
+        "riscv64gc-unknown-linux-gnu"
+      ],
+      "workspace_default_members": [
+        "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0"
+      ],
+      "packages": [
+        {
+          "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+          "name": "drm-fourcc",
+          "version": "2.2.0",
+          "manifest_path": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0/Cargo.toml",
+          "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0"
+        }
+      ],
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cwd_prefix"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "exit_code": 0,
+      "kind": "exec",
+      "pid": 784039,
+      "ppid": 784022,
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:e3f0bbf9ebe89bdf:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+      "pid": 784039,
+      "sha256": "3c88e92332b7de39df5e21839e0ebb7ea3e6b5a5fbf56759e2017a26052cbe77",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:c699644a898b697e:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+      "pid": 784039,
+      "sha256": "d62dd602476e93b30f5a056c9ed5773b8404504368de150622ce60b9212389d5",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:73c124b20534be93:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+      "pid": 784039,
+      "sha256": "3e85850ca8bd2ceae5dbd167af9b57f05ee535759374a38dcb4bba79fc5e077c",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:11115852704ef417:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+      "pid": 784039,
+      "sha256": "01c0d9f436655d77d06a3c94f8d0c98cffc3ccdb3d3be108fcdf741902bdbf1a",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:89c421f96e068455:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+      "pid": 784039,
+      "sha256": "65c2354512867d38f1db3ddbe461b4ddd89ff8cf83a9f4e255a8a9fca31a0785",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:0c80529ef004248f:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+      "pid": 784039,
+      "sha256": "5f2a7df53e74df75d162bd6f9523b70825c5a85991ceb9140b3e8f8498d4dd74",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:c22ce9e9110d1e40:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+      "pid": 784039,
+      "sha256": "da6e182c997284b436756023a913976eabe8ed38ca90e67904106d97edf808fd",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "consumer_kind": "linker",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "used:cc:8263e71cb9ea3872:c24b17e07293b88c:4d3e055c7e61eb52",
+      "exit_code": 0,
+      "input_kind": "object",
+      "kind": "used_input",
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+      "pid": 784039,
+      "sha256": "95478e9f313919749166b172c558525439c91a2274761572bd659f7c177df3ca",
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "exit_code": 0,
+      "inputs": [
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o"
+      ],
+      "kind": "link",
+      "lib_paths": [
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+      ],
+      "libs": [
+        "gcc_s",
+        "util",
+        "rt",
+        "pthread",
+        "m",
+        "dl",
+        "c"
+      ],
+      "output": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+      "shared": false,
+      "static_link": false,
+      "success": true,
+      "tool": "cc",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cargo_manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "cargo_pkg_name": "drm-fourcc",
+      "cargo_pkg_version": "2.2.0",
+      "context_path": "/tmp/native-trace-783010-1783996865565/events/00000000-root-context.jsonl",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "exit_code": 0,
+      "host": null,
+      "kind": "exec_context",
+      "metadata_path": "/tmp/native-trace-783010-1783996865565/events/00000000-cargo-metadata.json",
+      "num_jobs": null,
+      "opt_level": null,
+      "out_dir": null,
+      "pid": 784039,
+      "ppid": 784022,
+      "profile": null,
+      "real_tool": "/usr/bin/cc",
+      "root_cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "success": true,
+      "target": null,
+      "tool": "cc",
+      "workspace_root": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "cc",
+        "-m64",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+        "-Wl,--as-needed",
+        "-Wl,-Bstatic",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+        "-Wl,-Bdynamic",
+        "-lgcc_s",
+        "-lutil",
+        "-lrt",
+        "-lpthread",
+        "-lm",
+        "-ldl",
+        "-lc",
+        "-L",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/raw-dylibs",
+        "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+        "-fuse-ld=lld",
+        "-Wl,--eh-frame-hdr",
+        "-Wl,-z,noexecstack",
+        "-L",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "-o",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d",
+        "-Wl,--gc-sections",
+        "-pie",
+        "-Wl,-z,relro,-z,now",
+        "-nodefaultlibs"
+      ],
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "directories": [
+        "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+        "/usr/lib/gcc/x86_64-linux-gnu/11",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG",
+        "/target/debug/build/drm-fourcc-13ade45021069b5d",
+        "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+        "/lib/x86_64-linux-gnu",
+        "/lib64"
+      ],
+      "exit_code": 0,
+      "inputs": [
+        {
+          "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+          "kind": "object",
+          "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+          "kind": "object",
+          "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+          "kind": "object",
+          "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/rustcu7IMtG/symbols.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2mgqbk4xczrl98tuox34cnk4k.1s484b9.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.2wwm08et4q1rfhf4zgat06ei9.1s484b9.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6teqihfkix5mpmwndp750zdkh.1s484b9.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.6vdv3kiythtj7caf45zkywej5.1s484b9.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.89qw7abxdxelggo0xkex9cnaf.1s484b9.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.c0gl9xnzuoqk9aug73cb4zkpu.1s484b9.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/target/debug/build/drm-fourcc-13ade45021069b5d",
+          "kind": "object",
+          "path": "/target/debug/build/drm-fourcc-13ade45021069b5d/build_script_build-13ade45021069b5d.5mvdrbwk8zw56ma79sdgbv8ce.1s484b9.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+          "kind": "object",
+          "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+          "kind": "dynamic_library",
+          "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/lib/x86_64-linux-gnu",
+          "kind": "dynamic_library",
+          "path": "/lib/x86_64-linux-gnu/libm.so.6",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/lib/x86_64-linux-gnu",
+          "kind": "dynamic_library",
+          "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/lib/x86_64-linux-gnu",
+          "kind": "dynamic_library",
+          "path": "/lib/x86_64-linux-gnu/libc.so.6",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/lib64",
+          "kind": "dynamic_library",
+          "path": "/lib64/ld-linux-x86-64.so.2",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+          "kind": "object",
+          "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+          "source": "link_trace"
+        },
+        {
+          "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+          "kind": "object",
+          "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+          "source": "link_trace"
+        }
+      ],
+      "kind": "resolved_link",
+      "map_path": "/tmp/native-trace-link-cc-784039-1783996868951964140.map",
+      "pid": 784039,
+      "ppid": 784022,
+      "real_tool": "/usr/bin/cc",
+      "success": true,
+      "tool": "cc",
+      "trace_args": [
+        "-Wl,--trace",
+        "-Wl,-Map,/tmp/native-trace-link-cc-784039-1783996868951964140.map"
+      ],
+      "trace_mode": "driver",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cargo_manifest_dir"
+      }
+    },
+    {
+      "argv": [
+        "/usr/local/bin/execsnoop",
+        "-t"
+      ],
+      "event": "process_tracer_diagnostic",
+      "exit_status": null,
+      "parse_error_count": 0,
+      "parsed_event_count": 0,
+      "phase": "start",
+      "platform": "linux_ebpf",
+      "raw_event_count": 0,
+      "spawn_error": null,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "/usr/local/bin/execsnoop",
+        "-t"
+      ],
+      "event": "process_tracer_diagnostic",
+      "exit_status": null,
+      "parse_error_count": 1,
+      "parsed_event_count": 306,
+      "phase": "stop",
+      "platform": "linux_ebpf",
+      "raw_event_count": 307,
+      "spawn_error": null,
+      "stderr": "In file included from <built-in>:2:\nIn file included from /virtual/include/bcc/bpf.h:12:\nIn file included from include/linux/types.h:6:\nIn file included from include/uapi/linux/types.h:14:\nIn file included from include/uapi/linux/posix_types.h:5:\nIn file included from include/linux/stddef.h:5:\nIn file included from include/uapi/linux/stddef.h:6:\nIn file included from include/linux/compiler_types.h:184:\ninclude/linux/compiler-clang.h:64:9: warning: '__HAVE_BUILTIN_BSWAP32__' macro redefined [-Wmacro-redefined]\n#define __HAVE_BUILTIN_BSWAP32__\n        ^\n<command line>:4:9: note: previous definition is here\n#define __HAVE_BUILTIN_BSWAP32__ 1\n        ^\nIn file included from <built-in>:2:\nIn file included from /virtual/include/bcc/bpf.h:12:\nIn file included from include/linux/types.h:6:\nIn file included from include/uapi/linux/types.h:14:\nIn file included from include/uapi/linux/posix_types.h:5:\nIn file included from include/linux/stddef.h:5:\nIn file included from include/uapi/linux/stddef.h:6:\nIn file included from include/linux/compiler_types.h:184:\ninclude/linux/compiler-clang.h:65:9: warning: '__HAVE_BUILTIN_BSWAP64__' macro redefined [-Wmacro-redefined]\n#define __HAVE_BUILTIN_BSWAP64__\n        ^\n<command line>:5:9: note: previous definition is here\n#define __HAVE_BUILTIN_BSWAP64__ 1\n        ^\nIn file included from <built-in>:2:\nIn file included from /virtual/include/bcc/bpf.h:12:\nIn file included from include/linux/types.h:6:\nIn file included from include/uapi/linux/types.h:14:\nIn file included from include/uapi/linux/posix_types.h:5:\nIn file included from include/linux/stddef.h:5:\nIn file included from include/uapi/linux/stddef.h:6:\nIn file included from include/linux/compiler_types.h:184:\ninclude/linux/compiler-clang.h:66:9: warning: '__HAVE_BUILTIN_BSWAP16__' macro redefined [-Wmacro-redefined]\n#define __HAVE_BUILTIN_BSWAP16__\n        ^\n<command line>:3:9: note: previous definition is here\n#define __HAVE_BUILTIN_BSWAP16__ 1\n        ^\nIn file included from <built-in>:3:\nIn file included from /virtual/include/bcc/helpers.h:53:\nIn file included from include/linux/log2.h:12:\nIn file included from include/linux/bitops.h:28:\nIn file included from include/asm-generic/bitops/generic-non-atomic.h:7:\nIn file included from arch/x86/include/asm/barrier.h:5:\nIn file included from arch/x86/include/asm/alternative.h:9:\nIn file included from arch/x86/include/asm/bug.h:108:\nIn file included from include/asm-generic/bug.h:22:\nIn file included from include/linux/printk.h:8:\nIn file included from include/linux/linkage.h:8:\nIn file included from arch/x86/include/asm/linkage.h:6:\narch/x86/include/asm/ibt.h:77:8: warning: 'nocf_check' attribute ignored; use -fcf-protection to enable the attribute [-Wignored-attributes]\nextern __noendbr bool is_endbr(u32 *val);\n       ^\narch/x86/include/asm/ibt.h:32:34: note: expanded from macro '__noendbr'\n#define __noendbr       __attribute__((nocf_check))\n                                       ^\narch/x86/include/asm/ibt.h:78:8: warning: 'nocf_check' attribute ignored; use -fcf-protection to enable the attribute [-Wignored-attributes]\nextern __noendbr u64 ibt_save(bool disable);\n       ^\narch/x86/include/asm/ibt.h:32:34: note: expanded from macro '__noendbr'\n#define __noendbr       __attribute__((nocf_check))\n                                       ^\narch/x86/include/asm/ibt.h:79:8: warning: 'nocf_check' attribute ignored; use -fcf-protection to enable the attribute [-Wignored-attributes]\nextern __noendbr void ibt_restore(u64 save);\n       ^\narch/x86/include/asm/ibt.h:32:34: note: expanded from macro '__noendbr'\n#define __noendbr       __attribute__((nocf_check))\n                                       ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:12:\narch/x86/include/asm/current.h:23:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\n                return this_cpu_read_const(const_current_task);\n                       ^\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:30: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n                                    ^\nnote: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:85:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:12:\narch/x86/include/asm/current.h:23:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:9: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n               ^\nnote: (skipping 3 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:84:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:13:\narch/x86/include/asm/processor.h:554:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\n                return this_cpu_read_const(const_cpu_current_top_of_stack);\n                       ^\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:30: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n                                    ^\nnote: (skipping 4 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:56:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:3:\nIn file included from include/linux/sched.h:13:\narch/x86/include/asm/processor.h:554:10: warning: multiple identical address spaces specified for type [-Wduplicate-decl-specifier]\narch/x86/include/asm/percpu.h:559:36: note: expanded from macro 'this_cpu_read_const'\n#define this_cpu_read_const(pcp)                        __raw_cpu_read_const(pcp)\n                                                        ^\narch/x86/include/asm/percpu.h:147:35: note: expanded from macro '__raw_cpu_read_const'\n#define __raw_cpu_read_const(pcp)       __raw_cpu_read(, , pcp)\n                                        ^\narch/x86/include/asm/percpu.h:139:9: note: expanded from macro '__raw_cpu_read'\n        *(qual __my_cpu_type(pcp) *)__my_cpu_ptr(&(pcp));               \\\n               ^\nnote: (skipping 3 expansions in backtrace; use -fmacro-backtrace-limit=0 to see all)\ninclude/linux/args.h:25:24: note: expanded from macro '__CONCAT'\n#define __CONCAT(a, b) a ## b\n                       ^\n<scratch space>:55:1: note: expanded from here\n__seg_gs\n^\n<built-in>:309:33: note: expanded from here\n#define __seg_gs __attribute__((address_space(256)))\n                                ^\nIn file included from /virtual/main.c:4:\ninclude/linux/fs.h:1258:27: warning: unknown attribute '__counted_by__' ignored [-Wunknown-attributes]\n        unsigned char f_handle[] __counted_by(handle_bytes);\n                                 ^\ninclude/linux/compiler_types.h:381:47: note: expanded from macro '__counted_by'\n# define __counted_by(member)           __attribute__((__counted_by__(member)))\n                                                       ^\n11 warnings generated.\nNATIVE_TRACE_EXECSNOOP_READY\n",
+      "stdout": "r-platform riscv64gc-unknown-linux-gnu\n7.656   cargo            785069 785044   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1 --filter-platform riscv64gc-unknown-linux-gnu\n7.667   rustc            785078 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.676   rustc            785080 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n7.688   rustc            785084 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target riscv64gc-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n7.794   rustc            785089 785069   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.817   rustc            785091 785044   0 /home/xmoe/.cargo/bin/rustc --print sysroot\n7.823   rustc            785091 785044   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --print sysroot\n7.835   docker           785103 785044   0 /usr/bin/docker --help\n7.849   docker           785116 785044   0 /usr/bin/docker version -f {{ .Server.Os }},,,{{ .Server.Arch }}\n7.850   cross            785117 4193716   0 /home/xmoe/.cargo/bin/cross build --target aarch64-unknown-linux-gnu\n7.851   rustc            785121 785117   0 /home/xmoe/.cargo/bin/rustc --print target-list\n7.857   rustc            785121 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --print target-list\n7.862   runc             785138 1599     0 /usr/bin/runc --version\n7.865   docker-init      785144 1599     0 /usr/bin/docker-init --version\n7.867   docker           785147 785044   0 /usr/bin/docker info -f {{.SecurityOptions}}\n7.871   rustc            785154 785117   0 /home/xmoe/.cargo/bin/rustc -vV\n7.877   rustc            785154 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.879   runc             785167 1599     0 /usr/bin/runc --version\n7.884   docker-init      785173 1599     0 /usr/bin/docker-init --version\n7.888   cargo            785175 785117   0 /home/xmoe/.cargo/bin/cargo metadata --format-version 1 --filter-platform aarch64-unknown-linux-gnu\n7.893   cargo            785175 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1 --filter-platform aarch64-unknown-linux-gnu\n7.904   rustc            785184 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n7.908   rustup           785185 785044   0 /home/xmoe/.cargo/bin/rustup toolchain list\n7.914   rustup           785195 785044   0 /home/xmoe/.cargo/bin/rustup target list --toolchain stable-x86_64-unknown-linux-gnu\n7.915   rustc            785196 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n7.928   rustc            785208 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target aarch64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n7.939   rustup           785212 785044   0 /home/xmoe/.cargo/bin/rustup component list --toolchain stable-x86_64-unknown-linux-gnu\n7.963   uname            785222 785044   0 /usr/bin/uname -r\n7.981   docker           785223 785044   0 /usr/bin/docker run --userns host --privileged --pid=host --security-opt seccomp=unconfined --ulimit memlock=-1:-1 -v /lib/modules:/lib/modules:ro -v /usr/src:/usr/src:ro -v /usr/src/kernels/6.18.10-100.fc42.x86_64:/usr/src/kernels/6.18.10-100.fc42.x86_64:ro -v /sys/fs/bpf:/sys/fs/bpf:rw -v /sys/kernel/debug:/sys/kernel/debug:rw ...\n8.022   systemd-sysctl   785236 785032   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vethae4cc8f --prefix=/net/ipv4/neigh/vethae4cc8f --prefix=/net/ipv6/conf/vethae4cc8f --prefix=/net/ipv6/neigh/vethae4cc8f\n8.023   systemd-sysctl   785237 785042   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vethc418ad2 --prefix=/net/ipv4/neigh/vethc418ad2 --prefix=/net/ipv6/conf/vethc418ad2 --prefix=/net/ipv6/neigh/vethc418ad2\n8.031   rustc            785242 785175   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n8.040   containerd-shim  785268 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976 start\n8.045   containerd-shim  785276 785268   0 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976 -address /var/run/docker/containerd/containerd.sock\n8.050   runc             785285 785276   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 --log-format json --systemd-cgroup create --bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 --pid-file /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976\n8.057   exe              785292 785285   0 /proc/self/exe init\n8.059   rustc            785295 785117   0 /home/xmoe/.cargo/bin/rustc --print sysroot\n8.065   rustc            785295 785117   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --print sysroot\n8.077   docker           785315 785117   0 /usr/bin/docker --help\n8.086   exe              785325 785285   0 /proc/1599/exe -exec-root=/var/run/docker 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976 d7da31e8f8e1\n8.090   docker           785331 785117   0 /usr/bin/docker version -f {{ .Server.Os }},,,{{ .Server.Arch }}\n8.103   runc             785344 1599     0 /usr/bin/runc --version\n8.106   docker-init      785350 1599     0 /usr/bin/docker-init --version\n8.109   docker           785352 785117   0 /usr/bin/docker info -f {{.SecurityOptions}}\n8.115   exe              785358 1599     0 /proc/self/exe /var/run/docker/netns/34fb38092dc7 all false\n8.121   runc             785369 1599     0 /usr/bin/runc --version\n8.125   docker-init      785378 1599     0 /usr/bin/docker-init --version\n8.149   rustup           785389 785117   0 /home/xmoe/.cargo/bin/rustup toolchain list\n8.155   rustup           785398 785117   0 /home/xmoe/.cargo/bin/rustup target list --toolchain stable-x86_64-unknown-linux-gnu\n8.161   runc             785409 785276   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55 --log-format json --systemd-cgroup start 3f346ad85cf61e2637621605f7e0a00fa4eec39fb05859b4c188844ed55e8976\n8.167   sh               785305 785276   0 /usr/bin/sh -c PATH=\"$PATH\":\"/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin\":\"/home/xmoe/.cargo/bin\" cargo native-trace -- b\n8.168   cargo            785415 785305   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo native-trace -- build --target riscv64gc-unknown-linux-gnu\n8.180   cargo-native-tr  785415 785305   0 /home/xmoe/.cargo/bin/cargo-native-trace native-trace -- build --target riscv64gc-unknown-linux-gnu\n8.182   rustup           785416 785117   0 /home/xmoe/.cargo/bin/rustup component list --toolchain stable-x86_64-unknown-linux-gnu\n8.184   cargo            785417 785415   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1\n8.195   rustc            785426 785417   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n8.206   rustc            785428 785417   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n8.207   uname            785429 785117   0 /usr/bin/uname -r\n8.226   execsnoop        785433 785415   0 /usr/local/bin/execsnoop -t\n8.228   docker           785435 785117   0 /usr/bin/docker run --userns host --privileged --pid=host --security-opt seccomp=unconfined --ulimit memlock=-1:-1 -v /lib/modules:/lib/modules:ro -v /usr/src:/usr/src:ro -v /usr/src/kernels/6.18.10-100.fc42.x86_64:/usr/src/kernels/6.18.10-100.fc42.x86_64:ro -v /sys/fs/bpf:/sys/fs/bpf:rw -v /sys/kernel/debug:/sys/kernel/debug:rw ...\n8.228   python3          785433 785415   0 /usr/bin/python3 /usr/local/lib/native-trace/execsnoop-real -t\n8.284   systemd-sysctl   785450 785032   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth7b58c63 --prefix=/net/ipv4/neigh/veth7b58c63 --prefix=/net/ipv6/conf/veth7b58c63 --prefix=/net/ipv6/neigh/veth7b58c63\n8.284   systemd-sysctl   785449 785265   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth0e407b8 --prefix=/net/ipv4/neigh/veth0e407b8 --prefix=/net/ipv6/conf/veth0e407b8 --prefix=/net/ipv6/neigh/veth0e407b8\n8.301   containerd-shim  785451 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257 start\n8.305   containerd-shim  785457 785451   0 /usr/bin/containerd-shim-runc-v2 -namespace moby -id a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257 -address /var/run/docker/containerd/containerd.sock\n8.308   runc             785469 785457   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a --log-format json --systemd-cgroup create --bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a --pid-file /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257\n8.314   exe              785476 785469   0 /proc/self/exe init\n8.347   exe              785486 785469   0 /proc/1599/exe -exec-root=/var/run/docker a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257 d7da31e8f8e1\n8.372   exe              785494 1599     0 /proc/self/exe /var/run/docker/netns/7e1ad96c9bc5 all false\n8.428   runc             785511 785457   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976a --log-format json --systemd-cgroup start a5f4757f65f093617957f091c4eaf50a12db0a627e1a6e4d9f1b587976aa7257\n8.433   sh               785480 785457   0 /usr/bin/sh -c PATH=\"$PATH\":\"/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin\":\"/home/xmoe/.cargo/bin\" cargo native-trace -- b\n8.435   cargo            785517 785480   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo native-trace -- build --target aarch64-unknown-linux-gnu\n8.446   cargo-native-tr  785517 785480   0 /home/xmoe/.cargo/bin/cargo-native-trace native-trace -- build --target aarch64-unknown-linux-gnu\n8.450   cargo            785518 785517   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo metadata --format-version 1\n8.461   rustc            785519 785518   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc -vV\n8.474   rustc            785521 785518   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot --print=split-debuginfo --print=crate-name ...\n8.493   execsnoop        785525 785517   0 /usr/local/bin/execsnoop -t\n8.494   python3          785525 785517   0 /usr/bin/python3 /usr/local/lib/native-trace/execsnoop-real -t\n9.064   rustc            785529 617400   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name wasm_opt_sys --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"dwarf\" --check-cfg cfg(docsrs,test) ...\n10.457  runc             785599 778816   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac --log-format json --systemd-cgroup kill --all 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2 9\n10.477  runc             785606 778816   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac --log-format json --systemd-cgroup delete 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2\n10.480  cargo            785612 785517   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo build --target aarch64-unknown-linux-gnu\n10.495  rustc            785613 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target aarch64-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n10.518  rustc            785623 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=200e81327dd5a365 ...\n10.518  rustc            785621 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=2dfde9935a2aa7cd ...\n10.518  rustc            785625 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n10.518  rustc            785624 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name unicode_ident --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.24/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=16b048854222583a ...\n10.564  cargo            785643 785415   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo build --target riscv64gc-unknown-linux-gnu\n10.578  rustc            785650 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc - --crate-name ___ --print=file-names --target riscv64gc-unknown-linux-gnu --crate-type bin --crate-type rlib --crate-type dylib --crate-type cdylib --crate-type staticlib --crate-type proc-macro --print=sysroot ...\n10.605  rustc            785703 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n10.606  rustc            785699 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=2dfde9935a2aa7cd ...\n10.607  rustc            785702 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name build_script_build --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=200e81327dd5a365 ...\n10.607  rustc            785700 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name unicode_ident --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.24/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values()) -C metadata=33bc0340c044253b ...\n10.618  cc               785708 785625   0 /tmp/native-trace-785517-1783996877171/shims/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustc7cU5ey/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.1mwjg9t.rc ...\n10.620  cc               785722 785708   0 /usr/bin/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustc7cU5ey/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.1mwjg9t.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.1mwjg9t.rc ...\n10.622  cc               785721 785623   0 /tmp/native-trace-785517-1783996877171/shims/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcgakjC3/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.624  cc               785723 785721   0 /usr/bin/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcgakjC3/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.626  collect2         785724 785722   0 /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Vh0BM.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.628  collect2         785726 785723   0 /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwi6R9R.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.628  ld.lld           785725 785724   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Vh0BM.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c ...\n10.630  rust-lld         785725 785724   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0Vh0BM.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.632  ld.lld           785728 785726   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwi6R9R.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7 ...\n10.634  cc               785727 785621   0 /tmp/native-trace-785517-1783996877171/shims/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcldIRtN/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.634  rust-lld         785728 785726   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwi6R9R.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.637  cc               785729 785727   0 /usr/bin/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcldIRtN/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.640  collect2         785730 785729   0 /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAlWZkk.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.642  ld.lld           785731 785730   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAlWZkk.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9 ...\n10.646  rust-lld         785731 785730   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAlWZkk.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.670  containerd-shim  785789 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2 -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac delete\n10.675  runc             785800 785789   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f --log-format json delete --force 6561902526bc17642cbeeb7adc529ea184aba4fd6b6296f0adb797790ac6d4f2\n10.702  build-script-bu  785850 785612   0 /target/debug/build/quote-5ea12905e6b8e2d7/build-script-build\n10.705  rustc            785851 785850   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.709  build-script-bu  785854 785612   0 /target/debug/build/proc-macro2-eca720657268f2c9/build-script-build\n10.712  rustc            785857 785854   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.715  cc               785856 785703   0 /tmp/native-trace-785415-1783996876905/shims/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustcKNz22k/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.0hbv40a.rc ...\n10.715  sh               785858 785265   0 /bin/sh -c /usr/sbin/ethtool -i $1 |/usr/bin/sed -n s/^driver:\\ //p -- vethf4dd7b0\n10.717  cc               785860 785856   0 /usr/bin/cc -m64 /target/debug/build/proc-macro-warning-ad4748846f063e1c/rustcKNz22k/symbols.o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.01ybadcdnvbflbkwushb514lz.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.08jnv9oxll8po4gv427acxkrk.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.0arsd1vmxtl7s1h2wfi0qyy1v.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1e5psbc2xeakdtqtxpefliw4x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.1iwco5l19kdv94powz64i6ioi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.21t60oc3bkp1qxivfw0mv4b9m.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.240bbe5hvht6mplkixhcejwq7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.2pourg03mq1syhqwxjxuecsbg.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.319puy9mkn4vjr0b5nwrp6jkp.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.32dx850a8d3s8zdougkhvpjya.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3g0mv31cl6fjurj24ybge2nr7.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3mcc6dnxq1rq4io9r75esdmle.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3n87luia9op5awyr0cgpctidn.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.3y5kaykbstvv660tx2h14yrxi.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4gnc2arsnxj0lbom7nczbuwsc.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.4y0wlu2qtzpv1xq9zc0nx7w1x.0hbv40a.rc /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c.503ifer2o0yuo5a3o4fjyhlm2.0hbv40a.rc ...\n10.718  sed              785862 785858   0 /usr/bin/sed -n s/^driver: //p\n10.718  ethtool          785861 785858   0 /usr/sbin/ethtool -i vethf4dd7b0\n10.722  collect2         785865 785860   0 /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xYsra.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.724  ld.lld           785867 785865   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xYsra.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro-warning-ad4748846f063e1c/build_script_build-ad4748846f063e1c ...\n10.728  build-script-bu  785871 785612   0 /target/debug/build/proc-macro-warning-ad4748846f063e1c/build-script-build\n10.728  rust-lld         785867 785865   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4xYsra.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.728  systemd-sysctl   785868 785265   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vethf4dd7b0 --prefix=/net/ipv4/neigh/vethf4dd7b0 --prefix=/net/ipv6/conf/vethf4dd7b0 --prefix=/net/ipv6/neigh/vethf4dd7b0\n10.734  cc               785873 785702   0 /tmp/native-trace-785415-1783996876905/shims/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcymUPvd/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.734  rustc            785872 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro2 --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=62b3a44cd46fff0e ...\n10.735  cc               785874 785873   0 /usr/bin/cc -m64 /target/debug/build/quote-5ea12905e6b8e2d7/rustcymUPvd/symbols.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.build_script_build.be9272bffa90a30c-cgu.0.rcgu.o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7.aue2vr7dm1h9os49ysbaxhho1.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.738  collect2         785875 785874   0 /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRlCvHh.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.740  ld.lld           785876 785875   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRlCvHh.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/quote-5ea12905e6b8e2d7/build_script_build-5ea12905e6b8e2d7 ...\n10.741  rust-lld         785876 785875   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRlCvHh.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.743  cc               785877 785699   0 /tmp/native-trace-785415-1783996876905/shims/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcO4x7hI/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.745  cc               785894 785877   0 /usr/bin/cc -m64 /target/debug/build/proc-macro2-eca720657268f2c9/rustcO4x7hI/symbols.o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.build_script_build.49139cd1b6dcd00a-cgu.0.r /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9.duehiw2fumovpfv2ox2wgq9zw.rcgu.o -Wl,--as-needed -Wl,-Bstatic /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.r /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b2 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec3 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f5 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_al /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aa ...\n10.748  collect2         785898 785894   0 /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvrvLC.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -fuse-ld=lld -z relro -o ...\n10.751  ld.lld           785899 785898   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld/ld.lld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvrvLC.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o /target/debug/build/proc-macro2-eca720657268f2c9/build_script_build-eca720657268f2c9 ...\n10.752  rust-lld         785899 785898   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/rust-lld -flavor gnu -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTvrvLC.res --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro ...\n10.795  build-script-bu  785933 785643   0 /target/debug/build/quote-5ea12905e6b8e2d7/build-script-build\n10.797  rustc            785934 785933   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.800  build-script-bu  785936 785643   0 /target/debug/build/proc-macro2-eca720657268f2c9/build-script-build\n10.802  rustc            785937 785936   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --version\n10.805  build-script-bu  785939 785643   0 /target/debug/build/proc-macro-warning-ad4748846f063e1c/build-script-build\n10.816  rustc            785943 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro2 --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.106/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"nightly\", \"proc-macro\", \"span-locations\")) -C metadata=f80382781c4ff649 ...\n10.914  rustc            785951 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name quote --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=13b38aede1a377aa ...\n10.916  rustc            785952 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name syn --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.118/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"clone-impls\", \"default\", \"derive\", \"extra-traits\", \"fold\", \"full\", \"parsing\", \"printing\", \"proc-macro\", \"te -C metadata=cc2ee696bc0cfdb9 ...\n10.997  rustc            785970 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name syn --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.118/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"clone-impls\", \"default\", \"derive\", \"extra-traits\", \"fold\", \"full\", \"parsing\", \"printing\", \"proc-macro\", \"te -C metadata=63304be103d3cbfe ...\n10.997  rustc            785969 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name quote --edition=2021 /home/xmoe/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.46/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --check-cfg cfg(docsrs,test) --check-cfg cfg(feature, values(\"default\", \"proc-macro\")) -C metadata=9ab743b18e379101 ...\n11.150  rustc            785991 785612   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro_warning --edition=2021 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n11.230  rustc            786003 785643   0 /home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name proc_macro_warning --edition=2021 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 --cfg feature=\"default\" --cfg feature=\"derive_debug\" --check-cfg cfg(docsrs,test) ...\n12.885  systemd-userwor  786175 50265    0 /usr/lib/systemd/systemd-userwork xxxxxxxxxxxxxxxx\n12.886  systemd-userwor  786176 50265    0 /usr/lib/systemd/systemd-userwork xxxxxxxxxxxxxxxx\n13.135  runc             786177 768912   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9 --log-format json --systemd-cgroup kill --all 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5 9\n13.154  runc             786183 768912   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9 --log-format json --systemd-cgroup delete 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5\n13.362  containerd-shim  786190 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5 -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9 delete\n13.365  runc             786197 786190   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b --log-format json delete --force 73c6b8f687239001aefe4f9f2c67eb16500660f39bf65dbb32006cecda9a16b5\n13.407  systemd-sysctl   786202 785265   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/vetha0a999b --prefix=/net/ipv4/neigh/vetha0a999b --prefix=/net/ipv6/conf/vetha0a999b --prefix=/net/ipv6/neigh/vetha0a999b\n16.934  runc             786204 782770   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c --log-format json --systemd-cgroup kill --all 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e 9\n16.959  runc             786211 782770   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c --log-format json --systemd-cgroup delete 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e\n17.078  runc             786217 782835   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fd --log-format json --systemd-cgroup kill --all d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba 9\n17.098  runc             786223 782835   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fd --log-format json --systemd-cgroup delete d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba\n17.187  containerd-shim  786229 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c delete\n17.190  runc             786236 786229   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11 --log-format json delete --force 4f25cb791c831f75fb9ba0524767d1bff881ea329772d0a2e6a3667f81c5d11e\n17.234  sh               786244 786241   0 /bin/sh -c /usr/sbin/ethtool -i $1 |/usr/bin/sed -n s/^driver:\\ //p -- veth4bf77ad\n17.236  ethtool          786245 786244   0 /usr/sbin/ethtool -i veth4bf77ad\n17.236  sed              786246 786244   0 /usr/bin/sed -n s/^driver: //p\n17.243  systemd-sysctl   786249 786241   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth4bf77ad --prefix=/net/ipv4/neigh/veth4bf77ad --prefix=/net/ipv6/conf/veth4bf77ad --prefix=/net/ipv6/neigh/veth4bf77ad\n17.338  containerd-shim  786252 1663     0 /usr/bin/containerd-shim-runc-v2 -namespace moby -address /var/run/docker/containerd/containerd.sock -publish-binary /usr/bin/containerd -id d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba -bundle /var/run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fd delete\n17.341  runc             786259 786252   0 /usr/bin/runc --root /var/run/docker/runtime-runc/moby --log /run/docker/containerd/daemon/io.containerd.runtime.v2.task/moby/d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eb --log-format json delete --force d2f87886eb783f38968f194bc97a5b56942dece4c3def96bacc241034fda2eba\n17.387  systemd-sysctl   786265 786250   0 /usr/lib/systemd/systemd-sysctl --prefix=/net/ipv4/conf/veth0780346 --prefix=/net/ipv4/neigh/veth0780346 --prefix=/net/ipv6/conf/veth0780346 --prefix=/net/ipv6/neigh/veth0780346\n"
+    },
+    {
+      "argv": [
+        "/target/debug/build/drm-fourcc-13ade45021069b5d/build-script-build"
+      ],
+      "build_script_related": true,
+      "build_script_root_pid": 784073,
+      "build_script_target_dir": "drm-fourcc-13ade45021069b5d",
+      "comm": "build-script-bu",
+      "event": "process_exec",
+      "image": "/target/debug/build/drm-fourcc-13ade45021069b5d/build-script-build",
+      "pid": 784073,
+      "ppid": 784005,
+      "root_cargo_pid": 784005,
+      "source": "linux_ebpf:/usr/local/bin/execsnoop"
+    },
+    {
+      "crate": "drm-fourcc",
+      "cwd": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "event_id": "bsrun:fdf73d9b95fe1960:2e5c452816fbab5c:eb734493b5afb56f",
+      "evidence_kind": "exec_context_out_dir_inferred",
+      "exe": "/target/debug/build/drm-fourcc-13ade45021069b5d/build-script-build",
+      "host": null,
+      "kind": "build_script_run",
+      "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+      "out_dir": "/target/debug/build/drm-fourcc-13ade45021069b5d/out",
+      "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+      "success": true,
+      "target": null,
+      "version": "2.2.0",
+      "_owner": {
+        "crate": "drm-fourcc",
+        "version": "2.2.0",
+        "package_id": "path+file:///tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0#drm-fourcc@2.2.0",
+        "manifest_dir": "/tmp/crate-build-riscv64-p1fzzlg3/src/drm-fourcc-2.2.0",
+        "source": "cwd_prefix"
+      }
+    }
+  ],
+  "rustc_trace_records": [],
+  "item": {
+    "rank": 2910,
+    "crate": "drm-fourcc",
+    "version": "2.2.0",
+    "crate_id": "368523",
+    "version_id": "421977",
+    "downloads": 3864472,
+    "cumulative_downloads": 106536229177,
+    "cumulative_share_of_global": 0.39831436638477113,
+    "status": "ok",
+    "has_build_script": true,
+    "build_script_path": "build.rs",
+    "build_script_exists": true,
+    "package_build_field": null,
+    "build_script_reason": "default_build_rs_exists",
+    "download_source": "local"
+  }
+}
+```

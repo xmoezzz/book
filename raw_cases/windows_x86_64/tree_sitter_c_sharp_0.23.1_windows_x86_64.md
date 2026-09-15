@@ -4,6 +4,569 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\.tmp\\native-trace-19308-1783962605773\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\rustcpZvofU\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.0unb65i2uw3btctvgywcsa3e9.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.3m9x9lbhlzam5w2i4vn1negdu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.4al2r32bslsvrcsmlr7i2in6h.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.5zc672ai8mk9utsq56sslqzqg.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.6yjh2bgvnfdltg5dwz76jeucg.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.8ho1k5wajal8wcx3mf0wfj239.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.berdsgqkd9pgcfpqx1nvyivy4.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.bquftrr5d0xawjbbm43li13rb.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.doyeqfzcsb4cky8adrkl560on.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.dp5js8kwx48mbr0nsgk55o44o.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.eb46zrl0scn7m263bqapjnnlu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.4o87db55xsbjwcqlcmvrnw2bu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\rustcpZvofU\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.0unb65i2uw3btctvgywcsa3e9.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.3m9x9lbhlzam5w2i4vn1negdu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.4al2r32bslsvrcsmlr7i2in6h.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.5zc672ai8mk9utsq56sslqzqg.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.6yjh2bgvnfdltg5dwz76jeucg.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.8ho1k5wajal8wcx3mf0wfj239.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.berdsgqkd9pgcfpqx1nvyivy4.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.bquftrr5d0xawjbbm43li13rb.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.doyeqfzcsb4cky8adrkl560on.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.dp5js8kwx48mbr0nsgk55o44o.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.eb46zrl0scn7m263bqapjnnlu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.4o87db55xsbjwcqlcmvrnw2bu.04rnue2.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "tree-sitter-c-sharp",
+    "version": "0.23.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1#tree-sitter-c-sharp@0.23.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\.tmp\\native-trace-19308-1783962605773\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\rustcpZvofU\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.0unb65i2uw3btctvgywcsa3e9.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.3m9x9lbhlzam5w2i4vn1negdu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.4al2r32bslsvrcsmlr7i2in6h.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.5zc672ai8mk9utsq56sslqzqg.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.6yjh2bgvnfdltg5dwz76jeucg.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.8ho1k5wajal8wcx3mf0wfj239.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.berdsgqkd9pgcfpqx1nvyivy4.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.bquftrr5d0xawjbbm43li13rb.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.doyeqfzcsb4cky8adrkl560on.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.dp5js8kwx48mbr0nsgk55o44o.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.eb46zrl0scn7m263bqapjnnlu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.4o87db55xsbjwcqlcmvrnw2bu.04rnue2.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-ebafa05001fb97fa\\build_script_build-ebafa05001fb97fa.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400cf020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400cf298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400cf2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400cf300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400cf320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400cf338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400cf348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400cf358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400cf3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400cf408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400cf418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400cf448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400cf460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\.tmp\\native-trace-link-link-6940-1783962607358167300.map",
+  "pid": 6940,
+  "ppid": 4580,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\.tmp\\native-trace-link-link-6940-1783962607358167300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "tree-sitter-c-sharp",
+    "version": "0.23.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1#tree-sitter-c-sharp@0.23.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\1027514633155066083detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\1027514633155066083detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "tree-sitter-c-sharp",
+    "version": "0.23.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1#tree-sitter-c-sharp@0.23.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\6669213819831636079detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\6669213819831636079detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "tree-sitter-c-sharp",
+    "version": "0.23.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1#tree-sitter-c-sharp@0.23.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c11",
+    "-I",
+    "src",
+    "-W4",
+    "-utf-8",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-parser.o",
+    "-c",
+    "src\\parser.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-parser.o",
+    "src\\parser.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "tree-sitter-c-sharp",
+    "version": "0.23.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1#tree-sitter-c-sharp@0.23.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c11",
+    "-I",
+    "src",
+    "-W4",
+    "-utf-8",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-scanner.o",
+    "-c",
+    "src\\scanner.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-scanner.o",
+    "src\\scanner.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "tree-sitter-c-sharp",
+    "version": "0.23.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1#tree-sitter-c-sharp@0.23.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\libtree-sitter-c-sharp.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-parser.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-scanner.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-parser.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\ea708c7824d36062-scanner.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-zlcqh40f\\src\\tree-sitter-c-sharp-0.23.1\\target\\debug\\build\\tree-sitter-c-sharp-8c15622a53329593\\out\\libtree-sitter-c-sharp.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "tree-sitter-c-sharp",
+    "version": "0.23.1",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1#tree-sitter-c-sharp@0.23.1",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-zlcqh40f/src/tree-sitter-c-sharp-0.23.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

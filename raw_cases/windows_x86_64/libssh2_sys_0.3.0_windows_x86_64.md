@@ -4,42 +4,9 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
-## Root-owned native flows
+## Root-owned build-level evidence
 
-## Flow 001
-
-Artifact: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/target/debug/build/libssh2-sys-f82558fc55df8c19/out/build/libssh2.a`
-
-Owner: `libssh2-sys` `0.3.0`
-
-### Source files
-
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/agent.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/agent_win.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/bcrypt_pbkdf.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/blowfish.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/channel.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/comp.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/crypt.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/global.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/hostkey.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/keepalive.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/kex.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/knownhost.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/mac.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/misc.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/packet.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/pem.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/publickey.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/scp.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/session.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/sftp.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/transport.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/userauth.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/userauth_kbd_packet.c`
-* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/wincng.c`
-
-### Source acquisition records
+### Network / source acquisition records
 
 #### Record 1
 
@@ -74,49 +41,33 @@ Owner: `libssh2-sys` `0.3.0`
 }
 ```
 
-### Source preparation records
+### pkg-config / pkgconf records
 
 _None._
 
-### Compilation records
+### Other root-owned linker evidence
+
+### Other root-owned link records
 
 #### Record 1
 
 ```json
 {
   "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o",
-    "-c",
-    "libssh2/src/agent_win.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\.tmp\\native-trace-7492-1783954719242\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-b19c95373884c7ea\\rustc9nAEc5\\linker-arguments"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o",
-  "src": "libssh2/src/agent_win.c",
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-b19c95373884c7ea\\rustc9nAEc5\\linker-arguments",
+  "shared": false,
+  "static_link": false,
   "success": true,
-  "tool": "cl",
+  "tool": "link",
   "_owner": {
     "crate": "libssh2-sys",
     "version": "0.3.0",
@@ -133,35 +84,20 @@ _None._
 {
   "argv": [
     "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
-    "-c",
-    "libssh2/src/channel.c"
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\7369774877143880808detect_compiler_family.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
-  "src": "libssh2/src/channel.c",
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\7369774877143880808detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -199,16 +135,22 @@ _None._
     "-DLIBSSH2_DH_GEX_NEW",
     "-DLIBSSH2_HAVE_ZLIB",
     "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
     "-c",
-    "libssh2/src/userauth.c"
+    "libssh2/src/agent.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
-  "src": "libssh2/src/userauth.c",
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
+    "libssh2/src/agent.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -246,16 +188,22 @@ _None._
     "-DLIBSSH2_DH_GEX_NEW",
     "-DLIBSSH2_HAVE_ZLIB",
     "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-bcrypt_pbkdf.o",
     "-c",
-    "libssh2/src/keepalive.c"
+    "libssh2/src/bcrypt_pbkdf.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
-  "src": "libssh2/src/keepalive.c",
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-bcrypt_pbkdf.o",
+    "libssh2/src/bcrypt_pbkdf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -269,6 +217,1528 @@ _None._
 ```
 
 #### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-blowfish.o",
+    "-c",
+    "libssh2/src/blowfish.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-blowfish.o",
+    "libssh2/src/blowfish.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
+    "-c",
+    "libssh2/src/channel.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
+    "libssh2/src/channel.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
+    "-c",
+    "libssh2/src/comp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
+    "libssh2/src/comp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
+    "-c",
+    "libssh2/src/crypt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
+    "libssh2/src/crypt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
+    "-c",
+    "libssh2/src/global.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
+    "libssh2/src/global.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
+    "-c",
+    "libssh2/src/hostkey.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
+    "libssh2/src/hostkey.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
+    "-c",
+    "libssh2/src/keepalive.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
+    "libssh2/src/keepalive.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
+    "-c",
+    "libssh2/src/kex.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
+    "libssh2/src/kex.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
+    "-c",
+    "libssh2/src/knownhost.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
+    "libssh2/src/knownhost.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
+    "-c",
+    "libssh2/src/mac.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
+    "libssh2/src/mac.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
+    "-c",
+    "libssh2/src/misc.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
+    "libssh2/src/misc.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
+    "-c",
+    "libssh2/src/packet.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
+    "libssh2/src/packet.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-pem.o",
+    "-c",
+    "libssh2/src/pem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-pem.o",
+    "libssh2/src/pem.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
+    "-c",
+    "libssh2/src/publickey.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
+    "libssh2/src/publickey.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
+    "-c",
+    "libssh2/src/scp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
+    "libssh2/src/scp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
+    "-c",
+    "libssh2/src/session.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
+    "libssh2/src/session.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-sftp.o",
+    "-c",
+    "libssh2/src/sftp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-sftp.o",
+    "libssh2/src/sftp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-transport.o",
+    "-c",
+    "libssh2/src/transport.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-transport.o",
+    "libssh2/src/transport.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
+    "-c",
+    "libssh2/src/userauth.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
+    "libssh2/src/userauth.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
+    "-c",
+    "libssh2/src/userauth_kbd_packet.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
+    "libssh2/src/userauth_kbd_packet.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o",
+    "-c",
+    "libssh2/src/agent_win.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o",
+    "libssh2/src/agent_win.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-wincng.o",
+    "-c",
+    "libssh2/src/wincng.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-wincng.o",
+    "libssh2/src/wincng.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\libssh2.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-bcrypt_pbkdf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-blowfish.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-pem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-sftp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-transport.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-bcrypt_pbkdf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-blowfish.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-pem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-sftp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-transport.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\libssh2.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\libssh2.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\libssh2.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-wincng.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\libssh2.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-wincng.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\libssh2.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\.tmp\\native-trace-7492-1783954719242\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-b19c95373884c7ea\\rustc9nAEc5\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 0000000140108020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 0000000140108298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001401082b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 0000000140108300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140108320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000140108338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 0000000140108348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 0000000140108358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001401083f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000140108408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 0000000140108418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  0000000140108448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\0002:00000460       \\177ole32_NULL_THUNK_DATA  0000000140108460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\.tmp\\native-trace-link-link-4564-1783954722378322500.map",
+  "pid": 4564,
+  "ppid": 18328,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\.tmp\\native-trace-link-link-4564-1783954722378322500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+## Root-owned native flows
+
+## Flow 001
+
+Artifact: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/target/debug/build/libssh2-sys-f82558fc55df8c19/out/build/libssh2.a`
+
+Owner: `libssh2-sys` `0.3.0`
+
+### Source files
+
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/agent.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/agent_win.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/bcrypt_pbkdf.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/blowfish.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/channel.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/comp.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/crypt.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/global.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/hostkey.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/keepalive.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/kex.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/knownhost.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/mac.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/misc.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/packet.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/pem.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/publickey.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/scp.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/session.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/sftp.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/transport.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/userauth.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/userauth_kbd_packet.c`
+* `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0/libssh2/src/wincng.c`
+
+### Source acquisition records
+
+_None._
+
+### Source preparation records
+
+_None._
+
+### Compilation records
+
+#### Record 1
 
 ```json
 {
@@ -315,430 +1785,7 @@ _None._
 }
 ```
 
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
-    "-c",
-    "libssh2/src/hostkey.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
-  "src": "libssh2/src/hostkey.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
-    "-c",
-    "libssh2/src/scp.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
-  "src": "libssh2/src/scp.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
-    "-c",
-    "libssh2/src/knownhost.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
-  "src": "libssh2/src/knownhost.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
-    "-c",
-    "libssh2/src/crypt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
-  "src": "libssh2/src/crypt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
-    "-c",
-    "libssh2/src/misc.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
-  "src": "libssh2/src/misc.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
-    "-c",
-    "libssh2/src/global.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
-  "src": "libssh2/src/global.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
-    "-c",
-    "libssh2/src/kex.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
-  "src": "libssh2/src/kex.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
-    "-c",
-    "libssh2/src/mac.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
-  "src": "libssh2/src/mac.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 14
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
-    "-I",
-    "libssh2/src",
-    "-I",
-    "libssh2/win32",
-    "-I",
-    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
-    "-W0",
-    "-DHAVE_LONGLONG",
-    "-DLIBSSH2_WIN32",
-    "-DLIBSSH2_WINCNG",
-    "-DLIBSSH2_DH_GEX_NEW",
-    "-DLIBSSH2_HAVE_ZLIB",
-    "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
-    "-c",
-    "libssh2/src/publickey.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
-  "src": "libssh2/src/publickey.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libssh2-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 15
+#### Record 2
 
 ```json
 {
@@ -785,7 +1832,430 @@ _None._
 }
 ```
 
-#### Record 16
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
+    "-c",
+    "libssh2/src/kex.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-kex.o",
+  "src": "libssh2/src/kex.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
+    "-c",
+    "libssh2/src/mac.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-mac.o",
+  "src": "libssh2/src/mac.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
+    "-c",
+    "libssh2/src/crypt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-crypt.o",
+  "src": "libssh2/src/crypt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
+    "-c",
+    "libssh2/src/channel.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-channel.o",
+  "src": "libssh2/src/channel.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
+    "-c",
+    "libssh2/src/global.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-global.o",
+  "src": "libssh2/src/global.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
+    "-c",
+    "libssh2/src/session.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
+  "src": "libssh2/src/session.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
+    "-c",
+    "libssh2/src/keepalive.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-keepalive.o",
+  "src": "libssh2/src/keepalive.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
+    "-c",
+    "libssh2/src/knownhost.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-knownhost.o",
+  "src": "libssh2/src/knownhost.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
+    "-c",
+    "libssh2/src/publickey.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-publickey.o",
+  "src": "libssh2/src/publickey.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
 
 ```json
 {
@@ -832,7 +2302,148 @@ _None._
 }
 ```
 
-#### Record 17
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o",
+    "-c",
+    "libssh2/src/agent_win.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent_win.o",
+  "src": "libssh2/src/agent_win.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
+    "-c",
+    "libssh2/src/userauth.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth.o",
+  "src": "libssh2/src/userauth.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
+    "-c",
+    "libssh2/src/scp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-scp.o",
+  "src": "libssh2/src/scp.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
 
 ```json
 {
@@ -879,6 +2490,53 @@ _None._
 }
 ```
 
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\include",
+    "-I",
+    "libssh2/src",
+    "-I",
+    "libssh2/win32",
+    "-I",
+    "C:\\tools\\vcpkg\\installed\\x64-windows-static-md\\include",
+    "-W0",
+    "-DHAVE_LONGLONG",
+    "-DLIBSSH2_WIN32",
+    "-DLIBSSH2_WINCNG",
+    "-DLIBSSH2_DH_GEX_NEW",
+    "-DLIBSSH2_HAVE_ZLIB",
+    "-DLIBSSH2DEBUG",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
+    "-c",
+    "libssh2/src/comp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
+  "src": "libssh2/src/comp.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libssh2-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0#libssh2-sys@0.3.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-9lb_p4lz/src/libssh2-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 18
 
 ```json
@@ -904,16 +2562,16 @@ _None._
     "-DLIBSSH2_DH_GEX_NEW",
     "-DLIBSSH2_HAVE_ZLIB",
     "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
     "-c",
-    "libssh2/src/packet.c"
+    "libssh2/src/hostkey.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
-  "src": "libssh2/src/packet.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-hostkey.o",
+  "src": "libssh2/src/hostkey.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -951,16 +2609,16 @@ _None._
     "-DLIBSSH2_DH_GEX_NEW",
     "-DLIBSSH2_HAVE_ZLIB",
     "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
     "-c",
-    "libssh2/src/session.c"
+    "libssh2/src/packet.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-session.o",
-  "src": "libssh2/src/session.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-packet.o",
+  "src": "libssh2/src/packet.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1045,16 +2703,16 @@ _None._
     "-DLIBSSH2_DH_GEX_NEW",
     "-DLIBSSH2_HAVE_ZLIB",
     "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
     "-c",
-    "libssh2/src/comp.c"
+    "libssh2/src/misc.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-comp.o",
-  "src": "libssh2/src/comp.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-misc.o",
+  "src": "libssh2/src/misc.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1092,16 +2750,16 @@ _None._
     "-DLIBSSH2_DH_GEX_NEW",
     "-DLIBSSH2_HAVE_ZLIB",
     "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
     "-c",
-    "libssh2/src/agent.c"
+    "libssh2/src/userauth_kbd_packet.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
-  "src": "libssh2/src/agent.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
+  "src": "libssh2/src/userauth_kbd_packet.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1139,16 +2797,16 @@ _None._
     "-DLIBSSH2_DH_GEX_NEW",
     "-DLIBSSH2_HAVE_ZLIB",
     "-DLIBSSH2DEBUG",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
     "-c",
-    "libssh2/src/userauth_kbd_packet.c"
+    "libssh2/src/agent.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-userauth_kbd_packet.o",
-  "src": "libssh2/src/userauth_kbd_packet.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-9lb_p4lz\\src\\libssh2-sys-0.3.0\\target\\debug\\build\\libssh2-sys-f82558fc55df8c19\\out\\build\\f89bd02e425f6856-agent.o",
+  "src": "libssh2/src/agent.c",
   "success": true,
   "tool": "cl",
   "_owner": {

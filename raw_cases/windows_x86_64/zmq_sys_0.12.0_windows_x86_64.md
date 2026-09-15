@@ -4,6 +4,8066 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\.tmp\\native-trace-17584-1783962487771\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-868210758a595a3e\\rustc2lTfUD\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-868210758a595a3e\\rustc2lTfUD\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\13215560267244925500detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\13215560267244925500detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-err.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\err.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-err.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\err.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\clock.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\clock.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_client.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_client.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-decoder_allocators.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\decoder_allocators.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-decoder_allocators.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\decoder_allocators.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\endpoint.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\endpoint.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\devpoll.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\devpoll.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_server.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_server.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_server.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_server.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_client.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_client.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\channel.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\channel.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_mechanism_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_mechanism_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dist.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dist.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dist.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dist.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dealer.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dealer.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_object.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_object.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-epoll.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\epoll.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-epoll.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\epoll.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\fq.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\fq.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\address.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-client.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\client.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-client.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\client.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gather.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gather.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dgram.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dgram.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dgram.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dgram.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_server.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_server.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_mechanism_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_mechanism_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dish.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dish.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_thread.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_thread.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ctx.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ctx.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip_resolver.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip_resolver.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_address.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-kqueue.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\kqueue.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-kqueue.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\kqueue.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\lb.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\lb.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\metadata.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\metadata.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_listener.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_listener.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\msg.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\msg.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_socket.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_socket.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_socket.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_socket.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_receiver.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_receiver.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox_safe.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox_safe.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-norm_engine.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\norm_engine.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-norm_engine.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\norm_engine.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_sender.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_sender.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mtrie.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mtrie.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\object.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\object.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\options.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\options.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_connecter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 46
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 47
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\peer.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\peer.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\null_mechanism.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\null_mechanism.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 49
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\own.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\own.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 50
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pair.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pair.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 51
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-polling_util.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\polling_util.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-polling_util.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\polling_util.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 52
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\precompiled.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\precompiled.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 53
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pollset.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pollset.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 54
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pipe.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pipe.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poll.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poll.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poller_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poller_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_encoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\proxy.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\proxy.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_client.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_client.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pub.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pub.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\req.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\req.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_server.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_server.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 63
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-select.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\select.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-select.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\select.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 64
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\random.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\random.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_decoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_decoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pull.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pull.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pull.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pull.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-rep.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\rep.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-rep.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\rep.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\reaper.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\reaper.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radix_tree.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radix_tree.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radio.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radio.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\router.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\router.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_engine.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_engine.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 73
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\scatter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\scatter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 74
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\push.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\push.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 75
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 76
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_poller.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_poller.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_poller.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_poller.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 77
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 78
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_address.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 79
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-server.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\server.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-server.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\server.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 80
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_connecter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 81
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\session_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\session_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 82
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks_connecter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 83
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_connecter.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_connecter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 84
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-signaler.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\signaler.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-signaler.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\signaler.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 85
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_address.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 86
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-thread.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\thread.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-thread.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\thread.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 87
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_listener.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_listener.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 88
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_address.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 89
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\sub.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\sub.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 90
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 91
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-timers.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\timers.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-timers.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\timers.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 92
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_engine.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_engine.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 93
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_listener.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_listener.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 94
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_connecter_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_connecter_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 95
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_listener_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_listener_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 96
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-trie.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\trie.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-trie.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\trie.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 97
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 98
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_engine_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_engine_base.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 99
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1\\sha1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1\\sha1.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 100
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll\\wepoll.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll\\wepoll.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 101
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_encoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 102
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_listener.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_listener.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_listener.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_listener.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 103
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xsub.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xsub.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 104
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v3_1_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v3_1_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v3_1_encoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v3_1_encoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 105
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_encoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 106
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_connecter.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_connecter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 107
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zap_client.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zap_client.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 108
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_decoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_decoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 109
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_decoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_decoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 110
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_decoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_decoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_decoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_decoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 111
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_connecter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 112
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 113
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq_utils.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq_utils.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 114
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_address.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_address.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 115
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_encoder.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_encoder.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 116
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmtp_engine.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmtp_engine.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmtp_engine.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmtp_engine.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 117
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xpub.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xpub.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 118
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 119
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_engine.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_engine.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_engine.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_engine.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 120
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_address.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_address.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 121
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_listener.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_listener.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 122
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-decoder_allocators.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dgram.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dist.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-epoll.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-err.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-decoder_allocators.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dgram.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dist.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-epoll.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-err.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 123
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-kqueue.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-norm_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_socket.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-kqueue.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-norm_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_socket.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 124
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-polling_util.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pull.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-rep.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-select.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-polling_util.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pull.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-rep.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-select.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 125
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-signaler.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_poller.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-thread.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-timers.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-trie.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-signaler.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_poller.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-thread.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-timers.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-trie.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 126
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v3_1_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmtp_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v3_1_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_address.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_connecter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmtp_engine.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\libzmq.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\.tmp\\native-trace-17584-1783962487771\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-868210758a595a3e\\rustc2lTfUD\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000360       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000380       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000398       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000003a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000003b8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000450       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000468       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000478       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004e8       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 000000014010d020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000002f8       \\177KERNEL32_NULL_THUNK_DATA 000000014010d2f8     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000310       \\177OLEAUT32_NULL_THUNK_DATA 000000014010d310     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000360       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000360       \\177VCRUNTIME140_NULL_THUNK_DATA 000000014010d360     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000380       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000380       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 000000014010d380     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000398       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000398       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 000000014010d398     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000003a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000003a8       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 000000014010d3a8     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000003b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000003b8       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 000000014010d3b8     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000450       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 000000014010d450     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000468       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 000000014010d468     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000478       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:00000478       \\177bcryptprimitives_NULL_THUNK_DATA 000000014010d478     libgetrandom-63356ae595a106bd:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004a0       \\177kernel32_NULL_THUNK_DATA 000000014010d4a0     libwindows_sys-ea1c184bfa5b5416:kernel32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004d0       \\177ntdll_NULL_THUNK_DATA  000000014010d4d0     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\0002:000004e8       \\177ole32_NULL_THUNK_DATA  000000014010d4e8     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\.tmp\\native-trace-link-link-18944-1783962497650028700.map",
+  "pid": 18944,
+  "ppid": 18216,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\.tmp\\native-trace-link-link-18944-1783962497650028700.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -178,6 +8238,62 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\endpoint.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\endpoint.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
     "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-decoder_allocators.o",
     "-c",
     "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\decoder_allocators.cpp"
@@ -200,7 +8316,63 @@ _None._
 }
 ```
 
-#### Record 2
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\devpoll.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\devpoll.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
 
 ```json
 {
@@ -256,567 +8428,7 @@ _None._
 }
 ```
 
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dealer.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dealer.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dish.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dish.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
 #### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\address.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\address.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_client.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_client.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_object.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_object.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\clock.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\clock.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\endpoint.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-endpoint.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\endpoint.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_mechanism_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_mechanism_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ctx.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ctx.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 12
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\channel.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\channel.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
 
 ```json
 {
@@ -872,7 +8484,7 @@ _None._
 }
 ```
 
-#### Record 14
+#### Record 6
 
 ```json
 {
@@ -906,16 +8518,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_server.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_client.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_server.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_client.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -928,7 +8540,7 @@ _None._
 }
 ```
 
-#### Record 15
+#### Record 7
 
 ```json
 {
@@ -962,16 +8574,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gather.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_client.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gather.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_client.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_client.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -984,63 +8596,7 @@ _None._
 }
 ```
 
-#### Record 16
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\fq.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\fq.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
+#### Record 8
 
 ```json
 {
@@ -1096,63 +8652,7 @@ _None._
 }
 ```
 
-#### Record 18
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_thread.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_thread.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
+#### Record 9
 
 ```json
 {
@@ -1208,7 +8708,455 @@ _None._
 }
 ```
 
-#### Record 20
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\fq.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-fq.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\fq.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_object.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_object.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_object.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_mechanism_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_mechanism_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_mechanism_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_mechanism_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_mechanism_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\clock.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-clock.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\clock.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\channel.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-channel.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\channel.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gather.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gather.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gather.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ctx.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ctx.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ctx.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
 
 ```json
 {
@@ -1252,6 +9200,118 @@ _None._
   "language": "cxx",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_server.o",
   "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_server.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dealer.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dealer.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dealer.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_thread.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-io_thread.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\io_thread.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1354,16 +9414,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_mechanism_base.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\address.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-curve_mechanism_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\curve_mechanism_base.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-address.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\address.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1410,16 +9470,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\devpoll.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_server.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-devpoll.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\devpoll.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_server.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_server.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1466,16 +9526,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_client.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dish.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-gssapi_client.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\gssapi_client.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-dish.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\dish.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1489,958 +9549,6 @@ _None._
 ```
 
 #### Record 25
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_listener.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_listener.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 26
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox_safe.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox_safe.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 27
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_address.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_address.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 28
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\own.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\own.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 29
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 30
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mtrie.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mtrie.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 31
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\lb.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\lb.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 32
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\msg.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\msg.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 33
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pair.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pair.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 34
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_receiver.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_receiver.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 35
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_connecter.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_connecter.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 36
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip_resolver.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip_resolver.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 37
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_sender.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_sender.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 38
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 39
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\options.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\options.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 40
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\null_mechanism.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\null_mechanism.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 41
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\metadata.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\metadata.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 42
 
 ```json
 {
@@ -2496,7 +9604,567 @@ _None._
 }
 ```
 
-#### Record 43
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\peer.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\peer.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_listener.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_listener.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_listener.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mechanism_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mechanism_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\lb.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-lb.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\lb.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_sender.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_sender.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_sender.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip_resolver.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip_resolver.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip_resolver.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mtrie.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mtrie.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mtrie.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_address.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_address.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\object.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\object.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\null_mechanism.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-null_mechanism.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\null_mechanism.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
 
 ```json
 {
@@ -2552,7 +10220,7 @@ _None._
 }
 ```
 
-#### Record 44
+#### Record 37
 
 ```json
 {
@@ -2596,6 +10264,398 @@ _None._
   "language": "cxx",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ip.o",
   "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ip.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ipc_connecter.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ipc_connecter.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\msg.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-msg.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\msg.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\own.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-own.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\own.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_receiver.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pgm_receiver.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pgm_receiver.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\options.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-options.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\options.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\metadata.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-metadata.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\metadata.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -2698,16 +10758,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\peer.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pair.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-peer.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\peer.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pair.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pair.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -2721,6 +10781,62 @@ _None._
 ```
 
 #### Record 47
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox_safe.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-mailbox_safe.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\mailbox_safe.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 48
 
 ```json
 {
@@ -2776,62 +10892,6 @@ _None._
 }
 ```
 
-#### Record 48
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\object.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-object.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\object.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
 #### Record 49
 
 ```json
@@ -2866,16 +10926,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_decoder.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_client.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_decoder.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_client.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -2978,16 +11038,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poll.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pipe.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poll.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pipe.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -3001,566 +11061,6 @@ _None._
 ```
 
 #### Record 52
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poller_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poller_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 53
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\precompiled.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\precompiled.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 54
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\proxy.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\proxy.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 55
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_client.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_client.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_client.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 56
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\scatter.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\scatter.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 57
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pub.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pub.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 58
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_engine.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_engine.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 59
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radio.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radio.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 60
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\reaper.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\reaper.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 61
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radix_tree.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radix_tree.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 62
 
 ```json
 {
@@ -3616,455 +11116,7 @@ _None._
 }
 ```
 
-#### Record 63
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pipe.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pipe.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pipe.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 64
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\push.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\push.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 65
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\random.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\random.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 66
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pollset.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pollset.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 67
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\req.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\req.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 68
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\router.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\router.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 69
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_server.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_server.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 70
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_encoder.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_encoder.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 71
+#### Record 53
 
 ```json
 {
@@ -4120,7 +11172,511 @@ _None._
 }
 ```
 
-#### Record 72
+#### Record 54
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_engine.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_engine.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_engine.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 55
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\proxy.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-proxy.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\proxy.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 56
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\random.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-random.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\random.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 57
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\precompiled.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-precompiled.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\precompiled.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 58
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\reaper.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-reaper.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\reaper.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 59
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\push.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-push.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\push.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 60
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_server.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-plain_server.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\plain_server.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 61
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\scatter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-scatter.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\scatter.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 62
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poll.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poll.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poll.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 63
 
 ```json
 {
@@ -4176,287 +11732,511 @@ _None._
 }
 ```
 
+#### Record 64
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\req.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-req.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\req.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 65
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_decoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_decoder.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_decoder.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 66
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\router.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-router.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\router.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 67
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-raw_encoder.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\raw_encoder.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 68
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radio.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radio.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radio.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 69
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radix_tree.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-radix_tree.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\radix_tree.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 70
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pub.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pub.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pub.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 71
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poller_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-poller_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\poller_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 72
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pollset.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-pollset.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\pollset.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 73
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\session_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\session_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 74
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_listener_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_listener_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 75
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_address.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_address.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 76
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_connecter_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_connecter_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 77
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 78
 
 ```json
 {
@@ -4512,7 +12292,7 @@ _None._
 }
 ```
 
-#### Record 79
+#### Record 74
 
 ```json
 {
@@ -4546,16 +12326,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_connecter.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_engine.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_connecter.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_engine.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4568,7 +12348,7 @@ _None._
 }
 ```
 
-#### Record 80
+#### Record 75
 
 ```json
 {
@@ -4602,16 +12382,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks_connecter.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_listener.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks_connecter.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_listener.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4624,7 +12404,7 @@ _None._
 }
 ```
 
-#### Record 81
+#### Record 76
 
 ```json
 {
@@ -4658,16 +12438,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4680,7 +12460,7 @@ _None._
 }
 ```
 
-#### Record 82
+#### Record 77
 
 ```json
 {
@@ -4736,7 +12516,7 @@ _None._
 }
 ```
 
-#### Record 83
+#### Record 78
 
 ```json
 {
@@ -4770,16 +12550,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_address.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_address.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_address.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_address.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -4792,119 +12572,7 @@ _None._
 }
 ```
 
-#### Record 84
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_engine_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_engine_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 85
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\sub.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\sub.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 86
+#### Record 79
 
 ```json
 {
@@ -4960,7 +12628,287 @@ _None._
 }
 ```
 
-#### Record 87
+#### Record 80
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 81
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_connecter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_connecter.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_connecter.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 82
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 83
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\sub.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-sub.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\sub.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 84
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_address.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_address.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_address.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 85
 
 ```json
 {
@@ -5004,6 +12952,118 @@ _None._
   "language": "cxx",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-thread.o",
   "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\thread.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 86
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_engine_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_engine_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_engine_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 87
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -5106,16 +13166,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_address.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_address.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_address.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_address.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_address.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_address.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -5129,6 +13189,118 @@ _None._
 ```
 
 #### Record 90
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\session_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-session_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\session_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 91
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_connecter_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_connecter_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_connecter_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 92
 
 ```json
 {
@@ -5184,175 +13356,7 @@ _None._
 }
 ```
 
-#### Record 91
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_listener.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tcp_listener.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tcp_listener.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 92
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_listener.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_listener.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
 #### Record 93
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_base.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socket_base.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socket_base.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 94
 
 ```json
 {
@@ -5408,6 +13412,62 @@ _None._
 }
 ```
 
+#### Record 94
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_listener_base.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-stream_listener_base.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\stream_listener_base.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 95
 
 ```json
@@ -5442,16 +13502,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_engine.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_listener.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-udp_engine.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\udp_engine.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-tipc_listener.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\tipc_listener.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -5498,16 +13558,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks_connecter.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-socks_connecter.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\socks_connecter.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -5554,16 +13614,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_encoder.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zap_client.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_encoder.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zap_client.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -5666,16 +13726,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq_utils.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_connecter.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq_utils.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_connecter.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -5689,6 +13749,118 @@ _None._
 ```
 
 #### Record 100
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll\\wepoll.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll\\wepoll.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 101
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_decoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_decoder.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 102
 
 ```json
 {
@@ -5744,118 +13916,6 @@ _None._
 }
 ```
 
-#### Record 101
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_decoder.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_decoder.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 102
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_connecter.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci_connecter.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci_connecter.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
 #### Record 103
 
 ```json
@@ -5890,16 +13950,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xsub.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xpub.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xsub.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xpub.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -6002,16 +14062,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll\\wepoll.c"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xsub.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\f5272e9ead22d0ac-wepoll.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll\\wepoll.c",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xsub.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xsub.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -6170,16 +14230,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_encoder.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_listener.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_encoder.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_listener.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -6193,174 +14253,6 @@ _None._
 ```
 
 #### Record 109
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1\\sha1.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1\\sha1.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 110
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xpub.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-xpub.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\xpub.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 111
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zap_client.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zap_client.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zap_client.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 112
 
 ```json
 {
@@ -6416,7 +14308,63 @@ _None._
 }
 ```
 
-#### Record 113
+#### Record 110
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq_utils.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmq_utils.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmq_utils.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 111
 
 ```json
 {
@@ -6472,7 +14420,7 @@ _None._
 }
 ```
 
-#### Record 114
+#### Record 112
 
 ```json
 {
@@ -6516,6 +14464,118 @@ _None._
   "language": "cxx",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-zmtp_engine.o",
   "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\zmtp_engine.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 113
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_decoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_decoder.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_decoder.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 114
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_encoder.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_encoder.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -6618,16 +14678,16 @@ _None._
     "-DZMQ_POLL_BASED_ON_POLL=1",
     "-D_WIN32_WINNT=0x0600",
     "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
     "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_listener.cpp"
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1\\sha1.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
   "exit_code": 0,
   "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-ws_listener.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\ws_listener.cpp",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\24ef734c55a4869d-sha1.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1\\sha1.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -6641,6 +14701,62 @@ _None._
 ```
 
 #### Record 117
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
+    "-I",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
+    "-W4",
+    "/GL-",
+    "/EHsc",
+    "-DZMQ_BUILD_TESTS=OFF",
+    "-DZMQ_USE_CV_IMPL_STL11=1",
+    "-DZMQ_STATIC=1",
+    "-DZMQ_USE_BUILTIN_SHA1=1",
+    "-DZMQ_HAVE_WS=1",
+    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
+    "-DZMQ_POLL_BASED_ON_POLL=1",
+    "-D_WIN32_WINNT=0x0600",
+    "-DZMQ_HAVE_IPC=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
+    "-c",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_encoder.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v1_encoder.o",
+  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v1_encoder.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zmq-sys",
+    "version": "0.12.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 118
 
 ```json
 {
@@ -6696,7 +14812,7 @@ _None._
 }
 ```
 
-#### Record 118
+#### Record 119
 
 ```json
 {
@@ -6740,62 +14856,6 @@ _None._
   "language": "cxx",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-vmci.o",
   "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\vmci.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zmq-sys",
-    "version": "0.12.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0#zmq-sys@0.12.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-wcmjk8kj/src/zmq-sys-0.12.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 119
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\include",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/sha1",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\external/wepoll",
-    "-I",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\builds/deprecated-msvc",
-    "-W4",
-    "/GL-",
-    "/EHsc",
-    "-DZMQ_BUILD_TESTS=OFF",
-    "-DZMQ_USE_CV_IMPL_STL11=1",
-    "-DZMQ_STATIC=1",
-    "-DZMQ_USE_BUILTIN_SHA1=1",
-    "-DZMQ_HAVE_WS=1",
-    "-DZMQ_IOTHREAD_POLLER_USE_EPOLL=1",
-    "-DZMQ_POLL_BASED_ON_POLL=1",
-    "-D_WIN32_WINNT=0x0600",
-    "-DZMQ_HAVE_IPC=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
-    "-c",
-    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_decoder.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-wcmjk8kj\\src\\zmq-sys-0.12.0\\target\\debug\\build\\zmq-sys-b94b087ac1cfb57c\\out\\lib\\853b6d6bf6448163-v2_decoder.o",
-  "src": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeromq-src-0.2.6+4.3.4\\vendor\\src\\v2_decoder.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {

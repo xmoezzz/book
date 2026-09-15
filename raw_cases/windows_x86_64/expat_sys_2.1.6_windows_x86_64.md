@@ -4,6 +4,6189 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-30e942d0c2932709\\rustc7frD4j\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-30e942d0c2932709\\rustc7frD4j\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\5058846286833193643detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\5058846286833193643detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\4252813971010114915detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\4252813971010114915detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6/.tmp/native-trace-20520-1783961416071/shims/cl.exe",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "CMakeCCompilerId.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdC",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeCCompilerId.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6/.tmp/native-trace-20520-1783961416071/shims/cl.exe",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "CMakeCXXCompilerId.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdCXX",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeCXXCompilerId.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_9eb18.dir\\CMakeCCompilerABI.c.obj",
+    "/FdCMakeFiles\\cmTC_9eb18.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_9eb18.dir\\CMakeCCompilerABI.c.obj",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_9eb18.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_9eb18.exe",
+    "/implib:cmTC_9eb18.lib",
+    "/pdb:cmTC_9eb18.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_9eb18.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_9eb18.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_9eb18.dir\\CMakeCCompilerABI.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_9eb18.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "/TP",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_2914f.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/FdCMakeFiles\\cmTC_2914f.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_2914f.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_2914f.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_2914f.exe",
+    "/implib:cmTC_2914f.lib",
+    "/pdb:cmTC_2914f.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_2914f.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_2914f.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_2914f.dir\\CMakeCXXCompilerABI.cpp.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_2914f.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_34320.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_34320.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_34320.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_34320.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_34320.exe",
+    "/implib:cmTC_34320.lib",
+    "/pdb:cmTC_34320.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_34320.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_34320.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_34320.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_34320.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_e3b62.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_e3b62.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_e3b62.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e3b62.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_e3b62.exe",
+    "/implib:cmTC_e3b62.lib",
+    "/pdb:cmTC_e3b62.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e3b62.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e3b62.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_e3b62.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_e3b62.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_86c6d.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_86c6d.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_86c6d.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_86c6d.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_86c6d.exe",
+    "/implib:cmTC_86c6d.lib",
+    "/pdb:cmTC_86c6d.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_86c6d.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_86c6d.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_86c6d.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_86c6d.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_95245.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_95245.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_95245.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_95245.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_95245.exe",
+    "/implib:cmTC_95245.lib",
+    "/pdb:cmTC_95245.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_95245.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_95245.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_95245.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_95245.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_4a68e.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_4a68e.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_4a68e.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_4a68e.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_4a68e.exe",
+    "/implib:cmTC_4a68e.lib",
+    "/pdb:cmTC_4a68e.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_4a68e.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_4a68e.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_4a68e.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_4a68e.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_69fdb.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_69fdb.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_69fdb.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_69fdb.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_69fdb.exe",
+    "/implib:cmTC_69fdb.lib",
+    "/pdb:cmTC_69fdb.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_69fdb.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_69fdb.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_69fdb.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_69fdb.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_13ab2.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_13ab2.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_13ab2.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_13ab2.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_13ab2.exe",
+    "/implib:cmTC_13ab2.lib",
+    "/pdb:cmTC_13ab2.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_13ab2.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_13ab2.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_13ab2.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_13ab2.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_84374.dir\\CheckIncludeFile.c.obj",
+    "/FdCMakeFiles\\cmTC_84374.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\CheckIncludeFile.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_84374.dir\\CheckIncludeFile.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\CheckIncludeFile.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_84374.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_84374.exe",
+    "/implib:cmTC_84374.lib",
+    "/pdb:cmTC_84374.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_84374.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_84374.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_84374.dir\\CheckIncludeFile.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_84374.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "-DCHECK_FUNCTION_EXISTS=getpagesize",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_b2312.dir\\CheckFunctionExists.c.obj",
+    "/FdCMakeFiles\\cmTC_b2312.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pytd6h\\CheckFunctionExists.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pytd6h",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_b2312.dir\\CheckFunctionExists.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pytd6h\\CheckFunctionExists.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "-DCHECK_FUNCTION_EXISTS=bcopy",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_6a25e.dir\\CheckFunctionExists.c.obj",
+    "/FdCMakeFiles\\cmTC_6a25e.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s177a\\CheckFunctionExists.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s177a",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_6a25e.dir\\CheckFunctionExists.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7s177a\\CheckFunctionExists.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_a18fd.dir\\CheckSymbolExists.c.obj",
+    "/FdCMakeFiles\\cmTC_a18fd.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\CheckSymbolExists.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_a18fd.dir\\CheckSymbolExists.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\CheckSymbolExists.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_a18fd.dir\\CheckSymbolExists.c.obj",
+    "/out:cmTC_a18fd.exe",
+    "/implib:cmTC_a18fd.lib",
+    "/pdb:cmTC_a18fd.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_a18fd.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_a18fd.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_a18fd.dir\\CheckSymbolExists.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_a18fd.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "-DCHECK_FUNCTION_EXISTS=mmap",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_d29d0.dir\\CheckFunctionExists.c.obj",
+    "/FdCMakeFiles\\cmTC_d29d0.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p87fxb\\CheckFunctionExists.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p87fxb",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_d29d0.dir\\CheckFunctionExists.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p87fxb\\CheckFunctionExists.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "/showIncludes",
+    "/FoCMakeFiles\\cmTC_6feb2.dir\\STDC_HEADERS.c.obj",
+    "/FdCMakeFiles\\cmTC_6feb2.dir\\",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\STDC_HEADERS.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\cmTC_6feb2.dir\\STDC_HEADERS.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\STDC_HEADERS.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_6feb2.dir\\STDC_HEADERS.c.obj",
+    "/out:cmTC_6feb2.exe",
+    "/implib:cmTC_6feb2.lib",
+    "/pdb:cmTC_6feb2.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_6feb2.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_6feb2.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls",
+  "exit_code": 0,
+  "inputs": [
+    "CMakeFiles\\cmTC_6feb2.dir\\STDC_HEADERS.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "/implib:cmTC_6feb2.lib",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib"
+  ],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_EXPAT_CONFIG_H",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-wd4996",
+    "/showIncludes",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
+    "/FdCMakeFiles\\expat.dir\\expat.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_impl.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_impl.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_EXPAT_CONFIG_H",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-wd4996",
+    "/showIncludes",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmltok_ns.c.obj",
+    "/FdCMakeFiles\\expat.dir\\expat.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_ns.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\expat.dir\\lib\\xmltok_ns.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_ns.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_EXPAT_CONFIG_H",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-wd4996",
+    "/showIncludes",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
+    "/FdCMakeFiles\\expat.dir\\expat.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlrole.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlrole.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_EXPAT_CONFIG_H",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-wd4996",
+    "/showIncludes",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
+    "/FdCMakeFiles\\expat.dir\\expat.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlparse.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlparse.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\cl.exe",
+    "/nologo",
+    "-DHAVE_EXPAT_CONFIG_H",
+    "-D_CRT_SECURE_NO_WARNINGS",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+    "-IC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W0",
+    "/MDd",
+    "/Zi",
+    "/Ob0",
+    "/Od",
+    "/RTC1",
+    "-wd4996",
+    "/showIncludes",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmltok.c.obj",
+    "/FdCMakeFiles\\expat.dir\\expat.pdb",
+    "/FS",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/FoCMakeFiles\\expat.dir\\lib\\xmltok.c.obj",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\lib.exe",
+    "/nologo",
+    "/machine:x64",
+    "/out:expat.lib",
+    "CMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmltok.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmltok_ns.c.obj"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
+  "exit_code": 0,
+  "inputs": [
+    "/out:expat.lib",
+    "CMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmltok.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
+    "CMakeFiles\\expat.dir\\lib\\xmltok_ns.c.obj"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-30e942d0c2932709\\rustc7frD4j\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000290       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000002a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000318       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000330       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000340       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000350       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000003e8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000400       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000410       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000420       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000450       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000468       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400fc020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000290       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000290       \\177KERNEL32_NULL_THUNK_DATA 00000001400fc290     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000002a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000002a8       \\177OLEAUT32_NULL_THUNK_DATA 00000001400fc2a8     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000002f8       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400fc2f8     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000318       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400fc318     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000330       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000330       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400fc330     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000340       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000340       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400fc340     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000350       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000350       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400fc350     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000003e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:000003e8       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400fc3e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000400       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000400       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400fc400     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000410       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000410       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400fc410     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000420       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000420       \\177kernel32_NULL_THUNK_DATA 00000001400fc420     libcmake-9bc450aeda2ebb2a:kernel32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000450       \\177ntdll_NULL_THUNK_DATA  00000001400fc450     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\0002:00000468       \\177ole32_NULL_THUNK_DATA  00000001400fc468     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-776-1783961418218673000.map",
+  "pid": 776,
+  "ppid": 19044,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-776-1783961418218673000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_9eb18.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_9eb18.exe",
+    "/implib:cmTC_9eb18.lib",
+    "/pdb:cmTC_9eb18.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_9eb18.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_9eb18.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-16120-1783961419894676800.map",
+  "pid": 16120,
+  "ppid": 20700,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-16120-1783961419894676800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_9eb18.dir\\CMakeCCompilerABI.c.obj",
+    "/out:cmTC_9eb18.exe",
+    "/implib:cmTC_9eb18.lib",
+    "/pdb:cmTC_9eb18.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_9eb18.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_9eb18.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1mdxw\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-14684-1783961420143271100.map",
+  "pid": 14684,
+  "ppid": 20700,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-14684-1783961420143271100.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_2914f.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_2914f.exe",
+    "/implib:cmTC_2914f.lib",
+    "/pdb:cmTC_2914f.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_2914f.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_2914f.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20380-1783961420707713700.map",
+  "pid": 20380,
+  "ppid": 20100,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20380-1783961420707713700.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_2914f.dir\\CMakeCXXCompilerABI.cpp.obj",
+    "/out:cmTC_2914f.exe",
+    "/implib:cmTC_2914f.lib",
+    "/pdb:cmTC_2914f.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_2914f.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_2914f.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ou2b1q\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-8000-1783961420867025000.map",
+  "pid": 8000,
+  "ppid": 20100,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-8000-1783961420867025000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_34320.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_34320.exe",
+    "/implib:cmTC_34320.lib",
+    "/pdb:cmTC_34320.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_34320.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_34320.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-17016-1783961421687952000.map",
+  "pid": 17016,
+  "ppid": 21088,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-17016-1783961421687952000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_34320.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_34320.exe",
+    "/implib:cmTC_34320.lib",
+    "/pdb:cmTC_34320.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_34320.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_34320.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a1rk8x\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-336-1783961421844403000.map",
+  "pid": 336,
+  "ppid": 21088,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-336-1783961421844403000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e3b62.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_e3b62.exe",
+    "/implib:cmTC_e3b62.lib",
+    "/pdb:cmTC_e3b62.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e3b62.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e3b62.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-18752-1783961422319538600.map",
+  "pid": 18752,
+  "ppid": 19348,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-18752-1783961422319538600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_e3b62.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_e3b62.exe",
+    "/implib:cmTC_e3b62.lib",
+    "/pdb:cmTC_e3b62.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_e3b62.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_e3b62.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uq8shi\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20292-1783961422469203100.map",
+  "pid": 20292,
+  "ppid": 19348,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20292-1783961422469203100.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_86c6d.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_86c6d.exe",
+    "/implib:cmTC_86c6d.lib",
+    "/pdb:cmTC_86c6d.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_86c6d.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_86c6d.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-9552-1783961422919691500.map",
+  "pid": 9552,
+  "ppid": 3780,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-9552-1783961422919691500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_86c6d.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_86c6d.exe",
+    "/implib:cmTC_86c6d.lib",
+    "/pdb:cmTC_86c6d.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_86c6d.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_86c6d.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ppmxu\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20208-1783961423071268000.map",
+  "pid": 20208,
+  "ppid": 3780,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20208-1783961423071268000.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_95245.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_95245.exe",
+    "/implib:cmTC_95245.lib",
+    "/pdb:cmTC_95245.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_95245.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_95245.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-21344-1783961423505306800.map",
+  "pid": 21344,
+  "ppid": 6532,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-21344-1783961423505306800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_95245.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_95245.exe",
+    "/implib:cmTC_95245.lib",
+    "/pdb:cmTC_95245.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_95245.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_95245.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2jtjmn\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-6620-1783961423654169800.map",
+  "pid": 6620,
+  "ppid": 6532,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-6620-1783961423654169800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_4a68e.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_4a68e.exe",
+    "/implib:cmTC_4a68e.lib",
+    "/pdb:cmTC_4a68e.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_4a68e.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_4a68e.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-18624-1783961424090071600.map",
+  "pid": 18624,
+  "ppid": 20216,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-18624-1783961424090071600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_4a68e.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_4a68e.exe",
+    "/implib:cmTC_4a68e.lib",
+    "/pdb:cmTC_4a68e.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_4a68e.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_4a68e.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w5qimy\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-21052-1783961424242782100.map",
+  "pid": 21052,
+  "ppid": 20216,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-21052-1783961424242782100.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_69fdb.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_69fdb.exe",
+    "/implib:cmTC_69fdb.lib",
+    "/pdb:cmTC_69fdb.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_69fdb.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_69fdb.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-3756-1783961424927836900.map",
+  "pid": 3756,
+  "ppid": 6576,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-3756-1783961424927836900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_69fdb.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_69fdb.exe",
+    "/implib:cmTC_69fdb.lib",
+    "/pdb:cmTC_69fdb.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_69fdb.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_69fdb.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hqs7pf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-18812-1783961425083339400.map",
+  "pid": 18812,
+  "ppid": 6576,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-18812-1783961425083339400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_13ab2.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_13ab2.exe",
+    "/implib:cmTC_13ab2.lib",
+    "/pdb:cmTC_13ab2.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_13ab2.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_13ab2.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-17556-1783961425618741900.map",
+  "pid": 17556,
+  "ppid": 12620,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-17556-1783961425618741900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_13ab2.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_13ab2.exe",
+    "/implib:cmTC_13ab2.lib",
+    "/pdb:cmTC_13ab2.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_13ab2.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_13ab2.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-107pv0\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-16804-1783961425792913500.map",
+  "pid": 16804,
+  "ppid": 12620,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-16804-1783961425792913500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_84374.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_84374.exe",
+    "/implib:cmTC_84374.lib",
+    "/pdb:cmTC_84374.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_84374.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_84374.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-19780-1783961426280711500.map",
+  "pid": 19780,
+  "ppid": 8548,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-19780-1783961426280711500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_84374.dir\\CheckIncludeFile.c.obj",
+    "/out:cmTC_84374.exe",
+    "/implib:cmTC_84374.lib",
+    "/pdb:cmTC_84374.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_84374.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_84374.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u1mirf\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-5100-1783961426436013500.map",
+  "pid": 5100,
+  "ppid": 8548,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-5100-1783961426436013500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_a18fd.dir\\CheckSymbolExists.c.obj",
+    "/out:cmTC_a18fd.exe",
+    "/implib:cmTC_a18fd.lib",
+    "/pdb:cmTC_a18fd.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_a18fd.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_a18fd.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000001a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:00000318       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000001a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000001a0       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e1a0     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:00000318       \\177ucrtbased_NULL_THUNK_DATA 000000014000e318     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-15508-1783961427941829100.map",
+  "pid": 15508,
+  "ppid": 19676,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-15508-1783961427941829100.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_a18fd.dir\\CheckSymbolExists.c.obj",
+    "/out:cmTC_a18fd.exe",
+    "/implib:cmTC_a18fd.lib",
+    "/pdb:cmTC_a18fd.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_a18fd.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_a18fd.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000001a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:00000318       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000001a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:000001a0       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e1a0     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k6ybv2\\0005:00000318       \\177ucrtbased_NULL_THUNK_DATA 000000014000e318     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-19516-1783961428102166600.map",
+  "pid": 19516,
+  "ppid": 19676,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-19516-1783961428102166600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_6feb2.dir\\STDC_HEADERS.c.obj",
+    "/out:cmTC_6feb2.exe",
+    "/implib:cmTC_6feb2.lib",
+    "/pdb:cmTC_6feb2.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_6feb2.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_6feb2.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-704-1783961428946328200.map",
+  "pid": 704,
+  "ppid": 12804,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-704-1783961428946328200.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-20520-1783961416071\\shims\\link.exe",
+    "/nologo",
+    "CMakeFiles\\cmTC_6feb2.dir\\STDC_HEADERS.c.obj",
+    "/out:cmTC_6feb2.exe",
+    "/implib:cmTC_6feb2.lib",
+    "/pdb:cmTC_6feb2.pdb",
+    "/version:0.0",
+    "/machine:x64",
+    "/debug",
+    "/INCREMENTAL",
+    "/subsystem:console",
+    "kernel32.lib",
+    "user32.lib",
+    "gdi32.lib",
+    "winspool.lib",
+    "shell32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "uuid.lib",
+    "comdlg32.lib",
+    "advapi32.lib",
+    "/MANIFEST",
+    "/MANIFESTFILE:CMakeFiles\\cmTC_6feb2.dir/intermediate.manifest",
+    "CMakeFiles\\cmTC_6feb2.dir/manifest.res"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:000000d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000198       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000308       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\user32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\gdi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\winspool.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\shell32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\uuid.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\comdlg32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\MSVCRTD.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\OLDNAMES.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntimed.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrtd.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:000000d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:000000d0       \\177KERNEL32_NULL_THUNK_DATA 000000014000e0d0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000198       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000198       \\177VCRUNTIME140D_NULL_THUNK_DATA 000000014000e198     vcruntimed:VCRUNTIME140D.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qg6rls\\0005:00000308       \\177ucrtbased_NULL_THUNK_DATA 000000014000e308     ucrtd:ucrtbased.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20544-1783961429102180800.map",
+  "pid": 20544,
+  "ppid": 12804,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\.tmp\\native-trace-link-link-20544-1783961429102180800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "expat-sys",
+    "version": "2.1.6",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6#expat-sys@2.1.6",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s9ylqhoe/src/expat-sys-2.1.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -98,18 +6281,18 @@ _None._
     "/RTC1",
     "-wd4996",
     "/showIncludes",
-    "/FoCMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
     "/FdCMakeFiles\\expat.dir\\expat.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlparse.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlrole.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlparse.c",
+  "output": "CMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlrole.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -144,18 +6327,18 @@ _None._
     "/RTC1",
     "-wd4996",
     "/showIncludes",
-    "/FoCMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
     "/FdCMakeFiles\\expat.dir\\expat.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_impl.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlparse.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_impl.c",
+  "output": "CMakeFiles\\expat.dir\\lib\\xmlparse.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlparse.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -190,18 +6373,18 @@ _None._
     "/RTC1",
     "-wd4996",
     "/showIncludes",
-    "/FoCMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
+    "/FoCMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
     "/FdCMakeFiles\\expat.dir\\expat.pdb",
     "/FS",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlrole.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_impl.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\target\\debug\\build\\expat-sys-66013be71d8a76a3\\out\\build",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "CMakeFiles\\expat.dir\\lib\\xmlrole.c.obj",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmlrole.c",
+  "output": "CMakeFiles\\expat.dir\\lib\\xmltok_impl.c.obj",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s9ylqhoe\\src\\expat-sys-2.1.6\\expat\\lib\\xmltok_impl.c",
   "success": true,
   "tool": "cl",
   "_owner": {

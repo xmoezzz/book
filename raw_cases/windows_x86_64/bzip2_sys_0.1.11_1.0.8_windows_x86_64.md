@@ -4,6 +4,640 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\.tmp\\native-trace-14128-1783954232469\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-ac58be4c0227d725\\rustcuMd0Np\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-ac58be4c0227d725\\rustcuMd0Np\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\9567505575489908734detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\9567505575489908734detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-blocksort.o",
+    "-c",
+    "bzip2-1.0.8/blocksort.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-blocksort.o",
+    "bzip2-1.0.8/blocksort.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-huffman.o",
+    "-c",
+    "bzip2-1.0.8/huffman.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-huffman.o",
+    "bzip2-1.0.8/huffman.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
+    "-c",
+    "bzip2-1.0.8/crctable.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
+    "bzip2-1.0.8/crctable.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
+    "-c",
+    "bzip2-1.0.8/randtable.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
+    "bzip2-1.0.8/randtable.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-compress.o",
+    "-c",
+    "bzip2-1.0.8/compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-compress.o",
+    "bzip2-1.0.8/compress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
+    "-c",
+    "bzip2-1.0.8/decompress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
+    "bzip2-1.0.8/decompress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o",
+    "-c",
+    "bzip2-1.0.8/bzlib.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o",
+    "bzip2-1.0.8/bzlib.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\libbz2.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-blocksort.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-huffman.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-blocksort.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-huffman.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\libbz2.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\.tmp\\native-trace-14128-1783954232469\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-ac58be4c0227d725\\rustcuMd0Np\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400f0020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400f0298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400f02b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400f0300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400f0320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400f0338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400f0348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400f0358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400f03f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400f0408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400f0418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400f0448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400f0460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\.tmp\\native-trace-link-link-17376-1783954233917209200.map",
+  "pid": 17376,
+  "ppid": 15160,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\.tmp\\native-trace-link-link-17376-1783954233917209200.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -49,123 +683,6 @@ _None._
     "-DBZ_EXPORT",
     "-D_FILE_OFFSET_BITS=64",
     "-DBZ_NO_STDIO",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
-    "-c",
-    "bzip2-1.0.8/decompress.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
-  "src": "bzip2-1.0.8/decompress.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "bzip2-sys",
-    "version": "0.1.11+1.0.8",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "bzip2-1.0.8",
-    "-W0",
-    "-D_WIN32",
-    "-DBZ_EXPORT",
-    "-D_FILE_OFFSET_BITS=64",
-    "-DBZ_NO_STDIO",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o",
-    "-c",
-    "bzip2-1.0.8/bzlib.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o",
-  "src": "bzip2-1.0.8/bzlib.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "bzip2-sys",
-    "version": "0.1.11+1.0.8",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "bzip2-1.0.8",
-    "-W0",
-    "-D_WIN32",
-    "-DBZ_EXPORT",
-    "-D_FILE_OFFSET_BITS=64",
-    "-DBZ_NO_STDIO",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
-    "-c",
-    "bzip2-1.0.8/crctable.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
-  "src": "bzip2-1.0.8/crctable.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "bzip2-sys",
-    "version": "0.1.11+1.0.8",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "bzip2-1.0.8",
-    "-W0",
-    "-D_WIN32",
-    "-DBZ_EXPORT",
-    "-D_FILE_OFFSET_BITS=64",
-    "-DBZ_NO_STDIO",
     "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-compress.o",
     "-c",
     "bzip2-1.0.8/compress.c"
@@ -188,46 +705,7 @@ _None._
 }
 ```
 
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "bzip2-1.0.8",
-    "-W0",
-    "-D_WIN32",
-    "-DBZ_EXPORT",
-    "-D_FILE_OFFSET_BITS=64",
-    "-DBZ_NO_STDIO",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
-    "-c",
-    "bzip2-1.0.8/randtable.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
-  "src": "bzip2-1.0.8/randtable.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "bzip2-sys",
-    "version": "0.1.11+1.0.8",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
+#### Record 2
 
 ```json
 {
@@ -266,7 +744,124 @@ _None._
 }
 ```
 
-#### Record 7
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o",
+    "-c",
+    "bzip2-1.0.8/bzlib.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-bzlib.o",
+  "src": "bzip2-1.0.8/bzlib.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
+    "-c",
+    "bzip2-1.0.8/crctable.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-crctable.o",
+  "src": "bzip2-1.0.8/crctable.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
+    "-c",
+    "bzip2-1.0.8/decompress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-decompress.o",
+  "src": "bzip2-1.0.8/decompress.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
 
 ```json
 {
@@ -293,6 +888,45 @@ _None._
   "language": "c",
   "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-blocksort.o",
   "src": "bzip2-1.0.8/blocksort.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "bzip2-sys",
+    "version": "0.1.11+1.0.8",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8#bzip2-sys@0.1.11+1.0.8",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-s0gqjxr5/src/bzip2-sys-0.1.11+1.0.8",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "bzip2-1.0.8",
+    "-W0",
+    "-D_WIN32",
+    "-DBZ_EXPORT",
+    "-D_FILE_OFFSET_BITS=64",
+    "-DBZ_NO_STDIO",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
+    "-c",
+    "bzip2-1.0.8/randtable.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-s0gqjxr5\\src\\bzip2-sys-0.1.11+1.0.8\\target\\debug\\build\\bzip2-sys-a53f7c14e427c16f\\out\\lib\\a9dc8ba631b1466a-randtable.o",
+  "src": "bzip2-1.0.8/randtable.c",
   "success": true,
   "tool": "cl",
   "_owner": {

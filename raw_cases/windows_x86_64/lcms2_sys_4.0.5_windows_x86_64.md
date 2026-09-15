@@ -4,6 +4,1462 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\.tmp\\native-trace-18604-1783962455880\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-b09b2136af0e0bff\\rustcV268LK\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-b09b2136af0e0bff\\rustcV268LK\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\14816919288372698074detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\14816919288372698074detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
+    "-c",
+    "vendor/src/cmshalf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
+    "vendor/src/cmshalf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
+    "-c",
+    "vendor/src/cmscnvrt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
+    "vendor/src/cmscnvrt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
+    "-c",
+    "vendor/src/cmserr.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
+    "vendor/src/cmserr.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
+    "-c",
+    "vendor/src/cmsgmt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
+    "vendor/src/cmsgmt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
+    "-c",
+    "vendor/src/cmsintrp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
+    "vendor/src/cmsintrp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
+    "-c",
+    "vendor/src/cmsgamma.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
+    "vendor/src/cmsgamma.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
+    "-c",
+    "vendor/src/cmsmd5.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
+    "vendor/src/cmsmd5.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
+    "-c",
+    "vendor/src/cmsalpha.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
+    "vendor/src/cmsalpha.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
+    "-c",
+    "vendor/src/cmsio1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
+    "vendor/src/cmsio1.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
+    "-c",
+    "vendor/src/cmsmtrx.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
+    "vendor/src/cmsmtrx.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
+    "-c",
+    "vendor/src/cmscam02.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
+    "vendor/src/cmscam02.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
+    "-c",
+    "vendor/src/cmscgats.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
+    "vendor/src/cmscgats.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
+    "-c",
+    "vendor/src/cmslut.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
+    "vendor/src/cmslut.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsnamed.o",
+    "-c",
+    "vendor/src/cmsnamed.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsnamed.o",
+    "vendor/src/cmsnamed.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio0.o",
+    "-c",
+    "vendor/src/cmsio0.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio0.o",
+    "vendor/src/cmsio0.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
+    "-c",
+    "vendor/src/cmssm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
+    "vendor/src/cmssm.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
+    "-c",
+    "vendor/src/cmssamp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
+    "vendor/src/cmssamp.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
+    "-c",
+    "vendor/src/cmspcs.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
+    "vendor/src/cmspcs.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
+    "-c",
+    "vendor/src/cmsopt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
+    "vendor/src/cmsopt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
+    "-c",
+    "vendor/src/cmsplugin.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
+    "vendor/src/cmsplugin.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
+    "-c",
+    "vendor/src/cmsps2.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
+    "vendor/src/cmsps2.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspack.o",
+    "-c",
+    "vendor/src/cmspack.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspack.o",
+    "vendor/src/cmspack.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
+    "-c",
+    "vendor/src/cmsvirt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
+    "vendor/src/cmsvirt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
+    "-c",
+    "vendor/src/cmstypes.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
+    "vendor/src/cmstypes.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o",
+    "-c",
+    "vendor/src/cmswtpnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o",
+    "vendor/src/cmswtpnt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsxform.o",
+    "-c",
+    "vendor/src/cmsxform.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsxform.o",
+    "vendor/src/cmsxform.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\liblcms2.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio0.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsnamed.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspack.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio0.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsnamed.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspack.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\liblcms2.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\liblcms2.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\liblcms2.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsxform.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\liblcms2.a",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsxform.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\liblcms2.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\.tmp\\native-trace-18604-1783962455880\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-b09b2136af0e0bff\\rustcV268LK\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000318       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000368       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000388       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003c0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000458       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000470       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000480       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000004b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000004c8       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 0000000140115020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000300       \\177KERNEL32_NULL_THUNK_DATA 0000000140115300     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000318       \\177OLEAUT32_NULL_THUNK_DATA 0000000140115318     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000368       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000368       \\177VCRUNTIME140_NULL_THUNK_DATA 0000000140115368     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000388       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000388       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140115388     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003a0       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001401153a0     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003b0       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001401153b0     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003c0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000003c0       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001401153c0     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000458       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000458       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000140115458     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000470       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000470       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000140115470     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000480       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:00000480       \\177bcryptprimitives_NULL_THUNK_DATA 0000000140115480     libgetrandom-63356ae595a106bd:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000004b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000004b0       \\177ntdll_NULL_THUNK_DATA  00000001401154b0     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000004c8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\0002:000004c8       \\177ole32_NULL_THUNK_DATA  00000001401154c8     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\.tmp\\native-trace-link-link-2808-1783962462118217800.map",
+  "pid": 2808,
+  "ppid": 3208,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\.tmp\\native-trace-link-link-2808-1783962462118217800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -64,16 +1520,16 @@ _None._
     "-I",
     "vendor/include",
     "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
     "-c",
-    "vendor/src/cmsintrp.c"
+    "vendor/src/cmsmtrx.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
-  "src": "vendor/src/cmsintrp.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
+  "src": "vendor/src/cmsmtrx.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -87,251 +1543,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
-    "-c",
-    "vendor/src/cmsio1.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
-  "src": "vendor/src/cmsio1.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
-    "-c",
-    "vendor/src/cmsmd5.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
-  "src": "vendor/src/cmsmd5.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
-    "-c",
-    "vendor/src/cmstypes.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
-  "src": "vendor/src/cmstypes.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
-    "-c",
-    "vendor/src/cmsalpha.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
-  "src": "vendor/src/cmsalpha.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
-    "-c",
-    "vendor/src/cmscgats.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
-  "src": "vendor/src/cmscgats.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
-    "-c",
-    "vendor/src/cmsgmt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
-  "src": "vendor/src/cmsgmt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 8
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
-    "-c",
-    "vendor/src/cmslut.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
-  "src": "vendor/src/cmslut.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
 
 ```json
 {
@@ -366,6 +1577,251 @@ _None._
 }
 ```
 
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
+    "-c",
+    "vendor/src/cmsgamma.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
+  "src": "vendor/src/cmsgamma.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
+    "-c",
+    "vendor/src/cmssm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
+  "src": "vendor/src/cmssm.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
+    "-c",
+    "vendor/src/cmsvirt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
+  "src": "vendor/src/cmsvirt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
+    "-c",
+    "vendor/src/cmshalf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
+  "src": "vendor/src/cmshalf.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
+    "-c",
+    "vendor/src/cmsplugin.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
+  "src": "vendor/src/cmsplugin.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
+    "-c",
+    "vendor/src/cmspcs.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
+  "src": "vendor/src/cmspcs.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
+    "-c",
+    "vendor/src/cmssamp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
+  "src": "vendor/src/cmssamp.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 10
 
 ```json
@@ -379,16 +1835,16 @@ _None._
     "-I",
     "vendor/include",
     "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
     "-c",
-    "vendor/src/cmswtpnt.c"
+    "vendor/src/cmsalpha.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o",
-  "src": "vendor/src/cmswtpnt.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsalpha.o",
+  "src": "vendor/src/cmsalpha.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -414,16 +1870,16 @@ _None._
     "-I",
     "vendor/include",
     "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
     "-c",
-    "vendor/src/cmssm.c"
+    "vendor/src/cmsps2.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssm.o",
-  "src": "vendor/src/cmssm.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
+  "src": "vendor/src/cmsps2.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -484,16 +1940,16 @@ _None._
     "-I",
     "vendor/include",
     "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
     "-c",
-    "vendor/src/cmsgamma.c"
+    "vendor/src/cmstypes.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgamma.o",
-  "src": "vendor/src/cmsgamma.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmstypes.o",
+  "src": "vendor/src/cmstypes.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -507,286 +1963,6 @@ _None._
 ```
 
 #### Record 14
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
-    "-c",
-    "vendor/src/cmsplugin.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsplugin.o",
-  "src": "vendor/src/cmsplugin.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 15
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
-    "-c",
-    "vendor/src/cmsmtrx.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmtrx.o",
-  "src": "vendor/src/cmsmtrx.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 16
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
-    "-c",
-    "vendor/src/cmsopt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
-  "src": "vendor/src/cmsopt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
-    "-c",
-    "vendor/src/cmscam02.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
-  "src": "vendor/src/cmscam02.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 18
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
-    "-c",
-    "vendor/src/cmserr.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
-  "src": "vendor/src/cmserr.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
-    "-c",
-    "vendor/src/cmssamp.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmssamp.o",
-  "src": "vendor/src/cmssamp.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 20
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
-    "-c",
-    "vendor/src/cmscnvrt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
-  "src": "vendor/src/cmscnvrt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "vendor/include",
-    "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
-    "-c",
-    "vendor/src/cmsps2.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsps2.o",
-  "src": "vendor/src/cmsps2.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "lcms2-sys",
-    "version": "4.0.5",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 22
 
 ```json
 {
@@ -821,6 +1997,286 @@ _None._
 }
 ```
 
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o",
+    "-c",
+    "vendor/src/cmswtpnt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmswtpnt.o",
+  "src": "vendor/src/cmswtpnt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
+    "-c",
+    "vendor/src/cmsintrp.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsintrp.o",
+  "src": "vendor/src/cmsintrp.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
+    "-c",
+    "vendor/src/cmsopt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsopt.o",
+  "src": "vendor/src/cmsopt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
+    "-c",
+    "vendor/src/cmscgats.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscgats.o",
+  "src": "vendor/src/cmscgats.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
+    "-c",
+    "vendor/src/cmsgmt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsgmt.o",
+  "src": "vendor/src/cmsgmt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
+    "-c",
+    "vendor/src/cmscam02.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscam02.o",
+  "src": "vendor/src/cmscam02.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
+    "-c",
+    "vendor/src/cmsmd5.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsmd5.o",
+  "src": "vendor/src/cmsmd5.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "vendor/include",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
+    "-c",
+    "vendor/src/cmsio1.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsio1.o",
+  "src": "vendor/src/cmsio1.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "lcms2-sys",
+    "version": "4.0.5",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5#lcms2-sys@4.0.5",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-qp5581ss/src/lcms2-sys-4.0.5",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 23
 
 ```json
@@ -834,16 +2290,16 @@ _None._
     "-I",
     "vendor/include",
     "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
     "-c",
-    "vendor/src/cmshalf.c"
+    "vendor/src/cmslut.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmshalf.o",
-  "src": "vendor/src/cmshalf.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmslut.o",
+  "src": "vendor/src/cmslut.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -869,16 +2325,16 @@ _None._
     "-I",
     "vendor/include",
     "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
     "-c",
-    "vendor/src/cmsvirt.c"
+    "vendor/src/cmscnvrt.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmsvirt.o",
-  "src": "vendor/src/cmsvirt.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmscnvrt.o",
+  "src": "vendor/src/cmscnvrt.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -904,16 +2360,16 @@ _None._
     "-I",
     "vendor/include",
     "-W4",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
     "-c",
-    "vendor/src/cmspcs.c"
+    "vendor/src/cmserr.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmspcs.o",
-  "src": "vendor/src/cmspcs.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-qp5581ss\\src\\lcms2-sys-4.0.5\\target\\debug\\build\\lcms2-sys-332aa6611f0feced\\out\\49c72391db7e6a2b-cmserr.o",
+  "src": "vendor/src/cmserr.c",
   "success": true,
   "tool": "cl",
   "_owner": {

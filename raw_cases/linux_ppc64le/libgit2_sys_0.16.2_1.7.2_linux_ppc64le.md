@@ -4,6 +4,1194 @@ Platform: Linux ppc64le
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9/symbols.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0g2rj6tac92f3g6lg9a136rfm.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0nvzuqvyckbdc95fzrejgd6j0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0ztq95s0e9s5walkpb8e8pycw.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.10il7efbhr488wsgc04ylxn8b.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2cqv17mvj30lme70qryoqpofz.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2esbaenmb4tqzpvyzsgonwv9y.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2gn3tg8v1sq9laaj89mtg1f89.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2hq0l7b7rr647kcfefphls1km.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2lonw147d0nr5oecgzpa954qf.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.314g93qoxctmal7173d92cbmc.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.380z6ehkuqd8e40zbxgsxwk7p.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3dpo4cbjyvy9tpw1z6pjvalw8.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3qz3ank7zxyjd2h6d8fc0w8p0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3ylolwcped0zsvynvqnjx2eli.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4blkusboueeyxm9n0lnse6k5l.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4fiyfl77ftgzuac9cur0g1xuu.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4ho7sr46s63vwxuooycg4jtcg.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.52avd68tid52yk4naiss6zcd2.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.54t4awkkypwyqxw8xdv8nywpm.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.68v3cjb0yn49zyw3weacdoht9.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.71kjbyjibdr9bb2jjaqpysi7p.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.74uqovsfmtiehxdf4cvarh9xs.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7ab9n0webtodv1bt1oteek0hq.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7i1gbet5c11p4nxwfdaytstj7.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7k05xsbrbhjcic5fmbu5hfdsh.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7xy4a890p6u8zfb722yow5w44.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.88x43gm2whme4g5skhws48x0y.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.8sh3y33g9e5va7qx6c0nj34bn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.95jvvli9414lvghs9z2th3r34.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9fc7n2bq3gskns7rtcs6zwamj.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9irz4ocfnqgujbgabn0s1whwh.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9ki5atkpeehqvzlzf7x5c6b6l.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9uhjk1i3elp814thndle5nb2h.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9yj4bky7dtsutk7neuorv5im8.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aduag5rsv2nct5d50bkcseo4a.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.akvhu3bowny3e440xtx8es48f.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ao9yjdp38qh94lhbotlspn6ev.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aqfquaip3679zd254vmfc7j11.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b3u5qm9019mi4j1yf5yzdljsi.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b8hvxtwo7rw9fjynpc2otsvme.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b9p4tr8v3w8kerhndjbx1stre.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.bll85s7lyqz6kxaw5sd5j4onn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cm1x98t49j470j9jw70o1ngn0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cvyufqqfno7h34sbr678m2x5s.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cz85qz7kqrslboim859rundem.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d01244hub5ompsj10cb1te65o.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d4j7ytgpi56xkhf5uua5iqd43.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d5ljnhc79u4mxlxn3eq6wla3q.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d709kmntvn2y60vjh0h0eez2z.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.dv1xkr8qg5anzoc4n6k2qcvhv.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.e4souxop2zcbt9amny48vllzs.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ei5olngsfnmfbbtd82uwkq09b.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.f3er62zdaydyr75pqutw2f5sn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cveibgg3ln6u90l2kzm5s54qp.05i23f5.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9/symbols.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0g2rj6tac92f3g6lg9a136rfm.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0nvzuqvyckbdc95fzrejgd6j0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0ztq95s0e9s5walkpb8e8pycw.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.10il7efbhr488wsgc04ylxn8b.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2cqv17mvj30lme70qryoqpofz.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2esbaenmb4tqzpvyzsgonwv9y.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2gn3tg8v1sq9laaj89mtg1f89.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2hq0l7b7rr647kcfefphls1km.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2lonw147d0nr5oecgzpa954qf.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.314g93qoxctmal7173d92cbmc.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.380z6ehkuqd8e40zbxgsxwk7p.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3dpo4cbjyvy9tpw1z6pjvalw8.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3qz3ank7zxyjd2h6d8fc0w8p0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3ylolwcped0zsvynvqnjx2eli.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4blkusboueeyxm9n0lnse6k5l.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4fiyfl77ftgzuac9cur0g1xuu.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4ho7sr46s63vwxuooycg4jtcg.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.52avd68tid52yk4naiss6zcd2.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.54t4awkkypwyqxw8xdv8nywpm.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.68v3cjb0yn49zyw3weacdoht9.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.71kjbyjibdr9bb2jjaqpysi7p.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.74uqovsfmtiehxdf4cvarh9xs.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7ab9n0webtodv1bt1oteek0hq.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7i1gbet5c11p4nxwfdaytstj7.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7k05xsbrbhjcic5fmbu5hfdsh.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7xy4a890p6u8zfb722yow5w44.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.88x43gm2whme4g5skhws48x0y.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.8sh3y33g9e5va7qx6c0nj34bn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.95jvvli9414lvghs9z2th3r34.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9fc7n2bq3gskns7rtcs6zwamj.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9irz4ocfnqgujbgabn0s1whwh.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9ki5atkpeehqvzlzf7x5c6b6l.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9uhjk1i3elp814thndle5nb2h.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9yj4bky7dtsutk7neuorv5im8.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aduag5rsv2nct5d50bkcseo4a.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.akvhu3bowny3e440xtx8es48f.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ao9yjdp38qh94lhbotlspn6ev.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aqfquaip3679zd254vmfc7j11.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b3u5qm9019mi4j1yf5yzdljsi.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b8hvxtwo7rw9fjynpc2otsvme.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b9p4tr8v3w8kerhndjbx1stre.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.bll85s7lyqz6kxaw5sd5j4onn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cm1x98t49j470j9jw70o1ngn0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cvyufqqfno7h34sbr678m2x5s.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cz85qz7kqrslboim859rundem.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d01244hub5ompsj10cb1te65o.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d4j7ytgpi56xkhf5uua5iqd43.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d5ljnhc79u4mxlxn3eq6wla3q.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d709kmntvn2y60vjh0h0eez2z.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.dv1xkr8qg5anzoc4n6k2qcvhv.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.e4souxop2zcbt9amny48vllzs.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ei5olngsfnmfbbtd82uwkq09b.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.f3er62zdaydyr75pqutw2f5sn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cveibgg3ln6u90l2kzm5s54qp.05i23f5.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "libgit2-sys",
+    "version": "0.16.2+1.7.2",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2#libgit2-sys@0.16.2+1.7.2",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9/symbols.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0g2rj6tac92f3g6lg9a136rfm.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0nvzuqvyckbdc95fzrejgd6j0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0ztq95s0e9s5walkpb8e8pycw.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.10il7efbhr488wsgc04ylxn8b.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2cqv17mvj30lme70qryoqpofz.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2esbaenmb4tqzpvyzsgonwv9y.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2gn3tg8v1sq9laaj89mtg1f89.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2hq0l7b7rr647kcfefphls1km.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2lonw147d0nr5oecgzpa954qf.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.314g93qoxctmal7173d92cbmc.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.380z6ehkuqd8e40zbxgsxwk7p.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3dpo4cbjyvy9tpw1z6pjvalw8.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3qz3ank7zxyjd2h6d8fc0w8p0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3ylolwcped0zsvynvqnjx2eli.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4blkusboueeyxm9n0lnse6k5l.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4fiyfl77ftgzuac9cur0g1xuu.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4ho7sr46s63vwxuooycg4jtcg.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.52avd68tid52yk4naiss6zcd2.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.54t4awkkypwyqxw8xdv8nywpm.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.68v3cjb0yn49zyw3weacdoht9.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.71kjbyjibdr9bb2jjaqpysi7p.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.74uqovsfmtiehxdf4cvarh9xs.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7ab9n0webtodv1bt1oteek0hq.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7i1gbet5c11p4nxwfdaytstj7.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7k05xsbrbhjcic5fmbu5hfdsh.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7xy4a890p6u8zfb722yow5w44.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.88x43gm2whme4g5skhws48x0y.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.8sh3y33g9e5va7qx6c0nj34bn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.95jvvli9414lvghs9z2th3r34.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9fc7n2bq3gskns7rtcs6zwamj.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9irz4ocfnqgujbgabn0s1whwh.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9ki5atkpeehqvzlzf7x5c6b6l.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9uhjk1i3elp814thndle5nb2h.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9yj4bky7dtsutk7neuorv5im8.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aduag5rsv2nct5d50bkcseo4a.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.akvhu3bowny3e440xtx8es48f.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ao9yjdp38qh94lhbotlspn6ev.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aqfquaip3679zd254vmfc7j11.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b3u5qm9019mi4j1yf5yzdljsi.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b8hvxtwo7rw9fjynpc2otsvme.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b9p4tr8v3w8kerhndjbx1stre.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.bll85s7lyqz6kxaw5sd5j4onn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cm1x98t49j470j9jw70o1ngn0.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cvyufqqfno7h34sbr678m2x5s.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cz85qz7kqrslboim859rundem.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d01244hub5ompsj10cb1te65o.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d4j7ytgpi56xkhf5uua5iqd43.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d5ljnhc79u4mxlxn3eq6wla3q.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d709kmntvn2y60vjh0h0eez2z.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.dv1xkr8qg5anzoc4n6k2qcvhv.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.e4souxop2zcbt9amny48vllzs.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ei5olngsfnmfbbtd82uwkq09b.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.f3er62zdaydyr75pqutw2f5sn.05i23f5.rcgu.o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cveibgg3ln6u90l2kzm5s54qp.05i23f5.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9",
+    "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77d30            77d30        c    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+    "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77d40            77d40        c    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+    "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77eb0            77eb0       de    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+    "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77f90            77f90       71    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+    "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7a320            7a320       4f    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+    "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7a370            7a370       93    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+    "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7bad0            7bad0        5    16         /target/debug/build/libgit2-sys-b8db0134a76b0925"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/rustcQWMhx9/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0g2rj6tac92f3g6lg9a136rfm.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0nvzuqvyckbdc95fzrejgd6j0.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.0ztq95s0e9s5walkpb8e8pycw.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.10il7efbhr488wsgc04ylxn8b.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2cqv17mvj30lme70qryoqpofz.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2esbaenmb4tqzpvyzsgonwv9y.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2gn3tg8v1sq9laaj89mtg1f89.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2hq0l7b7rr647kcfefphls1km.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2lonw147d0nr5oecgzpa954qf.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.314g93qoxctmal7173d92cbmc.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.380z6ehkuqd8e40zbxgsxwk7p.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3dpo4cbjyvy9tpw1z6pjvalw8.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3qz3ank7zxyjd2h6d8fc0w8p0.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3ylolwcped0zsvynvqnjx2eli.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4blkusboueeyxm9n0lnse6k5l.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4fiyfl77ftgzuac9cur0g1xuu.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.4ho7sr46s63vwxuooycg4jtcg.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.52avd68tid52yk4naiss6zcd2.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.54t4awkkypwyqxw8xdv8nywpm.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.68v3cjb0yn49zyw3weacdoht9.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.71kjbyjibdr9bb2jjaqpysi7p.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.74uqovsfmtiehxdf4cvarh9xs.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7ab9n0webtodv1bt1oteek0hq.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7i1gbet5c11p4nxwfdaytstj7.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7k05xsbrbhjcic5fmbu5hfdsh.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.7xy4a890p6u8zfb722yow5w44.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.88x43gm2whme4g5skhws48x0y.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.8sh3y33g9e5va7qx6c0nj34bn.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.95jvvli9414lvghs9z2th3r34.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9fc7n2bq3gskns7rtcs6zwamj.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9irz4ocfnqgujbgabn0s1whwh.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9ki5atkpeehqvzlzf7x5c6b6l.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9uhjk1i3elp814thndle5nb2h.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.9yj4bky7dtsutk7neuorv5im8.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aduag5rsv2nct5d50bkcseo4a.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.akvhu3bowny3e440xtx8es48f.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ao9yjdp38qh94lhbotlspn6ev.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.aqfquaip3679zd254vmfc7j11.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b3u5qm9019mi4j1yf5yzdljsi.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b8hvxtwo7rw9fjynpc2otsvme.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.b9p4tr8v3w8kerhndjbx1stre.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.bll85s7lyqz6kxaw5sd5j4onn.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cm1x98t49j470j9jw70o1ngn0.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cvyufqqfno7h34sbr678m2x5s.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cz85qz7kqrslboim859rundem.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d01244hub5ompsj10cb1te65o.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d4j7ytgpi56xkhf5uua5iqd43.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d5ljnhc79u4mxlxn3eq6wla3q.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.d709kmntvn2y60vjh0h0eez2z.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.dv1xkr8qg5anzoc4n6k2qcvhv.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.e4souxop2zcbt9amny48vllzs.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.ei5olngsfnmfbbtd82uwkq09b.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.f3er62zdaydyr75pqutw2f5sn.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "object",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.cveibgg3ln6u90l2kzm5s54qp.05i23f5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77d30            77d30        c    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77d30            77d30        c    16         /target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$std..fs..DirEntry$GT$$GT$17ha4b68d94600ecf1eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$std..fs..DirEntry$GT$$GT$17ha4b68d94600ecf1eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77d40            77d40        c    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77d40            77d40        c    16         /target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$std..fs..DirEntry$GT$$GT$17h5247cb215c67da4fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$std..fs..DirEntry$GT$$GT$17h5247cb215c67da4fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77eb0            77eb0       de    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77eb0            77eb0       de    16         /target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h242017819c963621E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h242017819c963621E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77f90            77f90       71    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/77f90            77f90       71    16         /target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h428e1a7e1fe4a335E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.2dy28blk4wgu4ny7wziyvhgmu.05i23f5.rcgu.o:(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h428e1a7e1fe4a335E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7a320            7a320       4f    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7a320            7a320       4f    16         /target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h7af21e0c95d1a2cbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h7af21e0c95d1a2cbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7a370            7a370       93    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7a370            7a370       93    16         /target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hbc6db49da30ea455E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.3u72ktp6f8itqqf8actxxx6v9.05i23f5.rcgu.o:(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hbc6db49da30ea455E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7bad0            7bad0        5    16         /target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2/7bad0            7bad0        5    16         /target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.8sh3y33g9e5va7qx6c0nj34bn.05i23f5.rcgu.o:(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17ha34b9e577d54d528E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/build/libgit2-sys-b8db0134a76b0925",
+      "kind": "dynamic_library",
+      "path": "/target/debug/build/libgit2-sys-b8db0134a76b0925/build_script_build-b8db0134a76b0925.8sh3y33g9e5va7qx6c0nj34bn.05i23f5.rcgu.o:(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17ha34b9e577d54d528E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-299098-1783993789468955997.map",
+  "pid": 299098,
+  "ppid": 298993,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-299098-1783993789468955997.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "libgit2-sys",
+    "version": "0.16.2+1.7.2",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2#libgit2-sys@0.16.2+1.7.2",
+    "manifest_dir": "/tmp/crate-build-ppc64le-2edozcff/src/libgit2-sys-0.16.2+1.7.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

@@ -4,6 +4,900 @@ Platform: Linux ppc64le
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d/symbols.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.06msa1w.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libglob-9388cb1c80a1d539.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d/symbols.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.06msa1w.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d/symbols.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.06msa1w.rcgu.o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.06msa1w.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libglob-9388cb1c80a1d539.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d",
+    "/target/debug/build/libwebp-sys-d20e776345980990",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/7b7f0            7b7f0        5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81020            81020       4f    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81070            81070       93    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81eb0            81eb0       71    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/85480            85480       d5    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/86cb0            86cb0        d    16         /target/debug/deps",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/86cc0            86cc0        d    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/rustc1XdD9d/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.01bnk4geqhe67ycu9ur25hv9u.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0ib2ruxv1n58gri56tk3h1hm2.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0q5k0ruugeb2t13gkfmegbesi.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.0rzjtrqckznkmzs3kgbpm0zuy.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.105z6tkwx1h8afxdetd8gondk.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.1fotgb65ky4mo3gr062p6viws.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.28tsgsk6sphunj2qb4earcblo.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2dqovt8mbqnk2w10kt1j973gp.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.2kgex3p4i002eggmkupuqyain.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3buma9fum4ekds1n63lb5w6qk.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.3smhgazorl32dvrf621qxxhdg.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.409td85aele7n7g2irigy9jib.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.40arg7yaxsaaswnnngwd9ah6b.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.71lkc22j6xmdn3x9qt3udx940.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.7uyp4oswcrbudtiyzt5apupqm.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.89z1bhifa4k18hp4ujkzswyr2.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.8i0k2eg1nuep3vz2xrrgpgc66.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.97r12rmoaj60jijc2vbpgb289.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9nctg0yobegon079ykr4aaukv.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.9y4rhgx266ko4wzcvhwl6ea5k.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.bm0b8z3g2hhpmi07zmnwl6hcn.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.c41z3adtkfz3bq4jkxilbgp5x.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cxkswwtb5oon0bjq6hoolf3nu.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.cz3vqupt08s1lgeorb55ze66q.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.dfkyo3bwrgti59dif62zslzbh.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.e011bibbuz5bvvdq1y5jfr5bx.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.ex9dk96jm1tfb90awfr3sdm9e.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/libwebp-sys-d20e776345980990",
+      "kind": "object",
+      "path": "/target/debug/build/libwebp-sys-d20e776345980990/build_script_build-d20e776345980990.f3guzfollmxeznpfp5v4wuble.06msa1w.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/7b7f0            7b7f0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/7b7f0            7b7f0        5    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd057598450f28db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd057598450f28db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81020            81020       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81020            81020       4f    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hccc409fbe5d9c588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hccc409fbe5d9c588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81070            81070       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81070            81070       93    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h2fb88c1a269c33e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h2fb88c1a269c33e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81eb0            81eb0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/81eb0            81eb0       71    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h89dd2937613d167eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h89dd2937613d167eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/85480            85480       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/85480            85480       d5    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he24a9ae39ecf6891E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he24a9ae39ecf6891E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/86cb0            86cb0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/86cb0            86cb0        d    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6a12409c08082d19E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6a12409c08082d19E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/86cc0            86cc0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/86cc0            86cc0        d    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17hee34b05e615103a1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17hee34b05e615103a1E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-1003315-1783998974742566109.map",
+  "pid": 1003315,
+  "ppid": 1003267,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-1003315-1783998974742566109.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -33,62 +927,6 @@ _None._
 ### Compilation records
 
 #### Record 1
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_cpu.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "sharpyuv_cpu.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_cpu.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_cpu.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_cpu.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003356,
-  "ppid": 1003353,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 2
 
 ```json
 {
@@ -144,6 +982,62 @@ _None._
 }
 ```
 
+#### Record 2
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_cpu.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "sharpyuv_cpu.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_cpu.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_cpu.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_cpu.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003356,
+  "ppid": 1003353,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 3
 
 ```json
@@ -162,25 +1056,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_dsp.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "sharpyuv_csp.c",
+    "sharpyuv_dsp.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_csp.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_dsp.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_csp.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_dsp.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_dsp.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003358,
-  "ppid": 1003354,
+  "pid": 1003360,
+  "ppid": 1003357,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -274,62 +1168,6 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "sharpyuv_sse2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003365,
-  "ppid": 1003363,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
     "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_neon.c",
     "-msecure-plt",
     "-quiet",
@@ -368,6 +1206,62 @@ _None._
 }
 ```
 
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "sharpyuv_sse2.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_sse2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_sse2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003365,
+  "ppid": 1003363,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 7
 
 ```json
@@ -386,25 +1280,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_dsp.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "sharpyuv_dsp.c",
+    "sharpyuv_csp.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_dsp.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_csp.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_dsp.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_dsp.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/sharpyuv/sharpyuv_csp.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/ba9ae331e1c03d63-sharpyuv_csp.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003360,
-  "ppid": 1003357,
+  "pid": 1003358,
+  "ppid": 1003354,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -585,678 +1479,6 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/frame_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "frame_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-frame_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/frame_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-frame_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003389,
-  "ppid": 1003386,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 2
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/io_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "io_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-io_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/io_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-io_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003393,
-  "ppid": 1003390,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 3
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "alpha_processing_sse41.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse41.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse41.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003482,
-  "ppid": 1003479,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 4
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "quant_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-quant_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-quant_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003395,
-  "ppid": 1003392,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 5
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "alpha_processing_sse2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse2.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003415,
-  "ppid": 1003412,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "buffer_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-buffer_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-buffer_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003387,
-  "ppid": 1003384,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "webp_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-webp_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-webp_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003403,
-  "ppid": 1003400,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "anim_decode.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-anim_decode.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-anim_decode.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003405,
-  "ppid": 1003402,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_mips_dsp_r2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "alpha_processing_mips_dsp_r2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_mips_dsp_r2",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_mips_dsp_r2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_mips_dsp_r2",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003411,
-  "ppid": 1003408,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 10
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "alpha_processing_neon.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_neon.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_neon.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003413,
-  "ppid": 1003410,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 11
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/idec_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "idec_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-idec_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/idec_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-idec_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003391,
-  "ppid": 1003388,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 12
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "vp8_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003399,
-  "ppid": 1003396,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 13
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
     "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/alpha_dec.c",
     "-msecure-plt",
     "-quiet",
@@ -1295,119 +1517,7 @@ _None._
 }
 ```
 
-#### Record 14
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "demux.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-demux.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-demux.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003406,
-  "ppid": 1003404,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 15
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "vp8l_dec.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8l_dec.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8l_dec.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003401,
-  "ppid": 1003398,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 16
+#### Record 2
 
 ```json
 {
@@ -1463,175 +1573,791 @@ _None._
 }
 ```
 
+#### Record 3
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/frame_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "frame_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-frame_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/frame_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-frame_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003389,
+  "ppid": 1003386,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_mips_dsp_r2.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "alpha_processing_mips_dsp_r2.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_mips_dsp_r2",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_mips_dsp_r2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_mips_dsp_r2",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003411,
+  "ppid": 1003408,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "quant_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-quant_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/quant_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-quant_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003395,
+  "ppid": 1003392,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "demux.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-demux.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/demux.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-demux.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003406,
+  "ppid": 1003404,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "alpha_processing_sse41.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse41.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse41.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse41.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003482,
+  "ppid": 1003479,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/idec_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "idec_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-idec_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/idec_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-idec_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003391,
+  "ppid": 1003388,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "vp8l_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8l_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8l_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8l_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003401,
+  "ppid": 1003398,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "vp8_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/vp8_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-vp8_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003399,
+  "ppid": 1003396,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse2.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "alpha_processing_sse2.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse2.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_sse2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_sse2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003415,
+  "ppid": 1003412,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "buffer_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-buffer_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/buffer_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-buffer_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003387,
+  "ppid": 1003384,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "webp_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-webp_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/webp_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-webp_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003403,
+  "ppid": 1003400,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "anim_decode.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-anim_decode.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/demux/anim_decode.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/59869f3beea225dc-anim_decode.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003405,
+  "ppid": 1003402,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "alpha_processing_neon.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_neon.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/alpha_processing_neon.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-alpha_processing_neon.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003413,
+  "ppid": 1003410,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 16
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/io_dec.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "io_dec.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-io_dec.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dec/io_dec.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/89142eb2371e4544-io_dec.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003393,
+  "ppid": 1003390,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 17
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "lossless_enc_sse2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_sse2.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_sse2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003584,
-  "ppid": 1003574,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 18
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "enc_sse41.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-enc_sse41.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-enc_sse41.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003537,
-  "ppid": 1003534,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 19
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "filters_neon.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_neon.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_neon.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003555,
-  "ppid": 1003544,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 20
 
 ```json
 {
@@ -1687,7 +2413,63 @@ _None._
 }
 ```
 
-#### Record 21
+#### Record 18
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "filters_neon.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_neon.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_neon.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_neon.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003555,
+  "ppid": 1003544,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 19
 
 ```json
 {
@@ -1724,6 +2506,118 @@ _None._
   "recovered_from_process_exec": true,
   "pid": 1003540,
   "ppid": 1003538,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 20
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "filters_msa.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_msa.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_msa.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003546,
+  "ppid": 1003542,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 21
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "enc_sse41.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-enc_sse41.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/enc_sse41.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-enc_sse41.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003537,
+  "ppid": 1003534,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -1817,25 +2711,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_sse2.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "filters_msa.c",
+    "filters_sse2.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_msa.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_sse2.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_msa.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_msa.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_sse2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_sse2.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003546,
-  "ppid": 1003542,
+  "pid": 1003557,
+  "ppid": 1003554,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -1856,118 +2750,6 @@ _None._
 ```
 
 #### Record 24
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "lossless_enc_mips_dsp_r2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003570,
-  "ppid": 1003565,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 25
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_mips_dsp_r2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "lossless_mips_dsp_r2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_mips_dsp_r2.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_mips_dsp_r2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_mips_dsp_r2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003586,
-  "ppid": 1003580,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 26
 
 ```json
 {
@@ -2023,7 +2805,7 @@ _None._
 }
 ```
 
-#### Record 27
+#### Record 25
 
 ```json
 {
@@ -2041,25 +2823,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_sse2.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "filters_sse2.c",
+    "lossless_enc_sse2.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_sse2.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_sse2.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/filters_sse2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-filters_sse2.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_sse2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_sse2.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003557,
-  "ppid": 1003554,
+  "pid": 1003584,
+  "ppid": 1003574,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -2079,7 +2861,7 @@ _None._
 }
 ```
 
-#### Record 28
+#### Record 26
 
 ```json
 {
@@ -2135,7 +2917,287 @@ _None._
 }
 ```
 
+#### Record 27
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_mips_dsp_r2.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "lossless_mips_dsp_r2.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_mips_dsp_r2.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_mips_dsp_r2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_mips_dsp_r2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003586,
+  "ppid": 1003580,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 28
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "lossless_enc_mips_dsp_r2.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/lossless_enc_mips_dsp_r2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-lossless_enc_mips_dsp_r2.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003570,
+  "ppid": 1003565,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 29
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/alpha_enc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "alpha_enc.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-alpha_enc.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/alpha_enc.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-alpha_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003685,
+  "ppid": 1003680,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 30
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "config_enc.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-config_enc.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-config_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003696,
+  "ppid": 1003692,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 31
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "frame_enc.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-frame_enc.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-frame_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003703,
+  "ppid": 1003700,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 32
 
 ```json
 {
@@ -2191,174 +3253,6 @@ _None._
 }
 ```
 
-#### Record 30
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "yuv.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003664,
-  "ppid": 1003662,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 31
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "backward_references_cost_enc.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_cost_enc",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_cost_enc",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003690,
-  "ppid": 1003686,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 32
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "yuv_mips32.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips32.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips32.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003669,
-  "ppid": 1003663,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
 #### Record 33
 
 ```json
@@ -2377,25 +3271,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "backward_references_enc.c",
+    "analysis_enc.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_enc.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-analysis_enc.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_enc.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-analysis_enc.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003693,
-  "ppid": 1003688,
+  "pid": 1003689,
+  "ppid": 1003683,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -2433,25 +3327,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "yuv_neon.c",
+    "yuv.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_neon.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_neon.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003675,
-  "ppid": 1003672,
+  "pid": 1003664,
+  "ppid": 1003662,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -2545,62 +3439,6 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "iterator_enc.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-iterator_enc.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-iterator_enc.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003708,
-  "ppid": 1003705,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 37
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
     "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/upsampling_sse41.c",
     "-msecure-plt",
     "-quiet",
@@ -2639,119 +3477,63 @@ _None._
 }
 ```
 
+#### Record 37
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "iterator_enc.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-iterator_enc.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/iterator_enc.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-iterator_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003708,
+  "ppid": 1003705,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 38
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "yuv_sse2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_sse2.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_sse2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003678,
-  "ppid": 1003674,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 39
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "yuv_mips_dsp_r2.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003673,
-  "ppid": 1003668,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 40
 
 ```json
 {
@@ -2807,6 +3589,118 @@ _None._
 }
 ```
 
+#### Record 39
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "yuv_neon.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_neon.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_neon.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_neon.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003675,
+  "ppid": 1003672,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 40
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "backward_references_enc.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_enc.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_enc.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_enc.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003693,
+  "ppid": 1003688,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 41
 
 ```json
@@ -2825,25 +3719,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "config_enc.c",
+    "yuv_mips_dsp_r2.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-config_enc.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/config_enc.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-config_enc.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips_dsp_r2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips_dsp_r2.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003696,
-  "ppid": 1003692,
+  "pid": 1003673,
+  "ppid": 1003668,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -2881,25 +3775,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "analysis_enc.c",
+    "backward_references_cost_enc.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-analysis_enc.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_cost_enc",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/analysis_enc.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-analysis_enc.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/backward_references_cost_enc.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-backward_references_cost_enc",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003689,
-  "ppid": 1003683,
+  "pid": 1003690,
+  "ppid": 1003686,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -2937,25 +3831,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "frame_enc.c",
+    "yuv_mips32.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-frame_enc.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips32.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/frame_enc.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-frame_enc.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_mips32.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_mips32.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003703,
-  "ppid": 1003700,
+  "pid": 1003669,
+  "ppid": 1003663,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -2993,25 +3887,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/alpha_enc.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse2.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "alpha_enc.c",
+    "yuv_sse2.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-alpha_enc.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_sse2.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/enc/alpha_enc.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3da13b085afb116c-alpha_enc.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/dsp/yuv_sse2.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/3837fcc86d364de3-yuv_sse2.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003685,
-  "ppid": 1003680,
+  "pid": 1003678,
+  "ppid": 1003674,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -3105,25 +3999,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/filters_utils.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "quant_levels_dec_utils.c",
+    "filters_utils.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-quant_levels_dec_utils.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-filters_utils.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-quant_levels_dec_utils.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/filters_utils.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-filters_utils.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003830,
-  "ppid": 1003824,
+  "pid": 1003775,
+  "ppid": 1003773,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -3161,25 +4055,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/bit_writer_utils.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/palette.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "bit_writer_utils.c",
+    "palette.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-bit_writer_utils.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-palette.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/bit_writer_utils.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-bit_writer_utils.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/palette.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-palette.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003772,
-  "ppid": 1003768,
+  "pid": 1003829,
+  "ppid": 1003822,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,
@@ -3329,62 +4223,6 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "utils.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-utils.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-utils.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003846,
-  "ppid": 1003844,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 51
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
     "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/huffman_utils.c",
     "-msecure-plt",
     "-quiet",
@@ -3423,119 +4261,7 @@ _None._
 }
 ```
 
-#### Record 52
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/palette.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "palette.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-palette.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/palette.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-palette.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003829,
-  "ppid": 1003822,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 53
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
-    "-quiet",
-    "-I",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
-    "-imultiarch",
-    "powerpc64le-linux-gnu",
-    "-D",
-    "NDEBUG=1",
-    "-D",
-    "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/thread_utils.c",
-    "-msecure-plt",
-    "-quiet",
-    "-dumpbase",
-    "thread_utils.c",
-    "-m64",
-    "-mcpu=power8",
-    "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-thread_utils.o",
-    "-g",
-    "..."
-  ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/thread_utils.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-thread_utils.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 1003845,
-  "ppid": 1003839,
-  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "root_cargo_pid": 1002960,
-  "build_script_root_pid": 1003343,
-  "build_script_related": true,
-  "build_script_target_dir": "libwebp-sys-d20e776345980990",
-  "_owner": {
-    "crate": "libwebp-sys",
-    "version": "0.9.6",
-    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
-    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
-  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 54
+#### Record 51
 
 ```json
 {
@@ -3591,6 +4317,174 @@ _None._
 }
 ```
 
+#### Record 52
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "quant_levels_dec_utils.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-quant_levels_dec_utils.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/quant_levels_dec_utils.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-quant_levels_dec_utils.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003830,
+  "ppid": 1003824,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 53
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "utils.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-utils.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/utils.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-utils.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003846,
+  "ppid": 1003844,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 54
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "real_tool": "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1",
+    "-quiet",
+    "-I",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor",
+    "-imultiarch",
+    "powerpc64le-linux-gnu",
+    "-D",
+    "NDEBUG=1",
+    "-D",
+    "_THREAD_SAFE=1",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/bit_writer_utils.c",
+    "-msecure-plt",
+    "-quiet",
+    "-dumpbase",
+    "bit_writer_utils.c",
+    "-m64",
+    "-mcpu=power8",
+    "-auxbase-strip",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-bit_writer_utils.o",
+    "-g",
+    "..."
+  ],
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/bit_writer_utils.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-bit_writer_utils.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 1003772,
+  "ppid": 1003768,
+  "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "root_cargo_pid": 1002960,
+  "build_script_root_pid": 1003343,
+  "build_script_related": true,
+  "build_script_target_dir": "libwebp-sys-d20e776345980990",
+  "_owner": {
+    "crate": "libwebp-sys",
+    "version": "0.9.6",
+    "package_id": "path+file:///tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6#libwebp-sys@0.9.6",
+    "manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_manifest_dir": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
+  "_build_script_out_dir": "/target/debug/build/libwebp-sys-d20e776345980990/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 55
 
 ```json
@@ -3609,25 +4503,25 @@ _None._
     "NDEBUG=1",
     "-D",
     "_THREAD_SAFE=1",
-    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/filters_utils.c",
+    "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/thread_utils.c",
     "-msecure-plt",
     "-quiet",
     "-dumpbase",
-    "filters_utils.c",
+    "thread_utils.c",
     "-m64",
     "-mcpu=power8",
     "-auxbase-strip",
-    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-filters_utils.o",
+    "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-thread_utils.o",
     "-g",
     "..."
   ],
-  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/filters_utils.c",
-  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-filters_utils.o",
+  "src": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6/vendor/src/utils/thread_utils.c",
+  "output": "/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/a2a4113ee633e098-thread_utils.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 1003775,
-  "ppid": 1003773,
+  "pid": 1003845,
+  "ppid": 1003839,
   "cwd": "/tmp/crate-build-ppc64le-mdilb4hc/src/libwebp-sys-0.9.6",
   "root_cargo_pid": 1002960,
   "build_script_root_pid": 1003343,

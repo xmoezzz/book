@@ -82,11 +82,11 @@ Working directory: `/tmp/crate-build-aarch64-5ifarqng/src/apriltag-sys-0.3.0`
 ### Compilation
 
 ```text
-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I <include directory> -Wall -o <object> -c <source>
+cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> -g -gdwarf-4 -O0 -Wall -ffunction-sections -fdata-sections ...
 ```
 
 ```text
-cc1 -quiet -I <include directory> -imultiarch aarch64-linux-gnu <source> -quiet -dumpbase <source> -mlittle-endian -mabi=lp64 -auxbase-strip <object> -g -gdwarf-4 -O0 -Wall -ffunction-sections -fdata-sections ...
+gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I <include directory> -Wall -o <object> -c <source>
 ```
 
 ### Static library construction

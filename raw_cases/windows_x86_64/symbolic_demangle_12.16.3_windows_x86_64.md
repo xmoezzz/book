@@ -4,6 +4,996 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\.tmp\\native-trace-9292-1783961187879\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\rustc2GiMcN\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.24zwr1gpxtf9rte2iw0854406.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.3xeh7o663bfq0err6wfhfrzya.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.4b1y0qilkzdx2qi9mr42zdzls.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.6ihiw95nmje0wfjghj9vt065w.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.7pi3s1oy36dclkmyfxea937pq.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.8klnoyyuk64mv14jaxhbt2gnp.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.aqfkb59m7j6825az8qz97p8r7.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.c5rh6kdr1pgr7eo5rk7ncf0no.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.ct9q4znqxjm6sbu9rz7a5csk7.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.dupdzlmncpny86ohniqcvt2jf.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.ewnf7mtvmfd5upsh7dhvomncb.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.9ukuqq6gkikt4s3f4nkg657or.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\deps\\libcc-a96e51e4918d996d.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\deps\\libshlex-8a85cb2cd59e9679.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\rustc2GiMcN\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.24zwr1gpxtf9rte2iw0854406.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.3xeh7o663bfq0err6wfhfrzya.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.4b1y0qilkzdx2qi9mr42zdzls.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.6ihiw95nmje0wfjghj9vt065w.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.7pi3s1oy36dclkmyfxea937pq.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.8klnoyyuk64mv14jaxhbt2gnp.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.aqfkb59m7j6825az8qz97p8r7.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.c5rh6kdr1pgr7eo5rk7ncf0no.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.ct9q4znqxjm6sbu9rz7a5csk7.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.dupdzlmncpny86ohniqcvt2jf.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.ewnf7mtvmfd5upsh7dhvomncb.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.9ukuqq6gkikt4s3f4nkg657or.1uicu2d.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\.tmp\\native-trace-9292-1783961187879\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\rustc2GiMcN\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.24zwr1gpxtf9rte2iw0854406.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.3xeh7o663bfq0err6wfhfrzya.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.4b1y0qilkzdx2qi9mr42zdzls.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.6ihiw95nmje0wfjghj9vt065w.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.7pi3s1oy36dclkmyfxea937pq.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.8klnoyyuk64mv14jaxhbt2gnp.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.aqfkb59m7j6825az8qz97p8r7.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.c5rh6kdr1pgr7eo5rk7ncf0no.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.ct9q4znqxjm6sbu9rz7a5csk7.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.dupdzlmncpny86ohniqcvt2jf.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.ewnf7mtvmfd5upsh7dhvomncb.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.9ukuqq6gkikt4s3f4nkg657or.1uicu2d.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\deps\\libcc-a96e51e4918d996d.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\deps\\libshlex-8a85cb2cd59e9679.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-2d4a43b3a6f9d0f4\\build_script_build-2d4a43b3a6f9d0f4.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400bc020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400bc298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400bc2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400bc300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400bc320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400bc338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400bc348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400bc358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400bc3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400bc408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400bc418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400bc448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400bc460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\.tmp\\native-trace-link-link-16872-1783961196024823800.map",
+  "pid": 16872,
+  "ppid": 20636,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\.tmp\\native-trace-link-link-16872-1783961196024823800.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\13729814330656560444detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\13729814330656560444detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\10570137063407249316detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\10570137063407249316detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "-fpermissive",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\flag_check",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\flag_check.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\flag_check.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\340077142015922836detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\340077142015922836detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
+    "-c",
+    "src/swiftdemangle.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
+    "src/swiftdemangle.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Context.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
+    "vendor/swift/lib/Demangling/Context.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-CrashReporter.o",
+    "-c",
+    "vendor/swift/lib/Demangling/CrashReporter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-CrashReporter.o",
+    "vendor/swift/lib/Demangling/CrashReporter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Demangler.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
+    "vendor/swift/lib/Demangling/Demangler.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Errors.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Errors.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Errors.o",
+    "vendor/swift/lib/Demangling/Errors.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
+    "-c",
+    "vendor/swift/lib/Demangling/ManglingUtils.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
+    "vendor/swift/lib/Demangling/ManglingUtils.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodeDumper.o",
+    "-c",
+    "vendor/swift/lib/Demangling/NodeDumper.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodeDumper.o",
+    "vendor/swift/lib/Demangling/NodeDumper.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
+    "-c",
+    "vendor/swift/lib/Demangling/NodePrinter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
+    "vendor/swift/lib/Demangling/NodePrinter.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Punycode.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
+    "vendor/swift/lib/Demangling/Punycode.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Remangler.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o",
+    "vendor/swift/lib/Demangling/Remangler.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\libswiftdemangle.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-CrashReporter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Errors.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodeDumper.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-CrashReporter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Errors.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodeDumper.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\libswiftdemangle.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -50,16 +1040,16 @@ _None._
     "vendor/swift/include",
     "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
     "-c",
-    "src/swiftdemangle.cpp"
+    "vendor/swift/lib/Demangling/Context.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
-  "src": "src/swiftdemangle.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
+  "src": "vendor/swift/lib/Demangling/Context.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -73,154 +1063,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-std:c++17",
-    "-I",
-    "vendor/swift/include",
-    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
-    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
-    "-c",
-    "vendor/swift/lib/Demangling/Demangler.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
-  "src": "vendor/swift/lib/Demangling/Demangler.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "symbolic-demangle",
-    "version": "12.16.3",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-std:c++17",
-    "-I",
-    "vendor/swift/include",
-    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
-    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o",
-    "-c",
-    "vendor/swift/lib/Demangling/Remangler.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o",
-  "src": "vendor/swift/lib/Demangling/Remangler.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "symbolic-demangle",
-    "version": "12.16.3",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-std:c++17",
-    "-I",
-    "vendor/swift/include",
-    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
-    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
-    "-c",
-    "vendor/swift/lib/Demangling/Punycode.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
-  "src": "vendor/swift/lib/Demangling/Punycode.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "symbolic-demangle",
-    "version": "12.16.3",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-std:c++17",
-    "-I",
-    "vendor/swift/include",
-    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
-    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
-    "-c",
-    "vendor/swift/lib/Demangling/ManglingUtils.cpp"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
-  "src": "vendor/swift/lib/Demangling/ManglingUtils.cpp",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "symbolic-demangle",
-    "version": "12.16.3",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
 
 ```json
 {
@@ -257,7 +1099,7 @@ _None._
 }
 ```
 
-#### Record 7
+#### Record 3
 
 ```json
 {
@@ -272,16 +1114,16 @@ _None._
     "vendor/swift/include",
     "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
     "-c",
-    "vendor/swift/lib/Demangling/Context.cpp"
+    "vendor/swift/lib/Demangling/Demangler.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Context.o",
-  "src": "vendor/swift/lib/Demangling/Context.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Demangler.o",
+  "src": "vendor/swift/lib/Demangling/Demangler.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -294,7 +1136,7 @@ _None._
 }
 ```
 
-#### Record 8
+#### Record 4
 
 ```json
 {
@@ -331,7 +1173,44 @@ _None._
 }
 ```
 
-#### Record 9
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
+    "-c",
+    "vendor/swift/lib/Demangling/NodePrinter.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
+  "src": "vendor/swift/lib/Demangling/NodePrinter.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
 
 ```json
 {
@@ -368,6 +1247,117 @@ _None._
 }
 ```
 
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
+    "-c",
+    "vendor/swift/lib/Demangling/ManglingUtils.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-ManglingUtils.o",
+  "src": "vendor/swift/lib/Demangling/ManglingUtils.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
+    "-c",
+    "src/swiftdemangle.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\0602fb52cb66f316-swiftdemangle.o",
+  "src": "src/swiftdemangle.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-std:c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Remangler.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "cxx",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Remangler.o",
+  "src": "vendor/swift/lib/Demangling/Remangler.cpp",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-4kxeljci/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 10
 
 ```json
@@ -383,16 +1373,16 @@ _None._
     "vendor/swift/include",
     "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
     "-c",
-    "vendor/swift/lib/Demangling/NodePrinter.cpp"
+    "vendor/swift/lib/Demangling/Punycode.cpp"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3",
   "exit_code": 0,
   "kind": "compile",
   "language": "cxx",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-NodePrinter.o",
-  "src": "vendor/swift/lib/Demangling/NodePrinter.cpp",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-4kxeljci\\src\\symbolic-demangle-12.16.3\\target\\debug\\build\\symbolic-demangle-e5c76c398551c369\\out\\9e67921832b6be5b-Punycode.o",
+  "src": "vendor/swift/lib/Demangling/Punycode.cpp",
   "success": true,
   "tool": "cl",
   "_owner": {

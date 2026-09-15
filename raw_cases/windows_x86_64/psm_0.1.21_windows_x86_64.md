@@ -4,6 +4,281 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\.tmp\\native-trace-15640-1783954451727\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\target\\debug\\build\\psm-72eff60f4ce20b5d\\rustchX2bh7\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\target\\debug\\build\\psm-72eff60f4ce20b5d\\rustchX2bh7\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "psm",
+    "version": "0.1.21",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tnokxlli/src/psm-0.1.21#psm@0.1.21",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tnokxlli/src/psm-0.1.21",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\target\\debug\\build\\psm-429e36e7913a39a1\\out\\libpsm_s.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\target\\debug\\build\\psm-429e36e7913a39a1\\out\\src/arch/x86_64_msvc.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\target\\debug\\build\\psm-429e36e7913a39a1\\out\\src/arch/x86_64_msvc.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\target\\debug\\build\\psm-429e36e7913a39a1\\out\\libpsm_s.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "psm",
+    "version": "0.1.21",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tnokxlli/src/psm-0.1.21#psm@0.1.21",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tnokxlli/src/psm-0.1.21",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\.tmp\\native-trace-15640-1783954451727\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\target\\debug\\build\\psm-72eff60f4ce20b5d\\rustchX2bh7\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000288       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000002a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000002f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000328       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000003e0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000003f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000438       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000450       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 000000014009b020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000288       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000288       \\177KERNEL32_NULL_THUNK_DATA 000000014009b288     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000002a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000002a0       \\177OLEAUT32_NULL_THUNK_DATA 000000014009b2a0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000002f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000002f0       \\177VCRUNTIME140_NULL_THUNK_DATA 000000014009b2f0     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000310       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 000000014009b310     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000328       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000328       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 000000014009b328     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000338       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 000000014009b338     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000348       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 000000014009b348     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000003e0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000003e0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 000000014009b3e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000003f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:000003f8       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 000000014009b3f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000408       \\177bcryptprimitives_NULL_THUNK_DATA 000000014009b408     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000438       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000438       \\177ntdll_NULL_THUNK_DATA  000000014009b438     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\0002:00000450       \\177ole32_NULL_THUNK_DATA  000000014009b450     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\.tmp\\native-trace-link-link-14936-1783954453146969900.map",
+  "pid": 14936,
+  "ppid": 11720,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-tnokxlli\\src\\psm-0.1.21\\.tmp\\native-trace-link-link-14936-1783954453146969900.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "psm",
+    "version": "0.1.21",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tnokxlli/src/psm-0.1.21#psm@0.1.21",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-tnokxlli/src/psm-0.1.21",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

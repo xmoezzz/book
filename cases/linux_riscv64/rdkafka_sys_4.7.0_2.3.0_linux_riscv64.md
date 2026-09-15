@@ -4,6 +4,48 @@ Platform: Linux riscv64
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `/tmp/crate-build-riscv64-vbhlv5j2/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-riscv64-vbhlv5j2/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-riscv64-vbhlv5j2/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-riscv64-vbhlv5j2/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
 ### pkg-config / pkgconf
 
 Working directory: `/target/riscv64gc-unknown-linux-gnu/debug/build/rdkafka-sys-6787da11a21e3edd/out`

@@ -4,6 +4,446 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\.tmp\\native-trace-10120-1783954655755\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\rustcIOIJnZ\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.0dbhwmar2xg374z0ctnqud3oh.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.1zltqp0upqvm5ijrgvy9axk6m.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.32w3cusfmzegcarn7gjdnmq1s.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.8cfbwot3vz3xzpwn8icg22m6b.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.a6f1km3tsg992b9md9mlo4vk5.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.bwxxkn93goxrr60rs0ufiq6si.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.dk4gh5tvlal2d0zoyos5nzdrv.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.eaxfcdbbbgt8eclo90ypqi0g1.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.djpptui4yfzn08tzip7ydehib.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\deps\\libcc-661bd41aa5b5d6f1.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "kernel32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\rustcIOIJnZ\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.0dbhwmar2xg374z0ctnqud3oh.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.1zltqp0upqvm5ijrgvy9axk6m.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.32w3cusfmzegcarn7gjdnmq1s.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.8cfbwot3vz3xzpwn8icg22m6b.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.a6f1km3tsg992b9md9mlo4vk5.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.bwxxkn93goxrr60rs0ufiq6si.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.dk4gh5tvlal2d0zoyos5nzdrv.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.eaxfcdbbbgt8eclo90ypqi0g1.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.djpptui4yfzn08tzip7ydehib.1wu6l4s.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "advapi32.lib",
+    "kernel32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "esaxx-rs",
+    "version": "0.1.10",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10#esaxx-rs@0.1.10",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\.tmp\\native-trace-10120-1783954655755\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\rustcIOIJnZ\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.0dbhwmar2xg374z0ctnqud3oh.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.1zltqp0upqvm5ijrgvy9axk6m.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.32w3cusfmzegcarn7gjdnmq1s.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.8cfbwot3vz3xzpwn8icg22m6b.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.a6f1km3tsg992b9md9mlo4vk5.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.bwxxkn93goxrr60rs0ufiq6si.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.dk4gh5tvlal2d0zoyos5nzdrv.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.eaxfcdbbbgt8eclo90ypqi0g1.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.djpptui4yfzn08tzip7ydehib.1wu6l4s.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\deps\\libcc-661bd41aa5b5d6f1.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "advapi32.lib",
+    "kernel32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-5bda46a2f8a71bfd\\build_script_build-5bda46a2f8a71bfd.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000290       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000002a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000002f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000318       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000330       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000340       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000350       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000003e8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000400       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000410       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000440       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000458       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400a3020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000290       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000290       \\177KERNEL32_NULL_THUNK_DATA 00000001400a3290     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000002a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000002a8       \\177OLEAUT32_NULL_THUNK_DATA 00000001400a32a8     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000002f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000002f8       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400a32f8     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000318       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000318       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400a3318     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000330       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000330       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400a3330     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000340       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000340       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400a3340     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000350       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000350       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400a3350     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000003e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:000003e8       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400a33e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000400       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000400       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400a3400     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000410       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000410       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400a3410     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000440       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000440       \\177ntdll_NULL_THUNK_DATA  00000001400a3440     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000458       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\0002:00000458       \\177ole32_NULL_THUNK_DATA  00000001400a3458     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\.tmp\\native-trace-link-link-18952-1783954657730328600.map",
+  "pid": 18952,
+  "ppid": 19428,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\.tmp\\native-trace-link-link-18952-1783954657730328600.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "esaxx-rs",
+    "version": "0.1.10",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10#esaxx-rs@0.1.10",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MT",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "src",
+    "-W4",
+    "-std=c++11",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-aa08ceca5bb172eb\\out\\src/esaxx.o",
+    "-c",
+    "src/esaxx.cpp"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-aa08ceca5bb172eb\\out\\src/esaxx.o",
+    "src/esaxx.cpp"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "esaxx-rs",
+    "version": "0.1.10",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10#esaxx-rs@0.1.10",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-aa08ceca5bb172eb\\out\\libesaxx.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-aa08ceca5bb172eb\\out\\src/esaxx.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-aa08ceca5bb172eb\\out\\src/esaxx.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-y68xk5sg\\src\\esaxx-rs-0.1.10\\target\\debug\\build\\esaxx-rs-aa08ceca5bb172eb\\out\\libesaxx.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "esaxx-rs",
+    "version": "0.1.10",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10#esaxx-rs@0.1.10",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-y68xk5sg/src/esaxx-rs-0.1.10",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001

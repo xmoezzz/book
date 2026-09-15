@@ -4,6 +4,584 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-10996-1783961691514\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-dba7bcd6694a6644\\rustcPtFOgY\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-dba7bcd6694a6644\\rustcPtFOgY\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\15836950258461198894detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\15836950258461198894detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\3662865102868217998detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\3662865102868217998detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "-mno-avx",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\flag_check",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\flag_check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\flag_check.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\15691157652666227057detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\15691157652666227057detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "-fno-builtin",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\flag_check",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\flag_check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\flag_check.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\12206945410013920426detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\12206945410013920426detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\10304106690832141202detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\10304106690832141202detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-W4",
+    "-Zl",
+    "-D__ADX__",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\src\\server.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\src\\server.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\libblst.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384x384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_inverse_mod_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_is_square_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctq_inverse_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctx_inverse_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-div3w-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-sha256-x86_64.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384x384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_inverse_mod_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_is_square_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctq_inverse_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctx_inverse_mod_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-div3w-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_256-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_384-x86_64.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-sha256-x86_64.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\libblst.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-10996-1783961691514\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-dba7bcd6694a6644\\rustcPtFOgY\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000002a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000002b8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000308       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000328       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000340       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000350       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000360       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000003f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000410       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000420       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000450       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000468       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400e5020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000002a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000002a0       \\177KERNEL32_NULL_THUNK_DATA 00000001400e52a0     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000002b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000002b8       \\177OLEAUT32_NULL_THUNK_DATA 00000001400e52b8     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000308       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400e5308     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000328       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000328       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400e5328     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000340       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000340       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400e5340     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000350       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000350       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400e5350     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000360       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000360       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400e5360     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000003f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:000003f8       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400e53f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000410       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000410       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400e5410     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000420       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000420       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400e5420     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000450       \\177ntdll_NULL_THUNK_DATA  00000001400e5450     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\0002:00000468       \\177ole32_NULL_THUNK_DATA  00000001400e5468     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-link-link-18504-1783961694782557500.map",
+  "pid": 18504,
+  "ppid": 5176,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-link-link-18504-1783961694782557500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -48,6 +626,72 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_inverse_mod_256-x86_64.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_inverse_mod_256-x86_64.asm"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_inverse_mod_256-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_inverse_mod_256-x86_64.asm",
+  "success": true,
+  "tool": "ml64",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-W4",
+    "-Zl",
+    "-D__ADX__",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
+    "-c",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\src\\server.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\src\\server.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blst",
+    "version": "0.3.16",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-10996-1783961691514\\shims\\ml64.exe",
+    "-nologo",
+    "-Zi",
+    "-D__ADX__",
     "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctx_inverse_mod_384-x86_64.o",
     "-c",
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ctx_inverse_mod_384-x86_64.asm"
@@ -70,7 +714,7 @@ _None._
 }
 ```
 
-#### Record 2
+#### Record 4
 
 ```json
 {
@@ -79,16 +723,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctq_inverse_mod_384-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ctq_inverse_mod_384-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctq_inverse_mod_384-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ctq_inverse_mod_384-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -101,7 +745,7 @@ _None._
 }
 ```
 
-#### Record 3
+#### Record 5
 
 ```json
 {
@@ -132,68 +776,6 @@ _None._
 }
 ```
 
-#### Record 4
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-10996-1783961691514\\shims\\ml64.exe",
-    "-nologo",
-    "-Zi",
-    "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_is_square_mod_384-x86_64.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_is_square_mod_384-x86_64.asm"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_is_square_mod_384-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_is_square_mod_384-x86_64.asm",
-  "success": true,
-  "tool": "ml64",
-  "_owner": {
-    "crate": "blst",
-    "version": "0.3.16",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-10996-1783961691514\\shims\\ml64.exe",
-    "-nologo",
-    "-Zi",
-    "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_256-x86_64.o",
-    "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulx_mont_256-x86_64.asm"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_256-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulx_mont_256-x86_64.asm",
-  "success": true,
-  "tool": "ml64",
-  "_owner": {
-    "crate": "blst",
-    "version": "0.3.16",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16#blst@0.3.16",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-0hsojvdd/src/blst-0.3.16",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
 #### Record 6
 
 ```json
@@ -203,16 +785,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_384-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-div3w-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_384-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\div3w-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_384-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_384-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-div3w-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\div3w-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -234,16 +816,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384x384-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-sha256-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384x384-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\sha256-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384x384-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384x384-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-sha256-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\sha256-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -292,26 +874,22 @@ _None._
 ```json
 {
   "argv": [
-    "cl",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\.tmp\\native-trace-10996-1783961691514\\shims\\ml64.exe",
     "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-W4",
-    "-Zl",
+    "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_256-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\src\\server.c"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_256-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\832cdef3a44943fb-server.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\src\\server.c",
+  "language": "asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_256-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_256-x86_64.asm",
   "success": true,
-  "tool": "cl",
+  "tool": "ml64",
   "_owner": {
     "crate": "blst",
     "version": "0.3.16",
@@ -331,16 +909,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_inverse_mod_256-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctq_inverse_mod_384-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_inverse_mod_256-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ctq_inverse_mod_384-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_inverse_mod_256-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_inverse_mod_256-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ctq_inverse_mod_384-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ctq_inverse_mod_384-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -362,16 +940,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_is_square_mod_384-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_is_square_mod_384-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-ct_is_square_mod_384-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\ct_is_square_mod_384-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -393,16 +971,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-sha256-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_256-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\sha256-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulx_mont_256-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-sha256-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\sha256-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulx_mont_256-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulx_mont_256-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -424,16 +1002,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-div3w-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_384-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\div3w-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_384-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-div3w-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\div3w-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_384-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_384-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -455,16 +1033,16 @@ _None._
     "-nologo",
     "-Zi",
     "-D__ADX__",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_256-x86_64.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384x384-x86_64.o",
     "-c",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_256-x86_64.asm"
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384x384-x86_64.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-mulq_mont_256-x86_64.o",
-  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\mulq_mont_256-x86_64.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\target\\debug\\build\\blst-3627d23ac2a5253f\\out\\312bdce7a2e355e6-add_mod_384x384-x86_64.o",
+  "src": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-0hsojvdd\\src\\blst-0.3.16\\blst\\build\\win64\\add_mod_384x384-x86_64.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {

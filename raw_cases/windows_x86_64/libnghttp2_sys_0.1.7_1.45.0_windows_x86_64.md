@@ -4,6 +4,1313 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\.tmp\\native-trace-16284-1783961387703\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-398d4b972b7d3342\\rustc9KvTaO\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-398d4b972b7d3342\\rustc9KvTaO\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_buf.o",
+    "-c",
+    "nghttp2/lib/nghttp2_buf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_buf.o",
+    "nghttp2/lib/nghttp2_buf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_callbacks.o",
+    "-c",
+    "nghttp2/lib/nghttp2_callbacks.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_callbacks.o",
+    "nghttp2/lib/nghttp2_callbacks.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
+    "-c",
+    "nghttp2/lib/nghttp2_debug.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
+    "nghttp2/lib/nghttp2_debug.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
+    "-c",
+    "nghttp2/lib/nghttp2_frame.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
+    "nghttp2/lib/nghttp2_frame.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
+    "-c",
+    "nghttp2/lib/nghttp2_hd.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
+    "nghttp2/lib/nghttp2_hd.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
+    "-c",
+    "nghttp2/lib/nghttp2_hd_huffman.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
+    "nghttp2/lib/nghttp2_hd_huffman.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
+    "-c",
+    "nghttp2/lib/nghttp2_hd_huffman_data.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
+    "nghttp2/lib/nghttp2_hd_huffman_data.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
+    "-c",
+    "nghttp2/lib/nghttp2_helper.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
+    "nghttp2/lib/nghttp2_helper.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_http.o",
+    "-c",
+    "nghttp2/lib/nghttp2_http.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_http.o",
+    "nghttp2/lib/nghttp2_http.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
+    "-c",
+    "nghttp2/lib/nghttp2_map.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
+    "nghttp2/lib/nghttp2_map.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
+    "-c",
+    "nghttp2/lib/nghttp2_mem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
+    "nghttp2/lib/nghttp2_mem.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
+    "-c",
+    "nghttp2/lib/nghttp2_npn.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
+    "nghttp2/lib/nghttp2_npn.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
+    "-c",
+    "nghttp2/lib/nghttp2_option.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
+    "nghttp2/lib/nghttp2_option.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
+    "-c",
+    "nghttp2/lib/nghttp2_outbound_item.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
+    "nghttp2/lib/nghttp2_outbound_item.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_pq.o",
+    "-c",
+    "nghttp2/lib/nghttp2_pq.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_pq.o",
+    "nghttp2/lib/nghttp2_pq.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_priority_spec.o",
+    "-c",
+    "nghttp2/lib/nghttp2_priority_spec.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_priority_spec.o",
+    "nghttp2/lib/nghttp2_priority_spec.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_queue.o",
+    "-c",
+    "nghttp2/lib/nghttp2_queue.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_queue.o",
+    "nghttp2/lib/nghttp2_queue.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
+    "-c",
+    "nghttp2/lib/nghttp2_rcbuf.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
+    "nghttp2/lib/nghttp2_rcbuf.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_session.o",
+    "-c",
+    "nghttp2/lib/nghttp2_session.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_session.o",
+    "nghttp2/lib/nghttp2_session.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
+    "-c",
+    "nghttp2/lib/nghttp2_stream.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
+    "nghttp2/lib/nghttp2_stream.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_submit.o",
+    "-c",
+    "nghttp2/lib/nghttp2_submit.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_submit.o",
+    "nghttp2/lib/nghttp2_submit.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o",
+    "-c",
+    "nghttp2/lib/nghttp2_version.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o",
+    "nghttp2/lib/nghttp2_version.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\libnghttp2.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_buf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_callbacks.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_http.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_pq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_priority_spec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_queue.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_session.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_submit.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_buf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_callbacks.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_http.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_pq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_priority_spec.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_queue.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_session.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_submit.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\libnghttp2.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\.tmp\\native-trace-16284-1783961387703\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-398d4b972b7d3342\\rustc9KvTaO\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000288       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000002a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000002f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000328       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000003e0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000003f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000438       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000450       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 0000000140091020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000288       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000288       \\177KERNEL32_NULL_THUNK_DATA 0000000140091288     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000002a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000002a0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400912a0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000002f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000002f0       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400912f0     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000310       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 0000000140091310     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000328       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000328       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0000000140091328     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000338       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 0000000140091338     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000348       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 0000000140091348     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000003e0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000003e0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400913e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000003f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:000003f8       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400913f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000408       \\177bcryptprimitives_NULL_THUNK_DATA 0000000140091408     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000438       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000438       \\177ntdll_NULL_THUNK_DATA  0000000140091438     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\0002:00000450       \\177ole32_NULL_THUNK_DATA  0000000140091450     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\.tmp\\native-trace-link-link-13772-1783961388976132200.map",
+  "pid": 13772,
+  "ppid": 18448,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\.tmp\\native-trace-link-link-13772-1783961388976132200.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -64,6 +1371,45 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
+    "-c",
+    "nghttp2/lib/nghttp2_helper.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
+  "src": "nghttp2/lib/nghttp2_helper.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
     "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_callbacks.o",
     "-c",
     "nghttp2/lib/nghttp2_callbacks.c"
@@ -86,7 +1432,46 @@ _None._
 }
 ```
 
-#### Record 2
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
+    "-c",
+    "nghttp2/lib/nghttp2_outbound_item.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
+  "src": "nghttp2/lib/nghttp2_outbound_item.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
 
 ```json
 {
@@ -125,163 +1510,7 @@ _None._
 }
 ```
 
-#### Record 3
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
-    "-c",
-    "nghttp2/lib/nghttp2_npn.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
-  "src": "nghttp2/lib/nghttp2_npn.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
-    "-c",
-    "nghttp2/lib/nghttp2_helper.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_helper.o",
-  "src": "nghttp2/lib/nghttp2_helper.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
 #### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
-    "-c",
-    "nghttp2/lib/nghttp2_debug.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
-  "src": "nghttp2/lib/nghttp2_debug.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
-    "-c",
-    "nghttp2/lib/nghttp2_map.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
-  "src": "nghttp2/lib/nghttp2_map.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
 
 ```json
 {
@@ -320,6 +1549,84 @@ _None._
 }
 ```
 
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
+    "-c",
+    "nghttp2/lib/nghttp2_mem.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
+  "src": "nghttp2/lib/nghttp2_mem.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
+    "-c",
+    "nghttp2/lib/nghttp2_option.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
+  "src": "nghttp2/lib/nghttp2_option.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 8
 
 ```json
@@ -337,16 +1644,16 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
     "-c",
-    "nghttp2/lib/nghttp2_stream.c"
+    "nghttp2/lib/nghttp2_hd.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
-  "src": "nghttp2/lib/nghttp2_stream.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
+  "src": "nghttp2/lib/nghttp2_hd.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -376,16 +1683,16 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
     "-c",
-    "nghttp2/lib/nghttp2_frame.c"
+    "nghttp2/lib/nghttp2_rcbuf.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
-  "src": "nghttp2/lib/nghttp2_frame.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
+  "src": "nghttp2/lib/nghttp2_rcbuf.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -415,16 +1722,16 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o",
     "-c",
-    "nghttp2/lib/nghttp2_hd_huffman.c"
+    "nghttp2/lib/nghttp2_version.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
-  "src": "nghttp2/lib/nghttp2_hd_huffman.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o",
+  "src": "nghttp2/lib/nghttp2_version.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -454,16 +1761,16 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
     "-c",
-    "nghttp2/lib/nghttp2_hd_huffman_data.c"
+    "nghttp2/lib/nghttp2_hd_huffman.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
-  "src": "nghttp2/lib/nghttp2_hd_huffman_data.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman.o",
+  "src": "nghttp2/lib/nghttp2_hd_huffman.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -571,6 +1878,84 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
+    "-c",
+    "nghttp2/lib/nghttp2_frame.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_frame.o",
+  "src": "nghttp2/lib/nghttp2_frame.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
+    "-c",
+    "nghttp2/lib/nghttp2_hd_huffman_data.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd_huffman_data.o",
+  "src": "nghttp2/lib/nghttp2_hd_huffman_data.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
     "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_http.o",
     "-c",
     "nghttp2/lib/nghttp2_http.c"
@@ -593,7 +1978,7 @@ _None._
 }
 ```
 
-#### Record 15
+#### Record 17
 
 ```json
 {
@@ -632,84 +2017,6 @@ _None._
 }
 ```
 
-#### Record 16
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
-    "-c",
-    "nghttp2/lib/nghttp2_hd.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_hd.o",
-  "src": "nghttp2/lib/nghttp2_hd.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
-    "-c",
-    "nghttp2/lib/nghttp2_option.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_option.o",
-  "src": "nghttp2/lib/nghttp2_option.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
 #### Record 18
 
 ```json
@@ -727,16 +2034,16 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
     "-c",
-    "nghttp2/lib/nghttp2_mem.c"
+    "nghttp2/lib/nghttp2_stream.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_mem.o",
-  "src": "nghttp2/lib/nghttp2_mem.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_stream.o",
+  "src": "nghttp2/lib/nghttp2_stream.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -750,84 +2057,6 @@ _None._
 ```
 
 #### Record 19
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
-    "-c",
-    "nghttp2/lib/nghttp2_outbound_item.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_outbound_item.o",
-  "src": "nghttp2/lib/nghttp2_outbound_item.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 20
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "nghttp2/lib/includes",
-    "-I",
-    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
-    "-DNGHTTP2_STATICLIB",
-    "-DHAVE_NETINET_IN",
-    "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
-    "-c",
-    "nghttp2/lib/nghttp2_rcbuf.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_rcbuf.o",
-  "src": "nghttp2/lib/nghttp2_rcbuf.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "libnghttp2-sys",
-    "version": "0.1.7+1.45.0",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
 
 ```json
 {
@@ -866,6 +2095,84 @@ _None._
 }
 ```
 
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
+    "-c",
+    "nghttp2/lib/nghttp2_debug.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_debug.o",
+  "src": "nghttp2/lib/nghttp2_debug.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "nghttp2/lib/includes",
+    "-I",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\include",
+    "-DNGHTTP2_STATICLIB",
+    "-DHAVE_NETINET_IN",
+    "-Dssize_t=int64_t",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
+    "-c",
+    "nghttp2/lib/nghttp2_npn.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_npn.o",
+  "src": "nghttp2/lib/nghttp2_npn.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libnghttp2-sys",
+    "version": "0.1.7+1.45.0",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0#libnghttp2-sys@0.1.7+1.45.0",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-i2wgwuio/src/libnghttp2-sys-0.1.7+1.45.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 22
 
 ```json
@@ -883,16 +2190,16 @@ _None._
     "-DNGHTTP2_STATICLIB",
     "-DHAVE_NETINET_IN",
     "-Dssize_t=int64_t",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
     "-c",
-    "nghttp2/lib/nghttp2_version.c"
+    "nghttp2/lib/nghttp2_map.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_version.o",
-  "src": "nghttp2/lib/nghttp2_version.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-i2wgwuio\\src\\libnghttp2-sys-0.1.7+1.45.0\\target\\debug\\build\\libnghttp2-sys-eb0bb6a0cef8cb0e\\out\\i\\lib\\nghttp2/lib/nghttp2_map.o",
+  "src": "nghttp2/lib/nghttp2_map.c",
   "success": true,
   "tool": "cl",
   "_owner": {

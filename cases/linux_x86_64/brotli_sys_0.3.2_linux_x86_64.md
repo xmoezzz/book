@@ -4,6 +4,26 @@ Platform: Linux x86_64
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `/work`
+
+```text
+git submodule update --init
+```
+
+Acquisition kind: `git_submodule`
+
+Outcome: failed (exit code 128)
+
+Working directory: `/work`
+
+```text
+/usr/bin/git submodule update --init
+```
+
+Outcome: outcome unavailable in trace
+
 ### Build-script executable native dependencies
 
 These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.

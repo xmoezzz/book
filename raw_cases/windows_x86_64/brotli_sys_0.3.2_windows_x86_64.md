@@ -4,6 +4,1427 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+#### Record 1
+
+```json
+{
+  "acquisition_kind": "git_submodule",
+  "argv": [
+    "git",
+    "submodule",
+    "update",
+    "--init"
+  ],
+  "cargo_pkg_name": "brotli-sys",
+  "cargo_pkg_version": "0.3.2",
+  "checkout_root": null,
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "event_id": "acq-ext:git:b08ca38a56634802:e3b0c44298fc1c14",
+  "exit_code": 128,
+  "kind": "acquisition",
+  "output": null,
+  "pid": 14092,
+  "success": false,
+  "tool": "git",
+  "url": null,
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\.tmp\\native-trace-12744-1783961167468\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\rustcpBmgor\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.0mz3kim8vuwdke4ntyvq589in.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.1c6pev9hhbksd48ggj6p4zn9e.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.1ws528gok24mqjbca5l2dzw38.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.4qohz7lzgo9g7k5fapiaw6gk4.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.6fx64oynv0nq4mjva40qo97jz.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.7cu3sluln7z18euaqxchffzf4.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.8tvcgdg09o5w6xb7p07rfa583.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9bk270n25l6hw0i8rgiq3phy2.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9jfwgtmz9gf8s9rw7ji3j6lxl.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9txv4sr76mpdmt1a7lb8iw1y1.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.a8jfliyb5xva6sqohr6asli9q.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.abe2g4u0r68kwqumpzi58cegs.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.5kb6mr1vlfmbjpd2y59fdbfuo.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\rustcpBmgor\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.0mz3kim8vuwdke4ntyvq589in.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.1c6pev9hhbksd48ggj6p4zn9e.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.1ws528gok24mqjbca5l2dzw38.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.4qohz7lzgo9g7k5fapiaw6gk4.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.6fx64oynv0nq4mjva40qo97jz.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.7cu3sluln7z18euaqxchffzf4.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.8tvcgdg09o5w6xb7p07rfa583.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9bk270n25l6hw0i8rgiq3phy2.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9jfwgtmz9gf8s9rw7ji3j6lxl.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9txv4sr76mpdmt1a7lb8iw1y1.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.a8jfliyb5xva6sqohr6asli9q.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.abe2g4u0r68kwqumpzi58cegs.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.5kb6mr1vlfmbjpd2y59fdbfuo.0p5cwhx.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib"
+  ],
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.exe",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\.tmp\\native-trace-12744-1783961167468\\shims\\link.exe",
+    "/NOLOGO",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\rustcpBmgor\\symbols.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.0mz3kim8vuwdke4ntyvq589in.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.1c6pev9hhbksd48ggj6p4zn9e.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.1ws528gok24mqjbca5l2dzw38.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.4qohz7lzgo9g7k5fapiaw6gk4.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.6fx64oynv0nq4mjva40qo97jz.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.7cu3sluln7z18euaqxchffzf4.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.8tvcgdg09o5w6xb7p07rfa583.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9bk270n25l6hw0i8rgiq3phy2.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9jfwgtmz9gf8s9rw7ji3j6lxl.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.9txv4sr76mpdmt1a7lb8iw1y1.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.a8jfliyb5xva6sqohr6asli9q.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.abe2g4u0r68kwqumpzi58cegs.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.5kb6mr1vlfmbjpd2y59fdbfuo.0p5cwhx.rcgu.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\deps\\libcc-24e0405f325d0f68.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\deps\\libfind_msvc_tools-824f9ded730dd358.rlib",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\deps\\libshlex-f9df91f0b2c0ecd4.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd-f6a1efc0b26a278e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libpanic_unwind-90f24475c2dadfb3.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcfg_if-2d70a11e4a249f4c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libwindows_link-a36b0a9019dd5e28.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_demangle-20df77ba1ccb827e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libstd_detect-72562e3bcf55d18a.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libhashbrown-379c2b5854b7942b.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_alloc-0fc8fdb483aa915c.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libunwind-63d02d00483a3a96.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\librustc_std_workspace_core-f5fff62847b8386e.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\liballoc-4007f5acb6859617.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcore-d378bf52e32e9198.rlib",
+    "C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\libcompiler_builtins-0cdac2e568b3eee7.rlib",
+    "kernel32.lib",
+    "advapi32.lib",
+    "ole32.lib",
+    "oleaut32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "kernel32.lib",
+    "ntdll.lib",
+    "userenv.lib",
+    "ws2_32.lib",
+    "dbghelp.lib",
+    "/defaultlib:msvcrt",
+    "/NXCOMPAT",
+    "/OUT:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-5707e6ced7726049\\build_script_build-5707e6ced7726049.exe",
+    "/OPT:REF,NOICF",
+    "/DEBUG",
+    "/PDBALTPATH:%_PDB%",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\intrinsic.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\liballoc.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libcore.natvis",
+    "/NATVIS:C:\\Users\\rustbuild\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\etc\\libstd.natvis"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400cf020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400cf298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400cf2b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400cf300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400cf320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400cf338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400cf348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400cf358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400cf3f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400cf408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400cf418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400cf448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400cf460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\.tmp\\native-trace-link-link-18092-1783961169106979300.map",
+  "pid": 18092,
+  "ppid": 17368,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\.tmp\\native-trace-link-link-18092-1783961169106979300.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\6987053025827127605detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\6987053025827127605detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
+    "-c",
+    "brotli/common/dictionary.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
+    "brotli/common/dictionary.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
+    "-c",
+    "brotli/dec/bit_reader.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
+    "brotli/dec/bit_reader.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-decode.o",
+    "-c",
+    "brotli/dec/decode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-decode.o",
+    "brotli/dec/decode.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
+    "-c",
+    "brotli/dec/huffman.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
+    "brotli/dec/huffman.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
+    "-c",
+    "brotli/dec/state.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
+    "brotli/dec/state.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references.o",
+    "-c",
+    "brotli/enc/backward_references.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references.o",
+    "brotli/enc/backward_references.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
+    "-c",
+    "brotli/enc/backward_references_hq.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
+    "brotli/enc/backward_references_hq.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
+    "-c",
+    "brotli/enc/bit_cost.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
+    "brotli/enc/bit_cost.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
+    "-c",
+    "brotli/enc/block_splitter.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
+    "brotli/enc/block_splitter.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
+    "-c",
+    "brotli/enc/brotli_bit_stream.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
+    "brotli/enc/brotli_bit_stream.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-cluster.o",
+    "-c",
+    "brotli/enc/cluster.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-cluster.o",
+    "brotli/enc/cluster.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment.o",
+    "-c",
+    "brotli/enc/compress_fragment.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment.o",
+    "brotli/enc/compress_fragment.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
+    "-c",
+    "brotli/enc/compress_fragment_two_pass.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
+    "brotli/enc/compress_fragment_two_pass.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
+    "-c",
+    "brotli/enc/dictionary_hash.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
+    "brotli/enc/dictionary_hash.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
+    "-c",
+    "brotli/enc/encode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
+    "brotli/enc/encode.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-entropy_encode.o",
+    "-c",
+    "brotli/enc/entropy_encode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-entropy_encode.o",
+    "brotli/enc/entropy_encode.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
+    "-c",
+    "brotli/enc/histogram.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
+    "brotli/enc/histogram.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
+    "-c",
+    "brotli/enc/literal_cost.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
+    "brotli/enc/literal_cost.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
+    "-c",
+    "brotli/enc/memory.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
+    "brotli/enc/memory.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
+    "-c",
+    "brotli/enc/metablock.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
+    "brotli/enc/metablock.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
+    "-c",
+    "brotli/enc/static_dict.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
+    "brotli/enc/static_dict.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o",
+    "-c",
+    "brotli/enc/utf8_util.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o",
+    "brotli/enc/utf8_util.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\libbrotli.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-decode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-cluster.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-entropy_encode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-decode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-cluster.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-entropy_encode.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\libbrotli.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+_None._
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -39,38 +1460,7 @@ Owner: `brotli-sys` `0.3.2`
 
 ### Source acquisition records
 
-#### Record 1
-
-```json
-{
-  "acquisition_kind": "git_submodule",
-  "argv": [
-    "git",
-    "submodule",
-    "update",
-    "--init"
-  ],
-  "cargo_pkg_name": "brotli-sys",
-  "cargo_pkg_version": "0.3.2",
-  "checkout_root": null,
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
-  "event_id": "acq-ext:git:b08ca38a56634802:e3b0c44298fc1c14",
-  "exit_code": 128,
-  "kind": "acquisition",
-  "output": null,
-  "pid": 14092,
-  "success": false,
-  "tool": "git",
-  "url": null,
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
+_None._
 
 ### Source preparation records
 
@@ -91,16 +1481,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
     "-c",
-    "brotli/enc/block_splitter.c"
+    "brotli/enc/memory.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
-  "src": "brotli/enc/block_splitter.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
+  "src": "brotli/enc/memory.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -126,16 +1516,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
     "-c",
-    "brotli/enc/histogram.c"
+    "brotli/enc/metablock.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
-  "src": "brotli/enc/histogram.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
+  "src": "brotli/enc/metablock.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -161,16 +1551,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
     "-c",
-    "brotli/dec/bit_reader.c"
+    "brotli/enc/static_dict.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
-  "src": "brotli/dec/bit_reader.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
+  "src": "brotli/enc/static_dict.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -184,111 +1574,6 @@ _None._
 ```
 
 #### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "brotli/include",
-    "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
-    "-c",
-    "brotli/dec/state.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
-  "src": "brotli/dec/state.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "brotli/include",
-    "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
-    "-c",
-    "brotli/enc/backward_references_hq.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
-  "src": "brotli/enc/backward_references_hq.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 6
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "brotli/include",
-    "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
-    "-c",
-    "brotli/enc/brotli_bit_stream.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
-  "src": "brotli/enc/brotli_bit_stream.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 7
 
 ```json
 {
@@ -323,112 +1608,7 @@ _None._
 }
 ```
 
-#### Record 8
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "brotli/include",
-    "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
-    "-c",
-    "brotli/enc/literal_cost.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
-  "src": "brotli/enc/literal_cost.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 9
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "brotli/include",
-    "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o",
-    "-c",
-    "brotli/enc/utf8_util.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o",
-  "src": "brotli/enc/utf8_util.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 10
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "brotli/include",
-    "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
-    "-c",
-    "brotli/enc/dictionary_hash.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
-  "src": "brotli/enc/dictionary_hash.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "brotli-sys",
-    "version": "0.3.2",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 11
+#### Record 5
 
 ```json
 {
@@ -463,7 +1643,147 @@ _None._
 }
 ```
 
-#### Record 12
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
+    "-c",
+    "brotli/enc/histogram.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-histogram.o",
+  "src": "brotli/enc/histogram.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o",
+    "-c",
+    "brotli/enc/utf8_util.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-utf8_util.o",
+  "src": "brotli/enc/utf8_util.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
+    "-c",
+    "brotli/enc/encode.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
+  "src": "brotli/enc/encode.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
+    "-c",
+    "brotli/enc/dictionary_hash.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-dictionary_hash.o",
+  "src": "brotli/enc/dictionary_hash.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
 
 ```json
 {
@@ -498,7 +1818,7 @@ _None._
 }
 ```
 
-#### Record 13
+#### Record 11
 
 ```json
 {
@@ -533,6 +1853,76 @@ _None._
 }
 ```
 
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
+    "-c",
+    "brotli/dec/huffman.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
+  "src": "brotli/dec/huffman.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "brotli/include",
+    "-W0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
+    "-c",
+    "brotli/common/dictionary.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
+  "src": "brotli/common/dictionary.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "brotli-sys",
+    "version": "0.3.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2#brotli-sys@0.3.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-udgj5k51/src/brotli-sys-0.3.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 14
 
 ```json
@@ -546,16 +1936,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
     "-c",
-    "brotli/enc/compress_fragment_two_pass.c"
+    "brotli/enc/bit_cost.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
-  "src": "brotli/enc/compress_fragment_two_pass.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
+  "src": "brotli/enc/bit_cost.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -581,16 +1971,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
     "-c",
-    "brotli/enc/bit_cost.c"
+    "brotli/dec/bit_reader.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-bit_cost.o",
-  "src": "brotli/enc/bit_cost.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-bit_reader.o",
+  "src": "brotli/dec/bit_reader.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -651,16 +2041,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
     "-c",
-    "brotli/enc/memory.c"
+    "brotli/enc/compress_fragment_two_pass.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-memory.o",
-  "src": "brotli/enc/memory.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-compress_fragment_two_pass.o",
+  "src": "brotli/enc/compress_fragment_two_pass.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -686,16 +2076,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
     "-c",
-    "brotli/enc/static_dict.c"
+    "brotli/enc/backward_references_hq.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-static_dict.o",
-  "src": "brotli/enc/static_dict.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-backward_references_hq.o",
+  "src": "brotli/enc/backward_references_hq.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -721,16 +2111,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
     "-c",
-    "brotli/dec/huffman.c"
+    "brotli/dec/state.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-huffman.o",
-  "src": "brotli/dec/huffman.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\76d4580618152496-state.o",
+  "src": "brotli/dec/state.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -756,16 +2146,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
     "-c",
-    "brotli/common/dictionary.c"
+    "brotli/enc/block_splitter.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\e198953d800c79d4-dictionary.o",
-  "src": "brotli/common/dictionary.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-block_splitter.o",
+  "src": "brotli/enc/block_splitter.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -791,16 +2181,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
     "-c",
-    "brotli/enc/encode.c"
+    "brotli/enc/brotli_bit_stream.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-encode.o",
-  "src": "brotli/enc/encode.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-brotli_bit_stream.o",
+  "src": "brotli/enc/brotli_bit_stream.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -826,16 +2216,16 @@ _None._
     "-I",
     "brotli/include",
     "-W0",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
     "-c",
-    "brotli/enc/metablock.c"
+    "brotli/enc/literal_cost.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-metablock.o",
-  "src": "brotli/enc/metablock.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-udgj5k51\\src\\brotli-sys-0.3.2\\target\\debug\\build\\brotli-sys-2611b5847f11cbf2\\out\\62394abbbe01bffa-literal_cost.o",
+  "src": "brotli/enc/literal_cost.c",
   "success": true,
   "tool": "cl",
   "_owner": {

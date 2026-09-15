@@ -4,6 +4,48 @@ Platform: Linux ppc64le
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `/tmp/crate-build-ppc64le-1sqyz6um/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-ppc64le-1sqyz6um/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-ppc64le-1sqyz6um/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-ppc64le-1sqyz6um/src/rdkafka-sys-4.7.0+2.3.0`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
 ### pkg-config / pkgconf
 
 Working directory: `/target/powerpc64le-unknown-linux-gnu/debug/build/rdkafka-sys-e02825183b382499/out`
@@ -1601,11 +1643,11 @@ c++ -L/target/powerpc64le-unknown-linux-gnu/debug/build/libz-sys-e6e16dc330ba854
 ### Compilation
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -O3 -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -c <source> -o <object>
 ```
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -O3 -c <source> -o <object>
 ```
 
 ### Static library construction
@@ -1635,11 +1677,11 @@ ar rcs <static library> <object files>
 ### Compilation
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -O3 -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -c <source> -o <object>
 ```
 
 ```text
-cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -c <source> -o <object>
+cc -MD -MP -g -O2 -fPIC -Wall -Wsign-compare -Wfloat-equal -Wpointer-arith -Wcast-align -I<include directory> -I<include directory> -I<include directory> -O3 -c <source> -o <object>
 ```
 
 ### Native linking

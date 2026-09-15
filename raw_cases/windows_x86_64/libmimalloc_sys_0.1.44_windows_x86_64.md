@@ -4,6 +4,357 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\.tmp\\native-trace-17988-1783954823744\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-524f41214193c3d1\\rustco57ypk\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-524f41214193c3d1\\rustco57ypk\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "libmimalloc-sys",
+    "version": "0.1.44",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44#libmimalloc-sys@0.1.44",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\7470993287477488415detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\7470993287477488415detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libmimalloc-sys",
+    "version": "0.1.44",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44#libmimalloc-sys@0.1.44",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "c_src/mimalloc/v2/include",
+    "-I",
+    "c_src/mimalloc/v2/src",
+    "-W4",
+    "-DMI_DEBUG=0",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\077ae3504b1c7768-static.o",
+    "-c",
+    "c_src/mimalloc/v2/src/static.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\077ae3504b1c7768-static.o",
+    "c_src/mimalloc/v2/src/static.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "libmimalloc-sys",
+    "version": "0.1.44",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44#libmimalloc-sys@0.1.44",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\libmimalloc.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\077ae3504b1c7768-static.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\077ae3504b1c7768-static.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-215aebaae69fb964\\out\\libmimalloc.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "libmimalloc-sys",
+    "version": "0.1.44",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44#libmimalloc-sys@0.1.44",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\.tmp\\native-trace-17988-1783954823744\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\target\\debug\\build\\libmimalloc-sys-524f41214193c3d1\\rustco57ypk\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400c5020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400c5298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400c52b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400c5300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400c5320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400c5338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400c5348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400c5358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400c53f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400c5408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400c5418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400c5448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400c5460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\.tmp\\native-trace-link-link-8580-1783954825246665400.map",
+  "pid": 8580,
+  "ppid": 20116,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-f1_wanlw\\src\\libmimalloc-sys-0.1.44\\.tmp\\native-trace-link-link-8580-1783954825246665400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "libmimalloc-sys",
+    "version": "0.1.44",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44#libmimalloc-sys@0.1.44",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-f1_wanlw/src/libmimalloc-sys-0.1.44",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

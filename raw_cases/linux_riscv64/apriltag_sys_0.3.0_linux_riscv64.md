@@ -4,6 +4,1186 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5/symbols.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.01c6y0vs8ha44pi4cn2p5rw78.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0bykjto1j6mzkrc5n1uti9ojq.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0dcg413i3vok3p6oie8aak2i4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0e11xakvgky2oafgbu2y7ftuz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1fsjbex7vikf6gf44uv07yj1f.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1mcgjfyaw3cf7t6qthwcp4dtd.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1qbsyy1wzc9j1nwnfkj10x93r.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1rn7xtlxdu3lagc370s3cs5eb.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1y7af37jm64zmh6wpt4d1942s.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1zs9yny355yuzlwsl0toclm5r.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.266bn1djz11r4h750l1l6dq91.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2g1cf82ojn10x9m864ldvy94h.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2mdmppi6r20eoaodrnuuhdlaz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2r5p8era57oyqxjgv59cjvblw.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2vme3igm20u6itxty5oyp9bgj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3an8hcfujo1binj03np37e25p.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3zzhujh97txit2nh5ckufl26o.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.44xs22ch7rtax4uf8tdeoig95.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4b62xxldb7mouomf87qnds4sr.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4sz1nidkxo9dxkj35d55fweuj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.52ry4yf9ns618to1we8asn32h.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.57vm2xt1yfm32ttpzxhu7d9jt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.5s076akq23ob8625qpysafonx.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6aenb8ons0l3hatc2x1ibu3z4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6b0ce6nz09q3x3zo4zjpf17gu.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6f6msbkyfsnkc3vl59p6bnwdt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q4x6qvb1sgct1uky2ntjmkp4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q944p1q5ksraxn9j8jy0ru23.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6sv5h4frth97g4bg8zkwh90n2.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.72h448ghpil24pk8kh8b5s6ln.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.829zz3q1eoqg7qf0grrkwmx1a.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8415dh71qfp62k2s53vmsxlrr.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8bagwadw6ni6l24br3onr3y6e.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8c9khnj997vocpex6d0d8q2e0.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8cn8di1p86iheviz987fwnx7x.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8q8sqq1885cju3c0w21ond0h5.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8xm2tsys1ouvbcm1rmfbqwc59.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8z9nmasg2dw7tr0eqth0wxy52.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9agbwhl9kz198l1j4ws9464oj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9bi6g4eb3uup0ods03449xs7i.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9dxcph4lnjsvhnojdghvgezv2.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9f2tob9vajxqv278jta0tk85j.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.a9pxn4dhlhor0c595gyw53qla.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.aiggez1cx41a7b3t9b77v88cl.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.argnkw7i0adajvdr0g3k8z14l.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at4k0cdsiu1s32ktsru5cog02.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at5a7ahe6u3qc5xa2crvo5soe.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.b5yw1kl50ynvfro5hyzzwrbu7.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ba27akcv06qglz8n34pciogqg.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bqzjlptc3zulb9azkm9cvn0z3.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bt9ra3ookezqhdio6h2z9rqok.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.c5w44ryljicanbg0w4lx21313.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.d3r0s50189m9dd88bfsx13zeh.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.djuag9bn9byb2op7l1pbfu90z.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.dqd4sx50x1mjc1y3ydfqysgji.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.e722y8j9t44hw6r3zr11txhjt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ec7pxt3u8bdxkf1guhp2r37gz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ekkee3omruar7ynhq3n1ztn2x.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.exyiw6i2pf97etdg0atze9bo9.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.7547gzr52wj1lao5ffwyhg561.11pj9kp.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcmake-66fe215d6e59f243.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib",
+    "/target/debug/deps/libonce_cell-6fe0e84c103b3d0a.rlib",
+    "/target/debug/deps/libitertools-1ee9a51ebe675014.rlib",
+    "/target/debug/deps/libeither-048b67f6d94aafbd.rlib",
+    "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5/symbols.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.01c6y0vs8ha44pi4cn2p5rw78.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0bykjto1j6mzkrc5n1uti9ojq.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0dcg413i3vok3p6oie8aak2i4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0e11xakvgky2oafgbu2y7ftuz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1fsjbex7vikf6gf44uv07yj1f.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1mcgjfyaw3cf7t6qthwcp4dtd.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1qbsyy1wzc9j1nwnfkj10x93r.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1rn7xtlxdu3lagc370s3cs5eb.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1y7af37jm64zmh6wpt4d1942s.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1zs9yny355yuzlwsl0toclm5r.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.266bn1djz11r4h750l1l6dq91.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2g1cf82ojn10x9m864ldvy94h.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2mdmppi6r20eoaodrnuuhdlaz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2r5p8era57oyqxjgv59cjvblw.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2vme3igm20u6itxty5oyp9bgj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3an8hcfujo1binj03np37e25p.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3zzhujh97txit2nh5ckufl26o.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.44xs22ch7rtax4uf8tdeoig95.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4b62xxldb7mouomf87qnds4sr.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4sz1nidkxo9dxkj35d55fweuj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.52ry4yf9ns618to1we8asn32h.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.57vm2xt1yfm32ttpzxhu7d9jt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.5s076akq23ob8625qpysafonx.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6aenb8ons0l3hatc2x1ibu3z4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6b0ce6nz09q3x3zo4zjpf17gu.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6f6msbkyfsnkc3vl59p6bnwdt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q4x6qvb1sgct1uky2ntjmkp4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q944p1q5ksraxn9j8jy0ru23.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6sv5h4frth97g4bg8zkwh90n2.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.72h448ghpil24pk8kh8b5s6ln.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.829zz3q1eoqg7qf0grrkwmx1a.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8415dh71qfp62k2s53vmsxlrr.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8bagwadw6ni6l24br3onr3y6e.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8c9khnj997vocpex6d0d8q2e0.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8cn8di1p86iheviz987fwnx7x.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8q8sqq1885cju3c0w21ond0h5.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8xm2tsys1ouvbcm1rmfbqwc59.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8z9nmasg2dw7tr0eqth0wxy52.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9agbwhl9kz198l1j4ws9464oj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9bi6g4eb3uup0ods03449xs7i.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9dxcph4lnjsvhnojdghvgezv2.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9f2tob9vajxqv278jta0tk85j.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.a9pxn4dhlhor0c595gyw53qla.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.aiggez1cx41a7b3t9b77v88cl.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.argnkw7i0adajvdr0g3k8z14l.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at4k0cdsiu1s32ktsru5cog02.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at5a7ahe6u3qc5xa2crvo5soe.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.b5yw1kl50ynvfro5hyzzwrbu7.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ba27akcv06qglz8n34pciogqg.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bqzjlptc3zulb9azkm9cvn0z3.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bt9ra3ookezqhdio6h2z9rqok.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.c5w44ryljicanbg0w4lx21313.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.d3r0s50189m9dd88bfsx13zeh.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.djuag9bn9byb2op7l1pbfu90z.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.dqd4sx50x1mjc1y3ydfqysgji.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.e722y8j9t44hw6r3zr11txhjt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ec7pxt3u8bdxkf1guhp2r37gz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ekkee3omruar7ynhq3n1ztn2x.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.exyiw6i2pf97etdg0atze9bo9.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.7547gzr52wj1lao5ffwyhg561.11pj9kp.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5/symbols.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.01c6y0vs8ha44pi4cn2p5rw78.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0bykjto1j6mzkrc5n1uti9ojq.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0dcg413i3vok3p6oie8aak2i4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0e11xakvgky2oafgbu2y7ftuz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1fsjbex7vikf6gf44uv07yj1f.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1mcgjfyaw3cf7t6qthwcp4dtd.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1qbsyy1wzc9j1nwnfkj10x93r.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1rn7xtlxdu3lagc370s3cs5eb.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1y7af37jm64zmh6wpt4d1942s.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1zs9yny355yuzlwsl0toclm5r.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.266bn1djz11r4h750l1l6dq91.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2g1cf82ojn10x9m864ldvy94h.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2mdmppi6r20eoaodrnuuhdlaz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2r5p8era57oyqxjgv59cjvblw.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2vme3igm20u6itxty5oyp9bgj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3an8hcfujo1binj03np37e25p.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3zzhujh97txit2nh5ckufl26o.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.44xs22ch7rtax4uf8tdeoig95.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4b62xxldb7mouomf87qnds4sr.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4sz1nidkxo9dxkj35d55fweuj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.52ry4yf9ns618to1we8asn32h.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.57vm2xt1yfm32ttpzxhu7d9jt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.5s076akq23ob8625qpysafonx.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6aenb8ons0l3hatc2x1ibu3z4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6b0ce6nz09q3x3zo4zjpf17gu.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6f6msbkyfsnkc3vl59p6bnwdt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q4x6qvb1sgct1uky2ntjmkp4.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q944p1q5ksraxn9j8jy0ru23.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6sv5h4frth97g4bg8zkwh90n2.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.72h448ghpil24pk8kh8b5s6ln.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.829zz3q1eoqg7qf0grrkwmx1a.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8415dh71qfp62k2s53vmsxlrr.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8bagwadw6ni6l24br3onr3y6e.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8c9khnj997vocpex6d0d8q2e0.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8cn8di1p86iheviz987fwnx7x.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8q8sqq1885cju3c0w21ond0h5.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8xm2tsys1ouvbcm1rmfbqwc59.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8z9nmasg2dw7tr0eqth0wxy52.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9agbwhl9kz198l1j4ws9464oj.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9bi6g4eb3uup0ods03449xs7i.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9dxcph4lnjsvhnojdghvgezv2.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9f2tob9vajxqv278jta0tk85j.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.a9pxn4dhlhor0c595gyw53qla.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.aiggez1cx41a7b3t9b77v88cl.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.argnkw7i0adajvdr0g3k8z14l.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at4k0cdsiu1s32ktsru5cog02.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at5a7ahe6u3qc5xa2crvo5soe.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.b5yw1kl50ynvfro5hyzzwrbu7.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ba27akcv06qglz8n34pciogqg.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bqzjlptc3zulb9azkm9cvn0z3.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bt9ra3ookezqhdio6h2z9rqok.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.c5w44ryljicanbg0w4lx21313.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.d3r0s50189m9dd88bfsx13zeh.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.djuag9bn9byb2op7l1pbfu90z.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.dqd4sx50x1mjc1y3ydfqysgji.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.e722y8j9t44hw6r3zr11txhjt.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ec7pxt3u8bdxkf1guhp2r37gz.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ekkee3omruar7ynhq3n1ztn2x.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.exyiw6i2pf97etdg0atze9bo9.11pj9kp.rcgu.o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.7547gzr52wj1lao5ffwyhg561.11pj9kp.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcmake-66fe215d6e59f243.rlib",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib",
+    "/target/debug/deps/libonce_cell-6fe0e84c103b3d0a.rlib",
+    "/target/debug/deps/libitertools-1ee9a51ebe675014.rlib",
+    "/target/debug/deps/libeither-048b67f6d94aafbd.rlib",
+    "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5",
+    "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/rustcSU8cp5/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.01c6y0vs8ha44pi4cn2p5rw78.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0bykjto1j6mzkrc5n1uti9ojq.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0dcg413i3vok3p6oie8aak2i4.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.0e11xakvgky2oafgbu2y7ftuz.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1fsjbex7vikf6gf44uv07yj1f.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1mcgjfyaw3cf7t6qthwcp4dtd.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1qbsyy1wzc9j1nwnfkj10x93r.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1rn7xtlxdu3lagc370s3cs5eb.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1y7af37jm64zmh6wpt4d1942s.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.1zs9yny355yuzlwsl0toclm5r.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.266bn1djz11r4h750l1l6dq91.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2g1cf82ojn10x9m864ldvy94h.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2mdmppi6r20eoaodrnuuhdlaz.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2r5p8era57oyqxjgv59cjvblw.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.2vme3igm20u6itxty5oyp9bgj.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3an8hcfujo1binj03np37e25p.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.3zzhujh97txit2nh5ckufl26o.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.44xs22ch7rtax4uf8tdeoig95.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4b62xxldb7mouomf87qnds4sr.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.4sz1nidkxo9dxkj35d55fweuj.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.52ry4yf9ns618to1we8asn32h.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.57vm2xt1yfm32ttpzxhu7d9jt.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.5s076akq23ob8625qpysafonx.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6aenb8ons0l3hatc2x1ibu3z4.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6b0ce6nz09q3x3zo4zjpf17gu.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6f6msbkyfsnkc3vl59p6bnwdt.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q4x6qvb1sgct1uky2ntjmkp4.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6q944p1q5ksraxn9j8jy0ru23.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.6sv5h4frth97g4bg8zkwh90n2.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.72h448ghpil24pk8kh8b5s6ln.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.829zz3q1eoqg7qf0grrkwmx1a.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8415dh71qfp62k2s53vmsxlrr.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8bagwadw6ni6l24br3onr3y6e.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8c9khnj997vocpex6d0d8q2e0.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8cn8di1p86iheviz987fwnx7x.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8q8sqq1885cju3c0w21ond0h5.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8xm2tsys1ouvbcm1rmfbqwc59.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.8z9nmasg2dw7tr0eqth0wxy52.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9agbwhl9kz198l1j4ws9464oj.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9bi6g4eb3uup0ods03449xs7i.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9dxcph4lnjsvhnojdghvgezv2.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.9f2tob9vajxqv278jta0tk85j.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.a9pxn4dhlhor0c595gyw53qla.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.aiggez1cx41a7b3t9b77v88cl.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.argnkw7i0adajvdr0g3k8z14l.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at4k0cdsiu1s32ktsru5cog02.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.at5a7ahe6u3qc5xa2crvo5soe.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.b5yw1kl50ynvfro5hyzzwrbu7.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ba27akcv06qglz8n34pciogqg.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bqzjlptc3zulb9azkm9cvn0z3.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.bt9ra3ookezqhdio6h2z9rqok.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.c5w44ryljicanbg0w4lx21313.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.d3r0s50189m9dd88bfsx13zeh.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.djuag9bn9byb2op7l1pbfu90z.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.dqd4sx50x1mjc1y3ydfqysgji.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.e722y8j9t44hw6r3zr11txhjt.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ec7pxt3u8bdxkf1guhp2r37gz.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.ekkee3omruar7ynhq3n1ztn2x.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.exyiw6i2pf97etdg0atze9bo9.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/apriltag-sys-453c13b4e4c34714",
+      "kind": "object",
+      "path": "/target/debug/build/apriltag-sys-453c13b4e4c34714/build_script_build-453c13b4e4c34714.7547gzr52wj1lao5ffwyhg561.11pj9kp.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcmake-66fe215d6e59f243.rlib(cmake-66fe215d6e59f243.cmake.73ba551a4de6af94-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcmake-66fe215d6e59f243.rlib(cmake-66fe215d6e59f243.cmake.73ba551a4de6af94-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcmake-66fe215d6e59f243.rlib(cmake-66fe215d6e59f243.cmake.73ba551a4de6af94-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcmake-66fe215d6e59f243.rlib(cmake-66fe215d6e59f243.cmake.73ba551a4de6af94-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcmake-66fe215d6e59f243.rlib(cmake-66fe215d6e59f243.cmake.73ba551a4de6af94-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libpkg_config-15486b590baf4edc.rlib(pkg_config-15486b590baf4edc.pkg_config.266fe4977005be02-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libonce_cell-6fe0e84c103b3d0a.rlib(once_cell-6fe0e84c103b3d0a.once_cell.26c0db750d571e5e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libanyhow-aec5e89911dd2498.rlib(anyhow-aec5e89911dd2498.anyhow.f882d47edbed0e71-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-807813-1783996975282642728.map",
+  "pid": 807813,
+  "ppid": 807607,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-807813-1783996975282642728.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -38,7 +1218,746 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagStandard52h13.o",
+    "-c",
+    "apriltag-src/tagStandard52h13.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808116,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagStandard41h12.o",
+    "-c",
+    "apriltag-src/tagStandard41h12.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808117,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "apriltag-src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "apriltag-src/tagCustom48h12.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
+    "-dumpbase",
+    "f0c75187ad69178f-tagCustom48h12.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 808122,
+  "ppid": 808119,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagCircle49h12.o",
+    "-c",
+    "apriltag-src/tagCircle49h12.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808121,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagCircle21h7.o",
+    "-c",
+    "apriltag-src/tagCircle21h7.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808123,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag36h11.o",
+    "-c",
+    "apriltag-src/tag36h11.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808125,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag36h10.o",
+    "-c",
+    "apriltag-src/tag36h10.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808129,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag25h9.o",
+    "-c",
+    "apriltag-src/tag25h9.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808133,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag16h5.o",
+    "-c",
+    "apriltag-src/tag16h5.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808135,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "apriltag-src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "apriltag-src/apriltag_pose.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
+    "-dumpbase",
+    "f0c75187ad69178f-apriltag_pose.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "cc1",
+  "event": "process_exec",
+  "image": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "pid": 808153,
+  "ppid": 808149,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag.o",
+    "-c",
+    "apriltag-src/apriltag.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808152,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-zmaxheap.o",
+    "-c",
+    "apriltag-src/common/zmaxheap.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808154,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-zhash.o",
+    "-c",
+    "apriltag-src/common/zhash.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808164,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-workerpool.o",
+    "-c",
+    "apriltag-src/common/workerpool.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808169,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-unionfind.o",
+    "-c",
+    "apriltag-src/common/unionfind.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 808069,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 808196,
+  "ppid": 808069,
+  "root_cargo_pid": 805893,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 
@@ -58,12 +1977,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "apriltag-src/common/zarray.c",
+    "apriltag-src/tagCircle49h12.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
     "-dumpbase",
-    "b1aa4f7ace6081b6-zarray.c",
+    "f0c75187ad69178f-tagCircle49h12.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -72,13 +1991,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "apriltag-src/common/zarray.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-zarray.o",
+  "src": "apriltag-src/tagCircle49h12.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagCircle49h12.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 808170,
-  "ppid": 808165,
+  "pid": 808124,
+  "ppid": 808121,
   "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "root_cargo_pid": 805893,
   "build_script_root_pid": 808069,
@@ -99,62 +2018,6 @@ _None._
 ```
 
 #### Record 2
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "apriltag-src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "apriltag-src/common/workerpool.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
-    "-dumpbase",
-    "b1aa4f7ace6081b6-workerpool.c",
-    "-dumpbase-ext",
-    ".c",
-    "-march=rv64gc",
-    "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
-  ],
-  "src": "apriltag-src/common/workerpool.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-workerpool.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 808173,
-  "ppid": 808169,
-  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "root_cargo_pid": 805893,
-  "build_script_root_pid": 808069,
-  "build_script_related": true,
-  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
-  "_owner": {
-    "crate": "apriltag-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 3
 
 ```json
 {
@@ -207,7 +2070,7 @@ _None._
 }
 ```
 
-#### Record 4
+#### Record 3
 
 ```json
 {
@@ -223,12 +2086,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "apriltag-src/tagCircle21h7.c",
+    "apriltag-src/common/unionfind.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
     "-dumpbase",
-    "f0c75187ad69178f-tagCircle21h7.c",
+    "b1aa4f7ace6081b6-unionfind.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -237,13 +2100,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "apriltag-src/tagCircle21h7.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagCircle21h7.o",
+  "src": "apriltag-src/common/unionfind.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-unionfind.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 808126,
-  "ppid": 808123,
+  "pid": 808202,
+  "ppid": 808196,
   "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "root_cargo_pid": 805893,
   "build_script_root_pid": 808069,
@@ -263,7 +2126,7 @@ _None._
 }
 ```
 
-#### Record 5
+#### Record 4
 
 ```json
 {
@@ -319,172 +2182,7 @@ _None._
 }
 ```
 
-#### Record 6
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "apriltag-src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "apriltag-src/tag25h9.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
-    "-dumpbase",
-    "f0c75187ad69178f-tag25h9.c",
-    "-dumpbase-ext",
-    ".c",
-    "-march=rv64gc",
-    "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
-  ],
-  "src": "apriltag-src/tag25h9.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag25h9.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 808136,
-  "ppid": 808133,
-  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "root_cargo_pid": 805893,
-  "build_script_root_pid": 808069,
-  "build_script_related": true,
-  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
-  "_owner": {
-    "crate": "apriltag-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 7
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/bin/riscv64-linux-gnu-gcc",
-  "real_tool": "/usr/bin/riscv64-linux-gnu-gcc",
-  "argv": [
-    "/usr/bin/riscv64-linux-gnu-gcc",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-g",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "-march=rv64gc",
-    "-mabi=lp64d",
-    "-I",
-    "apriltag-src",
-    "-Wall",
-    "-o",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag_pose.o",
-    "-c",
-    "apriltag-src/apriltag_pose.c"
-  ],
-  "src": "apriltag-src/apriltag_pose.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag_pose.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 808149,
-  "ppid": 808069,
-  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "root_cargo_pid": 805893,
-  "build_script_root_pid": 808069,
-  "build_script_related": true,
-  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
-  "_owner": {
-    "crate": "apriltag-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "apriltag-src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "apriltag-src/tagStandard41h12.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
-    "-dumpbase",
-    "f0c75187ad69178f-tagStandard41h12.c",
-    "-dumpbase-ext",
-    ".c",
-    "-march=rv64gc",
-    "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
-  ],
-  "src": "apriltag-src/tagStandard41h12.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagStandard41h12.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 808120,
-  "ppid": 808117,
-  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "root_cargo_pid": 805893,
-  "build_script_root_pid": 808069,
-  "build_script_related": true,
-  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
-  "_owner": {
-    "crate": "apriltag-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 9
+#### Record 5
 
 ```json
 {
@@ -540,6 +2238,230 @@ _None._
 }
 ```
 
+#### Record 6
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "apriltag-src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "apriltag-src/tag36h10.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
+    "-dumpbase",
+    "f0c75187ad69178f-tag36h10.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "apriltag-src/tag36h10.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag36h10.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 808134,
+  "ppid": 808129,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "root_cargo_pid": 805893,
+  "build_script_root_pid": 808069,
+  "build_script_related": true,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 7
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "apriltag-src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "apriltag-src/apriltag.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
+    "-dumpbase",
+    "f0c75187ad69178f-apriltag.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "apriltag-src/apriltag.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 808163,
+  "ppid": 808152,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "root_cargo_pid": 805893,
+  "build_script_root_pid": 808069,
+  "build_script_related": true,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 8
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "apriltag-src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "apriltag-src/tagCircle21h7.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
+    "-dumpbase",
+    "f0c75187ad69178f-tagCircle21h7.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "apriltag-src/tagCircle21h7.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagCircle21h7.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 808126,
+  "ppid": 808123,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "root_cargo_pid": 805893,
+  "build_script_root_pid": 808069,
+  "build_script_related": true,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "apriltag-src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "apriltag-src/apriltag_quad_thresh.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
+    "-dumpbase",
+    "f0c75187ad69178f-apriltag_quad_thresh.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "apriltag-src/apriltag_quad_thresh.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag_quad_thresh.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 808150,
+  "ppid": 808139,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "root_cargo_pid": 805893,
+  "build_script_root_pid": 808069,
+  "build_script_related": true,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 10
 
 ```json
@@ -556,12 +2478,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "apriltag-src/common/zmaxheap.c",
+    "apriltag-src/common/workerpool.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
     "-dumpbase",
-    "b1aa4f7ace6081b6-zmaxheap.c",
+    "b1aa4f7ace6081b6-workerpool.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -570,13 +2492,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "apriltag-src/common/zmaxheap.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-zmaxheap.o",
+  "src": "apriltag-src/common/workerpool.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-workerpool.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 808156,
-  "ppid": 808154,
+  "pid": 808173,
+  "ppid": 808169,
   "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "root_cargo_pid": 805893,
   "build_script_root_pid": 808069,
@@ -668,12 +2590,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "apriltag-src/tag36h10.c",
+    "apriltag-src/common/zmaxheap.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
     "-dumpbase",
-    "f0c75187ad69178f-tag36h10.c",
+    "b1aa4f7ace6081b6-zmaxheap.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -682,13 +2604,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "apriltag-src/tag36h10.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag36h10.o",
+  "src": "apriltag-src/common/zmaxheap.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-zmaxheap.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 808134,
-  "ppid": 808129,
+  "pid": 808156,
+  "ppid": 808154,
   "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "root_cargo_pid": 805893,
   "build_script_root_pid": 808069,
@@ -724,12 +2646,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "apriltag-src/apriltag.c",
+    "apriltag-src/common/zarray.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
     "-dumpbase",
-    "f0c75187ad69178f-apriltag.c",
+    "b1aa4f7ace6081b6-zarray.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -738,13 +2660,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "apriltag-src/apriltag.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag.o",
+  "src": "apriltag-src/common/zarray.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-zarray.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 808163,
-  "ppid": 808152,
+  "pid": 808170,
+  "ppid": 808165,
   "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "root_cargo_pid": 805893,
   "build_script_root_pid": 808069,
@@ -765,62 +2687,6 @@ _None._
 ```
 
 #### Record 14
-
-```json
-{
-  "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "apriltag-src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "apriltag-src/tagCircle49h12.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
-    "-dumpbase",
-    "f0c75187ad69178f-tagCircle49h12.c",
-    "-dumpbase-ext",
-    ".c",
-    "-march=rv64gc",
-    "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
-  ],
-  "src": "apriltag-src/tagCircle49h12.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagCircle49h12.o",
-  "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
-  "recovered_from_process_exec": true,
-  "pid": 808124,
-  "ppid": 808121,
-  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "root_cargo_pid": 805893,
-  "build_script_root_pid": 808069,
-  "build_script_related": true,
-  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
-  "_owner": {
-    "crate": "apriltag-sys",
-    "version": "0.3.0",
-    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
-    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
-  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
-  "_cwd_recovered_from_compiler_parent": true
-}
-```
-
-#### Record 15
 
 ```json
 {
@@ -876,6 +2742,62 @@ _None._
 }
 ```
 
+#### Record 15
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+    "-quiet",
+    "-I",
+    "apriltag-src",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "apriltag-src/tag25h9.c",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
+    "-dumpbase",
+    "f0c75187ad69178f-tag25h9.c",
+    "-dumpbase-ext",
+    ".c",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-misa-spec=2.2",
+    "-march=rv64imafdc",
+    "..."
+  ],
+  "src": "apriltag-src/tag25h9.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tag25h9.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 808136,
+  "ppid": 808133,
+  "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "root_cargo_pid": 805893,
+  "build_script_root_pid": 808069,
+  "build_script_related": true,
+  "build_script_target_dir": "apriltag-sys-453c13b4e4c34714",
+  "_owner": {
+    "crate": "apriltag-sys",
+    "version": "0.3.0",
+    "package_id": "path+file:///tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0#apriltag-sys@0.3.0",
+    "manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
+  "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 16
 
 ```json
@@ -892,12 +2814,12 @@ _None._
     ".",
     "-imultiarch",
     "riscv64-linux-gnu",
-    "apriltag-src/common/unionfind.c",
+    "apriltag-src/tagStandard41h12.c",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
     "-dumpbase",
-    "b1aa4f7ace6081b6-unionfind.c",
+    "f0c75187ad69178f-tagStandard41h12.c",
     "-dumpbase-ext",
     ".c",
     "-march=rv64gc",
@@ -906,13 +2828,13 @@ _None._
     "-march=rv64imafdc",
     "..."
   ],
-  "src": "apriltag-src/common/unionfind.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/b1aa4f7ace6081b6-unionfind.o",
+  "src": "apriltag-src/tagStandard41h12.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-tagStandard41h12.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 808202,
-  "ppid": 808196,
+  "pid": 808120,
+  "ppid": 808117,
   "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "root_cargo_pid": 805893,
   "build_script_root_pid": 808069,
@@ -937,38 +2859,34 @@ _None._
 ```json
 {
   "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
+  "tool": "/usr/bin/riscv64-linux-gnu-gcc",
+  "real_tool": "/usr/bin/riscv64-linux-gnu-gcc",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1",
-    "-quiet",
-    "-I",
-    "apriltag-src",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "apriltag-src/apriltag_quad_thresh.c",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/",
-    "-dumpbase",
-    "f0c75187ad69178f-apriltag_quad_thresh.c",
-    "-dumpbase-ext",
-    ".c",
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
     "-march=rv64gc",
     "-mabi=lp64d",
-    "-misa-spec=2.2",
-    "-march=rv64imafdc",
-    "..."
+    "-I",
+    "apriltag-src",
+    "-Wall",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag_pose.o",
+    "-c",
+    "apriltag-src/apriltag_pose.c"
   ],
-  "src": "apriltag-src/apriltag_quad_thresh.c",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag_quad_thresh.o",
+  "src": "apriltag-src/apriltag_pose.c",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/apriltag-sys-54cbf29b0241571f/out/f0c75187ad69178f-apriltag_pose.o",
   "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "evidence_source": "process_exec_argv",
   "recovered_from_process_exec": true,
-  "pid": 808150,
-  "ppid": 808139,
+  "pid": 808149,
+  "ppid": 808069,
   "cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "root_cargo_pid": 805893,
   "build_script_root_pid": 808069,
@@ -984,7 +2902,8 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-ue2uap0r/src/apriltag-sys-0.3.0",
   "_build_script_out_dir": "/target/debug/build/apriltag-sys-453c13b4e4c34714/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 

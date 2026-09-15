@@ -4,6 +4,418 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\.tmp\\native-trace-16444-1783954404969\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-5b031c2601323f61\\rustcmbqJpY\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-5b031c2601323f61\\rustcmbqJpY\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "blake3",
+    "version": "1.8.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2#blake3@1.8.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5167856673149140598detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5167856673149140598detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blake3",
+    "version": "1.8.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2#blake3@1.8.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\933919831823153169detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\933919831823153169detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blake3",
+    "version": "1.8.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2#blake3@1.8.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "/arch:AVX512",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\flag_check",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\flag_check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\flag_check.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blake3",
+    "version": "1.8.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2#blake3@1.8.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\15051777523282667700detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\15051777523282667700detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "blake3",
+    "version": "1.8.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2#blake3@1.8.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\libblake3_sse2_sse41_avx2_assembly.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse2_x86-64_windows_msvc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse41_x86-64_windows_msvc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_avx2_x86-64_windows_msvc.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse2_x86-64_windows_msvc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse41_x86-64_windows_msvc.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_avx2_x86-64_windows_msvc.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\libblake3_sse2_sse41_avx2_assembly.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "blake3",
+    "version": "1.8.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2#blake3@1.8.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\.tmp\\native-trace-16444-1783954404969\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-5b031c2601323f61\\rustcmbqJpY\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000298       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:000002b0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000300       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000358       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:000003f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000418       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000448       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000460       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400c5020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000298       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000298       \\177KERNEL32_NULL_THUNK_DATA 00000001400c5298     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:000002b0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:000002b0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400c52b0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000300       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000300       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400c5300     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000320       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400c5320     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000338       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400c5338     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000348       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400c5348     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000358       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000358       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400c5358     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:000003f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:000003f0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400c53f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000408       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400c5408     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000418       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000418       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400c5418     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000448       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000448       \\177ntdll_NULL_THUNK_DATA  00000001400c5448     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000460       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\0002:00000460       \\177ole32_NULL_THUNK_DATA  00000001400c5460     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\.tmp\\native-trace-link-link-9468-1783954406906124400.map",
+  "pid": 9468,
+  "ppid": 9496,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\.tmp\\native-trace-link-link-9468-1783954406906124400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "blake3",
+    "version": "1.8.2",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2#blake3@1.8.2",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ey86v0ro/src/blake3-1.8.2",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -66,16 +478,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\.tmp\\native-trace-16444-1783954404969\\shims\\ml64.exe",
     "-nologo",
     "-Zi",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse41_x86-64_windows_msvc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_avx2_x86-64_windows_msvc.o",
     "-c",
-    "c/blake3_sse41_x86-64_windows_msvc.asm"
+    "c/blake3_avx2_x86-64_windows_msvc.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse41_x86-64_windows_msvc.o",
-  "src": "c/blake3_sse41_x86-64_windows_msvc.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_avx2_x86-64_windows_msvc.o",
+  "src": "c/blake3_avx2_x86-64_windows_msvc.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {
@@ -96,16 +508,16 @@ _None._
     "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\.tmp\\native-trace-16444-1783954404969\\shims\\ml64.exe",
     "-nologo",
     "-Zi",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_avx2_x86-64_windows_msvc.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse41_x86-64_windows_msvc.o",
     "-c",
-    "c/blake3_avx2_x86-64_windows_msvc.asm"
+    "c/blake3_sse41_x86-64_windows_msvc.asm"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2",
   "exit_code": 0,
   "kind": "compile",
   "language": "asm",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_avx2_x86-64_windows_msvc.o",
-  "src": "c/blake3_avx2_x86-64_windows_msvc.asm",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-ey86v0ro\\src\\blake3-1.8.2\\target\\debug\\build\\blake3-334cee71006a0189\\out\\5a6b5937ed079296-blake3_sse41_x86-64_windows_msvc.o",
+  "src": "c/blake3_sse41_x86-64_windows_msvc.asm",
   "success": true,
   "tool": "ml64",
   "_owner": {

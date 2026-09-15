@@ -4,13 +4,51 @@ Platform: Linux aarch64
 
 ## Build-level coding evidence
 
-### Source acquisition
+### Network / source acquisition activity
 
 Working directory: `/tmp/crate-build-aarch64-ru2jbmhe/src/utoipa-swagger-ui-9.0.2`
 
 ```text
 curl -sSL -o /target/aarch64-unknown-linux-gnu/debug/build/utoipa-swagger-ui-d432d77fd257fb49/out/v5.17.14.zip https://github.com/swagger-api/swagger-ui/archive/refs/tags/v5.17.14.zip
 ```
+
+Acquisition kind: `download_file`
+
+Outcome: succeeded (exit code 0)
+
+Working directory: `/tmp/crate-build-aarch64-ru2jbmhe/src/utoipa-swagger-ui-9.0.2`
+
+```text
+internal_build_script_archive_output
+```
+
+Acquisition kind: `internal_build_script_archive_output`
+
+Outcome: succeeded
+
+Working directory: `/tmp/crate-build-aarch64-ru2jbmhe/src/utoipa-swagger-ui-9.0.2`
+
+```text
+curl -sSL -o /target/aarch64-unknown-linux-gnu/debug/build/utoipa-swagger-ui-d432d77fd257fb49/out/v5.17.14.zip https://github.com/swagger-api/swagger-ui/archive/refs/tags/v5.17.14.zip
+```
+
+Outcome: succeeded (exit code 0)
+
+Working directory: `/tmp/crate-build-aarch64-ru2jbmhe/src/utoipa-swagger-ui-9.0.2`
+
+```text
+/usr/bin/curl -sSL -o /target/aarch64-unknown-linux-gnu/debug/build/utoipa-swagger-ui-d432d77fd257fb49/out/v5.17.14.zip https://github.com/swagger-api/swagger-ui/archive/refs/tags/v5.17.14.zip
+```
+
+Outcome: outcome unavailable in trace
+
+Working directory: `/tmp/crate-build-aarch64-ru2jbmhe/src/utoipa-swagger-ui-9.0.2`
+
+```text
+/usr/bin/curl -L --fail --silent --show-error -o /tmp/native-trace-redownload-1242009-1784008014621327290.tmp https://github.com/swagger-api/swagger-ui/archive/refs/tags/v5.17.14.zip
+```
+
+Outcome: outcome unavailable in trace
 
 ### Build-script executable native dependencies
 

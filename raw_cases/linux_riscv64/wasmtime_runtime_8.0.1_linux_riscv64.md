@@ -4,6 +4,624 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt/symbols.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.0fqn4mhmxlck5bp0qygi4e5t5.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.1lxc9j202zutr8rsu3gc6ssc7.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.39mhbxymhn5i22cgay1phhi58.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.5zjv7yzycnhoevdgqoniaqs9j.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.65pwwt40rd8sx7ffjxr4gadbc.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.67wpaz1t2rfrx8obmm0vdgjnw.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.73y7t6ff7q6wsqmvbk6wincld.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.82mpb4ontls99u0qurq69ugyi.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.89nd8spnl7uu4pjoz9tma4xqu.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.8u8ixsywbhlj12ekaub1m20ga.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.9um8n30djufbjcvx0zpte3sg9.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.dy0kiuivl3ma4agwsm1gqs5pt.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.edynm4yhr1jfuj7rw2ebeb4pw.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.eeokzx0dfeilphkz7h25gxo3w.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.f09st6cnuhj1f67o2k7jebtq4.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.2jaw2d4pptdbzwsbgysxru748.1cx5rgs.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt/symbols.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.0fqn4mhmxlck5bp0qygi4e5t5.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.1lxc9j202zutr8rsu3gc6ssc7.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.39mhbxymhn5i22cgay1phhi58.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.5zjv7yzycnhoevdgqoniaqs9j.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.65pwwt40rd8sx7ffjxr4gadbc.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.67wpaz1t2rfrx8obmm0vdgjnw.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.73y7t6ff7q6wsqmvbk6wincld.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.82mpb4ontls99u0qurq69ugyi.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.89nd8spnl7uu4pjoz9tma4xqu.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.8u8ixsywbhlj12ekaub1m20ga.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.9um8n30djufbjcvx0zpte3sg9.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.dy0kiuivl3ma4agwsm1gqs5pt.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.edynm4yhr1jfuj7rw2ebeb4pw.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.eeokzx0dfeilphkz7h25gxo3w.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.f09st6cnuhj1f67o2k7jebtq4.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.2jaw2d4pptdbzwsbgysxru748.1cx5rgs.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "wasmtime-runtime",
+    "version": "8.0.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1#wasmtime-runtime@8.0.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt/symbols.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.0fqn4mhmxlck5bp0qygi4e5t5.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.1lxc9j202zutr8rsu3gc6ssc7.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.39mhbxymhn5i22cgay1phhi58.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.5zjv7yzycnhoevdgqoniaqs9j.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.65pwwt40rd8sx7ffjxr4gadbc.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.67wpaz1t2rfrx8obmm0vdgjnw.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.73y7t6ff7q6wsqmvbk6wincld.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.82mpb4ontls99u0qurq69ugyi.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.89nd8spnl7uu4pjoz9tma4xqu.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.8u8ixsywbhlj12ekaub1m20ga.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.9um8n30djufbjcvx0zpte3sg9.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.dy0kiuivl3ma4agwsm1gqs5pt.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.edynm4yhr1jfuj7rw2ebeb4pw.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.eeokzx0dfeilphkz7h25gxo3w.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.f09st6cnuhj1f67o2k7jebtq4.1cx5rgs.rcgu.o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.2jaw2d4pptdbzwsbgysxru748.1cx5rgs.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt",
+    "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/rustchiKpvt/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.0fqn4mhmxlck5bp0qygi4e5t5.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.1lxc9j202zutr8rsu3gc6ssc7.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.39mhbxymhn5i22cgay1phhi58.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.5zjv7yzycnhoevdgqoniaqs9j.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.65pwwt40rd8sx7ffjxr4gadbc.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.67wpaz1t2rfrx8obmm0vdgjnw.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.73y7t6ff7q6wsqmvbk6wincld.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.82mpb4ontls99u0qurq69ugyi.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.89nd8spnl7uu4pjoz9tma4xqu.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.8u8ixsywbhlj12ekaub1m20ga.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.9um8n30djufbjcvx0zpte3sg9.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.dy0kiuivl3ma4agwsm1gqs5pt.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.edynm4yhr1jfuj7rw2ebeb4pw.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.eeokzx0dfeilphkz7h25gxo3w.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.f09st6cnuhj1f67o2k7jebtq4.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9",
+      "kind": "object",
+      "path": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/build_script_build-fc64e598a6be6cd9.2jaw2d4pptdbzwsbgysxru748.1cx5rgs.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-7fea9c8da0fe21a4.rlib(cc-7fea9c8da0fe21a4.cc.7f9270fe35c7c701-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-670980-1783995340896046162.map",
+  "pid": 670980,
+  "ppid": 670789,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-670980-1783995340896046162.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "wasmtime-runtime",
+    "version": "8.0.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1#wasmtime-runtime@8.0.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -22,7 +640,55 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-gcc",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-g",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-Wall",
+    "-Wextra",
+    "-DCFG_TARGET_OS_linux",
+    "-DCFG_TARGET_ARCH_riscv64",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/wasmtime-runtime-bf12678ed4790af9/out/ea708c7824d36062-helpers.o",
+    "-c",
+    "src/helpers.c"
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 671126,
+  "build_script_target_dir": "wasmtime-runtime-fc64e598a6be6cd9",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-gcc",
+  "pid": 671164,
+  "ppid": 671126,
+  "root_cargo_pid": 667138,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "wasmtime-runtime",
+    "version": "8.0.1",
+    "package_id": "path+file:///tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1#wasmtime-runtime@8.0.1",
+    "manifest_dir": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+  "_build_script_out_dir": "/target/debug/build/wasmtime-runtime-fc64e598a6be6cd9/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-a7fz7ila/src/wasmtime-runtime-8.0.1",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 

@@ -4,6 +4,322 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\.tmp\\native-trace-17464-1783962539469\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-b37653da3be0f2f9\\rustc1ofAsy\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-b37653da3be0f2f9\\rustc1ofAsy\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "hidapi",
+    "version": "2.6.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3#hidapi@2.6.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "etc/hidapi/hidapi",
+    "-W4",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-9a4c867e6840c0a4\\out\\etc/hidapi/windows/hid.o",
+    "-c",
+    "etc/hidapi/windows/hid.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-9a4c867e6840c0a4\\out\\etc/hidapi/windows/hid.o",
+    "etc/hidapi/windows/hid.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "hidapi",
+    "version": "2.6.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3#hidapi@2.6.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-9a4c867e6840c0a4\\out\\libhidapi.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-9a4c867e6840c0a4\\out\\etc/hidapi/windows/hid.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-9a4c867e6840c0a4\\out\\etc/hidapi/windows/hid.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-9a4c867e6840c0a4\\out\\libhidapi.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "hidapi",
+    "version": "2.6.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3#hidapi@2.6.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\.tmp\\native-trace-17464-1783962539469\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\target\\debug\\build\\hidapi-b37653da3be0f2f9\\rustc1ofAsy\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000288       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000002a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000002f0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000310       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000328       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000338       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000348       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000003e0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000003f8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000408       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000438       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000450       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001400c0020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000288       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000288       \\177KERNEL32_NULL_THUNK_DATA 00000001400c0288     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000002a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000002a0       \\177OLEAUT32_NULL_THUNK_DATA 00000001400c02a0     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000002f0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000002f0       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001400c02f0     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000310       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000310       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001400c0310     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000328       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000328       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001400c0328     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000338       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000338       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001400c0338     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000348       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000348       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001400c0348     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000003e0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000003e0       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001400c03e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000003f8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:000003f8       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001400c03f8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000408       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000408       \\177bcryptprimitives_NULL_THUNK_DATA 00000001400c0408     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000438       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000438       \\177ntdll_NULL_THUNK_DATA  00000001400c0438     ntdll:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000450       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\0002:00000450       \\177ole32_NULL_THUNK_DATA  00000001400c0450     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\.tmp\\native-trace-link-link-20552-1783962540750545400.map",
+  "pid": 20552,
+  "ppid": 13756,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-u_vi581d\\src\\hidapi-2.6.3\\.tmp\\native-trace-link-link-20552-1783962540750545400.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "hidapi",
+    "version": "2.6.3",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3#hidapi@2.6.3",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-u_vi581d/src/hidapi-2.6.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001

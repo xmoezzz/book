@@ -4,6 +4,26 @@ Platform: Linux ppc64le
 
 ## Build-level coding evidence
 
+### Network / source acquisition activity
+
+Working directory: `/tmp/crate-build-ppc64le-ey9cdojy/src/brotli-sys-0.3.2`
+
+```text
+git submodule update --init
+```
+
+Acquisition kind: `git_submodule`
+
+Outcome: failed (exit code 128)
+
+Working directory: `/tmp/crate-build-ppc64le-ey9cdojy/src/brotli-sys-0.3.2`
+
+```text
+/usr/bin/git submodule update --init
+```
+
+Outcome: outcome unavailable in trace
+
 ### Build-script executable native dependencies
 
 These libraries are consumed while linking the Rust build-script executable. They are shown separately from native artifacts produced by the crate.

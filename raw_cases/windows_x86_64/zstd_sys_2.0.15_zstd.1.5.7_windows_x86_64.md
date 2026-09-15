@@ -4,6 +4,2482 @@ Platform: Windows x86_64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Other root-owned linker evidence
+
+### Other root-owned link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\.tmp\\native-trace-3616-1783954358933\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-0e35546f6011cd3e\\rustcO89Dt3\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-0e35546f6011cd3e\\rustcO89Dt3\\linker-arguments",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "link",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3781726596537430787detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3781726596537430787detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\14510777195163208405detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\14510777195163208405detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "-ffunction-sections",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\10205726728079171961detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\10205726728079171961detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "-fdata-sections",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 7
+
+```json
+{
+  "argv": [
+    "cl",
+    "-E",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3949254909536254396detect_compiler_family.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3949254909536254396detect_compiler_family.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 8
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Brepro",
+    "-W4",
+    "-fmerge-all-constants",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\flag_check.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 9
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
+    "-c",
+    "zstd/lib/common\\debug.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
+    "zstd/lib/common\\debug.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 10
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
+    "-c",
+    "zstd/lib/common\\threading.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
+    "zstd/lib/common\\threading.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 11
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
+    "-c",
+    "zstd/lib/common\\error_private.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
+    "zstd/lib/common\\error_private.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 12
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
+    "-c",
+    "zstd/lib/common\\pool.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
+    "zstd/lib/common\\pool.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 13
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
+    "-c",
+    "zstd/lib/common\\fse_decompress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
+    "zstd/lib/common\\fse_decompress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 14
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
+    "-c",
+    "zstd/lib/compress\\hist.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
+    "zstd/lib/compress\\hist.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 15
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
+    "-c",
+    "zstd/lib/common\\entropy_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
+    "zstd/lib/common\\entropy_common.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 16
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
+    "-c",
+    "zstd/lib/compress\\fse_compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
+    "zstd/lib/compress\\fse_compress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 17
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
+    "-c",
+    "zstd/lib/compress\\huf_compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
+    "zstd/lib/compress\\huf_compress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
+    "-c",
+    "zstd/lib/common\\zstd_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
+    "zstd/lib/common\\zstd_common.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
+    "-c",
+    "zstd/lib/compress\\zstd_preSplit.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
+    "zstd/lib/compress\\zstd_preSplit.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
+    "-c",
+    "zstd/lib/compress\\zstd_compress_literals.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
+    "zstd/lib/compress\\zstd_compress_literals.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_sequences.o",
+    "-c",
+    "zstd/lib/compress\\zstd_compress_sequences.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_sequences.o",
+    "zstd/lib/compress\\zstd_compress_sequences.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
+    "-c",
+    "zstd/lib/compress\\zstd_compress_superblock.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
+    "zstd/lib/compress\\zstd_compress_superblock.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
+    "-c",
+    "zstd/lib/compress\\zstd_double_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
+    "zstd/lib/compress\\zstd_double_fast.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
+    "-c",
+    "zstd/lib/compress\\zstd_ldm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
+    "zstd/lib/compress\\zstd_ldm.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
+    "-c",
+    "zstd/lib/compress\\zstd_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
+    "zstd/lib/compress\\zstd_fast.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
+    "-c",
+    "zstd/lib/compress\\zstd_opt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
+    "zstd/lib/compress\\zstd_opt.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
+    "-c",
+    "zstd/lib/compress\\zstdmt_compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
+    "zstd/lib/compress\\zstdmt_compress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
+    "-c",
+    "zstd/lib/compress\\zstd_lazy.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
+    "zstd/lib/compress\\zstd_lazy.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-huf_decompress.o",
+    "-c",
+    "zstd/lib/decompress\\huf_decompress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-huf_decompress.o",
+    "zstd/lib/decompress\\huf_decompress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
+    "-c",
+    "zstd/lib/decompress\\zstd_decompress_block.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
+    "zstd/lib/decompress\\zstd_decompress_block.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-cover.o",
+    "-c",
+    "zstd/lib/dictBuilder\\cover.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-cover.o",
+    "zstd/lib/dictBuilder\\cover.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
+    "-c",
+    "zstd/lib/decompress\\zstd_ddict.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
+    "zstd/lib/decompress\\zstd_ddict.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
+    "-c",
+    "zstd/lib/compress\\zstd_compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
+    "zstd/lib/compress\\zstd_compress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
+    "-c",
+    "zstd/lib/decompress\\zstd_decompress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
+    "zstd/lib/decompress\\zstd_decompress.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-divsufsort.o",
+    "-c",
+    "zstd/lib/dictBuilder\\divsufsort.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-divsufsort.o",
+    "zstd/lib/dictBuilder\\divsufsort.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 36
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
+    "-c",
+    "zstd/lib/dictBuilder\\fastcover.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
+    "zstd/lib/dictBuilder\\fastcover.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 37
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v01.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
+    "zstd/lib/legacy\\zstd_v01.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 38
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v02.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
+    "zstd/lib/legacy\\zstd_v02.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 39
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v03.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
+    "zstd/lib/legacy\\zstd_v03.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 40
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
+    "-c",
+    "zstd/lib/dictBuilder\\zdict.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
+    "zstd/lib/dictBuilder\\zdict.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 41
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v04.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
+    "zstd/lib/legacy\\zstd_v04.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 42
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v06.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
+    "zstd/lib/legacy\\zstd_v06.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 43
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v05.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
+    "zstd/lib/legacy\\zstd_v05.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 44
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v07.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v07.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v07.o",
+    "zstd/lib/legacy\\zstd_v07.c"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": null,
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 45
+
+```json
+{
+  "argv": [
+    "lib",
+    "-out:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\libzstd.a",
+    "-nologo",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_sequences.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-huf_decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-cover.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-divsufsort.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v07.o"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "inputs": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_sequences.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-huf_decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-cover.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-divsufsort.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v07.o"
+  ],
+  "kind": "link",
+  "lib_paths": [],
+  "libs": [],
+  "output": "ut:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\libzstd.a",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "lib",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Other root-owned resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\.tmp\\native-trace-3616-1783954358933\\shims\\link.exe",
+    "@C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-0e35546f6011cd3e\\rustcO89Dt3\\linker-arguments"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "directories": [
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+    "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.52.6\\lib",
+    "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000020       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000308       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000320       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000370       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000390       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003a8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003b8       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000468       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000480       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000490       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004a0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004d0       ",
+    "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004e8       "
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\kernel32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\advapi32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ole32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\oleaut32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.52.6\\lib",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\windows_x86_64_msvc-0.52.6\\lib\\windows.0.52.0.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\legacy_stdio_definitions.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ntdll.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\userenv.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\ws2_32.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\\\lib\\10.0.22621.0\\\\um\\x64\\dbghelp.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\msvcrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64",
+      "kind": "library",
+      "path": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64\\vcruntime.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64",
+      "kind": "library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\Kits\\10\\lib\\10.0.22621.0\\ucrt\\x64\\ucrt.lib",
+      "source": "link_trace"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000020       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000020       \\177ADVAPI32_NULL_THUNK_DATA 00000001405ae020     advapi32:ADVAPI32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000308       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000308       \\177KERNEL32_NULL_THUNK_DATA 00000001405ae308     kernel32:KERNEL32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000320       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000320       \\177OLEAUT32_NULL_THUNK_DATA 00000001405ae320     oleaut32:OLEAUT32.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000370       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000370       \\177VCRUNTIME140_NULL_THUNK_DATA 00000001405ae370     vcruntime:VCRUNTIME140.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000390       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000390       \\177api-ms-win-core-synch-l1-2-0_NULL_THUNK_DATA 00000001405ae390     libstd-f6a1efc0b26a278e:api-ms-win-core-synch-l1-2-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003a8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003a8       \\177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001405ae3a8     ucrt:api-ms-win-crt-heap-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003b8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003b8       \\177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00000001405ae3b8     ucrt:api-ms-win-crt-locale-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000003d0       \\177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 00000001405ae3d0     ucrt:api-ms-win-crt-math-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000468       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000468       \\177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 00000001405ae468     ucrt:api-ms-win-crt-runtime-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000480       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000480       \\177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 00000001405ae480     ucrt:api-ms-win-crt-stdio-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000490       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:00000490       \\177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 00000001405ae490     ucrt:api-ms-win-crt-string-l1-1-0.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004a0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004a0       \\177bcryptprimitives_NULL_THUNK_DATA 00000001405ae4a0     libstd-f6a1efc0b26a278e:bcryptprimitives.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004d0       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004d0       \\177ntdll_NULL_THUNK_DATA  00000001405ae4d0     windows.0.52.0:ntdll.dll",
+      "source": "link_map"
+    },
+    {
+      "directory": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004e8       ",
+      "kind": "dynamic_library",
+      "path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\0002:000004e8       \\177ole32_NULL_THUNK_DATA  00000001405ae4e8     ole32:ole32.dll",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\.tmp\\native-trace-link-link-9316-1783954365193488500.map",
+  "pid": 9316,
+  "ppid": 9684,
+  "real_tool": "C:\\BuildTools2022\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe",
+  "success": true,
+  "tool": "link",
+  "trace_args": [
+    "/nologo",
+    "/verbose:lib",
+    "/map:C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\.tmp\\native-trace-link-link-9316-1783954365193488500.map"
+  ],
+  "trace_mode": "msvc_link",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -85,16 +2561,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
     "-c",
-    "zstd/lib/compress\\zstd_preSplit.c"
+    "zstd/lib/legacy\\zstd_v06.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
-  "src": "zstd/lib/compress\\zstd_preSplit.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
+  "src": "zstd/lib/legacy\\zstd_v06.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -131,16 +2607,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
     "-c",
-    "zstd/lib/common\\error_private.c"
+    "zstd/lib/legacy\\zstd_v02.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
-  "src": "zstd/lib/common\\error_private.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
+  "src": "zstd/lib/legacy\\zstd_v02.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -177,16 +2653,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
     "-c",
-    "zstd/lib/legacy\\zstd_v03.c"
+    "zstd/lib/compress\\zstd_preSplit.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
-  "src": "zstd/lib/legacy\\zstd_v03.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_preSplit.o",
+  "src": "zstd/lib/compress\\zstd_preSplit.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -200,52 +2676,6 @@ _None._
 ```
 
 #### Record 4
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
-    "-c",
-    "zstd/lib/compress\\zstd_fast.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
-  "src": "zstd/lib/compress\\zstd_fast.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 5
 
 ```json
 {
@@ -291,6 +2721,52 @@ _None._
 }
 ```
 
+#### Record 5
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
+    "-c",
+    "zstd/lib/compress\\zstd_compress_literals.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
+  "src": "zstd/lib/compress\\zstd_compress_literals.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 6
 
 ```json
@@ -315,16 +2791,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
     "-c",
-    "zstd/lib/common\\pool.c"
+    "zstd/lib/compress\\zstd_lazy.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
-  "src": "zstd/lib/common\\pool.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
+  "src": "zstd/lib/compress\\zstd_lazy.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -361,16 +2837,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
     "-c",
-    "zstd/lib/legacy\\zstd_v05.c"
+    "zstd/lib/legacy\\zstd_v01.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
-  "src": "zstd/lib/legacy\\zstd_v05.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
+  "src": "zstd/lib/legacy\\zstd_v01.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -407,16 +2883,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
     "-c",
-    "zstd/lib/compress\\zstd_ldm.c"
+    "zstd/lib/compress\\hist.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
-  "src": "zstd/lib/compress\\zstd_ldm.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
+  "src": "zstd/lib/compress\\hist.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -453,16 +2929,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
     "-c",
-    "zstd/lib/legacy\\zstd_v02.c"
+    "zstd/lib/compress\\zstd_double_fast.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v02.o",
-  "src": "zstd/lib/legacy\\zstd_v02.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
+  "src": "zstd/lib/compress\\zstd_double_fast.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -545,16 +3021,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
     "-c",
-    "zstd/lib/common\\debug.c"
+    "zstd/lib/legacy\\zstd_v05.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
-  "src": "zstd/lib/common\\debug.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v05.o",
+  "src": "zstd/lib/legacy\\zstd_v05.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -568,742 +3044,6 @@ _None._
 ```
 
 #### Record 12
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
-    "-c",
-    "zstd/lib/compress\\zstd_opt.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
-  "src": "zstd/lib/compress\\zstd_opt.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 13
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
-    "-c",
-    "zstd/lib/common\\threading.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
-  "src": "zstd/lib/common\\threading.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 14
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
-    "-c",
-    "zstd/lib/compress\\zstd_compress_literals.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_literals.o",
-  "src": "zstd/lib/compress\\zstd_compress_literals.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 15
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
-    "-c",
-    "zstd/lib/decompress\\zstd_decompress.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
-  "src": "zstd/lib/decompress\\zstd_decompress.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 16
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
-    "-c",
-    "zstd/lib/legacy\\zstd_v04.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
-  "src": "zstd/lib/legacy\\zstd_v04.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 17
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
-    "-c",
-    "zstd/lib/common\\entropy_common.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
-  "src": "zstd/lib/common\\entropy_common.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 18
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
-    "-c",
-    "zstd/lib/dictBuilder\\zdict.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
-  "src": "zstd/lib/dictBuilder\\zdict.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 19
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
-    "-c",
-    "zstd/lib/compress\\zstdmt_compress.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
-  "src": "zstd/lib/compress\\zstdmt_compress.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 20
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
-    "-c",
-    "zstd/lib/legacy\\zstd_v06.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v06.o",
-  "src": "zstd/lib/legacy\\zstd_v06.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 21
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
-    "-c",
-    "zstd/lib/compress\\fse_compress.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
-  "src": "zstd/lib/compress\\fse_compress.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 22
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
-    "-c",
-    "zstd/lib/common\\zstd_common.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
-  "src": "zstd/lib/common\\zstd_common.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 23
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
-    "-c",
-    "zstd/lib/dictBuilder\\fastcover.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
-  "src": "zstd/lib/dictBuilder\\fastcover.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 24
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
-    "-c",
-    "zstd/lib/compress\\huf_compress.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
-  "src": "zstd/lib/compress\\huf_compress.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 25
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
-    "-c",
-    "zstd/lib/decompress\\zstd_ddict.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
-  "src": "zstd/lib/decompress\\zstd_ddict.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 26
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
-    "-c",
-    "zstd/lib/legacy\\zstd_v01.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v01.o",
-  "src": "zstd/lib/legacy\\zstd_v01.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 27
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
-    "-c",
-    "zstd/lib/common\\fse_decompress.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
-  "src": "zstd/lib/common\\fse_decompress.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 28
 
 ```json
 {
@@ -1349,7 +3089,7 @@ _None._
 }
 ```
 
-#### Record 29
+#### Record 13
 
 ```json
 {
@@ -1373,16 +3113,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
     "-c",
-    "zstd/lib/decompress\\zstd_decompress_block.c"
+    "zstd/lib/common\\fse_decompress.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
-  "src": "zstd/lib/decompress\\zstd_decompress_block.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-fse_decompress.o",
+  "src": "zstd/lib/common\\fse_decompress.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1395,7 +3135,7 @@ _None._
 }
 ```
 
-#### Record 30
+#### Record 14
 
 ```json
 {
@@ -1419,16 +3159,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
     "-c",
-    "zstd/lib/compress\\hist.c"
+    "zstd/lib/compress\\huf_compress.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-hist.o",
-  "src": "zstd/lib/compress\\hist.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-huf_compress.o",
+  "src": "zstd/lib/compress\\huf_compress.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1441,53 +3181,7 @@ _None._
 }
 ```
 
-#### Record 31
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
-    "-c",
-    "zstd/lib/compress\\zstd_compress_superblock.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
-  "src": "zstd/lib/compress\\zstd_compress_superblock.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 32
+#### Record 15
 
 ```json
 {
@@ -1533,7 +3227,7 @@ _None._
 }
 ```
 
-#### Record 33
+#### Record 16
 
 ```json
 {
@@ -1557,16 +3251,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
     "-c",
-    "zstd/lib/compress\\zstd_compress.c"
+    "zstd/lib/compress\\zstdmt_compress.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
-  "src": "zstd/lib/compress\\zstd_compress.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstdmt_compress.o",
+  "src": "zstd/lib/compress\\zstdmt_compress.c",
   "success": true,
   "tool": "cl",
   "_owner": {
@@ -1579,53 +3273,7 @@ _None._
 }
 ```
 
-#### Record 34
-
-```json
-{
-  "argv": [
-    "cl",
-    "-nologo",
-    "-MD",
-    "-Z7",
-    "-Brepro",
-    "-I",
-    "zstd/lib/",
-    "-I",
-    "zstd/lib/common",
-    "-I",
-    "zstd/lib/legacy",
-    "-fvisibility=hidden",
-    "-DZSTD_DISABLE_ASM=",
-    "-DZSTD_LIB_DEPRECATED=0",
-    "-DXXH_PRIVATE_API=",
-    "-DZSTDLIB_VISIBILITY=",
-    "-DZDICTLIB_VISIBILITY=",
-    "-DZSTDERRORLIB_VISIBILITY=",
-    "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
-    "-c",
-    "zstd/lib/compress\\zstd_double_fast.c"
-  ],
-  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
-  "exit_code": 0,
-  "kind": "compile",
-  "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_double_fast.o",
-  "src": "zstd/lib/compress\\zstd_double_fast.c",
-  "success": true,
-  "tool": "cl",
-  "_owner": {
-    "crate": "zstd-sys",
-    "version": "2.0.15+zstd.1.5.7",
-    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
-    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
-    "source": "cargo_manifest_dir"
-  }
-}
-```
-
-#### Record 35
+#### Record 17
 
 ```json
 {
@@ -1671,6 +3319,834 @@ _None._
 }
 ```
 
+#### Record 18
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
+    "-c",
+    "zstd/lib/compress\\fse_compress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-fse_compress.o",
+  "src": "zstd/lib/compress\\fse_compress.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 19
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
+    "-c",
+    "zstd/lib/common\\error_private.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-error_private.o",
+  "src": "zstd/lib/common\\error_private.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 20
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
+    "-c",
+    "zstd/lib/common\\pool.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-pool.o",
+  "src": "zstd/lib/common\\pool.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 21
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
+    "-c",
+    "zstd/lib/decompress\\zstd_decompress.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress.o",
+  "src": "zstd/lib/decompress\\zstd_decompress.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 22
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
+    "-c",
+    "zstd/lib/compress\\zstd_ldm.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_ldm.o",
+  "src": "zstd/lib/compress\\zstd_ldm.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 23
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v03.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v03.o",
+  "src": "zstd/lib/legacy\\zstd_v03.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 24
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
+    "-c",
+    "zstd/lib/compress\\zstd_opt.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_opt.o",
+  "src": "zstd/lib/compress\\zstd_opt.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 25
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
+    "-c",
+    "zstd/lib/legacy\\zstd_v04.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\3f451b2306bc13c8-zstd_v04.o",
+  "src": "zstd/lib/legacy\\zstd_v04.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 26
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
+    "-c",
+    "zstd/lib/common\\debug.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-debug.o",
+  "src": "zstd/lib/common\\debug.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 27
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
+    "-c",
+    "zstd/lib/common\\entropy_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-entropy_common.o",
+  "src": "zstd/lib/common\\entropy_common.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 28
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
+    "-c",
+    "zstd/lib/decompress\\zstd_ddict.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_ddict.o",
+  "src": "zstd/lib/decompress\\zstd_ddict.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 29
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
+    "-c",
+    "zstd/lib/dictBuilder\\fastcover.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-fastcover.o",
+  "src": "zstd/lib/dictBuilder\\fastcover.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 30
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
+    "-c",
+    "zstd/lib/dictBuilder\\zdict.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\a6c81c75fc82913a-zdict.o",
+  "src": "zstd/lib/dictBuilder\\zdict.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 31
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
+    "-c",
+    "zstd/lib/decompress\\zstd_decompress_block.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\88f362f13b0528ed-zstd_decompress_block.o",
+  "src": "zstd/lib/decompress\\zstd_decompress_block.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 32
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
+    "-c",
+    "zstd/lib/compress\\zstd_fast.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_fast.o",
+  "src": "zstd/lib/compress\\zstd_fast.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 33
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
+    "-c",
+    "zstd/lib/common\\threading.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-threading.o",
+  "src": "zstd/lib/common\\threading.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 34
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
+    "-c",
+    "zstd/lib/compress\\zstd_compress_superblock.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o",
+  "src": "zstd/lib/compress\\zstd_compress_superblock.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+#### Record 35
+
+```json
+{
+  "argv": [
+    "cl",
+    "-nologo",
+    "-MD",
+    "-Z7",
+    "-Brepro",
+    "-I",
+    "zstd/lib/",
+    "-I",
+    "zstd/lib/common",
+    "-I",
+    "zstd/lib/legacy",
+    "-fvisibility=hidden",
+    "-DZSTD_DISABLE_ASM=",
+    "-DZSTD_LIB_DEPRECATED=0",
+    "-DXXH_PRIVATE_API=",
+    "-DZSTDLIB_VISIBILITY=",
+    "-DZDICTLIB_VISIBILITY=",
+    "-DZSTDERRORLIB_VISIBILITY=",
+    "-DZSTD_LEGACY_SUPPORT=1",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
+    "-c",
+    "zstd/lib/common\\zstd_common.c"
+  ],
+  "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
+  "exit_code": 0,
+  "kind": "compile",
+  "language": "c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\44ff4c55aa9e5133-zstd_common.o",
+  "src": "zstd/lib/common\\zstd_common.c",
+  "success": true,
+  "tool": "cl",
+  "_owner": {
+    "crate": "zstd-sys",
+    "version": "2.0.15+zstd.1.5.7",
+    "package_id": "path+file:///C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7#zstd-sys@2.0.15+zstd.1.5.7",
+    "manifest_dir": "C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-lsgmupgn/src/zstd-sys-2.0.15+zstd.1.5.7",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 #### Record 36
 
 ```json
@@ -1695,16 +4171,16 @@ _None._
     "-DZDICTLIB_VISIBILITY=",
     "-DZSTDERRORLIB_VISIBILITY=",
     "-DZSTD_LEGACY_SUPPORT=1",
-    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
+    "-FoC:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
     "-c",
-    "zstd/lib/compress\\zstd_lazy.c"
+    "zstd/lib/compress\\zstd_compress.c"
   ],
   "cwd": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7",
   "exit_code": 0,
   "kind": "compile",
   "language": "c",
-  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_lazy.o",
-  "src": "zstd/lib/compress\\zstd_lazy.c",
+  "output": "C:\\Users\\rustbuild\\AppData\\Local\\Temp\\crate-build-win-lsgmupgn\\src\\zstd-sys-2.0.15+zstd.1.5.7\\target\\debug\\build\\zstd-sys-68c51da2414ecbb3\\out\\fb80479a5fb81f6a-zstd_compress.o",
+  "src": "zstd/lib/compress\\zstd_compress.c",
   "success": true,
   "tool": "cl",
   "_owner": {

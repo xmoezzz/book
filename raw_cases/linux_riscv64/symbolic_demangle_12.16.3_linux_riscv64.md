@@ -4,6 +4,574 @@ Platform: Linux riscv64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq/symbols.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.1joujy67ub7bdiy4o30hssq34.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.268bud5n1jz317bklhmcryme1.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.3py0muak4lotoaidle9is3xwz.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.4995a3y4xpsttcl1a6vlb3zll.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.5kd5hbqnbcihdi7ke4y566us1.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6gh87urt2ds0if308cpzfe7nt.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6p4ylb5n38a7ij6fmggl7qncv.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.76m414ckhj5gf22klmswm7490.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.a4h3gbbis4bhvtfkwsirirnbw.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.catchliz7b9t1g11o8nbzhxp7.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.dpcuqrasdzxnx3zp5o35bhre2.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.bjey9q9jwsdaz9i3hpfghv6tc.1d2lwz3.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-fd91788fd2123bd2.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq/symbols.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.1joujy67ub7bdiy4o30hssq34.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.268bud5n1jz317bklhmcryme1.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.3py0muak4lotoaidle9is3xwz.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.4995a3y4xpsttcl1a6vlb3zll.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.5kd5hbqnbcihdi7ke4y566us1.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6gh87urt2ds0if308cpzfe7nt.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6p4ylb5n38a7ij6fmggl7qncv.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.76m414ckhj5gf22klmswm7490.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.a4h3gbbis4bhvtfkwsirirnbw.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.catchliz7b9t1g11o8nbzhxp7.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.dpcuqrasdzxnx3zp5o35bhre2.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.bjey9q9jwsdaz9i3hpfghv6tc.1d2lwz3.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq/symbols.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.1joujy67ub7bdiy4o30hssq34.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.268bud5n1jz317bklhmcryme1.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.3py0muak4lotoaidle9is3xwz.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.4995a3y4xpsttcl1a6vlb3zll.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.5kd5hbqnbcihdi7ke4y566us1.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6gh87urt2ds0if308cpzfe7nt.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6p4ylb5n38a7ij6fmggl7qncv.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.76m414ckhj5gf22klmswm7490.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.a4h3gbbis4bhvtfkwsirirnbw.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.catchliz7b9t1g11o8nbzhxp7.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.dpcuqrasdzxnx3zp5o35bhre2.1d2lwz3.rcgu.o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.bjey9q9jwsdaz9i3hpfghv6tc.1d2lwz3.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-fd91788fd2123bd2.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/11",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq",
+    "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/lib64"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/rustcc8yZZq/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.1joujy67ub7bdiy4o30hssq34.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.268bud5n1jz317bklhmcryme1.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.3py0muak4lotoaidle9is3xwz.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.4995a3y4xpsttcl1a6vlb3zll.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.5kd5hbqnbcihdi7ke4y566us1.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6gh87urt2ds0if308cpzfe7nt.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.6p4ylb5n38a7ij6fmggl7qncv.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.76m414ckhj5gf22klmswm7490.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.a4h3gbbis4bhvtfkwsirirnbw.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.catchliz7b9t1g11o8nbzhxp7.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.dpcuqrasdzxnx3zp5o35bhre2.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/symbolic-demangle-adec670d1917b46e",
+      "kind": "object",
+      "path": "/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e.bjey9q9jwsdaz9i3hpfghv6tc.1d2lwz3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-fd91788fd2123bd2.rlib(cc-fd91788fd2123bd2.cc.703d71f07d825a04-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-9d2fae39757f538b.rlib(shlex-9d2fae39757f538b.shlex.1ceebad2f47cb4e6-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib64",
+      "kind": "dynamic_library",
+      "path": "/lib64/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-473859-1783994555674414243.map",
+  "pid": 473859,
+  "ppid": 473799,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-473859-1783994555674414243.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
@@ -31,7 +599,323 @@ _None._
 
 ### Source preparation records
 
-_None._
+#### Record 1
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-fpermissive",
+    "-Wno-changes-meaning",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/0602fb52cb66f316-swiftdemangle.o",
+    "-c",
+    "src/swiftdemangle.cpp",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 474151,
+  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-g++",
+  "pid": 474428,
+  "ppid": 474151,
+  "root_cargo_pid": 469945,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 2
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-fpermissive",
+    "-Wno-changes-meaning",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Context.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Context.cpp",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 474151,
+  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-g++",
+  "pid": 475328,
+  "ppid": 474151,
+  "root_cargo_pid": 469945,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 3
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-fpermissive",
+    "-Wno-changes-meaning",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-ManglingUtils.o",
+    "-c",
+    "vendor/swift/lib/Demangling/ManglingUtils.cpp",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 474151,
+  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-g++",
+  "pid": 476770,
+  "ppid": 474151,
+  "root_cargo_pid": 469945,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 4
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-fpermissive",
+    "-Wno-changes-meaning",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodeDumper.o",
+    "-c",
+    "vendor/swift/lib/Demangling/NodeDumper.cpp",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 474151,
+  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-g++",
+  "pid": 477569,
+  "ppid": 474151,
+  "root_cargo_pid": 469945,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 5
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-fpermissive",
+    "-Wno-changes-meaning",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodePrinter.o",
+    "-c",
+    "vendor/swift/lib/Demangling/NodePrinter.cpp",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 474151,
+  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-g++",
+  "pid": 477783,
+  "ppid": 474151,
+  "root_cargo_pid": 469945,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
+
+#### Record 6
+
+```json
+{
+  "argv": [
+    "/usr/bin/riscv64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c++17",
+    "-I",
+    "vendor/swift/include",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-fpermissive",
+    "-Wno-changes-meaning",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Remangler.o",
+    "-c",
+    "vendor/swift/lib/Demangling/Remangler.cpp",
+    "..."
+  ],
+  "build_script_related": true,
+  "build_script_root_pid": 474151,
+  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
+  "comm": "riscv64-linux-g",
+  "event": "process_exec",
+  "image": "/usr/bin/riscv64-linux-gnu-g++",
+  "pid": 478627,
+  "ppid": 474151,
+  "root_cargo_pid": 469945,
+  "source": "linux_ebpf:/usr/local/bin/execsnoop",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
+  "_direct_build_script_child": true,
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_cwd_recovered_from_build_script_run": true
+}
+```
 
 ### Compilation records
 
@@ -56,22 +940,22 @@ _None._
     "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-D",
     "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "vendor/swift/lib/Demangling/NodePrinter.cpp",
+    "src/swiftdemangle.cpp",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
     "-dumpbase",
-    "9e67921832b6be5b-NodePrinter.cpp",
+    "0602fb52cb66f316-swiftdemangle.cpp",
     "-dumpbase-ext",
     "..."
   ],
-  "src": "vendor/swift/lib/Demangling/NodePrinter.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodePrinter.o",
+  "src": "src/swiftdemangle.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/0602fb52cb66f316-swiftdemangle.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 477785,
-  "ppid": 477783,
+  "pid": 474430,
+  "ppid": 474428,
   "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "root_cargo_pid": 469945,
   "build_script_root_pid": 474151,
@@ -96,38 +980,38 @@ _None._
 ```json
 {
   "event": "compile",
-  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
-  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
+  "tool": "/usr/bin/riscv64-linux-gnu-g++",
+  "real_tool": "/usr/bin/riscv64-linux-gnu-g++",
   "argv": [
-    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
-    "-quiet",
+    "/usr/bin/riscv64-linux-gnu-g++",
+    "-O0",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-fPIC",
+    "-gdwarf-4",
+    "-fno-omit-frame-pointer",
+    "-march=rv64gc",
+    "-mabi=lp64d",
+    "-std=c++17",
     "-I",
     "vendor/swift/include",
-    "-imultilib",
-    ".",
-    "-imultiarch",
-    "riscv64-linux-gnu",
-    "-D_GNU_SOURCE",
-    "-D",
-    "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
-    "-D",
-    "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "vendor/swift/lib/Demangling/Context.cpp",
-    "-quiet",
-    "-dumpdir",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
-    "-dumpbase",
-    "9e67921832b6be5b-Context.cpp",
-    "-dumpbase-ext",
+    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "-fpermissive",
+    "-Wno-changes-meaning",
+    "-o",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-CrashReporter.o",
+    "-c",
+    "vendor/swift/lib/Demangling/CrashReporter.cpp",
     "..."
   ],
-  "src": "vendor/swift/lib/Demangling/Context.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Context.o",
+  "src": "vendor/swift/lib/Demangling/CrashReporter.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-CrashReporter.o",
   "success": true,
-  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "evidence_source": "process_exec_argv",
   "recovered_from_process_exec": true,
-  "pid": 475330,
-  "ppid": 475328,
+  "pid": 475778,
+  "ppid": 474151,
   "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "root_cargo_pid": 469945,
   "build_script_root_pid": 474151,
@@ -143,7 +1027,8 @@ _None._
   "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
-  "_cwd_recovered_from_compiler_parent": true
+  "_direct_build_script_child": true,
+  "_cwd_recovered_from_build_script_run": true
 }
 ```
 
@@ -168,22 +1053,22 @@ _None._
     "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-D",
     "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "vendor/swift/lib/Demangling/Remangler.cpp",
+    "vendor/swift/lib/Demangling/Demangler.cpp",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
     "-dumpbase",
-    "9e67921832b6be5b-Remangler.cpp",
+    "9e67921832b6be5b-Demangler.cpp",
     "-dumpbase-ext",
     "..."
   ],
-  "src": "vendor/swift/lib/Demangling/Remangler.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Remangler.o",
+  "src": "vendor/swift/lib/Demangling/Demangler.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Demangler.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 478629,
-  "ppid": 478627,
+  "pid": 475809,
+  "ppid": 475808,
   "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "root_cargo_pid": 469945,
   "build_script_root_pid": 474151,
@@ -280,22 +1165,22 @@ _None._
     "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-D",
     "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "vendor/swift/lib/Demangling/Errors.cpp",
+    "vendor/swift/lib/Demangling/Remangler.cpp",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
     "-dumpbase",
-    "9e67921832b6be5b-Errors.cpp",
+    "9e67921832b6be5b-Remangler.cpp",
     "-dumpbase-ext",
     "..."
   ],
-  "src": "vendor/swift/lib/Demangling/Errors.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Errors.o",
+  "src": "vendor/swift/lib/Demangling/Remangler.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Remangler.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 476711,
-  "ppid": 476710,
+  "pid": 478629,
+  "ppid": 478627,
   "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "root_cargo_pid": 469945,
   "build_script_root_pid": 474151,
@@ -336,22 +1221,22 @@ _None._
     "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-D",
     "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "vendor/swift/lib/Demangling/Demangler.cpp",
+    "vendor/swift/lib/Demangling/Errors.cpp",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
     "-dumpbase",
-    "9e67921832b6be5b-Demangler.cpp",
+    "9e67921832b6be5b-Errors.cpp",
     "-dumpbase-ext",
     "..."
   ],
-  "src": "vendor/swift/lib/Demangling/Demangler.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Demangler.o",
+  "src": "vendor/swift/lib/Demangling/Errors.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Errors.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 475809,
-  "ppid": 475808,
+  "pid": 476711,
+  "ppid": 476710,
   "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "root_cargo_pid": 469945,
   "build_script_root_pid": 474151,
@@ -376,63 +1261,6 @@ _None._
 ```json
 {
   "event": "compile",
-  "tool": "/usr/bin/riscv64-linux-gnu-g++",
-  "real_tool": "/usr/bin/riscv64-linux-gnu-g++",
-  "argv": [
-    "/usr/bin/riscv64-linux-gnu-g++",
-    "-O0",
-    "-ffunction-sections",
-    "-fdata-sections",
-    "-fPIC",
-    "-gdwarf-4",
-    "-fno-omit-frame-pointer",
-    "-march=rv64gc",
-    "-mabi=lp64d",
-    "-std=c++17",
-    "-I",
-    "vendor/swift/include",
-    "-DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
-    "-DSWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "-fpermissive",
-    "-Wno-changes-meaning",
-    "-o",
-    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-CrashReporter.o",
-    "-c",
-    "vendor/swift/lib/Demangling/CrashReporter.cpp",
-    "..."
-  ],
-  "src": "vendor/swift/lib/Demangling/CrashReporter.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-CrashReporter.o",
-  "success": true,
-  "evidence_source": "process_exec_argv",
-  "recovered_from_process_exec": true,
-  "pid": 475778,
-  "ppid": 474151,
-  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
-  "root_cargo_pid": 469945,
-  "build_script_root_pid": 474151,
-  "build_script_related": true,
-  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
-  "_owner": {
-    "crate": "symbolic-demangle",
-    "version": "12.16.3",
-    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
-    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
-    "source": "cwd_prefix"
-  },
-  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
-  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
-  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
-  "_direct_build_script_child": true,
-  "_cwd_recovered_from_build_script_run": true
-}
-```
-
-#### Record 8
-
-```json
-{
-  "event": "compile",
   "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
   "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
   "argv": [
@@ -449,22 +1277,22 @@ _None._
     "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-D",
     "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "vendor/swift/lib/Demangling/NodeDumper.cpp",
+    "vendor/swift/lib/Demangling/NodePrinter.cpp",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
     "-dumpbase",
-    "9e67921832b6be5b-NodeDumper.cpp",
+    "9e67921832b6be5b-NodePrinter.cpp",
     "-dumpbase-ext",
     "..."
   ],
-  "src": "vendor/swift/lib/Demangling/NodeDumper.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodeDumper.o",
+  "src": "vendor/swift/lib/Demangling/NodePrinter.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodePrinter.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 477574,
-  "ppid": 477569,
+  "pid": 477785,
+  "ppid": 477783,
   "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "root_cargo_pid": 469945,
   "build_script_root_pid": 474151,
@@ -484,7 +1312,7 @@ _None._
 }
 ```
 
-#### Record 9
+#### Record 8
 
 ```json
 {
@@ -540,6 +1368,62 @@ _None._
 }
 ```
 
+#### Record 9
+
+```json
+{
+  "event": "compile",
+  "tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
+  "real_tool": "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
+  "argv": [
+    "/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1plus",
+    "-quiet",
+    "-I",
+    "vendor/swift/include",
+    "-imultilib",
+    ".",
+    "-imultiarch",
+    "riscv64-linux-gnu",
+    "-D_GNU_SOURCE",
+    "-D",
+    "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
+    "-D",
+    "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
+    "vendor/swift/lib/Demangling/Context.cpp",
+    "-quiet",
+    "-dumpdir",
+    "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
+    "-dumpbase",
+    "9e67921832b6be5b-Context.cpp",
+    "-dumpbase-ext",
+    "..."
+  ],
+  "src": "vendor/swift/lib/Demangling/Context.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Context.o",
+  "success": true,
+  "evidence_source": "process_exec_cc1_and_sibling_as",
+  "recovered_from_process_exec": true,
+  "pid": 475330,
+  "ppid": 475328,
+  "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "root_cargo_pid": 469945,
+  "build_script_root_pid": 474151,
+  "build_script_related": true,
+  "build_script_target_dir": "symbolic-demangle-adec670d1917b46e",
+  "_owner": {
+    "crate": "symbolic-demangle",
+    "version": "12.16.3",
+    "package_id": "path+file:///tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3#symbolic-demangle@12.16.3",
+    "manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+    "source": "cwd_prefix"
+  },
+  "_build_script_cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_manifest_dir": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
+  "_build_script_out_dir": "/target/debug/build/symbolic-demangle-adec670d1917b46e/out",
+  "_cwd_recovered_from_compiler_parent": true
+}
+```
+
 #### Record 10
 
 ```json
@@ -561,22 +1445,22 @@ _None._
     "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1",
     "-D",
     "SWIFT_STDLIB_HAS_TYPE_PRINTING=1",
-    "src/swiftdemangle.cpp",
+    "vendor/swift/lib/Demangling/NodeDumper.cpp",
     "-quiet",
     "-dumpdir",
     "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/",
     "-dumpbase",
-    "0602fb52cb66f316-swiftdemangle.cpp",
+    "9e67921832b6be5b-NodeDumper.cpp",
     "-dumpbase-ext",
     "..."
   ],
-  "src": "src/swiftdemangle.cpp",
-  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/0602fb52cb66f316-swiftdemangle.o",
+  "src": "vendor/swift/lib/Demangling/NodeDumper.cpp",
+  "output": "/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodeDumper.o",
   "success": true,
   "evidence_source": "process_exec_cc1_and_sibling_as",
   "recovered_from_process_exec": true,
-  "pid": 474430,
-  "ppid": 474428,
+  "pid": 477574,
+  "ppid": 477569,
   "cwd": "/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3",
   "root_cargo_pid": 469945,
   "build_script_root_pid": 474151,

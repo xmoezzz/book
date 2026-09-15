@@ -4,6 +4,3317 @@ Platform: Linux aarch64
 
 This file contains the unabridged evidence for the corresponding manual-coding case.
 
+## Root-owned build-level evidence
+
+### Network / source acquisition records
+
+_None._
+
+### pkg-config / pkgconf records
+
+_None._
+
+### Build-script executable native dependencies
+
+These records belong to linker steps that construct the Rust build-script executable. They are retained as coding evidence but are separate from produced native-artifact flows.
+
+### Build-script link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95/symbols.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0ab6rnhj7i4iq84n2ugvwqr9q.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0jte1qbmnly47iqlr8prrkokp.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0s6nd6y0ago5nbv8l1lshq5ab.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.18j2lz0papb5tp0s31qs2ytle.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1brkm7261q9g5cyorovo9s0y5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1d77dcvfveoq7nz0fcl64een5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1eth2zn4p1v8tdyujetrtmfmy.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1g0ce51ygbjq1x9p9rz1mj7ly.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1gle91ioaokhtzhdapu2lmb28.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1jq90plcbyb33z5am0ehokams.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1rdsn9p0yi2u5gfejchbngi1u.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.20j0uvlfypy4j3zpaujgannp9.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.31f7eueb9ut3lnf65ozdmze6l.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3gp3a1ynmgabfaf56d0m9sf0s.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3lysi13uu7m4an61faionfowg.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.41en49la9e32tsok95z0s74rp.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4947ighyosx6gvewjn4r95gns.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4j3rqepa0aonr5xh8k6kyd3dg.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4slkmaql7821lld2twodpw7rs.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5l0lva3jwuisfwn4drsscyo5v.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5ziw6jshw5phpzodbg4gy4z45.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.655tz4knkfqs1srs54en6lim7.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6b21jchmkevyig65dg9q4s7pl.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6hhoj71x419gc5n6r15pjr8t6.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6pconq5atxt67ltqn86vqutyc.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6vhqizi2tbvkjq5fb5e7479pz.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6zgytbtsyrf8qjx66l535njpj.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.756i5fu9esd2mq9yshybp3sjc.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7o7ya5s0bszfl6gj1hcayjdx5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7ro9rpu88j6bakft7jrx8scda.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.918hgi3gib0zb35ws722s66va.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9c31f5rx992wqspff1jisuxjj.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9hd69xgj0qvc4uzoqykz5y3zf.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9zw49j0q9wjo5ftspmei62exw.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.a9ainzmy5nwvnzpc4kjw3ydoo.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.abh9rxlczk406d7j4qu5a35gh.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ac80c0jngt52of1dabjwi4ylm.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.adnn2flwatatguanv126a4psa.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aexne1rksvxi9b4l97k4lx0tq.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.amggj38ml30icrelhf49p2q1w.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aoypft7q210mazrzighxpyk99.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.arna03gtvsk9gzp5nm08add8k.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.axvv7xky00z78px4gnlz1n8ia.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b0db6fongmff8kov3vt2ci3zu.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b5wz4z8bxjxkvs9xbb10qqis7.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b6wvlgre71vg53um2gn3u91gy.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b7ti6hs3k3y5hmew8j9lam6vb.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.c02o37uamn23tt92obak9zjde.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cagmlqo4a0card40khv29dwdu.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cde7135x1x5eop9dvmsmzotms.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.d93hs3xqprl2sett4pp0q5mrm.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.dr1tkn5on2laipojaxxapeu52.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.e6cbmezurd3ntfqdjautui497.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebla4wzacjxjtt0gyu1m4wtns.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebquv90yfrv2ftokwf9znctd1.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.eupmyc9q926foqiz6fqn9yoq4.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7af1op6t0z9nye7yar6cmefdf.1pvmci2.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/librustc_hash-4dbfd48eacc1fe41.rlib",
+    "/target/debug/deps/libregex-19ab0ea52c06b432.rlib",
+    "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib",
+    "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib",
+    "/target/debug/deps/liblazycell-ee5b7e5373392548.rlib",
+    "/target/debug/deps/libitertools-f2df5021fd3709a1.rlib",
+    "/target/debug/deps/libeither-464c7dac2fcc3274.rlib",
+    "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib",
+    "/target/debug/deps/libnom-8335cd971e70a818.rlib",
+    "/target/debug/deps/libmemchr-e21c03e8af1255d0.rlib",
+    "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib",
+    "/target/debug/deps/liblibloading-857e18bffb8f6dd7.rlib",
+    "/target/debug/deps/libcfg_if-595cd1fd9b5b1165.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libglob-9388cb1c80a1d539.rlib",
+    "/target/debug/deps/libsyn-486ef05f367d05e3.rlib",
+    "/target/debug/deps/libquote-1224ef05df06fb1b.rlib",
+    "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib",
+    "/target/debug/deps/libunicode_ident-2a4577d1de655b9f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/target/debug/deps/liblazy_static-16fab28a6111f0f1.rlib",
+    "/target/debug/deps/libbitflags-64384aa228de0361.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-ldl",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0",
+  "exit_code": 0,
+  "inputs": [
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95/symbols.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0ab6rnhj7i4iq84n2ugvwqr9q.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0jte1qbmnly47iqlr8prrkokp.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0s6nd6y0ago5nbv8l1lshq5ab.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.18j2lz0papb5tp0s31qs2ytle.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1brkm7261q9g5cyorovo9s0y5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1d77dcvfveoq7nz0fcl64een5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1eth2zn4p1v8tdyujetrtmfmy.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1g0ce51ygbjq1x9p9rz1mj7ly.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1gle91ioaokhtzhdapu2lmb28.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1jq90plcbyb33z5am0ehokams.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1rdsn9p0yi2u5gfejchbngi1u.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.20j0uvlfypy4j3zpaujgannp9.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.31f7eueb9ut3lnf65ozdmze6l.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3gp3a1ynmgabfaf56d0m9sf0s.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3lysi13uu7m4an61faionfowg.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.41en49la9e32tsok95z0s74rp.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4947ighyosx6gvewjn4r95gns.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4j3rqepa0aonr5xh8k6kyd3dg.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4slkmaql7821lld2twodpw7rs.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5l0lva3jwuisfwn4drsscyo5v.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5ziw6jshw5phpzodbg4gy4z45.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.655tz4knkfqs1srs54en6lim7.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6b21jchmkevyig65dg9q4s7pl.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6hhoj71x419gc5n6r15pjr8t6.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6pconq5atxt67ltqn86vqutyc.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6vhqizi2tbvkjq5fb5e7479pz.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6zgytbtsyrf8qjx66l535njpj.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.756i5fu9esd2mq9yshybp3sjc.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7o7ya5s0bszfl6gj1hcayjdx5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7ro9rpu88j6bakft7jrx8scda.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.918hgi3gib0zb35ws722s66va.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9c31f5rx992wqspff1jisuxjj.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9hd69xgj0qvc4uzoqykz5y3zf.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9zw49j0q9wjo5ftspmei62exw.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.a9ainzmy5nwvnzpc4kjw3ydoo.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.abh9rxlczk406d7j4qu5a35gh.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ac80c0jngt52of1dabjwi4ylm.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.adnn2flwatatguanv126a4psa.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aexne1rksvxi9b4l97k4lx0tq.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.amggj38ml30icrelhf49p2q1w.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aoypft7q210mazrzighxpyk99.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.arna03gtvsk9gzp5nm08add8k.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.axvv7xky00z78px4gnlz1n8ia.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b0db6fongmff8kov3vt2ci3zu.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b5wz4z8bxjxkvs9xbb10qqis7.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b6wvlgre71vg53um2gn3u91gy.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b7ti6hs3k3y5hmew8j9lam6vb.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.c02o37uamn23tt92obak9zjde.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cagmlqo4a0card40khv29dwdu.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cde7135x1x5eop9dvmsmzotms.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.d93hs3xqprl2sett4pp0q5mrm.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.dr1tkn5on2laipojaxxapeu52.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.e6cbmezurd3ntfqdjautui497.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebla4wzacjxjtt0gyu1m4wtns.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebquv90yfrv2ftokwf9znctd1.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.eupmyc9q926foqiz6fqn9yoq4.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7af1op6t0z9nye7yar6cmefdf.1pvmci2.rcgu.o"
+  ],
+  "kind": "link",
+  "lib_paths": [
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95/raw-dylibs",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib"
+  ],
+  "libs": [
+    "dl",
+    "gcc_s",
+    "util",
+    "rt",
+    "pthread",
+    "m",
+    "dl",
+    "c"
+  ],
+  "output": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec",
+  "shared": false,
+  "static_link": false,
+  "success": true,
+  "tool": "cc",
+  "_owner": {
+    "crate": "librocksdb-sys",
+    "version": "0.16.0+8.10.0",
+    "package_id": "path+file:///tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0#librocksdb-sys@0.16.0+8.10.0",
+    "manifest_dir": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
+### Build-script resolved-link records
+
+#### Record 1
+
+```json
+{
+  "argv": [
+    "cc",
+    "-m64",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95/symbols.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0ab6rnhj7i4iq84n2ugvwqr9q.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0jte1qbmnly47iqlr8prrkokp.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0s6nd6y0ago5nbv8l1lshq5ab.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.18j2lz0papb5tp0s31qs2ytle.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1brkm7261q9g5cyorovo9s0y5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1d77dcvfveoq7nz0fcl64een5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1eth2zn4p1v8tdyujetrtmfmy.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1g0ce51ygbjq1x9p9rz1mj7ly.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1gle91ioaokhtzhdapu2lmb28.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1jq90plcbyb33z5am0ehokams.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1rdsn9p0yi2u5gfejchbngi1u.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.20j0uvlfypy4j3zpaujgannp9.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.31f7eueb9ut3lnf65ozdmze6l.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3gp3a1ynmgabfaf56d0m9sf0s.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3lysi13uu7m4an61faionfowg.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.41en49la9e32tsok95z0s74rp.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4947ighyosx6gvewjn4r95gns.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4j3rqepa0aonr5xh8k6kyd3dg.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4slkmaql7821lld2twodpw7rs.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5l0lva3jwuisfwn4drsscyo5v.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5ziw6jshw5phpzodbg4gy4z45.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.655tz4knkfqs1srs54en6lim7.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6b21jchmkevyig65dg9q4s7pl.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6hhoj71x419gc5n6r15pjr8t6.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6pconq5atxt67ltqn86vqutyc.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6vhqizi2tbvkjq5fb5e7479pz.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6zgytbtsyrf8qjx66l535njpj.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.756i5fu9esd2mq9yshybp3sjc.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7o7ya5s0bszfl6gj1hcayjdx5.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7ro9rpu88j6bakft7jrx8scda.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.918hgi3gib0zb35ws722s66va.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9c31f5rx992wqspff1jisuxjj.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9hd69xgj0qvc4uzoqykz5y3zf.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9zw49j0q9wjo5ftspmei62exw.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.a9ainzmy5nwvnzpc4kjw3ydoo.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.abh9rxlczk406d7j4qu5a35gh.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ac80c0jngt52of1dabjwi4ylm.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.adnn2flwatatguanv126a4psa.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aexne1rksvxi9b4l97k4lx0tq.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.amggj38ml30icrelhf49p2q1w.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aoypft7q210mazrzighxpyk99.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.arna03gtvsk9gzp5nm08add8k.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.axvv7xky00z78px4gnlz1n8ia.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b0db6fongmff8kov3vt2ci3zu.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b5wz4z8bxjxkvs9xbb10qqis7.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b6wvlgre71vg53um2gn3u91gy.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b7ti6hs3k3y5hmew8j9lam6vb.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.c02o37uamn23tt92obak9zjde.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cagmlqo4a0card40khv29dwdu.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cde7135x1x5eop9dvmsmzotms.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.d93hs3xqprl2sett4pp0q5mrm.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.dr1tkn5on2laipojaxxapeu52.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.e6cbmezurd3ntfqdjautui497.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebla4wzacjxjtt0gyu1m4wtns.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebquv90yfrv2ftokwf9znctd1.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.eupmyc9q926foqiz6fqn9yoq4.1pvmci2.rcgu.o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7af1op6t0z9nye7yar6cmefdf.1pvmci2.rcgu.o",
+    "-Wl,--as-needed",
+    "-Wl,-Bstatic",
+    "/target/debug/deps/libcc-56811999bf1868bb.rlib",
+    "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib",
+    "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib",
+    "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib",
+    "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib",
+    "/target/debug/deps/libshlex-9d2fae39757f538b.rlib",
+    "/target/debug/deps/librustc_hash-4dbfd48eacc1fe41.rlib",
+    "/target/debug/deps/libregex-19ab0ea52c06b432.rlib",
+    "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib",
+    "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib",
+    "/target/debug/deps/liblazycell-ee5b7e5373392548.rlib",
+    "/target/debug/deps/libitertools-f2df5021fd3709a1.rlib",
+    "/target/debug/deps/libeither-464c7dac2fcc3274.rlib",
+    "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib",
+    "/target/debug/deps/libnom-8335cd971e70a818.rlib",
+    "/target/debug/deps/libmemchr-e21c03e8af1255d0.rlib",
+    "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib",
+    "/target/debug/deps/liblibloading-857e18bffb8f6dd7.rlib",
+    "/target/debug/deps/libcfg_if-595cd1fd9b5b1165.rlib",
+    "/target/debug/deps/liblibc-32a9bea892533c7a.rlib",
+    "/target/debug/deps/libglob-9388cb1c80a1d539.rlib",
+    "/target/debug/deps/libsyn-486ef05f367d05e3.rlib",
+    "/target/debug/deps/libquote-1224ef05df06fb1b.rlib",
+    "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib",
+    "/target/debug/deps/libunicode_ident-2a4577d1de655b9f.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-f3a22ebee540a516.rlib",
+    "/target/debug/deps/liblazy_static-16fab28a6111f0f1.rlib",
+    "/target/debug/deps/libbitflags-64384aa228de0361.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-0ce073fff809ec38.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-5bc57914b232292d.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-545faafa3c69262e.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-5b1ad6df1855186c.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-75c1307561ed9634.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib",
+    "-Wl,-Bdynamic",
+    "-ldl",
+    "-lgcc_s",
+    "-lutil",
+    "-lrt",
+    "-lpthread",
+    "-lm",
+    "-ldl",
+    "-lc",
+    "-L",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95/raw-dylibs",
+    "-B/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/bin/gcc-ld",
+    "-fuse-ld=lld",
+    "-Wl,--eh-frame-hdr",
+    "-Wl,-z,noexecstack",
+    "-L",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "-o",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec",
+    "-Wl,--gc-sections",
+    "-pie",
+    "-Wl,-z,relro,-z,now",
+    "-nodefaultlibs"
+  ],
+  "cwd": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0",
+  "directories": [
+    "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+    "/usr/lib/gcc/x86_64-linux-gnu/9",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95",
+    "/target/debug/build/librocksdb-sys-6c890922702043ec",
+    "/target/debug/deps",
+    "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+    "/lib/x86_64-linux-gnu",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/dc9e4            dc9e4       30     4         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/e256c            e256c       18     4         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/ee254            ee254       18     4         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/ee26c            ee26c       18     4         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/1164b0           1164b0       24     4         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343dd0           343dd0       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343e20           343e20       4d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343e70           343e70       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343ec0           343ec0       96    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343f60           343f60       91    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/344000           344000       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/378240           378240        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/378250           378250        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/37ddc0           37ddc0        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cec90           3cec90        9    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3ceca0           3ceca0        9    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cecb0           3cecb0        9    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cecc0           3cecc0        9    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cf800           3cf800       4d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cf850           3cf850       6f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3d8430           3d8430       67    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3d8520           3d8520      205    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/43f030           43f030       14    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/43f050           43f050       1b    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44dce0           44dce0       e1    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44ddd0           44ddd0       d5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44deb0           44deb0       d3    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44e080           44e080        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44e090           44e090        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4600c0           4600c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4600d0           4600d0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4602f0           4602f0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/460300           460300        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461470           461470        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461570           461570        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4619a0           4619a0       38    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461a70           461a70       38    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461f50           461f50       11    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461f90           461f90       11    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/465da0           465da0       61    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/466dd0           466dd0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467800           467800        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467820           467820        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467bb0           467bb0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/46c2c0           46c2c0        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/47b210           47b210        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fb50           48fb50       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fbd0           48fbd0       74    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fc50           48fc50       6f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a6020           4a6020       4e    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a6070           4a6070       3c    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a60b0           4a60b0       26    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a60e0           4a60e0       26    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4c8ae0           4c8ae0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4effc0           4effc0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4fe840           4fe840       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4fe890           4fe890       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/51ea10           51ea10       d5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/51eb00           51eb00       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/52d240           52d240        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/52d350           52d350        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/535230           535230        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572310           572310       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572360           572360       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5723b0           5723b0       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572400           572400       92    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5724a0           5724a0       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572540           572540       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/581bc0           581bc0        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/581bd0           581bd0        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588680           588680        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588870           588870        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5888c0           5888c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5888f0           5888f0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588990           588990        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588a50           588a50       59    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588ab0           588ab0       61    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588e10           588e10        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588e20           588e20        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588f00           588f00        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588f40           588f40        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/589770           589770        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5898b0           5898b0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/58b8a0           58b8a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594d60           594d60       70    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594dd0           594dd0       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594e50           594e50       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5afa90           5afa90        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db3f0           5db3f0       11    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db410           5db410       38    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db450           5db450       20    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db470           5db470       29    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5ed0d0           5ed0d0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5ed0e0           5ed0e0       26    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2c70           5f2c70       de    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2d50           5f2d50       d5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2e30           5f2e30       d3    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/716c10           716c10        5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71c440           71c440       4f    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71c490           71c490       93    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71d2d0           71d2d0       71    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7208a0           7208a0       d5    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7220d0           7220d0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7220e0           7220e0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a590           84a590        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5a0           84a5a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5c0           84a5c0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5d0           84a5d0       3e    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a620           84a620        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a630           84a630        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a6a0           84a6a0       99    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a8a0           84a8a0        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a910           84a910        d    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e470           84e470       59    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e4d0           84e4d0       52    16         /target/debug/deps",
+    "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e530           84e530       30    16         /target/debug/deps"
+  ],
+  "exit_code": 0,
+  "inputs": [
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/rustcumft95/symbols.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0ab6rnhj7i4iq84n2ugvwqr9q.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0jte1qbmnly47iqlr8prrkokp.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.0s6nd6y0ago5nbv8l1lshq5ab.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.18j2lz0papb5tp0s31qs2ytle.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1brkm7261q9g5cyorovo9s0y5.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1d77dcvfveoq7nz0fcl64een5.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1eth2zn4p1v8tdyujetrtmfmy.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1g0ce51ygbjq1x9p9rz1mj7ly.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1gle91ioaokhtzhdapu2lmb28.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1jq90plcbyb33z5am0ehokams.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.1rdsn9p0yi2u5gfejchbngi1u.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.20j0uvlfypy4j3zpaujgannp9.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.31f7eueb9ut3lnf65ozdmze6l.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3gp3a1ynmgabfaf56d0m9sf0s.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.3lysi13uu7m4an61faionfowg.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.41en49la9e32tsok95z0s74rp.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4947ighyosx6gvewjn4r95gns.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4j3rqepa0aonr5xh8k6kyd3dg.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.4slkmaql7821lld2twodpw7rs.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5l0lva3jwuisfwn4drsscyo5v.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.5ziw6jshw5phpzodbg4gy4z45.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.655tz4knkfqs1srs54en6lim7.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6b21jchmkevyig65dg9q4s7pl.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6hhoj71x419gc5n6r15pjr8t6.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6pconq5atxt67ltqn86vqutyc.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6vhqizi2tbvkjq5fb5e7479pz.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.6zgytbtsyrf8qjx66l535njpj.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.756i5fu9esd2mq9yshybp3sjc.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7o7ya5s0bszfl6gj1hcayjdx5.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7ro9rpu88j6bakft7jrx8scda.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.918hgi3gib0zb35ws722s66va.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9c31f5rx992wqspff1jisuxjj.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9hd69xgj0qvc4uzoqykz5y3zf.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.9zw49j0q9wjo5ftspmei62exw.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.a9ainzmy5nwvnzpc4kjw3ydoo.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.abh9rxlczk406d7j4qu5a35gh.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ac80c0jngt52of1dabjwi4ylm.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.adnn2flwatatguanv126a4psa.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aexne1rksvxi9b4l97k4lx0tq.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.amggj38ml30icrelhf49p2q1w.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.aoypft7q210mazrzighxpyk99.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.arna03gtvsk9gzp5nm08add8k.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.axvv7xky00z78px4gnlz1n8ia.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b0db6fongmff8kov3vt2ci3zu.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b5wz4z8bxjxkvs9xbb10qqis7.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b6wvlgre71vg53um2gn3u91gy.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.b7ti6hs3k3y5hmew8j9lam6vb.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.c02o37uamn23tt92obak9zjde.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cagmlqo4a0card40khv29dwdu.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.cde7135x1x5eop9dvmsmzotms.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.d93hs3xqprl2sett4pp0q5mrm.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.dr1tkn5on2laipojaxxapeu52.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.e6cbmezurd3ntfqdjautui497.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebla4wzacjxjtt0gyu1m4wtns.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.ebquv90yfrv2ftokwf9znctd1.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.eupmyc9q926foqiz6fqn9yoq4.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/build/librocksdb-sys-6c890922702043ec",
+      "kind": "object",
+      "path": "/target/debug/build/librocksdb-sys-6c890922702043ec/build_script_build-6c890922702043ec.7af1op6t0z9nye7yar6cmefdf.1pvmci2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcc-56811999bf1868bb.rlib(cc-56811999bf1868bb.cc.4312a4e699c02abf-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libfind_msvc_tools-60e3732174de9068.rlib(find_msvc_tools-60e3732174de9068.find_msvc_tools.ede48c3253d6796d-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libjobserver-d7000c5cfc455764.rlib(jobserver-d7000c5cfc455764.jobserver.e26b70ac81c79986-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-f2fa52250b1d670f.rlib(shlex-f2fa52250b1d670f.shlex.352c8e657ac65ae8-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libshlex-9d2fae39757f538b.rlib(shlex-9d2fae39757f538b.shlex.1ceebad2f47cb4e6-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex-19ab0ea52c06b432.rlib(regex-19ab0ea52c06b432.regex.229d7342ee8d6d75-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex-19ab0ea52c06b432.rlib(regex-19ab0ea52c06b432.regex.229d7342ee8d6d75-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib(cexpr-c0ab9d23ba47c2ba.cexpr.3dbe0d0240675326-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib(cexpr-c0ab9d23ba47c2ba.cexpr.3dbe0d0240675326-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib(cexpr-c0ab9d23ba47c2ba.cexpr.3dbe0d0240675326-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib(cexpr-c0ab9d23ba47c2ba.cexpr.3dbe0d0240675326-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib(cexpr-c0ab9d23ba47c2ba.cexpr.3dbe0d0240675326-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib(cexpr-c0ab9d23ba47c2ba.cexpr.3dbe0d0240675326-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libcexpr-c0ab9d23ba47c2ba.rlib(cexpr-c0ab9d23ba47c2ba.cexpr.3dbe0d0240675326-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnom-8335cd971e70a818.rlib(nom-8335cd971e70a818.nom.2edac3ccafe32b15-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libnom-8335cd971e70a818.rlib(nom-8335cd971e70a818.nom.2edac3ccafe32b15-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-e21c03e8af1255d0.rlib(memchr-e21c03e8af1255d0.memchr.abff6636eb0366d4-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-e21c03e8af1255d0.rlib(memchr-e21c03e8af1255d0.memchr.abff6636eb0366d4-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-e21c03e8af1255d0.rlib(memchr-e21c03e8af1255d0.memchr.abff6636eb0366d4-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libmemchr-e21c03e8af1255d0.rlib(memchr-e21c03e8af1255d0.memchr.abff6636eb0366d4-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libclang_sys-3a2c1b9a76497d05.rlib(clang_sys-3a2c1b9a76497d05.clang_sys.d8a02deb81688442-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/liblibloading-857e18bffb8f6dd7.rlib(libloading-857e18bffb8f6dd7.libloading.963af063b8ae71f-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.00.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.01.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.02.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.03.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.04.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.05.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.06.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.07.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.08.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.09.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.10.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.11.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.12.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.13.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.14.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libsyn-486ef05f367d05e3.rlib(syn-486ef05f367d05e3.syn.2b166b03c0b42cff-cgu.15.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.1.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.2.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.3.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.4.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.5.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.6.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.7.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libproc_macro2-e61e4ce4e015d626.rlib(proc_macro2-e61e4ce4e015d626.proc_macro2.178d98084a028f64-cgu.8.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libunicode_ident-2a4577d1de655b9f.rlib(unicode_ident-2a4577d1de655b9f.unicode_ident.b7059f6c374da03-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-9a3b801af650b923.rlib(proc_macro-9a3b801af650b923.proc_macro.bfe8d0f5e0c53783-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "object",
+      "path": "/target/debug/deps/libbitflags-64384aa228de0361.rlib(bitflags-64384aa228de0361.bitflags.4e44fcf973a03c96-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-d1237ef7159db0a2.rlib(std-d1237ef7159db0a2.std.e28293b1aa0f68bd-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-4be5972b22d3a6da.rlib(panic_unwind-4be5972b22d3a6da.panic_unwind.d9b2f7d287d2f9d2-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libobject-2a81194c9d07bbf6.rlib(object-2a81194c9d07bbf6.object.4f4cc23e276cbdd5-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ea71fa85f6699d6b.rlib(memchr-ea71fa85f6699d6b.memchr.9642f0ce76a98c65-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-a79a8816d9fd6004.rlib(addr2line-a79a8816d9fd6004.addr2line.39b02397e671b2d1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-46dc78dc6a8cb06a.rlib(gimli-46dc78dc6a8cb06a.gimli.9d272e8433f81454-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-146c3f1190dee2e2.rlib(rustc_demangle-146c3f1190dee2e2.rustc_demangle.c5a78273c295e539-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-e305c7135f50bfab.rlib(std_detect-e305c7135f50bfab.std_detect.4859ea97f15b1179-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-1448c95121de53aa.rlib(hashbrown-1448c95121de53aa.hashbrown.c0386ddbfadcbbc1-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-5ad929a15a8e6727.rlib(miniz_oxide-5ad929a15a8e6727.miniz_oxide.b662226d77c6ee8e-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-1f570ee5c6635aae.rlib(adler2-1f570ee5c6635aae.adler2.1d6706876a417dbf-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-6e6df4ffe0af4d15.rlib(alloc-6e6df4ffe0af4d15.alloc.fdfd2bd8633a6659-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-120cbae4e86ec454.rlib(core-120cbae4e86ec454.core.c1f1a4ba060b9bfa-cgu.0.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.132.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.139.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.022.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.109.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.005.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.187.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.201.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib",
+      "kind": "object",
+      "path": "/home/xmoe/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-27cfc16bdf3bb694.rlib(compiler_builtins-27cfc16bdf3bb694.compiler_builtins.4e30281dd23088d2-cgu.261.rcgu.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libm.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libmvec.so.1",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/libc.so.6",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/lib/x86_64-linux-gnu",
+      "kind": "dynamic_library",
+      "path": "/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu",
+      "kind": "object",
+      "path": "/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o",
+      "source": "link_trace"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/dc9e4            dc9e4       30     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/dc9e4            dc9e4       30     4         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.gcc_except_table._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h748a565f6635eae1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.gcc_except_table._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h748a565f6635eae1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/e256c            e256c       18     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/e256c            e256c       18     4         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.gcc_except_table._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1cb96156c9dd2ffaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.gcc_except_table._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1cb96156c9dd2ffaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/ee254            ee254       18     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/ee254            ee254       18     4         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.gcc_except_table._ZN4core3ptr128drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$$GT$17h538453d09c980936E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.gcc_except_table._ZN4core3ptr128drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$$GT$17h538453d09c980936E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/ee26c            ee26c       18     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/ee26c            ee26c       18     4         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.gcc_except_table._ZN4core3ptr130drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$$GT$17h7c5febaec44303f4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.gcc_except_table._ZN4core3ptr130drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$$GT$17h7c5febaec44303f4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/1164b0           1164b0       24     4         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/1164b0           1164b0       24     4         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha3d8aab6b9d3430eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.gcc_except_table._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha3d8aab6b9d3430eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343dd0           343dd0       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343dd0           343dd0       4f    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hb25e7ac758e39827E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hb25e7ac758e39827E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343e20           343e20       4d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343e20           343e20       4d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hed681739479848eaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hed681739479848eaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343e70           343e70       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343e70           343e70       4f    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hfe1ae09e81104a5aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hfe1ae09e81104a5aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343ec0           343ec0       96    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343ec0           343ec0       96    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h124302ff906746bbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h124302ff906746bbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343f60           343f60       91    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/343f60           343f60       91    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h34a1e72e94a2df29E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h34a1e72e94a2df29E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/344000           344000       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/344000           344000       93    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h72fef5f8d2407d88E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.01.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h72fef5f8d2407d88E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/378240           378240        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/378240           378240        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.05.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h15570259c339a14aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.05.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h15570259c339a14aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/378250           378250        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/378250           378250        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.05.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hfd425b4c4d6f0399E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.05.rcgu.o):(.text._ZN109_$LT$core..iter..adapters..filter_map..FilterMap$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hfd425b4c4d6f0399E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/37ddc0           37ddc0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/37ddc0           37ddc0        5    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hda5b8faa5a3824cbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.05.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hda5b8faa5a3824cbE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cec90           3cec90        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cec90           3cec90        9    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h2898b64881abeed7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h2898b64881abeed7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3ceca0           3ceca0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3ceca0           3ceca0        9    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hd019a6ef0fb37607E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hd019a6ef0fb37607E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cecb0           3cecb0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cecb0           3cecb0        9    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf0d7c2f978be673fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hf0d7c2f978be673fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cecc0           3cecc0        9    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cecc0           3cecc0        9    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hfb0f545cac461dfaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.06.rcgu.o):(.text._ZN97_$LT$alloc..vec..into_iter..IntoIter$LT$T$C$A$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hfb0f545cac461dfaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cf800           3cf800       4d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cf800           3cf800       4d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$14visit_file_mut17hc0961f65ddf60707E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$14visit_file_mut17hc0961f65ddf60707E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cf850           3cf850       6f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3cf850           3cf850       6f    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$18visit_item_mod_mut17h9018818515c80646E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN110_$LT$bindgen..codegen..postprocessing..sort_semantically..Visitor$u20$as$u20$syn..gen..visit_mut..VisitMut$GT$18visit_item_mod_mut17h9018818515c80646E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3d8430           3d8430       67    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3d8430           3d8430       67    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN67_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Debug$GT$3fmt17h3887cb34f72e02a6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN67_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Debug$GT$3fmt17h3887cb34f72e02a6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3d8520           3d8520      205    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/3d8520           3d8520      205    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h748a565f6635eae1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.07.rcgu.o):(.text._ZN69_$LT$bindgen..clang..SourceLocation$u20$as$u20$core..fmt..Display$GT$3fmt17h748a565f6635eae1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/43f030           43f030       14    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/43f030           43f030       14    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hd87495a3dadb7cb1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hd87495a3dadb7cb1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/43f050           43f050       1b    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/43f050           43f050       1b    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h669c2978eecba1b0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.09.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h669c2978eecba1b0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44dce0           44dce0       e1    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44dce0           44dce0       e1    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h1d40073c3c08b9f9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h1d40073c3c08b9f9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44ddd0           44ddd0       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44ddd0           44ddd0       d5    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h52627489ced76960E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h52627489ced76960E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44deb0           44deb0       d3    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44deb0           44deb0       d3    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h9b02715b62269ef2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h9b02715b62269ef2E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44e080           44e080        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44e080           44e080        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h149f40a1edf57fefE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h149f40a1edf57fefE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44e090           44e090        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/44e090           44e090        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h196d7cd6c3e14c12E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.10.rcgu.o):(.text._ZN96_$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h196d7cd6c3e14c12E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4600c0           4600c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4600c0           4600c0        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17hdea08b5b09586e21E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17hdea08b5b09586e21E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4600d0           4600d0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4600d0           4600d0        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$bindgen..ir..context..ItemId$GT$$GT$17h178a70bf2dd97051E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr101drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$bindgen..ir..context..ItemId$GT$$GT$17h178a70bf2dd97051E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4602f0           4602f0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4602f0           4602f0        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h48c4f4826190ae17E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$alloc..boxed..Box$LT$str$GT$$GT$$GT$17h48c4f4826190ae17E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/460300           460300        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/460300           460300        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$bindgen..ir..context..ItemId$GT$$GT$17h8222665996fde8bcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr105drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$bindgen..ir..context..ItemId$GT$$GT$17h8222665996fde8bcE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461470           461470        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461470           461470        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr175drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$17h7c46600aa49fba6aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr175drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$17h7c46600aa49fba6aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461570           461570        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461570           461570        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr179drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$17h5176d629a2d74b9dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr179drop_in_place$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$17h5176d629a2d74b9dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4619a0           4619a0       38    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4619a0           4619a0       38    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr203drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$$GT$17hbca03dee08b0a695E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr203drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$GT$$GT$17hbca03dee08b0a695E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461a70           461a70       38    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461a70           461a70       38    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr207drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$$GT$17h186fc1196e464cbdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr207drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$GT$$GT$17h186fc1196e464cbdE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461f50           461f50       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461f50           461f50       11    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr311drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$17hc84a846b2454223fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr311drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$17hc84a846b2454223fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461f90           461f90       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/461f90           461f90       11    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr317drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$GT$17h5a0679ec6c8c4973E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr317drop_in_place$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$GT$17h5a0679ec6c8c4973E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/465da0           465da0       61    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/465da0           465da0       61    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1cb96156c9dd2ffaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr648drop_in_place$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$GT$17h1cb96156c9dd2ffaE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/466dd0           466dd0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/466dd0           466dd0        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr777drop_in_place$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17hf0f7612e95231df0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr777drop_in_place$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17hf0f7612e95231df0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467800           467800        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467800           467800        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr88drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..item..Item$GT$$GT$17hb98e77740e1029aeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr88drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$syn..item..Item$GT$$GT$17hb98e77740e1029aeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467820           467820        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467820           467820        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr893drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h57859ece890d5d66E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr893drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..take_while..TakeWhile$LT$core..iter..adapters..zip..Zip$LT$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Cursor$GT$$C$core..option..Option$LT$bindgen..clang..Cursor$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Cursor$GT$$GT$$GT$$C$core..iter..adapters..chain..Chain$LT$core..iter..adapters..map..Map$LT$alloc..vec..into_iter..IntoIter$LT$bindgen..clang..Type$GT$$C$core..option..Option$LT$bindgen..clang..Type$GT$..Some$GT$$C$core..iter..sources..repeat..Repeat$LT$core..option..Option$LT$bindgen..clang..Type$GT$$GT$$GT$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$bindgen..ir..function..args_from_ty_and_cursor..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17h57859ece890d5d66E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467bb0           467bb0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/467bb0           467bb0        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr92drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..item..Item$GT$$GT$17hfe3b3c910d9bd7b5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN4core3ptr92drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$syn..item..Item$GT$$GT$17hfe3b3c910d9bd7b5E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/46c2c0           46c2c0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/46c2c0           46c2c0        5    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h56cb34e3b97bd3e4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.11.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h56cb34e3b97bd3e4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/47b210           47b210        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/47b210           47b210        5    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h3afac957438a182eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h3afac957438a182eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fb50           48fb50       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fb50           48fb50       71    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h7395cc7a48339928E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h7395cc7a48339928E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fbd0           48fbd0       74    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fbd0           48fbd0       74    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hab91c3ec723f284fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hab91c3ec723f284fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fc50           48fc50       6f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/48fc50           48fc50       6f    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbf89144468abd021E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.12.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hbf89144468abd021E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a6020           4a6020       4e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a6020           4a6020       4e    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h1f3857a1bf70f898E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h1f3857a1bf70f898E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a6070           4a6070       3c    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a6070           4a6070       3c    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h4df917f723abea7bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h4df917f723abea7bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a60b0           4a60b0       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a60b0           4a60b0       26    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h7b74e16859b2c49bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h7b74e16859b2c49bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a60e0           4a60e0       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4a60e0           4a60e0       26    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h9deef0d5d770e878E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h9deef0d5d770e878E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4c8ae0           4c8ae0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4c8ae0           4c8ae0        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.15.rcgu.o):(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hadca6f95bc32dbc8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.15.rcgu.o):(.text._ZN102_$LT$core..iter..adapters..filter..Filter$LT$I$C$P$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17hadca6f95bc32dbc8E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4effc0           4effc0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4effc0           4effc0        d    16         /target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.15.rcgu.o):(.text._ZN94_$LT$core..iter..adapters..skip..Skip$LT$I$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h7f04eb32e4e3790fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libbindgen-06ca262e4ab477d2.rlib(bindgen-06ca262e4ab477d2.bindgen.3c6a318ee62e70a8-cgu.15.rcgu.o):(.text._ZN94_$LT$core..iter..adapters..skip..Skip$LT$I$GT$$u20$as$u20$core..iter..adapters..SourceIter$GT$8as_inner17h7f04eb32e4e3790fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4fe840           4fe840       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4fe840           4fe840       4f    16         /target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17ha66b19f59e501a83E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17ha66b19f59e501a83E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4fe890           4fe890       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/4fe890           4fe890       93    16         /target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hb8b7d166b7881a70E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hb8b7d166b7881a70E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/51ea10           51ea10       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/51ea10           51ea10       d5    16         /target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h6e7dd9af1aeab9bfE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.04.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h6e7dd9af1aeab9bfE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/51eb00           51eb00       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/51eb00           51eb00       71    16         /target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.04.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hf0e5e7e36b5d5d16E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.04.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hf0e5e7e36b5d5d16E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/52d240           52d240        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/52d240           52d240        d    16         /target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.07.rcgu.o):(.text._ZN4core3ptr108drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h8d04ba046284f94eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.07.rcgu.o):(.text._ZN4core3ptr108drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h8d04ba046284f94eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/52d350           52d350        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/52d350           52d350        d    16         /target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.07.rcgu.o):(.text._ZN4core3ptr112drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h42a258beaf6e78acE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.07.rcgu.o):(.text._ZN4core3ptr112drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..literal..Literal$GT$$GT$17h42a258beaf6e78acE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/535230           535230        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/535230           535230        5    16         /target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h09c85e6705d74590E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_automata-11dbbeac71599fae.rlib(regex_automata-11dbbeac71599fae.regex_automata.b8fa5692f6e55a1b-cgu.08.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17h09c85e6705d74590E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572310           572310       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572310           572310       4f    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h57eb01ce8d55e2a3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h57eb01ce8d55e2a3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572360           572360       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572360           572360       4f    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h69032b0396eb1554E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17h69032b0396eb1554E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5723b0           5723b0       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5723b0           5723b0       4f    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbcf9b2af7542c363E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hbcf9b2af7542c363E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572400           572400       92    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572400           572400       92    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h81d0e7836499074cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h81d0e7836499074cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5724a0           5724a0       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5724a0           5724a0       93    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h91454a699905414bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h91454a699905414bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572540           572540       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/572540           572540       93    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hff13d7dcdb9299c1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.00.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17hff13d7dcdb9299c1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/581bc0           581bc0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/581bc0           581bc0        5    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hc52d60fed71a14a0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hc52d60fed71a14a0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/581bd0           581bd0        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/581bd0           581bd0        5    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd8e9e9e2104bf255E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.01.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd8e9e9e2104bf255E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588680           588680        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588680           588680        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr100drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..ast..Span$GT$$GT$17hb10adde15fef57ffE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr100drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..ast..Span$GT$$GT$17hb10adde15fef57ffE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588870           588870        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588870           588870        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17h3a2f4fda6d79e1f9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr107drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17h3a2f4fda6d79e1f9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5888c0           5888c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5888c0           5888c0        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr109drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h10434085a96b4bf3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr109drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h10434085a96b4bf3E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5888f0           5888f0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5888f0           5888f0        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17h661e888e1315e087E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr111drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$17h661e888e1315e087E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588990           588990        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588990           588990        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr113drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h7b1919ebb72fed16E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr113drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$17h7b1919ebb72fed16E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588a50           588a50       59    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588a50           588a50       59    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr128drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$$GT$17h538453d09c980936E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr128drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$$GT$17h538453d09c980936E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588ab0           588ab0       61    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588ab0           588ab0       61    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr130drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$$GT$17h7c5febaec44303f4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr130drop_in_place$LT$alloc..vec..splice..Splice$LT$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$$GT$17h7c5febaec44303f4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588e10           588e10        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588e10           588e10        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr216drop_in_place$LT$alloc..vec..Vec$LT$regex_syntax..hir..ClassBytesRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h58b7674e44d52ec4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr216drop_in_place$LT$alloc..vec..Vec$LT$regex_syntax..hir..ClassBytesRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h58b7674e44d52ec4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588e20           588e20        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588e20           588e20        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr220drop_in_place$LT$alloc..vec..Vec$LT$regex_syntax..hir..ClassUnicodeRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h877f25c85f5e4584E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr220drop_in_place$LT$alloc..vec..Vec$LT$regex_syntax..hir..ClassUnicodeRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h877f25c85f5e4584E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588f00           588f00        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588f00           588f00        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassBytesRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassBytesRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h11338e0c37dd4243E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassBytesRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassBytesRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h11338e0c37dd4243E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588f40           588f40        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/588f40           588f40        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr350drop_in_place$LT$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassUnicodeRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassUnicodeRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h7ebe048a3637eb8cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr350drop_in_place$LT$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassUnicodeRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassUnicodeRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h7ebe048a3637eb8cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/589770           589770        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/589770           589770        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr496drop_in_place$LT$core..ops..try_trait..NeverShortCircuit$LT$$LP$$RP$$GT$..wrap_mut_2$LT$$LP$$RP$$C$regex_syntax..hir..ClassBytesRange$C$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassBytesRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassBytesRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h232892219629dde9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr496drop_in_place$LT$core..ops..try_trait..NeverShortCircuit$LT$$LP$$RP$$GT$..wrap_mut_2$LT$$LP$$RP$$C$regex_syntax..hir..ClassBytesRange$C$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassBytesRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassBytesRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassBytesRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h232892219629dde9E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5898b0           5898b0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5898b0           5898b0        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr504drop_in_place$LT$core..ops..try_trait..NeverShortCircuit$LT$$LP$$RP$$GT$..wrap_mut_2$LT$$LP$$RP$$C$regex_syntax..hir..ClassUnicodeRange$C$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassUnicodeRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassUnicodeRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17hba593c98a3983499E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr504drop_in_place$LT$core..ops..try_trait..NeverShortCircuit$LT$$LP$$RP$$GT$..wrap_mut_2$LT$$LP$$RP$$C$regex_syntax..hir..ClassUnicodeRange$C$core..iter..traits..iterator..Iterator..for_each..call$LT$regex_syntax..hir..ClassUnicodeRange$C$alloc..vec..Vec$LT$regex_syntax..hir..ClassUnicodeRange$GT$..extend_trusted$LT$$RF$mut$u20$core..iter..sources..once..Once$LT$regex_syntax..hir..ClassUnicodeRange$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17hba593c98a3983499E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/58b8a0           58b8a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/58b8a0           58b8a0        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr96drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..ast..Span$GT$$GT$17h9347578822d72f45E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.02.rcgu.o):(.text._ZN4core3ptr96drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$regex_syntax..ast..Span$GT$$GT$17h9347578822d72f45E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594d60           594d60       70    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594d60           594d60       70    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.03.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h69d045739ecf44eeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.03.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h69d045739ecf44eeE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594dd0           594dd0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594dd0           594dd0       71    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.03.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hdf1ce185b245357fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.03.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hdf1ce185b245357fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594e50           594e50       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/594e50           594e50       71    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.03.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hfe1b7fad620a1297E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.03.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hfe1b7fad620a1297E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5afa90           5afa90        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5afa90           5afa90        5    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.07.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hb08eccace2a0fd54E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.07.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hb08eccace2a0fd54E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db3f0           5db3f0       11    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db3f0           5db3f0       11    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h6de1cdd8b01a8d2aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h6de1cdd8b01a8d2aE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db410           5db410       38    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db410           5db410       38    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17he0ba3cacdbc5d013E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17he0ba3cacdbc5d013E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db450           5db450       20    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db450           5db450       20    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h49a89ad607a2c2c4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h49a89ad607a2c2c4E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db470           5db470       29    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5db470           5db470       29    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hdbfc4125ae2e29ceE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.11.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17hdbfc4125ae2e29ceE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5ed0d0           5ed0d0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5ed0d0           5ed0d0        d    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hf9fdf52c9c685277E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17hf9fdf52c9c685277E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5ed0e0           5ed0e0       26    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5ed0e0           5ed0e0       26    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h96edf907e8d62e3cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN103_$LT$core..iter..sources..repeat..Repeat$LT$A$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h96edf907e8d62e3cE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2c70           5f2c70       de    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2c70           5f2c70       de    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h06a25486553904a0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h06a25486553904a0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2d50           5f2d50       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2d50           5f2d50       d5    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8377ad94489bed8fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h8377ad94489bed8fE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2e30           5f2e30       d3    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/5f2e30           5f2e30       d3    16         /target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc2f2a4f26acf1a5eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libregex_syntax-1dd7d9fc8336f07c.rlib(regex_syntax-1dd7d9fc8336f07c.regex_syntax.c92b0856be46f593-cgu.14.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17hc2f2a4f26acf1a5eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/716c10           716c10        5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/716c10           716c10        5    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd057598450f28db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.0.rcgu.o):(.text._ZN68_$LT$T$u20$as$u20$core..slice..sort..stable..quicksort..IsFreeze$GT$9is_freeze17hd057598450f28db1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71c440           71c440       4f    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71c440           71c440       4f    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hccc409fbe5d9c588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$13with_capacity17hccc409fbe5d9c588E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71c490           71c490       93    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71c490           71c490       93    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h2fb88c1a269c33e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN5alloc5slice99_$LT$impl$u20$core..slice..sort..stable..BufGuard$LT$T$GT$$u20$for$u20$alloc..vec..Vec$LT$T$GT$$GT$19as_uninit_slice_mut17h2fb88c1a269c33e7E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71d2d0           71d2d0       71    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/71d2d0           71d2d0       71    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h89dd2937613d167eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.1.rcgu.o):(.text._ZN99_$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h89dd2937613d167eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7208a0           7208a0       d5    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7208a0           7208a0       d5    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he24a9ae39ecf6891E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.2.rcgu.o):(.text._ZN95_$LT$core..slice..sort..stable..merge..MergeState$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he24a9ae39ecf6891E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7220d0           7220d0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7220d0           7220d0        d    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6a12409c08082d19E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr90drop_in_place$LT$core..slice..sort..stable..merge..MergeState$LT$glob..PathWrapper$GT$$GT$17h6a12409c08082d19E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7220e0           7220e0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/7220e0           7220e0        d    16         /target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17hee34b05e615103a1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libglob-9388cb1c80a1d539.rlib(glob-9388cb1c80a1d539.glob.bc0acaa087fddeb-cgu.3.rcgu.o):(.text._ZN4core3ptr94drop_in_place$LT$core..slice..sort..shared..smallsort..CopyOnDrop$LT$glob..PathWrapper$GT$$GT$17hee34b05e615103a1E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a590           84a590        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a590           84a590        d    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17hbc2dba3dde3c4ad0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr344drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$GT$17hbc2dba3dde3c4ad0E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5a0           84a5a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5a0           84a5a0        d    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17h57c3fcec4cbcbc7eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr429drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$17h57c3fcec4cbcbc7eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5c0           84a5c0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5c0           84a5c0        d    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17h7739908917c9af6bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr430drop_in_place$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_nightly$GT$$GT$17h7739908917c9af6bE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5d0           84a5d0       3e    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a5d0           84a5d0       3e    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hf116db9191e8598dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr457drop_in_place$LT$core..option..Option$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hf116db9191e8598dE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a620           84a620        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a620           84a620        d    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hd72c7f6301407f83E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr469drop_in_place$LT$core..iter..adapters..fuse..Fuse$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hd72c7f6301407f83E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a630           84a630        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a630           84a630        d    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hf12e088b96c21bb6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr475drop_in_place$LT$core..iter..adapters..flatten..Flatten$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$GT$$GT$17hf12e088b96c21bb6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a6a0           84a6a0       99    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a6a0           84a6a0       99    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha3d8aab6b9d3430eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr547drop_in_place$LT$core..iter..adapters..flatten..FlattenCompat$LT$core..iter..adapters..map..Map$LT$core..iter..adapters..map..Map$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$C$$LT$proc_macro2..TokenStream$u20$as$u20$core..iter..traits..collect..Extend$LT$proc_macro2..TokenStream$GT$$GT$..extend$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$$C$proc_macro2..imp..TokenStream..unwrap_stable$GT$$C$proc_macro2..rcvec..RcVecIntoIter$LT$proc_macro2..TokenTree$GT$$GT$$GT$17ha3d8aab6b9d3430eE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a8a0           84a8a0        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a8a0           84a8a0        d    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17hcf0766dc182012c6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr82drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenTree$GT$$GT$17hcf0766dc182012c6E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a910           84a910        d    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84a910           84a910        d    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hbf93536653db3d47E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN4core3ptr84drop_in_place$LT$core..iter..sources..once..Once$LT$proc_macro2..TokenStream$GT$$GT$17hbf93536653db3d47E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e470           84e470       59    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e470           84e470       59    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h2cb46a25e44f71beE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h2cb46a25e44f71beE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e4d0           84e4d0       52    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e4d0           84e4d0       52    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17he25e5831576030deE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17he25e5831576030deE",
+      "source": "link_map"
+    },
+    {
+      "directory": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e530           84e530       30    16         /target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0/84e530           84e530       30    16         /target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h308d95cd8f0b0e56E",
+      "source": "link_map"
+    },
+    {
+      "directory": "/target/debug/deps",
+      "kind": "dynamic_library",
+      "path": "/target/debug/deps/libquote-1224ef05df06fb1b.rlib(quote-1224ef05df06fb1b.quote.23d2346e83d9636a-cgu.0.rcgu.o):(.text._ZN99_$LT$core..iter..sources..once..Once$LT$T$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$9size_hint17h308d95cd8f0b0e56E",
+      "source": "link_map"
+    }
+  ],
+  "kind": "resolved_link",
+  "map_path": "/tmp/native-trace-link-cc-228996-1783993328032628042.map",
+  "pid": 228996,
+  "ppid": 228934,
+  "real_tool": "/usr/bin/cc",
+  "success": true,
+  "tool": "cc",
+  "trace_args": [
+    "-Wl,--trace",
+    "-Wl,-Map,/tmp/native-trace-link-cc-228996-1783993328032628042.map"
+  ],
+  "trace_mode": "driver",
+  "_owner": {
+    "crate": "librocksdb-sys",
+    "version": "0.16.0+8.10.0",
+    "package_id": "path+file:///tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0#librocksdb-sys@0.16.0+8.10.0",
+    "manifest_dir": "/tmp/crate-build-aarch64-5on0mwh3/src/librocksdb-sys-0.16.0+8.10.0",
+    "source": "cargo_manifest_dir"
+  }
+}
+```
+
 ## Root-owned native flows
 
 ## Flow 001
