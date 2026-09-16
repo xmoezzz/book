@@ -2,28 +2,6 @@
 
 Platform: Linux ppc64le
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 978323
-
-Build-script executable: `/target/debug/build/tree-sitter-rust-58f6167257b554d7/build_script_build-58f6167257b554d7`
-
-Working directory: `/tmp/crate-build-ppc64le-x84zkfah/src/tree-sitter-rust-0.24.0`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-rust-aef71ccc9d52726a/out/libtree-sitter-rust.a`
 
 ### Source origin

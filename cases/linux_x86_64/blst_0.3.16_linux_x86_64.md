@@ -2,24 +2,6 @@
 
 Platform: Linux x86_64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 2018153
-
-Build-script executable: `/work/target/debug/build/blst-5957ed09fca15915/build_script_build-5957ed09fca15915`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/work/target/debug/build/blst-1a71e90ce1f068b5/out/libblst.a`
 
 ### Source origin

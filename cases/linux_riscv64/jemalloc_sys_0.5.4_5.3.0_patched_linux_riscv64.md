@@ -2,24 +2,6 @@
 
 Platform: Linux riscv64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 430428
-
-Build-script executable: `/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406`
-
-Working directory: `/tmp/crate-build-riscv64-vrl21ec5/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/jemalloc-sys-565a1816809b8c5f/out/build/lib/libjemalloc.a`
 
 ### Source origin

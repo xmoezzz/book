@@ -18,22 +18,6 @@ Working directory: `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2`
 /usr/bin/git submodule update --init
 ```
 
-### Build-script executable native dependencies
-
-#### Linker process 467155
-
-Build-script executable: `/target/debug/build/brotli-sys-b6f66f13a6f3816f/build_script_build-b6f66f13a6f3816f`
-
-Working directory: `/tmp/crate-build-riscv64-zwf8l4r8/src/brotli-sys-0.3.2`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/brotli-sys-82fc7f4ca75fbd2e/out/libbrotli.a`
 
 ### Source origin

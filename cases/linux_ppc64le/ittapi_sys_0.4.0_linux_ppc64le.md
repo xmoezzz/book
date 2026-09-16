@@ -2,28 +2,6 @@
 
 Platform: Linux ppc64le
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 535954
-
-Build-script executable: `/target/debug/build/ittapi-sys-153a64372a747f59/build_script_build-153a64372a747f59`
-
-Working directory: `/tmp/crate-build-ppc64le-6bvg6w9y/src/ittapi-sys-0.4.0`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/ittapi-sys-a76b361200bb5b33/out/libittnotify.a`
 
 ### Source origin

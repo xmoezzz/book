@@ -2,28 +2,6 @@
 
 Platform: Linux aarch64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 168787
-
-Build-script executable: `/target/debug/build/tikv-jemalloc-sys-d50a5e8ce9a12b75/build_script_build-d50a5e8ce9a12b75`
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/aarch64-unknown-linux-gnu/debug/build/tikv-jemalloc-sys-20f5c17968406e28/out/build/lib/libjemalloc.a`
 
 ### Source origin

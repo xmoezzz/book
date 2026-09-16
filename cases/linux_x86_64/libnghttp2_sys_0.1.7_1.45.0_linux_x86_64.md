@@ -2,24 +2,6 @@
 
 Platform: Linux x86_64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 1984190
-
-Build-script executable: `/work/target/debug/build/libnghttp2-sys-84d6cb9c40db4ed0/build_script_build-84d6cb9c40db4ed0`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/work/target/debug/build/libnghttp2-sys-0fce1d4a97aacfbc/out/i/lib/libnghttp2.a`
 
 ### Source origin

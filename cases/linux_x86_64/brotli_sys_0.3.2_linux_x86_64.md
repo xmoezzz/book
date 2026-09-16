@@ -18,22 +18,6 @@ Working directory: `/work`
 /usr/bin/git submodule update --init
 ```
 
-### Build-script executable native dependencies
-
-#### Linker process 1938821
-
-Build-script executable: `/work/target/debug/build/brotli-sys-c2e9e7289102ba5e/build_script_build-c2e9e7289102ba5e`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/work/target/debug/build/brotli-sys-54a7dfacae66a30e/out/libbrotli.a`
 
 ### Source origin

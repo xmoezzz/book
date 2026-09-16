@@ -2,24 +2,6 @@
 
 Platform: Linux riscv64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 839278
-
-Build-script executable: `/target/debug/build/dart-sys-f05a7882a0a8a47a/build_script_build-f05a7882a0a8a47a`
-
-Working directory: `/tmp/crate-build-riscv64-2mnp1bgf/src/dart-sys-4.1.5`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/dart-sys-ffff3f34a86705f1/out/libdart_api_dl.a`
 
 ### Source origin

@@ -2,28 +2,6 @@
 
 Platform: Linux aarch64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 994364
-
-Build-script executable: `/target/debug/build/lcms2-sys-e678190117c9ae61/build_script_build-e678190117c9ae61`
-
-Working directory: `/tmp/crate-build-aarch64-6azo69h2/src/lcms2-sys-4.0.5`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/aarch64-unknown-linux-gnu/debug/build/lcms2-sys-291f8ed5f45995e7/out/liblcms2.a`
 
 ### Source origin

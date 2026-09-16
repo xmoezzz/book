@@ -2,24 +2,6 @@
 
 Platform: Linux riscv64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 1251488
-
-Build-script executable: `/target/debug/build/blst-0fe97681e9975598/build_script_build-0fe97681e9975598`
-
-Working directory: `/tmp/crate-build-riscv64-84usivvg/src/blst-0.3.16`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/blst-3351224bbbe670bb/out/libblst.a`
 
 ### Source origin

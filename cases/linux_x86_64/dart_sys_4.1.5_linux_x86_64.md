@@ -2,24 +2,6 @@
 
 Platform: Linux x86_64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 2071827
-
-Build-script executable: `/work/target/debug/build/dart-sys-5c9adb7c54b9c4da/build_script_build-5c9adb7c54b9c4da`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/work/target/debug/build/dart-sys-29e368b3f2834dd6/out/libdart_api_dl.a`
 
 ### Source origin

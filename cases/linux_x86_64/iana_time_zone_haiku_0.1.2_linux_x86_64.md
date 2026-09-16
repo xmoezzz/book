@@ -2,24 +2,6 @@
 
 Platform: Linux x86_64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 1796782
-
-Build-script executable: `/work/target/debug/build/iana-time-zone-haiku-ce7e6e7e2c4080f6/build_script_build-ce7e6e7e2c4080f6`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/work/target/debug/build/iana-time-zone-haiku-06660e3e84a08f7e/out/libtz_haiku.a`
 
 ### Source origin

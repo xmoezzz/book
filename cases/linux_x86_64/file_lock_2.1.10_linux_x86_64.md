@@ -2,24 +2,6 @@
 
 Platform: Linux x86_64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 2067161
-
-Build-script executable: `/work/target/debug/build/file-lock-37c80c9da1f39c39/build_script_build-37c80c9da1f39c39`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/work/target/debug/build/file-lock-bfe8616c7d66d83d/out/libfile_lock.a`
 
 ### Source origin

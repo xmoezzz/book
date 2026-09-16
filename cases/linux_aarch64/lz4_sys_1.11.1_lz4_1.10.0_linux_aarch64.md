@@ -2,28 +2,6 @@
 
 Platform: Linux aarch64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 160328
-
-Build-script executable: `/target/debug/build/lz4-sys-c23488cb26154d2e/build_script_build-c23488cb26154d2e`
-
-Working directory: `/tmp/crate-build-aarch64-1dlmgz0l/src/lz4-sys-1.11.1+lz4-1.10.0`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/aarch64-unknown-linux-gnu/debug/build/lz4-sys-9327eaa96e0dea45/out/liblz4.a`
 
 ### Source origin

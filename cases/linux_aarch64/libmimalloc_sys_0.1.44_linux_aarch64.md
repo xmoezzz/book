@@ -2,28 +2,6 @@
 
 Platform: Linux aarch64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 361950
-
-Build-script executable: `/target/debug/build/libmimalloc-sys-f4207166b664f667/build_script_build-f4207166b664f667`
-
-Working directory: `/tmp/crate-build-aarch64-bt_94k32/src/libmimalloc-sys-0.1.44`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/aarch64-unknown-linux-gnu/debug/build/libmimalloc-sys-c88a05e5684fbab9/out/libmimalloc.a`
 
 ### Source origin

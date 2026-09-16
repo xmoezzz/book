@@ -2,28 +2,6 @@
 
 Platform: Linux ppc64le
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 435327
-
-Build-script executable: `/target/debug/build/jemalloc-sys-277a43c081ce2406/build_script_build-277a43c081ce2406`
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libutil.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libdl.so` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/jemalloc-sys-b952f379b7c4b8bf/out/build/lib/libjemalloc.a`
 
 ### Source origin

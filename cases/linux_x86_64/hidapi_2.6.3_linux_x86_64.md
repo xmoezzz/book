@@ -18,22 +18,6 @@ Working directory: `/work`
 pkg-config --modversion libudev
 ```
 
-### Build-script executable native dependencies
-
-#### Linker process 2144395
-
-Build-script executable: `/work/target/debug/build/hidapi-81ef525130f92109/build_script_build-81ef525130f92109`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/work/target/debug/build/hidapi-804845236c584c2b/out/libhidapi.a`
 
 ### Source origin

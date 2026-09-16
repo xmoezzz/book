@@ -17,19 +17,3 @@ Working directory: `/work`
 ```text
 pkg-config --modversion pango "pango >= 1.40"
 ```
-
-### Build-script executable native dependencies
-
-#### Linker process 1912007
-
-Build-script executable: `/work/target/debug/build/pango-sys-e87da1ab65491156/build_script_build-e87da1ab65491156`
-
-Working directory: `/work`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)

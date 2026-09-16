@@ -2,24 +2,6 @@
 
 Platform: Linux riscv64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 473859
-
-Build-script executable: `/target/debug/build/symbolic-demangle-adec670d1917b46e/build_script_build-adec670d1917b46e`
-
-Working directory: `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/libswiftdemangle.a`
 
 ### Source origin

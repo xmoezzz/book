@@ -2,24 +2,6 @@
 
 Platform: Linux riscv64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 774197
-
-Build-script executable: `/target/debug/build/tree-sitter-typescript-a3c0b1c2d7c10107/build_script_build-a3c0b1c2d7c10107`
-
-Working directory: `/tmp/crate-build-riscv64-w32o3jui/src/tree-sitter-typescript-0.23.2`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-typescript-37f686424ce8c7f1/out/libtree-sitter-typescript.a`
 
 ### Source origin

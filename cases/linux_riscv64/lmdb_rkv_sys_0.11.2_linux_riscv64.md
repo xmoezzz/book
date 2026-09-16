@@ -2,24 +2,6 @@
 
 Platform: Linux riscv64
 
-## Build-level coding evidence
-
-### Build-script executable native dependencies
-
-#### Linker process 1161632
-
-Build-script executable: `/target/debug/build/lmdb-rkv-sys-386b6c2af8de88a6/build_script_build-386b6c2af8de88a6`
-
-Working directory: `/tmp/crate-build-riscv64-kdnjiuqy/src/lmdb-rkv-sys-0.11.2`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/lmdb-rkv-sys-e063bf862ab22450/out/liblmdb.a`
 
 ### Source origin

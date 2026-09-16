@@ -12,22 +12,6 @@ Working directory: `/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.
 pkg-config --cflags libelf zlib
 ```
 
-### Build-script executable native dependencies
-
-#### Linker process 832596
-
-Build-script executable: `/target/debug/build/libbpf-sys-7bc730b0c3eff001/build_script_build-7bc730b0c3eff001`
-
-Working directory: `/tmp/crate-build-riscv64-utk15keu/src/libbpf-sys-1.5.0+v1.5.0`
-
-**Linker library inputs**
-
-* `/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libm.so.6` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libmvec.so.1` (dynamic_library)
-* `/lib/x86_64-linux-gnu/libc.so.6` (dynamic_library)
-* `/lib64/ld-linux-x86-64.so.2` (dynamic_library)
-
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/libbpf-sys-012b9e38ffe91251/out/obj/libbpf.a`
 
 ### Source origin
