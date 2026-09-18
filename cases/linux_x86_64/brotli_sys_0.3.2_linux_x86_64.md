@@ -38,38 +38,6 @@ Working directory: `/work`
 * `/work/brotli/dec/huffman.c`
 * `/work/brotli/dec/state.c`
 
-### Source preparation
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I brotli/include -w -o /work/target/debug/build/brotli-sys-54a7dfacae66a30e/out/e198953d800c79d4-dictionary.o -c brotli/common/dictionary.c
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I brotli/include -imultiarch x86_64-linux-gnu brotli/common/dictionary.c -quiet -dumpdir /work/target/debug/build/brotli-sys-54a7dfacae66a30e/out/ -dumpbase e198953d800c79d4-dictionary.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O0 ...
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I brotli/include -w -o /work/target/debug/build/brotli-sys-54a7dfacae66a30e/out/76d4580618152496-bit_reader.o -c brotli/dec/bit_reader.c
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I brotli/include -imultiarch x86_64-linux-gnu brotli/dec/bit_reader.c -quiet -dumpdir /work/target/debug/build/brotli-sys-54a7dfacae66a30e/out/ -dumpbase 76d4580618152496-bit_reader.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O0 ...
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I brotli/include -w -o /work/target/debug/build/brotli-sys-54a7dfacae66a30e/out/76d4580618152496-decode.o -c brotli/dec/decode.c
-```
-
 ### Compilation
 
 ```text

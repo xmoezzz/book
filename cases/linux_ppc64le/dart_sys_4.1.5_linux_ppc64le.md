@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-65qsqvkh/src/dart-sys-4.1.5/dart-sdk/include/dart_api_dl.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-65qsqvkh/src/dart-sys-4.1.5`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I /tmp/crate-build-ppc64le-65qsqvkh/src/dart-sys-4.1.5/dart-sdk/include -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/dart-sys-ca281e5e289bfbbd/out/248f927bf32daba4-dart_api_dl.o -c /tmp/crate-build-ppc64le-65qsqvkh/src/dart-sys-4.1.5/dart-sdk/include/dart_api_dl.c
-```
-
 ### Compilation
 
 ```text

@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-a4ll3ell/src/iana-time-zone-haiku-0.1.2/src/implementation.cc`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-a4ll3ell/src/iana-time-zone-haiku-0.1.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -w -std=c++11 -o /target/powerpc64le-unknown-linux-gnu/debug/build/iana-time-zone-haiku-04c3dd59e771f425/out/48d3f1b29a630f4c-implementation.o -c src/implementation.cc
-```
-
 ### Compilation
 
 ```text

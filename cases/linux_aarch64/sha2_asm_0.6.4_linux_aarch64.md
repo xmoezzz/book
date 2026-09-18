@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-qu3671jv/src/sha2-asm-0.6.4/src/sha256_aarch64.S`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-qu3671jv/src/sha2-asm-0.6.4`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -march=armv8-a+crypto -c -o /target/aarch64-unknown-linux-gnu/debug/build/sha2-asm-d5314d395257e804/out/81a71fbc30f7fcce-sha256_aarch64.o -c src/sha256_aarch64.S
-```
-
 ### Compilation
 
 ```text

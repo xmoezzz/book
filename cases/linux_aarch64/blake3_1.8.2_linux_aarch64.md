@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-e95vp474/src/blake3-1.8.2/c/blake3_neon.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-e95vp474/src/blake3-1.8.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -std=c11 -o /target/aarch64-unknown-linux-gnu/debug/build/blake3-b3d9782f1eec1385/out/a1edd97dd51cd48d-blake3_neon.o -c c/blake3_neon.c
-```
-
 ### Compilation
 
 ```text

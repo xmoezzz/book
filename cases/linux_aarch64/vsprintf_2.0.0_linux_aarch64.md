@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-621ll73s/src/vsprintf-2.0.0/src/lib.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-621ll73s/src/vsprintf-2.0.0`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/vsprintf-48130a6477fbeef2/out/ea708c7824d36062-lib.o -c src/lib.c
-```
-
 ### Compilation
 
 ```text

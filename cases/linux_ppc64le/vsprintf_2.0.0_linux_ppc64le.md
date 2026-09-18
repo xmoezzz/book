@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-nj8idru8/src/vsprintf-2.0.0/src/lib.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-nj8idru8/src/vsprintf-2.0.0`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/vsprintf-28a26ec929301317/out/ea708c7824d36062-lib.o -c src/lib.c
-```
-
 ### Compilation
 
 ```text

@@ -20,38 +20,6 @@ Platform: Linux riscv64
 * `/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/oniguruma/src/regenc.c`
 * `/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1/oniguruma/src/regerror.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -I /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regexec.o -c oniguruma/src/regexec.c ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -I /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regerror.o -c oniguruma/src/regerror.c ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -I /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regparse.o -c oniguruma/src/regparse.c ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -I /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regext.o -c oniguruma/src/regext.c ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-229vek2j/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -I /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/riscv64gc-unknown-linux-gnu/debug/build/onig_sys-9c68e8be589e44ec/out/a445302c6d3dcb51-regcomp.o -c oniguruma/src/regcomp.c ...
-```
-
 ### Compilation
 
 ```text

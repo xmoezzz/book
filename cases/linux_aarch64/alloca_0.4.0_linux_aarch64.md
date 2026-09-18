@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-f0q6md20/src/alloca-0.4.0/alloca.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-f0q6md20/src/alloca-0.4.0`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O2 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/alloca-144a22e47b49c354/out/alloca.o -c alloca.c
-```
-
 ### Compilation
 
 ```text

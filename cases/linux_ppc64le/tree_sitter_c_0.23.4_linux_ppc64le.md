@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-zteeg1xf/src/tree-sitter-c-0.23.4/src/parser.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-zteeg1xf/src/tree-sitter-c-0.23.4`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c11 -I src -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-c-d63c92033d1f4463/out/ea708c7824d36062-parser.o -c src/parser.c
-```
-
 ### Compilation
 
 ```text

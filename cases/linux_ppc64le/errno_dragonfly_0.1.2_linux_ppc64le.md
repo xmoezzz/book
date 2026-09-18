@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-2lth2o0u/src/errno-dragonfly-0.1.2/src/errno.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-2lth2o0u/src/errno-dragonfly-0.1.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/errno-dragonfly-acf7daaa52e6a910/out/ea708c7824d36062-errno.o -c src/errno.c
-```
-
 ### Compilation
 
 ```text

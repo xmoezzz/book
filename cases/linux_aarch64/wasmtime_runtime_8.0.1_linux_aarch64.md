@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-axwoxy51/src/wasmtime-runtime-8.0.1/src/helpers.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-axwoxy51/src/wasmtime-runtime-8.0.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -DCFG_TARGET_OS_linux -DCFG_TARGET_ARCH_aarch64 -o /target/aarch64-unknown-linux-gnu/debug/build/wasmtime-runtime-54c203e6228eed37/out/ea708c7824d36062-helpers.o -c src/helpers.c
-```
-
 ### Compilation
 
 ```text

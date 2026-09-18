@@ -20,38 +20,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10/libfuzzer/FuzzerIOWindows.cpp`
 * `/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10/libfuzzer/FuzzerInterceptors.cpp`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10`
-
-```text
-/usr/bin/aarch64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -std=c++17 -o /target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilWindows.o -c libfuzzer/FuzzerUtilWindows.cpp
-```
-
-Working directory: `/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10`
-
-```text
-/usr/bin/aarch64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -std=c++17 -o /target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilPosix.o -c libfuzzer/FuzzerUtilPosix.cpp
-```
-
-Working directory: `/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10`
-
-```text
-/usr/bin/aarch64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -std=c++17 -o /target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilFuchsia.o -c libfuzzer/FuzzerUtilFuchsia.cpp
-```
-
-Working directory: `/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10`
-
-```text
-/usr/bin/aarch64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -std=c++17 -o /target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilDarwin.o -c libfuzzer/FuzzerUtilDarwin.cpp
-```
-
-Working directory: `/tmp/crate-build-aarch64-eird13ul/src/libfuzzer-sys-0.4.10`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1plus -quiet -imultiarch aarch64-linux-gnu -D_GNU_SOURCE libfuzzer/FuzzerUtilLinux.cpp -quiet -dumpbase FuzzerUtilLinux.cpp -mlittle-endian -mabi=lp64 -auxbase-strip /target/aarch64-unknown-linux-gnu/debug/build/libfuzzer-sys-4668ee7688114da5/out/e5f0d71fb86e9d6b-FuzzerUtilLinux.o -gdwarf-4 -O0 -std=c++17 -ffunction-sections -fdata-sections -fPIC -fno-omit-frame-pointer ...
-```
-
 ### Compilation
 
 ```text

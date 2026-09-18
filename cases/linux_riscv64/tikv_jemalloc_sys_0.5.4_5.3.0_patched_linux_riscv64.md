@@ -57,38 +57,6 @@ Platform: Linux riscv64
 * `src/bin_info.c`
 * `src/bitmap.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/hpa.c -quiet -dumpdir ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/stats.c -quiet -dumpdir ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/witness.c -quiet -dumpdir ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/div.o -D _GNU_SOURCE -D _REENTRANT src/div.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/decay.o -D _GNU_SOURCE -D _REENTRANT src/decay.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -162,38 +130,6 @@ ar crus <static library> <object files>
 * `src/cache_bin.c`
 * `src/counter.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/hpa.c -quiet -dumpdir ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/psset.c -quiet -dumpdir ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/stats.c -quiet -dumpdir ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/witness.c -quiet -dumpdir ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/div.o -D _GNU_SOURCE -D _REENTRANT src/div.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -234,38 +170,6 @@ ar crus <static library> <object files>
 * `src/bin_info.c`
 * `src/bitmap.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/div.o -D _GNU_SOURCE -D _REENTRANT src/div.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/decay.o -D _GNU_SOURCE -D _REENTRANT src/decay.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/bin.o -D _GNU_SOURCE -D _REENTRANT src/bin.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/counter.o -D _GNU_SOURCE -D _REENTRANT src/counter.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/background_thread.o -D _GNU_SOURCE -D _REENTRANT src/background_thread.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -303,38 +207,6 @@ ar crus <static library> <object files>
 * `src/bin.c`
 * `src/cache_bin.c`
 * `src/counter.c`
-
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/div.o -D _GNU_SOURCE -D _REENTRANT src/div.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/decay.o -D _GNU_SOURCE -D _REENTRANT src/decay.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/bin.o -D _GNU_SOURCE -D _REENTRANT src/bin.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/counter.o -D _GNU_SOURCE -D _REENTRANT src/counter.c -o ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-1hkmstn4/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/riscv64-linux-gnu/11/cc1 -E -quiet -I include -I include -imultilib . -imultiarch riscv64-linux-gnu -MM -MT src/background_thread.o -D _GNU_SOURCE -D _REENTRANT src/background_thread.c -o ...
-```
 
 ### Compilation
 

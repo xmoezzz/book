@@ -20,32 +20,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-7x_m5_j1/src/tree-sitter-typescript-0.23.2/./typescript/src/parser.c`
 * `/tmp/crate-build-aarch64-7x_m5_j1/src/tree-sitter-typescript-0.23.2/./typescript/src/scanner.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-7x_m5_j1/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-typescript-8783607cd3571661/out/a423c62b91dd93af-parser.o -c ./typescript/src/parser.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-7x_m5_j1/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-typescript-8783607cd3571661/out/a423c62b91dd93af-scanner.o -c ./typescript/src/scanner.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-7x_m5_j1/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-typescript-8783607cd3571661/out/22f91614c58a9bd2-parser.o -c ./tsx/src/parser.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-7x_m5_j1/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-typescript-8783607cd3571661/out/22f91614c58a9bd2-scanner.o -c ./tsx/src/scanner.c
-```
-
 ### Compilation
 
 ```text

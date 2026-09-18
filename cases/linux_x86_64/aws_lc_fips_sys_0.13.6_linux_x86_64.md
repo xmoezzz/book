@@ -16,20 +16,6 @@ Platform: Linux x86_64
 
 * `/work/rust_wrapper.c`
 
-### Source preparation
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -DBORINGSSL_PREFIX=aws_lc_fips_0_13_6 -I/work/include -I/work/aws-lc/include -ffunction-sections -fdata-sections -fPIC -m64 -g -MD -MT CMakeFiles/rust_wrapper.dir/rust_wrapper.c.o -MF CMakeFiles/rust_wrapper.dir/rust_wrapper.c.o.d -o CMakeFiles/rust_wrapper.dir/rust_wrapper.c.o -c /work/rust_wrapper.c
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I /work/include -I /work/aws-lc/include -imultiarch x86_64-linux-gnu -MD CMakeFiles/rust_wrapper.dir/rust_wrapper.c.d -MF CMakeFiles/rust_wrapper.dir/rust_wrapper.c.o.d -MT CMakeFiles/rust_wrapper.dir/rust_wrapper.c.o -D BORINGSSL_PREFIX=aws_lc_fips_0_13_6 /work/rust_wrapper.c -quiet -dumpdir CMakeFiles/rust_wrapper.dir/ ...
-```
-
 ### Compilation
 
 ```text
@@ -63,34 +49,34 @@ ar qc <static library> <object files>
 
 ### Source preparation
 
-Working directory: `/work`
+Working directory: `/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto`
 
 ```text
-/usr/bin/cc -DBORINGSSL_FIPS -DBORINGSSL_IMPLEMENTATION -DFIPS_ENTROPY_SOURCE_PASSIVE -I/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/symbol_prefix_include -I/work/aws-lc/include -ffunction-sections -fdata-sections -fPIC -m64 -Wno-newline-eof -Wa,--noexecstack -Wa,-g -g -fPIC -o CMakeFiles/crypto_objects.dir/chacha/chacha-x86_64.S.o -c /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/chacha/chacha-x86_64.S
+/work/.tmp/native-trace-1933546-1784021623052/shims/perl /work/aws-lc/crypto/test/asm/trampoline-x86_64.pl elf test/trampoline-x86_64.S
 ```
 
-Working directory: `/work`
+Working directory: `/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto`
 
 ```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -E -lang-asm -quiet -I /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/symbol_prefix_include -I /work/aws-lc/include -imultiarch x86_64-linux-gnu -D BORINGSSL_FIPS -D BORINGSSL_IMPLEMENTATION -D FIPS_ENTROPY_SOURCE_PASSIVE /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/chacha/chacha-x86_64.S -m64 -mtune=generic -march=x86-64 ...
+/work/.tmp/native-trace-1933546-1784021623052/shims/perl /work/aws-lc/crypto/chacha/asm/chacha-x86_64.pl elf chacha/chacha-x86_64.S
 ```
 
-Working directory: `/work`
+Working directory: `/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto`
 
 ```text
-/usr/bin/cc -DBORINGSSL_FIPS -DBORINGSSL_IMPLEMENTATION -DFIPS_ENTROPY_SOURCE_PASSIVE -I/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/symbol_prefix_include -I/work/aws-lc/include -ffunction-sections -fdata-sections -fPIC -m64 -Wno-newline-eof -Wa,--noexecstack -Wa,-g -g -fPIC -o CMakeFiles/crypto_objects.dir/cipher_extra/aes128gcmsiv-x86_64.S.o -c /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/cipher_extra/aes128gcmsiv-x86_64.S
+/work/.tmp/native-trace-1933546-1784021623052/shims/perl /work/aws-lc/crypto/cipher_extra/asm/aesni-sha1-x86_64.pl elf cipher_extra/aesni-sha1-x86_64.S
 ```
 
-Working directory: `/work`
+Working directory: `/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto`
 
 ```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -E -lang-asm -quiet -I /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/symbol_prefix_include -I /work/aws-lc/include -imultiarch x86_64-linux-gnu -D BORINGSSL_FIPS -D BORINGSSL_IMPLEMENTATION -D FIPS_ENTROPY_SOURCE_PASSIVE /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/cipher_extra/aes128gcmsiv-x86_64.S -m64 -mtune=generic -march=x86-64 ...
+/work/.tmp/native-trace-1933546-1784021623052/shims/perl /work/aws-lc/crypto/cipher_extra/asm/chacha20_poly1305_x86_64.pl elf cipher_extra/chacha20_poly1305_x86_64.S
 ```
 
-Working directory: `/work`
+Working directory: `/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto`
 
 ```text
-/usr/bin/cc -DBORINGSSL_FIPS -DBORINGSSL_IMPLEMENTATION -DFIPS_ENTROPY_SOURCE_PASSIVE -I/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/symbol_prefix_include -I/work/aws-lc/include -ffunction-sections -fdata-sections -fPIC -m64 -Wno-newline-eof -Wa,--noexecstack -Wa,-g -g -fPIC -o CMakeFiles/crypto_objects.dir/cipher_extra/chacha20_poly1305_x86_64.S.o -c /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/cipher_extra/chacha20_poly1305_x86_64.S
+/work/.tmp/native-trace-1933546-1784021623052/shims/perl /work/aws-lc/crypto/cipher_extra/asm/aes128gcmsiv-x86_64.pl elf cipher_extra/aes128gcmsiv-x86_64.S
 ```
 
 ### Compilation
@@ -148,20 +134,6 @@ ar qc <static library> <object files>
 ### Source file examples
 
 * `/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/fipsmodule/bcm-delocated.S`
-
-### Source preparation
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -DBORINGSSL_FIPS -DBORINGSSL_IMPLEMENTATION -DFIPS_ENTROPY_SOURCE_PASSIVE -I/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/symbol_prefix_include -I/work/aws-lc/include -ffunction-sections -fdata-sections -fPIC -m64 -Wno-newline-eof -Wa,--noexecstack -Wa,-g -g -fPIC -o CMakeFiles/bcm_hashunset.dir/bcm-delocated.S.o -c /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/fipsmodule/bcm-delocated.S
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -E -lang-asm -quiet -I /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/symbol_prefix_include -I /work/aws-lc/include -imultiarch x86_64-linux-gnu -D BORINGSSL_FIPS -D BORINGSSL_IMPLEMENTATION -D FIPS_ENTROPY_SOURCE_PASSIVE /work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/aws-lc/crypto/fipsmodule/bcm-delocated.S -m64 -mtune=generic -march=x86-64 ...
-```
 
 ### Compilation
 

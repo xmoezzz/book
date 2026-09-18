@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-zi3qw7dl/src/tracy-client-sys-0.21.0/tracy/TracyClient.cpp`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-zi3qw7dl/src/tracy-client-sys-0.21.0`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -w -std=c++11 -DTRACY_ENABLE -o /target/powerpc64le-unknown-linux-gnu/debug/build/tracy-client-sys-59c5d520ece1f23a/out/b558eb55dea76cee-TracyClient.o -c tracy/TracyClient.cpp
-```
-
 ### Compilation
 
 ```text

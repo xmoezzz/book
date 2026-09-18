@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-hq9ekr_c/src/psm-0.1.21/src/arch/riscv64.s`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-hq9ekr_c/src/psm-0.1.21`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -mcmodel=medany -Wall -Wextra -xassembler-with-cpp -DCFG_TARGET_OS_linux -DCFG_TARGET_ARCH_riscv64 -DCFG_TARGET_ENV_gnu -o /target/riscv64gc-unknown-linux-gnu/debug/build/psm-7d57464142dcb914/out/src/arch/riscv64.o -c src/arch/riscv64.s ...
-```
-
 ### Compilation
 
 ```text

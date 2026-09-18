@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-itu0kct7/src/c-kzg-1.0.3/src/c_kzg_4844.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-itu0kct7/src/c-kzg-1.0.3`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I /tmp/crate-build-aarch64-itu0kct7/src/c-kzg-1.0.3/blst/bindings -w -o /target/aarch64-unknown-linux-gnu/debug/build/c-kzg-1599ee71ecaeb2bb/out/98490c8781b409d2-c_kzg_4844.o -c /tmp/crate-build-aarch64-itu0kct7/src/c-kzg-1.0.3/src/c_kzg_4844.c
-```
-
 ### Compilation
 
 ```text

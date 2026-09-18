@@ -17,20 +17,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-vu8x9337/src/tree-sitter-ruby-0.23.1/src/parser.c`
 * `/tmp/crate-build-aarch64-vu8x9337/src/tree-sitter-ruby-0.23.1/src/scanner.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-vu8x9337/src/tree-sitter-ruby-0.23.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -std=c11 -I src -Wall -Wextra -Wno-unused-value -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-ruby-de7076b607be3a88/out/ea708c7824d36062-parser.o -c src/parser.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-vu8x9337/src/tree-sitter-ruby-0.23.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -std=c11 -I src -Wall -Wextra -Wno-unused-value -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-ruby-de7076b607be3a88/out/ea708c7824d36062-scanner.o -c src/scanner.c
-```
-
 ### Compilation
 
 ```text

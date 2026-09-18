@@ -19,32 +19,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-1dlmgz0l/src/lz4-sys-1.11.1+lz4-1.10.0/liblz4/lib/lz4hc.c`
 * `/tmp/crate-build-aarch64-1dlmgz0l/src/lz4-sys-1.11.1+lz4-1.10.0/liblz4/lib/xxhash.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-1dlmgz0l/src/lz4-sys-1.11.1+lz4-1.10.0`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O3 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/lz4-sys-9327eaa96e0dea45/out/efce31824dbf3730-lz4.o -c liblz4/lib/lz4.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-1dlmgz0l/src/lz4-sys-1.11.1+lz4-1.10.0`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O3 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/lz4-sys-9327eaa96e0dea45/out/efce31824dbf3730-lz4frame.o -c liblz4/lib/lz4frame.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-1dlmgz0l/src/lz4-sys-1.11.1+lz4-1.10.0`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O3 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/lz4-sys-9327eaa96e0dea45/out/efce31824dbf3730-lz4hc.o -c liblz4/lib/lz4hc.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-1dlmgz0l/src/lz4-sys-1.11.1+lz4-1.10.0`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O3 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/lz4-sys-9327eaa96e0dea45/out/efce31824dbf3730-xxhash.o -c liblz4/lib/xxhash.c
-```
-
 ### Compilation
 
 ```text

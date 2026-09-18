@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-1ry42oak/src/esaxx-rs-0.1.10/src/esaxx.cpp`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-1ry42oak/src/esaxx-rs-0.1.10`
-
-```text
-/usr/bin/riscv64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -mcmodel=medany -I src -Wall -Wextra -std=c++11 -o /target/riscv64gc-unknown-linux-gnu/debug/build/esaxx-rs-908d5e9cd5a4a2e9/out/src/esaxx.o -c src/esaxx.cpp
-```
-
 ### Compilation
 
 ```text

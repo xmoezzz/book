@@ -20,38 +20,6 @@ Platform: Linux ppc64le
 * `/tmp/crate-build-ppc64le-9l_qb8kr/src/libnghttp2-sys-0.1.7+1.45.0/nghttp2/lib/nghttp2_frame.c`
 * `/tmp/crate-build-ppc64le-9l_qb8kr/src/libnghttp2-sys-0.1.7+1.45.0/nghttp2/lib/nghttp2_hd.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-9l_qb8kr/src/libnghttp2-sys-0.1.7+1.45.0`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -I nghttp2/lib/includes -I /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/include -DNGHTTP2_STATICLIB -DHAVE_NETINET_IN -DHAVE_ARPA_INET_H -o /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/lib/nghttp2/lib/nghttp2_buf.o -c nghttp2/lib/nghttp2_buf.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-9l_qb8kr/src/libnghttp2-sys-0.1.7+1.45.0`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -I nghttp2/lib/includes -I /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/include -DNGHTTP2_STATICLIB -DHAVE_NETINET_IN -DHAVE_ARPA_INET_H -o /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/lib/nghttp2/lib/nghttp2_callbacks.o -c nghttp2/lib/nghttp2_callbacks.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-9l_qb8kr/src/libnghttp2-sys-0.1.7+1.45.0`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -I nghttp2/lib/includes -I /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/include -DNGHTTP2_STATICLIB -DHAVE_NETINET_IN -DHAVE_ARPA_INET_H -o /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/lib/nghttp2/lib/nghttp2_debug.o -c nghttp2/lib/nghttp2_debug.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-9l_qb8kr/src/libnghttp2-sys-0.1.7+1.45.0`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -I nghttp2/lib/includes -I /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/include -DNGHTTP2_STATICLIB -DHAVE_NETINET_IN -DHAVE_ARPA_INET_H -o /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/lib/nghttp2/lib/nghttp2_frame.o -c nghttp2/lib/nghttp2_frame.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-9l_qb8kr/src/libnghttp2-sys-0.1.7+1.45.0`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -I nghttp2/lib/includes -I /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/include -DNGHTTP2_STATICLIB -DHAVE_NETINET_IN -DHAVE_ARPA_INET_H -o /target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/lib/nghttp2/lib/nghttp2_hd.o -c nghttp2/lib/nghttp2_hd.c
-```
-
 ### Compilation
 
 ```text

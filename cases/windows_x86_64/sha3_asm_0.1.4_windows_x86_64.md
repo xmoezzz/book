@@ -16,6 +16,14 @@ Platform: Windows x86_64
 
 * `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-uer0obgu/src/sha3-asm-0.1.4/target/debug/build/sha3-asm-6a2ab6cd2950d00e/out/keccak1600-x86_64.asm`
 
+### Source preparation
+
+Working directory: `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-uer0obgu/src/sha3-asm-0.1.4`
+
+```text
+perl cryptogams/x86_64/keccak1600-x86_64.pl masm target/debug/build/sha3-asm-6a2ab6cd2950d00e/out/keccak1600-x86_64.asm
+```
+
 ### Compilation
 
 ```text

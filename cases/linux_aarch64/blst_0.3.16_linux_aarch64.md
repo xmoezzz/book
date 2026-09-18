@@ -18,20 +18,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-23zjpn7l/src/blst-0.3.16/blst/build/assembly.S`
 * `/tmp/crate-build-aarch64-23zjpn7l/src/blst-0.3.16/blst/src/server.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-23zjpn7l/src/blst-0.3.16`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -fno-builtin -Wno-unused-function -Wno-unused-command-line-argument -o /target/aarch64-unknown-linux-gnu/debug/build/blst-013c6a04e2a717d2/out/3ce72ea41a6346fd-server.o -c /tmp/crate-build-aarch64-23zjpn7l/src/blst-0.3.16/blst/src/server.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-23zjpn7l/src/blst-0.3.16`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -fno-builtin -Wno-unused-function -Wno-unused-command-line-argument -o /target/aarch64-unknown-linux-gnu/debug/build/blst-013c6a04e2a717d2/out/f6e817b043e0335b-assembly.o -c /tmp/crate-build-aarch64-23zjpn7l/src/blst-0.3.16/blst/build/assembly.S
-```
-
 ### Compilation
 
 ```text

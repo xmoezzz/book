@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-8aox0qfj/src/c-kzg-1.0.3/src/c_kzg_4844.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-8aox0qfj/src/c-kzg-1.0.3`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I /tmp/crate-build-ppc64le-8aox0qfj/src/c-kzg-1.0.3/blst/bindings -w -o /target/powerpc64le-unknown-linux-gnu/debug/build/c-kzg-408a003be16433a9/out/98490c8781b409d2-c_kzg_4844.o -c /tmp/crate-build-ppc64le-8aox0qfj/src/c-kzg-1.0.3/src/c_kzg_4844.c
-```
-
 ### Compilation
 
 ```text

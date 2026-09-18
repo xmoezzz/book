@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/target/aarch64-unknown-linux-gnu/debug/build/link-cplusplus-a5d8ff51e518fad5/out/dummy.cc`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-7usofa50/src/link-cplusplus-1.0.9`
-
-```text
-/usr/bin/aarch64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/link-cplusplus-a5d8ff51e518fad5/out/6fc10ba59c243478-dummy.o -c /target/aarch64-unknown-linux-gnu/debug/build/link-cplusplus-a5d8ff51e518fad5/out/dummy.cc
-```
-
 ### Compilation
 
 ```text

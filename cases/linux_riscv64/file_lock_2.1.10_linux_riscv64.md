@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-l4889u_u/src/file-lock-2.1.10/src/file_lock.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-l4889u_u/src/file-lock-2.1.10`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -Wall -Wextra -o /target/riscv64gc-unknown-linux-gnu/debug/build/file-lock-7682ed3b3f968295/out/ea708c7824d36062-file_lock.o -c src/file_lock.c
-```
-
 ### Compilation
 
 ```text

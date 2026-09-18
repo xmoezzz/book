@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-1p08bhds/src/clear_on_drop-0.2.5/src/hide.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-1p08bhds/src/clear_on_drop-0.2.5`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/clear_on_drop-435d7708213f6542/out/ea708c7824d36062-hide.o -c src/hide.c
-```
-
 ### Compilation
 
 ```text

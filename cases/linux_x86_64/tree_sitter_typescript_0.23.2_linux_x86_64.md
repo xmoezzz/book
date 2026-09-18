@@ -20,38 +20,6 @@ Platform: Linux x86_64
 * `/work/./typescript/src/parser.c`
 * `/work/./typescript/src/scanner.c`
 
-### Source preparation
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I ./typescript/src -Wall -Wextra -o /work/target/debug/build/tree-sitter-typescript-81eb30820e635f54/out/a423c62b91dd93af-parser.o -c ./typescript/src/parser.c
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I ./typescript/src -imultiarch x86_64-linux-gnu ./typescript/src/parser.c -quiet -dumpdir /work/target/debug/build/tree-sitter-typescript-81eb30820e635f54/out/ -dumpbase a423c62b91dd93af-parser.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O0 ...
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I ./typescript/src -Wall -Wextra -o /work/target/debug/build/tree-sitter-typescript-81eb30820e635f54/out/a423c62b91dd93af-scanner.o -c ./typescript/src/scanner.c
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I ./typescript/src -imultiarch x86_64-linux-gnu ./typescript/src/scanner.c -quiet -dumpdir /work/target/debug/build/tree-sitter-typescript-81eb30820e635f54/out/ -dumpbase a423c62b91dd93af-scanner.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O0 ...
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I ./typescript/src -Wall -Wextra -o /work/target/debug/build/tree-sitter-typescript-81eb30820e635f54/out/22f91614c58a9bd2-parser.o -c ./tsx/src/parser.c
-```
-
 ### Compilation
 
 ```text

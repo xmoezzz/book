@@ -17,20 +17,6 @@ Platform: Linux ppc64le
 * `/tmp/crate-build-ppc64le-td_mnp7p/src/tree-sitter-python-0.23.6/src/parser.c`
 * `/tmp/crate-build-ppc64le-td_mnp7p/src/tree-sitter-python-0.23.6/src/scanner.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-td_mnp7p/src/tree-sitter-python-0.23.6`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c11 -I src -Wall -Wextra -Wno-unused-value -o /target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-python-8658ffea3e282e28/out/ea708c7824d36062-parser.o -c src/parser.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-td_mnp7p/src/tree-sitter-python-0.23.6`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c11 -I src -Wall -Wextra -Wno-unused-value -o /target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-python-8658ffea3e282e28/out/ea708c7824d36062-scanner.o -c src/scanner.c
-```
-
 ### Compilation
 
 ```text

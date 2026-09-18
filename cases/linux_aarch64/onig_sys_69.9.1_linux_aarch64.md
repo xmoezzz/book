@@ -20,38 +20,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-wmynz6m0/src/onig_sys-69.9.1/oniguruma/src/regenc.c`
 * `/tmp/crate-build-aarch64-wmynz6m0/src/onig_sys-69.9.1/oniguruma/src/regerror.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-wmynz6m0/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out/a445302c6d3dcb51-regexec.o -c oniguruma/src/regexec.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-wmynz6m0/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out/a445302c6d3dcb51-regerror.o -c oniguruma/src/regerror.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-wmynz6m0/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out/a445302c6d3dcb51-regparse.o -c oniguruma/src/regparse.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-wmynz6m0/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out/a445302c6d3dcb51-regext.o -c oniguruma/src/regext.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-wmynz6m0/src/onig_sys-69.9.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out -I oniguruma/src -DHAVE_UNISTD_H=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_TIME_H=1 -o /target/aarch64-unknown-linux-gnu/debug/build/onig_sys-b9649950dc8f1c3f/out/a445302c6d3dcb51-reggnu.o -c oniguruma/src/reggnu.c
-```
-
 ### Compilation
 
 ```text

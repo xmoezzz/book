@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-zxe18_5n/src/sys-info-0.9.1/c/linux.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-zxe18_5n/src/sys-info-0.9.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -Wall -Wextra -o /target/riscv64gc-unknown-linux-gnu/debug/build/sys-info-13b8bdd4f9a823ed/out/a1edd97dd51cd48d-linux.o -c c/linux.c
-```
-
 ### Compilation
 
 ```text

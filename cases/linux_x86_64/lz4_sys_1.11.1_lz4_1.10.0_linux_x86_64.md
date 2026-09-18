@@ -19,38 +19,6 @@ Platform: Linux x86_64
 * `/work/liblz4/lib/lz4hc.c`
 * `/work/liblz4/lib/xxhash.c`
 
-### Source preparation
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O3 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -Wall -Wextra -o /work/target/debug/build/lz4-sys-544d4bf21ea43c0f/out/efce31824dbf3730-lz4.o -c liblz4/lib/lz4.c
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -imultiarch x86_64-linux-gnu liblz4/lib/lz4.c -quiet -dumpdir /work/target/debug/build/lz4-sys-544d4bf21ea43c0f/out/ -dumpbase efce31824dbf3730-lz4.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O3 -Wall -Wextra ...
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O3 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -Wall -Wextra -o /work/target/debug/build/lz4-sys-544d4bf21ea43c0f/out/efce31824dbf3730-lz4frame.o -c liblz4/lib/lz4frame.c
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -imultiarch x86_64-linux-gnu liblz4/lib/lz4frame.c -quiet -dumpdir /work/target/debug/build/lz4-sys-544d4bf21ea43c0f/out/ -dumpbase efce31824dbf3730-lz4frame.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -g -gdwarf-4 -O3 -Wall -Wextra ...
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/cc -O3 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -Wall -Wextra -o /work/target/debug/build/lz4-sys-544d4bf21ea43c0f/out/efce31824dbf3730-lz4hc.o -c liblz4/lib/lz4hc.c
-```
-
 ### Compilation
 
 ```text

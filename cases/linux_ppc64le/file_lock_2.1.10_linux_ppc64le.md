@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-e_efncmo/src/file-lock-2.1.10/src/file_lock.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-e_efncmo/src/file-lock-2.1.10`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/file-lock-83a95664524a93ab/out/ea708c7824d36062-file_lock.o -c src/file_lock.c
-```
-
 ### Compilation
 
 ```text

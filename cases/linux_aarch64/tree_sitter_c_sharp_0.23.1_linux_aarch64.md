@@ -17,20 +17,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-xuhkm4x_/src/tree-sitter-c-sharp-0.23.1/src/parser.c`
 * `/tmp/crate-build-aarch64-xuhkm4x_/src/tree-sitter-c-sharp-0.23.1/src/scanner.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-xuhkm4x_/src/tree-sitter-c-sharp-0.23.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -std=c11 -I src -Wall -Wextra -Wno-unused-value -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-c-sharp-d1c4553b8f5507e9/out/ea708c7824d36062-parser.o -c src/parser.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-xuhkm4x_/src/tree-sitter-c-sharp-0.23.1`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -std=c11 -I src -Wall -Wextra -Wno-unused-value -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-c-sharp-d1c4553b8f5507e9/out/ea708c7824d36062-scanner.o -c src/scanner.c
-```
-
 ### Compilation
 
 ```text

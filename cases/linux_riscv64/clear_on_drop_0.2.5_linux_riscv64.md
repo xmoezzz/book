@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-_apc1xhw/src/clear_on_drop-0.2.5/src/hide.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-_apc1xhw/src/clear_on_drop-0.2.5`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -Wall -Wextra -o /target/riscv64gc-unknown-linux-gnu/debug/build/clear_on_drop-6e4f24b7f5149792/out/ea708c7824d36062-hide.o -c src/hide.c
-```
-
 ### Compilation
 
 ```text

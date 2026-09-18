@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-sb1e4l9t/src/iana-time-zone-haiku-0.1.2/src/implementation.cc`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-sb1e4l9t/src/iana-time-zone-haiku-0.1.2`
-
-```text
-/usr/bin/riscv64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -w -std=c++11 -o /target/riscv64gc-unknown-linux-gnu/debug/build/iana-time-zone-haiku-bfab047517a46b99/out/48d3f1b29a630f4c-implementation.o -c src/implementation.cc
-```
-
 ### Compilation
 
 ```text

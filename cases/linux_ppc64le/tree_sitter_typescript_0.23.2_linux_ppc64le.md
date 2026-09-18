@@ -20,32 +20,6 @@ Platform: Linux ppc64le
 * `/tmp/crate-build-ppc64le-5cib8lj3/src/tree-sitter-typescript-0.23.2/./typescript/src/parser.c`
 * `/tmp/crate-build-ppc64le-5cib8lj3/src/tree-sitter-typescript-0.23.2/./typescript/src/scanner.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-5cib8lj3/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-typescript-a68449550e329a88/out/a423c62b91dd93af-parser.o -c ./typescript/src/parser.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-5cib8lj3/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-typescript-a68449550e329a88/out/a423c62b91dd93af-scanner.o -c ./typescript/src/scanner.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-5cib8lj3/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-typescript-a68449550e329a88/out/22f91614c58a9bd2-parser.o -c ./tsx/src/parser.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-5cib8lj3/src/tree-sitter-typescript-0.23.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -I ./typescript/src -Wall -Wextra -std=c11 -Wno-unused-parameter -o /target/powerpc64le-unknown-linux-gnu/debug/build/tree-sitter-typescript-a68449550e329a88/out/22f91614c58a9bd2-scanner.o -c ./tsx/src/scanner.c
-```
-
 ### Compilation
 
 ```text

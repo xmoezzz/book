@@ -17,20 +17,6 @@ Platform: Linux ppc64le
 * `/tmp/crate-build-ppc64le-3ya1h62o/src/rust-crypto-0.2.36/src/aesni_helpers.c`
 * `/tmp/crate-build-ppc64le-3ya1h62o/src/rust-crypto-0.2.36/src/util_helpers.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-3ya1h62o/src/rust-crypto-0.2.36`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -m64 -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/rust-crypto-b5420c5e84710682/out/src/util_helpers.o -c src/util_helpers.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-3ya1h62o/src/rust-crypto-0.2.36`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -m64 -Wall -Wextra -o /target/powerpc64le-unknown-linux-gnu/debug/build/rust-crypto-b5420c5e84710682/out/src/aesni_helpers.o -c src/aesni_helpers.c
-```
-
 ### Compilation
 
 ```text

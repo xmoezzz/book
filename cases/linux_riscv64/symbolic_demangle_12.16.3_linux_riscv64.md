@@ -21,38 +21,6 @@ Platform: Linux riscv64
 * `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/vendor/swift/lib/Demangling/Demangler.cpp`
 * `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3/vendor/swift/lib/Demangling/Errors.cpp`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3`
-
-```text
-/usr/bin/riscv64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -I vendor/swift/include -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o /target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/0602fb52cb66f316-swiftdemangle.o -c src/swiftdemangle.cpp ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3`
-
-```text
-/usr/bin/riscv64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -I vendor/swift/include -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o /target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-Context.o -c vendor/swift/lib/Demangling/Context.cpp ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3`
-
-```text
-/usr/bin/riscv64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -I vendor/swift/include -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o /target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-ManglingUtils.o -c vendor/swift/lib/Demangling/ManglingUtils.cpp ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3`
-
-```text
-/usr/bin/riscv64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -I vendor/swift/include -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o /target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodeDumper.o -c vendor/swift/lib/Demangling/NodeDumper.cpp ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-02f80ktp/src/symbolic-demangle-12.16.3`
-
-```text
-/usr/bin/riscv64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c++17 -I vendor/swift/include -DLLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING=1 -DSWIFT_STDLIB_HAS_TYPE_PRINTING=1 -fpermissive -Wno-changes-meaning -o /target/riscv64gc-unknown-linux-gnu/debug/build/symbolic-demangle-de9a0d8e17a8053e/out/9e67921832b6be5b-NodePrinter.o -c vendor/swift/lib/Demangling/NodePrinter.cpp ...
-```
-
 ### Compilation
 
 ```text

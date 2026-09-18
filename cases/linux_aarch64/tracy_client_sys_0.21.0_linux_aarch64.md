@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-ai9j_81h/src/tracy-client-sys-0.21.0/tracy/TracyClient.cpp`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-ai9j_81h/src/tracy-client-sys-0.21.0`
-
-```text
-/usr/bin/aarch64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -w -std=c++11 -DTRACY_ENABLE -o /target/aarch64-unknown-linux-gnu/debug/build/tracy-client-sys-a719c4af516b378d/out/b558eb55dea76cee-TracyClient.o -c tracy/TracyClient.cpp
-```
-
 ### Compilation
 
 ```text

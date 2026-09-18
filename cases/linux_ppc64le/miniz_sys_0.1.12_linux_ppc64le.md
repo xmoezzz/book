@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-wh27ww57/src/miniz-sys-0.1.12/miniz.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-wh27ww57/src/miniz-sys-0.1.12`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -m64 -w -fvisibility=hidden -DMINIZ_NO_STDIO -DMINIZ_NO_ARCHIVE_APIS -DMINIZ_NO_ARCHIVE_WRITING_APIS -DMINIZ_NO_TIME -DMINIZ_NO_ZLIB_COMPATIBLE_NAMES -o /target/powerpc64le-unknown-linux-gnu/debug/build/miniz-sys-a04854fe6813b1a1/out/db3b6bfb95261072-miniz.o -c miniz.c ...
-```
-
 ### Compilation
 
 ```text

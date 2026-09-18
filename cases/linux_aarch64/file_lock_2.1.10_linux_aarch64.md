@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-0ql4_hox/src/file-lock-2.1.10/src/file_lock.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-0ql4_hox/src/file-lock-2.1.10`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/file-lock-f6b94f5e5d1894a8/out/ea708c7824d36062-file_lock.o -c src/file_lock.c
-```
-
 ### Compilation
 
 ```text

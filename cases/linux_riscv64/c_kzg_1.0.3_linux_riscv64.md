@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-dm319ndk/src/c-kzg-1.0.3/src/c_kzg_4844.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-dm319ndk/src/c-kzg-1.0.3`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -I /tmp/crate-build-riscv64-dm319ndk/src/c-kzg-1.0.3/blst/bindings -w -o /target/riscv64gc-unknown-linux-gnu/debug/build/c-kzg-5d17959e8d535f25/out/98490c8781b409d2-c_kzg_4844.o -c /tmp/crate-build-riscv64-dm319ndk/src/c-kzg-1.0.3/src/c_kzg_4844.c
-```
-
 ### Compilation
 
 ```text

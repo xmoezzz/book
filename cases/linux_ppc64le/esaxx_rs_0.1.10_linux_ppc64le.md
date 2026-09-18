@@ -16,14 +16,6 @@ Platform: Linux ppc64le
 
 * `/tmp/crate-build-ppc64le-xsl7vlps/src/esaxx-rs-0.1.10/src/esaxx.cpp`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-xsl7vlps/src/esaxx-rs-0.1.10`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -m64 -I src -Wall -Wextra -std=c++11 -o /target/powerpc64le-unknown-linux-gnu/debug/build/esaxx-rs-1d775fcd601f33ce/out/src/esaxx.o -c src/esaxx.cpp
-```
-
 ### Compilation
 
 ```text

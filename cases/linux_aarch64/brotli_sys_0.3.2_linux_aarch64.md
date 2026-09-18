@@ -38,38 +38,6 @@ Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
 * `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2/brotli/dec/huffman.c`
 * `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2/brotli/dec/state.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I brotli/include -w -o /target/aarch64-unknown-linux-gnu/debug/build/brotli-sys-324ee26cab1a8731/out/76d4580618152496-bit_reader.o -c brotli/dec/bit_reader.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I brotli/include -w -o /target/aarch64-unknown-linux-gnu/debug/build/brotli-sys-324ee26cab1a8731/out/76d4580618152496-decode.o -c brotli/dec/decode.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I brotli/include -w -o /target/aarch64-unknown-linux-gnu/debug/build/brotli-sys-324ee26cab1a8731/out/76d4580618152496-state.o -c brotli/dec/state.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I brotli/include -w -o /target/aarch64-unknown-linux-gnu/debug/build/brotli-sys-324ee26cab1a8731/out/62394abbbe01bffa-backward_references.o -c brotli/enc/backward_references.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-rp055gtt/src/brotli-sys-0.3.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -I brotli/include -w -o /target/aarch64-unknown-linux-gnu/debug/build/brotli-sys-324ee26cab1a8731/out/62394abbbe01bffa-bit_cost.o -c brotli/enc/bit_cost.c
-```
-
 ### Compilation
 
 ```text

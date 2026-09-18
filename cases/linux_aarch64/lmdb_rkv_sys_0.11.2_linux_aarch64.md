@@ -17,20 +17,6 @@ Platform: Linux aarch64
 * `/tmp/crate-build-aarch64-ft6h7zlr/src/lmdb-rkv-sys-0.11.2/lmdb/libraries/liblmdb/mdb.c`
 * `/tmp/crate-build-aarch64-ft6h7zlr/src/lmdb-rkv-sys-0.11.2/lmdb/libraries/liblmdb/midl.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-ft6h7zlr/src/lmdb-rkv-sys-0.11.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -Wno-unused-parameter -Wbad-function-cast -Wuninitialized -DMDB_IDL_LOGN=16 -o /target/aarch64-unknown-linux-gnu/debug/build/lmdb-rkv-sys-b48e465e751f7a06/out/b40eeb0d3a911fbe-mdb.o -c /tmp/crate-build-aarch64-ft6h7zlr/src/lmdb-rkv-sys-0.11.2/lmdb/libraries/liblmdb/mdb.c
-```
-
-Working directory: `/tmp/crate-build-aarch64-ft6h7zlr/src/lmdb-rkv-sys-0.11.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -Wextra -Wno-unused-parameter -Wbad-function-cast -Wuninitialized -DMDB_IDL_LOGN=16 -o /target/aarch64-unknown-linux-gnu/debug/build/lmdb-rkv-sys-b48e465e751f7a06/out/b40eeb0d3a911fbe-midl.o -c /tmp/crate-build-aarch64-ft6h7zlr/src/lmdb-rkv-sys-0.11.2/lmdb/libraries/liblmdb/midl.c
-```
-
 ### Compilation
 
 ```text

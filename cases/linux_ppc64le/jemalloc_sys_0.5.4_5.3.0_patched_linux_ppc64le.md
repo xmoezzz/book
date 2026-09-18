@@ -56,38 +56,6 @@ Platform: Linux ppc64le
 * `src/bitmap.c`
 * `src/ctl.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/decay.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/decay.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/background_thread.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/background_thread.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/extent.c -msecure-plt -quiet -dumpbase extent.c ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/exp_grow.c -msecure-plt -quiet -dumpbase exp_grow.c ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/bitmap.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/bitmap.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -162,38 +130,6 @@ ar crus <static library> <object files>
 * `src/bin.c`
 * `src/bitmap.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/counter.c -msecure-plt -quiet -dumpbase counter.c ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/counter.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/counter.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/decay.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/decay.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/bin.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/bin.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/div.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/div.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -231,38 +167,6 @@ ar crus <static library> <object files>
 * `src/base.c`
 * `src/bitmap.c`
 * `src/ctl.c`
-
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/decay.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/decay.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/background_thread.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/background_thread.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/bitmap.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/bitmap.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/base.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/base.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/arena.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/arena.c -o ...
-```
 
 ### Compilation
 
@@ -306,38 +210,6 @@ ar crus <static library> <object files>
 * `src/base.c`
 * `src/bin.c`
 * `src/bitmap.c`
-
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/counter.c -msecure-plt -quiet -dumpbase counter.c ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/counter.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/counter.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/decay.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/decay.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/bin.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/bin.c -o ...
-```
-
-Working directory: `/tmp/crate-build-ppc64le-2hwx1_7v/src/jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/powerpc64le-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch powerpc64le-linux-gnu -MM -MT src/div.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/div.c -o ...
-```
 
 ### Compilation
 

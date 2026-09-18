@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-bt_94k32/src/libmimalloc-sys-0.1.44/c_src/mimalloc/v2/src/static.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-bt_94k32/src/libmimalloc-sys-0.1.44`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -I c_src/mimalloc/v2/include -I c_src/mimalloc/v2/src -Wall -Wextra -Wno-error=date-time -ftls-model=initial-exec -DMI_DEBUG=0 -o /target/aarch64-unknown-linux-gnu/debug/build/libmimalloc-sys-c88a05e5684fbab9/out/077ae3504b1c7768-static.o -c c_src/mimalloc/v2/src/static.c ...
-```
-
 ### Compilation
 
 ```text

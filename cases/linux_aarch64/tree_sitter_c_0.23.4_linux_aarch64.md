@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-jdag6whl/src/tree-sitter-c-0.23.4/src/parser.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-jdag6whl/src/tree-sitter-c-0.23.4`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -std=c11 -I src -Wall -Wextra -o /target/aarch64-unknown-linux-gnu/debug/build/tree-sitter-c-0a554a65564179f1/out/ea708c7824d36062-parser.o -c src/parser.c
-```
-
 ### Compilation
 
 ```text

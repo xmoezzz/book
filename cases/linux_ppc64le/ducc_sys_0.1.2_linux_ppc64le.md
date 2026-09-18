@@ -17,20 +17,6 @@ Platform: Linux ppc64le
 * `/tmp/crate-build-ppc64le-bvllp_0w/src/ducc-sys-0.1.2/duktape/duktape.c`
 * `/tmp/crate-build-ppc64le-bvllp_0w/src/ducc-sys-0.1.2/duktape/wrapper.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-ppc64le-bvllp_0w/src/ducc-sys-0.1.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -I duktape -Wall -Wextra -std=c99 -o /target/powerpc64le-unknown-linux-gnu/debug/build/ducc-sys-f0f41adf3b4047ae/out/duktape/duktape.o -c duktape/duktape.c
-```
-
-Working directory: `/tmp/crate-build-ppc64le-bvllp_0w/src/ducc-sys-0.1.2`
-
-```text
-/usr/bin/powerpc64le-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -fno-omit-frame-pointer -m64 -I duktape -Wall -Wextra -std=c99 -o /target/powerpc64le-unknown-linux-gnu/debug/build/ducc-sys-f0f41adf3b4047ae/out/duktape/wrapper.o -c duktape/wrapper.c
-```
-
 ### Compilation
 
 ```text

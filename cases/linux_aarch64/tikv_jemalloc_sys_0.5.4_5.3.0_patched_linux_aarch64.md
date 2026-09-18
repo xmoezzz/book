@@ -63,38 +63,6 @@ Platform: Linux aarch64
 * `src/bitmap.c`
 * `src/buf_writer.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/base.c -quiet -dumpbase base.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/ecache.c -quiet -dumpbase ecache.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/edata.c -quiet -dumpbase edata.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -MM -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -MT src/div.sym.o -o src/div.sym.d src/div.c ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch aarch64-linux-gnu -MM -MT src/div.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/div.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -168,38 +136,6 @@ ar crus <static library> <object files>
 * `src/bin.c`
 * `src/bin_info.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/base.c -quiet -dumpbase base.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/ecache.c -quiet -dumpbase ecache.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -MM -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -MT src/bin_info.sym.o -o src/bin_info.sym.d src/bin_info.c ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch aarch64-linux-gnu -MM -MT src/bin_info.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/bin_info.c -o ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch aarch64-linux-gnu -MM -MT src/cache_bin.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/cache_bin.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -244,38 +180,6 @@ ar crus <static library> <object files>
 * `src/bitmap.c`
 * `src/buf_writer.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/base.c -quiet -dumpbase base.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/ecache.c -quiet -dumpbase ecache.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/edata.c -quiet -dumpbase edata.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -MM -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -MT src/div.sym.o -o src/div.sym.d src/div.c ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch aarch64-linux-gnu -MM -MT src/div.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/div.c -o ...
-```
-
 ### Compilation
 
 ```text
@@ -319,38 +223,6 @@ ar crus <static library> <object files>
 * `src/base.c`
 * `src/bin.c`
 * `src/bin_info.c`
-
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/base.c -quiet -dumpbase base.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -quiet -I include -I include -imultiarch aarch64-linux-gnu -dD -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/ecache.c -quiet -dumpbase ecache.c -mlittle-endian ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/bin/aarch64-linux-gnu-gcc -MM -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -Wall -D_GNU_SOURCE -D_REENTRANT -Iinclude -Iinclude -DJEMALLOC_NO_PRIVATE_NAMESPACE -MT src/bin_info.sym.o -o src/bin_info.sym.d src/bin_info.c ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch aarch64-linux-gnu -MM -MT src/bin_info.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/bin_info.c -o ...
-```
-
-Working directory: `/tmp/crate-build-aarch64-jq6_yjmb/src/tikv-jemalloc-sys-0.5.4+5.3.0-patched`
-
-```text
-/usr/lib/gcc-cross/aarch64-linux-gnu/9/cc1 -E -quiet -I include -I include -imultiarch aarch64-linux-gnu -MM -MT src/cache_bin.sym.o -D _GNU_SOURCE -D _REENTRANT -D JEMALLOC_NO_PRIVATE_NAMESPACE src/cache_bin.c -o ...
-```
 
 ### Compilation
 

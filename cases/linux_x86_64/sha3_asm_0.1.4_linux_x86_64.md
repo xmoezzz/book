@@ -21,19 +21,7 @@ Platform: Linux x86_64
 Working directory: `/work`
 
 ```text
-/usr/bin/perl cryptogams/x86_64/keccak1600-x86_64.pl elf target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S
-```
-
-Working directory: `/work`
-
-```text
-/bin/sh -c "/usr/bin/perl" "cryptogams/x86_64/x86_64-xlate.pl" elf "target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S"
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/perl cryptogams/x86_64/x86_64-xlate.pl elf target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S
+perl cryptogams/x86_64/keccak1600-x86_64.pl elf target/debug/build/sha3-asm-52088b83cc6ca76b/out/keccak1600-x86_64.S
 ```
 
 ### Compilation

@@ -16,14 +16,6 @@ Platform: Linux x86_64
 
 * `/work/src/lib.c`
 
-### Source preparation
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -I /work/src -I /work/src/wasm -I /work/include -imultiarch x86_64-linux-gnu -D _POSIX_C_SOURCE=200112L -D _DEFAULT_SOURCE -D _DARWIN_C_SOURCE /work/src/lib.c -quiet -dumpdir /work/target/debug/build/tree-sitter-907ed277cfed5e0f/out/ ...
-```
-
 ### Compilation
 
 ```text

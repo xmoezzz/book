@@ -20,38 +20,6 @@ Platform: Linux x86_64
 * `/work/libfuzzer/FuzzerExtFunctionsDlsym.cpp`
 * `/work/libfuzzer/FuzzerExtFunctionsWeak.cpp`
 
-### Source preparation
-
-Working directory: `/work`
-
-```text
-/usr/bin/c++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c++17 -o /work/target/debug/build/libfuzzer-sys-ce1dd2ac925c188b/out/e5f0d71fb86e9d6b-FuzzerUtilPosix.o -c libfuzzer/FuzzerUtilPosix.cpp
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/c++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c++17 -o /work/target/debug/build/libfuzzer-sys-ce1dd2ac925c188b/out/e5f0d71fb86e9d6b-FuzzerUtilWindows.o -c libfuzzer/FuzzerUtilWindows.cpp
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE libfuzzer/FuzzerUtilWindows.cpp -quiet -dumpdir /work/target/debug/build/libfuzzer-sys-ce1dd2ac925c188b/out/ -dumpbase e5f0d71fb86e9d6b-FuzzerUtilWindows.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -gdwarf-4 -O0 -std=c++17 -ffunction-sections ...
-```
-
-Working directory: `/work`
-
-```text
-/usr/bin/c++ -O0 -ffunction-sections -fdata-sections -fPIC -gdwarf-4 -fno-omit-frame-pointer -m64 -std=c++17 -o /work/target/debug/build/libfuzzer-sys-ce1dd2ac925c188b/out/e5f0d71fb86e9d6b-FuzzerUtil.o -c libfuzzer/FuzzerUtil.cpp
-```
-
-Working directory: `/work`
-
-```text
-/usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -imultiarch x86_64-linux-gnu -D_GNU_SOURCE libfuzzer/FuzzerUtilPosix.cpp -quiet -dumpdir /work/target/debug/build/libfuzzer-sys-ce1dd2ac925c188b/out/ -dumpbase e5f0d71fb86e9d6b-FuzzerUtilPosix.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -gdwarf-4 -O0 -std=c++17 -ffunction-sections ...
-```
-
 ### Compilation
 
 ```text

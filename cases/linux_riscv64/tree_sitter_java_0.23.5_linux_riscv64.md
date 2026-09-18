@@ -16,14 +16,6 @@ Platform: Linux riscv64
 
 * `/tmp/crate-build-riscv64-c02_pwew/src/tree-sitter-java-0.23.5/src/parser.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-c02_pwew/src/tree-sitter-java-0.23.5`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c11 -I src -Wall -Wextra -o /target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-java-d10ebe40871359aa/out/ea708c7824d36062-parser.o -c src/parser.c
-```
-
 ### Compilation
 
 ```text

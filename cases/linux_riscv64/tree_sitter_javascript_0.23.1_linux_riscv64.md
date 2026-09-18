@@ -17,20 +17,6 @@ Platform: Linux riscv64
 * `/tmp/crate-build-riscv64-vual5leg/src/tree-sitter-javascript-0.23.1/src/parser.c`
 * `/tmp/crate-build-riscv64-vual5leg/src/tree-sitter-javascript-0.23.1/src/scanner.c`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-riscv64-vual5leg/src/tree-sitter-javascript-0.23.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c11 -I src -Wall -Wextra -Wno-unused-parameter -o /target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-javascript-8117a8e06d24ff2b/out/ea708c7824d36062-parser.o -c src/parser.c ...
-```
-
-Working directory: `/tmp/crate-build-riscv64-vual5leg/src/tree-sitter-javascript-0.23.1`
-
-```text
-/usr/bin/riscv64-linux-gnu-gcc -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -march=rv64gc -mabi=lp64d -std=c11 -I src -Wall -Wextra -Wno-unused-parameter -o /target/riscv64gc-unknown-linux-gnu/debug/build/tree-sitter-javascript-8117a8e06d24ff2b/out/ea708c7824d36062-scanner.o -c src/scanner.c ...
-```
-
 ### Compilation
 
 ```text

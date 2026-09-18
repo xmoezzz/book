@@ -16,14 +16,6 @@ Platform: Linux aarch64
 
 * `/tmp/crate-build-aarch64-v9yhyp46/src/iana-time-zone-haiku-0.1.2/src/implementation.cc`
 
-### Source preparation
-
-Working directory: `/tmp/crate-build-aarch64-v9yhyp46/src/iana-time-zone-haiku-0.1.2`
-
-```text
-/usr/bin/aarch64-linux-gnu-g++ -O0 -ffunction-sections -fdata-sections -fPIC -g -gdwarf-4 -fno-omit-frame-pointer -w -std=c++11 -o /target/aarch64-unknown-linux-gnu/debug/build/iana-time-zone-haiku-0bb91afb23c9627b/out/48d3f1b29a630f4c-implementation.o -c src/implementation.cc
-```
-
 ### Compilation
 
 ```text
