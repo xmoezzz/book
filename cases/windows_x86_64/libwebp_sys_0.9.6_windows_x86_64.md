@@ -2,6 +2,16 @@
 
 Platform: Windows x86_64
 
+## Submodule
+
+Repository: `https://github.com/NoXF/libwebp-sys`
+Crate release commit: `4007a323c1dcc4ad11d70ddadffc51ecfa1dbb5e`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `vendor`
+
 ## `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-o1l_unjy/src/libwebp-sys-0.9.6/target/debug/build/libwebp-sys-6f1eaa72770a292f/out/libsharpyuv.a`
 
 ### Source origin

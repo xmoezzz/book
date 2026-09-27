@@ -2,6 +2,18 @@
 
 Platform: Windows x86_64
 
+## Submodule
+
+Repository: `https://github.com/aws/aws-lc-rs`
+Crate release commit: `e2e9e8222a68e3512eec6ffc1b332f45d0b151f6`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `aws-lc-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `aws-lc-fips-sys/aws-lc`
+- `aws-lc-sys/aws-lc`
+
 ## `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-ts_u1j4l/src/aws-lc-sys-0.30.0/target/debug/build/aws-lc-sys-b9a091aa2c7ea936/out/build/artifacts/aws_lc_0_30_0_crypto.lib`
 
 ### Source origin

@@ -2,6 +2,16 @@
 
 Platform: Linux aarch64
 
+## Submodule
+
+Repository: `https://github.com/alexcrichton/nghttp2-rs`
+Crate release commit: `02f226d5fcc211d22785ac0cc9bb84d3421decc4`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `nghttp2`
+
 ## `/target/aarch64-unknown-linux-gnu/debug/build/libnghttp2-sys-f3a403acb65c6e94/out/i/lib/libnghttp2.a`
 
 ### Source origin

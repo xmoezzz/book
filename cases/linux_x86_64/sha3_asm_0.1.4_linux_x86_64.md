@@ -2,6 +2,17 @@
 
 Platform: Linux x86_64
 
+## Submodule
+
+Repository: `https://github.com/danipopes/keccak-asm`
+Crate release commit: `7d801fae4b70ad79b57f55fbebf448783db8423e`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `sha3-asm`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `sha3-asm/cryptogams`
+
 ## `/work/target/debug/build/sha3-asm-52088b83cc6ca76b/out/libkeccak.a`
 
 ### Source origin

@@ -2,6 +2,17 @@
 
 Platform: Linux x86_64
 
+## Submodule
+
+Repository: `https://github.com/tikv/jemallocator`
+Crate release commit: `3b21b21bc9372efc0fd1e8ce744b45c1495fd640`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `jemalloc-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `jemalloc-sys/jemalloc`
+
 ## `/work/target/debug/build/jemalloc-sys-ece5c188f1ce20a4/out/build/lib/libjemalloc.a`
 
 ### Source origin

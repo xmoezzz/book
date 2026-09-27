@@ -2,6 +2,16 @@
 
 Platform: Linux x86_64
 
+## Submodule
+
+Repository: `https://github.com/alexcrichton/brotli2-rs`
+Crate release commit: `44509bd6ea07bd91ab4f1ea5e106c53be23e1b7b`
+Commit evidence: release tag `0.3.2` with matching package name/version
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `brotli-sys/brotli`
+
 ## Build-level coding evidence
 
 ### Source acquisition

@@ -2,6 +2,17 @@
 
 Platform: Windows x86_64
 
+## Submodule
+
+Repository: `https://github.com/rust-lang/libz-sys`
+Crate release commit: `7a4e6d74ee26c954ee9c512b0ee7bad81b7b5e06`
+Commit evidence: release tag `1.1.22` with matching package name/version
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `src/zlib`
+- `src/zlib-ng`
+
 ## `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-w9f2kzpt/src/libz-ng-sys-1.1.22/target/debug/build/libz-ng-sys-49b708f297538d88/out/build/zlibstatic-ngd.lib`
 
 ### Source origin

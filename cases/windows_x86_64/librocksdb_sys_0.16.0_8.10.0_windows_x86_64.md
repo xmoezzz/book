@@ -2,6 +2,18 @@
 
 Platform: Windows x86_64
 
+## Submodule
+
+Repository: `https://github.com/rust-rocksdb/rust-rocksdb`
+Crate release commit: `b1d8a04778b2aa52cb6e5d3120fec3d0fdc4556c`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `librocksdb-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `librocksdb-sys/rocksdb`
+- `librocksdb-sys/snappy`
+
 ## `C:/Users/rustbuild/AppData/Local/Temp/crate-build-win-sulb1mq1/src/librocksdb-sys-0.16.0+8.10.0/target/debug/build/librocksdb-sys-f3dfc4263f902b6b/out/librocksdb.a`
 
 ### Source origin

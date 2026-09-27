@@ -2,6 +2,18 @@
 
 Platform: Linux x86_64
 
+## Submodule
+
+Repository: `https://github.com/aws/aws-lc-rs`
+Crate release commit: `e794f85c3fe703279cd489fc909c569b38877e70`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `aws-lc-fips-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `aws-lc-fips-sys/aws-lc`
+- `aws-lc-sys/aws-lc`
+
 ## `/work/target/debug/build/aws-lc-fips-sys-d8201ea4f3698768/out/build/artifacts/libaws_lc_fips_0_13_6_rust_wrapper.a`
 
 ### Source origin

@@ -2,6 +2,17 @@
 
 Platform: Linux riscv64
 
+## Submodule
+
+Repository: `https://github.com/fede1024/rust-rdkafka`
+Crate release commit: `573a02a2178c3989ad0d888c9bac17f1d93a5ba6`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `rdkafka-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `rdkafka-sys/librdkafka`
+
 ## Build-level coding evidence
 
 ### Source acquisition

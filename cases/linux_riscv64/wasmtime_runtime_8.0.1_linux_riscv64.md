@@ -2,6 +2,22 @@
 
 Platform: Linux riscv64
 
+## Submodule
+
+Repository: `https://github.com/bytecodealliance/wasmtime`
+Crate release commit: `207cd1ce15ecc504dafaec490c5eae801cac4691`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `crates/runtime`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `crates/c-api/wasm-c-api`
+- `crates/wasi-common/WASI`
+- `crates/wasi-crypto/spec`
+- `crates/wasi-nn/spec`
+- `tests/spec_testsuite`
+- `tests/wasi_testsuite/wasi-threads`
+
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/wasmtime-runtime-bf12678ed4790af9/out/libwasmtime-helpers.a`
 
 ### Source origin

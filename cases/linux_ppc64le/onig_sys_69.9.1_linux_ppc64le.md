@@ -2,6 +2,17 @@
 
 Platform: Linux ppc64le
 
+## Submodule
+
+Repository: `https://github.com/iwillspeak/rust-onig`
+Crate release commit: `ed05d7ac1a1a138c6d9c46b451b9d9bea0fbe0b1`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `onig_sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `onig_sys/oniguruma`
+
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/onig_sys-420b899eb2b0f695/out/libonig.a`
 
 ### Source origin

@@ -2,6 +2,16 @@
 
 Platform: Linux riscv64
 
+## Submodule
+
+Repository: `https://github.com/ethereum/c-kzg-4844`
+Crate release commit: `75d569b16cb2e17a33484af0f03ec633cba3b582`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `blst`
+
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/c-kzg-5d17959e8d535f25/out/libckzg.a`
 
 ### Source origin

@@ -2,6 +2,18 @@
 
 Platform: Linux x86_64
 
+## Submodule
+
+Repository: `https://github.com/libbpf/libbpf-sys`
+Crate release commit: `d18238fba300dd16ee4d302387abf1b500ad982f`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `elfutils`
+- `libbpf`
+- `zlib`
+
 ## Build-level coding evidence
 
 ### pkg-config / pkgconf

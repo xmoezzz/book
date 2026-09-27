@@ -2,6 +2,17 @@
 
 Platform: Linux ppc64le
 
+## Submodule
+
+Repository: `https://github.com/mozilla/lmdb-rs.git`
+Crate release commit: `946167603dd6806f3733e18f01a89cee21888468`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `lmdb-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `lmdb-sys/lmdb`
+
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/lmdb-rkv-sys-cc01287d141daefb/out/liblmdb.a`
 
 ### Source origin

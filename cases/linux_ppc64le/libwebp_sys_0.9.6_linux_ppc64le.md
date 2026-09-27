@@ -2,6 +2,16 @@
 
 Platform: Linux ppc64le
 
+## Submodule
+
+Repository: `https://github.com/NoXF/libwebp-sys`
+Crate release commit: `4007a323c1dcc4ad11d70ddadffc51ecfa1dbb5e`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `vendor`
+
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/libwebp-sys-352f3e5efd9f8302/out/libsharpyuv.a`
 
 ### Source origin

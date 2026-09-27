@@ -2,6 +2,16 @@
 
 Platform: Linux x86_64
 
+## Submodule
+
+Repository: `https://github.com/aws/s2n-tls`
+Crate release commit: `9e699c253b9b68c746fcef34ef9d13e597611551`
+Commit evidence: `bindings/rust/s2n-tls-sys/templates/Cargo.template` version bump matching crates.io publication 2023-11-02
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `tests/cbmc/aws-verification-model-for-libcrypto`
+
 ## `/work/target/debug/build/s2n-tls-sys-08b02e6450b7ea17/out/libs2n-tls.a`
 
 ### Source origin

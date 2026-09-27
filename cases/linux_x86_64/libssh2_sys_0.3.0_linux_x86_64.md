@@ -2,6 +2,17 @@
 
 Platform: Linux x86_64
 
+## Submodule
+
+Repository: `https://github.com/alexcrichton/ssh2-rs`
+Crate release commit: `346c27a25890e54aca0eb9fcbf9113cbd4692bab`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `libssh2-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `libssh2-sys/libssh2`
+
 ## Build-level coding evidence
 
 ### Source acquisition

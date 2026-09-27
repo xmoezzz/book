@@ -2,6 +2,16 @@
 
 Platform: Linux riscv64
 
+## Submodule
+
+Repository: `https://github.com/NoXF/libwebp-sys`
+Crate release commit: `4007a323c1dcc4ad11d70ddadffc51ecfa1dbb5e`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `vendor`
+
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/libwebp-sys-4d0268ff836c5918/out/libsharpyuv.a`
 
 ### Source origin

@@ -2,6 +2,17 @@
 
 Platform: Linux ppc64le
 
+## Submodule
+
+Repository: `https://github.com/jerry73204/apriltag-rust.git`
+Crate release commit: `70d84e3237362e6140f5a13485a565411f9cec4a`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `apriltag-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `apriltag-sys/apriltag-src`
+
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/apriltag-sys-dd8321a6aa711997/out/libapriltags.a`
 
 ### Source origin

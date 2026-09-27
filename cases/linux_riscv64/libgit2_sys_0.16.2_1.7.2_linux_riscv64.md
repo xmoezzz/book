@@ -2,6 +2,17 @@
 
 Platform: Linux riscv64
 
+## Submodule
+
+Repository: `https://github.com/rust-lang/git2-rs`
+Crate release commit: `987c4e60d3e0e69d58e830527e4c727c776c2c9e`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Crate source directory in repository: `libgit2-sys`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `libgit2-sys/libgit2`
+
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/libgit2-sys-55fdc55f1177346a/out/build/libgit2.a`
 
 ### Static library construction

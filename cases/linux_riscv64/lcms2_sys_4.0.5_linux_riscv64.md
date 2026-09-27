@@ -2,6 +2,16 @@
 
 Platform: Linux riscv64
 
+## Submodule
+
+Repository: `https://github.com/kornelski/rust-lcms2-sys.git`
+Crate release commit: `b8e9c3efcf266b88600318fb519c073b9ebb61b7`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `vendor`
+
 ## `/target/riscv64gc-unknown-linux-gnu/debug/build/lcms2-sys-8eee6c11efa1d417/out/liblcms2.a`
 
 ### Source origin

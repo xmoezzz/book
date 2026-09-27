@@ -2,6 +2,16 @@
 
 Platform: Linux ppc64le
 
+## Submodule
+
+Repository: `https://github.com/alexcrichton/nghttp2-rs`
+Crate release commit: `02f226d5fcc211d22785ac0cc9bb84d3421decc4`
+Commit evidence: published crate `.cargo_vcs_info.json`
+Repository-level submodule paths (relative to the repository root):
+A listed path is a Git submodule link at this commit; this alone does not show whether the published crate or study build fetched or used it.
+
+- `nghttp2`
+
 ## `/target/powerpc64le-unknown-linux-gnu/debug/build/libnghttp2-sys-c89c130c219e0edc/out/i/lib/libnghttp2.a`
 
 ### Source origin
